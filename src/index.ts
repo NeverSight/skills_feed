@@ -3,8 +3,9 @@
  * Fetches skill data from skills.sh and outputs as JSON format
  */
 
-import { writeFileSync, mkdirSync, existsSync } from 'fs';
+import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 import { join } from 'path';
+import { Feed } from 'feed';
 
 // Type definitions
 interface Skill {
@@ -24,6 +25,24 @@ interface SkillsData {
   allTime: Skill[];
   trending: Skill[];
   hot: HotSkill[];
+}
+
+interface FeedItem {
+  id: string;
+  title: string;
+  source: string;
+  installs: number;
+  link: string;
+}
+
+interface FeedJson {
+  title: string;
+  description: string;
+  link: string;
+  updatedAt: string;
+  topAllTime: FeedItem[];
+  topTrending: FeedItem[];
+  topHot: FeedItem[];
 }
 
 // Request headers configuration
@@ -110,6 +129,107 @@ async function fetchEndpoint(endpoint: string): Promise<string> {
   }
 }
 
+function readJsonFile<T>(path: string): T | null {
+  try {
+    const raw = readFileSync(path, 'utf-8');
+    return JSON.parse(raw) as T;
+  } catch {
+    return null;
+  }
+}
+
+type LeaderboardKey = 'topAllTime' | 'topTrending' | 'topHot';
+
+function buildRssItemsFromDiff(previous: FeedJson | null, next: FeedJson) {
+  const updatedAt = new Date(next.updatedAt);
+
+  const boards: Array<{ key: LeaderboardKey; label: string }> = [
+    { key: 'topAllTime', label: 'All Time' },
+    { key: 'topTrending', label: 'Trending' },
+    { key: 'topHot', label: 'Hot' },
+  ];
+
+  const items: Array<{
+    title: string;
+    id: string;
+    link: string;
+    date: Date;
+    description: string;
+  }> = [];
+
+  for (const board of boards) {
+    const nextList = next[board.key] ?? [];
+    const prevList = previous?.[board.key] ?? [];
+
+    const prevRankById = new Map<string, { rank: number; installs: number }>();
+    prevList.forEach((it, idx) => prevRankById.set(it.id, { rank: idx + 1, installs: it.installs }));
+
+    nextList.forEach((it, idx) => {
+      const rank = idx + 1;
+      const prev = prevRankById.get(it.id);
+
+      // Use skills.sh collection page; fall back to GitHub repo URL.
+      const githubRepoUrl = `https://github.com/${it.source}`;
+      const link = it.link || githubRepoUrl;
+
+      if (!prev) {
+        items.push({
+          title: `[${board.label}] New entry (#${rank}): ${it.title}`,
+          id: `${next.updatedAt}:${board.key}:new:${it.id}`,
+          link,
+          date: updatedAt,
+          description: [
+            `New entry in ${board.label} leaderboard.`,
+            `Rank: #${rank}`,
+            `Installs: ${it.installs}`,
+            `Source: ${it.source}`,
+          ].join('\n'),
+        });
+        return;
+      }
+
+      if (prev.rank !== rank) {
+        const delta = prev.rank - rank; // positive = up
+        const absDelta = Math.abs(delta);
+
+        // Reduce noise: only publish meaningful changes.
+        const shouldPublish =
+          absDelta >= 10 ||
+          (rank <= 20 && absDelta >= 3) ||
+          (rank <= 10 && absDelta >= 1);
+
+        if (!shouldPublish) return;
+
+        const direction = delta > 0 ? 'up' : 'down';
+        items.push({
+          title: `[${board.label}] Rank ${direction} (${prev.rank} → ${rank}): ${it.title}`,
+          id: `${next.updatedAt}:${board.key}:rank:${it.id}`,
+          link,
+          date: updatedAt,
+          description: [
+            `${board.label} leaderboard rank change.`,
+            `Previous rank: #${prev.rank}`,
+            `Current rank: #${rank}`,
+            `Delta: ${delta > 0 ? '+' : ''}${delta}`,
+            `Installs: ${it.installs} (prev ${prev.installs})`,
+            `Source: ${it.source}`,
+          ].join('\n'),
+        });
+      }
+    });
+  }
+
+  // New entries first, then rank changes; cap to avoid huge feeds.
+  const sorted = items.sort((a, b) => {
+    const aIsNew = a.id.includes(':new:') ? 0 : 1;
+    const bIsNew = b.id.includes(':new:') ? 0 : 1;
+    if (aIsNew !== bIsNew) return aIsNew - bIsNew;
+    return a.title.localeCompare(b.title);
+  });
+
+  return sorted.slice(0, 50);
+}
+
 /**
  * Main function
  */
@@ -164,7 +284,8 @@ async function main() {
   
   // Generate simplified feed format
   const feedPath = join(outputDir, 'feed.json');
-  const feed = {
+  const previousFeed = readJsonFile<FeedJson>(feedPath);
+  const feed: FeedJson = {
     title: 'Skills.sh Feed',
     description: 'Latest skill data from skills.sh',
     link: 'https://skills.sh',
@@ -193,6 +314,32 @@ async function main() {
   };
   writeFileSync(feedPath, JSON.stringify(feed, null, 2));
   console.log(`Feed saved to: ${feedPath}`);
+
+  // Generate RSS feed (XML) based on changes vs previous feed.json
+  const rssItems = buildRssItemsFromDiff(previousFeed, feed);
+
+  const rss = new Feed({
+    title: feed.title,
+    description: feed.description,
+    id: feed.link,
+    link: feed.link,
+    language: 'en',
+    updated: new Date(feed.updatedAt),
+  });
+
+  for (const item of rssItems) {
+    rss.addItem({
+      title: item.title,
+      id: item.id,
+      link: item.link,
+      date: item.date,
+      description: item.description,
+    });
+  }
+
+  const rssPath = join(outputDir, 'feed.xml');
+  writeFileSync(rssPath, rss.rss2());
+  console.log(`RSS saved to: ${rssPath}`);
 }
 
 main().catch(console.error);

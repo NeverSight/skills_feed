@@ -1,7 +1,7 @@
 name: Daily Skills Crawl
 
 on:
-  # Run daily at UTC 0:00 (8:00 AM Beijing Time)
+  # Run daily at UTC 0:00
   schedule:
     - cron: '0 0 * * *'
   # Support manual trigger

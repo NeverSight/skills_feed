@@ -12,7 +12,7 @@ Fetches data from three leaderboards:
 
 ## Output Files
 
-The crawler generates two files in the `data/` directory:
+The crawler generates files in the `data/` directory:
 
 ### `data/skills.json`
 
@@ -43,6 +43,13 @@ Simplified feed format (top 50 from each leaderboard):
 }
 ```
 
+### `data/feed.xml`
+
+RSS 2.0 feed (XML). This is meant for RSS readers / subscriptions.
+
+- It is generated from the current crawl + the previous `data/feed.json`
+- It only publishes meaningful changes (new entries / rank jumps) to avoid spamming
+
 ## Usage
 
 ### Local Development
@@ -59,7 +66,7 @@ npm run crawl
 
 After pushing to GitHub, the crawler will:
 
-1. Run automatically daily at UTC 0:00 (8:00 AM Beijing Time)
+1. Run automatically daily at UTC 0:00
 2. Support manual triggering (click "Run workflow" in Actions tab)
 3. Run automatically on push to main branch
 
@@ -75,6 +82,20 @@ Or use jsDelivr CDN (faster):
 
 ```
 https://cdn.jsdelivr.net/gh/<username>/<repo>@main/data/skills.json
+```
+
+### RSS Subscription (Recommended)
+
+Subscribe to the RSS feed:
+
+```
+https://raw.githubusercontent.com/<username>/<repo>/main/data/feed.xml
+```
+
+Or via jsDelivr CDN:
+
+```
+https://cdn.jsdelivr.net/gh/<username>/<repo>@main/data/feed.xml
 ```
 
 ### Example Code
