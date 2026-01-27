@@ -45,6 +45,11 @@ interface FeedJson {
   topHot: FeedItem[];
 }
 
+function skillsShSkillUrl(source: string, skillId: string) {
+  // Example: https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices
+  return `https://skills.sh/${source}/${skillId}`;
+}
+
 // Request headers configuration
 const headers: HeadersInit = {
   'accept': '*/*',
@@ -168,7 +173,7 @@ function buildRssItemsFromDiff(previous: FeedJson | null, next: FeedJson) {
       const rank = idx + 1;
       const prev = prevRankById.get(it.id);
 
-      // Use skills.sh collection page; fall back to GitHub repo URL.
+      // Use skills.sh skill page; fall back to GitHub repo URL.
       const githubRepoUrl = `https://github.com/${it.source}`;
       const link = it.link || githubRepoUrl;
 
@@ -295,21 +300,21 @@ async function main() {
       title: skill.name,
       source: skill.source,
       installs: skill.installs,
-      link: `https://skills.sh/i/${skill.source}`,
+      link: skillsShSkillUrl(skill.source, skill.skillId),
     })),
     topTrending: trending.slice(0, 50).map(skill => ({
       id: `${skill.source}/${skill.skillId}`,
       title: skill.name,
       source: skill.source,
       installs: skill.installs,
-      link: `https://skills.sh/i/${skill.source}`,
+      link: skillsShSkillUrl(skill.source, skill.skillId),
     })),
     topHot: hot.slice(0, 50).map(skill => ({
       id: `${skill.source}/${skill.skillId}`,
       title: skill.name,
       source: skill.source,
       installs: skill.installs,
-      link: `https://skills.sh/i/${skill.source}`,
+      link: skillsShSkillUrl(skill.source, skill.skillId),
     })),
   };
   writeFileSync(feedPath, JSON.stringify(feed, null, 2));
