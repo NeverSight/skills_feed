@@ -139,6 +139,12 @@ async function fetchGithubJson<T>(url: string): Promise<T | null> {
 
 async function fetchGithubRawFile(source: string, branch: string, path: string): Promise<string | null> {
   try {
+    // Prefer raw.githubusercontent.com first to avoid GitHub API rate limits
+    // when syncing a large number of skills.
+    const rawUrl = githubRawUrl(source, branch, path);
+    const raw = await fetchText(rawUrl);
+    if (raw) return raw;
+
     const headers: Record<string, string> = {
       // Return the file as raw bytes/text from the contents API (avoids raw.githubusercontent.com).
       'accept': 'application/vnd.github.raw',
@@ -153,7 +159,7 @@ async function fetchGithubRawFile(source: string, branch: string, path: string):
     if (!res.ok) {
       // If we're rate-limited (common without a token), try raw.githubusercontent.com as a fallback.
       if (res.status === 403 && !process.env.GITHUB_TOKEN) {
-        const rawUrl = githubRawUrl(source, branch, path);
+        // Already tried raw first above, but keep this for clarity.
         const fallback = await fetchText(rawUrl);
         if (fallback) return fallback;
       }
@@ -329,18 +335,76 @@ async function ensureSkillMdCached(source: string, skillId: string) {
   return null;
 }
 
+type SyncProgress = {
+  updatedAt: string;
+  attempted: number;
+  fetched: number;
+  missing: number;
+};
+
+function progressPath() {
+  return join(process.cwd(), 'data', 'skills-md', '_sync_progress.json');
+}
+
+function readProgress(): SyncProgress | null {
+  return readJsonFile<SyncProgress>(progressPath());
+}
+
+function writeProgress(progress: SyncProgress) {
+  mkdirSync(join(process.cwd(), 'data', 'skills-md'), { recursive: true });
+  writeFileSync(progressPath(), JSON.stringify(progress, null, 2));
+}
+
 async function syncAllSkillMds(data: SkillsData) {
+  const onlyMissing = process.env.SYNC_ALL_ONLY_MISSING !== '0';
+  const maxToFetch = process.env.SYNC_ALL_MAX ? Number(process.env.SYNC_ALL_MAX) : Number.POSITIVE_INFINITY;
+
   const unique = new Map<string, { source: string; skillId: string }>();
   const all = [...data.allTime, ...data.trending, ...data.hot];
   for (const s of all) unique.set(`${s.source}/${s.skillId}`, { source: s.source, skillId: s.skillId });
 
-  const list = Array.from(unique.values());
-  console.log(`\nSYNC_ALL_SKILL_MDS=1: syncing SKILL.md for ${list.length} skills (this may take a while)...`);
-
-  await mapWithConcurrency(list, 6, async ({ source, skillId }) => {
-    await ensureSkillMdCached(source, skillId);
-    return null;
+  const list = Array.from(unique.values()).sort((a, b) => {
+    const ka = `${a.source}/${a.skillId}`;
+    const kb = `${b.source}/${b.skillId}`;
+    return ka.localeCompare(kb);
   });
+
+  console.log(
+    `\nSYNC_ALL_SKILL_MDS=1: syncing SKILL.md for ${list.length} skills (onlyMissing=${onlyMissing}, max=${Number.isFinite(maxToFetch) ? maxToFetch : '∞'})...`,
+  );
+
+  const prev = readProgress();
+  const progress: SyncProgress = prev ?? { updatedAt: new Date().toISOString(), attempted: 0, fetched: 0, missing: 0 };
+
+  let fetchedThisRun = 0;
+
+  for (const { source, skillId } of list) {
+    if (fetchedThisRun >= maxToFetch) break;
+
+    const targetPath = localSkillMdPath(source, skillId);
+    if (onlyMissing && existsSync(targetPath)) continue;
+
+    progress.attempted += 1;
+    const cached = await ensureSkillMdCached(source, skillId);
+    if (cached) {
+      progress.fetched += 1;
+      fetchedThisRun += 1;
+    } else {
+      progress.missing += 1;
+    }
+
+    // Persist progress periodically so long runs are resumable.
+    if (progress.attempted % 50 === 0) {
+      progress.updatedAt = new Date().toISOString();
+      writeProgress(progress);
+    }
+  }
+
+  progress.updatedAt = new Date().toISOString();
+  writeProgress(progress);
+  console.log(
+    `SYNC_ALL summary: attempted=${progress.attempted}, fetched=${progress.fetched}, missing=${progress.missing} (this run fetched=${fetchedThisRun})`,
+  );
 }
 
 async function mapWithConcurrency<T, R>(

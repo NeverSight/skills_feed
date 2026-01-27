@@ -36,6 +36,10 @@ jobs:
         env:
           # Increase GitHub API rate limit for scanning plugin skill paths, etc.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Keep backfilling SKILL.md until complete (batched to avoid timeouts).
+          SYNC_ALL_SKILL_MDS: "1"
+          SYNC_ALL_ONLY_MISSING: "1"
+          SYNC_ALL_MAX: "500"
       
       - name: Commit data updates
         run: |
