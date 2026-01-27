@@ -4,23 +4,34 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Tue, 27 Jan 2026 06:23:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2026 06:30:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[[Daily] Skills.sh snapshot (2026-01-27)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-01-27T06:23:44.690Z:snapshot</guid>
-            <pubDate>Tue, 27 Jan 2026 06:23:44 GMT</pubDate>
+            <guid isPermaLink="false">2026-01-27T06:30:15.582Z:snapshot</guid>
+            <pubDate>Tue, 27 Jan 2026 06:30:15 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
 All Time skills: 27446
-Trending skills: 17191
+Trending skills: 17189
 Hot skills: 1694
 Top All Time: vercel-react-best-practices (53242)
-Top Trending: find-skills (6675)
+Top Trending: find-skills (6844)
 Top Hot: find-skills (596)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): ralph-tui-prd]]></title>
+            <link>https://skills.sh/subsy/ralph-tui/ralph-tui-prd</link>
+            <guid isPermaLink="false">2026-01-27T06:30:15.582Z:topTrending:new:subsy/ralph-tui/ralph-tui-prd</guid>
+            <pubDate>Tue, 27 Jan 2026 06:30:15 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 277
+Source: subsy/ralph-tui
+Description: Generate a Product Requirements Document (PRD) for ralph-tui task orchestration. Creates PRDs with user stories that can be converted to beads issues or prd.json for automated execution. Triggers on: create a prd, write prd for, plan this feature, requirements for, spec out.]]></description>
         </item>
     </channel>
 </rss>
