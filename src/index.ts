@@ -65,6 +65,10 @@ function githubRawUrl(source: string, branch: string, path: string) {
   return `https://raw.githubusercontent.com/${source}/${branch}/${path}`;
 }
 
+function githubApiUrl(source: string, path: string, branch: string) {
+  return `https://api.github.com/repos/${source}/contents/${path}?ref=${branch}`;
+}
+
 function localSkillMdPath(source: string, skillId: string) {
   // Cache fetched SKILL.md files to avoid re-downloading every run.
   // Layout:
@@ -114,6 +118,94 @@ async function fetchText(url: string): Promise<string | null> {
   }
 }
 
+async function fetchGithubJson<T>(url: string): Promise<T | null> {
+  try {
+    const headers: Record<string, string> = {
+      'accept': 'application/vnd.github+json',
+      'user-agent': USER_AGENT,
+    };
+    if (process.env.GITHUB_TOKEN) {
+      headers['authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
+    }
+    const res = await fetch(url, { headers });
+    if (res.status === 404) return null;
+    if (!res.ok) return null;
+    return (await res.json()) as T;
+  } catch {
+    return null;
+  }
+}
+
+type GithubContentEntry = {
+  type: 'file' | 'dir';
+  name: string;
+  path: string;
+};
+
+const repoSkillIndexCache = new Map<string, Map<string, { branch: string; path: string }>>();
+
+async function getRepoSkillIndex(source: string) {
+  const cached = repoSkillIndexCache.get(source);
+  if (cached) return cached;
+
+  const branches = ['main', 'master'];
+  const baseDirs = [
+    'skills',
+    '.claude/skills',
+    '.cursor/skills',
+    '.codex/skills',
+    '.agents/skills',
+    '.agent/skills',
+    '.github/skills',
+    '.gemini/skills',
+    '.goose/skills',
+    '.opencode/skills',
+    '.roo/skills',
+    '.windsurf/skills',
+    '.kilocode/skills',
+    '.factory/skills',
+  ];
+
+  const index = new Map<string, { branch: string; path: string }>();
+
+  for (const branch of branches) {
+    for (const baseDir of baseDirs) {
+      const url = githubApiUrl(source, baseDir, branch);
+      const listing = await fetchGithubJson<GithubContentEntry[] | GithubContentEntry>(url);
+      if (!listing) continue;
+
+      const entries = Array.isArray(listing) ? listing : [listing];
+
+      // Most repos structure: <baseDir>/<skillFolder>/SKILL.md
+      for (const entry of entries) {
+        if (entry.type !== 'dir') continue;
+        const candidatePaths = [
+          `${baseDir}/${entry.name}/SKILL.md`,
+          `${baseDir}/${entry.name}/skill.md`,
+        ];
+
+        for (const p of candidatePaths) {
+          const raw = await fetchText(githubRawUrl(source, branch, p));
+          if (!raw) continue;
+
+          try {
+            const parsed = matter(raw);
+            const name = (parsed?.data as Record<string, unknown> | undefined)?.name;
+            if (typeof name === 'string' && name.trim()) {
+              index.set(name.trim(), { branch, path: p });
+            }
+          } catch {
+            // ignore
+          }
+        }
+      }
+    }
+  }
+
+  repoSkillIndexCache.set(source, index);
+  return index;
+}
+
 async function fetchSkillMdFromGithub(source: string, skillId: string) {
   const branches = ['main', 'master'];
   const baseDirs = [
@@ -136,6 +228,7 @@ async function fetchSkillMdFromGithub(source: string, skillId: string) {
   ];
   const filenames = ['SKILL.md', 'skill.md'];
 
+  // 1) Fast path: direct guess (most repos use <baseDir>/<skillId>/SKILL.md)
   for (const branch of branches) {
     for (const baseDir of baseDirs) {
       for (const filename of filenames) {
@@ -145,6 +238,15 @@ async function fetchSkillMdFromGithub(source: string, skillId: string) {
         if (text) return { url, text };
       }
     }
+  }
+
+  // 2) Fallback: discover SKILL.md files and match by frontmatter name
+  const index = await getRepoSkillIndex(source);
+  const resolved = index.get(skillId);
+  if (resolved) {
+    const url = githubRawUrl(source, resolved.branch, resolved.path);
+    const text = await fetchText(url);
+    if (text) return { url, text };
   }
 
   return null;
