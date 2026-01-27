@@ -33,6 +33,9 @@ jobs:
       
       - name: Run crawler
         run: npm run crawl
+        env:
+          # Increase GitHub API rate limit for scanning plugin skill paths, etc.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Commit data updates
         run: |
