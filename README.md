@@ -29,7 +29,9 @@ Complete skill data containing all three leaderboards:
 
 ### `data/feed.json`
 
-Simplified feed format (top 50 from each leaderboard):
+Simplified feed format (top 50 from each leaderboard).
+
+It also tries to enrich each item with a `description` by fetching the corresponding GitHub `SKILL.md` (cached under `data/skills-md/`):
 
 ```json
 {
@@ -41,6 +43,23 @@ Simplified feed format (top 50 from each leaderboard):
   "topTrending": [...],
   "topHot": [...]
 }
+```
+
+### `data/skills-md/`
+
+Cached `SKILL.md` files fetched from GitHub, using common skill folder locations such as:
+
+- `skills/<skillId>/SKILL.md` (most common)
+- `.claude/skills/<skillId>/SKILL.md`
+- `.cursor/skills/<skillId>/SKILL.md`
+- `.codex/skills/<skillId>/SKILL.md`
+
+By default, the crawler only fetches `SKILL.md` for skills included in the top lists (to keep the daily job fast).
+
+If you really want to sync *all* skills from `data/skills.json`, you can run:
+
+```bash
+SYNC_ALL_SKILL_MDS=1 npm run crawl
 ```
 
 ### `data/feed.xml`

@@ -6,6 +6,7 @@
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { Feed } from 'feed';
+import matter from 'gray-matter';
 
 // Type definitions
 interface Skill {
@@ -33,6 +34,7 @@ interface FeedItem {
   source: string;
   installs: number;
   link: string;
+  description?: string;
 }
 
 interface FeedJson {
@@ -50,15 +52,186 @@ function skillsShSkillUrl(source: string, skillId: string) {
   return `https://skills.sh/${source}/${skillId}`;
 }
 
+function githubRawUrl(source: string, branch: string, path: string) {
+  return `https://raw.githubusercontent.com/${source}/${branch}/${path}`;
+}
+
+function localSkillMdPath(source: string, skillId: string) {
+  // Cache fetched SKILL.md files to avoid re-downloading every run.
+  // Layout:
+  // data/skills-md/<owner>/<repo>/<skillId>/SKILL.md
+  return join(process.cwd(), 'data', 'skills-md', source, skillId, 'SKILL.md');
+}
+
+function extractDescriptionFromSkillMd(md: string): string | undefined {
+  try {
+    const parsed = matter(md);
+    const desc = (parsed?.data as Record<string, unknown> | undefined)?.description;
+    if (typeof desc === 'string' && desc.trim()) return desc.trim();
+  } catch {
+    // ignore
+  }
+
+  // Fallback: first non-empty paragraph line that isn't a heading/list/code fence.
+  const lines = md.split('\n').map(l => l.trim());
+  for (const line of lines) {
+    if (!line) continue;
+    if (line.startsWith('#')) continue;
+    if (line.startsWith('```')) continue;
+    if (line.startsWith('- ')) continue;
+    if (line.startsWith('* ')) continue;
+    if (line.startsWith('>')) continue;
+    if (line === '---') continue;
+    return line;
+  }
+  return undefined;
+}
+
+async function fetchText(url: string): Promise<string | null> {
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'user-agent': USER_AGENT,
+        'accept': 'text/plain,*/*',
+        'cache-control': 'no-cache',
+        'pragma': 'no-cache',
+      },
+    });
+    if (res.status === 404) return null;
+    if (!res.ok) return null;
+    return await res.text();
+  } catch {
+    return null;
+  }
+}
+
+async function fetchSkillMdFromGithub(source: string, skillId: string) {
+  const branches = ['main', 'master'];
+  const baseDirs = [
+    // Most common
+    'skills',
+    // Common tool-specific locations
+    '.claude/skills',
+    '.cursor/skills',
+    '.codex/skills',
+    '.agents/skills',
+    '.agent/skills',
+    '.github/skills',
+    '.gemini/skills',
+    '.goose/skills',
+    '.opencode/skills',
+    '.roo/skills',
+    '.windsurf/skills',
+    '.kilocode/skills',
+    '.factory/skills',
+  ];
+  const filenames = ['SKILL.md', 'skill.md'];
+
+  for (const branch of branches) {
+    for (const baseDir of baseDirs) {
+      for (const filename of filenames) {
+        const relPath = `${baseDir}/${skillId}/${filename}`;
+        const url = githubRawUrl(source, branch, relPath);
+        const text = await fetchText(url);
+        if (text) return { url, text };
+      }
+    }
+  }
+
+  return null;
+}
+
+async function ensureSkillMdCached(source: string, skillId: string) {
+  const cachedPath = localSkillMdPath(source, skillId);
+  if (existsSync(cachedPath)) return cachedPath;
+
+  const fetched = await fetchSkillMdFromGithub(source, skillId);
+  if (fetched?.text) {
+    mkdirSync(join(process.cwd(), 'data', 'skills-md', source, skillId), { recursive: true });
+    writeFileSync(cachedPath, fetched.text);
+    return cachedPath;
+  }
+
+  return null;
+}
+
+async function syncAllSkillMds(data: SkillsData) {
+  const unique = new Map<string, { source: string; skillId: string }>();
+  const all = [...data.allTime, ...data.trending, ...data.hot];
+  for (const s of all) unique.set(`${s.source}/${s.skillId}`, { source: s.source, skillId: s.skillId });
+
+  const list = Array.from(unique.values());
+  console.log(`\nSYNC_ALL_SKILL_MDS=1: syncing SKILL.md for ${list.length} skills (this may take a while)...`);
+
+  await mapWithConcurrency(list, 6, async ({ source, skillId }) => {
+    await ensureSkillMdCached(source, skillId);
+    return null;
+  });
+}
+
+async function mapWithConcurrency<T, R>(
+  items: T[],
+  concurrency: number,
+  fn: (item: T, index: number) => Promise<R>,
+): Promise<R[]> {
+  const results = new Array<R>(items.length);
+  let nextIndex = 0;
+
+  const workers = Array.from({ length: Math.max(1, concurrency) }, async () => {
+    while (true) {
+      const i = nextIndex++;
+      if (i >= items.length) break;
+      results[i] = await fn(items[i], i);
+    }
+  });
+
+  await Promise.all(workers);
+  return results;
+}
+
+async function hydrateFeedDescriptions(feed: FeedJson) {
+  const allItems = [...feed.topAllTime, ...feed.topTrending, ...feed.topHot];
+  const itemsById = new Map<string, FeedItem[]>();
+  for (const it of allItems) {
+    const existing = itemsById.get(it.id);
+    if (existing) existing.push(it);
+    else itemsById.set(it.id, [it]);
+  }
+  const unique = Array.from(itemsById.entries());
+
+  console.log(`\nFetching SKILL.md for ${unique.length} unique skills (top lists only)...`);
+
+  await mapWithConcurrency(unique, 8, async ([id, items]) => {
+    const first = items[0];
+    const skillId = id.split('/').pop() || id;
+    const source = first.source;
+
+    const cachedPath = await ensureSkillMdCached(source, skillId);
+    const md = cachedPath ? readFileSync(cachedPath, 'utf-8') : null;
+
+    if (md) {
+      const desc = extractDescriptionFromSkillMd(md);
+      if (desc) {
+        for (const it of items) it.description = desc;
+      }
+    }
+
+    return null;
+  });
+}
+
 // Request headers configuration
-const headers: HeadersInit = {
+const USER_AGENT =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36';
+
+const headers: Record<string, string> = {
   'accept': '*/*',
   'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
   'cache-control': 'no-cache',
   'pragma': 'no-cache',
   'rsc': '1',
   'next-url': '/',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'user-agent': USER_AGENT,
 };
 
 /**
@@ -188,7 +361,8 @@ function buildRssItemsFromDiff(previous: FeedJson | null, next: FeedJson) {
             `Rank: #${rank}`,
             `Installs: ${it.installs}`,
             `Source: ${it.source}`,
-          ].join('\n'),
+            it.description ? `Description: ${it.description}` : null,
+          ].filter(Boolean).join('\n'),
         });
         return;
       }
@@ -218,7 +392,8 @@ function buildRssItemsFromDiff(previous: FeedJson | null, next: FeedJson) {
             `Delta: ${delta > 0 ? '+' : ''}${delta}`,
             `Installs: ${it.installs} (prev ${prev.installs})`,
             `Source: ${it.source}`,
-          ].join('\n'),
+            it.description ? `Description: ${it.description}` : null,
+          ].filter(Boolean).join('\n'),
         });
       }
     });
@@ -286,6 +461,10 @@ async function main() {
   const outputPath = join(outputDir, 'skills.json');
   writeFileSync(outputPath, JSON.stringify(data, null, 2));
   console.log(`\nData saved to: ${outputPath}`);
+
+  if (process.env.SYNC_ALL_SKILL_MDS === '1') {
+    await syncAllSkillMds(data);
+  }
   
   // Generate simplified feed format
   const feedPath = join(outputDir, 'feed.json');
@@ -317,6 +496,10 @@ async function main() {
       link: skillsShSkillUrl(skill.source, skill.skillId),
     })),
   };
+
+  // Enrich with description fetched from GitHub SKILL.md (cached in data/skills-md/)
+  await hydrateFeedDescriptions(feed);
+
   writeFileSync(feedPath, JSON.stringify(feed, null, 2));
   console.log(`Feed saved to: ${feedPath}`);
 
