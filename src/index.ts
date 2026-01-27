@@ -23,9 +23,16 @@ interface HotSkill extends Skill {
 
 interface SkillsData {
   updatedAt: string;
+  providerId: string;
   allTime: Skill[];
   trending: Skill[];
   hot: HotSkill[];
+}
+
+interface ProviderInfo {
+  id: string;
+  name: string;
+  link: string;
 }
 
 interface FeedItem {
@@ -35,6 +42,7 @@ interface FeedItem {
   installs: number;
   link: string;
   description?: string;
+  providerId: string;
 }
 
 interface FeedJson {
@@ -42,6 +50,7 @@ interface FeedJson {
   description: string;
   link: string;
   updatedAt: string;
+  providers: ProviderInfo[];
   topAllTime: FeedItem[];
   topTrending: FeedItem[];
   topHot: FeedItem[];
@@ -415,9 +424,11 @@ function buildDailySnapshotRssItem(feed: FeedJson, counts: { allTime: number; tr
   const topAllTime = feed.topAllTime?.[0];
   const topTrending = feed.topTrending?.[0];
   const topHot = feed.topHot?.[0];
+  const providerNames = (feed.providers || []).map(p => p.name).join(', ') || 'unknown';
 
   const lines = [
     `Daily snapshot.`,
+    `Providers: ${providerNames}`,
     `All Time skills: ${counts.allTime}`,
     `Trending skills: ${counts.trending}`,
     `Hot skills: ${counts.hot}`,
@@ -472,6 +483,7 @@ async function main() {
   // Build output data
   const data: SkillsData = {
     updatedAt: new Date().toISOString(),
+    providerId: 'skills.sh',
     allTime,
     trending,
     hot,
@@ -500,12 +512,20 @@ async function main() {
     description: 'Latest skill data from skills.sh',
     link: 'https://skills.sh',
     updatedAt: data.updatedAt,
+    providers: [
+      {
+        id: 'skills.sh',
+        name: 'skills.sh',
+        link: 'https://skills.sh',
+      },
+    ],
     topAllTime: allTime.slice(0, 50).map(skill => ({
       id: `${skill.source}/${skill.skillId}`,
       title: skill.name,
       source: skill.source,
       installs: skill.installs,
       link: skillsShSkillUrl(skill.source, skill.skillId),
+      providerId: 'skills.sh',
     })),
     topTrending: trending.slice(0, 50).map(skill => ({
       id: `${skill.source}/${skill.skillId}`,
@@ -513,6 +533,7 @@ async function main() {
       source: skill.source,
       installs: skill.installs,
       link: skillsShSkillUrl(skill.source, skill.skillId),
+      providerId: 'skills.sh',
     })),
     topHot: hot.slice(0, 50).map(skill => ({
       id: `${skill.source}/${skill.skillId}`,
@@ -520,6 +541,7 @@ async function main() {
       source: skill.source,
       installs: skill.installs,
       link: skillsShSkillUrl(skill.source, skill.skillId),
+      providerId: 'skills.sh',
     })),
   };
 

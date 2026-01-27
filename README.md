@@ -10,6 +10,10 @@ Fetches data from three leaderboards:
 - **Trending** (`/trending`) - Recent growth ranking
 - **Hot** (`/hot`) - Daily installs ranking
 
+Current provider:
+
+- **skills.sh** (all data currently comes from this provider; more providers will be added later)
+
 ## Output Files
 
 The crawler generates files in the `data/` directory:
