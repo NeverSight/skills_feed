@@ -1,0 +1,1 @@
+使用 Data.TaggedEnum、$match、$is、Match.typeTags 和 Effect.match 进行 Master Effect 模式匹配。避免手动 _tag 检查和 Effect.either 模式。在使用有区别的联合、ADT 或基于标记类型的条件逻辑时，请使用此技能。

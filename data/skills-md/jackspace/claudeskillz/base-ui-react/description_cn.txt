@@ -1,0 +1,18 @@
+经过生产测试的 Base UI 设置 (@base-ui-components/react) - MUI 的无样式组件库
+它使用渲染道具模式提供可访问的、可定制的 React 组件。这个技能
+在构建具有完整样式控制的可访问 UI 时应使用，从 Radix UI 迁移，
+或者需要具有浮动 UI 集成的组件以进行智能定位。
+
+使用时机：在Vite + React项目中设置Base UI，从Radix UI迁移到Base UI，
+实现可访问的组件（Dialog、Select、Popover、Tooltip、NumberField、Accordion），
+遇到弹出窗口的定位问题，需要 render prop API 而不是 asChild 模式，
+使用 Tailwind v4 + shadcn/ui 进行构建，或部署到 Cloudflare Workers。
+
+⚠️ 测试版状态：基本 UI 是 v1.0.0-beta.4。稳定版 v1.0 预计于 2025 年第 4 季度发布。此技能提供
+已知测试版问题的解决方法以及 API 稳定性指南。
+
+关键词：base-ui、@base-ui-components/react、mui base ui、无样式组件、可访问组件、
+渲染道具、基数替代、基数迁移、浮动 ui、定位器模式、无头 ui、
+可访问的对话框，可访问的选择，可访问的弹出窗口，可访问的工具提示，可访问的手风琴，
+数字字段、React 组件、Tailwind 组件、vite React、cloudflare 工作人员 ui、
+beta组件、组件库

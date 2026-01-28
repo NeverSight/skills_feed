@@ -1,0 +1,1 @@
+将技能元数据同步到 AGENTS.md 自动调用部分。触发：更新技能元数据（metadata.scope/metadata.auto_invoke）、重新生成自动调用表或运行 ./skills/skill-sync/assets/sync.sh（包括 --dry-run/--scope）时。

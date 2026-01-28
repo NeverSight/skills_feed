@@ -1,0 +1,1 @@
+此技能在 Synapse A2A 中的代理之间配置自动任务委派。通过设置文件（.synapse/settings.json 和 .synapse/delegate.md）或交互式配置 TUI（synapse config）配置委派规则。支持orchestrator模式（克劳德坐标）和passthrough模式（直接转发）。包括代理状态验证、优先级、错误处理和文件安全集成。

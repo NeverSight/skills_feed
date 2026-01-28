@@ -1,0 +1,5 @@
+完整的 Stripe 生命周期管理。审核当前状态，修复所有问题，
+并验证结账流程端到端的工作情况。每次跑步都会完成这一切。
+
+自动调用时：文件包含stripe/ payment/checkout/webhook，导入stripe
+包，引用 STRIPE_* 环境变量，修改了 webhook 处理程序。

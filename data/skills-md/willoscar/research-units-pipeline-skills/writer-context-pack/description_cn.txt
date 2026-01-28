@@ -1,0 +1,6 @@
+构建每个 H3 作家的上下文包（无散文）：将摘要 + 证据包 + 锚点事实 + 允许的引用合并到单个确定性 JSONL 中，因此起草工作不会那么空洞和脆弱。
+**触发器**：作家语境包、语境包、起草包、段落计划包、写作上下文包。
+**当**使用： `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` + `outline/anchor_sheet.jsonl` 存在并且您希望使 C5 起草更容易/更一致。
+**如果**则跳过：上游证据丢失或被搭建（首先修复 `paper-notes` / `evidence-binder` / `evidence-draft` / `anchor-sheet`）。
+**网络**：无。
+**护栏**：没有散文；不要发明事实/引文；仅使用“引用/ref.bib”中存在的引文键。

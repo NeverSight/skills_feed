@@ -1,0 +1,1 @@
+使用 Pydantic Logfire 和 OpenTelemetry 进行结构化观察。在以下情况下使用：(1) 向 Python API 添加跟踪/日志，(2) 检测 FastAPI、HTTPX、SQLAlchemy 或 LLM，(3) 设置服务元数据，(4) 配置采样或清理敏感数据，(5) 测试可观测性代码。

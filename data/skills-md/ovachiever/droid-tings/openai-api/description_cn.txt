@@ -1,0 +1,3 @@
+使用 OpenAI 的无状态 API 进行构建 - 聊天完成（GPT-5、GPT-4o）、嵌入、图像（DALL-E 3）、音频（Whisper + TTS）和审核。包括适用于 Cloudflare Workers 的 Node.js SDK 和基于 fetch 的方法。
+
+使用场合：使用 GPT-5/GPT-4o 实现聊天完成、使用 SSE 流式传输响应、使用函数调用/工具、使用 JSON 模式创建结构化输出、为 RAG 生成嵌入（text-embedding-3-small/large）、使用 DALL-E 3 生成图像、使用 GPT-Image-1 编辑图像、使用 Whisper 转录音频、使用 TTS 合成语音（11 个语音）、审核内容（11 个安全类别）、或对速率限制 (429)、无效 API 密钥 (401)、函数调用失败、流解析错误、嵌入维度不匹配或超出令牌限制进行故障排除。

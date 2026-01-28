@@ -1,0 +1,13 @@
+用于跨链和同链代币交换、桥接和 DeFi 操作的 REST API。
+
+当用户想要执行以下操作时，请使用此技能：
+- 在不同区块链之间交换代币（例如，“将以太坊上的 USDC 交换为 Arbitrum 上的 ETH”）
+- 将代币桥接到另一个链（例如，“将我的 ETH 从主网转移到 Optimism”）
+- 以最优惠的价格在同一条链上交换代币（例如，“在 Polygon 上将 ETH 交换为 USDC”）
+- 寻找跨链代币交换的最佳路线或报价
+- 跨链执行 DeFi 操作（zap、bridge+swap+deposit、yieldfarming 入口）
+- 建立多链支付流程（接受任何代币，以特定代币结算）
+- 检查支持的链、代币或桥以进行跨链传输
+- 跟踪跨链交易的状态
+- 构建需要跨链交换的后端服务（Python、Go、Rust 等）
+- 通过 HTTP/REST（不是 JavaScript SDK）集成跨链功能

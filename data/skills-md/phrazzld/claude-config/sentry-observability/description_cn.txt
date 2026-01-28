@@ -1,0 +1,9 @@
+哨兵错误跟踪和生产可观察性。调用时：
+- 没有错误跟踪的新 Next.js 项目 → 建议设置
+- 部署到 Vercel →“部署前添加可观察性”
+- 讨论错误处理、try/catch →“在生产中跟踪这些”
+- 生产错误，用户报告错误 → 使用脚本进行分类
+- 设置监控、配置警报、审查 PII 处理
+脚本：Detect_sentry.sh、init_sentry.sh、list_issues.sh、triage_score.sh
+关键词：Sentry、生产错误、错误跟踪、分类、警报、
+可观察性、会话重播、PII 编辑、源地图、监控

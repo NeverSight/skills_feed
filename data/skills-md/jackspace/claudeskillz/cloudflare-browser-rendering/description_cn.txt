@@ -1,0 +1,17 @@
+Cloudflare 浏览器渲染的完整知识领域 - Headless Chrome 自动化
+与 Cloudflare Workers 上的 Puppeteer 和 Playwright 一起获取屏幕截图、PDF、网页抓取，
+和浏览器自动化工作流程。
+
+使用场合：截取屏幕截图、从 HTML 或 URL 生成 PDF、网页抓取内容、
+爬行网站、浏览器自动化任务、测试 Web 应用程序、管理浏览器会话、
+执行批量浏览器操作，与 AI 集成进行内容提取，或者遇到
+浏览器渲染错误、XPath 选择器错误、浏览器超时问题、并发限制、
+内存超出错误，或“无法读取未定义的属性（读取‘fetch’）”错误。
+
+关键词：浏览器渲染 cloudflare、@cloudflare/puppeteer、@cloudflare/playwright、
+木偶工人、剧作家工人、截图 cloudflare、pdf 生成工人、
+网络抓取 cloudflare、无头 chrome 工作人员、浏览器自动化、puppeteer.launch、
+playwright.chromium.launch、浏览器绑定、会话管理、puppeteer.sessions、
+puppeteer.connect、browser.close、browser.disconnect、不支持 XPath、浏览器超时、
+并发限制、keep_alive、page.screenshot、page.pdf、page.goto、page.evaluate、
+隐身上下文、会话重用、批量抓取、爬网网站

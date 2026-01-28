@@ -1,0 +1,1 @@
+当维护需要 Qt5/Qt6 双支持的 Debian 软件包、CMakeLists.txt 具有硬编码的 Qt5/Qt6 或 DTK5/DTK6 版本，或者项目需要基于检测到的 Qt 版本进行动态库链接以兼容深度操作系统 V25/V20 时使用

@@ -1,0 +1,1 @@
+使用 GPUI 的低级 Element API（相对于高级 Render/RenderOnce API）实现自定义元素。当您需要对复杂、性能关键的自定义 UI 组件的布局、预绘制和绘制阶段进行最大程度的控制时使用，而这些组件无法通过 Render/RenderOnce 特征实现。

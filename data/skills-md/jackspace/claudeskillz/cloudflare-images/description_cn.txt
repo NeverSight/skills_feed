@@ -1,0 +1,5 @@
+此技能提供有关 Cloudflare Images 的全面知识，涵盖图像 API（上传/存储）和图像转换（优化任何图像）。当将图像上传到 Cloudflare、调整图像大小、优化图像交付、实现直接创建者上传、创建图像变体、为私有图像生成签名 URL、通过 Workers 转换图像或遇到图像上传/转换错误时，应使用它。
+
+使用场合：设置 Cloudflare Images 存储、实现用户上传的图像、创建响应式图像、优化图像格式 (WebP/AVIF)、通过 URL 或 Workers 调整图像大小、通过直接上传调试 CORS 错误、处理图像转换错误 (9401-9413)、实现签名 URL、管理图像变体或构建图像 CDN。
+
+关键词：cloudflare 图像、图像上传 cloudflare、imagedelivery.net、cloudflare 图像转换、/cdn-cgi/image/、直接创建者上传、图像变体、cf.image 工作人员、签名 url 图像、灵活变体、webp avif 转换、响应式图像 cloudflare、错误 5408、错误 9401、错误 9403、CORS 直接上传、多部分/表单数据、图像优化 cloudflare

@@ -1,0 +1,9 @@
+Cloudflare Workers KV 的完整知识领域 - Cloudflare 边缘网络上的全局、低延迟键值存储。
+
+使用场合：创建 KV 命名空间、存储配置数据、缓存 API 响应、管理用户首选项、
+实现TTL过期，处理KV元数据，或者遇到“KV_ERROR”，“429请求太多”，
+“kv 速率限制”、cacheTtl 错误或最终一致性问题。
+
+关键词：kv 存储、cloudflare kv、workers kv、kv 命名空间、kv 绑定、kv 缓存、kv ttl、kv 元数据、
+kv列表、kv分页、缓存优化、边缘缓存、KV_ERROR、429请求过多、kv速率限制、
+最终一致、牧马人kv、kv操作、键值存储

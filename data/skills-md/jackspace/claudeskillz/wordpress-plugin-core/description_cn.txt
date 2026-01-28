@@ -1,0 +1,5 @@
+该技能提供了 WordPress 插件开发的全面知识，涵盖核心模式、安全最佳实践、数据库交互、挂钩/过滤器、设置 API、自定义帖子类型、REST API 和 AJAX。在创建 WordPress 插件、解决安全问题、实现自定义帖子类型/分类法、构建管理界面或使用 WordPress 数据库时，应该使用此技能。
+
+使用时机：创建新的 WordPress 插件、实现随机数/清理/转义、使用 $wpdb 和准备好的语句、构建设置 API 页面、注册自定义帖子类型或分类法、实现 REST API 端点、处理 AJAX 请求、调试插件激活/停用问题、防止 SQL 注入/XSS/CSRF 漏洞。
+
+关键词：wordpress插件开发，wordpress安全，wordpress钩子，wordpress过滤器，wordpress数据库，wpdb准备，sanitize_text_field，esc_html，wp_nonce，自定义帖子类型，register_post_type，设置api，rest api，admin-ajax，wordpress sql注入，wordpress xss，wordpress csrf，插件头，激活钩子，停用钩子，wordpress编码标准，wordpress插件架构

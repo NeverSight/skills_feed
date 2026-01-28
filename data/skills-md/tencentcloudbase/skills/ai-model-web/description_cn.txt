@@ -1,0 +1,1 @@
+在开发需要 AI 功能的浏览器/Web 应用程序（React/Vue/Angular、静态网站、SPA）时使用此技能。通过 @cloudbase/js-sdk 实现文本生成 (generateText) 和流式传输 (streamText)。内置模型包括Hunyuan（推荐hunyuan-2.0-instruct-20251111）和DeepSeek（推荐deepseek-v3.2）。不适用于 Node.js 后端（使用 ai-model-nodejs）、微信小程序（使用 ai-model-wechat）或图像生成（仅限 Node SDK）。

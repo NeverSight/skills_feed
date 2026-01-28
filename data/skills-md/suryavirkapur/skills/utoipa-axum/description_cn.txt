@@ -1,0 +1,6 @@
+使用 utoipa 和 Axum 框架的 Rust API 的 OpenAPI 文档技能。
+在通过自动 OpenAPI 规范生成和标量 UI 构建 REST API 时使用。
+涵盖：(1) 用于请求/响应类型的 ToSchema 派生，(2) 用于端点文档的 #[utoipa::path]，
+(3) 用于组合规范的 OpenApi 派生，(4) 安全方案（JWT、API 密钥），(5) 用于查询/路径参数的 IntoParams，
+(6) 标量 UI 集成，(7) 响应和错误处理模式。
+触发器：utoipa、openapi、scalar、axum api、ToSchema、IntoParams、rust api 文档。

@@ -1,0 +1,6 @@
+使用关键字查询从 arXiv 检索论文元数据并将结果保存为 JSONL (`papers/papers_raw.jsonl`)。
+**触发**：arXiv、arxiv、论文检索、元数据检索、文献检索、论文检索、拉取元数据、离线导入。
+**使用时**：需要一个初始论文集合（调查/快照的阶段C1），来源为arXiv（在线检索或离线导入导出）。
+**如果**: 已经有可用的 `papers/papers_raw.jsonl`，或数据源不是 arXiv，则跳过。
+**网络**：在线检索需要网络；离线 `--input <export.*>` 不需要网络。
+**Guardrail**：只做元数据；不要在`output/`写长散文。

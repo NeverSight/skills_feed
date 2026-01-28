@@ -1,0 +1,1 @@
+保持 pnpm 最新：运行 pnpm self-update/corepackprepare，在 package.json 中对齐 packageManager，并将 .github/workflows 中的 pnpm/action-setup + 固定 pnpm 版本升级到最新版本。手动或自动刷新 pnpm 工具链时使用此选项。

@@ -1,0 +1,13 @@
+此技能提供了将 Vercel KV（由 Upstash 提供支持的 Redis 兼容键值存储）集成到 Vercel 应用程序中的全面知识。在为 Next.js 应用程序设置 Vercel KV、实施缓存模式、管理会话或处理边缘和无服务器功能中的速率限制时，应使用它。
+
+在以下情况下使用此技能：
+- 为 Next.js 应用程序设置 Vercel KV
+- 实现缓存策略（页面缓存、API缓存、数据缓存）
+- 在无服务器环境中管理用户会话或身份验证令牌
+- API 或功能的构建速率限制
+- 使用TTL（生存时间）存储临时数据
+- 从 Cloudflare KV 迁移到 Vercel KV
+- 遇到“KV_REST_API_URL 未设置”、“超出速率限制”或“JSON 序列化错误”等错误
+- 需要具有强一致性（与最终一致性）的Redis兼容API
+
+关键字：vercel kv、@vercel/kv、vercel redis、upstash vercel、kv vercel、redis vercel Edge、键值 vercel、vercel 缓存、vercel 会话、vercel 速率限制、redis upstash、kv 存储、edge kv、无服务器 redis、vercel ttl、vercel 过期、kv typescript、next.js kv、服务器操作 kv、边缘运行时 kv

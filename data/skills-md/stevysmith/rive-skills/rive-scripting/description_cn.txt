@@ -1,0 +1,9 @@
+在以下情况下触发：(1) 使用 Rive 脚本或 Luau 代码，
+(2) 代码包含 Node、Layout、Converter 或 PathEffect 协议，
+(3) 用户提及“Rive scripting”或“Rive Luau”，
+(4) 使用 Path、Paint、Renderer API 进行绘图，
+(5) Rive 项目上下文中的文件具有 .lua 扩展名。
+
+Rive 脚本的最佳实践 - 基于 Luau 的程序脚本
+图形、自定义布局、数据转换器和运行的路径效果
+Rive 动画内部。

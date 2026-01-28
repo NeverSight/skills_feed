@@ -1,0 +1,12 @@
+此技能提供了将 Vercel Blob 对象存储集成到 Vercel 应用程序中的全面知识。它应该在设置文件上传、管理图像和文档、实施 CDN 交付的资产或在 Next.js 无服务器和边缘功能中处理大文件时使用。
+
+在以下情况下使用此技能：
+- 为 Next.js 应用程序设置文件上传（图像、PDF、视频）
+- 使用预签名 URL 实现客户端上传
+- 管理用户生成的内容（头像、附件、媒体）
+- 构建文件管理功能（列表、下载、删除）
+- 从 Cloudflare R2 迁移到 Vercel Blob
+- 遇到“BLOB_READ_WRITE_TOKEN 未设置”、“超出文件大小限制”或“客户端上传令牌错误”等错误
+- 需要简单的对象存储和自动 CDN 分发
+
+关键词：vercel blob、@vercel/blob、vercel 存储、vercel 文件上传、vercel cdn、blob 存储 vercel、客户端上传 vercel、预签名 url vercel、文件上传 nextjs、图像上传 vercel、pdf 上传、视频上传、用户上传、分段上传、流式上传、blob cdn、vercel 资产、文件下载

@@ -1,0 +1,3 @@
+使用 Hono 路由、Vite 插件和静态资产设置 Cloudflare Workers。防止 10 个错误，包括导出语法、路由冲突、Vite 8 nodejs_compat、基本选项回归和缓存损坏。
+
+使用场合：创建 Workers 项目、配置 Hono/Vite 或对导出语法、API 路由冲突、HMR 问题或 Vite 8+ 兼容性进行故障排除。

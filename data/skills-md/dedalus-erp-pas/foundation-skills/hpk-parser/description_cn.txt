@@ -1,0 +1,1 @@
+全面的 HPK（专有医疗保健消息格式）解析器和解释器。支持 100 多种消息类型，涵盖患者管理（ID、MV、CV）、供应链（PR、FO、MA、CO、LI、RO、FA）、库存（SO、IM）、组织结构（ST、UT）和财务运营（RD、DD）。使用 @erp-pas/hpk-dictionary 作为事实来源。验证结构、提取字段、解释业务上下文、映射到 HL7 v2.5/IHE PAM 以及解决集成问题。

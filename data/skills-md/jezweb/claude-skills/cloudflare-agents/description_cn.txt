@@ -1,0 +1,3 @@
+使用 Cloudflare Agents SDK 在 Workers + Durable 对象上构建 AI 代理。提供 WebSocket、状态持久性、调度和多代理协调。防止 23 个已记录的错误。
+
+使用场合：构建 WebSocket 代理、带有 Vectorize 的 RAG、MCP 服务器，或对“代理类必须扩展”、“new_sqlite_classes”、绑定错误、WebSocket 负载限制进行故障排除。

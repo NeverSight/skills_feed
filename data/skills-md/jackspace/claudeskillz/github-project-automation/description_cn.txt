@@ -1,0 +1,19 @@
+此技能为 GitHub 存储库设置和配置提供全面的自动化。
+它应该在创建新项目、设置 CI/CD 管道、配置问题时使用
+模板、启用安全扫描或将现有项目迁移到 GitHub 自动化。
+
+该技能可以防止 GitHub Actions YAML 语法、工作流配置中的 18 个记录错误，
+问题模板结构、Dependabot 设置和 CodeQL 安全扫描。它包括12
+经过生产测试的工作流程模板、4 个问题模板、安全配置和自动化
+用于快速项目设置的脚本。
+
+使用场合：设置 GitHub Actions CI/CD、创建问题/PR 模板、启用 Dependabot、
+配置 CodeQL 扫描、自动化 GitHub 存储库设置、修复 YAML 语法错误、
+集成安全扫描，通过 GitHub Actions 部署到 Cloudflare Workers，或者
+实施多框架测试矩阵。
+
+关键词：github 操作、github 工作流程、ci/cd、问题模板、拉取请求模板、
+dependentabot、codeql、安全扫描、yaml 语法、github 自动化、存储库设置、
+工作流程模板、github 操作矩阵、秘密管理、分支保护、代码所有者、
+github项目、持续集成、持续部署、工作流程语法错误、
+操作版本固定、运行程序版本、github 上下文、yaml 缩进错误

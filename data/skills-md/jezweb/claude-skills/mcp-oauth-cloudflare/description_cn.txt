@@ -1,0 +1,3 @@
+将 OAuth 身份验证添加到 Cloudflare Workers 上的 MCP 服务器。使用 @cloudflare/workers-oauth-provider 和 Google OAuth 进行与 Claude.ai 兼容的身份验证。防止 9 个已记录的错误，包括 RFC 8707 受众错误、Claude.ai 连接失败和 CSRF 漏洞。
+
+在构建需要用户身份验证的 MCP 服务器、为 Claude.ai 实施动态客户端注册 (DCR) 或用 OAuth 流替换静态身份验证令牌时使用。包括生产重定向 URI 不匹配和重新身份验证循环问题的解决方法。

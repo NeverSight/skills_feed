@@ -1,0 +1,3 @@
+使用 Cloud SQL PostgreSQL 在 Google App Engine Standard 上部署 Django。涵盖 Unix 套接字连接、用于本地开发的 Cloud SQL Auth 代理、Gunicorn 配置和生产就绪设置。
+
+使用场合：将 Django 部署到 App Engine、配置 Cloud SQL PostgreSQL、设置 Unix 套接字连接，或对“没有此类文件或目录”、“连接被拒绝”或“致命：密码身份验证失败”进行故障排除。

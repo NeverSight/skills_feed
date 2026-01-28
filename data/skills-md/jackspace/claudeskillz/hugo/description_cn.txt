@@ -1,0 +1,5 @@
+该技能提供了使用 Hugo 静态站点生成器构建静态网站的全面知识。它应该在设置 Hugo 项目（博客、文档网站、登陆页面、作品集）、集成 Tailwind CSS v4 以实现自定义样式、集成无头 CMS 系统（Sveltia CMS 或 TinaCMS）、使用静态资产部署到 Cloudflare Workers、配置主题和模板以及防止常见的 Hugo 设置错误时使用。
+
+遇到以下场景时请使用此技能：搭建新的 Hugo 站点、在 Hugo 扩展版和标准版之间进行选择、将 Tailwind CSS v4 与 Hugo Pipes 集成、配置hugo.yaml 或hugo.toml 文件、通过 Git 子模块集成 PaperMod 或其他主题、设置 Sveltia CMS 或 TinaCMS 进行内容管理、部署到 Cloudflare Workers 或 Pages、解决 baseURL 配置问题、解决主题安装错误、修复 frontmatter 格式问题（YAML 与 YAML 对比） TOML），防止与日期相关的构建失败，使用 Hugo 设置 PostCSS，或使用 GitHub Actions 设置 CI/CD。
+
+关键词：hugo、hugo-extend、静态站点生成器、ssg、go-templates、papermod、goldmark、markdown、博客、文档、文档站点、登陆页面、sveltia-cms、tina-cms、headless-cms、cloudflare-workers、workers-static-assets、wrangler、hugo-server、hugo-build、frontmatter、yaml-frontmatter、toml-config、 hugo-themes、hugo-modules、多语言、i18n、github-actions、版本不匹配、baseurl-error、主题未找到、tailwind、tailwind-v4、tailwind-css、hugo-pipes、postcss、css-framework、utility-css、hugo-tailwind、tailwind-integration、hugo-assets

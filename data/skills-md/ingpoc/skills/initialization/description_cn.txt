@@ -1,0 +1,1 @@
+在没有 feature-list.json 的情况下启动新会话、设置项目结构或将需求分解为原子功能时使用。在 INIT 状态下加载。检测项目类型 (Python/Node/Django/FastAPI)，创建具有优先级的 feature-list.json，初始化 .claude/progress/tracking。

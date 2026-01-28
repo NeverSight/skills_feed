@@ -1,0 +1,1 @@
+有关 Swift 并发最佳实践、模式和实施的专家指导。当开发人员提及以下内容时使用：(1) Swift 并发、异步/等待、参与者或任务，(2)“使用 Swift 并发”或“现代并发模式”，(3) 迁移到 Swift 6，(4) 数据争用或线程安全问题，(5) 将闭包重构为异步/等待，(6) @MainActor、Sendable 或参与者隔离，(7) 并发代码架构或性能优化，(8) 并发相关的 linter警告（SwiftLint 或类似的；例如 async_without_await、Sendable/actorisolation/MainActor lint）。

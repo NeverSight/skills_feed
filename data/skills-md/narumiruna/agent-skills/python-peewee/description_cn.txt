@@ -1,0 +1,1 @@
+将 Peewee ORM 与 DatabaseProxy 和作用域连接/事务结合使用的模式。在设置 DatabaseProxy、管理 connection_context/atomic 块或使用 SQLite 编写测试时使用。

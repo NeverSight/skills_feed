@@ -1,0 +1,1 @@
+用于构建医疗保健端点的 FHIR API 开发指南。在以下情况下使用：(1) 创建 FHIR REST 端点（患者、观察、遭遇、条件、药物请求），(2) 验证 FHIR 资源并返回正确的 HTTP 状态代码和错误响应，(3) 在 FHIR 授权和 OAuth 范围上实施 SMART，(4) 使用捆绑包、事务、批处理操作或搜索分页。涵盖 FHIR R4 资源结构、必填字段、值集（状态代码、性别、意图）、编码系统（LOINC、SNOMED、RxNorm、ICD-10）和 OperationOutcome 错误处理。

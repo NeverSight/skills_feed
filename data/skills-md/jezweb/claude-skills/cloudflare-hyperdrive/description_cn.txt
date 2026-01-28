@@ -1,0 +1,1 @@
+使用 Hyperdrive 的全局池和缓存将 Workers 连接到 PostgreSQL/MySQL。使用场合：连接到现有数据库、设置连接池、使用 node-postgres/mysql2、集成 Drizzle/Prisma 或对池获取失败、TLS 错误或 nodejs_compat 缺失进行故障排除。防止 11 个记录错误。

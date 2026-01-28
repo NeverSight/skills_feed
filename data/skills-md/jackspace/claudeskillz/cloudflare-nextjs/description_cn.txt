@@ -1,0 +1,3 @@
+使用 OpenNext 适配器将 Next.js 应用程序（App Router 和 Pages Router）部署到 Cloudflare Workers。将带有 SSR、ISR 或服务器组件的 Next.js 应用程序部署到 Cloudflare 的无服务器平台时，应使用此技能。它涵盖了新项目和现有项目的设置、配置要求、开发工作流程、与 Cloudflare 服务（D1、R2、KV、Workers AI）的集成，以及预防 10 多个已记录的错误，包括工作程序大小限制、运行时兼容性、数据库连接范围和安全漏洞。
+
+关键字：Cloudflare Next.js、OpenNext Cloudflare、@opennextjs/cloudflare、Next.js Workers、Next.js 应用程序路由器 Cloudflare、Next.js 页面路由器 Cloudflare、Next.js SSR Cloudflare、Next.js ISR、服务器组件 cloudflare、服务器操作 cloudflare、Next.js 中间件工作人员、nextjs d1、nextjs r2、nextjs kv、Next.js 部署、opennextjs-cloudflare cli、 nodejs_compat、工作线程大小限制、next.js 运行时兼容性、数据库连接范围、Next.js 迁移 cloudflare

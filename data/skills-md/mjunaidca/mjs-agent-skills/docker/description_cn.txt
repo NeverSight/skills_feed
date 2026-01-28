@@ -1,0 +1,4 @@
+适用于 Python 和 Node.js 应用程序的生产级 Docker 容器化。
+当用户要求容器化应用程序、创建 Dockerfile、
+dockerize 项目，或设置 Docker Compose。自动检测项目结构，
+分析 .env 的秘密、验证安全性并生成经过测试的 Dockerfile。

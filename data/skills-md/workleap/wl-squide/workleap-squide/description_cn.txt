@@ -1,0 +1,10 @@
+Squide 是一个适用于 Workleap Web 应用程序的 React 模块化应用程序 shell。在以下情况下使用此技能：
+(1) 创建或修改Squide主机应用程序或模块
+(2) 注册路线、导航项目或 MSW 请求处理程序
+(3) 使用 FireflyRuntime、initializeFirefly 或 AppRouter
+(4) 设置集成：TanStack Query、i18next、LaunchDarkly、Honeycomb、MSW、Storybook
+（五）实行延期登记或有条件通航项目
+(6) 使用usePublicDataQueries/useProtectedDataQueries获取全局公共/受保护数据
+(7) 使用Squide钩子：useNavigationItems、useRenderedNavigationItems、useIsBootstrapping、useLogger、useEventBusListener、useEventBusDispatcher、useEnvironmentVariable、useFeatureFlag
+(8) 在模块化应用程序中实现错误边界
+(9)关于React应用程序中模块化架构模式的问题

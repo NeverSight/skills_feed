@@ -1,0 +1,6 @@
+在 Cloudflare Workers 中使用 GitHub 和 Microsoft Entra (Azure AD) 实施 OAuth 2.0 身份验证
+和其他边缘环境。涵盖特定于提供商的怪癖、必需的标头、范围要求、
+以及无需 MSAL 的令牌处理。
+
+使用场合：实施 GitHub OAuth、Microsoft/Azure AD 身份验证、处理 OAuth 回调、
+或排除 OAuth 流程中的 403 错误。

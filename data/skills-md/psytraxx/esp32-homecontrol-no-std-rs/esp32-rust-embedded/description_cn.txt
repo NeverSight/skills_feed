@@ -1,0 +1,1 @@
+使用 no-std、Embassy 异步框架和 ESP-RS 生态系统（esp-hal、esp-rtos、esp-radio）对 ESP32 微控制器进行专家嵌入式 Rust 开发。在构建、调试、刷新或向 ESP32 项目添加功能时使用。涵盖传感器集成（ADC、GPIO、I2C、SPI）、电源管理（深度睡眠、RTC 内存）、WiFi 网络、MQTT 客户端、显示驱动程序、异步任务模式、内存分配、错误处理和依赖项管理。非常适合 LilyGO 板、Espressif 芯片（ESP32、ESP32-S3、ESP32-C3）以及任何非标准 Xtensa/RISC-V 嵌入式开发。

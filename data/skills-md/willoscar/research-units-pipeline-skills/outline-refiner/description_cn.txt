@@ -1,0 +1,6 @@
+Planner-pass 覆盖率+大纲+映射的冗余报告，生成“outline/coverage_report.md”和“outline/outline_state.jsonl”。
+**触发器**：规划器、动态大纲、大纲细化、覆盖报告、大纲迭代、覆盖率报告。
+**使用时**：您有 `outline/outline.yml` + `outline/mapping.tsv`，并且在编写之前需要一个可验证的、NO-PROSE 的规划器通行证。
+**如果**跳过：您不需要任何大纲/映射诊断（或者您有冻结/批准的结构并且不会更改它）。
+**网络**：无。
+**护栏**：没有散文；不要发明论文；仅报告覆盖率/重用并以要点形式提出结构性行动。

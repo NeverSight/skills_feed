@@ -1,0 +1,6 @@
+构建每个小节的写作摘要（无散文），以便以后的起草由证据和可检查的比较轴（而不是大纲占位符）驱动。
+**触发器**：分段摘要、写作卡、意图卡、H3摘要、范围规则、轴、集群、写作意图卡、小节对应、段落计划。
+**当**使用： `outline/outline.yml` + `outline/mapping.tsv` + `papers/paper_notes.jsonl` 存在，并且您希望逐节起草而不泄漏模板。
+**如果**跳过：`outline/subsection_briefs.jsonl`已经存在并且已完善（没有占位符/省略号；轴+簇+paragraph_plan已填充）。
+**网络**：无。
+**护栏**：没有散文；不要发明论文；仅引用存在于 `papers/paper_notes.jsonl` 中的 `paper_id`/`bibkey`。

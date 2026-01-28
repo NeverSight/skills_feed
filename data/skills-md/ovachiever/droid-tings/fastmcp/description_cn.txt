@@ -1,0 +1,8 @@
+使用 FastMCP 框架在 Python 中构建 MCP 服务器，以向 LLM 公开工具、资源和提示。支持
+存储后端（内存/磁盘/Redis）、中间件、OAuth 代理、OpenAPI 集成和 FastMCP 云部署。
+
+使用场合：创建 MCP 服务器、定义工具或资源、实施 OAuth 身份验证、配置
+令牌/缓存的存储后端，添加用于日志记录/速率限制的中间件，部署到 FastMCP 云，
+或对模块级服务器、存储、生命周期、中间件顺序、循环导入或 OAuth 错误进行故障排除。
+
+关键词：FastMCP、MCP 服务器 Python、模型上下文协议 Python、fastmcp 框架、mcp 工具、mcp 资源、mcp 提示、fastmcp 存储、fastmcp 内存存储、fastmcp 磁盘存储、fastmcp redis、fastmcp dynamodb、fastmcp 生命周期、fastmcp 中间件、fastmcp oauth 代理、mcp 服务器组合、fastmcp 导入、fastmcp 挂载、fastmcp 云、fastmcp 部署、mcp 身份验证、 fastmcp 图标、openapi mcp、claude mcp 服务器、fastmcp 测试、存储配置错误、寿命问题、中间件顺序、循环导入、模块级服务器、异步等待 mcp

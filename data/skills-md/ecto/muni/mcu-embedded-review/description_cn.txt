@@ -1,0 +1,1 @@
+回顾适用于 RP2350 (Raspberry Pi Pico 2 W) 和 ESP32-S3 (Heltec) 微控制器的嵌入式 Rust 固件，重点关注大使馆异步运行时、内存限制、LED 控制、CAN 连接协议和 SLCAN 桥接。在检查 MCU 固件更改、调试 LED 控制器问题、评估大使馆异步模式、检查静态内存分配、验证 SLCAN 实现或评估 WS2812 LED、CAN 外设和工具附件的硬件特定代码时使用。涵盖 no_std 环境、PIO 状态机、RMT 外设和 USB CDC 串行通信。

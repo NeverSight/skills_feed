@@ -1,0 +1,1 @@
+Next.js App Router 动态路由和路径名参数指南。在构建依赖于 URL 段（ID、slugs、嵌套路径）的页面、访问“params”属性或通过标识符获取资源时使用。通过默认最简单的路由结构（例如，除非 URL 需要它，否则使用 `app/[id]` 而不是 `app/products/[id]`）来帮助避免过度嵌套。

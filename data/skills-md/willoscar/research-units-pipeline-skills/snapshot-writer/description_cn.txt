@@ -1,0 +1,6 @@
+从一个小的核心集+一个仅项目符号的大纲中编写一个一页的文献快照（“output/SNAPSHOT.md”）。
+**触发**：快照、文献快照、速览、48小时快照、一页快照、SNAPSHOT.md。
+**使用时间**：你需要在 24-48 小时内交付一个“无可争议的研究速览”（项目符号优先，包含关键引用），而不是完整的调查。
+**如果**则跳过：你已经进入证据优先调查写作（有 `outline/evidence_drafts.jsonl` / `itations/ref.bib` / `output/DRAFT.md`），应改用 `subsection-writer`/`prose-writer`。
+**网络**：无。
+**Guardrail**：不发明论文/引用；引用仅来自`papers/core_set.csv`（或同工作空间的候选池）；不写长段落（“避免像综述生成器”）。

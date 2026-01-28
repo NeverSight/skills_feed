@@ -1,0 +1,3 @@
+在 Cloudflare Workers 上构建模型上下文协议 (MCP) 服务器 - Cloudflare Workers 是唯一具有官方远程 MCP 支持的平台。基于 TypeScript，具有 OAuth、持久对象和 WebSocket 休眠功能。
+
+使用场合：部署远程 MCP 服务器、实施 OAuth (GitHub/Google)、使用双重传输 (SSE/HTTP) 或排除 URL 路径不匹配、McpAgent 导出、OAuth 重定向、CORS 问题。

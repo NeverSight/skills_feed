@@ -1,0 +1,1 @@
+通过要求备份和确认来防止破坏性的 Git 操作。阻止 git reset --hard、git push --force on main、git clean -fd。需要在 git checkout、git Reset、git rebase 之前进行备份。在任何破坏性的 git 命令上激活。

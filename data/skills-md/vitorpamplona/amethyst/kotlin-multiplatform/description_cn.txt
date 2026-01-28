@@ -1,0 +1,5 @@
+Amethyst KMP 项目的平台抽象决策。指导何时抽象或保持特定于平台，
+源集放置（commonMain、jvmAndroid、特定于平台）、期望/实际模式。涵盖主要目标
+（Android、JVM/桌面、iOS）以及 Web/wasm 未来的考虑因素。与 gradle-expert 集成以解决依赖性问题。
+触发：抽象决策（“我应该分享这个吗？”）、源集放置问题、期望/实际创建、
+build.gradle.kts 工作、不正确的放置检测、KMP 依赖项建议。

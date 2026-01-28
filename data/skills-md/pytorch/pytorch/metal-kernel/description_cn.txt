@@ -1,0 +1,1 @@
+为 PyTorch 操作员编写 Metal/MPS 内核。在向操作员添加 MPS 设备支持、实施 Metal 着色器或将 CUDA 内核移植到 Apple Silicon 时使用。涵盖 native_functions.yaml 调度、主机端运算符和 Metal 内核实现。

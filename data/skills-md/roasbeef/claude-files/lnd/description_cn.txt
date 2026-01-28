@@ -1,0 +1,1 @@
+在 Docker 中运行 lnd 闪电网络守护进程并与之交互。用于 Lightning 开发、在 regtest 上测试支付通道、管理 lnd 容器以及调用 lnd RPC 端点（getinfo、连接、打开/关闭通道、支付/接收）。支持 bitcoind、btcd 和 neutrino 后端。

@@ -1,0 +1,3 @@
+在 WordPress 和旧版 Web 项目中安全地将 jQuery 3.x 迁移到 4.0.0。涵盖所有重大更改：删除的 API（$.isArray、$.trim、$.parseJSON、$.type）、焦点事件顺序更改、精简构建差异、ES 模块迁移和可信类型支持。
+
+使用场合：将 jQuery 升级到 4.0、修复“$.isArray 不是函数”错误、WordPress jQuery 迁移、更新旧版 JavaScript 或解决焦点/模糊事件顺序问题。

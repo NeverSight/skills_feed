@@ -1,0 +1,6 @@
+编译一个 LaTeX 项目并运行基本的 QA（缺少参考文献、参考书目错误、损坏的引用），生成“latex/main.pdf”和构建报告。
+**触发器**：LaTeX 编译、构建 PDF、LaTeX 错误、缺少引用、编译 PDF、引用错误。
+**使用时**：已存在`latex/main.tex`（通常来自`latex-scaffold`），需要确认可编译并输出失败原因报告。
+**如果**则跳过：还没有LaTeXscaffold（先跑`latex-scaffold`）。
+**网络**：无。
+**Guardrail**: 编译失败也落盘 `output/LATEX_BUILD_REPORT.md`；不做“内容改写”，只做编译/QA。

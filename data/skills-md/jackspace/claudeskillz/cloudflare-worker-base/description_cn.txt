@@ -1,0 +1,14 @@
+使用 Hono、Vite 和静态资产对 Cloudflare Workers 进行生产测试设置。
+
+使用时机：创建新的 Cloudflare Workers 项目、使用 Workers 设置 Hono 路由、
+为Workers配置Vite插件，为Workers添加静态资产，使用Wrangler进行部署，
+或者遇到部署错误、路由冲突或 HMR 崩溃。
+
+防止 6 个已记录的问题：导出语法错误、静态资源路由冲突、
+计划处理程序错误、HMR 竞争条件、上传竞争条件和 Service Worker
+格式混乱。
+
+关键词：Cloudflare Workers、CF Workers、Hono、wrangler、Vite、静态资产、@cloudflare/vite-plugin、
+wrangler.jsonc、ES 模块、run_worker_first、SPA 后备、API 路由、无服务器、边缘计算、
+“无法读取未定义的属性”，“静态资产 404”，“挂起的 Promise 被取消”，
+“处理程序未导出”、部署失败、路由不起作用、HMR 崩溃

@@ -1,0 +1,8 @@
+在以下情况下触发：(1) 在网络上加载或嵌入 .riv 文件，
+(2) 使用@rive-app/canvas 或@rive-app/webgl 包，
+(3) 从 JavaScript 控制 Rive 状态机，
+(4) 读/写 Rive 输入或处理事件，
+(5) 用户在网络上下文中提及“Rive 运行时”或“Rive 动画”。
+
+在网络上嵌入和控制 Rive 动画的最佳实践
+使用官方 Rive JavaScript/TypeScript 运行时。

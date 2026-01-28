@@ -1,0 +1,16 @@
+使用 TypeScript 在 React 应用程序中进行 Zustand 状态管理的经过生产测试的设置。
+该技能为构建可扩展的、类型安全的全局状态提供了全面的模式。
+
+使用时机：在 React 中设置全局状态、从 Redux 或 Context API 迁移、实现
+使用 localStorage 进行状态持久化，使用 Zustand 配置 TypeScript，使用切片模式
+对于模块化商店，添加 devtools 中间件进行调试，处理 Next.js SSR 水合作用，
+或者遇到水合错误、TypeScript 推理问题或持续存在的中间件问题。
+
+防止 5 个已记录的问题：Next.js 水合不匹配、TypeScript 双括号
+语法错误、持久中间件导出错误、无限渲染循环和切片模式
+类型推断失败。
+
+关键词：zustand、状态管理、React 状态、TypeScript 状态、持久中间件、
+开发工具、切片模式、全局状态、React hooks、创建存储、useBoundStore、
+StateCreator、水合错误、文本内容不匹配、无限渲染、localStorage、
+sessionStorage、沉浸式中间件、浅层相等、选择器模式、zustand v5

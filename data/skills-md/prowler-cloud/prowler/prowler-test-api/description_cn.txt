@@ -1,0 +1,1 @@
+Prowler API 的测试模式：JSON:API、Celery 任务、RLS 隔离、RBAC。触发器：为 api/（JSON：API 请求/断言、跨租户隔离、RBAC、Celery 任务、视图集/序列化器）编写测试时。

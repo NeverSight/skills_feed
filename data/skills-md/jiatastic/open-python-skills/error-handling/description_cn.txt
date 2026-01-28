@@ -1,0 +1,1 @@
+FastAPI、Pydantic 和 asyncio 的 Python 错误处理模式。遵循“让它崩溃”的理念 - 引发异常，捕获边界。涵盖 HTTPException、全局异常处理程序、验证错误、后台任务失败。在以下情况下使用：(1) 设计 API 错误响应，(2) 处理 RequestValidationError，(3) 管理异步异常，(4) 防止堆栈跟踪泄漏，(5) 设计自定义异常层次结构。

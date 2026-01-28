@@ -1,0 +1,1 @@
+指导 Muni 代码库的端到端测试、模拟和模拟。在编写集成测试、设置测试环境、创建模拟 CAN 总线、测试 WebSocket 协议、验证数据库装置或调试测试失败时使用。涵盖 Rust 测试模式（tokio::test、集成测试）、TypeScript 测试 (Vitest)、模拟基础设施（用于测试的 Docker Compose）、CAN 总线模拟、WebSocket 测试客户端、数据库播种和重新运行记录验证。对于确保组件正确协同工作至关重要。

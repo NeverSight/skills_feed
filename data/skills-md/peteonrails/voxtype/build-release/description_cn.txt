@@ -1,0 +1,1 @@
+构建所有 voxtype 二进制文件以供发布。使用 Docker 构建 Whisper（AVX2、AVX-512、Vulkan）和 Parakeet（AVX2、AVX-512、CUDA）二进制文件。准备新版本时使用。

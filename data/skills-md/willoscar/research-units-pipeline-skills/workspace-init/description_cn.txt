@@ -1,0 +1,6 @@
+通过复制标准工件模板（STATUS.md、CHECKPOINTS.md、UNITS.csv、DECISIONS.md + 文件夹）来初始化新工作区。
+**触发器**：工作区初始化、初始化工作区、工作区模板、初始化工作区。
+**使用时**：启动任何管道运行（必须先有workspace 工件与目录工件）。
+**如果**跳过：工作空间已初始化且不希望覆盖文件（除非显式`--overwrite`）。
+**网络**：无。
+**Guardrail**: 不要 `.codex/skills/workspace-init/assets/` 模板；默认不覆盖现有修改文件。

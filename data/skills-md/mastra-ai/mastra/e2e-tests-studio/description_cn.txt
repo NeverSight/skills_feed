@@ -1,0 +1,1 @@
+修改packages/playground-ui 或packages/playground 中的任何文件时需要。触发条件：React 组件创建/修改/重构、UI 更改、新的 Playground 功能、影响工作室 UI 的错误修复。生成 Playwright E2E 测试来验证产品行为，而不仅仅是 UI 状态。

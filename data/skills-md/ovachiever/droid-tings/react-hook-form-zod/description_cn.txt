@@ -1,0 +1,3 @@
+使用 React Hook Form 和 Zod 模式验证在 React 中构建类型安全的验证表单。单一模式适用于客户端和服务器，通过 z.infer 进行完整的 TypeScript 类型推断，进行 DRY 验证。
+
+使用场合：构建带有验证的表单、集成 shadcn/ui 表单组件、实现多步骤向导、使用 useFieldArray 处理动态字段数组，或修复不受控制的受控警告、解析器错误、异步验证问题。

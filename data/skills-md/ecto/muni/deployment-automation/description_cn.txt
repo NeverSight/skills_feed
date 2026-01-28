@@ -1,0 +1,1 @@
+指导将 Muni 软件部署到漫游器（aarch64 交叉编译、systemd）和仓库（Docker Compose）。在部署固件更新、安装服务、配置环境、排除部署故障或设置新的流动站/软件仓库实例时使用。涵盖使用“cross”工具进行交叉编译、deploy.sh 脚本用法、systemd 服务管理、Docker Compose 配置文件、环境变量和回滚过程。

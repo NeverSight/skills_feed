@@ -1,0 +1,19 @@
+经过生产测试的 Content Collections 设置 - TypeScript 优先的构建工具，可进行转换
+通过自动验证将本地内容文件 (Markdown/MDX) 转换为类型安全的数据集合。
+
+使用场合：使用 Vite + React 构建博客、文档网站或内容丰富的应用程序，
+使用 React 组件设置 MDX 内容，使用 Zod 实现类型安全的内容模式，
+从 Contentlayer 迁移，或遇到内容集合的 TypeScript 导入错误。
+
+涵盖：Vite 插件设置、tsconfig 路径别名、带有 Zod 验证的集合模式、
+使用compileMDX进行MDX编译，计算属性的转换函数，rehype/remark插件，
+React 组件与 MDXContent、Cloudflare Workers 部署和生产构建优化集成。
+
+关键词：内容集合、@content-collections/core、@content-collections/vite、
+@content-collections/mdx、MDX、markdown、Zod 架构验证、类型安全内容、
+frontmatter、compileMDX、defineCollection、defineConfig、Vite 插件、tsconfig 路径、
+.content-collections/ generated、MDXContent 组件、rehype 插件、评论插件、
+内容模式、文档转换、allPosts 导入、静态站点生成、
+博客设置、文档、Cloudflare Workers 静态资产、内容验证错误、
+找不到模块内容集合、路径别名不起作用、MDX 类型错误、
+转换函数异步，集合不更新

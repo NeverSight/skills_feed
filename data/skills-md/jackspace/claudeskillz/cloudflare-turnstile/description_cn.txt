@@ -1,0 +1,5 @@
+此技能提供了实施 Cloudflare Turnstile（验证码替代机器人保护系统）的全面知识。当将机器人防护集成到表单、登录页面、注册流程或任何需要防止垃圾邮件/机器人的面向用户的功能时，应该使用它。 Turnstile 在后台运行隐形挑战，在阻止自动流量的同时保持出色的用户体验。
+
+使用场合：向表单添加机器人保护、实现登录安全、保护 API 端点免遭滥用、从 reCAPTCHA/hCaptcha 迁移、使用 Turnstile 遇到 CSP 错误、处理令牌验证失败、使用 Turnstile 实施 E2E 测试、与 React/Next.js/Hono 应用程序集成或调试错误代码 100*、300*、600*。
+
+关键词：旋转门、验证码、机器人保护、cloudflare 挑战、siteverify、recaptcha 替代方案、垃圾邮件预防、表单保护、cf-turnstile、旋转门小部件、令牌验证、托管挑战、隐形挑战、@marsidev/react-turnstile、hono 旋转门、工人旋转门

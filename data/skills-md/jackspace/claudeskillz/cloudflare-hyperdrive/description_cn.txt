@@ -1,0 +1,5 @@
+Cloudflare Hyperdrive 的完整知识领域 - 通过全局连接池、查询缓存和减少延迟将 Cloudflare Workers 连接到现有 PostgreSQL 和 MySQL 数据库。
+
+在以下情况下使用：将 Workers 连接到现有数据库、将 PostgreSQL/MySQL 迁移到 Cloudflare、设置连接池、配置 Hyperdrive 绑定、使用 node-postgres/postgres.js/mysql2 驱动程序、集成 Drizzle ORM 或 Prisma ORM，或遇到“无法从池获取连接”、“数据库不支持 TLS”、“连接被拒绝”、“nodejs_compat 缺失”、“不允许从字符串生成代码”或 Hyperdrive 配置错误。
+
+关键词：hyperdrive、cloudflare hyperdrive、workers hyperdrive、postgresworkers、mysqlworkers、连接池、查询缓存、node-postgres、pg、postgres.js、mysql2、drizzle hyperdrive、prisma hyperdrive、workers rds、workers aurora、workers neon、workers supabase、数据库加速、混合架构、cloudflare 隧道数据库、wrangler hyperdrive、hyperdrive 绑定、本地开发 hyperdrive

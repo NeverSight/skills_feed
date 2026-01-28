@@ -1,0 +1,1 @@
+用于对 DataFrame、CSV、Parquet、JSON 文件等进行 SQL 查询的快速进程内分析数据库。当用户想要对数据文件或 Python DataFrame（pandas、Polars）执行 SQL 分析、运行复杂的聚合、联接或窗口函数或查询外部数据源而不加载到内存中时使用。最适合分析工作负载、OLAP 查询和数据探索。

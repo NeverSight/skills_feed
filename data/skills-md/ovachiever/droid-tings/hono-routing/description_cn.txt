@@ -1,0 +1,3 @@
+使用 Hono 构建类型安全的 API - 适用于 Cloudflare Workers、Deno、Bun 和 Node.js 的快速、轻量级路由。设置路由模式、中间件组合、请求验证（Zod/Valibot/Typia/ArkType）、具有完整类型推断的 RPC 客户端/服务器以及 HTTPException 的错误处理。
+
+使用场合：使用 Hono 构建 API、使用模式库设置请求验证、创建类型安全的 RPC 客户端/服务器通信、实现自定义中间件链、使用 HTTPException 处理错误、使用自定义变量扩展上下文，或者解决中间件类型推断问题、验证挂钩混淆、RPC 性能问题或中间件响应键入错误。

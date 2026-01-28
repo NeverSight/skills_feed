@@ -1,0 +1,8 @@
+容器化应用程序的生产级 Kubernetes 清单和调试。
+当用户要求部署到 Kubernetes、创建 K8s 清单、
+为 K8s 进行容器化，设置 Deployments/Services/Jobs/StatefulSets/CronJobs，创建
+具有资源配额的命名空间，设置多团队隔离，配置ResourceQuota/
+LimitRange，使用 RBAC（ServiceAccount、Role、RoleBinding）确保安全，配置 init
+容器（模型下载、数据库等待、迁移）、设置 sidecar（日志记录、指标）、
+或调试 Pod（CrashLoopBackOff、日志、执行、描述、事件）。自动检测自
+Dockerfile/代码，生成带有教育注释的强化清单。 CKAD 对齐。

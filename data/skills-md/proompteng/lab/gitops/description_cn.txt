@@ -1,0 +1,1 @@
+此存储库的 GitOps 工作流程：在版本控制中编辑 Argo CD/Kubernetes/infra 清单、验证更改并依赖 Argo CD 进行同步。当任务涉及 argocd/、kubernetes/、tofu/、ansible/ 或部署/runbook 更改时，或者当要求通过 GitOps 推出服务时使用。

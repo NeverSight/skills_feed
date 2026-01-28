@@ -1,0 +1,4 @@
+当出现问题时，解决 Olakai 监控问题。
+当用户提到以下情况时自动调用：事件未出现、KPI 显示错误值、KPI 显示字符串而不是数字、自定义数据丢失、KPI 为空、身份验证错误、CLI 不起作用、事件与代理无关、监控损坏、SDK 错误或任何 Olakai 相关问题。
+触发关键字：olakai、故障排除、调试、不工作、事件丢失、KPI 错误、KPI 空、KPI 字符串、自定义数据丢失、身份验证失败、CLI 错误、无事件、事件未出现、诊断、修复 olakai、损坏、SDK 错误、监控问题、API 密钥无效、事件未跟踪。
+不要加载：初始设置（使用olakai-create-agent 或olakai-add-monitoring），或生成报告（使用generate-analytics-reports）。

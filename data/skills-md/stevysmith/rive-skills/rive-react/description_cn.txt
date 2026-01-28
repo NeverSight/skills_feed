@@ -1,0 +1,8 @@
+在以下情况下触发： (1) 使用 @rive-app/react-canvas 或 @rive-app/react-webgl，
+（2）使用useRive钩子或RiveComponent，
+(3) 使用 Rive 动画构建 React 组件，
+(4) 用户提及“Rive React”或“useRive”，
+(5) 使用 Rive 实现基于滚动或视差的动画。
+
+在 React 应用程序中集成 Rive 动画的最佳实践
+使用官方 Rive React 包。涵盖挂钩、布局和滚动动画。

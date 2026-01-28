@@ -1,0 +1,50 @@
+使用 Jest、通过 Docker 的真实基础设施和 GWT 模式完成 TypeScript/NestJS 项目的 E2E（端到端）和集成测试技能。
+
+当用户需要执行以下操作时，请始终使用此技能：
+
+**SETUP** - 初始化或配置E2E测试基础设施：
+- 为新项目设置E2E测试
+- 配置 docker-compose 进行测试（Kafka、PostgreSQL、MongoDB、Redis）
+- 创建 jest-e2e.config.ts 或 E2E Jest 配置
+- 为数据库、Kafka 或 Redis 设置测试助手
+- 配置.env.e2e环境变量
+- 创建test/e2e目录结构
+
+**WRITE** - 创建或添加 E2E/集成测试：
+- 编写、创建、添加或生成 e2e 测试或集成测试
+- 端到端测试 API 端点、工作流程或完整功能
+- 使用真实数据库、消息代理或外部服务进行测试
+- 测试 Kafka 消费者/生产者、事件驱动的工作流程
+- 处理以 .e2e-spec.ts 或 test/e2e/ 目录结尾的任何文件
+- 使用GWT（Given-When-Then）模式进行测试
+
+**审查** - 审核或评估 E2E 测试：
+- 审查现有 E2E 测试的质量
+- 检查测试隔离和清理模式
+- 审核 GWT 模式合规性
+- 评估断言质量和特异性
+- 检查反模式（多个 WHEN 操作、条件断言）
+
+**RUN** - 执行或分析E2E测试结果：
+- 运行端到端测试
+- 启动/停止 Docker 基础设施以进行测试
+- 分析E2E测试结果
+- 验证 Docker 服务是否健康
+- 解释测试输出和失败
+
+**DEBUG** - 修复失败或不稳定的 E2E 测试：
+- 修复失败的 E2E 测试
+- 调试片状测试或测试隔离问题
+- 排查连接错误（数据库、Kafka、Redis）
+- 修复超时问题或异步操作失败
+- 诊断竞争条件或状态泄漏
+- 调试Kafka消息消费问题
+
+**优化** - 提高E2E测试性能：
+- 加快缓慢的E2E测试速度
+- 优化Docker基础设施启动
+- 用智能轮询取代固定等待
+- 减少 beforeEach 清理时间
+- 在安全的情况下改进测试并行化
+
+关键词：e2e、端到端、集成测试、e2e-spec.ts、test/e2e、Jest、supertest、NestJS、Kafka、Redpanda、PostgreSQL、MongoDB、Redis、docker-compose、GWT 模式、Given-When-Then、真实基础设施、测试隔离、薄片测试、MSW、nock、waitForMessages、修复 e2e、调试 e2e、运行 e2e、审查 e2e、优化e2e，设置e2e

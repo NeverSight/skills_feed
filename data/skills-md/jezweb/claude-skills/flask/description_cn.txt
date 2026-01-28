@@ -1,0 +1,3 @@
+使用应用程序工厂模式、蓝图和 Flask-SQLAlchemy 通过 Flask 构建 Python Web 应用程序。防止 9 个已记录的错误，包括stream_with_context 拆卸问题、async/gevent 冲突和 CSRF 缓存问题。
+
+使用场合：创建 Flask 项目、组织蓝图或解决循环导入、上下文错误、注册、流式传输或身份验证问题。

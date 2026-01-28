@@ -1,0 +1,3 @@
+使用 Cloudflare Vectorize V2 构建语义搜索。涵盖异步突变、5M 向量/索引、31ms 延迟、returnMetadata 枚举更改和 V1 弃用。防止 14 种错误，包括尺寸不匹配、TypeScript 类型、测试设置。
+
+使用场合：构建 RAG 或语义搜索、对返回元数据、V2 计时、元数据索引、维度错误、vitest 设置或 wrangler --json 输出进行故障排除。

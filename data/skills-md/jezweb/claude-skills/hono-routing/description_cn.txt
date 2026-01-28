@@ -1,0 +1,3 @@
+使用 Hono 为 Cloudflare Workers、Deno、Bun、Node.js 构建类型安全的 API。路由、中间件、验证（Zod/Valibot）、RPC、流（SSE）、WebSocket、安全（CSRF、secureHeaders）。
+
+使用场合：构建 Hono API、流式 SSE、WebSocket、验证、RPC。故障排除：验证挂钩、RPC 类型、中间件链、所需的 JWT 验证算法 (v4.11.4+)、主体消耗错误。

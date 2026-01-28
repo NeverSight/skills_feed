@@ -1,0 +1,5 @@
+使用社交身份验证、2FA、密钥、组织和 RBAC 为 TypeScript/Cloudflare Workers 构建身份验证系统。 Clerk/Auth.js 的自托管替代方案。
+
+重要提示：D1 需要 Drizzle ORM 或 Kysely - 无直接 D1 适配器。 v1.4.0（2025 年 11 月）添加了无状态会话、仅限 ESM（中断）、JWT 密钥轮换、SCIM 配置。 v1.3 添加了 SSO/SAML、多团队支持。
+
+使用场合：Cloudflare D1 上的自托管身份验证、从 Clerk 迁移、实施多租户 SaaS 或排除 D1 适配器错误、会话序列化、OAuth 流、TanStack Start cookie 问题、nanostore 会话失效。

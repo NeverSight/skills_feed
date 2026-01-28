@@ -1,0 +1,6 @@
+下载 PDF（如果有）并提取纯文本以支持全文证据，编写“papers/fulltext_index.jsonl”和“papers/fulltext/*.txt”。
+**触发**：PDF下载、全文、摘录文本、论文/pdf、全文抽取、下载PDF。
+**使用时**：`queries.md`设置`evidence_mode: fulltext`（或者你明确需要全文证据）并希望纸质笔记/声明提供更有力的证据。
+**如果**: `evidence_mode: Abstract`（默认）则跳过；或者您不希望进行下载/提取（成本/权限/时间）。
+**网络**：全文下载通常需要网络（除非您手动在 `papers/pdfs/` 中提供 PDF 缓存）。
+**Guardrail**：服务器下载到 `papers/pdfs/`；默认不覆盖现有文本抽取（除非显式要求重提取）。

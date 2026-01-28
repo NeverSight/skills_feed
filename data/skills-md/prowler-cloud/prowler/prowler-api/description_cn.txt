@@ -1,0 +1,1 @@
+Prowler API 模式：RLS、RBAC、提供者、Celery 任务。触发器：在 api/ 中处理涉及租户隔离 (RLS)、RBAC 或提供程序生命周期的模型/序列化器/视图集/过滤器/任务时。

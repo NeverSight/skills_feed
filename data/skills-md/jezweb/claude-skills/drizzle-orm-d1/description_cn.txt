@@ -1,0 +1,3 @@
+使用 Drizzle ORM 构建类型安全的 D1 数据库。包括架构定义、使用 Drizzle Kit 进行迁移、关系和 D1 批处理 API 模式。防止 SQL BEGIN 失败、级联数据丢失、100 参数限制、外键问题等 18 种错误。
+
+在以下情况下使用：定义 D1 架构、管理迁移、批量插入或对 D1_ERROR、BEGIN TRANSACTION、外键、“SQL 变量太多”进行故障排除。
