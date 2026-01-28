@@ -11,6 +11,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: skills-crawl-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
@@ -23,6 +27,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          # Needed for pull --rebase and retry-safe pushes
+          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -52,4 +59,15 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/
           git diff --staged --quiet || git commit -m "chore: update skills data $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+
+          # Rebase onto latest main to avoid ref lock / non-fast-forward races
+          git fetch origin main
+          git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+
+          # Retry push to tolerate concurrent runs
+          for i in 1 2 3 4 5; do
+            git push && break
+            git fetch origin main
+            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            sleep $((i * 2))
+          done
