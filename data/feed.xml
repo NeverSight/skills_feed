@@ -4,34 +4,572 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Tue, 27 Jan 2026 06:30:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2026 02:17:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-01-27)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-01-28)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-01-27T06:30:15.582Z:snapshot</guid>
-            <pubDate>Tue, 27 Jan 2026 06:30:15 GMT</pubDate>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:snapshot</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 27446
-Trending skills: 17189
-Hot skills: 1694
-Top All Time: vercel-react-best-practices (53242)
-Top Trending: find-skills (6844)
-Top Hot: find-skills (596)]]></description>
+All Time skills: 29410
+Trending skills: 14047
+Hot skills: 1624
+Top All Time: vercel-react-best-practices (58161)
+Top Trending: find-skills (15526)
+Top Hot: vercel-react-native-skills (94)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#50): ralph-tui-prd]]></title>
-            <link>https://skills.sh/subsy/ralph-tui/ralph-tui-prd</link>
-            <guid isPermaLink="false">2026-01-27T06:30:15.582Z:topTrending:new:subsy/ralph-tui/ralph-tui-prd</guid>
-            <pubDate>Tue, 27 Jan 2026 06:30:15 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
+            <title><![CDATA[[All Time] New entry (#20): vercel-composition-patterns]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topAllTime:new:vercel-labs/agent-skills/vercel-composition-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #20
+Installs: 3239
+Source: vercel-labs/agent-skills
+Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#30): browser-use]]></title>
+            <link>https://skills.sh/browser-use/browser-use/browser-use</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topAllTime:new:browser-use/browser-use/browser-use</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #30
+Installs: 2770
+Source: browser-use/browser-use
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#40): vercel-react-native-skills]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topAllTime:new:vercel-labs/agent-skills/vercel-react-native-skills</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #40
+Installs: 2360
+Source: vercel-labs/agent-skills
+Description: React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#10): rivetkit-client-javascript]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-javascript</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:rivet-dev/skills/rivetkit-client-javascript</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #10
+Installs: 15
+Source: rivet-dev/skills
+Description: RivetKit JavaScript client guidance. Use for browser, Node.js, or Bun clients that connect to Rivet Actors with rivetkit/client, create clients, call actions, or manage connections.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#13): firecrawl]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:firecrawl/cli/firecrawl</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #13
+Installs: 12
+Source: firecrawl/cli]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#14): agent-browser]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #14
+Installs: 73
+Source: vercel-labs/agent-browser
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#16): typescript-advanced-types]]></title>
+            <link>https://skills.sh/wshobson/agents/typescript-advanced-types</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/typescript-advanced-types</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #16
+Installs: 12
+Source: wshobson/agents
+Description: Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#17): shadcn-ui]]></title>
+            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/shadcn-ui</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:giuseppe-trisciuoglio/developer-kit/shadcn-ui</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 11
+Source: giuseppe-trisciuoglio/developer-kit
+Description: Complete shadcn/ui component library guide including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing components, building forms with React Hook Form and Zod, customizing themes with Tailwind CSS, or implementing UI patterns like buttons, dialogs, dropdowns, tables, and complex form layouts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#18): api-design-principles]]></title>
+            <link>https://skills.sh/wshobson/agents/api-design-principles</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/api-design-principles</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 11
+Source: wshobson/agents
+Description: Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): baoyu-article-illustrator]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/baoyu-article-illustrator</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 9
+Source: jimliu/baoyu-skills
+Description: Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style two-dimension approach. Use when user asks to "illustrate article", "add images", "generate images for article", or "为文章配图".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): architecture-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/architecture-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/architecture-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 9
+Source: wshobson/agents
+Description: Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use when architecting complex backend systems or refactoring existing applications for better maintainability.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): rag-implementation]]></title>
+            <link>https://skills.sh/wshobson/agents/rag-implementation</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/rag-implementation</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 7
+Source: wshobson/agents
+Description: Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): postgresql-table-design]]></title>
+            <link>https://skills.sh/wshobson/agents/postgresql-table-design</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/postgresql-table-design</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #22
+Installs: 7
+Source: wshobson/agents
+Description: Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): baoyu-slide-deck]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-slide-deck</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/baoyu-slide-deck</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 8
+Source: jimliu/baoyu-skills
+Description: Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to "create slides", "make a presentation", "generate deck", "slide deck", or "PPT".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#26): vueuse-functions]]></title>
+            <link>https://skills.sh/vueuse/skills/vueuse-functions</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:vueuse/skills/vueuse-functions</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #26
+Installs: 8
+Source: vueuse/skills
+Description: Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#27): baoyu-cover-image]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/baoyu-cover-image</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #27
+Installs: 7
+Source: jimliu/baoyu-skills
+Description: Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 9 color palettes and 6 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to "generate cover image", "create article cover", "make cover", or mentions "封面图".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#28): release-skills]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/release-skills</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/release-skills</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #28
+Installs: 7
+Source: jimliu/baoyu-skills
+Description: Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says "release", "发布", "new version", "bump version", "push", "推送".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#29): python-testing-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/python-testing-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/python-testing-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #29
+Installs: 6
+Source: wshobson/agents
+Description: Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#30): dotnet-backend-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/dotnet-backend-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/dotnet-backend-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #30
+Installs: 6
+Source: wshobson/agents
+Description: Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use when developing .NET backends, reviewing C# code, or designing API architectures.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): auth-implementation-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/auth-implementation-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/auth-implementation-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #31
+Installs: 6
+Source: wshobson/agents
+Description: Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#32): baoyu-infographic]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-infographic</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/baoyu-infographic</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 6
+Source: jimliu/baoyu-skills
+Description: Generates professional infographics with 20 layout types and 17 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create "infographic", "信息图", "visual summary", or "可视化".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): prompt-engineering-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/prompt-engineering-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/prompt-engineering-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 6
+Source: wshobson/agents
+Description: Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): responsive-design]]></title>
+            <link>https://skills.sh/wshobson/agents/responsive-design</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/responsive-design</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 6
+Source: wshobson/agents
+Description: Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): baoyu-xhs-images]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/baoyu-xhs-images</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #35
+Installs: 6
+Source: jimliu/baoyu-skills
+Description: Generates Xiaohongshu (Little Red Book) infographic series with 9 visual styles and 6 layouts. Breaks content into 1-10 cartoon-style images optimized for XHS engagement. Use when user mentions "小红书图片", "XHS images", "RedNote infographics", "小红书种草", or wants social media infographics for Chinese platforms.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): convex]]></title>
+            <link>https://skills.sh/waynesutton/convexskills/convex</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:waynesutton/convexskills/convex</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 5
+Source: waynesutton/convexskills
+Description: Umbrella skill for all Convex development patterns. Routes to specific skills like convex-functions, convex-realtime, convex-agents, etc.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): ethereum-wingman]]></title>
+            <link>https://skills.sh/austintgriffith/ethereum-wingman/ethereum-wingman</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:austintgriffith/ethereum-wingman/ethereum-wingman</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #37
+Installs: 5
+Source: austintgriffith/ethereum-wingman
+Description: Ethereum development tutor and builder for Scaffold-ETH 2 projects. Triggers on "build", "create", "dApp", "smart contract", "Solidity", "DeFi", "Ethereum", "web3", or any blockchain development task. ALWAYS uses fork mode to test against real protocol state.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#38): motion]]></title>
+            <link>https://skills.sh/onmax/nuxt-skills/motion</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:onmax/nuxt-skills/motion</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #38
+Installs: 5
+Source: onmax/nuxt-skills
+Description: Use when adding animations with Motion Vue (motion-v) - provides motion component API, gesture animations, scroll-linked effects, layout transitions, and composables for Vue 3/Nuxt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): expo-tailwind-setup]]></title>
+            <link>https://skills.sh/expo/skills/expo-tailwind-setup</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:expo/skills/expo-tailwind-setup</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 11
+Source: expo/skills
+Description: Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): deployment-pipeline-design]]></title>
+            <link>https://skills.sh/wshobson/agents/deployment-pipeline-design</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/deployment-pipeline-design</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 5
+Source: wshobson/agents
+Description: Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use when architecting deployment workflows, setting up continuous delivery, or implementing GitOps practices.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): wcag-audit-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/wcag-audit-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/wcag-audit-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 5
+Source: wshobson/agents
+Description: Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): monorepo-management]]></title>
+            <link>https://skills.sh/wshobson/agents/monorepo-management</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/monorepo-management</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 5
+Source: wshobson/agents
+Description: Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monorepos, optimizing builds, or managing shared dependencies.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): go-concurrency-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/go-concurrency-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/go-concurrency-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 5
+Source: wshobson/agents
+Description: Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): baoyu-post-to-x]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-x</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/baoyu-post-to-x</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 5
+Source: jimliu/baoyu-skills
+Description: Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to "post to X", "tweet", "publish to Twitter", or "share on X".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): stripe-integration]]></title>
+            <link>https://skills.sh/wshobson/agents/stripe-integration</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/stripe-integration</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 5
+Source: wshobson/agents
+Description: Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): baoyu-danger-x-to-markdown]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-danger-x-to-markdown</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:jimliu/baoyu-skills/baoyu-danger-x-to-markdown</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 5
+Source: jimliu/baoyu-skills
+Description: Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions "X to markdown", "tweet to markdown", "save tweet", or provides x.com/twitter.com URLs for conversion.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): planning-with-files]]></title>
+            <link>https://skills.sh/othmanadi/planning-with-files/planning-with-files</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:othmanadi/planning-with-files/planning-with-files</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 5
+Source: othmanadi/planning-with-files
+Description: Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls. Now with automatic session recovery after /clear.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): async-python-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/async-python-patterns</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:wshobson/agents/async-python-patterns</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 277
-Source: subsy/ralph-tui
-Description: Generate a Product Requirements Document (PRD) for ralph-tui task orchestration. Creates PRDs with user stories that can be converted to beads issues or prd.json for automated execution. Triggers on: create a prd, write prd for, plan this feature, requirements for, spec out.]]></description>
+Installs: 5
+Source: wshobson/agents
+Description: Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#6): rivetkit]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:rivet-dev/skills/rivetkit</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #6
+Installs: 15
+Source: rivet-dev/skills
+Description: RivetKit backend and Rivet Actor runtime guidance. Use for building, modifying, debugging, or testing Rivet Actors, registries, serverless/runner modes, deployment, or actor-based workflows.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#7): rivetkit-client-swiftui]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-swiftui</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:rivet-dev/skills/rivetkit-client-swiftui</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #7
+Installs: 15
+Source: rivet-dev/skills
+Description: RivetKit SwiftUI client guidance. Use for SwiftUI apps that connect to Rivet Actors with RivetKitSwiftUI, @Actor, rivetKit view modifiers, and SwiftUI bindings.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): rivetkit-client-react]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-react</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:rivet-dev/skills/rivetkit-client-react</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 15
+Source: rivet-dev/skills
+Description: RivetKit React client guidance. Use for React apps that connect to Rivet Actors with @rivetkit/react, create hooks with createRivetKit, or manage realtime state with useActor.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): rivetkit-client-swift]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-swift</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topHot:new:rivet-dev/skills/rivetkit-client-swift</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 15
+Source: rivet-dev/skills
+Description: RivetKit Swift client guidance. Use for Swift clients that connect to Rivet Actors with RivetKitClient, create actor handles, call actions, or manage connections.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#20): speakturbo-tts]]></title>
+            <link>https://skills.sh/emzod/speak-turbo/speakturbo-tts</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:emzod/speak-turbo/speakturbo-tts</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #20
+Installs: 568
+Source: emzod/speak-turbo]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#21): speak-tts]]></title>
+            <link>https://skills.sh/emzod/speak/speak-tts</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:emzod/speak/speak-tts</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #21
+Installs: 543
+Source: emzod/speak]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#29): next-cache-components]]></title>
+            <link>https://skills.sh/vercel-labs/next-skills/next-cache-components</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:vercel-labs/next-skills/next-cache-components</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #29
+Installs: 419
+Source: vercel-labs/next-skills
+Description: Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, updateTag]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#40): next-upgrade]]></title>
+            <link>https://skills.sh/vercel-labs/next-skills/next-upgrade</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:vercel-labs/next-skills/next-upgrade</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #40
+Installs: 321
+Source: vercel-labs/next-skills
+Description: Upgrade Next.js to the latest version following official migration guides and codemods]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#46): tailwind-design-system]]></title>
+            <link>https://skills.sh/wshobson/agents/tailwind-design-system</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:wshobson/agents/tailwind-design-system</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #46
+Installs: 311
+Source: wshobson/agents
+Description: Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#47): product-marketing-context]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/product-marketing-context</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:coreyhaines31/marketingskills/product-marketing-context</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #47
+Installs: 304
+Source: coreyhaines31/marketingskills
+Description: When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Creates `.claude/product-marketing-context.md` that other marketing skills reference.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#49): writing-plans]]></title>
+            <link>https://skills.sh/obra/superpowers/writing-plans</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:obra/superpowers/writing-plans</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #49
+Installs: 303
+Source: obra/superpowers
+Description: Use when you have a spec or requirements for a multi-step task, before touching code]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#9): atxp]]></title>
+            <link>https://skills.sh/atxp-dev/cli/atxp</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topTrending:new:atxp-dev/cli/atxp</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #9
+Installs: 1511
+Source: atxp-dev/cli
+Description: Access ATXP paid API tools for web search, AI image generation, music creation, video generation, and X/Twitter search. Use when users need real-time web search, AI-generated media (images, music, video), or X/Twitter search. Requires authentication via `npx atxp login`.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank down (4 → 5): frontend-design]]></title>
+            <link>https://skills.sh/anthropics/skills/frontend-design</link>
+            <guid isPermaLink="false">2026-01-28T02:17:00.926Z:topAllTime:rank:anthropics/skills/frontend-design</guid>
+            <pubDate>Wed, 28 Jan 2026 02:17:00 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #4
+Current rank: #5
+Delta: -1
+Installs: 19484 (prev 16962)
+Source: anthropics/skills
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
         </item>
     </channel>
 </rss>

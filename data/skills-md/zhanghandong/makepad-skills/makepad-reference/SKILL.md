@@ -1,0 +1,53 @@
+---
+name: makepad-reference
+description: |
+  CRITICAL: Use for Makepad troubleshooting and reference. Triggers on:
+  troubleshoot, error, debug, fix, problem, issue,
+  no matching field, parse error, widget not found, UI not updating,
+  code quality, refactor, responsive layout, adaptive,
+  api docs, reference, documentation,
+  故障排除, 错误, 调试, 问题, 修复
+---
+
+# Makepad Reference
+
+This category provides reference materials for debugging, code quality, and advanced layout patterns.
+
+## Quick Navigation
+
+| Topic | File | Use When |
+|-------|------|----------|
+| [API Documentation](./api-docs.md) | Official docs index, quick API reference | Finding detailed API info |
+| [Troubleshooting](./troubleshooting.md) | Common errors and fixes | Build fails, runtime errors |
+| [Code Quality](./code-quality.md) | Makepad-aware refactoring | Simplifying code safely |
+| [Adaptive Layout](./adaptive-layout.md) | Desktop/mobile responsive | Cross-platform layouts |
+
+## Common Issues Quick Reference
+
+| Error | Quick Fix |
+|-------|-----------|
+| `no matching field: font` | Use `text_style: <THEME_FONT_*>{}` |
+| Color parse error (ends in `e`) | Change last digit (e.g., `#14141e` → `#14141f`) |
+| `set_text` missing argument | Add `cx` as first argument |
+| UI not updating | Call `redraw(cx)` after changes |
+| Widget not found | Check ID spelling, use `ids!()` for paths |
+
+## Debug Tips
+
+```bash
+# Run with line info for better error messages
+MAKEPAD=lines cargo +nightly run
+```
+
+```rust
+// Add logging
+log!("Value: {:?}", my_value);
+log!("State: {} / {}", self.counter, self.is_loading);
+```
+
+## Resources
+
+- [Makepad Official Docs](https://publish.obsidian.md/makepad-docs/) - Obsidian-based documentation
+- [Makepad Repository](https://github.com/makepad/makepad)
+- [Robrix](https://github.com/project-robius/robrix) - Production reference
+- [Moly](https://github.com/moxin-org/moly) - Production reference
