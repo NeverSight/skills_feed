@@ -95,6 +95,27 @@ function repoRelativeSkillMdPath(source: string, skillId: string) {
   return `data/skills-md/${source}/${skillId}/SKILL.md`;
 }
 
+function descriptionEnAbsPath(source: string, skillId: string) {
+  return join(process.cwd(), 'data', 'skills-md', source, skillId, 'description_en.txt');
+}
+
+function writeDescriptionEnIfChanged(source: string, skillId: string, description: string | undefined) {
+  if (!description || !description.trim()) return;
+
+  const outPath = descriptionEnAbsPath(source, skillId);
+  const content = `${description.trim()}\n`;
+
+  try {
+    if (existsSync(outPath)) {
+      const existing = readFileSync(outPath, 'utf-8');
+      if (existing === content) return;
+    }
+    writeFileSync(outPath, content);
+  } catch {
+    // ignore write errors
+  }
+}
+
 function extractDescriptionFromSkillMd(md: string): string | undefined {
   try {
     const parsed = matter(md);
@@ -400,6 +421,7 @@ async function buildSkillsIndex(data: SkillsData) {
         const md = readFileSync(mdAbs, 'utf-8');
         description = extractDescriptionFromSkillMd(md);
         skillMdPath = repoRelativeSkillMdPath(s.source, s.skillId);
+        writeDescriptionEnIfChanged(s.source, s.skillId, description);
       } catch {
         // ignore read errors
       }
