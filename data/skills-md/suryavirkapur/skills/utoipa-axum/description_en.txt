@@ -1,0 +1,6 @@
+OpenAPI documentation skill for Rust APIs using utoipa with Axum framework.
+Use when building REST APIs with automatic OpenAPI spec generation and Scalar UI.
+Covers: (1) ToSchema derive for request/response types, (2) #[utoipa::path] for endpoint documentation,
+(3) OpenApi derive for combining specs, (4) Security schemes (JWT, API keys), (5) IntoParams for query/path params,
+(6) Scalar UI integration, (7) Response and error handling patterns.
+Triggers: utoipa, openapi, scalar, axum api, ToSchema, IntoParams, rust api docs.

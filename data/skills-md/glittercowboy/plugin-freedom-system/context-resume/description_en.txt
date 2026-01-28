@@ -1,0 +1,1 @@
+Load plugin context from handoff files to resume work. Invoked by /continue command, 'resume [PluginName]', 'continue working on [PluginName]', 'pick up where I left off with [PluginName]', or 'show me where [PluginName] is at'. Locates handoff across 2 locations, parses state, presents summary, and routes to appropriate continuation skill.

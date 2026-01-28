@@ -1,0 +1,1 @@
+Use Set and Map for O(1) membership lookups instead of array.includes(). Apply when checking membership repeatedly or performing frequent lookups against a collection.

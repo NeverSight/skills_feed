@@ -1,0 +1,10 @@
+PostgreSQL-based semantic and hybrid search with pgvector and ParadeDB.
+Use when implementing vector search, semantic search, hybrid search,
+or full-text search in PostgreSQL. Covers pgvector setup, indexing
+(HNSW, IVFFlat), hybrid search (FTS + BM25 + RRF), ParadeDB as
+Elasticsearch alternative, and re-ranking with Cohere/cross-encoders.
+Supports vector(1536) and halfvec(3072) types for OpenAI embeddings.
+
+Triggers: pgvector, vector search, semantic search, hybrid search,
+embedding search, PostgreSQL RAG, BM25, RRF, HNSW index, similarity search,
+ParadeDB, pg_search, reranking, Cohere rerank

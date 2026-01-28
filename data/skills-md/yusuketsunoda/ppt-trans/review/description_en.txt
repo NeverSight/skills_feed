@@ -1,0 +1,1 @@
+Performs comprehensive PR code review from 5 perspectives (quality/performance/tests/docs/security) in parallel, providing Blockers/Suggestions/Nice-to-have and merge decision. Args: /review [owner/repo] [pr-number] [--focus all|security|perf|qa|docs|types] Activates when user mentions "review", "PR確認", "コードレビュー", "マージ判定".

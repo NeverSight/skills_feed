@@ -45,6 +45,8 @@ interface SkillIndexItem {
   installsAllTime: number;
   installsTrending?: number;
   installsHot?: number;
+  // Repo-relative path to the extracted English description text file.
+  // Example: data/skills-md/<source>/<skillId>/description_en.txt
   description?: string;
   skillMdPath?: string; // repo-relative path to cached SKILL.md
 }
@@ -93,6 +95,10 @@ function localSkillMdPath(source: string, skillId: string) {
 
 function repoRelativeSkillMdPath(source: string, skillId: string) {
   return `data/skills-md/${source}/${skillId}/SKILL.md`;
+}
+
+function repoRelativeDescriptionEnPath(source: string, skillId: string) {
+  return `data/skills-md/${source}/${skillId}/description_en.txt`;
 }
 
 function descriptionEnAbsPath(source: string, skillId: string) {
@@ -413,15 +419,16 @@ async function buildSkillsIndex(data: SkillsData) {
   await mapWithConcurrency(data.allTime, 24, async (s, i) => {
     const id = `${s.source}/${s.skillId}`;
     const mdAbs = localSkillMdPath(s.source, s.skillId);
-    let description: string | undefined;
+    let descriptionPath: string | undefined;
     let skillMdPath: string | undefined;
 
     if (existsSync(mdAbs)) {
       try {
         const md = readFileSync(mdAbs, 'utf-8');
-        description = extractDescriptionFromSkillMd(md);
+        const description = extractDescriptionFromSkillMd(md);
         skillMdPath = repoRelativeSkillMdPath(s.source, s.skillId);
         writeDescriptionEnIfChanged(s.source, s.skillId, description);
+        descriptionPath = repoRelativeDescriptionEnPath(s.source, s.skillId);
       } catch {
         // ignore read errors
       }
@@ -437,7 +444,7 @@ async function buildSkillsIndex(data: SkillsData) {
       installsAllTime: s.installs,
       installsTrending: trendingInstallsById.get(id),
       installsHot: hotInstallsById.get(id),
-      description,
+      description: descriptionPath,
       skillMdPath,
     };
 

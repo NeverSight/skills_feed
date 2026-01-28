@@ -1,0 +1,14 @@
+Agent Lens: Real-time observability dashboard for multi-agent Claude Code sessions.
+
+Visualize agent interactions, tool usage, and session flows through a modern dual-pane interface. Track parent-child event relationships with hierarchical timeline visualization, HITL approvals, and comprehensive metrics.
+
+**Key Features:**
+- 👁️ Dual-pane layout (process timeline + results/metrics)
+- 🌳 Span hierarchy visualization with parent-child relationships
+- 🔴 Real-time event streaming via WebSocket
+- 🤖 HITL interface with timeout indicators and three-action pattern
+- 📊 Token usage, cost tracking, and performance metrics
+- 🎨 OLED-optimized dark theme (2026 standards)
+- 💾 Filesystem-based (no database required)
+
+**Version 2.0**

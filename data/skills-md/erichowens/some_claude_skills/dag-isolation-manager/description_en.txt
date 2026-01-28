@@ -1,0 +1,1 @@
+Manages agent isolation levels and resource boundaries. Configures strict, moderate, and permissive isolation profiles. Activate on 'isolation level', 'agent isolation', 'resource boundaries', 'sandboxing', 'agent containment'. NOT for permission validation (use dag-permission-validator) or runtime enforcement (use dag-scope-enforcer).

@@ -1,0 +1,1 @@
+CLI for downloading complete Figma design context and metadata to local files. Always use this CLI instead of calling Figma MCP tools (`get_design_context`, `get_metadata`) directly. Direct MCP tool calls risk incomplete data due to context limits. This CLI guarantees 100% complete output.

@@ -1,0 +1,1 @@
+Retrieves API keys, passwords, secrets from Bitwarden vault using bw CLI. Triggers on missing env variables, missing API keys, missing secrets, "secret not found", "env not set", or "use bw".

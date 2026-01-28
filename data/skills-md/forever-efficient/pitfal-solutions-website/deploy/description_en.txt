@@ -1,0 +1,1 @@
+Deploy the Pitfal Solutions website to AWS. Use when user says deploy, push to production, or update live site. Runs pre-checks, builds Next.js, deploys Terraform infrastructure, syncs to S3, and invalidates CloudFront cache.

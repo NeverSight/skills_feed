@@ -1,0 +1,1 @@
+Utility skill to detect Magento development environment and determine command wrapper. This skill should be used by other skills that need to execute shell commands in the Magento environment. It detects Warden, docker-magento, DDEV, and local environments and provides the appropriate command wrapper.

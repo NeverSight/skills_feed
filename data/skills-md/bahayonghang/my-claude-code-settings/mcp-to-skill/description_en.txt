@@ -1,0 +1,6 @@
+Convert MCP (Model Context Protocol) servers to Claude Code Skills. Use when:
+(1) User wants to convert an MCP server project to a skill
+(2) User mentions "MCP to skill", "convert MCP", or "MCP 转 skill"
+(3) User has an MCP server codebase and wants to make it a reusable skill
+(4) User wants to analyze MCP server structure for skill creation
+Supports TypeScript/JavaScript and Python MCP servers. Generates complete skill package with SKILL.md, scripts, and references.

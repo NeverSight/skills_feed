@@ -1,0 +1,8 @@
+Production-grade Kubernetes manifests and debugging for containerized applications.
+This skill should be used when users ask to deploy to Kubernetes, create K8s manifests,
+containerize for K8s, set up Deployments/Services/Jobs/StatefulSets/CronJobs, create
+namespaces with resource quotas, set up multi-team isolation, configure ResourceQuota/
+LimitRange, secure with RBAC (ServiceAccount, Role, RoleBinding), configure init
+containers (model download, db wait, migrations), set up sidecars (logging, metrics),
+or debug pods (CrashLoopBackOff, logs, exec, describe, events). Auto-detects from
+Dockerfile/code, generates hardened manifests with educational comments. CKAD-aligned.

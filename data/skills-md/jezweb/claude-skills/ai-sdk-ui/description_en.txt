@@ -1,0 +1,3 @@
+Build React chat interfaces with Vercel AI SDK v6. Covers useChat/useCompletion/useObject hooks, message parts structure, tool approval workflows, and 18 UI error solutions. Prevents documented issues with React Strict Mode, concurrent requests, stale closures, and tool approval edge cases.
+
+Use when: implementing AI chat UIs, migrating v5→v6, troubleshooting "useChat failed to parse stream", "stale body values", "React maximum update depth", "Cannot read properties of undefined (reading 'state')", or tool approval workflow errors.

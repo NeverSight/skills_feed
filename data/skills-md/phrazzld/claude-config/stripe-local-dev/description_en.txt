@@ -1,0 +1,8 @@
+Fix Stripe webhook 400 errors in local development. The problem: `stripe listen`
+generates a new secret each time it starts, but your app uses a stale secret from
+.env.local. This skill auto-syncs the ephemeral secret before your dev server starts.
+
+Auto-invoke when: stripe webhooks return 400, "signature verification failed",
+"No signatures found matching", webhooks not working locally, checkout succeeds
+but subscription doesn't update, STRIPE_WEBHOOK_SECRET mismatch, setting up
+stripe listen, configuring pnpm dev with Stripe.

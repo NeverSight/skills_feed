@@ -1,0 +1,1 @@
+Orchestrates access to the Home Assistant REST API for programmatic control of smart home devices. Routes requests to specialized resource files based on task type - authentication, state management, service calls, entity types, or advanced queries. Provides intelligent decision tables for selecting appropriate endpoints and managing integrations.

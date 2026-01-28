@@ -1,0 +1,1 @@
+Pattern for client components calling server actions to set cookies in Next.js. Covers the two-file pattern of a client component with user interaction (onClick, form submission) that calls a server action to modify cookies. Use when building features like authentication, preferences, or session management where client-side triggers need to set/modify server-side cookies.

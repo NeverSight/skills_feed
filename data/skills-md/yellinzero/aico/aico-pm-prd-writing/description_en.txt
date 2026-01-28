@@ -1,0 +1,10 @@
+Create comprehensive Product Requirements Documents (PRD) that define what to build and why, focusing on goals, scope, user stories, and success criteria without implementation details.
+
+Use this skill when:
+- User asks to "write a PRD", "create PRD", "write requirements document"
+- User mentions "requirements document", "product requirements", "product spec"
+- Running /pm.plan command to create version planning document
+- Starting a new product, major feature, or initiative that needs formal requirements
+- Need to document goals, scope, user stories, functional requirements, and success criteria
+
+Output: ALWAYS write PRD files to docs/reference/pm/versions/{version-name}.md

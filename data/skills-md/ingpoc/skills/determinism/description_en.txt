@@ -1,0 +1,1 @@
+Use when verifying outcomes with code instead of LLM judgment, versioning prompts with hashes, or ensuring reproducible agent behavior. Load for any critical verification. Scripts return boolean exit codes, not subjective assessments. Prompts use semantic versioning with SHA256 validation.

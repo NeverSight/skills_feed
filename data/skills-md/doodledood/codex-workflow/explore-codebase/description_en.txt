@@ -1,0 +1,1 @@
+Context-gathering for finding files to read. Maps codebase structure, returns overview + prioritized file list with line ranges. Thoroughness: quick for lookups, medium for bugs/features, thorough for multi-area, very-thorough for architecture audits. Triggers: explore, find files, where is, how does X work.

@@ -1,0 +1,1 @@
+This skill manages all documentation for the Synapse A2A project. It should be used when code changes require documentation updates, when checking documentation consistency, or when manually invoked via /synapse-docs. Triggers automatically when modifying files in synapse/, plugins/, or templates/ directories, and when README.md, guides/, or docs/ need updates.

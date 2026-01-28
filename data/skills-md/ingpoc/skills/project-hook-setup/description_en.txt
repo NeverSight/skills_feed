@@ -1,0 +1,1 @@
+Use when setting up project-specific hooks for Claude Code enforcement. Load during INIT state when .claude/hooks/ is missing, or when creating new project. Installs 5 hooks that read from .claude/config/project.json (tests, health, dependencies).

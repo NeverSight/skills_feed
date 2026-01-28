@@ -1,0 +1,4 @@
+Analyze FastAPI route files and complete API documentation metadata.
+Follows the complete call stack including Depends, traces all possible errors,
+and generates comprehensive OpenAPI documentation elements.
+Use when: user provides a file path with @filename syntax and wants API docs completed.

@@ -1,0 +1,1 @@
+Query observability backends (Loki logs, Prometheus metrics, Tempo traces). Use when user asks about logs, metrics, traces, or debugging production issues. IMPORTANT - Always use haiku subagents to execute queries, never run queries directly.

@@ -1,0 +1,4 @@
+Detects Ralph Loop completion beyond <promise> tags. Use when checking if a task
+is complete, verifying completion status, or detecting graceful exit conditions.
+Implements 4-signal detection: test loops, done signals, completion indicators,
+and fix plan verification.

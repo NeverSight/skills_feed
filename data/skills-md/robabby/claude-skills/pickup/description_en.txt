@@ -1,0 +1,1 @@
+Generate a context handoff prompt before clearing the session. Use when the user wants to preserve conversation state before running /clear, or when ending a session and wanting to resume later. Creates a summary prompt capturing task state, progress, decisions, and next steps that can be pasted into a fresh session.

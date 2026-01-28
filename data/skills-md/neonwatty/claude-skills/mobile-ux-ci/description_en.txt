@@ -1,0 +1,1 @@
+Generates Playwright tests that detect iOS/mobile UX anti-patterns in CI. Use this when the user wants to add automated UX pattern checks for web apps targeting mobile/iOS. Creates tests that FAIL when hamburger menus, FABs, small touch targets, or other anti-patterns are detected.

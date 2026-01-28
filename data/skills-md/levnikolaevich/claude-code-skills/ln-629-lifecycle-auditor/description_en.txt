@@ -1,0 +1,1 @@
+Application lifecycle audit worker (L3). Checks bootstrap initialization order, graceful shutdown, resource cleanup, signal handling, liveness/readiness probes. Returns findings with severity, location, effort, recommendations.

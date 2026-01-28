@@ -1,0 +1,3 @@
+Microsoft Entra ID (Azure AD) authentication for React SPAs with MSAL.js and Cloudflare Workers JWT validation using jose library. Full-stack pattern with Authorization Code Flow + PKCE. Prevents 8 documented errors.
+
+Use when: implementing Microsoft SSO, troubleshooting AADSTS50058 loops, AADSTS700084 refresh token errors, React Router redirects, setActiveAccount re-render issues, or validating Entra ID tokens in Workers.

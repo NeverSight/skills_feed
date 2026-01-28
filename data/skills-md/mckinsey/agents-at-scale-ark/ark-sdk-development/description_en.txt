@@ -1,0 +1,1 @@
+Regenerate and debug types across the ARK stack (SDK, API, Dashboard). Use when fixing TypeScript type errors in ark-dashboard, updating types after CRD changes, regenerating types.ts from OpenAPI spec, debugging "Property does not exist on type" schema errors, or adding custom SDK functionality via overlays. Covers the full type pipeline from Kubernetes CRDs to TypeScript.

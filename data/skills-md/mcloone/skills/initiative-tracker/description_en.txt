@@ -1,0 +1,14 @@
+Manage product initiatives, epics, and stakeholders through natural language commands.
+Stores data as Logseq-compatible markdown files with YAML frontmatter.
+
+Use when users need to:
+- Create, update, list, or show initiatives and epics
+- Track completeness of initiative documentation
+- Manage people, teams, and partners
+- Check what information is missing
+- Initialize the repository structure
+
+Triggers on: /init_repository, /create_initiative, /list_initiatives, /show_initiative,
+/update_initiative, /what_missing, /create_epic, /list_epics, /create_person,
+/create_team, /create_partner, /create_product_area, /list_product_areas,
+/show_product_area, /update_product_area, /help

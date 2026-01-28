@@ -1,0 +1,4 @@
+Auto-generates code flow diagrams from Python module analysis.
+Detects when architecture diagrams become stale (code changed, diagram didn't).
+Use when: creating new modules, reviewing PRs for architecture impact, or checking diagram freshness.
+Generates mermaid diagrams showing imports, dependencies, and module relationships.

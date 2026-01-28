@@ -1,0 +1,6 @@
+Post-merge paper-voice gate: detect planner-talk / axis-label artifacts introduced during merge (especially from `outline/transitions.md`), then route fixes back to the earliest source.
+**Trigger**: post-merge voice gate, merge voice gate, transition leakage, planner talk, 合并后口吻门, 过渡句污染.
+**Use when**: `section-merger` has produced `output/DRAFT.md` and you want to ensure merge-injected text won't drag the draft into generator voice before polishing.
+**Skip if**: you are still pre-merge (no `output/DRAFT.md`) or you plan to rework structure upstream first.
+**Network**: none.
+**Guardrail**: analysis-only; do not edit `output/DRAFT.md`; do not invent facts/citations; write only the report + routing.

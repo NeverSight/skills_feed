@@ -1,0 +1,6 @@
+Select the most appropriate pipeline for a user goal, lock it in `PIPELINE.lock.md`, and route checkpoint questions into `DECISIONS.md`.
+**Trigger**: pipeline router, choose pipeline, workflow selection, PIPELINE.lock.md, 选择流程.
+**Use when**: 用户目标/交付物不清晰，需要在 snapshot/survey/tutorial/systematic-review/peer-review 中选一个并设置最小 HITL 问题集。
+**Skip if**: pipeline 已锁定（`PIPELINE.lock.md` 存在）且所需问题已回答/签字完成。
+**Network**: none.
+**Guardrail**: 尽量一次性提问；信息不足就写 `DECISIONS.md` 并停下等待。

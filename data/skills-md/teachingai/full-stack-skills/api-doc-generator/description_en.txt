@@ -1,0 +1,5 @@
+Provides comprehensive guidance for generating API documentation by scanning code interfaces, extracting request/response 
+information, and creating standardized API documentation. Use ONLY when the user explicitly mentions generating API 
+documentation, creating API docs, scanning interfaces, or documenting APIs. The skill scans Controller classes, extracts 
+interface information (URL, method, parameters, response), and generates documentation following standard templates. 
+Do NOT trigger for generic documentation requests without explicit API documentation mention.

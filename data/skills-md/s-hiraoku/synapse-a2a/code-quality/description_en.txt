@@ -1,0 +1,1 @@
+Run code quality checks (ruff, mypy, pytest) and optionally simplify code. This skill should be used when the user wants to check code quality, run linters, run tests, or simplify recently modified code. Triggered by /lint, /check, or /code-quality commands.

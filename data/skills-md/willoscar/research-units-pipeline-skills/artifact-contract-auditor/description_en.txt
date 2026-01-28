@@ -1,0 +1,7 @@
+Audit the workspace against the pipeline artifact contract (DONE outputs + pipeline target_artifacts).
+Writes `output/CONTRACT_REPORT.md`.
+**Trigger**: contract audit, artifact contract, missing artifacts, target_artifacts, CONTRACT_REPORT.
+**Use when**: you want an auditable PASS/FAIL view of whether a workspace is complete and self-contained (end of run or before sharing).
+**Skip if**: you are still intentionally mid-run and don’t care about completeness yet (but it’s still useful as a snapshot).
+**Network**: none.
+**Guardrail**: analysis-only; do not edit content artifacts; only write the report.

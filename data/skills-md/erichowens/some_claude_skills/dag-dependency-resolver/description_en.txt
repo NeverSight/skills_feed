@@ -1,0 +1,1 @@
+Validates DAG structures, performs topological sorting, detects cycles, and resolves dependency conflicts. Uses Kahn's algorithm for optimal execution ordering. Activate on 'resolve dependencies', 'topological sort', 'cycle detection', 'dependency order', 'validate dag'. NOT for building DAGs (use dag-graph-builder) or scheduling execution (use dag-task-scheduler).

@@ -1,0 +1,4 @@
+Get started with Olakai - install, authenticate, and set up your first agent.
+AUTO-INVOKE when: CLI is not installed, user is not authenticated, user asks about getting started with Olakai, user wants to try Olakai, user mentions they don't have an account yet, or when other skills fail due to missing prerequisites.
+TRIGGER KEYWORDS: get started, setup, install olakai, olakai account, sign up, signup, new to olakai, try olakai, olakai onboarding, first agent, getting started, no account, create account, register.
+DO NOT load for: users who are already authenticated and have agents set up (use olakai-create-agent, olakai-add-monitoring, or olakai-troubleshoot instead).

@@ -1,0 +1,14 @@
+Real-time observability dashboard for multi-agent Claude Code sessions.
+
+Visualize agent interactions, tool usage, and session flows in real-time through a web dashboard. Track multiple agents running in parallel with swim lane visualization, event filtering, and live charts.
+
+**Key Features:**
+- 🔴 Real-time event streaming via WebSocket
+- 📊 Agent swim lanes showing parallel execution
+- 🔍 Event filtering by agent, session, event type
+- 📈 Live charts for tool usage patterns
+- 💾 Filesystem-based (no database required)
+
+**Inspired by [@indydevdan](https://github.com/indydevdan)**'s work on multi-agent observability.
+
+**Our approach:** Filesystem + in-memory streaming vs. indydevdan's SQLite database approach.

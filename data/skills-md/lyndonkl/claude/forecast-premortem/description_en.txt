@@ -1,0 +1,1 @@
+Use to stress-test predictions by assuming they failed and working backward to identify why. Invoke when confidence is high (>80% or <20%), need to identify tail risks and unknown unknowns, or want to widen overconfident intervals. Use when user mentions premortem, backcasting, what could go wrong, stress test, or black swans.

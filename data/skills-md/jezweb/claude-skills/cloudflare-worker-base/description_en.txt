@@ -1,0 +1,3 @@
+Set up Cloudflare Workers with Hono routing, Vite plugin, and Static Assets. Prevents 10 errors including export syntax, routing conflicts, Vite 8 nodejs_compat, base option regression, and cache corruption.
+
+Use when: creating Workers projects, configuring Hono/Vite, or troubleshooting export syntax, API route conflicts, HMR issues, or Vite 8+ compatibility.

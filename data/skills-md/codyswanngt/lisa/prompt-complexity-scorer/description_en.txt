@@ -1,0 +1,1 @@
+Evaluates user prompts for effort and complexity on a 1-10 scale. This skill should be invoked on every user request to determine if the request warrants planning via a project. For scores 5-10, the agent suggests creating a project at projects/<date>-<project-name>/ to enable task tracking and team collaboration.

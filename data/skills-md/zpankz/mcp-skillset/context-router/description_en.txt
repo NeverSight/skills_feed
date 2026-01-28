@@ -1,0 +1,3 @@
+Routes context extraction requests to appropriate CLI tools. Triggers on /context,
+/limitless, /research, /pieces, or detected context needs from intent hook.
+Supports single, parallel, and augmented extraction modes.

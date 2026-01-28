@@ -1,0 +1,1 @@
+Identifies when task outputs require iteration based on quality signals, unmet requirements, or explicit feedback. Triggers appropriate re-execution strategies. Activate on 'needs iteration', 'retry needed', 'not good enough', 'try again', 'refine output'. NOT for feedback generation (use dag-feedback-synthesizer) or convergence tracking (use dag-convergence-monitor).

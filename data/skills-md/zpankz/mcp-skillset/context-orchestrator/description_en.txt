@@ -1,0 +1,5 @@
+Orchestrates context retrieval from three CLI sources: limitless (personal
+life transcripts), research (online documentation/facts), pieces (local code/LTM).
+Use when external context is needed beyond the current codebase. Triggers on
+/context, /limitless, /research, /pieces, or balanced detection on complex prompts
+involving personal memory, technical documentation, or development history.

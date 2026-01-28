@@ -1,0 +1,7 @@
+Render DNA codes to Pencil .pen frames. Does ONE thing well.
+
+Input: DNA code + component type (hero, card, form, etc.)
+Output: .pen frame ID + screenshot
+
+Use when: design-exploration or other orchestrators need to render
+visual proposals using Pencil MCP backend.

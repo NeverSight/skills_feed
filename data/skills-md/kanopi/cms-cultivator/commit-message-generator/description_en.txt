@@ -1,0 +1,1 @@
+Automatically generate conventional commit messages when user has staged changes and mentions committing. Analyzes git diff and status to create properly formatted commit messages following conventional commits specification. Invoke when user mentions "commit", "staged", "committing", or asks for help with commit messages.

@@ -1,0 +1,1 @@
+Pre-flight check for Ralph TUI loops. Validates config, templates, prd.json, and environment before starting a loop. Run after /prd to verify everything is ready. Detects global CLAUDE.md conflicts, validates template variables, and provides launch commands.

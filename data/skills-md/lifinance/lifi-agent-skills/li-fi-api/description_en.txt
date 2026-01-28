@@ -1,0 +1,13 @@
+REST API for cross-chain and same-chain token swaps, bridging, and DeFi operations.
+
+USE THIS SKILL WHEN USER WANTS TO:
+- Swap tokens between different blockchains (e.g., "swap USDC on Ethereum to ETH on Arbitrum")
+- Bridge tokens to another chain (e.g., "move my ETH from mainnet to Optimism")
+- Swap tokens on the same chain with best rates (e.g., "swap ETH to USDC on Polygon")
+- Find the best route or quote for a token swap across chains
+- Execute DeFi operations across chains (zap, bridge+swap+deposit, yield farming entry)
+- Build multi-chain payment flows (accept any token, settle in specific token)
+- Check supported chains, tokens, or bridges for cross-chain transfers
+- Track status of a cross-chain transaction
+- Build backend services (Python, Go, Rust, etc.) that need cross-chain swaps
+- Integrate cross-chain functionality via HTTP/REST (not JavaScript SDK)

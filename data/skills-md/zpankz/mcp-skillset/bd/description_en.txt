@@ -1,0 +1,1 @@
+Git-native issue tracking with first-class dependency support. Issues stored alongside code in .beads/ directory, dual-persisted in SQLite (queries) and JSONL (git-friendly history). Hash-based IDs, DAG dependencies, daemon mode with RPC, and LSP-inspired multi-workspace support.

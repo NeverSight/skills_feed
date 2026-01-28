@@ -1,0 +1,1 @@
+Use toSorted() instead of sort() to avoid mutating arrays. Apply when sorting arrays that are React props, state, or otherwise shared/referenced elsewhere.

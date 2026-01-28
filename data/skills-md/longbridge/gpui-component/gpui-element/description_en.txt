@@ -1,0 +1,1 @@
+Implementing custom elements using GPUI's low-level Element API (vs. high-level Render/RenderOnce APIs). Use when you need maximum control over layout, prepaint, and paint phases for complex, performance-critical custom UI components that cannot be achieved with Render/RenderOnce traits.

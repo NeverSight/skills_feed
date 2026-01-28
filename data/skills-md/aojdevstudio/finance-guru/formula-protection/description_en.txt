@@ -1,0 +1,1 @@
+Prevent accidental modification of sacred spreadsheet formulas in Google Sheets Portfolio Tracker. Blocks edits to GOOGLEFINANCE formulas, calculated columns, and total rows. Allows only IFERROR wrappers, fixing broken references, and expanding ranges. Triggers on update formula, modify column, fix errors, or any attempt to edit formula-based cells.

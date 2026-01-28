@@ -1,0 +1,9 @@
+Trigger when: (1) Working with Rive scripts or Luau code,
+(2) Code contains Node, Layout, Converter, or PathEffect protocols,
+(3) User mentions "Rive scripting" or "Rive Luau",
+(4) Drawing with Path, Paint, Renderer APIs,
+(5) Files have .lua extension in a Rive project context.
+
+Best practices for Rive Scripting - Luau-based scripts for procedural
+graphics, custom layouts, data converters, and path effects that run
+inside Rive animations.

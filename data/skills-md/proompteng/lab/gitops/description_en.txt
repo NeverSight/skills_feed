@@ -1,0 +1,1 @@
+GitOps workflows for this repo: edit Argo CD/Kubernetes/infra manifests in version control, validate changes, and rely on Argo CD to sync. Use when tasks touch argocd/, kubernetes/, tofu/, ansible/, or deployment/runbook changes, or when asked to roll out services via GitOps.

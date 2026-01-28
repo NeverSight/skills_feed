@@ -1,0 +1,1 @@
+Use when maintaining Debian packages that need Qt5/Qt6 dual support, CMakeLists.txt has hard-coded Qt5/Qt6 or DTK5/DTK6 versions, or projects need dynamic library linking based on detected Qt version for deepin V25/V20 compatibility

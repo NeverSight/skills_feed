@@ -1,0 +1,1 @@
+Concurrency audit worker (L3). Checks race conditions, missing async/await, resource contention, thread safety, deadlock potential. Returns findings with severity, location, effort, recommendations.

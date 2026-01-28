@@ -1,0 +1,1 @@
+Audit code for testability design patterns. Identifies business logic entangled with IO, hard-coded dependencies, and mocking friction. Suggests functional core / imperative shell separation. Read-only analysis. Triggers: review testability, testable code, mocking issues, dependency injection.

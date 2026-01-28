@@ -1,0 +1,1 @@
+Use when setting up global hooks for Claude Code enforcement. Load when ~/.claude/hooks/ is missing or incomplete, or when explicitly requested. Installs 7 project-agnostic hooks (state transitions, git hygiene, outcome tracking). Run once per machine.

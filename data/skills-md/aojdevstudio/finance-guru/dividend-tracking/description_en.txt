@@ -1,0 +1,1 @@
+Sync dividend data from Fidelity CSV to Dividends sheet. Reads dividend.csv from notebooks/updates/, calculates actual dividends received (shares × amount per share), writes to input area (rows 2-46), then clicks Add Dividend button to process. Triggers on sync dividends, update dividends, dividend tracker, layer 2 income, or monthly dividend analysis.

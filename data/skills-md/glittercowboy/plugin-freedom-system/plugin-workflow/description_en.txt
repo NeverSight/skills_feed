@@ -1,0 +1,1 @@
+Orchestrates JUCE plugin implementation through stages 1-3 (Foundation, DSP, GUI) using subagent delegation with automatic validation after each stage. Use when implementing plugins after planning completes, or when resuming with /continue command. Invoked by /implement command.

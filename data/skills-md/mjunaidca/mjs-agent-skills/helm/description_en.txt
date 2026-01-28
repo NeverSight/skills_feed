@@ -1,0 +1,6 @@
+Production-grade Helm 4 chart development, release management, and debugging.
+This skill should be used when users ask to create Helm charts, deploy with Helm,
+manage releases (install/upgrade/rollback), push charts to OCI registries, debug
+failed deployments, configure chart dependencies, create umbrella charts, set up
+GitOps with ArgoCD/Flux, or troubleshoot Helm issues. Auto-detects from Dockerfile/code,
+generates production-hardened charts with library patterns. Complements kubernetes skill.

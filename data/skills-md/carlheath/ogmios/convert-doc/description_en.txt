@@ -1,0 +1,12 @@
+Smart Document Pipeline - Context-Efficient Document Handling
+
+Converts PDF, Word, PowerPoint, Excel to clean markdown.
+Auto-summarizes large documents. Caches for reuse.
+
+TRIGGERS: convert, konvertera, pdf to markdown, docx to md, pptx
+
+WHY:
+- PDFs can consume 30+ MB context when read directly
+- Converted markdown is 95-99% smaller
+- Summary versions are 99.9% smaller
+- Cached versions reuse across sessions

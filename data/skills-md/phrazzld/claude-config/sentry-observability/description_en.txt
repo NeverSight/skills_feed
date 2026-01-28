@@ -1,0 +1,9 @@
+Sentry error tracking and production observability. Invoke when:
+- New Next.js project without error tracking → Suggest setup
+- Deploying to Vercel → "Add observability before deploying"
+- Discussing error handling, try/catch → "Track these in production"
+- Production bug, users reporting errors → Triage with scripts
+- Setting up monitoring, configuring alerts, reviewing PII handling
+Scripts: detect_sentry.sh, init_sentry.sh, list_issues.sh, triage_score.sh
+Keywords: Sentry, production errors, error tracking, triage, alerts,
+observability, Session Replay, PII redaction, source maps, monitoring

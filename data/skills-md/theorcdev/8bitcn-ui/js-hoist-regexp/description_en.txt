@@ -1,0 +1,1 @@
+Hoist RegExp creation outside render or memoize with useMemo(). Apply when using regular expressions in React components or frequently called functions.

@@ -1,0 +1,1 @@
+Wave-based parallel scheduling for DAG execution. Manages execution order, resource allocation, and parallelism constraints. Activate on 'schedule dag', 'execution waves', 'parallel scheduling', 'task queue', 'resource allocation'. NOT for building DAGs (use dag-graph-builder) or actual execution (use dag-parallel-executor).

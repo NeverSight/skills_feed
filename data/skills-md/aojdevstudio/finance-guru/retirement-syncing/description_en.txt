@@ -1,0 +1,1 @@
+Sync retirement account data from Vanguard and Fidelity CSV exports to Google Sheets DataHub. Handles multiple accounts, aggregates holdings by ticker, and updates quantities in retirement section (rows 46-62). Triggers on sync retirement, update retirement, vanguard sync, 401k update, IRA sync, or working with notebooks/retirement-accounts/ files.

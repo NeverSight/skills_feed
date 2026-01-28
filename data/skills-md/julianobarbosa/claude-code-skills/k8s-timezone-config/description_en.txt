@@ -1,0 +1,1 @@
+Configure timezone for Kubernetes pods using TZ environment variable. Use when deploying workloads that need Brazil/São Paulo timezone or when logs show UTC (+0000) instead of local time.

@@ -1,0 +1,1 @@
+Parses complex problems into DAG (Directed Acyclic Graph) execution structures. Decomposes tasks into nodes with dependencies, identifies parallelization opportunities, and creates optimal execution plans. Activate on 'build dag', 'create workflow graph', 'decompose task', 'execution graph', 'task graph'. NOT for simple linear tasks or when an existing DAG structure is provided.

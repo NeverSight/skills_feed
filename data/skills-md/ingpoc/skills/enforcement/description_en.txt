@@ -1,0 +1,1 @@
+Use when implementing hooks that BLOCK invalid actions, creating quality gates for state transitions, or enforcing tested:true verification. Load when designing enforcement mechanisms. Uses exit code 2 to block, JSON permissionDecision:deny, or updatedInput modification. Rules are instructions; hooks are enforcement.

@@ -1,0 +1,1 @@
+REQUIRED when modifying any file in packages/playground-ui or packages/playground. Triggers on: React component creation/modification/refactoring, UI changes, new playground features, bug fixes affecting studio UI. Generates Playwright E2E tests that validate PRODUCT BEHAVIOR, not just UI states.

@@ -1,0 +1,1 @@
+Extract expensive work into memoized components with React.memo. Apply when components perform expensive computations that can be skipped when props haven't changed.

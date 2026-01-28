@@ -1,0 +1,1 @@
+Fix Python code formatting issues using the Ruff formatter. Use when: (1) Formatting errors are detected by ruff format --check, (2) Python files need to be formatted to match project style, (3) Pre-commit hooks or CI fail due to formatting issues.

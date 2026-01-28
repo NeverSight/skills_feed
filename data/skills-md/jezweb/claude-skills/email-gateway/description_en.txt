@@ -1,0 +1,6 @@
+Multi-provider email sending for Cloudflare Workers and Node.js applications.
+
+Build transactional email systems with Resend (React Email support), SendGrid (enterprise scale),
+Mailgun (developer webhooks), or SMTP2Go (reliable relay). Includes template patterns, webhook
+verification, attachment handling, and error recovery. Use when sending emails via API, handling
+bounces/complaints, or migrating between providers.

@@ -1,0 +1,13 @@
+This skill should be used when the user asks to "create a 3D scene", "add a mesh",
+"implement OrbitControls", "load a GLTF model", "add bloom post-processing",
+"write a custom shader", "create particle effects", "optimize Three.js performance",
+"use WebGPU", "add shadows", "animate a model", or mentions Three.js, threejs, WebGL,
+WebGPU, GLTF, raycaster, shader material, PBR material, or post-processing effects.
+
+IMPORTANT: This skill is for VANILLA Three.js (imperative JavaScript). For React Three
+Fiber (@react-three/fiber, R3F, drei), check the `r3f-best-practices` skill, although three-js skills helps when working with R3F since R3F is a React renderer for Three.js.
+
+Provides complete Three.js reference for 3D web graphics including scene setup,
+geometry, materials, textures, lighting, cameras, loaders, animation, controls,
+interaction, shaders, post-processing, performance optimization, TSL/node materials,
+WebGPU, physics, and VR/XR integration.

@@ -1,0 +1,1 @@
+Combines and synthesizes outputs from parallel DAG branches. Handles merge strategies, conflict resolution, and result formatting. Activate on 'aggregate results', 'combine outputs', 'merge branches', 'synthesize results', 'fan-in'. NOT for execution (use dag-parallel-executor) or scheduling (use dag-task-scheduler).

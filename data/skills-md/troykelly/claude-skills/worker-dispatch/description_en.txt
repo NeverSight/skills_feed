@@ -1,0 +1,1 @@
+Use to spawn isolated worker processes for autonomous issue work. Uses Task tool with run_in_background for parallel execution and TaskOutput for monitoring. Pre-extracts context to minimize worker token usage.

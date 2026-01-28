@@ -1,0 +1,6 @@
+Execute exactly one runnable unit from `UNITS.csv` (first TODO whose dependencies are DONE), then update unit status and artifacts.
+**Trigger**: unit executor, run one unit, next unit, step-by-step pipeline, 逐条执行, UNITS.csv.
+**Use when**: 需要严格“一次只做一个 unit”（可审计、可中断），并遵守 checkpoints/HUMAN 阻塞逻辑。
+**Skip if**: 要端到端自动跑（用 `research-pipeline-runner`）或 workspace 不存在。
+**Network**: none.
+**Guardrail**: 只执行一个 unit；满足验收且输出存在才可标 `DONE`；遇到 HUMAN checkpoint 必须停下。

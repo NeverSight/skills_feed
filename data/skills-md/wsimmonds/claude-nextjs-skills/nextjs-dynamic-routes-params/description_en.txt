@@ -1,0 +1,1 @@
+Guide for Next.js App Router dynamic routes and pathname parameters. Use when building pages that depend on URL segments (IDs, slugs, nested paths), accessing the `params` prop, or fetching resources by identifier. Helps avoid over-nesting by defaulting to the simplest route structure (e.g., `app/[id]` instead of `app/products/[id]` unless the URL calls for it).

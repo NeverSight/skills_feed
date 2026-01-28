@@ -1,0 +1,6 @@
+Argument self-loop: maintain an argument ledger + premise consistency report for drafted sections.
+**Trigger**: argument self-loop, argument chain, premise consistency, section self-check, paragraph contract, 论证自循环, 论证链路, 前提一致性, 段落论证动作.
+**Use when**: you are in C5 (PROSE allowed), `sections/*.md` exist, and you want to prevent “smooth but hollow” writing by enforcing argument moves + premise hygiene before merge.
+**Skip if**: you are pre-C2 (NO PROSE), or evidence packs are scaffolded/thin (route upstream to `evidence-selfloop` first).
+**Network**: none.
+**Guardrail**: do not invent facts; do not add/remove/move citation keys; do not move citations across subsections; the argument ledger is an intermediate artifact and must never be inserted into the paper.

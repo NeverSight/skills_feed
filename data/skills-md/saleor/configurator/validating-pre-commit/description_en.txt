@@ -1,0 +1,1 @@
+Runs quality gate checks before commit or push. Executes lint fixes, TypeScript compilation, tests, and CI validation. Reproduces CI failures locally. Triggers on: pre-commit, pre-push, quality check, CI check, lint check, type check, validate changes, check:fix, pnpm test.
