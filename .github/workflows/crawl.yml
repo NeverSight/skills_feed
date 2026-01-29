@@ -71,3 +71,38 @@ jobs:
             git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
             sleep $((i * 2))
           done
+      
+      # Translate descriptions (GitHub Actions bot push won't trigger other workflows)
+      - name: Setup Python for translation
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install translation dependencies
+        run: pip install deep-translator
+      
+      - name: Run translation
+        run: |
+          # Translate up to 500 new descriptions per run
+          python scripts/translate_descriptions.py --limit 500
+      
+      - name: Commit translations
+        run: |
+          git add data/skills-md/
+          if git diff --staged --quiet; then
+            echo "No new translations to commit"
+          else
+            git commit -m "chore: auto-translate description_en.txt to description_cn.txt"
+            
+            # Rebase and push
+            git fetch origin main
+            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            
+            for i in 1 2 3 4 5; do
+              git push && break
+              echo "Push failed, retrying ($i/5)..."
+              git fetch origin main
+              git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+              sleep $((i * 2))
+            done
+          fi
