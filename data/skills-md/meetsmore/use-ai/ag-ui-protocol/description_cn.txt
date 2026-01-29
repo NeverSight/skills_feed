@@ -1,0 +1,1 @@
+用于构建 AI 代理前端的 AG-UI（代理-用户交互）协议参考。在实现 AG-UI 事件（RUN_STARTED、TEXT_MESSAGE_*、TOOL_CALL_*、STATE_*）、构建与前端通信的代理、实现流响应、使用快照/增量的状态管理、工具调用生命周期或调试 AG-UI 事件流时使用。

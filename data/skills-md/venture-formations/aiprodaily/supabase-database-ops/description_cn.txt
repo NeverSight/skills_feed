@@ -1,0 +1,1 @@
+Supabase 数据库操作的关键护栏，确保通过 Publication_id 过滤实现多租户隔离、正确使用 supabaseAdmin、避免 SELECT *、错误处理模式以及安全的服务器端数据库访问。在编写数据库查询、使用 supabase、访问 newsletter_campaigns、文章、rss_posts 或任何租户范围的数据时使用。

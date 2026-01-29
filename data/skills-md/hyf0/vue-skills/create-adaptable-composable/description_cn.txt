@@ -1,0 +1,1 @@
+创建一个库级 Vue 可组合项，它接受 Maybe-reactive 输入 (MaybeRef / MaybeRefOrGetter)，以便调用者可以传递普通值、ref 或 getter。使用反应效果 (watch/watchEffect) 内的 toValue()/toRef() 标准化输入，以保持行为可预测和反应。当用户要求创建适应性强或可重用的可组合项时，请使用此技能。

@@ -1,0 +1,1 @@
+该技能分析图表、图表或仿真规范，并返回最适合使用的 MicroSim 生成器技能的排名列表。它将规范与所有可用的 microsim 生成器（p5.js、ChartJS、Plotly、Mermaid、vis-network、时间线、地图、Venn、bubble）的功能进行比较，并提供匹配分数（0-100）以及每个建议的详细推理。当用户有图表规范并且需要有关使用哪种 MicroSim 生成器技能的指导时，请使用此技能。

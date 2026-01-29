@@ -1,0 +1,1 @@
+当用户提及 Drupal 模块 + 错误/bug/问题时，即使没有堆栈跟踪，也是必需的。触发条件：(1)“<module_name> 模块有错误/bug/问题”，(2)“Acquia/Pantheon/Platform.sh”+ 模块问题，(3) 任何 contrib 模块名称（元标记、webform、mcp、段落等）+ 问题描述。在编写任何补丁之前搜索 drupal.org。不仅仅用于上游贡献 - 用于对 contrib/core 的所有本地修复。

@@ -1,0 +1,1 @@
+TypeScript 的 Effect-TS（Effect）指南：设计和实现基于 Effect 的代码、对预期错误与缺陷进行建模、使用 Context/Layer/Effect.Service 管理依赖关系、使用 Scope 处理资源生命周期、在程序边缘运行effect、使用 Effect.gen、使用 Effect Schema 验证数据以及使用 TestClock 测试时间。当被要求构建、重构、审查或解释 Effect 代码或将 Promise/async 代码转换为 Effect 时使用。

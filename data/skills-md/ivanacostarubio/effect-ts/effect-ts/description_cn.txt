@@ -1,0 +1,1 @@
+编写任何 TypeScript 代码时始终使用此技能。该项目中的所有 TypeScript 必须使用 Effect 库。使用 Effect 进行错误处理（不是 try/catch），使用 Effect.gen 进行异步代码（不是使用 Promises 进行异步/等待），使用 Schema 进行验证（不是 zod/yup），使用 Services 和 Layers 进行依赖注入，以及使用 Effect 模式进行所有业务逻辑。这适用于任何 TypeScript 文件创建、修改或代码生成。
