@@ -1,0 +1,3 @@
+Build secure desktop applications with Electron 33, Vite, React, and TypeScript. Covers type-safe IPC via contextBridge, OAuth with custom protocol handlers, native module compatibility (better-sqlite3, electron-store), and electron-builder packaging.
+
+Use when building cross-platform desktop apps, implementing OAuth flows in Electron, handling main/renderer process communication, or packaging with code signing. Prevents: NODE_MODULE_VERSION mismatch, hardcoded encryption keys, context isolation bypasses, sandbox conflicts with native modules.

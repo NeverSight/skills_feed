@@ -1,0 +1,1 @@
+Set up codebase intelligence for AI agents. Runs the agentifind CLI to extract code structure using LSP (pyright/tsserver) with tree-sitter fallback, then synthesizes a CODEBASE.md navigation guide. Run this skill to get a complete codebase map in .claude/ directory.

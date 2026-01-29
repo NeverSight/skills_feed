@@ -1,0 +1,17 @@
+Validates complete requirements traceability across EARS requirements → design → tasks → code → tests.
+
+Trigger terms: traceability, requirements coverage, coverage matrix, traceability matrix,
+requirement mapping, test coverage, EARS coverage, requirements tracking, traceability audit,
+gap detection, orphaned requirements, untested code, coverage validation, traceability analysis.
+
+Enforces Constitutional Article V (Traceability Mandate) with comprehensive validation:
+- Requirement → Design mapping (100% coverage)
+- Design → Task mapping
+- Task → Code implementation mapping
+- Code → Test mapping (100% coverage)
+- Gap detection (orphaned requirements, untested code)
+- Coverage percentage reporting
+- Traceability matrix generation
+
+Use when: user needs traceability validation, coverage analysis, gap detection,
+or requirements tracking across the full development lifecycle.

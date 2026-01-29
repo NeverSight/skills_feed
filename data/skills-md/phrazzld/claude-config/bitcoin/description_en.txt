@@ -1,0 +1,5 @@
+Complete Bitcoin payment lifecycle. Audits current state, fixes all issues,
+and verifies payment flows work end-to-end. Every run does all of this.
+
+Auto-invoke when: files contain bitcoin/btc/utxo/satoshi, imports bitcoin
+packages, references BITCOIN_* or BTC_* env vars, wallet handlers modified.

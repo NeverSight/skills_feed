@@ -1,0 +1,1 @@
+Semantic content auditor (L3 Worker). Verifies document content matches stated SCOPE, aligns with project goals, and reflects actual codebase state. Called by ln-600 for each project document. Returns scope_alignment and fact_accuracy scores with findings.

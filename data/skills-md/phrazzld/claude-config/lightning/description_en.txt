@@ -1,0 +1,5 @@
+Complete Lightning Network lifecycle. Audits channels, routing, invoices.
+Plans capacity, executes rebalancing, verifies payments. Every run does all.
+
+Auto-invoke when: files contain lightning/lnd/bolt11/invoice, imports
+lightning packages, references LND_* env vars, channel handlers modified.

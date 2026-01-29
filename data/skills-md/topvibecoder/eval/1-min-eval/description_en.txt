@@ -1,0 +1,1 @@
+Fast codebase evaluation using Claude CLI. Scans code to extract repo tree and source files, then runs parallel metric evaluations (impact, technical, creativity, presentation, prompt_design) via claude -p. Automatically submits to TopVibeCoder ranking API and tracks progress over time. Use when evaluating LLM apps, hackathon projects, or code quality.

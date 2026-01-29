@@ -1,0 +1,1 @@
+Divide-and-conquer implementation from specs/plans. Decomposes a reference document into independent tasks, assigns each to a builder agent, executes in parallel waves respecting dependencies, then integrates results. Use when you have a spec, PRD, plan, or large feature to implement quickly with parallel execution.

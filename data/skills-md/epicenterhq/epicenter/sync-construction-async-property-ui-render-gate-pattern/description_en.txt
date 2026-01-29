@@ -1,0 +1,1 @@
+Sync construction with async property pattern. Use when creating clients that need async initialization but must be exportable from modules and usable synchronously in UI components.

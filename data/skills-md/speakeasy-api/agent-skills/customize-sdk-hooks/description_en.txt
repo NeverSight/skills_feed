@@ -1,0 +1,7 @@
+Guide for implementing SDK lifecycle hooks to customize request/response behavior.
+Covers hook types, registration patterns, and practical examples for adding
+custom headers, telemetry, security signatures, and error handling.
+
+Trigger phrases: "SDK hooks", "add hooks", "BeforeRequestHook", "custom user-agent",
+"telemetry hook", "SDK middleware", "intercept requests", "custom security hook",
+"HMAC authentication"

@@ -1,0 +1,312 @@
+---
+name: lineageos
+description: Use when working with LineageOS custom ROM development, including syncing sources, building, device trees, repopick, Gerrit contributions, or LineageOS-specific features. Triggers on "LineageOS", "lineage-sdk", "breakfast", "brunch", "repopick", "vendor/lineage", "lineage.dependencies", "mka bacon".
+---
+
+# LineageOS Development
+
+This skill covers LineageOS custom ROM development - from syncing sources to building and contributing.
+
+## Getting Started
+
+### Initialize Source
+
+```bash
+mkdir ~/lineage && cd ~/lineage
+
+# Install repo (if needed)
+mkdir -p ~/.bin
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+chmod a+x ~/.bin/repo
+export PATH="$HOME/.bin:$PATH"
+
+# Init LineageOS 21 (Android 14)
+repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+
+# Sync
+repo sync -c -j$(nproc) --force-sync --no-tags --no-clone-bundle
+```
+
+### Build Commands
+
+```bash
+# Setup environment
+source build/envsetup.sh
+
+# Setup device (syncs device repos too)
+breakfast <device>
+
+# Build flashable ZIP
+brunch <device>
+# Or separately:
+breakfast <device>
+mka bacon
+
+# Output: out/target/product/<device>/lineage-21.0-*-UNOFFICIAL-<device>.zip
+```
+
+---
+
+## Essential Commands
+
+| Command              | Purpose                          |
+| -------------------- | -------------------------------- |
+| `breakfast <device>` | Setup device + sync dependencies |
+| `brunch <device>`    | breakfast + full build           |
+| `mka bacon`          | Build flashable ZIP              |
+| `mka bootimage`      | Build kernel only                |
+| `mka systemimage`    | Build system only                |
+| `repopick <change>`  | Cherry-pick from Gerrit          |
+
+---
+
+## Device Trees
+
+### Required Files
+
+```
+device/<vendor>/<device>/
+├── lineage_<device>.mk      # Product makefile
+├── lineage.dependencies     # Repo dependencies
+├── vendorsetup.sh           # Add to lunch
+├── BoardConfig.mk           # Hardware config
+├── device.mk                # Packages and configs
+└── extract-files.sh         # Vendor blob extraction
+```
+
+### lineage\_<device>.mk
+
+```makefile
+# Inherit device
+$(call inherit-product, device/vendor/device/device.mk)
+
+# Inherit LineageOS common
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+PRODUCT_NAME := lineage_device
+PRODUCT_DEVICE := device
+PRODUCT_BRAND := Vendor
+PRODUCT_MODEL := Device Name
+PRODUCT_MANUFACTURER := Vendor
+```
+
+### lineage.dependencies
+
+```json
+[
+  {
+    "repository": "android_kernel_vendor_device",
+    "target_path": "kernel/vendor/device"
+  },
+  {
+    "repository": "android_device_vendor_device-common",
+    "target_path": "device/vendor/device-common"
+  },
+  {
+    "repository": "proprietary_vendor_device",
+    "target_path": "vendor/device"
+  }
+]
+```
+
+---
+
+## repopick - Cherry-picking from Gerrit
+
+```bash
+# Single change
+repopick 12345
+
+# Multiple changes
+repopick 12345 12346 12347
+
+# By topic
+repopick -t feature-topic
+
+# With dependencies
+repopick -Q 12345
+
+# Force overwrite local changes
+repopick -f 12345
+
+# Show what would be picked
+repopick -n 12345
+```
+
+### Find Change Numbers
+
+1. Go to `https://review.lineageos.org`
+2. Search for changes
+3. Change number is in the URL or displayed
+
+---
+
+## Vendor Blobs
+
+### Extract from Device
+
+```bash
+cd device/vendor/device
+./extract-files.sh
+```
+
+### Extract from OTA/Factory Image
+
+```bash
+./extract-files.sh ~/Downloads/ota.zip
+```
+
+### proprietary-files.txt Format
+
+```txt
+# Audio HAL
+vendor/lib64/hw/audio.primary.platform.so
+vendor/etc/audio_policy_configuration.xml
+
+# With destination path
+vendor/lib64/lib.so:vendor/lib64/libfoo.so
+
+# From another device
+vendor/lib64/lib.so|other_device
+```
+
+---
+
+## LineageOS Features
+
+### Trust Interface
+
+Security dashboard showing device integrity:
+
+```makefile
+# device.mk
+PRODUCT_PACKAGES += \
+    LineageTrust
+```
+
+### LiveDisplay
+
+Hardware-accelerated display tuning:
+
+```makefile
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service-sdm
+```
+
+### Styles / Themes
+
+System theming support:
+
+```makefile
+PRODUCT_PACKAGES += \
+    ThemePicker
+```
+
+---
+
+## Key Directories
+
+| Path                        | Purpose             |
+| --------------------------- | ------------------- |
+| `vendor/lineage/`           | LineageOS additions |
+| `lineage-sdk/`              | LineageOS SDK       |
+| `device/<vendor>/<device>/` | Device tree         |
+| `kernel/<vendor>/<device>/` | Kernel source       |
+| `vendor/<vendor>/`          | Proprietary blobs   |
+
+---
+
+## Contributing
+
+### Setup Gerrit Access
+
+```bash
+git config --global review.review.lineageos.org.username <username>
+```
+
+### Submit Change
+
+```bash
+# Create branch
+repo start my-feature .
+
+# Make changes
+git add -A
+git commit -m "subsystem: Short description
+
+Detailed explanation.
+
+Change-Id: <auto-generated>"
+
+# Push for review
+git push ssh://<username>@review.lineageos.org:29418/<project> HEAD:refs/for/<branch>
+```
+
+### Commit Message Format
+
+```
+subsystem: Short description
+
+Longer explanation wrapped at 72 characters.
+Explain why, not what.
+
+Change-Id: I1234567890abcdef...
+```
+
+---
+
+## Common Issues
+
+### Breakfast Fails - Missing Repos
+
+```bash
+# Re-sync device tree
+repo sync device/vendor/device kernel/vendor/device vendor/device
+```
+
+### Build Fails - SELinux
+
+```bash
+# Find denials
+adb shell dmesg | grep "avc: denied"
+
+# Generate policy (on host)
+adb shell dmesg | audit2allow -p out/target/product/<device>/root/sepolicy
+```
+
+### Missing Blobs
+
+Check logcat for:
+
+```
+E linker: cannot find symbol...
+E ServiceManager: Could not find service...
+```
+
+Add missing files to `proprietary-files.txt` and re-extract.
+
+---
+
+## Quick Reference
+
+```bash
+# Full workflow
+source build/envsetup.sh
+breakfast cheeseburger
+brunch cheeseburger
+
+# Just kernel
+mka bootimage
+
+# Cherry-pick fix
+repopick 12345
+
+# Sync everything
+repo sync -c -j$(nproc)
+
+# Sync one project
+repo sync packages/apps/Settings
+
+# Clean build
+m clean && brunch <device>
+```

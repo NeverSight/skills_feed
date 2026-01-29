@@ -1,0 +1,1 @@
+Run, create, and debug Playwright e2e tests for the web app. ALWAYS invoke this skill using the SlashCommand tool (i.e., `/web-e2e`) BEFORE attempting to run any e2e tests, playwright tests, anvil tests, or debug test failures. DO NOT run `bun playwright test` or other e2e commands directly - you must invoke this skill first to learn the correct commands and test architecture.

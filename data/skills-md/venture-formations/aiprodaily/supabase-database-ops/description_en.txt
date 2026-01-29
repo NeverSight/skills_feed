@@ -1,0 +1,1 @@
+Critical guardrail for Supabase database operations ensuring multi-tenant isolation with publication_id filtering, proper use of supabaseAdmin, avoiding SELECT *, error handling patterns, and secure server-side database access. Use when writing database queries, working with supabase, accessing newsletter_campaigns, articles, rss_posts, or any tenant-scoped data.

@@ -1,0 +1,1 @@
+This skill should be used when agents generate placeholder tokens like "pseudo-", "mock-", "temporary", "TODO", "demo-", or similar incompleteness markers. Detects substitution patterns in agent OUTPUT and triggers mandatory user interview instead of accepting incomplete work. Activates automatically on any output containing forbidden tokens.

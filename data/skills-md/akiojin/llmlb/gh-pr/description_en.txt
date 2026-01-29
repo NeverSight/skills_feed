@@ -1,0 +1,1 @@
+Create or update GitHub Pull Requests with the gh CLI, including deciding whether to create a new PR or only push based on existing PR merge status. Use when the user asks to open/create/edit a PR, generate a PR body/template, or says 'PRを出して/PR作成/gh pr'. Defaults: base=develop, head=current branch (same-branch only; never create/switch branches).
