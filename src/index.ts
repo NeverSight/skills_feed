@@ -338,10 +338,12 @@ async function getRepoSkillIndex(source: string) {
           baseDir ? `${baseDir}/${entry.name}/skill.md` : `${entry.name}/skill.md`,
         ];
 
+        let foundAtLevel2 = false;
         for (const p of candidatePaths) {
           const raw = await fetchGithubRawFile(source, branch, p);
           if (!raw) continue;
 
+          foundAtLevel2 = true;
           try {
             const parsed = matter(raw);
             const name = (parsed?.data as Record<string, unknown> | undefined)?.name;
@@ -350,6 +352,37 @@ async function getRepoSkillIndex(source: string) {
             }
           } catch {
             // ignore
+          }
+        }
+
+        // If no SKILL.md at level 2, scan level 3 (e.g., skills/<owner>/<skillId>/SKILL.md)
+        // This handles nested structures like moltbot/skills
+        if (!foundAtLevel2) {
+          const level2Dir = baseDir ? `${baseDir}/${entry.name}` : entry.name;
+          const level2Url = githubApiUrl(source, level2Dir, branch);
+          const level2Listing = await fetchGithubJson<GithubContentEntry[] | GithubContentEntry>(level2Url);
+          if (level2Listing) {
+            const level2Entries = Array.isArray(level2Listing) ? level2Listing : [level2Listing];
+            for (const subEntry of level2Entries) {
+              if (subEntry.type !== 'dir') continue;
+              const level3Paths = [
+                `${level2Dir}/${subEntry.name}/SKILL.md`,
+                `${level2Dir}/${subEntry.name}/skill.md`,
+              ];
+              for (const p of level3Paths) {
+                const raw = await fetchGithubRawFile(source, branch, p);
+                if (!raw) continue;
+                try {
+                  const parsed = matter(raw);
+                  const name = (parsed?.data as Record<string, unknown> | undefined)?.name;
+                  if (typeof name === 'string' && name.trim()) {
+                    index.set(name.trim(), { branch, path: p });
+                  }
+                } catch {
+                  // ignore
+                }
+              }
+            }
           }
         }
       }
