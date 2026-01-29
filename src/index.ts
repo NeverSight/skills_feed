@@ -275,6 +275,10 @@ async function getRepoSkillIndex(source: string) {
     // Repo root (some repos put skill folders directly at root)
     '',
     'skills',
+    // Alternative skill directory names
+    'skills_all',
+    'skills_categorized',
+    // Common tool-specific locations
     '.claude/skills',
     '.cursor/skills',
     '.codex/skills',
@@ -288,6 +292,11 @@ async function getRepoSkillIndex(source: string) {
     '.windsurf/skills',
     '.kilocode/skills',
     '.factory/skills',
+    // Deep nested paths
+    'core/skills',
+    'do/skills',
+    'jutsu/skills',
+    'hashi/skills',
   ];
 
   const index = new Map<string, { branch: string; path: string }>();
@@ -403,6 +412,9 @@ async function fetchSkillMdFromGithub(source: string, skillId: string) {
     '',
     // Most common
     'skills',
+    // Alternative skill directory names (microck/ordinary-claude-skills)
+    'skills_all',
+    'skills_categorized',
     // Common tool-specific locations
     '.claude/skills',
     '.cursor/skills',
@@ -429,6 +441,11 @@ async function fetchSkillMdFromGithub(source: string, skillId: string) {
     'packages/skills',
     // Claude plugin structure
     '.claude-plugin/skills',
+    // Deep nested paths (thebushidocollective/han)
+    'core/skills',
+    'do/skills',
+    'jutsu/skills',
+    'hashi/skills',
   ];
   const filenames = ['SKILL.md', 'skill.md'];
 
