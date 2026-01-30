@@ -1,0 +1,12 @@
+Audit and update repositories to follow Workleap's Chromatic best practices for snapshot cost control and CI optimization.
+
+Use this skill when:
+(1) Auditing a repository for Chromatic best practices compliance
+(2) Implementing Chromatic cost optimizations in a project
+(3) Fixing TurboSnap-disabling patterns in code
+(4) Setting up chromatic.config.json with the untraced option
+(5) Updating CI workflows for conditional Chromatic execution
+(6) Refactoring barrel file imports in Storybook preview files
+(7) Reviewing PRs for Chromatic cost impact
+(8) Setting up Chromatic in a new Turborepo project
+(9) Checking for local Chromatic usage that should be removed

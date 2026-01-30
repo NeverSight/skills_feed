@@ -1,0 +1,4 @@
+Navigates C3 architecture docs and explores corresponding code to answer architecture questions.
+Use when the user asks "where is X", "how does X work", "explain X", "show me the architecture",
+"find component", "what handles X", "what constraints apply to X", or references C3 IDs (c3-0, c3-1, adr-*).
+Requires .c3/ to exist. For changes, route to c3-alter instead.

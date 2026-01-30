@@ -2,7 +2,7 @@
   "title": "Skills.sh Feed",
   "description": "Latest skill data from skills.sh",
   "link": "https://skills.sh",
-  "updatedAt": "2026-01-29T08:47:18.810Z",
+  "updatedAt": "2026-01-30T02:45:05.108Z",
   "providers": [
     {
       "id": "skills.sh",
@@ -15,7 +15,7 @@
       "id": "vercel-labs/agent-skills/vercel-react-best-practices",
       "title": "vercel-react-best-practices",
       "source": "vercel-labs/agent-skills",
-      "installs": 65737,
+      "installs": 86652,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
       "providerId": "skills.sh",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
@@ -24,7 +24,7 @@
       "id": "vercel-labs/agent-skills/web-design-guidelines",
       "title": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "installs": 49814,
+      "installs": 65730,
       "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "providerId": "skills.sh",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
@@ -33,7 +33,7 @@
       "id": "remotion-dev/skills/remotion-best-practices",
       "title": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "installs": 47038,
+      "installs": 50162,
       "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "providerId": "skills.sh",
       "description": "Best practices for Remotion - Video creation in React"
@@ -42,7 +42,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 38569,
+      "installs": 48241,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -51,7 +51,7 @@
       "id": "anthropics/skills/frontend-design",
       "title": "frontend-design",
       "source": "anthropics/skills",
-      "installs": 23231,
+      "installs": 25512,
       "link": "https://skills.sh/anthropics/skills/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
@@ -60,7 +60,7 @@
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 13131,
+      "installs": 14875,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
@@ -69,7 +69,7 @@
       "id": "anthropics/skills/skill-creator",
       "title": "skill-creator",
       "source": "anthropics/skills",
-      "installs": 11381,
+      "installs": 12623,
       "link": "https://skills.sh/anthropics/skills/skill-creator",
       "providerId": "skills.sh",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations."
@@ -78,43 +78,43 @@
       "id": "vercel-labs/agent-skills/vercel-composition-patterns",
       "title": "vercel-composition-patterns",
       "source": "vercel-labs/agent-skills",
-      "installs": 7339,
+      "installs": 9532,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns",
       "providerId": "skills.sh",
       "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture."
     },
     {
-      "id": "atxp-dev/cli/atxp",
-      "title": "atxp",
-      "source": "atxp-dev/cli",
-      "installs": 7312,
-      "link": "https://skills.sh/atxp-dev/cli/atxp",
-      "providerId": "skills.sh",
-      "description": "Access ATXP paid API tools for web search, AI image generation, music creation, video generation, and X/Twitter search. Use when users need real-time web search, AI-generated media (images, music, video), or X/Twitter search. Requires authentication via `npx atxp login`."
-    },
-    {
-      "id": "squirrelscan/skills/audit-website",
-      "title": "audit-website",
-      "source": "squirrelscan/skills",
-      "installs": 7074,
-      "link": "https://skills.sh/squirrelscan/skills/audit-website",
-      "providerId": "skills.sh",
-      "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health."
-    },
-    {
       "id": "coreyhaines31/marketingskills/seo-audit",
       "title": "seo-audit",
       "source": "coreyhaines31/marketingskills",
-      "installs": 7032,
+      "installs": 7806,
       "link": "https://skills.sh/coreyhaines31/marketingskills/seo-audit",
       "providerId": "skills.sh",
       "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup."
     },
     {
+      "id": "squirrelscan/skills/audit-website",
+      "title": "audit-website",
+      "source": "squirrelscan/skills",
+      "installs": 7719,
+      "link": "https://skills.sh/squirrelscan/skills/audit-website",
+      "providerId": "skills.sh",
+      "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health."
+    },
+    {
+      "id": "vercel-labs/agent-skills/vercel-react-native-skills",
+      "title": "vercel-react-native-skills",
+      "source": "vercel-labs/agent-skills",
+      "installs": 7316,
+      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills",
+      "providerId": "skills.sh",
+      "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs."
+    },
+    {
       "id": "supabase/agent-skills/supabase-postgres-best-practices",
       "title": "supabase-postgres-best-practices",
       "source": "supabase/agent-skills",
-      "installs": 6685,
+      "installs": 7217,
       "link": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices",
       "providerId": "skills.sh",
       "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
@@ -123,61 +123,52 @@
       "id": "nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
       "title": "ui-ux-pro-max",
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "installs": 6017,
+      "installs": 6855,
       "link": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
       "providerId": "skills.sh",
       "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples."
     },
     {
-      "id": "vercel-labs/agent-skills/vercel-react-native-skills",
-      "title": "vercel-react-native-skills",
-      "source": "vercel-labs/agent-skills",
-      "installs": 5789,
-      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills",
-      "providerId": "skills.sh",
-      "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs."
-    },
-    {
-      "id": "browser-use/browser-use/browser-use",
-      "title": "browser-use",
-      "source": "browser-use/browser-use",
-      "installs": 5758,
-      "link": "https://skills.sh/browser-use/browser-use/browser-use",
-      "providerId": "skills.sh",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages."
-    },
-    {
-      "id": "coreyhaines31/marketingskills/copywriting",
-      "title": "copywriting",
-      "source": "coreyhaines31/marketingskills",
-      "installs": 5280,
-      "link": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
-      "providerId": "skills.sh",
-      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro."
-    },
-    {
       "id": "expo/skills/building-native-ui",
       "title": "building-native-ui",
       "source": "expo/skills",
-      "installs": 5271,
+      "installs": 6389,
       "link": "https://skills.sh/expo/skills/building-native-ui",
       "providerId": "skills.sh",
       "description": "Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs."
     },
     {
+      "id": "browser-use/browser-use/browser-use",
+      "title": "browser-use",
+      "source": "browser-use/browser-use",
+      "installs": 6201,
+      "link": "https://skills.sh/browser-use/browser-use/browser-use",
+      "providerId": "skills.sh",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages."
+    },
+    {
       "id": "better-auth/skills/better-auth-best-practices",
       "title": "better-auth-best-practices",
       "source": "better-auth/skills",
-      "installs": 4888,
+      "installs": 5737,
       "link": "https://skills.sh/better-auth/skills/better-auth-best-practices",
       "providerId": "skills.sh",
       "description": "Skill for integrating Better Auth - the comprehensive TypeScript authentication framework."
     },
     {
+      "id": "coreyhaines31/marketingskills/copywriting",
+      "title": "copywriting",
+      "source": "coreyhaines31/marketingskills",
+      "installs": 5679,
+      "link": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
+      "providerId": "skills.sh",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro."
+    },
+    {
       "id": "anthropics/skills/pdf",
       "title": "pdf",
       "source": "anthropics/skills",
-      "installs": 4473,
+      "installs": 5011,
       "link": "https://skills.sh/anthropics/skills/pdf",
       "providerId": "skills.sh",
       "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
@@ -186,34 +177,16 @@
       "id": "obra/superpowers/brainstorming",
       "title": "brainstorming",
       "source": "obra/superpowers",
-      "installs": 4194,
+      "installs": 4748,
       "link": "https://skills.sh/obra/superpowers/brainstorming",
       "providerId": "skills.sh",
       "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
     },
     {
-      "id": "coreyhaines31/marketingskills/marketing-psychology",
-      "title": "marketing-psychology",
-      "source": "coreyhaines31/marketingskills",
-      "installs": 4136,
-      "link": "https://skills.sh/coreyhaines31/marketingskills/marketing-psychology",
-      "providerId": "skills.sh",
-      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application."
-    },
-    {
-      "id": "anthropics/skills/pptx",
-      "title": "pptx",
-      "source": "anthropics/skills",
-      "installs": 3695,
-      "link": "https://skills.sh/anthropics/skills/pptx",
-      "providerId": "skills.sh",
-      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
-    },
-    {
       "id": "expo/skills/upgrading-expo",
       "title": "upgrading-expo",
       "source": "expo/skills",
-      "installs": 3671,
+      "installs": 4643,
       "link": "https://skills.sh/expo/skills/upgrading-expo",
       "providerId": "skills.sh",
       "description": "Guidelines for upgrading Expo SDK versions and fixing dependency issues"
@@ -222,52 +195,124 @@
       "id": "expo/skills/native-data-fetching",
       "title": "native-data-fetching",
       "source": "expo/skills",
-      "installs": 3631,
+      "installs": 4592,
       "link": "https://skills.sh/expo/skills/native-data-fetching",
       "providerId": "skills.sh",
       "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, axios, React Query, SWR, error handling, caching strategies, offline support."
     },
     {
-      "id": "anthropics/skills/xlsx",
-      "title": "xlsx",
-      "source": "anthropics/skills",
-      "installs": 3512,
-      "link": "https://skills.sh/anthropics/skills/xlsx",
-      "providerId": "skills.sh",
-      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
-    },
-    {
-      "id": "coreyhaines31/marketingskills/programmatic-seo",
-      "title": "programmatic-seo",
+      "id": "coreyhaines31/marketingskills/marketing-psychology",
+      "title": "marketing-psychology",
       "source": "coreyhaines31/marketingskills",
-      "installs": 3426,
-      "link": "https://skills.sh/coreyhaines31/marketingskills/programmatic-seo",
+      "installs": 4426,
+      "link": "https://skills.sh/coreyhaines31/marketingskills/marketing-psychology",
       "providerId": "skills.sh",
-      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit."
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application."
     },
     {
-      "id": "anthropics/skills/docx",
-      "title": "docx",
+      "id": "anthropics/skills/pptx",
+      "title": "pptx",
       "source": "anthropics/skills",
-      "installs": 3364,
-      "link": "https://skills.sh/anthropics/skills/docx",
+      "installs": 4135,
+      "link": "https://skills.sh/anthropics/skills/pptx",
       "providerId": "skills.sh",
-      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
     },
     {
       "id": "expo/skills/expo-dev-client",
       "title": "expo-dev-client",
       "source": "expo/skills",
-      "installs": 3239,
+      "installs": 4128,
       "link": "https://skills.sh/expo/skills/expo-dev-client",
       "providerId": "skills.sh",
       "description": "Build and distribute Expo development clients locally or via TestFlight"
     },
     {
+      "id": "expo/skills/expo-deployment",
+      "title": "expo-deployment",
+      "source": "expo/skills",
+      "installs": 4000,
+      "link": "https://skills.sh/expo/skills/expo-deployment",
+      "providerId": "skills.sh",
+      "description": "Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes"
+    },
+    {
+      "id": "anthropics/skills/xlsx",
+      "title": "xlsx",
+      "source": "anthropics/skills",
+      "installs": 3915,
+      "link": "https://skills.sh/anthropics/skills/xlsx",
+      "providerId": "skills.sh",
+      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
+    },
+    {
+      "id": "expo/skills/expo-tailwind-setup",
+      "title": "expo-tailwind-setup",
+      "source": "expo/skills",
+      "installs": 3879,
+      "link": "https://skills.sh/expo/skills/expo-tailwind-setup",
+      "providerId": "skills.sh",
+      "description": "Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling"
+    },
+    {
+      "id": "expo/skills/expo-api-routes",
+      "title": "expo-api-routes",
+      "source": "expo/skills",
+      "installs": 3864,
+      "link": "https://skills.sh/expo/skills/expo-api-routes",
+      "providerId": "skills.sh",
+      "description": "Guidelines for creating API routes in Expo Router with EAS Hosting"
+    },
+    {
+      "id": "anthropics/skills/docx",
+      "title": "docx",
+      "source": "anthropics/skills",
+      "installs": 3773,
+      "link": "https://skills.sh/anthropics/skills/docx",
+      "providerId": "skills.sh",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+    },
+    {
+      "id": "coreyhaines31/marketingskills/programmatic-seo",
+      "title": "programmatic-seo",
+      "source": "coreyhaines31/marketingskills",
+      "installs": 3704,
+      "link": "https://skills.sh/coreyhaines31/marketingskills/programmatic-seo",
+      "providerId": "skills.sh",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit."
+    },
+    {
+      "id": "callstackincubator/agent-skills/react-native-best-practices",
+      "title": "react-native-best-practices",
+      "source": "callstackincubator/agent-skills",
+      "installs": 3657,
+      "link": "https://skills.sh/callstackincubator/agent-skills/react-native-best-practices",
+      "providerId": "skills.sh",
+      "description": "Provides React Native performance optimization guidelines for FPS, TTI, bundle size, memory leaks, re-renders, and animations. Applies to tasks involving Hermes optimization, JS thread blocking, bridge overhead, FlashList, native modules, or debugging jank and frame drops."
+    },
+    {
+      "id": "anthropics/skills/webapp-testing",
+      "title": "webapp-testing",
+      "source": "anthropics/skills",
+      "installs": 3516,
+      "link": "https://skills.sh/anthropics/skills/webapp-testing",
+      "providerId": "skills.sh",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+    },
+    {
+      "id": "expo/skills/expo-cicd-workflows",
+      "title": "expo-cicd-workflows",
+      "source": "expo/skills",
+      "installs": 3505,
+      "link": "https://skills.sh/expo/skills/expo-cicd-workflows",
+      "providerId": "skills.sh",
+      "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation."
+    },
+    {
       "id": "hyf0/vue-skills/vue-best-practices",
       "title": "vue-best-practices",
       "source": "hyf0/vue-skills",
-      "installs": 3231,
+      "installs": 3431,
       "link": "https://skills.sh/hyf0/vue-skills/vue-best-practices",
       "providerId": "skills.sh",
       "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration."
@@ -276,61 +321,25 @@
       "id": "coreyhaines31/marketingskills/marketing-ideas",
       "title": "marketing-ideas",
       "source": "coreyhaines31/marketingskills",
-      "installs": 3202,
+      "installs": 3426,
       "link": "https://skills.sh/coreyhaines31/marketingskills/marketing-ideas",
       "providerId": "skills.sh",
       "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category."
     },
     {
-      "id": "expo/skills/expo-deployment",
-      "title": "expo-deployment",
+      "id": "expo/skills/use-dom",
+      "title": "use-dom",
       "source": "expo/skills",
-      "installs": 3143,
-      "link": "https://skills.sh/expo/skills/expo-deployment",
+      "installs": 3424,
+      "link": "https://skills.sh/expo/skills/use-dom",
       "providerId": "skills.sh",
-      "description": "Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes"
-    },
-    {
-      "id": "callstackincubator/agent-skills/react-native-best-practices",
-      "title": "react-native-best-practices",
-      "source": "callstackincubator/agent-skills",
-      "installs": 3125,
-      "link": "https://skills.sh/callstackincubator/agent-skills/react-native-best-practices",
-      "providerId": "skills.sh",
-      "description": "Provides React Native performance optimization guidelines for FPS, TTI, bundle size, memory leaks, re-renders, and animations. Applies to tasks involving Hermes optimization, JS thread blocking, bridge overhead, FlashList, native modules, or debugging jank and frame drops."
-    },
-    {
-      "id": "expo/skills/expo-tailwind-setup",
-      "title": "expo-tailwind-setup",
-      "source": "expo/skills",
-      "installs": 3119,
-      "link": "https://skills.sh/expo/skills/expo-tailwind-setup",
-      "providerId": "skills.sh",
-      "description": "Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling"
-    },
-    {
-      "id": "anthropics/skills/webapp-testing",
-      "title": "webapp-testing",
-      "source": "anthropics/skills",
-      "installs": 3117,
-      "link": "https://skills.sh/anthropics/skills/webapp-testing",
-      "providerId": "skills.sh",
-      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
-    },
-    {
-      "id": "expo/skills/expo-api-routes",
-      "title": "expo-api-routes",
-      "source": "expo/skills",
-      "installs": 3068,
-      "link": "https://skills.sh/expo/skills/expo-api-routes",
-      "providerId": "skills.sh",
-      "description": "Guidelines for creating API routes in Expo Router with EAS Hosting"
+      "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally."
     },
     {
       "id": "anthropics/skills/mcp-builder",
       "title": "mcp-builder",
       "source": "anthropics/skills",
-      "installs": 3001,
+      "installs": 3372,
       "link": "https://skills.sh/anthropics/skills/mcp-builder",
       "providerId": "skills.sh",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
@@ -339,7 +348,7 @@
       "id": "coreyhaines31/marketingskills/pricing-strategy",
       "title": "pricing-strategy",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2984,
+      "installs": 3203,
       "link": "https://skills.sh/coreyhaines31/marketingskills/pricing-strategy",
       "providerId": "skills.sh",
       "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy."
@@ -348,7 +357,7 @@
       "id": "coreyhaines31/marketingskills/social-content",
       "title": "social-content",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2960,
+      "installs": 3168,
       "link": "https://skills.sh/coreyhaines31/marketingskills/social-content",
       "providerId": "skills.sh",
       "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies."
@@ -357,34 +366,34 @@
       "id": "coreyhaines31/marketingskills/copy-editing",
       "title": "copy-editing",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2820,
+      "installs": 3012,
       "link": "https://skills.sh/coreyhaines31/marketingskills/copy-editing",
       "providerId": "skills.sh",
       "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes."
     },
     {
-      "id": "expo/skills/expo-cicd-workflows",
-      "title": "expo-cicd-workflows",
-      "source": "expo/skills",
-      "installs": 2738,
-      "link": "https://skills.sh/expo/skills/expo-cicd-workflows",
+      "id": "obra/superpowers/systematic-debugging",
+      "title": "systematic-debugging",
+      "source": "obra/superpowers",
+      "installs": 2970,
+      "link": "https://skills.sh/obra/superpowers/systematic-debugging",
       "providerId": "skills.sh",
-      "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation."
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
     },
     {
-      "id": "expo/skills/use-dom",
-      "title": "use-dom",
-      "source": "expo/skills",
-      "installs": 2702,
-      "link": "https://skills.sh/expo/skills/use-dom",
+      "id": "anthropics/skills/canvas-design",
+      "title": "canvas-design",
+      "source": "anthropics/skills",
+      "installs": 2962,
+      "link": "https://skills.sh/anthropics/skills/canvas-design",
       "providerId": "skills.sh",
-      "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally."
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations."
     },
     {
       "id": "coreyhaines31/marketingskills/launch-strategy",
       "title": "launch-strategy",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2690,
+      "installs": 2877,
       "link": "https://skills.sh/coreyhaines31/marketingskills/launch-strategy",
       "providerId": "skills.sh",
       "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum."
@@ -393,34 +402,16 @@
       "id": "coreyhaines31/marketingskills/page-cro",
       "title": "page-cro",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2651,
+      "installs": 2849,
       "link": "https://skills.sh/coreyhaines31/marketingskills/page-cro",
       "providerId": "skills.sh",
       "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro."
     },
     {
-      "id": "obra/superpowers/systematic-debugging",
-      "title": "systematic-debugging",
-      "source": "obra/superpowers",
-      "installs": 2643,
-      "link": "https://skills.sh/obra/superpowers/systematic-debugging",
-      "providerId": "skills.sh",
-      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
-    },
-    {
-      "id": "anthropics/skills/canvas-design",
-      "title": "canvas-design",
-      "source": "anthropics/skills",
-      "installs": 2640,
-      "link": "https://skills.sh/anthropics/skills/canvas-design",
-      "providerId": "skills.sh",
-      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations."
-    },
-    {
       "id": "coreyhaines31/marketingskills/analytics-tracking",
       "title": "analytics-tracking",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2595,
+      "installs": 2775,
       "link": "https://skills.sh/coreyhaines31/marketingskills/analytics-tracking",
       "providerId": "skills.sh",
       "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B test measurement, see ab-test-setup."
@@ -429,16 +420,25 @@
       "id": "coreyhaines31/marketingskills/onboarding-cro",
       "title": "onboarding-cro",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2588,
+      "installs": 2763,
       "link": "https://skills.sh/coreyhaines31/marketingskills/onboarding-cro",
       "providerId": "skills.sh",
       "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence."
     },
     {
+      "id": "obra/superpowers/test-driven-development",
+      "title": "test-driven-development",
+      "source": "obra/superpowers",
+      "installs": 2760,
+      "link": "https://skills.sh/obra/superpowers/test-driven-development",
+      "providerId": "skills.sh",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code"
+    },
+    {
       "id": "coreyhaines31/marketingskills/schema-markup",
       "title": "schema-markup",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2535,
+      "installs": 2722,
       "link": "https://skills.sh/coreyhaines31/marketingskills/schema-markup",
       "providerId": "skills.sh",
       "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" or \"breadcrumb schema.\" For broader SEO issues, see seo-audit."
@@ -447,19 +447,19 @@
       "id": "coreyhaines31/marketingskills/competitor-alternatives",
       "title": "competitor-alternatives",
       "source": "coreyhaines31/marketingskills",
-      "installs": 2519,
+      "installs": 2698,
       "link": "https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives",
       "providerId": "skills.sh",
       "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables."
     },
     {
-      "id": "obra/superpowers/test-driven-development",
-      "title": "test-driven-development",
-      "source": "obra/superpowers",
-      "installs": 2438,
-      "link": "https://skills.sh/obra/superpowers/test-driven-development",
+      "id": "coreyhaines31/marketingskills/paid-ads",
+      "title": "paid-ads",
+      "source": "coreyhaines31/marketingskills",
+      "installs": 2597,
+      "link": "https://skills.sh/coreyhaines31/marketingskills/paid-ads",
       "providerId": "skills.sh",
-      "description": "Use when implementing any feature or bugfix, before writing implementation code"
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization."
     }
   ],
   "topTrending": [
@@ -467,7 +467,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 14773,
+      "installs": 13818,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -476,25 +476,16 @@
       "id": "vercel-labs/agent-skills/vercel-react-best-practices",
       "title": "vercel-react-best-practices",
       "source": "vercel-labs/agent-skills",
-      "installs": 6001,
+      "installs": 5357,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
       "providerId": "skills.sh",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
     },
     {
-      "id": "atxp-dev/cli/atxp",
-      "title": "atxp",
-      "source": "atxp-dev/cli",
-      "installs": 5656,
-      "link": "https://skills.sh/atxp-dev/cli/atxp",
-      "providerId": "skills.sh",
-      "description": "Access ATXP paid API tools for web search, AI image generation, music creation, video generation, and X/Twitter search. Use when users need real-time web search, AI-generated media (images, music, video), or X/Twitter search. Requires authentication via `npx atxp login`."
-    },
-    {
       "id": "vercel-labs/agent-skills/web-design-guidelines",
       "title": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "installs": 4577,
+      "installs": 4171,
       "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "providerId": "skills.sh",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
@@ -503,7 +494,7 @@
       "id": "remotion-dev/skills/remotion-best-practices",
       "title": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "installs": 4259,
+      "installs": 4162,
       "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "providerId": "skills.sh",
       "description": "Best practices for Remotion - Video creation in React"
@@ -512,7 +503,7 @@
       "id": "vercel-labs/agent-skills/vercel-composition-patterns",
       "title": "vercel-composition-patterns",
       "source": "vercel-labs/agent-skills",
-      "installs": 3253,
+      "installs": 3071,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns",
       "providerId": "skills.sh",
       "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture."
@@ -521,43 +512,34 @@
       "id": "anthropics/skills/frontend-design",
       "title": "frontend-design",
       "source": "anthropics/skills",
-      "installs": 3033,
+      "installs": 2968,
       "link": "https://skills.sh/anthropics/skills/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
     },
     {
-      "id": "vercel-labs/agent-skills/vercel-react-native-skills",
-      "title": "vercel-react-native-skills",
-      "source": "vercel-labs/agent-skills",
-      "installs": 2667,
-      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills",
-      "providerId": "skills.sh",
-      "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs."
-    },
-    {
-      "id": "browser-use/browser-use/browser-use",
-      "title": "browser-use",
-      "source": "browser-use/browser-use",
-      "installs": 2614,
-      "link": "https://skills.sh/browser-use/browser-use/browser-use",
-      "providerId": "skills.sh",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages."
-    },
-    {
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 2432,
+      "installs": 2407,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
     },
     {
+      "id": "vercel-labs/agent-skills/vercel-react-native-skills",
+      "title": "vercel-react-native-skills",
+      "source": "vercel-labs/agent-skills",
+      "installs": 2164,
+      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills",
+      "providerId": "skills.sh",
+      "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs."
+    },
+    {
       "id": "anthropics/skills/skill-creator",
       "title": "skill-creator",
       "source": "anthropics/skills",
-      "installs": 1644,
+      "installs": 1603,
       "link": "https://skills.sh/anthropics/skills/skill-creator",
       "providerId": "skills.sh",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations."
@@ -566,7 +548,7 @@
       "id": "nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
       "title": "ui-ux-pro-max",
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "installs": 1256,
+      "installs": 1179,
       "link": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
       "providerId": "skills.sh",
       "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples."
@@ -575,34 +557,43 @@
       "id": "squirrelscan/skills/audit-website",
       "title": "audit-website",
       "source": "squirrelscan/skills",
-      "installs": 1204,
+      "installs": 1143,
       "link": "https://skills.sh/squirrelscan/skills/audit-website",
       "providerId": "skills.sh",
       "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health."
     },
     {
+      "id": "atxp-dev/cli/atxp",
+      "title": "atxp",
+      "source": "atxp-dev/cli",
+      "installs": 1054,
+      "link": "https://skills.sh/atxp-dev/cli/atxp",
+      "providerId": "skills.sh",
+      "description": "Access ATXP paid API tools for web search, AI image generation, music creation, video generation, and X/Twitter search. Use when users need real-time web search, AI-generated media (images, music, video), or X/Twitter search. Requires authentication via `npx atxp login`."
+    },
+    {
       "id": "coreyhaines31/marketingskills/seo-audit",
       "title": "seo-audit",
       "source": "coreyhaines31/marketingskills",
-      "installs": 926,
+      "installs": 1013,
       "link": "https://skills.sh/coreyhaines31/marketingskills/seo-audit",
       "providerId": "skills.sh",
       "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup."
     },
     {
-      "id": "supabase/agent-skills/supabase-postgres-best-practices",
-      "title": "supabase-postgres-best-practices",
-      "source": "supabase/agent-skills",
-      "installs": 903,
-      "link": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices",
+      "id": "browser-use/browser-use/browser-use",
+      "title": "browser-use",
+      "source": "browser-use/browser-use",
+      "installs": 872,
+      "link": "https://skills.sh/browser-use/browser-use/browser-use",
       "providerId": "skills.sh",
-      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages."
     },
     {
       "id": "antfu/skills/vite",
       "title": "vite",
       "source": "antfu/skills",
-      "installs": 848,
+      "installs": 781,
       "link": "https://skills.sh/antfu/skills/vite",
       "providerId": "skills.sh",
       "description": "Vite is a next-generation frontend build tool that provides a fast dev server with HMR and optimized production builds"
@@ -611,106 +602,115 @@
       "id": "antfu/skills/vue",
       "title": "vue",
       "source": "antfu/skills",
-      "installs": 822,
+      "installs": 750,
       "link": "https://skills.sh/antfu/skills/vue",
       "providerId": "skills.sh",
       "description": "Vue.js - The Progressive JavaScript Framework for building user interfaces"
     },
     {
-      "id": "antfu/skills/vue-best-practices",
-      "title": "vue-best-practices",
-      "source": "antfu/skills",
-      "installs": 787,
-      "link": "https://skills.sh/antfu/skills/vue-best-practices",
-      "providerId": "skills.sh",
-      "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration."
-    },
-    {
-      "id": "antfu/skills/vueuse-functions",
-      "title": "vueuse-functions",
-      "source": "antfu/skills",
-      "installs": 759,
-      "link": "https://skills.sh/antfu/skills/vueuse-functions",
-      "providerId": "skills.sh",
-      "description": "Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features."
-    },
-    {
-      "id": "antfu/skills/antfu",
-      "title": "antfu",
-      "source": "antfu/skills",
-      "installs": 752,
-      "link": "https://skills.sh/antfu/skills/antfu",
-      "providerId": "skills.sh",
-      "description": "Anthony Fu's {Opinionated} preferences and best practices for web development"
-    },
-    {
-      "id": "antfu/skills/pnpm",
-      "title": "pnpm",
-      "source": "antfu/skills",
-      "installs": 747,
-      "link": "https://skills.sh/antfu/skills/pnpm",
-      "providerId": "skills.sh",
-      "description": "Fast, disk space efficient package manager for Node.js with strict dependency resolution and monorepo support"
-    },
-    {
-      "id": "antfu/skills/pinia",
-      "title": "pinia",
-      "source": "antfu/skills",
-      "installs": 741,
-      "link": "https://skills.sh/antfu/skills/pinia",
-      "providerId": "skills.sh",
-      "description": "The intuitive store for Vue - type-safe, extensible, and modular state management"
-    },
-    {
-      "id": "antfu/skills/web-design-guidelines",
-      "title": "web-design-guidelines",
-      "source": "antfu/skills",
-      "installs": 728,
-      "link": "https://skills.sh/antfu/skills/web-design-guidelines",
-      "providerId": "skills.sh",
-      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
-    },
-    {
       "id": "obra/superpowers/brainstorming",
       "title": "brainstorming",
       "source": "obra/superpowers",
-      "installs": 727,
+      "installs": 734,
       "link": "https://skills.sh/obra/superpowers/brainstorming",
       "providerId": "skills.sh",
       "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
     },
     {
-      "id": "antfu/skills/vitest",
-      "title": "vitest",
-      "source": "antfu/skills",
-      "installs": 719,
-      "link": "https://skills.sh/antfu/skills/vitest",
+      "id": "supabase/agent-skills/supabase-postgres-best-practices",
+      "title": "supabase-postgres-best-practices",
+      "source": "supabase/agent-skills",
+      "installs": 714,
+      "link": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices",
       "providerId": "skills.sh",
-      "description": "A blazing fast unit testing framework powered by Vite"
+      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
     },
     {
-      "id": "vercel-labs/next-skills/next-best-practices",
-      "title": "next-best-practices",
-      "source": "vercel-labs/next-skills",
-      "installs": 690,
-      "link": "https://skills.sh/vercel-labs/next-skills/next-best-practices",
+      "id": "antfu/skills/vue-best-practices",
+      "title": "vue-best-practices",
+      "source": "antfu/skills",
+      "installs": 681,
+      "link": "https://skills.sh/antfu/skills/vue-best-practices",
       "providerId": "skills.sh",
-      "description": "Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling"
+      "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration."
+    },
+    {
+      "id": "antfu/skills/pnpm",
+      "title": "pnpm",
+      "source": "antfu/skills",
+      "installs": 668,
+      "link": "https://skills.sh/antfu/skills/pnpm",
+      "providerId": "skills.sh",
+      "description": "Fast, disk space efficient package manager for Node.js with strict dependency resolution and monorepo support"
     },
     {
       "id": "anthropics/skills/pdf",
       "title": "pdf",
       "source": "anthropics/skills",
-      "installs": 670,
+      "installs": 660,
       "link": "https://skills.sh/anthropics/skills/pdf",
       "providerId": "skills.sh",
       "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
     },
     {
+      "id": "antfu/skills/vitest",
+      "title": "vitest",
+      "source": "antfu/skills",
+      "installs": 649,
+      "link": "https://skills.sh/antfu/skills/vitest",
+      "providerId": "skills.sh",
+      "description": "A blazing fast unit testing framework powered by Vite"
+    },
+    {
+      "id": "antfu/skills/vueuse-functions",
+      "title": "vueuse-functions",
+      "source": "antfu/skills",
+      "installs": 649,
+      "link": "https://skills.sh/antfu/skills/vueuse-functions",
+      "providerId": "skills.sh",
+      "description": "Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features."
+    },
+    {
+      "id": "antfu/skills/pinia",
+      "title": "pinia",
+      "source": "antfu/skills",
+      "installs": 647,
+      "link": "https://skills.sh/antfu/skills/pinia",
+      "providerId": "skills.sh",
+      "description": "The intuitive store for Vue - type-safe, extensible, and modular state management"
+    },
+    {
+      "id": "antfu/skills/antfu",
+      "title": "antfu",
+      "source": "antfu/skills",
+      "installs": 623,
+      "link": "https://skills.sh/antfu/skills/antfu",
+      "providerId": "skills.sh",
+      "description": "Anthony Fu's {Opinionated} preferences and best practices for web development"
+    },
+    {
+      "id": "antfu/skills/web-design-guidelines",
+      "title": "web-design-guidelines",
+      "source": "antfu/skills",
+      "installs": 620,
+      "link": "https://skills.sh/antfu/skills/web-design-guidelines",
+      "providerId": "skills.sh",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
+    },
+    {
+      "id": "vercel-labs/next-skills/next-best-practices",
+      "title": "next-best-practices",
+      "source": "vercel-labs/next-skills",
+      "installs": 572,
+      "link": "https://skills.sh/vercel-labs/next-skills/next-best-practices",
+      "providerId": "skills.sh",
+      "description": "Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling"
+    },
+    {
       "id": "antfu/skills/unocss",
       "title": "unocss",
       "source": "antfu/skills",
-      "installs": 629,
+      "installs": 559,
       "link": "https://skills.sh/antfu/skills/unocss",
       "providerId": "skills.sh",
       "description": "Instant on-demand atomic CSS engine - fully customizable, powerful, fast, and joyful"
@@ -719,7 +719,7 @@
       "id": "anthropics/skills/pptx",
       "title": "pptx",
       "source": "anthropics/skills",
-      "installs": 606,
+      "installs": 559,
       "link": "https://skills.sh/anthropics/skills/pptx",
       "providerId": "skills.sh",
       "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
@@ -728,7 +728,7 @@
       "id": "antfu/skills/nuxt",
       "title": "nuxt",
       "source": "antfu/skills",
-      "installs": 591,
+      "installs": 513,
       "link": "https://skills.sh/antfu/skills/nuxt",
       "providerId": "skills.sh",
       "description": "Nuxt is a Vue.js framework for building full-stack web applications with SSR, auto-imports, file-based routing, and hybrid rendering"
@@ -737,7 +737,7 @@
       "id": "coreyhaines31/marketingskills/copywriting",
       "title": "copywriting",
       "source": "coreyhaines31/marketingskills",
-      "installs": 588,
+      "installs": 513,
       "link": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
       "providerId": "skills.sh",
       "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro."
@@ -746,79 +746,61 @@
       "id": "antfu/skills/tsdown",
       "title": "tsdown",
       "source": "antfu/skills",
-      "installs": 569,
+      "installs": 507,
       "link": "https://skills.sh/antfu/skills/tsdown",
       "providerId": "skills.sh",
       "description": "tsdown is a fast and elegant TypeScript library bundler powered by Rolldown and Oxc"
     },
     {
-      "id": "antfu/skills/vitepress",
-      "title": "vitepress",
-      "source": "antfu/skills",
-      "installs": 552,
-      "link": "https://skills.sh/antfu/skills/vitepress",
-      "providerId": "skills.sh",
-      "description": "Vite & Vue powered static site generator for building fast, content-centric websites"
-    },
-    {
-      "id": "antfu/skills/turborepo",
-      "title": "turborepo",
-      "source": "antfu/skills",
-      "installs": 543,
-      "link": "https://skills.sh/antfu/skills/turborepo",
-      "providerId": "skills.sh",
-      "description": "Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines,\ndependsOn, caching, remote cache, the \"turbo\" CLI, --filter, --affected, CI optimization, environment\nvariables, internal packages, monorepo structure/best practices, and boundaries.\n\nUse when user: configures tasks/workflows/pipelines, creates packages, sets up\nmonorepo, shares code between apps, runs changed/affected packages, debugs cache,\nor has apps/packages directories."
-    },
-    {
       "id": "anthropics/skills/xlsx",
       "title": "xlsx",
       "source": "anthropics/skills",
-      "installs": 530,
+      "installs": 493,
       "link": "https://skills.sh/anthropics/skills/xlsx",
       "providerId": "skills.sh",
       "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
     },
     {
-      "id": "antfu/skills/slidev",
-      "title": "slidev",
-      "source": "antfu/skills",
-      "installs": 526,
-      "link": "https://skills.sh/antfu/skills/slidev",
-      "providerId": "skills.sh",
-      "description": "Create and present web-based slides for developers using Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, or teaching materials."
-    },
-    {
       "id": "anthropics/skills/docx",
       "title": "docx",
       "source": "anthropics/skills",
-      "installs": 522,
+      "installs": 491,
       "link": "https://skills.sh/anthropics/skills/docx",
       "providerId": "skills.sh",
       "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
     },
     {
-      "id": "coreyhaines31/marketingskills/marketing-psychology",
-      "title": "marketing-psychology",
-      "source": "coreyhaines31/marketingskills",
-      "installs": 471,
-      "link": "https://skills.sh/coreyhaines31/marketingskills/marketing-psychology",
+      "id": "antfu/skills/turborepo",
+      "title": "turborepo",
+      "source": "antfu/skills",
+      "installs": 491,
+      "link": "https://skills.sh/antfu/skills/turborepo",
       "providerId": "skills.sh",
-      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application."
+      "description": "Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines,\ndependsOn, caching, remote cache, the \"turbo\" CLI, --filter, --affected, CI optimization, environment\nvariables, internal packages, monorepo structure/best practices, and boundaries.\n\nUse when user: configures tasks/workflows/pipelines, creates packages, sets up\nmonorepo, shares code between apps, runs changed/affected packages, debugs cache,\nor has apps/packages directories."
     },
     {
-      "id": "expo/skills/building-native-ui",
-      "title": "building-native-ui",
-      "source": "expo/skills",
-      "installs": 459,
-      "link": "https://skills.sh/expo/skills/building-native-ui",
+      "id": "antfu/skills/vitepress",
+      "title": "vitepress",
+      "source": "antfu/skills",
+      "installs": 485,
+      "link": "https://skills.sh/antfu/skills/vitepress",
       "providerId": "skills.sh",
-      "description": "Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs."
+      "description": "Vite & Vue powered static site generator for building fast, content-centric websites"
+    },
+    {
+      "id": "antfu/skills/slidev",
+      "title": "slidev",
+      "source": "antfu/skills",
+      "installs": 477,
+      "link": "https://skills.sh/antfu/skills/slidev",
+      "providerId": "skills.sh",
+      "description": "Create and present web-based slides for developers using Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, or teaching materials."
     },
     {
       "id": "anthropics/skills/webapp-testing",
       "title": "webapp-testing",
       "source": "anthropics/skills",
-      "installs": 457,
+      "installs": 452,
       "link": "https://skills.sh/anthropics/skills/webapp-testing",
       "providerId": "skills.sh",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
@@ -827,61 +809,61 @@
       "id": "anthropics/skills/mcp-builder",
       "title": "mcp-builder",
       "source": "anthropics/skills",
-      "installs": 444,
+      "installs": 440,
       "link": "https://skills.sh/anthropics/skills/mcp-builder",
       "providerId": "skills.sh",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
     },
     {
-      "id": "better-auth/skills/better-auth-best-practices",
-      "title": "better-auth-best-practices",
-      "source": "better-auth/skills",
-      "installs": 433,
-      "link": "https://skills.sh/better-auth/skills/better-auth-best-practices",
-      "providerId": "skills.sh",
-      "description": "Skill for integrating Better Auth - the comprehensive TypeScript authentication framework."
-    },
-    {
       "id": "obra/superpowers/systematic-debugging",
       "title": "systematic-debugging",
       "source": "obra/superpowers",
-      "installs": 422,
+      "installs": 412,
       "link": "https://skills.sh/obra/superpowers/systematic-debugging",
       "providerId": "skills.sh",
       "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
     },
     {
-      "id": "hyf0/vue-skills/vue-best-practices",
-      "title": "vue-best-practices",
-      "source": "hyf0/vue-skills",
+      "id": "better-auth/skills/better-auth-best-practices",
+      "title": "better-auth-best-practices",
+      "source": "better-auth/skills",
       "installs": 411,
-      "link": "https://skills.sh/hyf0/vue-skills/vue-best-practices",
+      "link": "https://skills.sh/better-auth/skills/better-auth-best-practices",
       "providerId": "skills.sh",
-      "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration."
-    },
-    {
-      "id": "forrestchang/andrej-karpathy-skills/karpathy-guidelines",
-      "title": "karpathy-guidelines",
-      "source": "forrestchang/andrej-karpathy-skills",
-      "installs": 409,
-      "link": "https://skills.sh/forrestchang/andrej-karpathy-skills/karpathy-guidelines",
-      "providerId": "skills.sh",
-      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria."
+      "description": "Skill for integrating Better Auth - the comprehensive TypeScript authentication framework."
     },
     {
       "id": "obra/superpowers/test-driven-development",
       "title": "test-driven-development",
       "source": "obra/superpowers",
-      "installs": 392,
+      "installs": 397,
       "link": "https://skills.sh/obra/superpowers/test-driven-development",
       "providerId": "skills.sh",
       "description": "Use when implementing any feature or bugfix, before writing implementation code"
     },
     {
+      "id": "coreyhaines31/marketingskills/marketing-psychology",
+      "title": "marketing-psychology",
+      "source": "coreyhaines31/marketingskills",
+      "installs": 381,
+      "link": "https://skills.sh/coreyhaines31/marketingskills/marketing-psychology",
+      "providerId": "skills.sh",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application."
+    },
+    {
+      "id": "obra/superpowers/writing-plans",
+      "title": "writing-plans",
+      "source": "obra/superpowers",
+      "installs": 375,
+      "link": "https://skills.sh/obra/superpowers/writing-plans",
+      "providerId": "skills.sh",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
+    },
+    {
       "id": "coreyhaines31/marketingskills/programmatic-seo",
       "title": "programmatic-seo",
       "source": "coreyhaines31/marketingskills",
-      "installs": 382,
+      "installs": 363,
       "link": "https://skills.sh/coreyhaines31/marketingskills/programmatic-seo",
       "providerId": "skills.sh",
       "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit."
@@ -890,450 +872,135 @@
       "id": "anthropics/skills/canvas-design",
       "title": "canvas-design",
       "source": "anthropics/skills",
-      "installs": 377,
+      "installs": 360,
       "link": "https://skills.sh/anthropics/skills/canvas-design",
       "providerId": "skills.sh",
       "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations."
     },
     {
-      "id": "obra/superpowers/writing-plans",
-      "title": "writing-plans",
-      "source": "obra/superpowers",
-      "installs": 376,
-      "link": "https://skills.sh/obra/superpowers/writing-plans",
+      "id": "hyf0/vue-skills/vue-best-practices",
+      "title": "vue-best-practices",
+      "source": "hyf0/vue-skills",
+      "installs": 358,
+      "link": "https://skills.sh/hyf0/vue-skills/vue-best-practices",
       "providerId": "skills.sh",
-      "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
+      "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration."
+    },
+    {
+      "id": "expo/skills/building-native-ui",
+      "title": "building-native-ui",
+      "source": "expo/skills",
+      "installs": 358,
+      "link": "https://skills.sh/expo/skills/building-native-ui",
+      "providerId": "skills.sh",
+      "description": "Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs."
     },
     {
       "id": "obra/superpowers/executing-plans",
       "title": "executing-plans",
       "source": "obra/superpowers",
-      "installs": 359,
+      "installs": 344,
       "link": "https://skills.sh/obra/superpowers/executing-plans",
       "providerId": "skills.sh",
       "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+    },
+    {
+      "id": "napoleond/sensitive-browser/sensitive-browser",
+      "title": "sensitive-browser",
+      "source": "napoleond/sensitive-browser",
+      "installs": 332,
+      "link": "https://skills.sh/napoleond/sensitive-browser/sensitive-browser",
+      "providerId": "skills.sh",
+      "description": "Execute sensitive browser actions (login, payments, form filling) outside the core agent loop using a dedicated CLI tool. Use when Claude needs to handle credentials, payment information, or other sensitive data in browser automation workflows. Triggers when users ask to log into websites, fill payment forms, or perform authenticated browser actions where sensitive data must be kept secure and separate from the main agent context."
     }
   ],
   "topHot": [
     {
-      "id": "atxp-dev/cli/atxp",
-      "title": "atxp",
-      "source": "atxp-dev/cli",
-      "installs": 1519,
-      "link": "https://skills.sh/atxp-dev/cli/atxp",
-      "providerId": "skills.sh",
-      "description": "Access ATXP paid API tools for web search, AI image generation, music creation, video generation, and X/Twitter search. Use when users need real-time web search, AI-generated media (images, music, video), or X/Twitter search. Requires authentication via `npx atxp login`."
-    },
-    {
-      "id": "antfu/skills/vue",
-      "title": "vue",
-      "source": "antfu/skills",
-      "installs": 84,
-      "link": "https://skills.sh/antfu/skills/vue",
-      "providerId": "skills.sh",
-      "description": "Vue.js - The Progressive JavaScript Framework for building user interfaces"
-    },
-    {
-      "id": "antfu/skills/vite",
-      "title": "vite",
-      "source": "antfu/skills",
-      "installs": 80,
-      "link": "https://skills.sh/antfu/skills/vite",
-      "providerId": "skills.sh",
-      "description": "Vite is a next-generation frontend build tool that provides a fast dev server with HMR and optimized production builds"
-    },
-    {
-      "id": "antfu/skills/pinia",
-      "title": "pinia",
-      "source": "antfu/skills",
-      "installs": 66,
-      "link": "https://skills.sh/antfu/skills/pinia",
-      "providerId": "skills.sh",
-      "description": "The intuitive store for Vue - type-safe, extensible, and modular state management"
-    },
-    {
-      "id": "antfu/skills/web-design-guidelines",
-      "title": "web-design-guidelines",
-      "source": "antfu/skills",
-      "installs": 65,
-      "link": "https://skills.sh/antfu/skills/web-design-guidelines",
-      "providerId": "skills.sh",
-      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
-    },
-    {
-      "id": "antfu/skills/vue-best-practices",
-      "title": "vue-best-practices",
-      "source": "antfu/skills",
-      "installs": 73,
-      "link": "https://skills.sh/antfu/skills/vue-best-practices",
-      "providerId": "skills.sh",
-      "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration."
-    },
-    {
-      "id": "vercel-labs/skills/find-skills",
-      "title": "find-skills",
-      "source": "vercel-labs/skills",
-      "installs": 792,
-      "link": "https://skills.sh/vercel-labs/skills/find-skills",
-      "providerId": "skills.sh",
-      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
-    },
-    {
-      "id": "antfu/skills/antfu",
-      "title": "antfu",
-      "source": "antfu/skills",
-      "installs": 71,
-      "link": "https://skills.sh/antfu/skills/antfu",
-      "providerId": "skills.sh",
-      "description": "Anthony Fu's {Opinionated} preferences and best practices for web development"
-    },
-    {
-      "id": "antfu/skills/vueuse-functions",
-      "title": "vueuse-functions",
-      "source": "antfu/skills",
-      "installs": 69,
-      "link": "https://skills.sh/antfu/skills/vueuse-functions",
-      "providerId": "skills.sh",
-      "description": "Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features."
-    },
-    {
-      "id": "antfu/skills/pnpm",
-      "title": "pnpm",
-      "source": "antfu/skills",
-      "installs": 67,
-      "link": "https://skills.sh/antfu/skills/pnpm",
-      "providerId": "skills.sh",
-      "description": "Fast, disk space efficient package manager for Node.js with strict dependency resolution and monorepo support"
-    },
-    {
-      "id": "antfu/skills/unocss",
-      "title": "unocss",
-      "source": "antfu/skills",
-      "installs": 63,
-      "link": "https://skills.sh/antfu/skills/unocss",
-      "providerId": "skills.sh",
-      "description": "Instant on-demand atomic CSS engine - fully customizable, powerful, fast, and joyful"
-    },
-    {
-      "id": "antfu/skills/vitest",
-      "title": "vitest",
-      "source": "antfu/skills",
-      "installs": 59,
-      "link": "https://skills.sh/antfu/skills/vitest",
-      "providerId": "skills.sh",
-      "description": "A blazing fast unit testing framework powered by Vite"
-    },
-    {
-      "id": "anthropics/skills/frontend-design",
-      "title": "frontend-design",
-      "source": "anthropics/skills",
-      "installs": 152,
-      "link": "https://skills.sh/anthropics/skills/frontend-design",
-      "providerId": "skills.sh",
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
-    },
-    {
-      "id": "antfu/skills/tsdown",
-      "title": "tsdown",
-      "source": "antfu/skills",
-      "installs": 53,
-      "link": "https://skills.sh/antfu/skills/tsdown",
-      "providerId": "skills.sh",
-      "description": "tsdown is a fast and elegant TypeScript library bundler powered by Rolldown and Oxc"
-    },
-    {
-      "id": "antfu/skills/slidev",
-      "title": "slidev",
-      "source": "antfu/skills",
-      "installs": 52,
-      "link": "https://skills.sh/antfu/skills/slidev",
-      "providerId": "skills.sh",
-      "description": "Create and present web-based slides for developers using Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, or teaching materials."
-    },
-    {
-      "id": "antfu/skills/vitepress",
-      "title": "vitepress",
-      "source": "antfu/skills",
-      "installs": 52,
-      "link": "https://skills.sh/antfu/skills/vitepress",
-      "providerId": "skills.sh",
-      "description": "Vite & Vue powered static site generator for building fast, content-centric websites"
-    },
-    {
-      "id": "antfu/skills/nuxt",
-      "title": "nuxt",
-      "source": "antfu/skills",
-      "installs": 51,
-      "link": "https://skills.sh/antfu/skills/nuxt",
-      "providerId": "skills.sh",
-      "description": "Nuxt is a Vue.js framework for building full-stack web applications with SSR, auto-imports, file-based routing, and hybrid rendering"
-    },
-    {
-      "id": "antfu/skills/turborepo",
-      "title": "turborepo",
-      "source": "antfu/skills",
-      "installs": 49,
-      "link": "https://skills.sh/antfu/skills/turborepo",
-      "providerId": "skills.sh",
-      "description": "Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines,\ndependsOn, caching, remote cache, the \"turbo\" CLI, --filter, --affected, CI optimization, environment\nvariables, internal packages, monorepo structure/best practices, and boundaries.\n\nUse when user: configures tasks/workflows/pipelines, creates packages, sets up\nmonorepo, shares code between apps, runs changed/affected packages, debugs cache,\nor has apps/packages directories."
-    },
-    {
-      "id": "browser-use/browser-use/browser-use",
-      "title": "browser-use",
-      "source": "browser-use/browser-use",
-      "installs": 112,
-      "link": "https://skills.sh/browser-use/browser-use/browser-use",
-      "providerId": "skills.sh",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages."
-    },
-    {
-      "id": "vercel-labs/agent-skills/vercel-composition-patterns",
-      "title": "vercel-composition-patterns",
-      "source": "vercel-labs/agent-skills",
-      "installs": 164,
-      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns",
-      "providerId": "skills.sh",
-      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture."
-    },
-    {
-      "id": "anthropics/skills/pdf",
-      "title": "pdf",
-      "source": "anthropics/skills",
-      "installs": 39,
-      "link": "https://skills.sh/anthropics/skills/pdf",
-      "providerId": "skills.sh",
-      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
-    },
-    {
-      "id": "vuejs-ai/skills/vue-best-practices",
-      "title": "vue-best-practices",
-      "source": "vuejs-ai/skills",
-      "installs": 14,
-      "link": "https://skills.sh/vuejs-ai/skills/vue-best-practices",
-      "providerId": "skills.sh",
-      "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration."
-    },
-    {
-      "id": "vuejs-ai/skills/vue-pinia-best-practices",
-      "title": "vue-pinia-best-practices",
-      "source": "vuejs-ai/skills",
-      "installs": 14,
-      "link": "https://skills.sh/vuejs-ai/skills/vue-pinia-best-practices",
-      "providerId": "skills.sh",
-      "description": "Pinia stores, state management patterns, store setup, and reactivity with stores."
-    },
-    {
-      "id": "vuejs-ai/skills/vue-router-best-practices",
-      "title": "vue-router-best-practices",
-      "source": "vuejs-ai/skills",
-      "installs": 14,
-      "link": "https://skills.sh/vuejs-ai/skills/vue-router-best-practices",
-      "providerId": "skills.sh",
-      "description": "Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions."
-    },
-    {
-      "id": "vuejs-ai/skills/create-adaptable-composable",
-      "title": "create-adaptable-composable",
-      "source": "vuejs-ai/skills",
-      "installs": 13,
-      "link": "https://skills.sh/vuejs-ai/skills/create-adaptable-composable",
-      "providerId": "skills.sh",
-      "description": "Create a library-grade Vue composable that accepts maybe-reactive inputs (MaybeRef / MaybeRefOrGetter) so callers can pass a plain value, ref, or getter. Normalize inputs with toValue()/toRef() inside reactive effects (watch/watchEffect) to keep behavior predictable and reactive. Use this skill when user asks for creating adaptable or reusable composables."
-    },
-    {
-      "id": "vuejs-ai/skills/vue-development-guides",
-      "title": "vue-development-guides",
-      "source": "vuejs-ai/skills",
-      "installs": 13,
-      "link": "https://skills.sh/vuejs-ai/skills/vue-development-guides",
-      "providerId": "skills.sh",
-      "description": "A collection of best practices and tips for developing applications using Vue.js. This skill MUST be apply when developing, refactoring or reviewing Vue.js or Nuxt projects."
-    },
-    {
-      "id": "vuejs-ai/skills/vue-options-api-best-practices",
-      "title": "vue-options-api-best-practices",
-      "source": "vuejs-ai/skills",
-      "installs": 13,
-      "link": "https://skills.sh/vuejs-ai/skills/vue-options-api-best-practices",
-      "providerId": "skills.sh",
-      "description": "Vue 3 Options API style (data(), methods, this context). Each reference shows Options API solution only."
-    },
-    {
-      "id": "anthropics/skills/pptx",
-      "title": "pptx",
-      "source": "anthropics/skills",
-      "installs": 40,
-      "link": "https://skills.sh/anthropics/skills/pptx",
-      "providerId": "skills.sh",
-      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
-    },
-    {
-      "id": "vuejs-ai/skills/vue-testing-best-practices",
-      "title": "vue-testing-best-practices",
-      "source": "vuejs-ai/skills",
-      "installs": 12,
-      "link": "https://skills.sh/vuejs-ai/skills/vue-testing-best-practices",
-      "providerId": "skills.sh",
-      "description": "Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing."
-    },
-    {
-      "id": "vuejs-ai/skills/vue-jsx-best-practices",
-      "title": "vue-jsx-best-practices",
-      "source": "vuejs-ai/skills",
-      "installs": 12,
-      "link": "https://skills.sh/vuejs-ai/skills/vue-jsx-best-practices",
-      "providerId": "skills.sh",
-      "description": "JSX syntax in Vue (e.g., class vs className, JSX plugin config)."
-    },
-    {
-      "id": "vercel-labs/agent-browser/agent-browser",
-      "title": "agent-browser",
-      "source": "vercel-labs/agent-browser",
-      "installs": 114,
-      "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
-      "providerId": "skills.sh",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
-    },
-    {
-      "id": "anthropics/skills/skill-creator",
-      "title": "skill-creator",
-      "source": "anthropics/skills",
-      "installs": 93,
-      "link": "https://skills.sh/anthropics/skills/skill-creator",
-      "providerId": "skills.sh",
-      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations."
-    },
-    {
-      "id": "anthropics/skills/mcp-builder",
-      "title": "mcp-builder",
-      "source": "anthropics/skills",
-      "installs": 35,
-      "link": "https://skills.sh/anthropics/skills/mcp-builder",
-      "providerId": "skills.sh",
-      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
-    },
-    {
-      "id": "anthropics/skills/xlsx",
-      "title": "xlsx",
-      "source": "anthropics/skills",
-      "installs": 35,
-      "link": "https://skills.sh/anthropics/skills/xlsx",
-      "providerId": "skills.sh",
-      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
-    },
-    {
-      "id": "google-gemini/gemini-cli/code-reviewer",
-      "title": "code-reviewer",
-      "source": "google-gemini/gemini-cli",
-      "installs": 18,
-      "link": "https://skills.sh/google-gemini/gemini-cli/code-reviewer",
-      "providerId": "skills.sh",
-      "description": "Use this skill to review code. It supports both local changes (staged or working tree) and remote Pull Requests (by ID or URL). It focuses on correctness, maintainability, and adherence to project standards."
-    },
-    {
-      "id": "obra/superpowers/systematic-debugging",
-      "title": "systematic-debugging",
+      "id": "obra/superpowers/requesting-code-review",
+      "title": "requesting-code-review",
       "source": "obra/superpowers",
-      "installs": 29,
-      "link": "https://skills.sh/obra/superpowers/systematic-debugging",
+      "installs": 21,
+      "link": "https://skills.sh/obra/superpowers/requesting-code-review",
       "providerId": "skills.sh",
-      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
     },
     {
-      "id": "anthropics/skills/web-artifacts-builder",
-      "title": "web-artifacts-builder",
-      "source": "anthropics/skills",
-      "installs": 18,
-      "link": "https://skills.sh/anthropics/skills/web-artifacts-builder",
-      "providerId": "skills.sh",
-      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
-    },
-    {
-      "id": "vercel-labs/agent-skills/web-design-guidelines",
-      "title": "web-design-guidelines",
-      "source": "vercel-labs/agent-skills",
-      "installs": 228,
-      "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
-      "providerId": "skills.sh",
-      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
-    },
-    {
-      "id": "anthropics/skills/doc-coauthoring",
-      "title": "doc-coauthoring",
-      "source": "anthropics/skills",
-      "installs": 20,
-      "link": "https://skills.sh/anthropics/skills/doc-coauthoring",
-      "providerId": "skills.sh",
-      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
-    },
-    {
-      "id": "anthropics/skills/template-skill",
-      "title": "template-skill",
-      "source": "anthropics/skills",
-      "installs": 18,
-      "link": "https://skills.sh/anthropics/skills/template-skill",
-      "providerId": "skills.sh",
-      "description": "Replace with description of the skill and when Claude should use it."
-    },
-    {
-      "id": "anthropics/skills/algorithmic-art",
-      "title": "algorithmic-art",
-      "source": "anthropics/skills",
-      "installs": 18,
-      "link": "https://skills.sh/anthropics/skills/algorithmic-art",
-      "providerId": "skills.sh",
-      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations."
-    },
-    {
-      "id": "anthropics/skills/internal-comms",
-      "title": "internal-comms",
-      "source": "anthropics/skills",
+      "id": "obra/superpowers/receiving-code-review",
+      "title": "receiving-code-review",
+      "source": "obra/superpowers",
       "installs": 17,
-      "link": "https://skills.sh/anthropics/skills/internal-comms",
+      "link": "https://skills.sh/obra/superpowers/receiving-code-review",
       "providerId": "skills.sh",
-      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.)."
-    },
-    {
-      "id": "anthropics/skills/slack-gif-creator",
-      "title": "slack-gif-creator",
-      "source": "anthropics/skills",
-      "installs": 16,
-      "link": "https://skills.sh/anthropics/skills/slack-gif-creator",
-      "providerId": "skills.sh",
-      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\""
-    },
-    {
-      "id": "anthropics/skills/brand-guidelines",
-      "title": "brand-guidelines",
-      "source": "anthropics/skills",
-      "installs": 16,
-      "link": "https://skills.sh/anthropics/skills/brand-guidelines",
-      "providerId": "skills.sh",
-      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply."
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
     },
     {
       "id": "obra/superpowers/brainstorming",
       "title": "brainstorming",
       "source": "obra/superpowers",
-      "installs": 47,
+      "installs": 41,
       "link": "https://skills.sh/obra/superpowers/brainstorming",
       "providerId": "skills.sh",
       "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
     },
     {
-      "id": "anthropics/skills/theme-factory",
-      "title": "theme-factory",
-      "source": "anthropics/skills",
-      "installs": 18,
-      "link": "https://skills.sh/anthropics/skills/theme-factory",
+      "id": "obra/superpowers/writing-plans",
+      "title": "writing-plans",
+      "source": "obra/superpowers",
+      "installs": 22,
+      "link": "https://skills.sh/obra/superpowers/writing-plans",
       "providerId": "skills.sh",
-      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly."
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
+    },
+    {
+      "id": "obra/superpowers/using-git-worktrees",
+      "title": "using-git-worktrees",
+      "source": "obra/superpowers",
+      "installs": 16,
+      "link": "https://skills.sh/obra/superpowers/using-git-worktrees",
+      "providerId": "skills.sh",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification"
+    },
+    {
+      "id": "resend/email-best-practices/email-best-practices",
+      "title": "email-best-practices",
+      "source": "resend/email-best-practices",
+      "installs": 8,
+      "link": "https://skills.sh/resend/email-best-practices/email-best-practices",
+      "providerId": "skills.sh",
+      "description": "Use when building email features, emails going to spam, high bounce rates, setting up SPF/DKIM/DMARC authentication, implementing email capture, ensuring compliance (CAN-SPAM, GDPR, CASL), handling webhooks, retry logic, or deciding transactional vs marketing."
+    },
+    {
+      "id": "obra/superpowers/systematic-debugging",
+      "title": "systematic-debugging",
+      "source": "obra/superpowers",
+      "installs": 25,
+      "link": "https://skills.sh/obra/superpowers/systematic-debugging",
+      "providerId": "skills.sh",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+    },
+    {
+      "id": "obra/superpowers/subagent-driven-development",
+      "title": "subagent-driven-development",
+      "source": "obra/superpowers",
+      "installs": 18,
+      "link": "https://skills.sh/obra/superpowers/subagent-driven-development",
+      "providerId": "skills.sh",
+      "description": "Use when executing implementation plans with independent tasks in the current session"
+    },
+    {
+      "id": "obra/superpowers/writing-skills",
+      "title": "writing-skills",
+      "source": "obra/superpowers",
+      "installs": 15,
+      "link": "https://skills.sh/obra/superpowers/writing-skills",
+      "providerId": "skills.sh",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
     },
     {
       "id": "jimliu/baoyu-skills/baoyu-format-markdown",
       "title": "baoyu-format-markdown",
       "source": "jimliu/baoyu-skills",
-      "installs": 7,
+      "installs": 6,
       "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-format-markdown",
       "providerId": "skills.sh",
       "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md."
@@ -1342,28 +1009,361 @@
       "id": "jimliu/baoyu-skills/baoyu-markdown-to-html",
       "title": "baoyu-markdown-to-html",
       "source": "jimliu/baoyu-skills",
-      "installs": 7,
+      "installs": 6,
       "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-markdown-to-html",
       "providerId": "skills.sh",
       "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, and infographics. Use when user asks for \"markdown to html\", \"convert md to html\", \"md转html\", or needs styled HTML output from markdown."
     },
     {
-      "id": "obra/superpowers/using-git-worktrees",
-      "title": "using-git-worktrees",
-      "source": "obra/superpowers",
-      "installs": 18,
-      "link": "https://skills.sh/obra/superpowers/using-git-worktrees",
+      "id": "resend/resend-skills/resend",
+      "title": "resend",
+      "source": "resend/resend-skills",
+      "installs": 6,
+      "link": "https://skills.sh/resend/resend-skills/resend",
       "providerId": "skills.sh",
-      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification"
+      "description": "Use when working with Resend email platform - routes to specific sub-skills for sending, receiving, audiences, or broadcasts."
     },
     {
-      "id": "coreyhaines31/marketingskills/marketing-ideas",
-      "title": "marketing-ideas",
-      "source": "coreyhaines31/marketingskills",
-      "installs": 16,
-      "link": "https://skills.sh/coreyhaines31/marketingskills/marketing-ideas",
+      "id": "anthropics/skills/webapp-testing",
+      "title": "webapp-testing",
+      "source": "anthropics/skills",
+      "installs": 24,
+      "link": "https://skills.sh/anthropics/skills/webapp-testing",
       "providerId": "skills.sh",
-      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category."
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+    },
+    {
+      "id": "obra/superpowers/executing-plans",
+      "title": "executing-plans",
+      "source": "obra/superpowers",
+      "installs": 18,
+      "link": "https://skills.sh/obra/superpowers/executing-plans",
+      "providerId": "skills.sh",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+    },
+    {
+      "id": "obra/superpowers/verification-before-completion",
+      "title": "verification-before-completion",
+      "source": "obra/superpowers",
+      "installs": 16,
+      "link": "https://skills.sh/obra/superpowers/verification-before-completion",
+      "providerId": "skills.sh",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
+    },
+    {
+      "id": "obra/superpowers/finishing-a-development-branch",
+      "title": "finishing-a-development-branch",
+      "source": "obra/superpowers",
+      "installs": 14,
+      "link": "https://skills.sh/obra/superpowers/finishing-a-development-branch",
+      "providerId": "skills.sh",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup"
+    },
+    {
+      "id": "wshobson/agents/sql-optimization-patterns",
+      "title": "sql-optimization-patterns",
+      "source": "wshobson/agents",
+      "installs": 8,
+      "link": "https://skills.sh/wshobson/agents/sql-optimization-patterns",
+      "providerId": "skills.sh",
+      "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance."
+    },
+    {
+      "id": "actionbook/actionbook/actionbook",
+      "title": "actionbook",
+      "source": "actionbook/actionbook",
+      "installs": 5,
+      "link": "https://skills.sh/actionbook/actionbook/actionbook",
+      "providerId": "skills.sh",
+      "description": "This skill should be used when the user needs to automate multi-step website tasks. Activates for browser automation, web scraping, UI testing, or building AI agents. Provides complete action manuals with step-by-step instructions and verified selectors."
+    },
+    {
+      "id": "obra/superpowers/using-superpowers",
+      "title": "using-superpowers",
+      "source": "obra/superpowers",
+      "installs": 17,
+      "link": "https://skills.sh/obra/superpowers/using-superpowers",
+      "providerId": "skills.sh",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions"
+    },
+    {
+      "id": "obra/superpowers/dispatching-parallel-agents",
+      "title": "dispatching-parallel-agents",
+      "source": "obra/superpowers",
+      "installs": 14,
+      "link": "https://skills.sh/obra/superpowers/dispatching-parallel-agents",
+      "providerId": "skills.sh",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
+    },
+    {
+      "id": "jeffallan/claude-skills/flutter-expert",
+      "title": "flutter-expert",
+      "source": "jeffallan/claude-skills",
+      "installs": 7,
+      "link": "https://skills.sh/jeffallan/claude-skills/flutter-expert",
+      "providerId": "skills.sh",
+      "description": "Use when building cross-platform applications with Flutter 3+ and Dart. Invoke for widget development, Riverpod/Bloc state management, GoRouter navigation, platform-specific implementations, performance optimization."
+    },
+    {
+      "id": "intellectronica/agent-skills/beautiful-mermaid",
+      "title": "beautiful-mermaid",
+      "source": "intellectronica/agent-skills",
+      "installs": 4,
+      "link": "https://skills.sh/intellectronica/agent-skills/beautiful-mermaid",
+      "providerId": "skills.sh",
+      "description": "Render Mermaid diagrams as SVG and PNG using the Beautiful Mermaid library. Use when the user asks to render a Mermaid diagram."
+    },
+    {
+      "id": "anthropics/skills/template-skill",
+      "title": "template-skill",
+      "source": "anthropics/skills",
+      "installs": 12,
+      "link": "https://skills.sh/anthropics/skills/template-skill",
+      "providerId": "skills.sh",
+      "description": "Replace with description of the skill and when Claude should use it."
+    },
+    {
+      "id": "wshobson/agents/prompt-engineering-patterns",
+      "title": "prompt-engineering-patterns",
+      "source": "wshobson/agents",
+      "installs": 8,
+      "link": "https://skills.sh/wshobson/agents/prompt-engineering-patterns",
+      "providerId": "skills.sh",
+      "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates."
+    },
+    {
+      "id": "wshobson/agents/react-state-management",
+      "title": "react-state-management",
+      "source": "wshobson/agents",
+      "installs": 7,
+      "link": "https://skills.sh/wshobson/agents/react-state-management",
+      "providerId": "skills.sh",
+      "description": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions."
+    },
+    {
+      "id": "wshobson/agents/fastapi-templates",
+      "title": "fastapi-templates",
+      "source": "wshobson/agents",
+      "installs": 7,
+      "link": "https://skills.sh/wshobson/agents/fastapi-templates",
+      "providerId": "skills.sh",
+      "description": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects."
+    },
+    {
+      "id": "vercel-labs/next-skills/next-upgrade",
+      "title": "next-upgrade",
+      "source": "vercel-labs/next-skills",
+      "installs": 6,
+      "link": "https://skills.sh/vercel-labs/next-skills/next-upgrade",
+      "providerId": "skills.sh",
+      "description": "Upgrade Next.js to the latest version following official migration guides and codemods"
+    },
+    {
+      "id": "expo/skills/expo-api-routes",
+      "title": "expo-api-routes",
+      "source": "expo/skills",
+      "installs": 5,
+      "link": "https://skills.sh/expo/skills/expo-api-routes",
+      "providerId": "skills.sh",
+      "description": "Guidelines for creating API routes in Expo Router with EAS Hosting"
+    },
+    {
+      "id": "expo/skills/expo-tailwind-setup",
+      "title": "expo-tailwind-setup",
+      "source": "expo/skills",
+      "installs": 5,
+      "link": "https://skills.sh/expo/skills/expo-tailwind-setup",
+      "providerId": "skills.sh",
+      "description": "Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling"
+    },
+    {
+      "id": "expo/skills/expo-dev-client",
+      "title": "expo-dev-client",
+      "source": "expo/skills",
+      "installs": 5,
+      "link": "https://skills.sh/expo/skills/expo-dev-client",
+      "providerId": "skills.sh",
+      "description": "Build and distribute Expo development clients locally or via TestFlight"
+    },
+    {
+      "id": "expo/skills/expo-cicd-workflows",
+      "title": "expo-cicd-workflows",
+      "source": "expo/skills",
+      "installs": 5,
+      "link": "https://skills.sh/expo/skills/expo-cicd-workflows",
+      "providerId": "skills.sh",
+      "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation."
+    },
+    {
+      "id": "figma/mcp-server-guide/implement-design",
+      "title": "implement-design",
+      "source": "figma/mcp-server-guide",
+      "installs": 4,
+      "link": "https://skills.sh/figma/mcp-server-guide/implement-design",
+      "providerId": "skills.sh",
+      "description": "Translates Figma designs into production-ready code with 1:1 visual fidelity. Use when implementing UI from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", \"build Figma design\", provides Figma URLs, or asks to build components matching Figma specs. Requires Figma MCP server connection."
+    },
+    {
+      "id": "langgenius/dify/frontend-code-review",
+      "title": "frontend-code-review",
+      "source": "langgenius/dify",
+      "installs": 4,
+      "link": "https://skills.sh/langgenius/dify/frontend-code-review",
+      "providerId": "skills.sh",
+      "description": "Trigger when the user requests a review of frontend files (e.g., `.tsx`, `.ts`, `.js`). Support both pending-change reviews and focused file reviews while applying the checklist rules."
+    },
+    {
+      "id": "resend/react-email/react-email",
+      "title": "react-email",
+      "source": "resend/react-email",
+      "installs": 4,
+      "link": "https://skills.sh/resend/react-email/react-email",
+      "providerId": "skills.sh",
+      "description": "Use when creating email templates with React - welcome emails, password resets, notifications, order confirmations, or transactional emails that need to render across email clients."
+    },
+    {
+      "id": "kepano/obsidian-skills/obsidian-markdown",
+      "title": "obsidian-markdown",
+      "source": "kepano/obsidian-skills",
+      "installs": 4,
+      "link": "https://skills.sh/kepano/obsidian-skills/obsidian-markdown",
+      "providerId": "skills.sh",
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes."
+    },
+    {
+      "id": "waynesutton/convexskills/convex-file-storage",
+      "title": "convex-file-storage",
+      "source": "waynesutton/convexskills",
+      "installs": 3,
+      "link": "https://skills.sh/waynesutton/convexskills/convex-file-storage",
+      "providerId": "skills.sh",
+      "description": "Complete file handling including upload flows, serving files via URL, storing generated files from actions, deletion, and accessing file metadata from system tables"
+    },
+    {
+      "id": "bahayonghang/drawio-skills/drawio",
+      "title": "drawio",
+      "source": "bahayonghang/drawio-skills",
+      "installs": 3,
+      "link": "https://skills.sh/bahayonghang/drawio-skills/drawio",
+      "providerId": "skills.sh",
+      "description": "AI-powered Draw.io diagram generation with Design System, 3 workflows, and real-time browser preview"
+    },
+    {
+      "id": "lobehub/lobehub/react",
+      "title": "react",
+      "source": "lobehub/lobehub",
+      "installs": 3,
+      "link": "https://skills.sh/lobehub/lobehub/react",
+      "providerId": "skills.sh",
+      "description": "React component development guide. Use when working with React components (.tsx files), creating UI, using @lobehub/ui components, implementing routing, or building frontend features. Triggers on React component creation, modification, layout implementation, or navigation tasks."
+    },
+    {
+      "id": "lobehub/lobehub/typescript",
+      "title": "typescript",
+      "source": "lobehub/lobehub",
+      "installs": 3,
+      "link": "https://skills.sh/lobehub/lobehub/typescript",
+      "providerId": "skills.sh",
+      "description": "TypeScript code style and optimization guidelines. Use when writing TypeScript code (.ts, .tsx, .mts files), reviewing code quality, or implementing type-safe patterns. Triggers on TypeScript development, type safety questions, or code style discussions."
+    },
+    {
+      "id": "ry-run/run-skills/jetbrains-skill",
+      "title": "jetbrains-skill",
+      "source": "ry-run/run-skills",
+      "installs": 3,
+      "link": "https://skills.sh/ry-run/run-skills/jetbrains-skill",
+      "providerId": "skills.sh",
+      "description": "Use the JetBrains IDE MCP Server (IntelliJ IDEA 2025.2+) to let an external client drive IDE-backed actions: run Run Configurations, execute commands in the IDE terminal, read/create/edit project files, search via IDE indexes (text/regex), retrieve code inspections for a file, fetch symbol info, perform rename refactoring, list modules/dependencies/repos, open files in the editor, and reformat code. Use when you want IDE-grade indexing/refactoring/inspection instead of raw shell scripting."
+    },
+    {
+      "id": "obra/superpowers/test-driven-development",
+      "title": "test-driven-development",
+      "source": "obra/superpowers",
+      "installs": 19,
+      "link": "https://skills.sh/obra/superpowers/test-driven-development",
+      "providerId": "skills.sh",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code"
+    },
+    {
+      "id": "anthropics/skills/doc-coauthoring",
+      "title": "doc-coauthoring",
+      "source": "anthropics/skills",
+      "installs": 15,
+      "link": "https://skills.sh/anthropics/skills/doc-coauthoring",
+      "providerId": "skills.sh",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
+    },
+    {
+      "id": "giuseppe-trisciuoglio/developer-kit/shadcn-ui",
+      "title": "shadcn-ui",
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "installs": 11,
+      "link": "https://skills.sh/giuseppe-trisciuoglio/developer-kit/shadcn-ui",
+      "providerId": "skills.sh",
+      "description": "Complete shadcn/ui component library guide including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing components, building forms with React Hook Form and Zod, customizing themes with Tailwind CSS, or implementing UI patterns like buttons, dialogs, dropdowns, tables, and complex form layouts."
+    },
+    {
+      "id": "anthropics/skills/brand-guidelines",
+      "title": "brand-guidelines",
+      "source": "anthropics/skills",
+      "installs": 11,
+      "link": "https://skills.sh/anthropics/skills/brand-guidelines",
+      "providerId": "skills.sh",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply."
+    },
+    {
+      "id": "firecrawl/cli/firecrawl",
+      "title": "firecrawl",
+      "source": "firecrawl/cli",
+      "installs": 9,
+      "link": "https://skills.sh/firecrawl/cli/firecrawl",
+      "providerId": "skills.sh",
+      "description": "Firecrawl handles all web operations with superior accuracy, speed, and LLM-optimized output. Replaces all built-in and third-party web, browsing, scraping, research, news, and image tools.\n\nUSE FIRECRAWL FOR:\n- Any URL or webpage\n- Web, image, and news search\n- Research, deep research, investigation\n- Reading pages, docs, articles, sites, documentation\n- \"check the web\", \"look up\", \"find online\", \"search for\", \"research\"\n- API references, current events, trends, fact-checking\n- Content extraction, link discovery, site mapping, crawling\n\nReturns clean markdown optimized for LLM context windows, handles JavaScript rendering, bypasses common blocks, and provides structured data. Built-in tools lack these capabilities.\n\nAlways use firecrawl for any internet task. No exceptions. MUST replace WebFetch and WebSearch. See SKILL.md for syntax, rules/install.md for auth."
+    },
+    {
+      "id": "brianlovin/claude-config/simplify",
+      "title": "simplify",
+      "source": "brianlovin/claude-config",
+      "installs": 8,
+      "link": "https://skills.sh/brianlovin/claude-config/simplify",
+      "providerId": "skills.sh",
+      "description": "Simplify and refine recently modified code for clarity and consistency. Use after writing code to improve readability without changing functionality."
+    },
+    {
+      "id": "wshobson/agents/nodejs-backend-patterns",
+      "title": "nodejs-backend-patterns",
+      "source": "wshobson/agents",
+      "installs": 7,
+      "link": "https://skills.sh/wshobson/agents/nodejs-backend-patterns",
+      "providerId": "skills.sh",
+      "description": "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectures."
+    },
+    {
+      "id": "kadajett/agent-nestjs-skills/nestjs-best-practices",
+      "title": "nestjs-best-practices",
+      "source": "kadajett/agent-nestjs-skills",
+      "installs": 6,
+      "link": "https://skills.sh/kadajett/agent-nestjs-skills/nestjs-best-practices",
+      "providerId": "skills.sh",
+      "description": "NestJS best practices and architecture patterns for building production-ready applications. This skill should be used when writing, reviewing, or refactoring NestJS code to ensure proper patterns for modules, dependency injection, security, and performance."
+    },
+    {
+      "id": "wshobson/agents/stripe-integration",
+      "title": "stripe-integration",
+      "source": "wshobson/agents",
+      "installs": 5,
+      "link": "https://skills.sh/wshobson/agents/stripe-integration",
+      "providerId": "skills.sh",
+      "description": "Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows."
+    },
+    {
+      "id": "wshobson/agents/monorepo-management",
+      "title": "monorepo-management",
+      "source": "wshobson/agents",
+      "installs": 5,
+      "link": "https://skills.sh/wshobson/agents/monorepo-management",
+      "providerId": "skills.sh",
+      "description": "Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monorepos, optimizing builds, or managing shared dependencies."
     }
   ]
 }

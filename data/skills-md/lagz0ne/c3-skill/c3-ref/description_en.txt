@@ -1,0 +1,4 @@
+Manage cross-cutting patterns and conventions as first-class architecture artifacts.
+Use when: "add a pattern", "document this convention", "create a ref", "update ref-X",
+"evolve this pattern", "what patterns exist", "which components use ref-X".
+Requires .c3/ to exist. Refs are authoritative constraints - violations require explicit override.

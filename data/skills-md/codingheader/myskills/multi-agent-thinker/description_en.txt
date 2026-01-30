@@ -1,0 +1,5 @@
+This skill is the "Heavy Lifting Engine" for complex problem solving.
+**CRITICAL TRIGGER LOGIC - READ CAREFULLY:** The IDE must evaluate the user's request description to decide whether to invoke this skill.
+**INVOKE THIS SKILL IF:** - The request involves **Ambiguity** (e.g., "Design a system...", "Analyze this...", "What do you think about..."). - The request requires **Reasoning** or **Planning** before coding (e.g., architecture design, trade-off analysis, root cause analysis). - The request implies **Multiple Perspectives** (e.g., "debate", "critique", "comprehensive review"). - The request explicitly asks for **Cognitive Strategies** (Socratic questioning, Devil's Advocate, Pre-mortem, Reverse Engineering).
+**DO NOT INVOKE IF:** - The request is a simple, deterministic action (e.g., "Fix the typo in line 10", "Read file X", "Run command Y"). - The request is a direct code generation for a well-defined function without need for architectural thought.
+When invoked, this skill triggers a multi-agent cognitive process to handle the complexity.

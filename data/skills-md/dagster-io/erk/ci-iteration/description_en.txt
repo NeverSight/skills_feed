@@ -1,0 +1,1 @@
+This skill should be used when running CI checks iteratively and fixing failures. Use when executing make targets (fast-ci, all-ci, ci), iterating on lint/format/type/test errors, or needing the devrun agent pattern for pytest/ty/ruff/prettier/make/gt commands.
