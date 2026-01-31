@@ -1,0 +1,66 @@
+name: Build Skill Category Index
+
+on:
+  # Run daily (separate from crawl; crawl bot pushes won't trigger other workflows).
+  schedule:
+    - cron: '20 0 * * *' # UTC 00:20
+  workflow_dispatch:
+  # If humans change the script/index, verify & update on push.
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_skill_category_index.py'
+      - 'data/skills_index.json'
+
+concurrency:
+  group: category-index-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build category index
+        run: python scripts/build_skill_category_index.py
+
+      - name: Commit and push changes (if any)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add data/skills_category_index.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: update skills category index"
+
+          # Rebase onto latest main to avoid non-fast-forward races
+          git fetch origin main
+          git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+
+          # Retry push in case another workflow pushed concurrently
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push failed, retrying ($i/5)..."
+            git fetch origin main
+            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            sleep $((i * 2))
+          done
+
