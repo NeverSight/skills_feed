@@ -1,18 +1,21 @@
-# Skills.sh Crawler
+# Skills Feed
 
-A crawler script to fetch skill data from [skills.sh](https://skills.sh), automatically executed daily via GitHub Actions.
+A crawler that aggregates AI coding agent skills from multiple sources, automatically executed daily via GitHub Actions.
 
 ## Data Sources
 
-Fetches data from three leaderboards:
+### Current Providers
 
-- **All Time** (`/`) - Total installs ranking
-- **Trending** (`/trending`) - Recent growth ranking
-- **Hot** (`/hot`) - Daily installs ranking
+- **[skills.sh](https://skills.sh)** - Community-curated skills leaderboard
+  - All Time (`/`) - Total installs ranking
+  - Trending (`/trending`) - Recent growth ranking  
+  - Hot (`/hot`) - Daily installs ranking
 
-Current provider:
+### Planned Providers
 
-- **skills.sh** (all data currently comes from this provider; more providers will be added later)
+- **GitHub Trending** - Popular skill repos on GitHub
+- **Awesome Lists** - Curated awesome-* lists for AI agent skills
+- **Direct Submissions** - Community-submitted skills via PR
 
 ## Output Files
 
@@ -46,9 +49,9 @@ It also tries to enrich each item with a `description` by fetching the correspon
 
 ```json
 {
-  "title": "Skills.sh Feed",
-  "description": "Latest skill data from skills.sh",
-  "link": "https://skills.sh",
+  "title": "Skills Feed",
+  "description": "Aggregated AI agent skills from multiple sources",
+  "link": "https://github.com/user/skills_feed",
   "updatedAt": "2024-01-27T00:00:00.000Z",
   "topAllTime": [...],
   "topTrending": [...],
@@ -158,5 +161,9 @@ export async function getSkillsData() {
 ## Notes
 
 - Data is updated daily
-- Please comply with skills.sh terms of service
+- Please comply with each provider's terms of service
 - For personal learning and research purposes only
+
+## Contributing
+
+Want to add a new skill source? PRs are welcome! Check out the existing provider implementations in the codebase.
