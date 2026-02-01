@@ -546,26 +546,48 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
   // allTime contains the full unique set and the best "canonical" installs count.
   const trendingInstallsById = new Map<string, number>();
   for (const s of data.trending) {
-    trendingInstallsById.set(`${s.source}/${s.skillId}`, s.installs);
+    const id = `${s.source}/${s.skillId}`;
+    const prev = trendingInstallsById.get(id);
+    if (prev === undefined || s.installs > prev) trendingInstallsById.set(id, s.installs);
   }
 
   const hotInstallsById = new Map<string, number>();
   for (const s of data.hot) {
-    hotInstallsById.set(`${s.source}/${s.skillId}`, s.installs);
+    const id = `${s.source}/${s.skillId}`;
+    const prev = hotInstallsById.get(id);
+    if (prev === undefined || s.installs > prev) hotInstallsById.set(id, s.installs);
   }
 
   // Filter out skills without SKILL.md - they shouldn't be in the index
-  const skillsWithMd = data.allTime.filter(s => hasSkillMd(s.source, s.skillId));
-  const filteredCount = data.allTime.length - skillsWithMd.length;
+  const skillsWithMdRaw = data.allTime.filter(s => hasSkillMd(s.source, s.skillId));
+  const filteredCount = data.allTime.length - skillsWithMdRaw.length;
   if (filteredCount > 0) {
     console.log(`Filtered out ${filteredCount} skills without SKILL.md from index`);
   }
 
+  // Deduplicate by id (skills.sh occasionally returns duplicates).
+  // Keep the entry with the highest installsAllTime.
+  const bestSkillsById = new Map<string, Skill>();
+  for (const s of skillsWithMdRaw) {
+    const id = `${s.source}/${s.skillId}`;
+    const prev = bestSkillsById.get(id);
+    if (!prev || s.installs > prev.installs) bestSkillsById.set(id, s);
+  }
+  const skillsWithMd = Array.from(bestSkillsById.values()).sort((a, b) => {
+    if (b.installs !== a.installs) return b.installs - a.installs;
+    return `${a.source}/${a.skillId}`.localeCompare(`${b.source}/${b.skillId}`);
+  });
+
+  const dedupedCount = skillsWithMdRaw.length - skillsWithMd.length;
+  if (dedupedCount > 0) {
+    console.log(`Deduplicated ${dedupedCount} duplicate skills (same id) from skills.sh index`);
+  }
+
   // Build a set of skill IDs from skills.sh to avoid duplicates
-  const skillsShIds = new Set(skillsWithMd.map(s => `${s.source}/${s.skillId}`));
+  const skillsShIds = new Set(bestSkillsById.keys());
 
   // Filter manual skills: must have SKILL.md AND not already in skills.sh
-  const manualSkillsWithMd = manualSkills.filter(s => {
+  const manualSkillsWithMdRaw = manualSkills.filter(s => {
     const id = `${s.source}/${s.skillId}`;
     if (skillsShIds.has(id)) {
       console.log(`  Skipping manual skill ${id} (already in skills.sh)`);
@@ -573,8 +595,24 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
     }
     return hasSkillMd(s.source, s.skillId);
   });
+
+  // Also dedupe manual skills by id, just in case.
+  const bestManualById = new Map<string, Skill>();
+  for (const s of manualSkillsWithMdRaw) {
+    const id = `${s.source}/${s.skillId}`;
+    const prev = bestManualById.get(id);
+    if (!prev || s.installs > prev.installs) bestManualById.set(id, s);
+  }
+  const manualSkillsWithMd = Array.from(bestManualById.values()).sort((a, b) => {
+    if (b.installs !== a.installs) return b.installs - a.installs;
+    return `${a.source}/${a.skillId}`.localeCompare(`${b.source}/${b.skillId}`);
+  });
+
+  const manualDeduped = manualSkillsWithMdRaw.length - manualSkillsWithMd.length;
   if (manualSkillsWithMd.length > 0) {
-    console.log(`Including ${manualSkillsWithMd.length} manual skills with SKILL.md in index`);
+    console.log(
+      `Including ${manualSkillsWithMd.length} manual skills with SKILL.md in index${manualDeduped > 0 ? ` (deduplicated ${manualDeduped})` : ''}`,
+    );
   }
 
   const totalSkills = skillsWithMd.length + manualSkillsWithMd.length;

@@ -64,6 +64,7 @@ Website-friendly index for *all* skills (built from `data/skills.json`):
 
 - Includes `description` as a **path** to `description_en.txt` (when a cached `SKILL.md` exists under `data/skills-md/`)
 - Includes `skillMdPath` so your website can fetch and render the full markdown
+- **Deduplicated** by `id` (`<source>/<skillId>`). If the upstream data contains duplicates, the index keeps the entry with the highest `installsAllTime`.
 
 ### `data/feed.json`
 
