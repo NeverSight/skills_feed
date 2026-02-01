@@ -1,0 +1,1 @@
+Optimizes Playwright E2E tests by removing waitForTimeout anti-patterns, implementing smart waits, and enabling test sharding for parallel execution. Use when tests timeout, CI execution exceeds limits, or test reliability issues occur.

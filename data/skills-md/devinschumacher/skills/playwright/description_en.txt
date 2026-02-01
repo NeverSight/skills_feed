@@ -1,0 +1,1 @@
+Canonical Playwright hub for E2E tests and ad-hoc browser automation. Use when the user explicitly mentions "Playwright", "@playwright/test", "npx playwright", "playwright.config.ts", "PWDEBUG", "trace viewer", or "toHaveScreenshot". Avoid using for generic browser automation unless Playwright is requested, and avoid using for pure web scraping.

@@ -1,0 +1,16 @@
+Search Google News and Google Shopping using Serper APIs via x402.
+
+USE FOR:
+- Finding recent news articles on a topic
+- Current events and breaking news
+- Product searches and price comparisons
+- Shopping research and product discovery
+- Industry news monitoring
+
+TRIGGERS:
+- "news about", "latest news", "recent articles"
+- "current events", "breaking", "headlines"
+- "shopping", "buy", "price", "product search"
+- "compare prices", "where to buy", "deals on"
+
+Use mcp__x402__fetch for Serper endpoints. Both endpoints are $0.04 per call.

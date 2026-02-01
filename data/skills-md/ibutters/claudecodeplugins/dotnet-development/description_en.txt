@@ -1,0 +1,5 @@
+Comprehensive .NET development guidelines covering DDD, SOLID principles, ASP.NET Core REST APIs, and C# best practices.
+Use when working with: (1) C# code files (.cs), (2) .NET project files (.csproj, .sln), (3) ASP.NET Core applications,
+(4) Domain-Driven Design implementations, (5) REST API development, (6) Entity Framework Core,
+(7) Unit/integration testing in .NET. Specifically triggers for: classes inheriting AggregateRoot/Entity,
+services with IRepository dependencies, controllers inheriting ControllerBase, or files in Domain/Application/Infrastructure folders.

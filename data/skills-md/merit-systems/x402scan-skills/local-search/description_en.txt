@@ -1,0 +1,16 @@
+Search for places, businesses, and locations using Google Maps APIs via x402.
+
+USE FOR:
+- Finding businesses by name or type
+- Searching nearby places
+- Getting detailed place information (address, hours, reviews)
+- Finding restaurants, stores, services in an area
+- Getting business ratings and reviews
+
+TRIGGERS:
+- "find", "search for", "locate", "nearby"
+- "restaurants near", "hotels in", "stores around"
+- "business details", "opening hours", "reviews for"
+- "places in", "what's near", "directions to"
+
+Use mcp__x402__fetch for Google Maps endpoints. Choose partial ($0.02) vs full ($0.05-0.08) based on data needs.

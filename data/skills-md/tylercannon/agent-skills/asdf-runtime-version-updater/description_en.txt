@@ -1,0 +1,1 @@
+Update language runtime versions in .tool-versions files (asdf) and propagate changes to Dockerfiles, GitHub Actions workflows, and other version-referencing files. Use when: (1) updating a project's language runtime version(s), (2) synchronizing versions across .tool-versions, Dockerfiles, and CI/CD configs, or (3) migrating to a new runtime version.

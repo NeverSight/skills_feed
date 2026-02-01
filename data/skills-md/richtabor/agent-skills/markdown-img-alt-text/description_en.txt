@@ -1,0 +1,1 @@
+Adds detailed alt text to markdown image embeds that are missing it. Supports both Obsidian wiki-style (![[image]]) and standard markdown (![](path)) formats. Reads each image, describes its content thoroughly, and updates the embed inline. Triggers on "add alt text", "update alt text", "describe images", "missing alt text", or "image descriptions".

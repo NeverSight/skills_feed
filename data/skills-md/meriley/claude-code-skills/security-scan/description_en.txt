@@ -1,0 +1,1 @@
+⚠️ MANDATORY - Automatically invoked by safe-commit. Performs comprehensive security scanning before commits. Checks for secrets (API keys, passwords, tokens), dependency vulnerabilities, code injection risks, and authentication issues. MUST pass before any commit. NEVER run security scans manually.

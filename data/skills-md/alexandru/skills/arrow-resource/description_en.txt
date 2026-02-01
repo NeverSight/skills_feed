@@ -1,0 +1,1 @@
+Kotlin + Arrow Resource lifecycle management with `Resource`, `ResourceScope`, and `resourceScope`. Use for designing safe acquisition/release of files, streams, DB pools/connections, HTTP clients, or multipart parts; composing resources (including parallel acquisition); or integrating Resource with typed errors and cancellation.

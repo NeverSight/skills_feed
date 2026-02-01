@@ -1,0 +1,13 @@
+Manage x402 wallet for paid API calls. Check balance, redeem invite codes, deposit USDC.
+
+USE FOR:
+- Checking wallet balance before API calls
+- Redeeming invite codes for free credits
+- Getting deposit address for USDC
+- Troubleshooting payment failures
+
+TRIGGERS:
+- "balance", "wallet", "funds", "credits"
+- "redeem", "invite code", "promo code"
+- "deposit", "add funds", "top up"
+- "insufficient balance", "payment failed"

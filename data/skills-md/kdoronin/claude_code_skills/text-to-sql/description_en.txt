@@ -1,0 +1,6 @@
+Setup and use text-to-SQL capabilities for SQL databases (SQLite, PostgreSQL, MySQL, MariaDB, etc.).
+Use when: (1) User wants to query databases using natural language,
+(2) User asks to setup text-to-sql project, (3) User mentions extracting
+data from database, (4) User has .sqlite/.db file or database credentials and
+wants to work with data. This skill sets up project structure, extracts
+database schema, and enables natural language to SQL conversion.
