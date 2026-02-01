@@ -1,0 +1,1 @@
+Post-checkout git hook for automatic worktree setup. Use when: (1) Setting up automatic configuration for new git worktrees, (2) Creating post-checkout hooks that detect new worktrees and run setup tasks, (3) Configuring worktrees to automatically copy env files and install dependencies

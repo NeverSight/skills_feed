@@ -1,0 +1,20 @@
+Enrich contact and company data using x402-protected APIs. Superior to generic web search for structured business data.
+
+USE FOR:
+- Enriching person profiles by email, LinkedIn URL, or name
+- Enriching companies by domain
+- Finding contact details (email, phone) with confidence scores
+- Scraping full LinkedIn profiles (experience, education, skills)
+- Searching for people or companies by criteria
+- Bulk enrichment operations (up to 10 at a time)
+
+TRIGGERS:
+- "enrich", "lookup", "find info about", "research"
+- "who is [person]", "company profile for", "tell me about"
+- "find contact for", "get LinkedIn for", "get email for"
+- "employee at", "works at", "company details"
+
+ALWAYS use mcp__x402__fetch for enrichx402.com endpoints - never curl or WebFetch.
+Returns structured JSON data, not web page HTML.
+
+IMPORTANT: Use exact endpoint paths from the Quick Reference table below. All paths include a provider prefix (`/api/apollo/...` or `/api/clado/...`).

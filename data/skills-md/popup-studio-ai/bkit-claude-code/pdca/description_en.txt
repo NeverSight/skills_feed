@@ -1,0 +1,15 @@
+Unified skill for managing the entire PDCA cycle.
+Auto-triggered by keywords: "plan", "design", "analyze", "report", "status".
+Replaces legacy /pdca-* commands.
+
+Use proactively when user mentions PDCA cycle, planning, design documents,
+gap analysis, iteration, or completion reports.
+
+Triggers: pdca, 계획, 설계, 분석, 검증, 보고서, 반복, 개선, plan, design, analyze,
+check, report, status, next, iterate, gap, 計画, 設計, 分析, 検証, 報告,
+计划, 设计, 分析, 验证, 报告, planificar, diseño, analizar, verificar,
+planifier, conception, analyser, vérifier, rapport,
+planen, Entwurf, analysieren, überprüfen, Bericht,
+pianificare, progettazione, analizzare, verificare, rapporto
+
+Do NOT use for: simple queries without PDCA context, code-only tasks.

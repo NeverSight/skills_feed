@@ -1,0 +1,17 @@
+Search for people and properties using Whitepages APIs via x402.
+
+USE FOR:
+- Finding people by name and location
+- Address lookups and verification
+- Property owner information
+- Background research (with legitimate purpose)
+
+TRIGGERS:
+- "find person", "lookup person", "who lives at"
+- "property owner", "property search", "address lookup"
+- "person at address", "contact info for"
+
+IMPORTANT: These endpoints contain personal information. Use responsibly and only for legitimate purposes.
+See rules/privacy.md for guidance.
+
+Use mcp__x402__fetch for Whitepages endpoints. Both endpoints are $0.44 per call.

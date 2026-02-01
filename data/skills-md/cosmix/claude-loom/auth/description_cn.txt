@@ -1,0 +1,6 @@
+身份验证和授权模式，包括 OAuth2、JWT、RBAC/ABAC、会话管理、API 密钥、密码哈希和 MFA。
+
+使用时间：实施登录流程、访问控制、身份管理、令牌、权限、会话处理、API 密钥身份验证或 MFA。
+请勿使用：用于安全漏洞扫描（使用 /security-scan）、用于安全审核（使用 /security-audit）、用于威胁建模（使用 /threat-model）。
+
+触发器：登录、注销、登录、注册、身份验证、授权、密码、凭证、令牌、JWT、OAuth、OAuth2、OIDC、SSO、SAML、会话、cookie、RBAC、ABAC、权限、角色、MFA、2FA、TOTP、API 密钥、PKCE。
