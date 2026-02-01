@@ -45,11 +45,23 @@ interface SkillIndexItem {
   installsAllTime: number;
   installsTrending?: number;
   installsHot?: number;
+  /**
+   * Stable "first discovered" timestamp for this skill.
+   * This must NOT be rewritten on every daily crawl.
+   *
+   * Used by the website to implement a true "sort=newest".
+   */
+  firstSeenAt?: string;
   // Repo-relative path to the extracted English description text file.
   // Example: data/skills-md/<source>/<skillId>/description_en.txt
   description?: string;
   skillMdPath?: string; // repo-relative path to cached SKILL.md
 }
+
+type SkillsFirstSeenJson = {
+  updatedAt: string;
+  items: Record<string, string>; // id -> ISO timestamp
+};
 
 interface FeedItem {
   id: string;
@@ -542,6 +554,21 @@ function hasSkillMd(source: string, skillId: string): boolean {
 
 async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
   const providerId = data.providerId;
+  const nowIso = new Date().toISOString();
+
+  // Maintain a stable first-seen timestamp mapping so the website can sort by
+  // true "newest discovered" instead of the global skills_index.json updatedAt.
+  const firstSeenPath = () => join(process.cwd(), 'data', 'skills_first_seen.json');
+  const firstSeenExisting = readJsonFile<SkillsFirstSeenJson>(firstSeenPath());
+  const firstSeenById = new Map<string, string>(Object.entries(firstSeenExisting?.items ?? {}));
+
+  const getOrInitFirstSeenAt = (id: string) => {
+    const existing = firstSeenById.get(id);
+    if (existing) return existing;
+    // Only set once: when a skill is first discovered by the crawler.
+    firstSeenById.set(id, nowIso);
+    return nowIso;
+  };
 
   // allTime contains the full unique set and the best "canonical" installs count.
   const trendingInstallsById = new Map<string, number>();
@@ -645,6 +672,7 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
       installsAllTime: s.installs,
       installsTrending: trendingInstallsById.get(id),
       installsHot: hotInstallsById.get(id),
+      firstSeenAt: getOrInitFirstSeenAt(id),
       description: descriptionPath,
       skillMdPath,
     };
@@ -678,12 +706,24 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
       title: s.name,
       link: manualSkillUrl(s.source, s.skillId),
       installsAllTime: s.installs,
+      firstSeenAt: getOrInitFirstSeenAt(id),
       description: descriptionPath,
       skillMdPath,
     };
 
     return null;
   });
+
+  // Persist the stable firstSeen mapping.
+  // Keep entries for skills that disappeared from the latest crawl so history is stable.
+  mkdirSync(join(process.cwd(), 'data'), { recursive: true });
+  const firstSeenOut: SkillsFirstSeenJson = {
+    updatedAt: nowIso,
+    items: Object.fromEntries(
+      Array.from(firstSeenById.entries()).sort(([a], [b]) => a.localeCompare(b)),
+    ),
+  };
+  writeFileSync(firstSeenPath(), JSON.stringify(firstSeenOut, null, 2));
 
   const output = {
     updatedAt: data.updatedAt,
