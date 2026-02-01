@@ -52,6 +52,15 @@ jobs:
           SYNC_ALL_TIME_BUDGET_MINUTES: "330"
           # Speed up backfill while keeping load reasonable.
           SYNC_ALL_CONCURRENCY: "8"
+
+      # Build skill category index (bot pushes won't trigger other workflows)
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build category index
+        run: python scripts/build_skill_category_index.py
       
       - name: Commit data updates
         run: |
@@ -73,11 +82,6 @@ jobs:
           done
       
       # Translate descriptions (GitHub Actions bot push won't trigger other workflows)
-      - name: Setup Python for translation
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      
       - name: Install translation dependencies
         run: pip install deep-translator
       
