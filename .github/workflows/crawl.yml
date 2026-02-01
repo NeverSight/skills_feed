@@ -35,7 +35,9 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # setup-bun@v2 expects `token` (not `github-token`)
+          # This avoids GitHub API rate limiting when resolving versions/tags.
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Install dependencies
         run: bun install --frozen-lockfile
