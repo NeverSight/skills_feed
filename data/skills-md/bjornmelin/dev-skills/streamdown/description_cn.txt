@@ -1,0 +1,11 @@
+Vercel 的 Streamdown 库的专家指南 - AI 应用程序的流优化的 React-Markdown 替代品。
+在以下情况下使用：(1) 从 useChat/streamText 渲染 AI 生成的 markdown，
+(2) 使用流式响应构建聊天 UI，
+(3) 从react-markdown迁移到流友好渲染，
+(4) 配置代码块 (Shiki)、数学 (KaTeX)、图表 (Mermaid)、
+(5)处理AI Streaming期间不完整的Markdown（修正预处理器），
+(6) 使用 Tailwind/CSS 变量自定义 Markdown 样式，
+(7) 通过 rehype-harden（链接/图像协议）保护 AI 输出。
+触发器：Streamdown、流式 Markdown、AI 聊天 Markdown、React-Markdown 替换、
+AI元素响应、不完整降价、推荐、Shiki主题、美人鱼图、
+KaTeX 数学、rehype-harden、isAnimating、markdown 流。

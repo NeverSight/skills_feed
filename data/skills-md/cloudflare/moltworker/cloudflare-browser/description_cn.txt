@@ -1,0 +1,1 @@
+通过 Cloudflare 浏览器渲染 CDP WebSocket 控制无头 Chrome。当 Cloudflare Workers 环境中需要浏览器自动化时，用于屏幕截图、页面导航、抓取和视频捕获。需要在 browser.profiles 中配置 CDP_SECRET 环境变量和 cdpUrl。

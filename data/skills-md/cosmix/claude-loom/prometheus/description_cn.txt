@@ -1,0 +1,6 @@
+Prometheus 监控和警报云原生可观察性。
+
+使用时间：编写 PromQL 查询、配置 Prometheus 抓取目标、创建警报规则、设置记录规则、使用 Prometheus 指标检测应用程序、配置服务发现。
+请勿使用：用于构建仪表板（使用 /grafana）、用于日志分析（使用 /logging-observability）、用于一般可观察性架构（使用以基础设施为重点的高级软件工程师）。
+
+触发器：指标、prometheus、promql、计数器、仪表、直方图、摘要、警报、alertmanager、警报规则、记录规则、抓取、目标、标签、服务发现、重新标记、导出器、仪表、slo、错误预算。
