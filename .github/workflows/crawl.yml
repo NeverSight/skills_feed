@@ -63,6 +63,9 @@ jobs:
 
       - name: Build category index
         run: python scripts/build_skill_category_index.py
+
+      - name: Build skill search index
+        run: python scripts/build_skill_search_index.py
       
       - name: Commit data updates
         run: |
