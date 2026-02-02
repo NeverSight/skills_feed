@@ -37,6 +37,25 @@ def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
+def _maybe_cn_path_from_en_path(repo_relative_path: Optional[str]) -> Optional[str]:
+    """
+    Given an English description path like:
+      data/skills-md/<...>/description_en.txt
+    return the sibling CN path:
+      data/skills-md/<...>/description_cn.txt
+    """
+    if not repo_relative_path:
+        return None
+    s = str(repo_relative_path)
+    if not s:
+        return None
+    if s.endswith("/description_en.txt"):
+        return s[: -len("/description_en.txt")] + "/description_cn.txt"
+    if s.endswith("\\description_en.txt"):
+        return s[: -len("\\description_en.txt")] + "\\description_cn.txt"
+    return None
+
+
 def _load_first_seen_map() -> dict[str, str]:
     """
     Optional compatibility layer:
@@ -97,8 +116,12 @@ def main() -> None:
         if not full_id:
             continue
 
-        description_path = it.get("description")
-        desc = _read_text_repo_relative(description_path)
+        description_en_path = it.get("description")
+        desc_en = _read_text_repo_relative(description_en_path)
+
+        # Optional CN translation (same folder, description_cn.txt).
+        description_cn_path = _maybe_cn_path_from_en_path(description_en_path)
+        desc_cn = _read_text_repo_relative(description_cn_path) if description_cn_path else ""
 
         first_seen_at = it.get("firstSeenAt") or first_seen_by_id.get(full_id)
 
@@ -114,17 +137,22 @@ def main() -> None:
             "installsAllTime": it.get("installsAllTime"),
             "installsTrending": it.get("installsTrending"),
             "installsHot": it.get("installsHot"),
-            # Inline English description for searching.
-            "description": desc,
-            # Keep the path for debugging / refresh verification.
-            "descriptionPath": description_path,
+            # Inline descriptions for searching.
+            # Keep `description` as EN for backward compatibility.
+            "description": desc_en,
+            "descriptionEn": desc_en,
+            "descriptionCn": desc_cn or None,
+            # Keep paths for debugging / refresh verification.
+            "descriptionPath": description_en_path,
+            "descriptionEnPath": description_en_path,
+            "descriptionCnPath": description_cn_path if desc_cn else None,
             "skillMdPath": it.get("skillMdPath"),
         }
 
     out = {
         "updatedAt": _utc_now_iso(),
         "sourceIndexUpdatedAt": index.get("updatedAt"),
-        "version": 1,
+        "version": 2,
         "count": len(by_id),
         "items": dict(sorted(by_id.items())),
     }
