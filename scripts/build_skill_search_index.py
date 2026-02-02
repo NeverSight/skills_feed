@@ -26,13 +26,34 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 INDEX_PATH = DATA_DIR / "skills_index.json"
 OUTPUT_PATH = DATA_DIR / "skills_search_index.json"
+FIRST_SEEN_PATH = DATA_DIR / "skills_first_seen.json"
 
 # Safety cap: descriptions should be short, but avoid accidental huge payloads.
 MAX_DESCRIPTION_CHARS = 5000
 
 
 def _utc_now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    # Keep diffs smaller and consistent with other generated JSON in this repo.
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def _load_first_seen_map() -> dict[str, str]:
+    """
+    Optional compatibility layer:
+    - If `skills_index.json` items don't include `firstSeenAt` yet,
+      we can still populate it from `data/skills_first_seen.json`.
+    """
+    if not FIRST_SEEN_PATH.exists():
+        return {}
+    try:
+        data = json.loads(FIRST_SEEN_PATH.read_text(encoding="utf-8"))
+        items = data.get("items") or {}
+        if isinstance(items, dict):
+            # Ensure values are strings (ISO timestamps).
+            return {str(k): str(v) for k, v in items.items() if k and v}
+    except Exception:
+        pass
+    return {}
 
 
 def _read_text_repo_relative(repo_relative_path: Optional[str]) -> str:
@@ -65,6 +86,8 @@ def main() -> None:
     if not isinstance(items, list):
         raise SystemExit("skills_index.json: expected `items` to be a list")
 
+    first_seen_by_id = _load_first_seen_map()
+
     by_id: dict[str, dict[str, Any]] = {}
 
     for it in items:
@@ -77,6 +100,8 @@ def main() -> None:
         description_path = it.get("description")
         desc = _read_text_repo_relative(description_path)
 
+        first_seen_at = it.get("firstSeenAt") or first_seen_by_id.get(full_id)
+
         # Keep the payload small and query-friendly.
         by_id[full_id] = {
             "id": full_id,
@@ -85,7 +110,7 @@ def main() -> None:
             "skillId": it.get("skillId"),
             "title": it.get("title"),
             "link": it.get("link"),
-            "firstSeenAt": it.get("firstSeenAt"),
+            "firstSeenAt": first_seen_at,
             "installsAllTime": it.get("installsAllTime"),
             "installsTrending": it.get("installsTrending"),
             "installsHot": it.get("installsHot"),
