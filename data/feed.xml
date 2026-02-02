@@ -4,590 +4,615 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Mon, 02 Feb 2026 04:58:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Feb 2026 06:29:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[[Daily] Skills.sh snapshot (2026-02-02)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:snapshot</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:snapshot</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 21781
-Trending skills: 6941
-Hot skills: 1816
-Top All Time: vercel-react-best-practices (81516)
-Top Trending: find-skills (8960)
-Top Hot: instaclaw (87)]]></description>
+All Time skills: 22281
+Trending skills: 7350
+Hot skills: 1019
+Top All Time: vercel-react-best-practices (81739)
+Top Trending: find-skills (9078)
+Top Hot: find-skills (463)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#30): clawdirect]]></title>
-            <link>https://skills.sh/napoleond/clawdirect/clawdirect</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topAllTime:new:napoleond/clawdirect/clawdirect</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #30
-Installs: 4094
-Source: napoleond/clawdirect
-Description: Interact with ClawDirect, a directory of social web experiences for AI agents. Use this skill to browse the directory, like entries, or add new sites. Requires ATXP authentication for MCP tool calls. Triggers: browsing agent-oriented websites, discovering social platforms for agents, liking/voting on directory entries, or submitting new agent-facing sites to ClawDirect.]]></description>
+            <title><![CDATA[[Hot] New entry (#10): tsdown]]></title>
+            <link>https://skills.sh/hairyf/skills/tsdown</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/tsdown</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #10
+Installs: 20
+Source: hairyf/skills
+Description: Bundle TypeScript and JavaScript libraries with blazing-fast speed powered by Rolldown. Use when building libraries, generating type declarations, bundling for multiple formats, or migrating from tsup.]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#31): instaclaw]]></title>
-            <link>https://skills.sh/napoleond/instaclaw/instaclaw</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topAllTime:new:napoleond/instaclaw/instaclaw</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
+            <title><![CDATA[[Hot] New entry (#11): openapi-specification-v2]]></title>
+            <link>https://skills.sh/hairyf/skills/openapi-specification-v2</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/openapi-specification-v2</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #11
+Installs: 20
+Source: hairyf/skills
+Description: OpenAPI (Swagger) 2.0 specification for describing REST APIs. Use when writing, validating, or interpreting Swagger 2.0 specs, generating clients/docs, or working with path/operation/parameter/response/schema/security definitions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#12): openapi-specification-v3.2]]></title>
+            <link>https://skills.sh/hairyf/skills/openapi-specification-v3.2</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/openapi-specification-v3.2</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #12
+Installs: 20
+Source: hairyf/skills
+Description: OpenAPI Specification 3.2 — write and interpret OpenAPI descriptions (OAD), paths, operations, parameters, request/response, schema (JSON Schema 2020-12), security, and extensions. Use when authoring or validating OpenAPI 3.2 documents.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#13): hairy-utils]]></title>
+            <link>https://skills.sh/hairyf/skills/hairy-utils</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/hairy-utils</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #13
+Installs: 18
+Source: hairyf/skills
+Description: Comprehensive skills for working with @hairy/utils core utilities]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#16): arch-tsdown-monorepo]]></title>
+            <link>https://skills.sh/hairyf/skills/arch-tsdown-monorepo</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/arch-tsdown-monorepo</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #16
+Installs: 11
+Source: hairyf/skills
+Description: pnpm monorepo starter for TypeScript libraries with tsdown per package. Use when scaffolding or maintaining a multi-package TS/ESM repo with workspace deps and npm Trusted Publisher.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#17): hairy]]></title>
+            <link>https://skills.sh/hairyf/skills/hairy</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/hairy</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 11
+Source: hairyf/skills
+Description: Hairy's {Opinionated} preferences and best practices for web development]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#18): knitwork-x]]></title>
+            <link>https://skills.sh/hairyf/knitwork-x/knitwork-x</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/knitwork-x/knitwork-x</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 11
+Source: hairyf/knitwork-x
+Description: Utilities to generate JavaScript and TypeScript code programmatically. Use when building code generators, AST-to-code output, or dynamic source generation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): undocs]]></title>
+            <link>https://skills.sh/hairyf/skills/undocs</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/undocs</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 11
+Source: hairyf/skills
+Description: Minimal Documentation Theme and CLI for shared usage across UnJS projects. Use when creating documentation sites with Nuxt, Nuxt Content, and Nuxt UI.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): unjs]]></title>
+            <link>https://skills.sh/hairyf/skills/unjs</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/unjs</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 11
+Source: hairyf/skills
+Description: UnJS ecosystem - agnostic JavaScript libraries, tools, and utilities. Use when working with UnJS packages like h3, nitro, ofetch, unstorage, or building universal JavaScript applications.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): vercel-react-native-skills]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:vercel-labs/agent-skills/vercel-react-native-skills</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 54
+Source: vercel-labs/agent-skills
+Description: React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): vite]]></title>
+            <link>https://skills.sh/antfu/skills/vite</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:antfu/skills/vite</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #22
+Installs: 18
+Source: antfu/skills
+Description: Vite is a next-generation frontend build tool that provides a fast dev server with HMR and optimized production builds]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#24): pnpm]]></title>
+            <link>https://skills.sh/hairyf/skills/pnpm</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/pnpm</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #24
+Installs: 10
+Source: hairyf/skills
+Description: Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces, or managing dependencies with catalogs, patches, or overrides.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): arch-tsdown]]></title>
+            <link>https://skills.sh/hairyf/skills/arch-tsdown</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/arch-tsdown</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 10
+Source: hairyf/skills
+Description: TypeScript library starter using tsdown. Use when scaffolding or maintaining a TS/ESM library with tsdown, pnpm, Vitest, and npm Trusted Publisher.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#26): humanizer-zh]]></title>
+            <link>https://skills.sh/op7418/humanizer-zh/humanizer-zh</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:op7418/humanizer-zh/humanizer-zh</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #26
+Installs: 13
+Source: op7418/humanizer-zh
+Description: 去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。
+基于维基百科的"AI 写作特征"综合指南。检测并修复以下模式：夸大的象征意义、
+宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、三段式法则、
+AI 词汇、否定式排比、过多的连接性短语。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#29): shadcn-ui]]></title>
+            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/shadcn-ui</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:giuseppe-trisciuoglio/developer-kit/shadcn-ui</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #29
+Installs: 18
+Source: giuseppe-trisciuoglio/developer-kit
+Description: Complete shadcn/ui component library guide including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing components, building forms with React Hook Form and Zod, customizing themes with Tailwind CSS, or implementing UI patterns like buttons, dialogs, dropdowns, tables, and complex form layouts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): pinia]]></title>
+            <link>https://skills.sh/antfu/skills/pinia</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:antfu/skills/pinia</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 4076
+Installs: 13
+Source: antfu/skills
+Description: The intuitive store for Vue - type-safe, extensible, and modular state management]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): vue-best-practices]]></title>
+            <link>https://skills.sh/vuejs-ai/skills/vue-best-practices</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:vuejs-ai/skills/vue-best-practices</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 9
+Source: vuejs-ai/skills
+Description: Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): context7]]></title>
+            <link>https://skills.sh/intellectronica/agent-skills/context7</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:intellectronica/agent-skills/context7</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 9
+Source: intellectronica/agent-skills
+Description: Retrieve up-to-date documentation for software libraries, frameworks, and components via the Context7 API. This skill should be used when looking up documentation for any programming library or framework, finding code examples for specific APIs or features, verifying correct usage of library functions, or obtaining current information about library APIs that may have changed since training.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): next]]></title>
+            <link>https://skills.sh/hairyf/skills/next</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/next</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #35
+Installs: 8
+Source: hairyf/skills
+Description: Next.js framework for building React applications with App Router, Server Components, and optimized performance. Use when working with Next.js apps, routing, data fetching, caching, Server Actions, or building full-stack React applications.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): overlastic]]></title>
+            <link>https://skills.sh/hairyf/skills/overlastic</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/overlastic</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 8
+Source: hairyf/skills
+Description: Comprehensive skills for working with Overlastic]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): tailwindcss]]></title>
+            <link>https://skills.sh/hairyf/skills/tailwindcss</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/tailwindcss</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #37
+Installs: 8
+Source: hairyf/skills
+Description: Tailwind CSS utility-first CSS framework. Use when styling web applications with utility classes, building responsive designs, or customizing design systems with theme variables.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#38): valtio-define]]></title>
+            <link>https://skills.sh/hairyf/skills/valtio-define</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/valtio-define</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #38
+Installs: 8
+Source: hairyf/skills
+Description: Comprehensive skills for working with valtio-define]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#39): motion]]></title>
+            <link>https://skills.sh/hairyf/skills/motion</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/motion</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 8
+Source: hairyf/skills
+Description: Motion animation library for JavaScript, React and Vue. Use when creating animations, gestures, layout transitions, scroll-linked effects, or working with motion values and animation controls.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): react-use]]></title>
+            <link>https://skills.sh/hairyf/skills/react-use</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/react-use</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 8
+Source: hairyf/skills
+Description: Collection of essential React Hooks for sensors, UI, animations, side-effects, lifecycles, and state management]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): valtio]]></title>
+            <link>https://skills.sh/hairyf/skills/valtio</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/valtio</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 8
+Source: hairyf/skills
+Description: Valtio proxy state management for React and vanilla JavaScript. Use when creating reactive state, managing application state, or working with proxy-based state management.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): hairy-react-lib]]></title>
+            <link>https://skills.sh/hairyf/skills/hairy-react-lib</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/hairy-react-lib</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 8
+Source: hairyf/skills
+Description: Comprehensive skills for working with @hairy/react-lib React hooks and components]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): mcp-builder]]></title>
+            <link>https://skills.sh/anthropics/skills/mcp-builder</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:anthropics/skills/mcp-builder</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 14
+Source: anthropics/skills
+Description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): vue-best-practices]]></title>
+            <link>https://skills.sh/antfu/skills/vue-best-practices</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:antfu/skills/vue-best-practices</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 12
+Source: antfu/skills
+Description: Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): web-design-guidelines]]></title>
+            <link>https://skills.sh/antfu/skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:antfu/skills/web-design-guidelines</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 11
+Source: antfu/skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): vue-pinia-best-practices]]></title>
+            <link>https://skills.sh/vuejs-ai/skills/vue-pinia-best-practices</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:vuejs-ai/skills/vue-pinia-best-practices</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 9
+Source: vuejs-ai/skills
+Description: Pinia stores, state management patterns, store setup, and reactivity with stores.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): webapp-testing]]></title>
+            <link>https://skills.sh/anthropics/skills/webapp-testing</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:anthropics/skills/webapp-testing</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 17
+Source: anthropics/skills
+Description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): canvas-design]]></title>
+            <link>https://skills.sh/anthropics/skills/canvas-design</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:anthropics/skills/canvas-design</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 15
+Source: anthropics/skills
+Description: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#6): web-design-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #6
+Installs: 131
+Source: vercel-labs/agent-skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): vitest]]></title>
+            <link>https://skills.sh/hairyf/skills/vitest</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:hairyf/skills/vitest</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 21
+Source: hairyf/skills
+Description: Vitest fast unit testing framework powered by Vite with Jest-compatible API. Use when writing tests, mocking, configuring coverage, or working with test filtering and fixtures.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): frontend-design]]></title>
+            <link>https://skills.sh/anthropics/skills/frontend-design</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:new:anthropics/skills/frontend-design</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 93
+Source: anthropics/skills
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (1 → 2): instaclaw]]></title>
+            <link>https://skills.sh/napoleond/instaclaw/instaclaw</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:napoleond/instaclaw/instaclaw</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #1
+Current rank: #2
+Delta: -1
+Installs: 72 (prev 87)
 Source: napoleond/instaclaw
 Description: Photo sharing platform for AI agents. Use this skill to share images, browse feeds, like posts, comment, and follow other agents. Requires ATXP authentication.]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#32): clawdirect-dev]]></title>
-            <link>https://skills.sh/napoleond/clawdirect/clawdirect-dev</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topAllTime:new:napoleond/clawdirect/clawdirect-dev</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #32
-Installs: 4039
-Source: napoleond/clawdirect
-Description: Build agent-facing web experiences with ATXP-based authentication, following the ClawDirect pattern. Use this skill when building websites that AI agents interact with via MCP tools, implementing cookie-based agent auth, or creating agent skills for web apps. Provides templates using @longrun/turtle, Express, SQLite, and ATXP.]]></description>
+            <title><![CDATA[[Hot] Rank down (11 → 23): pretty-mermaid]]></title>
+            <link>https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:imxv/pretty-mermaid-skills/pretty-mermaid</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #11
+Current rank: #23
+Delta: -12
+Installs: 11 (prev 11)
+Source: imxv/pretty-mermaid-skills
+Description: Render beautiful Mermaid diagrams as SVG or ASCII art using the beautiful-mermaid library.
+Supports 15+ themes, 5 diagram types (flowchart, sequence, state, class, ER), and ultra-fast rendering.
+
+Use this skill when:
+1. User asks to "render a mermaid diagram" or provides .mmd files
+2. User requests "create a flowchart/sequence diagram/state diagram"
+3. User wants to "apply a theme" or "beautify a diagram"
+4. User needs to "batch process multiple diagrams"
+5. User mentions "ASCII diagram" or "terminal-friendly diagram"
+6. User wants to visualize architecture, workflows, or data models]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): brainstorming]]></title>
+            <title><![CDATA[[Hot] Rank down (12 → 28): brainstorming]]></title>
             <link>https://skills.sh/obra/superpowers/brainstorming</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/brainstorming</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #12
-Installs: 34
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:obra/superpowers/brainstorming</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #12
+Current rank: #28
+Delta: -16
+Installs: 29 (prev 34)
 Source: obra/superpowers
 Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): requesting-code-review]]></title>
+            <title><![CDATA[[Hot] Rank down (13 → 30): requesting-code-review]]></title>
             <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/requesting-code-review</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 18
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:obra/superpowers/requesting-code-review</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #13
+Current rank: #30
+Delta: -17
+Installs: 15 (prev 18)
 Source: obra/superpowers
 Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): systematic-debugging]]></title>
-            <link>https://skills.sh/obra/superpowers/systematic-debugging</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/systematic-debugging</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 23
-Source: obra/superpowers
-Description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#15): executing-plans]]></title>
-            <link>https://skills.sh/obra/superpowers/executing-plans</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/executing-plans</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #15
-Installs: 19
-Source: obra/superpowers
-Description: Use when you have a written implementation plan to execute in a separate session with review checkpoints]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#16): writing-plans]]></title>
+            <title><![CDATA[[Hot] Rank down (16 → 49): writing-plans]]></title>
             <link>https://skills.sh/obra/superpowers/writing-plans</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/writing-plans</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #16
-Installs: 19
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:obra/superpowers/writing-plans</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #16
+Current rank: #49
+Delta: -33
+Installs: 15 (prev 19)
 Source: obra/superpowers
 Description: Use when you have a spec or requirements for a multi-step task, before touching code]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): next-best-practices]]></title>
-            <link>https://skills.sh/vercel-labs/next-skills/next-best-practices</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vercel-labs/next-skills/next-best-practices</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #17
-Installs: 18
-Source: vercel-labs/next-skills
-Description: Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling]]></description>
+            <title><![CDATA[[Hot] Rank down (2 → 3): clawdirect-dev]]></title>
+            <link>https://skills.sh/napoleond/clawdirect/clawdirect-dev</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:napoleond/clawdirect/clawdirect-dev</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #2
+Current rank: #3
+Delta: -1
+Installs: 70 (prev 85)
+Source: napoleond/clawdirect
+Description: Build agent-facing web experiences with ATXP-based authentication, following the ClawDirect pattern. Use this skill when building websites that AI agents interact with via MCP tools, implementing cookie-based agent auth, or creating agent skills for web apps. Provides templates using @longrun/turtle, Express, SQLite, and ATXP.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): karpathy-guidelines]]></title>
-            <link>https://skills.sh/forrestchang/andrej-karpathy-skills/karpathy-guidelines</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:forrestchang/andrej-karpathy-skills/karpathy-guidelines</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #18
-Installs: 7
-Source: forrestchang/andrej-karpathy-skills
-Description: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.]]></description>
+            <title><![CDATA[[Hot] Rank down (3 → 4): clawdirect]]></title>
+            <link>https://skills.sh/napoleond/clawdirect/clawdirect</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:napoleond/clawdirect/clawdirect</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #4
+Delta: -1
+Installs: 69 (prev 85)
+Source: napoleond/clawdirect
+Description: Interact with ClawDirect, a directory of social web experiences for AI agents. Use this skill to browse the directory, like entries, or add new sites. Requires ATXP authentication for MCP tool calls. Triggers: browsing agent-oriented websites, discovering social platforms for agents, liking/voting on directory entries, or submitting new agent-facing sites to ClawDirect.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): test-driven-development]]></title>
-            <link>https://skills.sh/obra/superpowers/test-driven-development</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/test-driven-development</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #19
-Installs: 17
-Source: obra/superpowers
-Description: Use when implementing any feature or bugfix, before writing implementation code]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): receiving-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/receiving-code-review</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 15
-Source: obra/superpowers
-Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): vue-router-best-practices]]></title>
-            <link>https://skills.sh/vuejs-ai/skills/vue-router-best-practices</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vuejs-ai/skills/vue-router-best-practices</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 6
-Source: vuejs-ai/skills
-Description: Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): agent-browser]]></title>
-            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 48
-Source: vercel-labs/agent-browser
-Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#23): subagent-driven-development]]></title>
-            <link>https://skills.sh/obra/superpowers/subagent-driven-development</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/subagent-driven-development</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #23
-Installs: 14
-Source: obra/superpowers
-Description: Use when executing implementation plans with independent tasks in the current session]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#24): vue]]></title>
-            <link>https://skills.sh/antfu/skills/vue</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:antfu/skills/vue</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #24
-Installs: 7
-Source: antfu/skills
-Description: Vue.js - The Progressive JavaScript Framework for building user interfaces]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#25): backlink-analyzer]]></title>
-            <link>https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 6
-Source: aaron-he-zhu/seo-geo-claude-skills
-Description: Analyzes backlink profiles to understand link authority, identify toxic links, discover link building opportunities, and monitor competitor link acquisition. Essential for off-page SEO strategy.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): sql-optimization-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/sql-optimization-patterns</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:wshobson/agents/sql-optimization-patterns</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 5
-Source: wshobson/agents
-Description: Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#27): vue-testing-best-practices]]></title>
-            <link>https://skills.sh/vuejs-ai/skills/vue-testing-best-practices</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vuejs-ai/skills/vue-testing-best-practices</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #27
-Installs: 5
-Source: vuejs-ai/skills
-Description: Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): vue-development-guides]]></title>
-            <link>https://skills.sh/vuejs-ai/skills/vue-development-guides</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vuejs-ai/skills/vue-development-guides</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 5
-Source: vuejs-ai/skills
-Description: A collection of best practices and tips for developing applications using Vue.js. This skill MUST be apply when developing, refactoring or reviewing Vue.js or Nuxt projects.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): docs-writer]]></title>
-            <link>https://skills.sh/google-gemini/gemini-cli/docs-writer</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:google-gemini/gemini-cli/docs-writer</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 4
-Source: google-gemini/gemini-cli
-Description: name: docs-writer]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): using-superpowers]]></title>
-            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/using-superpowers</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 15
-Source: obra/superpowers
-Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): next-cache-components]]></title>
-            <link>https://skills.sh/vercel-labs/next-skills/next-cache-components</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vercel-labs/next-skills/next-cache-components</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 6
-Source: vercel-labs/next-skills
-Description: Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, updateTag]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): typescript-advanced-types]]></title>
-            <link>https://skills.sh/wshobson/agents/typescript-advanced-types</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:wshobson/agents/typescript-advanced-types</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 4
-Source: wshobson/agents
-Description: Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#33): swift-concurrency]]></title>
-            <link>https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:avdlee/swift-concurrency-agent-skill/swift-concurrency</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 4
-Source: avdlee/swift-concurrency-agent-skill
-Description: Expert guidance on Swift Concurrency best practices, patterns, and implementation. Use when developers mention: (1) Swift Concurrency, async/await, actors, or tasks, (2) "use Swift Concurrency" or "modern concurrency patterns", (3) migrating to Swift 6, (4) data races or thread safety issues, (5) refactoring closures to async/await, (6) @MainActor, Sendable, or actor isolation, (7) concurrent code architecture or performance optimization, (8) concurrency-related linter warnings (SwiftLint or similar; e.g. async_without_await, Sendable/actor isolation/MainActor lint).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): seo-meta]]></title>
-            <link>https://skills.sh/jezweb/claude-skills/seo-meta</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:jezweb/claude-skills/seo-meta</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 3
-Source: jezweb/claude-skills
-Description: Generate complete SEO meta tags for every page. Covers title patterns, meta descriptions, Open Graph, Twitter Cards, and JSON-LD structured data (LocalBusiness, Service, FAQ, BreadcrumbList).
-
-Use when: building pages, adding social sharing, implementing structured data, optimizing for search engines.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): write-xiaohongshu]]></title>
-            <link>https://skills.sh/adjfks/corner-skills/write-xiaohongshu</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:adjfks/corner-skills/write-xiaohongshu</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 3
-Source: adjfks/corner-skills
-Description: Research top-performing Xiaohongshu (小红书 / XHS) image posts, analyze titles/content/comments for patterns and emotional resonance, enrich background via Firecrawl MCP, then write and publish an XHS note via Xiaohongshu MCP. Enforce hard limits: title <= 20 characters, body <= 1000 characters. Use when the user asks for 小红书笔记/种草文案/爆款标题/发布到小红书.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): n8n-workflow-patterns]]></title>
-            <link>https://skills.sh/czlonkowski/n8n-skills/n8n-workflow-patterns</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:czlonkowski/n8n-skills/n8n-workflow-patterns</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 3
-Source: czlonkowski/n8n-skills
-Description: Proven workflow architectural patterns from real n8n workflows. Use when building new workflows, designing workflow structure, choosing workflow patterns, planning workflow architecture, or asking about webhook processing, HTTP API integration, database operations, AI agent workflows, or scheduled tasks.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): agentation]]></title>
-            <link>https://skills.sh/benjitaylor/agentation/agentation</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:benjitaylor/agentation/agentation</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 3
-Source: benjitaylor/agentation
-Description: Add Agentation visual feedback toolbar to a Next.js project]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): threejs-animation]]></title>
-            <link>https://skills.sh/cloudai-x/threejs-skills/threejs-animation</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:cloudai-x/threejs-skills/threejs-animation</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 3
-Source: cloudai-x/threejs-skills
-Description: Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): javascript-testing-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/javascript-testing-patterns</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:wshobson/agents/javascript-testing-patterns</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 3
-Source: wshobson/agents
-Description: Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#4): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vercel-labs/skills/find-skills</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 385
-Source: vercel-labs/skills
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): golang-pro]]></title>
-            <link>https://skills.sh/jeffallan/claude-skills/golang-pro</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:jeffallan/claude-skills/golang-pro</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 3
-Source: jeffallan/claude-skills
-Description: Use when building Go applications requiring concurrent programming, microservices architecture, or high-performance systems. Invoke for goroutines, channels, Go generics, gRPC integration.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#41): vue]]></title>
-            <link>https://skills.sh/onmax/nuxt-skills/vue</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:onmax/nuxt-skills/vue</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 3
-Source: onmax/nuxt-skills
-Description: Use when editing .vue files, creating Vue 3 components, writing composables, or testing Vue code - provides Composition API patterns, props/emits best practices, VueUse integration, and reactive destructuring guidance]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): wrangler]]></title>
-            <link>https://skills.sh/cloudflare/skills/wrangler</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:cloudflare/skills/wrangler</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 3
-Source: cloudflare/skills
-Description: Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): verification-before-completion]]></title>
-            <link>https://skills.sh/obra/superpowers/verification-before-completion</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/verification-before-completion</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 16
-Source: obra/superpowers
-Description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): writing-skills]]></title>
-            <link>https://skills.sh/obra/superpowers/writing-skills</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:obra/superpowers/writing-skills</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 12
-Source: obra/superpowers
-Description: Use when creating new skills, editing existing skills, or verifying skills work before deployment]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): vitest]]></title>
-            <link>https://skills.sh/antfu/skills/vitest</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:antfu/skills/vitest</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 7
-Source: antfu/skills
-Description: A blazing fast unit testing framework powered by Vite]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): content-strategy]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/content-strategy</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:coreyhaines31/marketingskills/content-strategy</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 5
-Source: coreyhaines31/marketingskills
-Description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): nodejs-backend-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/nodejs-backend-patterns</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:wshobson/agents/nodejs-backend-patterns</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 4
-Source: wshobson/agents
-Description: Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectures.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): code-reviewer]]></title>
-            <link>https://skills.sh/google-gemini/gemini-cli/code-reviewer</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:google-gemini/gemini-cli/code-reviewer</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 4
-Source: google-gemini/gemini-cli
-Description: Use this skill to review code. It supports both local changes (staged or working tree) and remote Pull Requests (by ID or URL). It focuses on correctness, maintainability, and adherence to project standards.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): vercel-react-best-practices]]></title>
+            <title><![CDATA[[Hot] Rank down (6 → 27): vercel-react-best-practices]]></title>
             <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:vercel-labs/agent-skills/vercel-react-best-practices</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 175
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:vercel-labs/agent-skills/vercel-react-best-practices</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #6
+Current rank: #27
+Delta: -21
+Installs: 160 (prev 175)
 Source: vercel-labs/agent-skills
 Description: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): remotion-best-practices]]></title>
+            <title><![CDATA[[Hot] Rank down (7 → 14): remotion-best-practices]]></title>
             <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:remotion-dev/skills/remotion-best-practices</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 88
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:remotion-dev/skills/remotion-best-practices</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #7
+Current rank: #14
+Delta: -7
+Installs: 128 (prev 88)
 Source: remotion-dev/skills
 Description: Best practices for Remotion - Video creation in React]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): skill-creator]]></title>
-            <link>https://skills.sh/anthropics/skills/skill-creator</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:anthropics/skills/skill-creator</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 51
-Source: anthropics/skills
-Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): vue-best-practices]]></title>
+            <title><![CDATA[[Hot] Rank down (9 → 32): vue-best-practices]]></title>
             <link>https://skills.sh/hyf0/vue-skills/vue-best-practices</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topHot:new:hyf0/vue-skills/vue-best-practices</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 16
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:hyf0/vue-skills/vue-best-practices</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #9
+Current rank: #32
+Delta: -23
+Installs: 13 (prev 16)
 Source: hyf0/vue-skills
 Description: Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#24): inference-sh]]></title>
-            <link>https://skills.sh/inference-sh/skills/inference-sh</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topTrending:new:inference-sh/skills/inference-sh</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #24
-Installs: 357
-Source: inference-sh/skills
-Description: Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation.
-Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more.
-Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter.
-Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api,
-image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
+            <title><![CDATA[[Hot] Rank up (22 → 15): agent-browser]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #22
+Current rank: #15
+Delta: +7
+Installs: 55 (prev 48)
+Source: vercel-labs/agent-browser
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#39): using-superpowers]]></title>
-            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topTrending:new:obra/superpowers/using-superpowers</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #39
-Installs: 233
-Source: obra/superpowers
-Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
+            <title><![CDATA[[Hot] Rank up (4 → 1): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:vercel-labs/skills/find-skills</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #4
+Current rank: #1
+Delta: +3
+Installs: 463 (prev 385)
+Source: vercel-labs/skills
+Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#41): requesting-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topTrending:new:obra/superpowers/requesting-code-review</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #41
-Installs: 226
-Source: obra/superpowers
-Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
+            <title><![CDATA[[Hot] Rank up (8 → 7): skill-creator]]></title>
+            <link>https://skills.sh/anthropics/skills/skill-creator</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topHot:rank:anthropics/skills/skill-creator</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #8
+Current rank: #7
+Delta: +1
+Installs: 63 (prev 51)
+Source: anthropics/skills
+Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#42): web-search]]></title>
-            <link>https://skills.sh/inference-sh/skills/web-search</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topTrending:new:inference-sh/skills/web-search</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #42
-Installs: 225
-Source: inference-sh/skills
-Description: Web search and content extraction with Tavily and Exa via inference.sh CLI.
-Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract.
-Capabilities: AI-powered search, content extraction, direct answers, research.
-Use for: research, RAG pipelines, fact-checking, content aggregation, agents.
-Triggers: web search, tavily, exa, search api, content extraction, research,
-internet search, ai search, search assistant, web scraping, rag, perplexity alternative]]></description>
+            <title><![CDATA[[Trending] Rank down (6 → 7): frontend-design]]></title>
+            <link>https://skills.sh/anthropics/skills/frontend-design</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topTrending:rank:anthropics/skills/frontend-design</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #6
+Current rank: #7
+Delta: -1
+Installs: 2017 (prev 2001)
+Source: anthropics/skills
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#43): ai-video-generation]]></title>
-            <link>https://skills.sh/inference-sh/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-02-02T04:58:07.400Z:topTrending:new:inference-sh/skills/ai-video-generation</guid>
-            <pubDate>Mon, 02 Feb 2026 04:58:07 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #43
-Installs: 225
-Source: inference-sh/skills
-Description: Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI.
-Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo.
-Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound.
-Use for: social media videos, marketing content, explainer videos, product demos, AI avatars.
-Triggers: video generation, ai video, text to video, image to video, veo, animate image,
-video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker,
-create video with ai, runway alternative, pika alternative, sora alternative, kling alternative]]></description>
+            <title><![CDATA[[Trending] Rank down (8 → 10): vercel-composition-patterns]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
+            <guid isPermaLink="false">2026-02-02T06:29:44.002Z:topTrending:rank:vercel-labs/agent-skills/vercel-composition-patterns</guid>
+            <pubDate>Mon, 02 Feb 2026 06:29:44 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #8
+Current rank: #10
+Delta: -2
+Installs: 1894 (prev 1882)
+Source: vercel-labs/agent-skills
+Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,1 @@
+Shared kernel rules for src/app/shared, defining what can be shared safely (primitives, utilities, UI atoms) and what must not (business logic, cross-context policies); use when adding shared helpers or components.
