@@ -1,0 +1,5 @@
+全面的 .NET 开发指南，涵盖 DDD、SOLID 原则、ASP.NET Core REST API 和 C# 最佳实践。
+使用时使用：(1) C# 代码文件 (.cs)、(2) .NET 项目文件（.csproj、.sln）、(3) ASP.NET Core 应用程序、
+(4) 领域驱动设计实现，(5) REST API 开发，(6) Entity Framework Core，
+(7) .NET 中的单元/集成测试。具体触发：继承 AggregateRoot/Entity 的类，
+具有 IRepository 依赖项的服务、继承 ControllerBase 的控制器或域/应用程序/基础设施文件夹中的文件。

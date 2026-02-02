@@ -1,0 +1,4 @@
+遵循 HWTEST_F 框架约定生成 OpenHarmony C++ 单元测试。
+支持Mock策略、BUILD.gn配置、NDK/NAPI接口、
+并保持 75%+ 的覆盖率要求和严格的代码风格一致性。
+在为 OpenHarmony C++ 源文件生成单元测试时使用。

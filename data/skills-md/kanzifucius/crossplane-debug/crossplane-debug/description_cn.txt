@@ -1,0 +1,1 @@
+调试 Crossplane 组合、函数（KCL、Go 模板、修补和转换、自动就绪）和托管资源。在对合成渲染问题、函数错误、资源创建失败、依赖性问题或声明状态问题进行故障排除时使用。当合成文件本地不可用时，支持远程集群调试。在“crossplane”、“composition”、“XR”、“claim”、“function-kcl”、“托管资源”等关键字上触发，或者在调试由 Crossplane 创建的 Kubernetes 资源时触发。
