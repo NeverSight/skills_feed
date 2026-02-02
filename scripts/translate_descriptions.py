@@ -26,7 +26,11 @@ BASE_DIR = Path(__file__).parent.parent / "data" / "skills-md"
 
 
 def find_all_en_files() -> list[Path]:
-    """Find all English description files that need translation"""
+    """Find all English description files that need translation.
+
+    If description_cn.txt already exists (even if empty), we treat it as "already handled"
+    to avoid overwriting manual edits.
+    """
     en_files = []
     for en_file in BASE_DIR.rglob("description_en.txt"):
         cn_file = en_file.parent / "description_cn.txt"
@@ -60,9 +64,17 @@ def translate_with_google(text: str) -> str:
 
 # ============= Main translation logic =============
 
-def translate_file(en_file: Path, dry_run: bool = False) -> tuple[Path, bool, str]:
-    """Translate a single file"""
+def translate_file(en_file: Path, dry_run: bool = False, force: bool = False) -> tuple[Path, bool, str]:
+    """Translate a single file.
+
+    Safety: if description_cn.txt already exists, we skip unless --force is provided.
+    This prevents overwriting manually authored translations.
+    """
     try:
+        cn_file = en_file.parent / "description_cn.txt"
+        if cn_file.exists() and not force:
+            return en_file, True, "Skipped (description_cn.txt already exists)"
+
         # Read English content
         en_text = en_file.read_text(encoding="utf-8").strip()
         
@@ -77,8 +89,6 @@ def translate_file(en_file: Path, dry_run: bool = False) -> tuple[Path, bool, st
             cn_text = translate_with_google(en_text)
         
         # Write Chinese file
-        cn_file = en_file.parent / "description_cn.txt"
-        
         if not dry_run:
             cn_file.write_text(cn_text + "\n", encoding="utf-8")
         
@@ -137,7 +147,7 @@ def main():
     start_time = time.time()
     
     for en_file in en_files:
-        en_file, success, message = translate_file(en_file)
+        en_file, success, message = translate_file(en_file, dry_run=args.dry_run, force=args.force)
         completed += 1
         
         if success:
