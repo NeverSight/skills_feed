@@ -31,13 +31,12 @@ jobs:
           # Needed for pull --rebase and retry-safe pushes
           fetch-depth: 0
       
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
-          # setup-bun@v2 expects `token` (not `github-token`)
-          # This avoids GitHub API rate limiting when resolving versions/tags.
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install Bun (official script)
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL https://bun.com/install | bash
+          echo "$HOME/.bun/bin" >> "$GITHUB_PATH"
       
       - name: Install dependencies
         run: bun install --frozen-lockfile
