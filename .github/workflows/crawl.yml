@@ -91,8 +91,11 @@ jobs:
       
       - name: Run translation
         run: |
-          # Translate up to 500 new descriptions per run
-          python scripts/translate_descriptions.py --limit 500
+          # Translate up to 500 new descriptions per run (per language).
+          # The script will skip if the target file already exists (unless --force).
+          python scripts/translate_descriptions.py --target zh-CN --limit 500
+          python scripts/translate_descriptions.py --target zh-TW --limit 500
+          python scripts/translate_descriptions.py --target es --limit 500
       
       - name: Commit translations
         run: |
@@ -100,7 +103,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new translations to commit"
           else
-            git commit -m "chore: auto-translate description_en.txt to description_cn.txt"
+            git commit -m "chore: auto-translate descriptions"
             
             # Rebase and push
             git fetch origin main
