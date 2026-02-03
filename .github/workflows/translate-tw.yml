@@ -23,7 +23,7 @@ concurrency:
 jobs:
   translate:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    # timeout-minutes: 350
 
     permissions:
       contents: write
