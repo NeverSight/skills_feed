@@ -41,7 +41,7 @@ jobs:
       
       - name: Run translation
         run: |
-          python scripts/translate_descriptions.py --limit ${{ github.event.inputs.limit || '500' }}
+          python scripts/translate_descriptions.py --limit ${{ github.event.inputs.limit || '2000' }}
       
       - name: Commit and push changes
         run: |

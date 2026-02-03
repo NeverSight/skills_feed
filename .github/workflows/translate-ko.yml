@@ -50,7 +50,7 @@ jobs:
           fi
           python scripts/translate_descriptions.py \
             --target ko \
-            --limit ${{ github.event.inputs.limit || '500' }} \
+            --limit ${{ github.event.inputs.limit || '2000' }} \
             $FORCE_FLAG
 
       - name: Commit and push changes
