@@ -1,0 +1,15 @@
+Workleap 遥测解决方案 (@workleap/telemetry) 指南，该解决方案将 Honeycomb、LogRocket 和 Mixpanel 与一致的关联 ID 统一起来。
+
+在以下情况下使用此技能：
+(1) 在前端应用程序中初始化wl-telemetry
+(2) 使用相关值（遥测 ID、设备 ID）及其生命周期
+(3)使用Honeycomb进行分布式追踪和性能分析
+(4) 使用 OpenTelemetry 创建和丰富 Honeycomb 轨迹/跨度
+(5) 使用LogRocket进行会话回放和前端调试
+(6) 使用 Mixpanel 进行产品分析和事件跟踪
+(7)了解Honeycomb、LogRocket和Mixpanel在wl-telemetry中的作用
+(8) 关联 Honeycomb、LogRocket 和 Mixpanel 之间的数据
+(9) 配置用于wl-telemetry诊断的记录器
+(10) 使用Noop遥测客户端禁用/模拟遥测
+(11) 审查添加或修改遥测仪器的 PR
+(12) 跨工具遥测缺失或不一致的故障排除
