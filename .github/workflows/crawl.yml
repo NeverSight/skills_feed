@@ -91,11 +91,11 @@ jobs:
       
       - name: Run translation
         run: |
-          # Translate up to 500 new descriptions per run (per language).
+          # Translate up to 2000 new descriptions per run (per language).
           # The script will skip if the target file already exists (unless --force).
-          python scripts/translate_descriptions.py --target zh-CN --limit 500
-          python scripts/translate_descriptions.py --target zh-TW --limit 500
-          python scripts/translate_descriptions.py --target es --limit 500
+          python scripts/translate_descriptions.py --target zh-CN --limit 2000
+          python scripts/translate_descriptions.py --target zh-TW --limit 2000
+          python scripts/translate_descriptions.py --target es --limit 2000
       
       - name: Commit translations
         run: |
