@@ -1,0 +1,1 @@
+Tools-first post-implementation validation. Runs toolchain (linters, tests, scanners), then dispatches agents to synthesize findings. Triggers: "post-mortem", "validate completion", "final check", "wrap up epic".

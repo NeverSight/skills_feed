@@ -1,0 +1,1 @@
+Remove AI-generated code slop from a branch. Use to delete unnecessary comments/docs, defensive checks, broad try/catch blocks, type-cast hacks, lint suppressions, dead code, duplication, and style drift. Diff against base (main/master) and align changes with existing project idioms without altering intended behavior.

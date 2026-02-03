@@ -1,0 +1,1 @@
+Sets up a Ralph autonomous development loop for any project. First generates a full PRD from the user's description, then derives a task plan from it. Wraps Claude Code in an intelligent while-true loop with circuit breakers, exit detection, session persistence, and progress tracking. Use when you want Claude to autonomously work through a task list until done.

@@ -1,0 +1,1 @@
+从 Vercel 到 Cloudflare Workers 的端到端迁移指南。将任何应用程序（Next.js、React SPA、Astro、Remix、静态站点、API 路由）从 Vercel 托管迁移到 Cloudflare Workers 时使用。涵盖项目评估、牧马人配置、OpenNext for Next.js、存储迁移（KV、D1、R2、Hyperdrive）、环境变量、DNS 切换、图像优化、Node.js 兼容性、包大小优化以及常见迁移错误故障排除。触发条件：从 Vercel 迁移、迁移到 Cloudflare、Vercel 迁移到 Workers、在 Cloudflare 上部署 Next.js、用 Cloudflare 替换 Vercel 或任何 Vercel 到 Cloudflare 的迁移任务。
