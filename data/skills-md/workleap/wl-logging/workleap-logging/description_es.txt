@@ -1,0 +1,14 @@
+Guía para la biblioteca de registros de Workleap (@workleap/logging) que proporciona registros estructurados y componibles para aplicaciones frontend TypeScript.
+
+Utilice esta habilidad cuando:
+(1) Configurar el inicio de sesión en una aplicación frontend de Workleap
+(2) Crear o configurar registradores (BrowserConsoleLogger, CompositeLogger)
+(3) Comprender los niveles de registro (depuración, información, advertencia, error, crítico)
+(4) Crear entradas de registro complejas con segmentos encadenados (withText, withObject, withError)
+(5) Uso de ámbitos de registro para agrupar entradas de registro relacionadas
+(6) Aplicar estilo a la salida del registro en la consola del navegador
+(7) Componer varios registradores para enviar registros a diferentes destinos
+(8) Filtrar registros por nivel de gravedad
+(9) Integrar el registro con LogRocket u otras herramientas de telemetría
+(10) Revisar los cambios relacionados con el registro en las solicitudes de extracción
+(11) Preguntas sobre las mejores prácticas de registro específicas para wl-logging

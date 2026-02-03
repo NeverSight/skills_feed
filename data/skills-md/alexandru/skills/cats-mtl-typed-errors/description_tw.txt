@@ -1,0 +1,1 @@
+Scala 使用 Cats MTL Raise/Handle 和允許/救援鍵入錯誤。用於在不使用 EitherT 的情況下設計自定義域錯誤類型，同時保持貓效應和生態系統組成。涵蓋 Scala 2/3 語法和僅 IO 或 F[_] 的用法。

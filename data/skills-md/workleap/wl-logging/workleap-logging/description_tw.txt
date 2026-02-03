@@ -1,0 +1,14 @@
+Workleap 日誌記錄庫 (@workleap/logging) 指南，為前端 TypeScript 應用程序提供結構化、可組合的日誌記錄。
+
+在以下情況下使用此技能：
+(1) 在 Workleap 前端應用程序中設置日誌記錄
+（2）創建或配置記錄器（BrowserConsoleLogger、CompositeLogger）
+（3）了解日誌級別（調試、信息、警告、錯誤、嚴重）
+(4) 用鍊式段構建複雜的日誌條目（withText、withObject、withError）
+(5) 使用日誌範圍對相關日誌條目進行分組
+(6) 瀏覽器控制台中日誌輸出的樣式
+(7) 組合多個logger將日誌發送到不同的目的地
+(8) 按嚴重級別過濾日誌
+(9) 將日誌記錄與LogRocket或其他遙測工具集成
+(10) 審查拉取請求中與日誌記錄相關的更改
+(11) 有關 wl-logging 的日誌記錄最佳實踐的問題
