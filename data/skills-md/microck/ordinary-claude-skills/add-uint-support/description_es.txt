@@ -1,0 +1,1 @@
+Agregue compatibilidad con el tipo entero sin signo (uint) a los operadores de PyTorch actualizando las macros AT_DISPATCH. Úselo cuando agregue soporte para los tipos uint16, uint32, uint64 a operadores, kernels o cuando el usuario mencione habilitar tipos sin firmar, tipos básicos sin firmar o soporte para uint.

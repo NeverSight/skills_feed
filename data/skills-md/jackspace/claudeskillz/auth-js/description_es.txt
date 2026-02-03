@@ -1,0 +1,16 @@
+Configuración de Auth.js v5 lista para producción para Next.js y Cloudflare Workers.
+
+Úselo cuando: configure la autenticación, implemente OAuth/credenciales/enlaces mágicos,
+configurar adaptadores D1 o PostgreSQL, depurar problemas de sesión, migrar desde
+v4 a v5, corrección de compatibilidad perimetral, resolución de problemas de sesiones JWT/base de datos,
+resolver errores AUTH_SECRET, corregir CallbackRouteError o implementar RBAC.
+
+Cubre: Enrutador de aplicaciones Next.js y enrutador de páginas, Cloudflare Workers + D1, proveedores de OAuth
+(GitHub, Google, etc.), autenticación de credenciales, enlaces mágicos, sesiones JWT vs bases de datos,
+patrones de middleware, control de acceso basado en roles, actualización de tokens, tiempo de ejecución perimetral
+compatibilidad y prevención de errores comunes.
+
+Palabras clave: Auth.js, NextAuth.js, autenticación, OAuth, credenciales, enlaces mágicos,
+Adaptador D1, Cloudflare Workers, middleware Next.js, sesión JWT, sesión de base de datos,
+tokens de actualización, RBAC, compatibilidad perimetral, AUTH_SECRET, CallbackRouteError,
+CredentialsSignin, JWEDecryptionFailed, sesión no actualizada, protección de ruta

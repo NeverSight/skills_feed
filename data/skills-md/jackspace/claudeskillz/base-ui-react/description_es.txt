@@ -1,0 +1,18 @@
+Configuración probada en producción para Base UI (@base-ui-components/react): biblioteca de componentes sin estilo de MUI
+que proporciona componentes React accesibles y personalizables utilizando un patrón de accesorios de renderizado. esta habilidad
+debe usarse al crear interfaces de usuario accesibles con control total de estilo, migrando desde Radix UI,
+o necesitar componentes con integración de UI flotante para un posicionamiento inteligente.
+
+Úselo cuando: configurar la interfaz de usuario base en proyectos de Vite + React, migrar de la interfaz de usuario de Radix a la interfaz de usuario base,
+implementar componentes accesibles (diálogo, selección, ventana emergente, información sobre herramientas, campo numérico, acordeón),
+encontrar problemas de posicionamiento con ventanas emergentes, necesitar render prop API en lugar del patrón asChild,
+compilar con Tailwind v4 + shadcn/ui o implementar en Cloudflare Workers.
+
+⚠️ ESTADO BETA: La interfaz de usuario base es v1.0.0-beta.4. Se espera la versión 1.0 estable para el cuarto trimestre de 2025. Esta habilidad proporciona
+soluciones alternativas para problemas beta conocidos y orientación sobre la estabilidad de API.
+
+Palabras clave: base-ui, @base-ui-components/react, mui base ui, componentes sin estilo, componentes accesibles,
+accesorios de renderizado, alternativa de radix, migración de radix, interfaz de usuario flotante, patrón de posicionador, interfaz de usuario sin cabeza,
+cuadro de diálogo accesible, selección accesible, ventana emergente accesible, información sobre herramientas accesible, acordeón accesible,
+campo numérico, componentes de reacción, componentes de viento de cola, reacción de vite, interfaz de usuario de trabajadores de Cloudflare,
+componentes beta, biblioteca de componentes

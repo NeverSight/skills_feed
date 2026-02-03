@@ -1,0 +1,6 @@
+Cree resúmenes de redacción por capítulo (H2) (SIN PROSA) para que la encuesta final se lea como un documento (capítulo principal + coherencia cruzada entre H3) sin inflar la ToC.
+**Activador**: resúmenes del capítulo, resúmenes H2, plan principal del capítulo, intención de la sección, 章节意图, 章节导读, H2 卡片.
+**Úselo cuando**: `outline/outline.yml` + `outline/subsection_briefs.jsonl` existen y desea capítulos más gruesos (menos títulos, más lógica).
+**Omitir si**: el esquema todavía está cambiando mucho (arregle el esquema/mapeo primero).
+**Red**: ninguna.
+**Barandilla**: SIN PROSA; no inventes papeles; solo haga referencia a los identificadores de subsecciones y a los artículos ya mapeados.

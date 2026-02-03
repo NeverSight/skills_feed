@@ -1,0 +1,6 @@
+Monitoreo y alertas de Prometheus para observabilidad nativa de la nube.
+
+UTILIZAR CUANDO: Escribir consultas PromQL, configurar objetivos de raspado de Prometheus, crear reglas de alerta, configurar reglas de registro, instrumentar aplicaciones con métricas de Prometheus, configurar el descubrimiento de servicios.
+NO UTILIZAR: Para crear paneles de control (use /grafana), para análisis de registros (use /logging-observability), para arquitectura de observabilidad general (use senior-infrastructure-engineer).
+
+DESENCADENADORES: métricas, prometheus, promql, contador, calibre, histograma, resumen, alerta, administrador de alertas, regla de alerta, regla de grabación, raspado, destino, etiqueta, descubrimiento de servicios, reetiquetado, exportador, instrumentación, slo, presupuesto de errores.

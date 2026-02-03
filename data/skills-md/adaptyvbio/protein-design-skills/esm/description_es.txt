@@ -1,0 +1,2 @@
+Modelo de lenguaje de proteína ESM2 para incrustaciones y puntuación de secuencias. Utilice esta habilidad cuando: (1) calcule puntuaciones de probabilidad pseudologarítmica (PLL), (2) obtenga incorporaciones de proteínas para agrupación, (3) filtre diseños según la plausibilidad de la secuencia, (4) prediga el efecto de variante de disparo cero, (5) analice las relaciones secuencia-función.
+Para la predicción de estructuras, utilice chai o Boltz. Para los umbrales de control de calidad, utilice proteína-qc.

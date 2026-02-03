@@ -1,0 +1,6 @@
+Pase de coherencia lógica para archivos de sección por H3: aplique una tesis clara del párrafo 1 y exponga los riesgos de isla de párrafo (las estadísticas del conector son de diagnóstico, no una cuota) antes de fusionar.
+**Activador**: pulidor lógico, lógica de sección, declaración de tesis, conectores, 段落逻辑, 连接词, 论证主线, 润色逻辑.
+**Usar cuando**: `secciones/S*.md` existen pero se leen como islas de párrafos; desea un bucle automático específico y depurable antes de la "fusión de secciones".
+**Omitir si**: faltan secciones o son delgadas (arregle primero `subsection-writer`) o los paquetes de evidencia/resúmenes están estructurados (arregle C3/C4 primero).
+**Red**: ninguna.
+**Guardrail**: no agregue nuevas citas; no inventes hechos; no cambie las claves de citas; no mueva las citas entre subsecciones.

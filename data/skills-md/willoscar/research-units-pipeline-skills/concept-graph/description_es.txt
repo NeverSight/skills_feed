@@ -1,0 +1,6 @@
+Cree un gráfico conceptual (nodos + bordes de requisitos previos) a partir de una especificación del tutorial y guárdelo como `outline/concept_graph.yml`.
+**Activador**: gráfico de concepto, gráfico de requisitos previos, gráfico de dependencia, 概念图, 先修关系.
+**Usar cuando**: canalización de tutoriales 的结构阶段（C2），需要把教程知识点拆成可排序的依赖图（在写教程 prose 前）。
+**Omitir si**: 还没有 especificación del tutorial（例如缺少 `output/TUTORIAL_SPEC.md`）。
+**Red**: ninguna.
+**Barandilla**: 只做结构；避免写长 prosa 段落。

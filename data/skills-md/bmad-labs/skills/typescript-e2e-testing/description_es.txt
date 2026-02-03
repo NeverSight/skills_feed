@@ -1,0 +1,50 @@
+Habilidad completa de pruebas de integración y E2E (de un extremo a otro) para proyectos TypeScript/NestJS utilizando Jest, infraestructura real a través de Docker y patrón GWT.
+
+SIEMPRE utilice esta habilidad cuando el usuario necesite:
+
+**CONFIGURACIÓN** - Inicialice o configure la infraestructura de pruebas E2E:
+- Configurar pruebas E2E para un nuevo proyecto.
+- Configurar docker-compose para pruebas (Kafka, PostgreSQL, MongoDB, Redis)
+- Crear configuración jest-e2e.config.ts o E2E Jest
+- Configurar ayudantes de prueba para bases de datos, Kafka o Redis
+- Configurar variables de entorno .env.e2e
+- Crear estructura de directorio test/e2e
+
+**ESCRIBIR** - Crear o agregar pruebas de integración/E2E:
+- Escribir, crear, agregar o generar pruebas e2e o pruebas de integración.
+- Pruebe puntos finales de API, flujos de trabajo o funciones completas de un extremo a otro
+- Pruebe con bases de datos reales, intermediarios de mensajes o servicios externos.
+- Probar consumidores/productores de Kafka, flujos de trabajo basados en eventos
+- Trabajar en cualquier archivo que termine en .e2e-spec.ts o en el directorio test/e2e/
+- Utilice el patrón GWT (dado-cuando-entonces) para las pruebas
+
+**REVISIÓN** - Auditar o evaluar pruebas E2E:
+- Revisar las pruebas E2E existentes para comprobar la calidad.
+- Verifique los patrones de limpieza y aislamiento de prueba.
+- Auditar el cumplimiento del patrón GWT.
+- Evaluar la calidad y especificidad de las afirmaciones.
+- Verificar antipatrones (múltiples acciones CUANDO, afirmaciones condicionales)
+
+**EJECUTAR**: ejecutar o analizar los resultados de las pruebas E2E:
+- Ejecutar pruebas E2E
+- Iniciar/detener la infraestructura Docker para realizar pruebas.
+- Analizar los resultados de las pruebas E2E
+- Verificar que los servicios Docker estén en buen estado
+- Interpretar resultados de pruebas y fallas.
+
+**DEPURACIÓN** - Corrige pruebas E2E fallidas o inestables:
+- Corregir pruebas E2E fallidas
+- Depurar pruebas inestables o problemas de aislamiento de pruebas
+- Solucionar errores de conexión (base de datos, Kafka, Redis)
+- Solucionar problemas de tiempo de espera o fallas de operación asincrónica
+- Diagnosticar condiciones de carrera o fugas de estado.
+- Depurar problemas de consumo de mensajes de Kafka.
+
+**OPTIMIZAR** - Mejorar el rendimiento de las pruebas E2E:
+- Acelerar las pruebas E2E lentas
+- Optimizar el inicio de la infraestructura Docker
+- Reemplace las esperas fijas con encuestas inteligentes
+- Reducir antes de cada tiempo de limpieza.
+- Mejorar la paralelización de pruebas cuando sea seguro.
+
+Palabras clave: e2e, de un extremo a otro, prueba de integración, e2e-spec.ts, test/e2e, Jest, supertest, NestJS, Kafka, Redpanda, PostgreSQL, MongoDB, Redis, docker-compose, patrón GWT, Given-When-Then, infraestructura real, aislamiento de prueba, prueba inestable, MSW, nock, waitForMessages, fix e2e, debug e2e, run e2e, revisar e2e, optimizar e2e, configurar e2e

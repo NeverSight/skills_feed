@@ -1,0 +1,7 @@
+Interactúe con la API de Up Banking para consultar cuentas, transacciones, categorías y etiquetas. Utilizar cuando el usuario quiera:
+- Verificar saldos de cuentas o enumerar cuentas
+- Buscar o filtrar transacciones (por fecha, categoría, etiqueta, estado)
+- Analizar patrones de gasto o generar resúmenes.
+- Categorizar transacciones o gestionar etiquetas
+- Configurar o administrar webhooks para notificaciones en tiempo real
+Requiere la variable de entorno UP_API_TOKEN.

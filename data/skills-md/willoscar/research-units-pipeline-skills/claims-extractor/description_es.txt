@@ -1,0 +1,6 @@
+Extraiga afirmaciones, contribuciones y suposiciones clave de un artículo/manuscrito en `output/CLAIMS.md` con trazabilidad hasta las ubicaciones de origen.
+**Activador**: extractor de reclamos, extracto de reclamos, contribuciones, suposiciones, revisión por pares, 审稿, 主张提取.
+**Usar cuando**: 审稿/评审或 auditoría de evidencia,需要把主张列表落盘并可追溯到原文位置（sección/página/cita）。
+**Omitir si**: 没有可用的稿件/全文（例如缺少 `output/PAPER.md` 或等价文本）。
+**Red**: ninguna.
+**Guardrail**: 每条 reclamo 必须带可定位的 puntero de fuente；区分 reclamos empíricos versus conceptuales。

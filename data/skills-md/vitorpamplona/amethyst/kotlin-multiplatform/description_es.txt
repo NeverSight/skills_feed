@@ -1,0 +1,5 @@
+Toma de decisiones de abstracción de plataforma para el proyecto Amethyst KMP. Guías sobre cuándo abstraer o mantener una plataforma específica,
+Ubicación del conjunto de fuentes (commonMain, jvmAndroid, específico de la plataforma), patrones esperados/reales. Cubre objetivos primarios
+(Android, JVM/Desktop, iOS) con consideraciones futuras sobre web/wasm. Se integra con gradle-expert para problemas de dependencia.
+Activadores de: decisiones de abstracción ("¿debería compartir esto?"), preguntas sobre la ubicación del conjunto de fuentes, creación esperada/real,
+build.gradle.kts funciona, detección de ubicación incorrecta, sugerencias de dependencia de KMP.

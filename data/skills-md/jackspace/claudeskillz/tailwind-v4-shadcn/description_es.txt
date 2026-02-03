@@ -1,0 +1,15 @@
+Configuración probada en producción para Tailwind CSS v4 con shadcn/ui, Vite y React.
+
+Úselo cuando: inicializando proyectos de React con Tailwind v4, configurando shadcn/ui,
+implementar el modo oscuro, depurar problemas de variables CSS, arreglar el cambio de tema,
+migrar desde Tailwind v3 o encontrar problemas de color/temática.
+
+Cubre: patrón en línea @theme, arquitectura variable CSS, modo oscuro con
+ThemeProvider, composición de componentes, configuración de vite.config, errores comunes de v4,
+y patrones probados en producción.
+
+Palabras clave: Tailwind v4, shadcn/ui, @tailwindcss/vite, @theme inline, modo oscuro,
+Variables CSS, contenedor hsl(), componentes.json, temática de React, cambio de tema,
+colores que no funcionan, variables rotas, tema que no se aplica, directiva @plugin,
+complemento de tipografía, complemento de formularios, clase de prosa, @tailwindcss/typography,
+@tailwindcss/formularios

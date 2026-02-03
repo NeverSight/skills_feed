@@ -1,0 +1,6 @@
+Seleccione el canal más apropiado para el objetivo de un usuario, bloquéelo en `PIPELINE.lock.md` y dirija las preguntas del punto de control a `DECISIONS.md`.
+**Activador**: enrutador de canalización, elegir canalización, selección de flujo de trabajo, PIPELINE.lock.md, 选择流程.
+**Usar cuando**: 用户目标/交付物不清晰，需要在 snapshot/survey/tutorial/systematic-review/peer-review 中选一个并设置最小 HITL 问题集。
+**Omitir si**: tubería 已锁定（`PIPELINE.lock.md` 存在）且所需问题已回答/签字完成。
+**Red**: ninguna.
+**Guardrail**: 尽量一次性提问；信息不足就写 `DECISIONS.md` 并停下等待。

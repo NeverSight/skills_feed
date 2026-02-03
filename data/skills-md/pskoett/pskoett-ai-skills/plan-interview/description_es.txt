@@ -1,0 +1,5 @@
+Garantiza la alineación entre el usuario y Claude durante la planificación de características/especificaciones a través de un proceso de entrevista estructurado.
+
+Utilice esta habilidad cuando el usuario invoque /plan-interview antes de implementar una nueva característica, refactorización o cualquier tarea de implementación no trivial. La habilidad realiza una entrevista inicial para recopilar requisitos a través de restricciones técnicas, límites de alcance, tolerancia al riesgo y criterios de éxito antes de cualquier exploración de la base de código.
+
+NO utilice esta habilidad para: tareas puras de investigación/exploración, corrección de errores simples o cuando el usuario simplemente quiera una planificación estándar sin el proceso de entrevista.

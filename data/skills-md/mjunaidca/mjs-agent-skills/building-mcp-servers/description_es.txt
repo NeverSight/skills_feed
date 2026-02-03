@@ -1,0 +1,5 @@
+Guía la creación de servidores MCP (Protocolo de contexto modelo) de alta calidad que habilitan LLM
+interactuar con servicios externos a través de herramientas bien diseñadas. Úselo al construir MCP
+servidores para integrar API o servicios externos, ya sea en Python (FastMCP) o
+Nodo/TypeScript (MCP SDK). Cubre el diseño de herramientas, autenticación, implementación de Docker,
+y creación de evaluaciones. NO cuando consuma servidores MCP existentes (use el servidor directamente).

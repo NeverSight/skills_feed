@@ -1,0 +1,13 @@
+Optimice la recuperación de datos del enrutador de aplicaciones Next.js mediante la conversión del lado lento del cliente 
+recuperación rápida del lado del servidor mediante React Server Components (RSC).
+
+Úselo cuando:
+- El usuario informa que la carga inicial de la página es lenta con los controles giratorios de carga.
+- La página utiliza useEffect + useState para obtener datos
+- El patrón StoreContext/useStore provoca la recuperación en cascada
+- Necesidad de mejorar SEO (contenido no en HTML inicial)
+- Conversión de páginas de "uso cliente" a componentes de servidor
+
+Activadores: "carga lenta", "optimizar la recuperación", "datos SSR", "optimización RSC",
+"eliminar el control giratorio de carga", "búsqueda del lado del servidor", "convertir a componente del servidor",
+"obtención de datos lambat", "cargando lama"

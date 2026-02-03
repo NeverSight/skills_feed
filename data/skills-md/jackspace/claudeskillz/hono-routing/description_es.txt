@@ -1,0 +1,5 @@
+Esta habilidad proporciona un conocimiento integral para crear API con seguridad de tipos con Hono, enfocándose en patrones de enrutamiento, composición de middleware, validación de solicitudes, patrones de cliente/servidor RPC, manejo de errores y administración de contexto.
+
+Úselo cuando: cree API con Hono (cualquier tiempo de ejecución), configure la validación de solicitudes con validadores Zod/Valibot/Typia/ArkType, cree comunicación cliente/servidor RPC con seguridad de tipos, implemente middleware personalizado, maneje errores con HTTPException, extienda el contexto de Hono con variables personalizadas o encuentre problemas de inferencia de tipo de middleware, confusión de ganchos de validación o problemas de rendimiento de RPC.
+
+Palabras clave: hono, enrutamiento de hono, middleware de hono, rpc de hono, validador de hono, validador zod, validador de valibot, API con seguridad de tipos, contexto de hono, manejo de errores de hono, HTTPException, c.req.valid, composición de middleware, ganchos de hono, rutas escritas, cliente de hono, respuesta de middleware no escrita, validación fallida de hono, inferencia de tipo de rpc de hono

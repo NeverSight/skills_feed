@@ -1,0 +1,17 @@
+Arquitectura de documentos SIN implementación. Crea ADR y documentos de componentes con estado: aprovisionado.
+
+DEBE usar esta habilidad cuando el usuario quiera DISEÑAR o PLANIFICAR sin implementar:
+- "aprovisionar X", "aprovisionar un componente", "aprovisionar un nuevo servicio"
+- "diseñar la arquitectura para X", "diseñar un componente"
+- "plan X", "planificar un nuevo servicio", "planificar la arquitectura"
+- "documento X arquitectura", "arquitecto X"
+- "imaginar X", "dibujar la arquitectura X"
+
+NO utilice esta habilidad si el mensaje contiene:
+- "patrón", "patrones" → ruta a c3-ref
+- "ref", "refs" → ruta a c3-ref
+- "convención", "estándar" → ruta a c3-ref
+
+Indicador clave: el usuario desea documentación/resultado de diseño, NO cambios de código.
+Requiere que .c3/ exista. Crea ADR con estado: aprovisionado.
+Para solicitudes de implementación, diríjase a c3-alter.

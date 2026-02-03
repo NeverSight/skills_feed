@@ -1,0 +1,15 @@
+Guía completa para la API de asistentes v2 de OpenAI: IA conversacional con estado con herramientas integradas
+(Intérprete de código, búsqueda de archivos, llamada de funciones), almacenes de vectores para RAG (hasta 10.000 archivos),
+gestión del ciclo de vida de subprocesos/ejecuciones y patrones de transmisión. Tanto el SDK de Node.js como los enfoques de recuperación.
+
+⚠️ AVISO DE DEPRECACIÓN: OpenAI planea suspender la API de Asistentes en el primer semestre de 2026 a favor de la API de Respuestas.
+Esta habilidad sigue siendo valiosa para las aplicaciones existentes y la planificación de la migración.
+
+Úselo cuando: cree chatbots con estado con OpenAI, implemente RAG con almacenes de vectores, ejecute
+Código Python con Code Interpreter, uso de búsqueda de archivos para preguntas y respuestas de documentos, gestión de hilos de conversación,
+respuestas del asistente de transmisión o encontrar errores como "el hilo ya se ha ejecutado activamente", vector
+almacenar retrasos en la indexación, ejecutar tiempos de espera de sondeo o problemas con la carga de archivos.
+
+Palabras clave: asistentes de openai, asistentes de API, subprocesos de openai, ejecuciones de openai, asistente de intérprete de código,
+búsqueda de archivos openai, tienda de vectores openai, openai rag, asistente de transmisión, persistencia de subprocesos,
+Chatbot con estado, el hilo ya tiene ejecución activa, ejecutar sondeo de estado, error de almacenamiento de vectores

@@ -1,0 +1,1 @@
+Patrones para sincronizar el estado entre servicios externos (Stripe, Clerk) y la base de datos local. Invocar para: fallas de webhooks, problemas de sincronización de datos, consistencia eventual, recuperación de eventos perdidos, administración del estado de suscripción.

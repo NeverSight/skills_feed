@@ -1,0 +1,6 @@
+Cree una matriz de afirmación y evidencia sección por sección (`outline/claim_evidence_matrix.md`) a partir del esquema y las notas en papel.
+**Desencadenante**: matriz afirmación-evidencia, mapeo de evidencia, 证据矩阵, 主张-证据对齐.
+**Usar cuando**: 写 prosa 之前需要把每个小节的可检验主张与证据来源显式化（esquema + notas en papel 已就绪）。
+**Omitir si**: No hay `outline/outline.yml` ni `papers/paper_notes.jsonl`.
+**Red**: ninguna.
+**Guardrail**: solo balas（SIN PROSA）；每个 Claim 至少 2 个证据来源（或显式说明例外）。

@@ -1,0 +1,1 @@
+REQUERIDO: Después de crear CUALQUIER archivo .swift, .m, .mm, .c, .cpp o .h en un directorio que contenga un .xcodeproj, DEBE ejecutar add_to_xcode.rb para registrarlo en el proyecto. Sin este paso, el archivo NO aparecerá en Xcode y NO se compilará.

@@ -1,0 +1,8 @@
+Manifiestos y depuración de Kubernetes de nivel de producción para aplicaciones en contenedores.
+Esta habilidad debe usarse cuando los usuarios solicitan implementar en Kubernetes, crear manifiestos K8,
+contener para K8, configurar implementaciones/servicios/trabajos/StatefulSets/CronJobs, crear
+espacios de nombres con cuotas de recursos, configurar el aislamiento de varios equipos, configurar ResourceQuota/
+LimitRange, seguro con RBAC (ServiceAccount, Role, RoleBinding), configura init
+contenedores (descarga de modelos, espera de base de datos, migraciones), configuración de sidecars (registro, métricas),
+o pods de depuración (CrashLoopBackOff, registros, ejecución, descripción, eventos). Detecta automáticamente desde
+Dockerfile/código, genera manifiestos reforzados con comentarios educativos. Alineado con CKAD.

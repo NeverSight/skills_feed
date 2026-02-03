@@ -1,0 +1,6 @@
+Patrones de autenticación y autorización que incluyen OAuth2, JWT, RBAC/ABAC, gestión de sesiones, claves API, hash de contraseñas y MFA.
+
+UTILIZAR CUANDO: Implementar flujos de inicio de sesión, control de acceso, administración de identidades, tokens, permisos, manejo de sesiones, autenticación de clave API o MFA.
+NO UTILIZAR: Para escaneo de vulnerabilidades de seguridad (use /security-scan), para auditorías de seguridad (use /security-audit), para modelado de amenazas (use /threat-model).
+
+DESENCADENADORES: inicio de sesión, cierre de sesión, registro, autenticación, autorización, contraseña, credencial, token, JWT, OAuth, OAuth2, OIDC, SSO, SAML, sesión, cookie, RBAC, ABAC, permisos, roles, MFA, 2FA, TOTP, clave API, PKCE.

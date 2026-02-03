@@ -1,0 +1,3 @@
+Cree API con seguridad de tipos con Hono para Cloudflare Workers, Deno, Bun, Node.js. Enrutamiento, middleware, validación (Zod/Valibot), RPC, streaming (SSE), WebSocket, seguridad (CSRF, SecureHeaders).
+
+Úselo cuando: creación de API de Hono, transmisión de SSE, WebSocket, validación, RPC. Solución de problemas: enlaces de validación, tipos de RPC, cadenas de middleware, algoritmo de verificación JWT requerido (v4.11.4+), errores de consumo de cuerpo.

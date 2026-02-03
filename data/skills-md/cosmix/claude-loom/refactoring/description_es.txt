@@ -1,0 +1,6 @@
+Reestructura el código existente para mejorar la legibilidad, el mantenimiento y el rendimiento sin cambiar el comportamiento externo.
+
+UTILIZAR CUANDO: Reestructurar código sin cambiar el comportamiento, extraer métodos/clases, eliminar duplicaciones, aplicar patrones de diseño, mejorar la organización del código, reducir la deuda técnica.
+NO UTILIZAR: Para corregir errores (usar /depurar), para agregar pruebas (usar /testing), para nuevas funciones (implementar directamente).
+
+DESENCADENADORES: refactorizar, reestructurar, reescribir, limpiar, simplificar, extraer, insertar en línea, cambiar el nombre, mover, dividir, fusionar, descomponer, modularizar, desacoplar, deuda técnica, olor a código, SECO, SÓLIDO, mejorar el código, modernizar, reorganizar.

@@ -1,0 +1,11 @@
+Configure Cloudflare Workers con enrutamiento Hono, complemento Vite y activos estáticos utilizando patrones probados en producción.
+Previene 6 errores: sintaxis de exportación, conflictos de enrutamiento, fallas de HMR y confusión de formato de Service Worker.
+
+Úselo cuando: cree proyectos de Workers, configure Hono o Vite for Workers, implemente con Wrangler,
+agregar activos estáticos con respaldo de SPA o solucionar problemas de sintaxis de exportación, conflictos de ruta API, programación
+manejadores o condiciones de carrera HMR.
+
+Palabras clave: Trabajadores de Cloudflare, Trabajadores de CF, Hono, Wrangler, Vite, Activos estáticos, @cloudflare/vite-plugin,
+wrangler.jsonc, módulo ES, run_worker_first, respaldo de SPA, rutas API, sin servidor, informática de punta,
+"No se pueden leer las propiedades de indefinido", "Activos estáticos 404", "Se canceló una promesa pendiente",
+"El controlador no exporta", la implementación falla, el enrutamiento no funciona, HMR falla

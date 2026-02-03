@@ -1,0 +1,6 @@
+Verificaciones de auditoría/regresión para el proceso de encuestas basadas en la evidencia: estado de las citas, cobertura por sección, fuga de marcadores de posición y repetición de plantillas.
+**Activador**: auditor, auditoría, prueba de regresión, informe de calidad, 审计, 回归测试.
+**Úselo cuando**: `output/DRAFT.md` existe y desea un informe determinista PASA/FALLA antes de LaTeX/PDF.
+**Omita si**: todavía está cambiando mucho los paquetes de recuperación/esquema/evidencia (auditoría más adelante).
+**Red**: ninguna.
+**Guardrail**: no cambiar el contenido; sólo analizar e informar.

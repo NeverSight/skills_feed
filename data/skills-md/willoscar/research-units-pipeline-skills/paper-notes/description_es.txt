@@ -1,0 +1,6 @@
+Escriba notas estructuradas para cada artículo del conjunto básico en `papers/paper_notes.jsonl` (resumen/método/resultados/limitaciones).
+**Activador**: notas en papel, notas estructuradas, notas de lectura, 论文笔记, paper_notes.jsonl.
+**Usar cuando**: encuesta 的 evidencia 阶段（C3），已有 `papers/core_set.csv`（以及可选 fulltext），需要为后续 reclamaciones/citaciones/escritos 准备可引用证据。
+**Omitir si**: 还没有 conjunto básico（先跑 `dedupe-rank`），或你只做极轻量 instantánea 不需要细粒度证据。
+**Red**: ninguna.
+**Barandilla**: 具体可核对（método/métricas/limitaciones），避免大量重复模板；保持结构化字段而非长 prosa。

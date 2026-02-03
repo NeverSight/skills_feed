@@ -1,0 +1,8 @@
+Solucione los errores del webhook 400 de Stripe en el desarrollo local. El problema: "escucha rayada"
+genera un nuevo secreto cada vez que se inicia, pero su aplicación utiliza un secreto obsoleto de
+.env.local. Esta habilidad sincroniza automáticamente el secreto efímero antes de que se inicie su servidor de desarrollo.
+
+Invocar automáticamente cuando: los webhooks de banda devuelven 400, "falló la verificación de firma",
+"No se encontraron firmas que coincidan", los webhooks no funcionan localmente, el pago se realizó correctamente
+pero la suscripción no se actualiza, STRIPE_WEBHOOK_SECRET no coincide, configurando
+stripe escucha, configurando pnpm dev con Stripe.

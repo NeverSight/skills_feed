@@ -1,0 +1,6 @@
+Reescriba `outline/claim_evidence_matrix.md` como una proyección/índice de paquetes de evidencia (SIN PROSA), de modo que las afirmaciones/ejes sean impulsados ​​por `outline/evidence_drafts.jsonl` en lugar de marcadores de posición de esquema.
+**Activador**: reescritura de la matriz de reclamos, reescritura de la matriz de reclamos-evidencia, matriz de reclamos-evidencia primero, índice de matriz, 证据矩阵重写, 从证据包生成矩阵.
+**Úselo cuando**: `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` estén listos y desee un reclamo limpio → índice de evidencia para control de calidad/redacción.
+**Omitir si**: `outline/claim_evidence_matrix.md` ya está refinado y es consistente con los paquetes de evidencia.
+**Red**: ninguna.
+**Barandilla**: SIN PROSA; no inventes hechos; solo cite las claves presentes en `citations/ref.bib`; si la evidencia es abstracta/solo título, las reclamaciones deben ser provisionales.

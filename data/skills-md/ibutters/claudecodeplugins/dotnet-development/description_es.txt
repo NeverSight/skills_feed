@@ -1,0 +1,5 @@
+Pautas integrales de desarrollo de .NET que cubren DDD, principios SOLID, API REST de ASP.NET Core y mejores prácticas de C#.
+Úselo cuando trabaje con: (1) archivos de código C# (.cs), (2) archivos de proyecto .NET (.csproj, .sln), (3) aplicaciones ASP.NET Core,
+(4) implementaciones de diseño basado en dominio, (5) desarrollo de API REST, (6) Entity Framework Core,
+(7) Pruebas unitarias/de integración en .NET. Desencadenantes específicos para: clases que heredan AggregateRoot/Entity,
+servicios con dependencias de IRepository, controladores que heredan ControllerBase o archivos en carpetas Dominio/Aplicación/Infraestructura.

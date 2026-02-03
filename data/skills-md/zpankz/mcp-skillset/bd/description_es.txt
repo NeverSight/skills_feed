@@ -1,0 +1,1 @@
+Seguimiento de problemas nativo de Git con soporte de dependencia de primera clase. Los problemas almacenados junto con el código en el directorio .beads/, persisten de forma dual en SQLite (consultas) y JSONL (historial compatible con git). ID basados ​​en hash, dependencias de DAG, modo demonio con RPC y compatibilidad con múltiples espacios de trabajo inspirados en LSP.

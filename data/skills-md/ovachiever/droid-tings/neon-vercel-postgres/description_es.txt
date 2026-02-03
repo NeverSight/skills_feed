@@ -1,0 +1,3 @@
+Configure Postgres sin servidor con Neon o Vercel Postgres para Cloudflare Workers/Edge. Incluye agrupación de conexiones, ramificación tipo git para entornos de vista previa e integración con Drizzle/Prisma.
+
+Úselo cuando: configurando Postgres perimetral, configurando bifurcaciones de bases de datos o solucionando problemas "TCP no compatible", grupo de conexiones agotado, configuración SSL (sslmode=require) o compatibilidad con Prisma perimetral.

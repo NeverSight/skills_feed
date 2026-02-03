@@ -1,0 +1,6 @@
+Inicialice un nuevo espacio de trabajo copiando la plantilla de artefacto estándar (STATUS.md, CHECKPOINTS.md, UNITS.csv, DECISIONS.md + carpetas).
+**Activador**: inicio del espacio de trabajo, inicializar el espacio de trabajo, plantilla del espacio de trabajo, espacio de trabajo completo.
+**Utilizar cuando**: 启动任何 ejecución de canalización（必须先有 espacio de trabajo 工件与目录骨架）。
+**Omitir si**: espacio de trabajo 已初始化且不希望覆盖既有文件（除非显式 `--overwrite`）。
+**Red**: ninguna.
+**Guardrail**: 不要修改 `.codex/skills/workspace-init/assets/` 模板；默认不覆盖已有文件.

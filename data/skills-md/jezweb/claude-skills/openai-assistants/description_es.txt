@@ -1,0 +1,3 @@
+Cree chatbots con estado con OpenAI Assistants API v2: intérprete de código, búsqueda de archivos (archivos de 10k), llamada de funciones. Previene 10 errores documentados, incluidos errores de carga del almacén de vectores, conflictos de parámetros de temperatura y pérdidas de memoria. En desuso (finalización de agosto de 2026); Utilice respuestas openai para nuevos proyectos.
+
+Úselo cuando: mantenga chatbots heredados, implemente RAG con almacenes de vectores o solucione errores de subprocesos, retrasos en el almacén de vectores, problemas de uploadAndPoll.

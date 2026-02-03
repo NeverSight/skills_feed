@@ -1,0 +1,14 @@
+Patrones de integración probados en producción para conectar los frontends de React con los backends de Cloudflare Worker
+con Hono, autenticación de secretario y bases de datos D1. Previene problemas comunes de conexión frontend-backend,
+Errores CORS, fallas del token de autenticación y condiciones de carrera.
+
+Úselo cuando: conecte el frontend al backend, implemente el flujo de autenticación, configure llamadas API,
+resolución de problemas de CORS, corrección de condiciones de carrera, tokens de autenticación que no pasan, errores de conexión frontend-backend,
+Errores 401, integración de Clerk con Workers, configuración de la aplicación Cloudflare de pila completa, configuración del complemento Vite Cloudflare.
+
+Previene: errores CORS, 401 no autorizado, discrepancias de tokens de autenticación, condiciones de carrera con carga de autenticación,
+Confusión de variables de entorno, interfaz que llama a puntos finales incorrectos, errores de verificación JWT, problemas de conexión D1.
+
+Palabras clave: integración frontend backend, Cloudflare Workers, Hono, autenticación de secretario, verificación JWT, CORS, cliente API React,
+condiciones de carrera, carga de autenticación, problemas de conexión, integración de pila completa, complemento vite, @cloudflare/vite-plugin,
+Base de datos D1, variables de entorno, conexión de token, gestión de sesiones, rutas protegidas, middleware API

@@ -1,0 +1,6 @@
+Escriba un informe de revisión por pares basado en rúbricas (`output/REVIEW.md`) utilizando afirmaciones extraídas y lagunas de evidencia (novedad/solidez/claridad/impacto).
+**Desencadenante**: revisión de rúbrica, informe de árbitro, redacción de revisión por pares, 审稿报告, REVIEW.md.
+**Usar cuando**: proceso de revisión por pares 的最后阶段（C3），已有 `output/CLAIMS.md` + `output/MISSING_EVIDENCE.md`（以及可选 novelty Matrix）。
+**Omitir si**: 上游产物未就绪（afirmaciones/lagunas de evidencia 缺失）或你不打算输出完整审稿报告.
+**Red**: ninguna.
+**Guardrail**: 给可执行建议（retroalimentación procesable），并覆盖 novedad/solidez/claridad/impacto；避免泛泛而谈.

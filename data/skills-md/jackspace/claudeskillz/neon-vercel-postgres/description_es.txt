@@ -1,0 +1,13 @@
+Esta habilidad proporciona un conocimiento integral para integrar Postgres sin servidor Neon y Vercel Postgres (que se basa en la infraestructura de Neon) en aplicaciones web. Debe usarse al configurar bases de datos de Postgres sin servidor, configurar grupos de conexiones para entornos perimetrales y sin servidor, implementar flujos de trabajo de ramificación de bases de datos o solucionar problemas de conexión de Postgres en Cloudflare Workers, Vercel Edge Functions o funciones sin servidor de Node.js.
+
+Utilice esta habilidad cuando:
+- Configuración de Neon Postgres para Cloudflare Workers, Vercel Edge o entornos sin servidor
+- Configuración de Vercel Postgres para aplicaciones Next.js
+- Implementación de flujos de trabajo de bifurcación de bases de datos (ramificaciones de bases de datos tipo git)
+- Integración de Drizzle ORM o Prisma con Neon/Vercel Postgres
+- Depuración de errores del grupo de conexiones, tiempos de espera de transacciones o problemas de configuración SSL
+- Migración de D1/SQLite a Postgres o de Postgres tradicional a Postgres sin servidor
+- Configuración de restauración a un momento dado (PITR) o copias de seguridad de bases de datos
+- Encontrar errores como "grupo de conexiones agotado", "conexiones TCP no admitidas sin servidor" o "se requiere modo ssl"
+
+Palabras clave: neon postgres, @neondatabase/serverless, @vercel/postgres, postgres sin servidor, postgres edge, bifurcación de neón, base de datos vercel, http postgres, websocket postgres, conexión agrupada, llovizna de neón, prisma neon, postgres cloudflare, postgres vercel edge, etiqueta de plantilla sql, neonctl, ramas de base de datos, restauración de un punto en el tiempo, migraciones de postgres, sql sin servidor, base de datos perimetral, neon api, vercel sql

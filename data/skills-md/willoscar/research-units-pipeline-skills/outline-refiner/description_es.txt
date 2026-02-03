@@ -1,0 +1,6 @@
+Cobertura de pase del planificador + informe de redundancia para un esquema + mapeo, que produce `outline/coverage_report.md` y `outline/outline_state.jsonl`.
+**Activador**: planificador, esquema dinámico, refinamiento del esquema, informe de cobertura, 大纲迭代, 覆盖率报告.
+**Úsalo cuando**: tienes `outline/outline.yml` + `outline/mapping.tsv` y quieres un pase de planificador NO-PROSA verificable antes de escribir.
+**Omitir si**: no desea ningún diagnóstico de esquema/mapeo (o tiene una estructura congelada/aprobada y no la cambiará).
+**Red**: ninguna.
+**Barandilla**: SIN PROSA; no inventes papeles; solo reportar cobertura/reutilización y proponer acciones estructurales como viñetas.

@@ -1,0 +1,1 @@
+Tokenizador independiente del idioma que trata el texto como Unicode sin formato. Admite algoritmos BPE y Unigram. Rápido (50.000 frases/seg), ligero (memoria de 6 MB), vocabulario determinista. Utilizado por T5, ALBERT, XLNet, mBART. Entrene con texto sin formato sin tokenización previa. Úselo cuando necesite soporte multilingüe, idiomas CJK o tokenización reproducible.

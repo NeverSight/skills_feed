@@ -1,0 +1,3 @@
+Cree bases de datos D1 con seguridad de tipos con Drizzle ORM. Incluye definición de esquema, migraciones con Drizzle Kit, relaciones y patrones de API por lotes D1. Previene 18 errores, incluidos fallos de SQL BEGIN, pérdida de datos en cascada, límites de 100 parámetros y problemas de claves externas.
+
+Úselo cuando: defina esquemas D1, administre migraciones, inserciones masivas o solucione problemas de D1_ERROR, BEGIN TRANSACTION, claves externas, "demasiadas variables SQL".

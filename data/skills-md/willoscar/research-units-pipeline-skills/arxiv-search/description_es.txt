@@ -1,0 +1,6 @@
+Recupere metadatos en papel de arXiv mediante consultas de palabras clave y guarde los resultados como JSONL (`papers/papers_raw.jsonl`).
+**Activador**: arXiv, arxiv, búsqueda en papel, recuperación de metadatos, 文献检索, 论文检索, 拉取元数据, 离线导入.
+**Usar cuando**: 需要一个初始论文集合（survey/snapshot 的 Stage C1），来源为 arXiv（在线检索或离线导入 export）。
+**Omitir si**: 已经有可用的 `papers/papers_raw.jsonl`，或数据源不是 arXiv。
+**Red**: 在线检索需要网络；离线 `--input <export.*>` 不需要网络.
+**Guardrail**: 只做 metadatos；不要在 `salida/` 写长 prosa。

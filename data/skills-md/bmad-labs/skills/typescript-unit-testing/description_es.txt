@@ -1,0 +1,46 @@
+Habilidad de prueba unitaria completa para proyectos TypeScript/NestJS usando Jest, @golevelup/ts-jest y bases de datos en memoria.
+
+SIEMPRE utilice esta habilidad cuando el usuario necesite:
+
+**CONFIGURACIÓN** - Inicializar o configurar pruebas unitarias:
+- Configurar Jest para un nuevo proyecto
+- Configurar la infraestructura de prueba (jest.config.ts)
+- Instalar dependencias de prueba (@nestjs/testing, @golevelup/ts-jest)
+- Crear ayudantes simulados o probar utilidades
+- Configurar la configuración de cobertura
+
+**ESCRIBIR** - Crear o agregar pruebas unitarias:
+- Escribir, crear, agregar o generar pruebas unitarias.
+- Probar un servicio, caso de uso, controlador, guardia, interceptor, tubería o filtro
+- Agregar pruebas para nuevos códigos o funciones.
+- Mejorar la cobertura de las pruebas o agregar pruebas faltantes
+- Simular dependencias o configurar dispositivos de prueba.
+- Trabajar en cualquier archivo que termine en .spec.ts
+
+**REVISIÓN** - Auditar o evaluar pruebas unitarias:
+- Revisar las pruebas existentes de calidad.
+- Verificar cobertura de prueba y brechas.
+- Auditar patrones y convenciones de pruebas.
+- Evaluar la calidad de la afirmación.
+
+**EJECUTAR** - Ejecutar o analizar los resultados de la prueba:
+- Ejecutar pruebas unitarias.
+- Analizar resultados de pruebas o informes de cobertura.
+- Comprender los fracasos o éxitos de las pruebas.
+- Verifique qué pruebas pasan o fallan
+
+**DEPURACIÓN** - Corrige pruebas fallidas o rotas:
+- Corregir pruebas unitarias fallidas.
+- Depurar errores o excepciones de prueba.
+- Resolver problemas simulados o problemas de configuración.
+- Solucionar problemas de tiempos de espera de prueba o pruebas inestables
+- Diagnosticar resultados "indefinidos" o inesperados
+
+**OPTIMIZAR** - Mejorar el rendimiento y la mantenibilidad de las pruebas:
+- Acelerar las pruebas lentas.
+- Reparar manijas abiertas que impidan una salida limpia.
+- Mejorar la organización de las pruebas.
+- Reducir el tiempo de ejecución de las pruebas.
+- Limpiar código de prueba
+
+Palabras clave: prueba unitaria, especificación, broma, mecanografiado, nestjs, simulacro, DeepMocked, createMock, AAA, cobertura de prueba, TDD, .spec.ts, prueba, escritura de prueba, agregar prueba, crear prueba, corregir prueba, depurar prueba, ejecutar prueba, revisar prueba, optimizar prueba, configuración de prueba, configuración de broma

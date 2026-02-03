@@ -1,0 +1,6 @@
+Cree paquetes de contexto para escritores por H3 (SIN PROSA): combine resúmenes + paquetes de evidencia + hechos de anclaje + citas permitidas en un único JSONL determinista, para que la redacción sea menos hueca y menos frágil.
+**Activador**: paquete de contexto del escritor, paquete de contexto, paquete de redacción, paquete de plan de párrafo, 写作上下文包.
+**Úselo cuando**: `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` + `outline/anchor_sheet.jsonl` existen y desea que el dibujo C5 sea más fácil/más consistente.
+**Omitir si**: Falta evidencia previa o está estructurada (arregle primero `notas en papel`/`carpeta de evidencia`/`borrador de evidencia`/`hoja de anclaje`).
+**Red**: ninguna.
+**Barandilla**: SIN PROSA; no invente hechos/citas; Utilice únicamente las claves de citas presentes en `citations/ref.bib`.

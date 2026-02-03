@@ -1,0 +1,6 @@
+Planifique los módulos del tutorial a partir de un gráfico conceptual, incluidos los objetivos y la secuenciación del módulo, y guárdelos como `outline/module_plan.yml`.
+**Activador**: plan de módulo, módulos de tutorial, esquema del curso, 模块规划, module_plan.yml.
+**Usar cuando**: canalización del tutorial 的结构阶段（C2），已有 `outline/concept_graph.yml`，需要把概念依赖转成可教学的模块序列。
+**Omitir si**: 还没有 gráfico conceptual（先跑 `concept-graph`）。
+**Red**: ninguna.
+**Guardrail**: 每模块明确 objetivos + resultados（最好含 ejemplo de ejecución 步骤）；避免 prosa 段落。

@@ -1,0 +1,6 @@
+Cree paquetes de evidencia por subsección (SIN PROSA): candidatos de reclamos, comparaciones concretas, protocolo de evaluación, limitaciones y fragmentos de evidencia respaldados por citas con procedencia.
+**Desencadenante**: borrador de evidencia, paquete de evidencia, candidatos de reclamo, comparaciones concretas, fragmentos de evidencia, procedencia, 证据草稿, 证据包, 可引用事实.
+**Úselo cuando**: existe `outline/subsection_briefs.jsonl` y desea una redacción de sección basada en evidencia donde cada párrafo pueda estar respaldado por citas/fragmentos rastreables.
+**Omitir si**: `outline/evidence_drafts.jsonl` ya existe y está refinado (sin marcadores de posición; >=8 comparaciones por subsección; `blocking_missing` vacío).
+**Red**: ninguna (la evidencia más rica mejora con resúmenes/texto completo).
+**Barandilla**: SIN PROSA; no inventes hechos; Utilice únicamente claves de citas que existan en `citations/ref.bib`.

@@ -1,0 +1,10 @@
+Búsqueda semántica e híbrida basada en PostgreSQL con pgvector y ParadeDB.
+Úselo al implementar búsqueda vectorial, búsqueda semántica, búsqueda híbrida,
+o búsqueda de texto completo en PostgreSQL. Cubre la configuración e indexación de pgvector
+(HNSW, IVFFlat), búsqueda híbrida (FTS + BM25 + RRF), ParadeDB como
+Alternativa a Elasticsearch y reclasificación con Cohere/codificadores cruzados.
+Admite tipos vector(1536) y halfvec(3072) para incrustaciones de OpenAI.
+
+Activadores: pgvector, búsqueda vectorial, búsqueda semántica, búsqueda híbrida,
+búsqueda integrada, PostgreSQL RAG, BM25, RRF, índice HNSW, búsqueda de similitud,
+ParadeDB, pg_search, reclasificación, reclasificación Cohere

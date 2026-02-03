@@ -1,0 +1,9 @@
+Se activa cuando: (1) Trabaja con scripts Rive o código Luau,
+(2) El código contiene protocolos Node, Layout, Converter o PathEffect,
+(3) El usuario menciona "Rive scripting" o "Rive Luau",
+(4) Dibujar con Path, Paint, API de renderizador,
+(5) Los archivos tienen la extensión .lua en el contexto de un proyecto Rive.
+
+Mejores prácticas para Rive Scripting: scripts basados en Luau para procedimientos
+gráficos, diseños personalizados, convertidores de datos y efectos de ruta que se ejecutan
+dentro de las animaciones de Rive.

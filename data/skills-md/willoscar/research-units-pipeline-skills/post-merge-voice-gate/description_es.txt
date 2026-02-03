@@ -1,0 +1,6 @@
+Puerta de voz en papel posterior a la fusión: detecta artefactos de conversación del planificador/etiqueta de eje introducidos durante la fusión (especialmente desde `outline/transitions.md`), luego dirige las correcciones de regreso a la fuente más antigua.
+**Activador**: puerta de voz posterior a la fusión, puerta de voz de fusión, fuga de transición, conversación del planificador, 合并后口吻门, 过渡句污染.
+**Úselo cuando**: `section-merger` ha producido `output/DRAFT.md` y desea asegurarse de que el texto inyectado mediante fusión no arrastre el borrador a la voz del generador antes de pulirlo.
+**Omitir si**: todavía está en fase previa a la fusión (sin `output/DRAFT.md`) o planea reelaborar la estructura en sentido ascendente primero.
+**Red**: ninguna.
+**Guardrail**: solo análisis; no edite `output/DRAFT.md`; no invente hechos/citas; escriba solo el informe + ruta.

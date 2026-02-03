@@ -1,0 +1,19 @@
+Esta habilidad proporciona una automatización integral para la instalación y configuración del repositorio de GitHub.
+Debe usarse al crear nuevos proyectos, configurar canalizaciones de CI/CD, configurar problemas
+plantillas, habilitar el escaneo de seguridad o migrar proyectos existentes a la automatización de GitHub.
+
+La habilidad previene 18 errores documentados en la sintaxis YAML de GitHub Actions, la configuración del flujo de trabajo y
+estructura de plantilla de problemas, configuración de Dependabot y escaneo de seguridad CodeQL. Incluye 12
+plantillas de flujo de trabajo probadas en producción, 4 plantillas de problemas, configuraciones de seguridad y automatización
+scripts para una rápida configuración del proyecto.
+
+Úselo cuando: configure GitHub Actions CI/CD, cree plantillas de problemas/PR, habilite Dependabot,
+configurar el escaneo CodeQL, automatizar la configuración del repositorio de GitHub, corregir errores de sintaxis YAML,
+integrar el escaneo de seguridad, implementar en Cloudflare Workers a través de GitHub Actions, o
+implementar matrices de pruebas multi-framework.
+
+Palabras clave: acciones de github, flujo de trabajo de github, ci/cd, plantillas de incidencias, plantillas de solicitudes de extracción,
+dependabot, codeql, escaneo de seguridad, sintaxis yaml, automatización de github, configuración del repositorio,
+plantillas de flujo de trabajo, matriz de acciones de github, gestión de secretos, protección de sucursales, propietarios de códigos,
+proyectos de github, integración continua, implementación continua, error de sintaxis de flujo de trabajo,
+fijación de versión de acción, versión de corredor, contexto de github, error de sangría de yaml

@@ -1,0 +1,14 @@
+Panel de observabilidad en tiempo real para sesiones de Claude Code con múltiples agentes.
+
+Visualice las interacciones de los agentes, el uso de herramientas y los flujos de sesiones en tiempo real a través de un panel web. Realice un seguimiento de varios agentes que se ejecutan en paralelo con visualización de carriles, filtrado de eventos y gráficos en vivo.
+
+**Características clave:**
+- 🔴 Transmisión de eventos en tiempo real a través de WebSocket
+- 📊 Carriles de natación del agente que muestran ejecución paralela
+- 🔍 Filtrado de eventos por agente, sesión, tipo de evento
+- 📈 Gráficos en vivo para patrones de uso de herramientas
+- 💾 Basado en sistema de archivos (no se requiere base de datos)
+
+**Inspirado en el trabajo de [@indydevdan](https://github.com/indydevdan)** sobre observabilidad multiagente.
+
+**Nuestro enfoque:** Sistema de archivos + transmisión en memoria frente al enfoque de base de datos SQLite de indydevdan.

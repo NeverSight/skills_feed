@@ -1,0 +1,6 @@
+Visualización de observabilidad con Grafana y LGTM stack. Diseño de paneles, configuración de paneles, alertas, variables/plantillas y fuentes de datos.
+
+UTILIZAR CUANDO: Crear paneles de Grafana, configurar paneles y visualizaciones, escribir consultas LogQL/TraceQL, configurar fuentes de datos de Grafana, configurar variables y plantillas de paneles, crear alertas de Grafana.
+NO UTILIZAR: Para escribir consultas PromQL (use /prometheus), para estrategias de reglas de alerta (use /prometheus), para arquitectura de observabilidad general (use senior-infrastructure-engineer).
+
+DESENCADENADORES: grafana, tablero, panel, visualización, logql, traceql, loki, tempo, mimir, fuente de datos, anotación, variable, plantilla, fila, estadística, gráfico, tabla, mapa de calor, indicador, gráfico de barras, gráfico circular, serie temporal, panel de registros, panel de seguimiento, pila LGTM.

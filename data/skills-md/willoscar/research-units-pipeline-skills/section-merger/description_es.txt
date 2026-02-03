@@ -1,0 +1,6 @@
+Fusione de manera determinista archivos por sección en `secciones/` en `output/DRAFT.md`, preservando el orden del esquema y entrelazando las transiciones desde `outline/transitions.md`.
+**Activador**: fusionar secciones, fusionar borradores, combinar archivos de secciones, secciones/ -> salida/DRAFT.md, 合并小节, 拼接草稿.
+**Úselo cuando**: tiene archivos de prosa por unidad en `secciones/` y desea un único `output/DRAFT.md` para pulir/revisar/LaTeX.
+**Omitir si**: faltan archivos de sección o aún contienen marcadores de andamiaje (arregle primero `subsection-writer`).
+**Red**: ninguna.
+**Guardrail**: solo fusión determinista (sin nuevos hechos/citas); preservar el orden de las secciones de `outline/outline.yml`.

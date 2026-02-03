@@ -1,0 +1,6 @@
+Auto-bucle de escritura para encuestas: ejecute la estricta puerta de calidad de sección, luego reescriba solo los archivos `sections/*.md` fallidos hasta que el informe sea PASADO.
+**Activador**: bucle automático del escritor, bucle de escritura, bucle de puerta de calidad, reescritura de secciones fallidas, 自循环, 反复改到 PASS.
+**Usar cuando**: existen archivos por sección pero C5 está FALLADO/BLOQUEADO (secciones delgadas, pistas faltantes/material frontal, violaciones del alcance de la citación, voz del generador).
+**Omita si**: todavía es pre-C2 (SIN PROSA), o los paquetes de evidencia están incompletos (arregle C3/C4 primero).
+**Red**: ninguna.
+**Barandilla**: no inventes hechos; utilice únicamente claves de citas presentes en `citations/ref.bib`; mantener las citas dentro del alcance de `outline/evidence_bindings.jsonl`; no agregue ni elimine claves de citas durante las reescrituras.

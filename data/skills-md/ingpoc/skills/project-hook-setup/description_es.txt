@@ -1,0 +1,1 @@
+Úselo al configurar enlaces específicos del proyecto para la aplicación del Código Claude. Carga durante el estado INIT cuando falta .claude/hooks/ o al crear un nuevo proyecto. Instala 5 ganchos que leen desde .claude/config/project.json (pruebas, estado, dependencias).

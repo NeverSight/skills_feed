@@ -1,0 +1,6 @@
+Escriba `output/DRAFT.md` (o `output/SNAPSHOT.md`) a partir de un esquema aprobado y paquetes de evidencia, utilizando únicamente claves de citas verificadas de `citations/ref.bib`.
+**Desencadenante**: escribir borrador, escritor en prosa, instantánea, redacción de encuestas, 写综述, 生成草稿, redacción sección por sección.
+**Utilizar cuando**: la estructura está aprobada (`DECISIONS.md` tiene `Approve C2`) y existen paquetes de evidencia (`outline/subsection_briefs.jsonl`, `outline/evidence_drafts.jsonl`).
+**Omitir si**: faltan aprobaciones o los paquetes de evidencia están incompletos o estructurados (campos faltantes, marcadores TODO).
+**Red**: ninguna.
+**Barandilla**: no inventes hechos ni citas; solo cite las claves presentes en `citations/ref.bib`; Evite fugas de jerga en la prosa final.

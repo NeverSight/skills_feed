@@ -1,0 +1,10 @@
+Cree documentos de requisitos de producto (PRD) integrales que definan qué construir y por qué, centrándose en los objetivos, el alcance, las historias de usuarios y los criterios de éxito sin detalles de implementación.
+
+Utilice esta habilidad cuando:
+- El usuario solicita "escribir un PRD", "crear PRD", "escribir documento de requisitos"
+- El usuario menciona "documento de requisitos", "requisitos del producto", "especificaciones del producto".
+- Ejecutar el comando /pm.plan para crear un documento de planificación de versiones
+- Iniciar un nuevo producto, característica importante o iniciativa que necesita requisitos formales.
+- Necesidad de documentar objetivos, alcance, historias de usuarios, requisitos funcionales y criterios de éxito.
+
+Salida: SIEMPRE escriba archivos PRD en docs/reference/pm/versions/{version-name}.md

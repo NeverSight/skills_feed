@@ -1,0 +1,13 @@
+Esta habilidad debe usarse cuando el usuario solicita "crear una escena 3D", "agregar una malla",
+"implementar OrbitControls", "cargar un modelo GLTF", "agregar posprocesamiento de floración",
+"escribir un sombreador personalizado", "crear efectos de partículas", "optimizar el rendimiento de Three.js",
+"usar WebGPU", "agregar sombras", "animar un modelo" o menciona Three.js, threejs, WebGL,
+WebGPU, GLTF, raycaster, material de sombreado, material PBR o efectos de posprocesamiento.
+
+IMPORTANTE: Esta habilidad es para VANILLA Three.js (JavaScript imperativo). Para reaccionar tres
+Fiber (@react-two/fiber, R3F, drei), verifique la habilidad `r3f-best-practices`, aunque las habilidades three-js ayudan cuando se trabaja con R3F, ya que R3F es un renderizador de React para Three.js.
+
+Proporciona una referencia completa de Three.js para gráficos web 3D, incluida la configuración de escenas.
+geometría, materiales, texturas, iluminación, cámaras, cargadores, animación, controles,
+interacción, sombreadores, posprocesamiento, optimización del rendimiento, materiales TSL/nodo,
+WebGPU, física e integración VR/XR.

@@ -1,0 +1,1 @@
+Configure la zona horaria para los pods de Kubernetes utilizando la variable de entorno TZ. Úselo cuando implemente cargas de trabajo que necesiten la zona horaria de Brasil/São Paulo o cuando los registros muestren UTC (+0000) en lugar de la hora local.

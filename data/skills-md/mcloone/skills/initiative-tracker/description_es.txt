@@ -1,0 +1,14 @@
+Administre iniciativas de productos, epopeyas y partes interesadas a través de comandos de lenguaje natural.
+Almacena datos como archivos de rebajas compatibles con Logseq con frontmatter YAML.
+
+Úselo cuando los usuarios necesiten:
+- Crear, actualizar, enumerar o mostrar iniciativas y epopeyas.
+- Seguimiento de la integridad de la documentación de la iniciativa.
+- Gestionar personas, equipos y socios.
+- Comprueba qué información falta.
+- Inicializar la estructura del repositorio.
+
+Se activa en: /init_repository, /create_initiative, /list_initiatives, /show_initiative,
+/update_initiative, /what_missing, /create_epic, /list_epics, /create_person,
+/create_team, /create_partner, /create_product_area, /list_product_areas,
+/show_product_area, /update_product_area, /ayuda

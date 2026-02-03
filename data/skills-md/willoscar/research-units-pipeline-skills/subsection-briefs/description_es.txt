@@ -1,0 +1,6 @@
+Cree resúmenes de redacción por subsección (SIN PROSA) para que la redacción posterior se base en evidencia y ejes de comparación verificables (no en marcadores de posición de esquema).
+**Activador**: resúmenes de subsecciones, tarjetas de escritura, tarjetas de intención, resúmenes H3, regla_alcance, ejes, grupos, 写作意图卡, 小节卡片, 段落计划.
+**Úselo cuando**: `outline/outline.yml` + `outline/mapping.tsv` + `papers/paper_notes.jsonl` existen y desea realizar un borrador sección por sección sin fugas de plantilla.
+**Omitir si**: `outline/subsection_briefs.jsonl` ya existe y está refinado (sin marcadores de posición/puntos suspensivos; los ejes+clusters+paragraph_plan están llenos).
+**Red**: ninguna.
+**Barandilla**: SIN PROSA; no inventes papeles; solo haga referencia a `paper_id`/`bibkey` que existen en `papers/paper_notes.jsonl`.

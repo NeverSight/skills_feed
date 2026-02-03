@@ -1,0 +1,6 @@
+Escriba una instantánea de la literatura de 1 página (`output/SNAPSHOT.md`) a partir de un pequeño conjunto básico + un esquema solo con viñetas.
+**Activador**: instantánea, instantánea de literatura, 速览, instantánea de 48 horas, instantánea de una página, SNAPSHOT.md.
+**Usar cuando**: 你要在 24-48h 内交付一个“可读的研究速览”（bullet-first，含关键引用），而不是完整 encuesta。
+**Omitir si**: 你已经进入 encuesta de evidencia primero 写作（有 `outline/evidence_drafts.jsonl` / `citations/ref.bib` / `output/DRAFT.md`），应改用 `subsection-writer`/`prose-writer`。
+**Red**: ninguna.
+**Guardrail**: 不发明论文/引用；引用只来自 `papers/core_set.csv`（或同 espacio de trabajo的候选池）；不写长段落（避免“像综述生成器”）。

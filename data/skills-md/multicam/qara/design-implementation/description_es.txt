@@ -1,0 +1,18 @@
+Flujo de trabajo de desarrollo de UI optimizado con implementación de funciones de comando único.
+Automatiza: servidor de desarrollo, navegador, verificación, corrección de errores, bucle de iteración.
+
+**Comando principal:** "implementar la siguiente característica" o "implementar [descripción de la característica]"
+
+**Qué hace:**
+1. Inicia el servidor de desarrollo (detecta automáticamente el puerto desde package.json)
+2. Inicia el navegador (visible de forma predeterminada, disponible sin cabeza)
+3. Implementa la característica a través de la habilidad de diseño frontend
+4. Verifica: errores de consola, errores de TS, fallas de red, coincidencia visual
+5. Correcciones iterativas (máximo 5 iteraciones)
+6. Informes completados o escalados con informe detallado.
+
+**Desencadenantes:**
+- "implementar la siguiente característica", "implementar la sección de héroe"
+- "verificar esta implementación", "verificar la interfaz de usuario"
+- "corregir los errores", "iterar esto"
+- "iniciar servidor de desarrollo", "administrar servidor"

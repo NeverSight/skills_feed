@@ -1,0 +1,6 @@
+Autobucle de argumentos: mantenga un libro mayor de argumentos + un informe de coherencia de premisas para las secciones redactadas.
+**Activador**: bucle automático de argumento, cadena de argumentos, coherencia de premisas, autoverificación de sección, contrato de párrafo, 论证自循环, 论证链路, 前提一致性, 段落论证动作.
+**Úselo cuando**: está en C5 (se permite PROSE), existen `secciones/*.md` y desea evitar una escritura "suave pero hueca" imponiendo movimientos de argumentos + higiene de premisas antes de la fusión.
+**Omita si**: es pre-C2 (SIN PROSA), o los paquetes de evidencia están estructurados/delgados (primero, enrute hacia arriba hasta `evidence-selfloop`).
+**Red**: ninguna.
+**Barandilla**: no inventes hechos; no agregue/elimine/mueva claves de citas; no mueva las citas entre subsecciones; el libro de argumentos es un artefacto intermedio y nunca debe insertarse en el documento.

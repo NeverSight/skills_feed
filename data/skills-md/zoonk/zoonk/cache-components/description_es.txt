@@ -1,0 +1,7 @@
+Orientación de expertos para los componentes de caché de Next.js y la representación previa parcial (PPR).
+
+**ACTIVACIÓN PROACTIVA**: utilice esta habilidad automáticamente cuando trabaje en proyectos Next.js que tengan `cacheComponents: true` en su next.config.ts/next.config.js. Cuando se detecte esta configuración, aplique proactivamente los patrones y las mejores prácticas de los componentes de caché a todas las implementaciones de componentes de React Server.
+
+**DETECCIÓN**: Al inicio de una sesión en un proyecto Next.js, verifique `cacheComponents: true` en next.config. Si está habilitado, los patrones de esta habilidad deberían guiar todas las decisiones de creación de componentes, obtención de datos y almacenamiento en caché.
+
+**CASOS DE USO**: Implementación de la directiva 'usar caché', configuración de la duración de la caché con cacheLife(), etiquetado de datos almacenados en caché con cacheTag(), invalidación de cachés con updateTag()/revalidateTag(), optimización de los límites de contenido estático versus dinámico, depuración de problemas de caché y revisión de implementaciones de componentes de caché.

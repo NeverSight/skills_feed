@@ -1,0 +1,1 @@
+Habilidad de utilidad para detectar el entorno de desarrollo de Magento y determinar el contenedor de comandos. Esta habilidad debe ser utilizada por otras habilidades que necesiten ejecutar comandos de shell en el entorno Magento. Detecta Warden, docker-magento, DDEV y entornos locales y proporciona el contenedor de comandos adecuado.

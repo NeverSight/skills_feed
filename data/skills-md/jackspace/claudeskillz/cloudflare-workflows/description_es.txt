@@ -1,0 +1,13 @@
+Dominio de conocimiento completo para flujos de trabajo de Cloudflare: marco de ejecución duradero
+para crear aplicaciones de varios pasos en Workers que reintentan y persisten automáticamente
+estado y se ejecuta durante horas o días.
+
+Úselo cuando: crear flujos de trabajo de larga duración, implementar lógica de reintento, crear
+procesos basados en eventos, programación de tareas de varios pasos, coordinación entre API,
+o encontrar "NonRetryableError", "Contexto de E/S", "Error en la ejecución del flujo de trabajo",
+Errores de "error de serialización" o "WorkflowEvent no encontrado".
+
+Palabras clave: flujos de trabajo de Cloudflare, trabajadores de flujos de trabajo, ejecución duradera, paso del flujo de trabajo,
+WorkflowEntrypoint, step.do, step.sleep, reintentos de flujo de trabajo, NonRetryableError,
+estado del flujo de trabajo, flujos de trabajo de Wrangler, eventos de flujo de trabajo, tareas de larga duración, step.sleepUntil,
+step.waitForEvent, enlaces de flujo de trabajo

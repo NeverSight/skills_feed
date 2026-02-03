@@ -1,0 +1,6 @@
+Agregue ejercicios a cada módulo del tutorial (entradas, resultados esperados, pasos de verificación) y actualice `outline/module_plan.yml`.
+**Desencadenante**: ejercicios, práctica, lista de verificación de verificación, 教程练习, 可验证作业.
+**Usar cuando**: 已有模块计划（`outline/module_plan.yml`），需要为每个模块补齐至少 1 个可验证练习以形成 loop de enseñanza。
+**Omitir si**: 还没有 plan de módulo（先跑 `module-planner`）。
+**Red**: ninguna.
+**Guardrail**: 每个练习必须包含 resultado esperado + pasos de verificación；避免只给“思考题”无验收。

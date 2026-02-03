@@ -1,0 +1,6 @@
+Ejecute exactamente una unidad ejecutable desde `UNITS.csv` (primero TODO cuyas dependencias estén REALIZADAS), luego actualice el estado de la unidad y los artefactos.
+**Activador**: ejecutor de la unidad, ejecutar una unidad, siguiente unidad, canalización paso a paso, 逐条执行, UNITS.csv.
+**Usar cuando**: 需要严格“一次只做一个 unit”（可审计、可中断），并遵守 checkpoints/HUMAN 阻塞逻辑。
+**Omitir si**: 要端到端自动跑（用 `research-pipeline-runner`）或 espacio de trabajo 不存在.
+**Red**: ninguna.
+**Barandilla**: 只执行一个 unidad；满足验收且输出存在才可标 `DONE`；遇到 HUMAN checkpoint 必须停下。

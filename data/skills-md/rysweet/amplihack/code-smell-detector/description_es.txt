@@ -1,0 +1,4 @@
+Identifica antipatrones específicos de la filosofía amplihack.
+Úselo al revisar el código en busca de problemas de calidad o refactorización.
+Detecta: abstracción excesiva, herencia compleja, funciones grandes (>50 líneas), acoplamiento estrecho, faltan __todas__ las exportaciones.
+Proporciona correcciones y explicaciones específicas para cada olor.

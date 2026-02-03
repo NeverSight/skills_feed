@@ -1,0 +1,6 @@
+Escriba la prosa de la encuesta en archivos por sección en `secciones/` para que cada unidad pueda ser QA\x27d de forma independiente antes de fusionarse.
+**Activador**: escritor de subsecciones, escritura por sección, secciones divididas, secciones/, 分小节写, 按章节拆分写作.
+**Utilizar cuando**: se registra `Aprobar C2` y existen paquetes de escritor (`outline/writer_context_packs.jsonl`); desea una redacción basada en evidencia sin un borrador monolítico de una sola vez.
+**Omitir si**: Falta la aprobación de `DECISIONS.md`, o falta `outline/evidence_drafts.jsonl` / `citations/ref.bib`.
+**Red**: ninguna.
+**Barandilla**: no invente hechos/citas; sin fugas TODO/elipsis; mantener las citas en el ámbito de subsecciones o capítulos; Los archivos de cuerpo H3 y las cabeceras de capítulos no deben contener títulos.
