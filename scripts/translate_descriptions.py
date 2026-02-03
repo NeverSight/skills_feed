@@ -14,6 +14,12 @@ Usage:
     
     # Test mode
     python translate_descriptions.py --dry-run
+
+    # Translate to Traditional Chinese (writes description_tw.txt by default)
+    python translate_descriptions.py --target zh-TW
+
+    # Translate to another language (writes description_<lang>.txt by default)
+    python translate_descriptions.py --target ja
 """
 
 import sys
@@ -24,23 +30,45 @@ from pathlib import Path
 # Base directory
 BASE_DIR = Path(__file__).parent.parent / "data" / "skills-md"
 
+_translator_cache: dict[tuple[str, str], object] = {}
+
+
+def output_filename_for_target(target: str) -> str:
+    """
+    Decide output filename for a target language.
+
+    Backward compatibility:
+      - zh-CN -> description_cn.txt  (website expects this today)
+      - zh-TW -> description_tw.txt
+      - others -> description_<lang>.txt (sanitized)
+    """
+    t = (target or "").strip()
+    t_norm = t.lower().replace("_", "-")
+    if t_norm in {"zh-cn", "zh-hans", "zh-hans-cn"}:
+        return "description_cn.txt"
+    if t_norm in {"zh-tw", "zh-hant", "zh-hant-tw"}:
+        return "description_tw.txt"
+    safe = "".join(c if c.isalnum() or c in {"-", "_"} else "_" for c in t_norm).strip("_")
+    safe = safe.replace("-", "_")
+    return f"description_{safe or 'translated'}.txt"
+
 
 def find_all_en_files() -> list[Path]:
     """Find all English description files that need translation.
 
-    If description_cn.txt already exists (even if empty), we treat it as "already handled"
-    to avoid overwriting manual edits.
+    If the target translation file already exists (even if empty), we treat it as
+    "already handled" to avoid overwriting manual edits.
     """
     en_files = []
     for en_file in BASE_DIR.rglob("description_en.txt"):
-        cn_file = en_file.parent / "description_cn.txt"
-        # Only process files that don't have Chinese translation yet
-        if not cn_file.exists():
+        out_file = en_file.parent / output_filename_for_target("zh-CN")
+        # Only process files that don't have the default translation yet
+        if not out_file.exists():
             en_files.append(en_file)
     return sorted(en_files)
 
 
-def translate_with_google(text: str) -> str:
+def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
     """Translate using Google Translate (free)"""
     try:
         from deep_translator import GoogleTranslator
@@ -48,11 +76,16 @@ def translate_with_google(text: str) -> str:
         print("Please install deep-translator: pip install deep-translator")
         sys.exit(1)
     
-    translator = GoogleTranslator(source='en', target='zh-CN')
+    key = (source_lang, target_lang)
+    translator = _translator_cache.get(key)
+    if translator is None:
+        translator = GoogleTranslator(source=source_lang, target=target_lang)
+        _translator_cache[key] = translator
+
     # Add retry logic
     for attempt in range(3):
         try:
-            result = translator.translate(text)
+            result = translator.translate(text)  # type: ignore[attr-defined]
             return result
         except Exception as e:
             if attempt < 2:
@@ -64,16 +97,24 @@ def translate_with_google(text: str) -> str:
 
 # ============= Main translation logic =============
 
-def translate_file(en_file: Path, dry_run: bool = False, force: bool = False) -> tuple[Path, bool, str]:
+def translate_file(
+    en_file: Path,
+    *,
+    dry_run: bool = False,
+    force: bool = False,
+    source_lang: str = "en",
+    target_lang: str = "zh-CN",
+) -> tuple[Path, bool, str]:
     """Translate a single file.
 
-    Safety: if description_cn.txt already exists, we skip unless --force is provided.
-    This prevents overwriting manually authored translations.
+    Safety: if the output translation file already exists, we skip unless --force is provided.
+    This prevents overwriting manually authored translations (or translations generated earlier).
     """
     try:
-        cn_file = en_file.parent / "description_cn.txt"
-        if cn_file.exists() and not force:
-            return en_file, True, "Skipped (description_cn.txt already exists)"
+        out_name = output_filename_for_target(target_lang)
+        out_file = en_file.parent / out_name
+        if out_file.exists() and not force:
+            return en_file, True, f"Skipped ({out_name} already exists)"
 
         # Read English content
         en_text = en_file.read_text(encoding="utf-8").strip()
@@ -81,18 +122,21 @@ def translate_file(en_file: Path, dry_run: bool = False, force: bool = False) ->
         if not en_text:
             return en_file, False, "Empty file"
         
-        # Check if content is already Chinese (some files may already be in Chinese)
-        chinese_chars = sum(1 for c in en_text if '\u4e00' <= c <= '\u9fff')
-        if len(en_text) > 0 and chinese_chars / len(en_text) > 0.3:
-            cn_text = en_text  # Already Chinese, copy directly
+        # If the "English" file is actually Chinese and target is Chinese, copy directly.
+        if target_lang.lower().startswith("zh"):
+            chinese_chars = sum(1 for c in en_text if "\u4e00" <= c <= "\u9fff")
+            if len(en_text) > 0 and chinese_chars / len(en_text) > 0.3:
+                out_text = en_text
+            else:
+                out_text = translate_with_google(en_text, source_lang=source_lang, target_lang=target_lang)
         else:
-            cn_text = translate_with_google(en_text)
+            out_text = translate_with_google(en_text, source_lang=source_lang, target_lang=target_lang)
         
-        # Write Chinese file
+        # Write translated file
         if not dry_run:
-            cn_file.write_text(cn_text + "\n", encoding="utf-8")
+            out_file.write_text(out_text + "\n", encoding="utf-8")
         
-        return en_file, True, cn_text[:50] + "..." if len(cn_text) > 50 else cn_text
+        return en_file, True, out_text[:50] + "..." if len(out_text) > 50 else out_text
         
     except Exception as e:
         return en_file, False, str(e)
@@ -104,6 +148,8 @@ def main():
     parser.add_argument("--skip", type=int, default=0, help="Skip first N files")
     parser.add_argument("--dry-run", action="store_true", help="Only show files to be translated, don't actually translate")
     parser.add_argument("--force", action="store_true", help="Force re-translate existing files")
+    parser.add_argument("--source", type=str, default="en", help="Source language (default: en)")
+    parser.add_argument("--target", type=str, default="zh-CN", help="Target language (default: zh-CN). Example: zh-TW, ja, ko")
     
     args = parser.parse_args()
     
@@ -113,7 +159,13 @@ def main():
     if args.force:
         en_files = list(BASE_DIR.rglob("description_en.txt"))
     else:
-        en_files = find_all_en_files()
+        # In non-force mode, only translate missing files for the selected target.
+        en_files = []
+        out_name = output_filename_for_target(args.target)
+        for en_file in BASE_DIR.rglob("description_en.txt"):
+            out_file = en_file.parent / out_name
+            if not out_file.exists():
+                en_files.append(en_file)
     
     en_files = sorted(en_files)
     
@@ -139,7 +191,9 @@ def main():
         return
     
     # Start translation
+    out_name = output_filename_for_target(args.target)
     print(f"\nStarting translation (using Google Translate)...")
+    print(f"Source: {args.source}  Target: {args.target}  Output: {out_name}")
     print("-" * 60)
     
     completed = 0
@@ -147,7 +201,13 @@ def main():
     start_time = time.time()
     
     for en_file in en_files:
-        en_file, success, message = translate_file(en_file, dry_run=args.dry_run, force=args.force)
+        en_file, success, message = translate_file(
+            en_file,
+            dry_run=args.dry_run,
+            force=args.force,
+            source_lang=args.source,
+            target_lang=args.target,
+        )
         completed += 1
         
         if success:
