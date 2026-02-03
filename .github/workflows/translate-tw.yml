@@ -1,0 +1,83 @@
+name: Translate Descriptions (zh-TW)
+
+on:
+  push:
+    paths:
+      - 'data/skills-md/**/description_en.txt'
+  workflow_dispatch:  # Allow manual trigger
+    inputs:
+      limit:
+        description: 'Translation file limit (0 for all)'
+        required: false
+        default: '0'
+      force:
+        description: 'Force re-translate and overwrite existing description_tw.txt'
+        required: false
+        default: 'false'
+
+# Prevent running multiple translation jobs concurrently
+concurrency:
+  group: translate-tw-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install deep-translator
+
+      - name: Run translation (zh-TW)
+        run: |
+          FORCE_FLAG=""
+          if [ "${{ github.event.inputs.force || 'false' }}" = "true" ]; then
+            FORCE_FLAG="--force"
+          fi
+          python scripts/translate_descriptions.py \
+            --target zh-TW \
+            --limit ${{ github.event.inputs.limit || '500' }} \
+            $FORCE_FLAG
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/skills-md/**/description_tw.txt
+          
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "chore: auto-translate description_en.txt to description_tw.txt"
+          
+          # Pull latest code first, rebase to avoid conflicts
+          git fetch origin main
+          git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+          
+          # Retry push, handle concurrent situations
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push failed, retrying ($i/5)..."
+            git fetch origin main
+            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            sleep $((i * 2))
+          done
+
