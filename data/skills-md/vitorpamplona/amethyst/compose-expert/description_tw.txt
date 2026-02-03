@@ -1,0 +1,1 @@
+用於共享可組合項的高級 Compose 多平台 UI 模式。在使用可視化 UI 組件、狀態管理模式（記住、drivenStateOf、productState）、重組優化（@Stable/@Immutable 視覺使用）、Material3 主題、自定義 ImageVector 圖標或確定是否在 commonMain 中共享 UI 與保持特定於平台時使用。將導航委託給 android-expert/desktop-expert。補充 kotlin-expert（處理狀態/註釋的 Kotlin 語言方面）。

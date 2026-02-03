@@ -1,0 +1,6 @@
+對原始紙張集 (`papers/papers_raw.jsonl`) 進行重複數據刪除和排序，以生成 `papers/papers_dedup.jsonl` 和 `papers/core_set.csv`。
+**觸發**：去重、排序、核心集、去重、排序、論文精選、核心集合。
+**使用時**：搜索後需要把廣覆蓋集合收斂成可管理的核心集（用於分類/大綱/製圖）。
+**如果**則跳過：已經有人手工整理了穩定的`papers/core_set.csv`（消耗再次churn）。
+**網絡**：無。
+**Guardrail**：偏確定性；輸出應可重複（穩定paper_id、字段規範）。

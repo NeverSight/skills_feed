@@ -1,0 +1,1 @@
+初始化 Python 項目時自動配置格式化程序和 linter 設置。默認安裝 ruff 並使用 pyproject.toml 進行配置。檢測或詢問用戶有關 venv/poetry/uv 環境的信息，並作為開發依賴項安裝。可以選擇配置預提交和 ty。建議使用 VSCode 時的 VSCode 工作區設置。在啟動Python項目時使用此技巧（“啟動Python項目”、“創建FastAPI項目”、“創建數據分析Python項目”等）。

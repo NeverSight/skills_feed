@@ -1,0 +1,1 @@
+此技能從 Linear API 獲取分配給用戶的未完成任務，並在項目根目錄中生成一個 markdown 待辦事項列表文件。當用戶詢問他們的工作項目、想要查看他們需要做什麼或請求加載/同步他們的線性任務時，應該使用此技能。需要 Python 3.7+、requests、mdutils 和 python-dotenv 包。需要 .env 文件中的 LINEAR_API_KEY。

@@ -1,0 +1,3 @@
+使用 TanStack Query v5 管理 React 中的服務器狀態。使用 useQuery 設置查詢，使用 useMutation 設置突變，配置 QueryClient 緩存策略，實現樂觀更新，並使用 useInfiniteQuery 處理無限滾動。
+
+使用時機：在 React 項目中設置數據獲取、從 v4 遷移到 v5、或修復對象語法所需的錯誤、查詢回調刪除問題、cacheTime 重命名為 gcTime、isPending 與 isLoading 混淆、keepPreviousData 刪除問題。

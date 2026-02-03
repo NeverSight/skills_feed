@@ -1,0 +1,11 @@
+Cloudflare Cron 觸發器的完整知識領域 - 使用 Workers 計劃執行
+用於定期任務、維護作業和自動化工作流程的 cron 表達式。
+
+使用時機：調度 Workers 定期運行、向 Workers 添加 cron 觸發器、配置
+計劃任務，測試 cron 處理程序，將 cron 與工作流程結合起來，啟用綠色計算，
+處理多個計劃，或遇到“未找到計劃處理程序”、“cron 表達式無效”、
+“更改未傳播”、“處理程序未導出”、“時區問題”錯誤。
+
+關鍵詞：cloudflare cron、cron 觸發器、計劃工作人員、計劃處理程序、定期任務、
+後台作業、計劃任務、cron 表達式、wrangler crons、計劃事件、綠色計算、
+工作流觸發器、維護任務、scheduled() 處理程序、ScheduledController、UTC 時區

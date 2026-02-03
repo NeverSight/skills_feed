@@ -1,0 +1,7 @@
+此技能提供了在 React、Next.js 和 Cloudflare Workers 應用程序中集成 Clerk 身份驗證的全面知識。它應該在設置用戶身份驗證、實施受保護的路由、驗證 JWT 令牌、使用用戶元數據和組織聲明創建自定義 JWT 模板、配置 Clerk 中間件、與 shadcn/ui 組件集成、測試身份驗證流程或排除 Clerk 身份驗證錯誤時使用。
+
+使用時機：將 Clerk 添加到 React/Vite 項目、在 Next.js App Router 中設置 Clerk、在 Cloudflare Workers 中實現 Clerk 身份驗證、配置 clerkMiddleware 以進行路由保護、使用短代碼（user.id、user.email、user.public_metadata.role）創建自定義 JWT 模板、訪問 RBAC 的會話聲明、與 Supabase/Grafbase 集成、使用 @clerk/backend 驗證令牌、將 Clerk 與Hono，使用 Clerk shadcn/ui 組件，使用 Playwright 編寫 E2E 測試，生成測試會話令牌，使用測試電子郵件地址和電話號碼，或遇到身份驗證錯誤。
+
+防止 11 個已記錄的問題：丟失密鑰錯誤、API 密鑰遷移失敗、JWKS 緩存競爭條件、缺少授權方導致的 CSRF 漏洞、Core 2 升級後導入路徑錯誤、JWT 大小限制問題、已棄用的 API 版本警告、ClerkProvider JSX 組件錯誤、async auth() 幫助程序混淆、環境變量配置錯誤和 Vite dev 模式 431 標頭錯誤。
+
+關鍵字：clerk、clerk auth、clerk 身份驗證、@clerk/nextjs、@clerk/backend、@clerk/clerk-react、clerkMiddleware、createRouteMatcher、verifyToken、useUser、useAuth、useClerk、JWT 模板、JWT 聲明、JWT 短代碼、自定義 JWT、會話聲明、getToken 模板、user.public_metadata、org_id、org_slug、 org_role、CustomJwtSessionClaims、sessionClaims 元數據、clerk webhook、clerk 密鑰、clerk 可發布密鑰、受保護的路由、Cloudflare Workers auth、Next.js auth、shadcn/ui auth、@hono/clerk-auth、“缺少 Clerk 密鑰”、“無法用作 JSX 組件”、JWKS 錯誤、authorizedParties、clerk 中間件、 ClerkProvider、UserButton、SignIn、SignUp、店員測試、測試電子郵件、測試電話號碼、+clerk_test、424242 OTP、會話令牌、測試令牌、@clerk/testing、劇作家測試、E2E 測試、店員測試模式、機器人檢測、生成會話令牌、測試用戶

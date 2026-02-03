@@ -1,0 +1,3 @@
+在 Cloudflare Workers 上使用 TypeScript 構建 MCP（模型上下文協議）服務器時，請使用此技能。該技能提供了使用官方 @modelcontextprotocol/sdk 實現工具、資源和提示的經過生產測試的模式。它可以防止 10 多個常見錯誤，包括導出語法問題、架構驗證失敗、未封閉傳輸造成的內存洩漏、CORS 錯誤配置和身份驗證漏洞。當開發人員需要無狀態 MCP 服務器進行 API 集成、外部工具公開或無服務器邊緣部署時，應使用此技能。對於具有 WebSocket 和持久存儲的有狀態代理，請考慮使用 Cloudflare Agents SDK。支持多種身份驗證方法（API 密鑰、OAuth、零信任）、Cloudflare 服務集成（D1、KV、R2、Vectorize）和全面的測試策略。經過生產測試，與手動實施相比，代幣節省約 70%。
+
+關鍵詞：mcp、模型上下文協議、typescript mcp、cloudflare 工作人員 mcp、mcp 服務器、mcp 工具、mcp 資源、mcp sdk、@modelcontextprotocol/sdk、hono mcp、streamablehttpservertransport、mcp 身份驗證、mcp cloudflare、邊緣 mcp 服務器、無服務器 mcp、typescript mcp 服務器、mcp api、llm 工具、ai 工具、cloudflare d1 mcp、cloudflare kv mcp、mcp 測試、mcp 部署、wrangler mcp、導出語法錯誤、模式驗證錯誤、內存洩漏 mcp、cors mcp、速率限制 mcp

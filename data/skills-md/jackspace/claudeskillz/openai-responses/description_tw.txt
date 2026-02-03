@@ -1,0 +1,5 @@
+該技能提供了使用 OpenAI 的 Responses API（用於構建代理應用程序的統一狀態 API）的全面知識。它應該在構建保留輪流推理的 AI 代理、為外部工具集成 MCP 服務器、使用內置工具（代碼解釋器、文件搜索、Web 搜索、圖像生成）、管理有狀態對話、實現後台處理或從聊天完成 API 遷移時使用。
+
+在構建代理工作流程、帶內存的對話式 AI、基於工具的應用程序、RAG 系統、數據分析代理或任何需要具有持久狀態的 OpenAI 推理模型的應用程序時使用。涵蓋 Node.js SDK 和 Cloudflare Workers 實現。
+
+關鍵詞：響應 API、openai 響應、有狀態 openai、openai mcp、代碼解釋器 openai、文件搜索 openai、網絡搜索 openai、圖像生成 openai、推理保存、代理工作流程、對話狀態、後台模式、聊天完成遷移、gpt-5、多態輸出

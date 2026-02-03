@@ -1,0 +1,5 @@
+此技能提供 React 應用程序中 TanStack Query v5 (React Query) 服務器狀態管理的全面知識。當使用 useQuery 設置數據獲取、使用 useMutation 實現突變、配置 QueryClient、管理緩存策略、從 v4 遷移到 v5、實現樂觀更新、使用無限查詢或遇到查詢/突變錯誤時，應該使用它。
+
+使用時機：在 React 項目中初始化 TanStack Query、配置 QueryClient 設置、創建自定義查詢掛鉤、通過錯誤處理實現突變、設置樂觀更新、使用 useInfiniteQuery 進行分頁、從 React Query v4 遷移到 v5、調試陳舊數據問題、修復緩存問題、解決 v5 重大更改、實現暫掛查詢或設置查詢開發工具。
+
+關鍵詞：TanStack Query、React Query、useQuery、useMutation、useInfiniteQuery、useSuspenseQuery、QueryClient、QueryClientProvider、數據獲取、服務器狀態、緩存、staleTime、gcTime、查詢失效、預取、樂觀更新、突變、查詢鍵、查詢函數、錯誤邊界、懸念、React Query DevTools、v5 遷移、v4 到 v5、請求瀑布、後台重新獲取、cacheTime 重命名、加載狀態重命名、掛起狀態、需要initialPageParam、刪除keepPreviousData、placeholderData、刪除查詢回調、刪除onSuccess、刪除onError、需要對象語法

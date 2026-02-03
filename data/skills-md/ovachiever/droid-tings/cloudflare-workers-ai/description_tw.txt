@@ -1,0 +1,13 @@
+使用 Workers AI 在 Cloudflare 的全球 GPU 網絡上運行法學碩士和 AI 模型。包括 Llama、Flux 圖像生成、
+BGE 嵌入以及 AI Gateway 的流支持，用於緩存和日誌記錄。
+
+使用場合：實現 LLM 推理、使用 Flux/Stable Diffusion 生成圖像、使用嵌入構建 RAG、
+流式傳輸 AI 響應，使用 AI Gateway 進行成本跟踪，或對 AI_ERROR、速率限制、模型不進行故障排除
+發現、令牌限製或超出神經元。
+
+關鍵詞：workers ai、cloudflare ai、ai 綁定、llmworkers、@cf/meta/llama、workers ai 模型、
+人工智能推理、cloudflare llm、人工智能流、人工智能文本生成、人工智能嵌入、人工智能圖像生成、
+工人 ai rag、ai gateway、llama 工人、通量圖像生成、穩定擴散工人、
+視覺模型ai，ai聊天完成，AI_ERROR，速率限制ai，未找到模型，超出令牌限制，
+神經元超出，人工智能配額超出，流媒體失敗，模型不可用，工人ai hono，
+ai 網關工作人員、vercel ai sdk 工作人員、openai 兼容工作人員、ai 矢量化工作人員

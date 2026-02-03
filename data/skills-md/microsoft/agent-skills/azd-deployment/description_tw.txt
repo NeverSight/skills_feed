@@ -1,0 +1,1 @@
+使用 Azure 開發人員 CLI (azd) 將容器化應用程序部署到 Azure 容器應用。在設置 azd 項目、編寫 azure.yaml 配置、為容器應用程序創建 Bicep 基礎設施、使用 ACR 配置遠程構建、實施冪等部署、跨 local/.azure/Bicep 管理環境變量或對 azd up 故障進行故障排除時使用。使用 Bicep 觸發 azd 配置、容器應用程序部署、多服務部署和基礎設施即代碼請求。

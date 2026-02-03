@@ -1,0 +1,12 @@
+將 Gemini API 與正確的當前 SDK 集成（@google/genai v1.27+，不推薦使用 @google/generative-ai）。
+支持文本生成、多模態（圖像/視頻/音頻/PDF）、函數調用、思維模式。 1M 輸入令牌。
+
+使用時機：集成Gemini API、實現多模態AI、使用思維模式進行推理、函數調用
+並行執行、流式響應、部署到 Cloudflare Workers、構建聊天或故障排除
+SDK 棄用、上下文窗口、未找到模型、函數調用或多模式格式錯誤。
+
+關鍵詞：gemini api、@google/genai、gemini-2.5-pro、gemini-2.5-flash、gemini-2.5-flash-lite、
+gemini-3-pro-preview，多模式gemini，思維模式，google ai，genai sdk，函數調用gemini，
+流媒體 Gemini、Gemini Vision、Gemini 視頻、Gemini 音頻、Gemini pdf、系統說明、
+多輪聊天、已棄用@google/generative-ai、Gemini 上下文窗口、Gemini 模型 2025、
+Gemini 1m 代幣、Gemini 工具使用、並行函數調用、組合函數調用、Gemini 3

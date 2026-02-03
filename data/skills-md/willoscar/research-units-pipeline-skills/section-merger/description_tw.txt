@@ -1,0 +1,6 @@
+確定地將“sections/”下的每個部分文件合併到“output/DRAFT.md”中，保留大綱順序並從“outline/transitions.md”編織過渡。
+**觸發器**：合併節、合併草稿、合併節文件、節/ -> 輸出/DRAFT.md、合併小節、拼接草稿。
+**使用時間**：您在“sections/”下有每個單元的散文文件，並且需要一個“output/DRAFT.md”用於潤色/審閱/LaTeX。
+**如果**跳過：節文件丟失或仍然包含腳手架標記（首先修復“subsection-writer”）。
+**網絡**：無。
+**Guardrail**：僅確定性合併（沒有新事實/引用）；保留“outline/outline.yml”中的節順序。

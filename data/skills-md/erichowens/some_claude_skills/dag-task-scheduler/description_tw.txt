@@ -1,0 +1,1 @@
+用於 DAG 執行的基於 Wave 的並行調度。管理執行順序、資源分配和並行性約束。激活“調度 dag”、“執行波”、“並行調度”、“任務隊列”、“資源分配”。不適用於構建 DAG（使用 dag-graph-builder）或實際執行（使用 dag-parallel-executor）。

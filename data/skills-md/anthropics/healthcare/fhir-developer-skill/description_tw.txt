@@ -1,0 +1,1 @@
+用於構建醫療保健端點的 FHIR API 開髮指南。在以下情況下使用：(1) 創建 FHIR REST 端點（患者、觀察、遭遇、條件、藥物請求），(2) 驗證 FHIR 資源並返回正確的 HTTP 狀態代碼和錯誤響應，(3) 在 FHIR 授權和 OAuth 範圍上實施 SMART，(4) 使用捆綁包、事務、批處理操作或搜索分頁。涵蓋 FHIR R4 資源結構、必填字段、值集（狀態代碼、性別、意圖）、編碼系統（LOINC、SNOMED、RxNorm、ICD-10）和 OperationOutcome 錯誤處理。

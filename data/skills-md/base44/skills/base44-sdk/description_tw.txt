@@ -1,0 +1,1 @@
+用於在現有項目中使用 Base44 SDK 編寫 JavaScript/TypeScript 代碼。觸發器：用戶想要實現特性、構建功能或使用 Base44 編寫代碼；代碼使用“@base44/sdk”導入；用戶提到了 SDK 方法，例如 base44.entities、base44.auth、base44.agents、base44.functions、base44.integrations；用戶說“添加功能”、“實現”、“構建組件”、“為其編寫代碼”。不適用於：創建新項目、CLI 命令 (npx base44 create/deploy/login) 或沒有 base44/config.jsonc 的目錄 - 請改用 base44-cli。

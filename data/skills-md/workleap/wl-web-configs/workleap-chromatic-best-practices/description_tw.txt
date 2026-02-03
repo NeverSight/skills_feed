@@ -1,0 +1,12 @@
+審核和更新存儲庫，以遵循 Workleap 的 Chromatic 快照成本控制和 CI 優化最佳實踐。
+
+在以下情況下使用此技能：
+(1) 審核存儲庫的 Chromatic 最佳實踐合規性
+(2) 在項目中實施Chromatic成本優化
+(3) 修復代碼中的 TurboSnap 禁用模式
+(4) 使用 untraced 選項設置 chromatic.config.json
+(5) 更新 CI 工作流程以進行條件 Chromatic 執行
+(6)重構Storybook預覽文件中的barrel文件導入
+(7) 審查 PR 的色彩成本影響
+(8) 在新的Turborepo項目中設置Chromatic
+(9) 檢查應刪除的局部 Chromatic 使用情況

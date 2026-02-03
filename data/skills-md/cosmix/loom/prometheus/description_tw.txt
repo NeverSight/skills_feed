@@ -1,0 +1,6 @@
+Prometheus 監控和警報雲原生可觀察性。
+
+使用時間：編寫 PromQL 查詢、配置 Prometheus 抓取目標、創建警報規則、設置記錄規則、使用 Prometheus 指標檢測應用程序、配置服務發現。
+請勿使用：用於構建儀表板（使用 /grafana）、用於日誌分析（使用 /logging-observability）、用於一般可觀察性架構（使用高級基礎設施工程師）。
+
+觸發器：指標、prometheus、promql、計數器、儀表、直方圖、摘要、警報、alertmanager、警報規則、記錄規則、抓取、目標、標籤、服務發現、重新標記、導出器、儀表、slo、錯誤預算。

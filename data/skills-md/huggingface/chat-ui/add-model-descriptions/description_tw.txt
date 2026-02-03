@@ -1,0 +1,1 @@
+將新模型的描述從 HuggingFace 路由器添加到 chat-ui 配置。當路由器上發布新模型並且需要將描述添加到 prod.yaml 和 dev.yaml 時使用。在“添加新模型描述”、“從路由器更新模型”、“同步模型”等請求或顯式調用 /add-model-descriptions 時觸發。

@@ -1,0 +1,14 @@
+經過生產測試的集成模式，用於將 React 前端連接到 Cloudflare Worker 後端
+具有 Hono、Clerk 身份驗證和 D1 數據庫。防止常見的前後端連接問題，
+CORS 錯誤、身份驗證令牌失敗和競爭條件。
+
+使用場合：連接前端到後端、實現身份驗證流程、設置 API 調用、
+排除 CORS 故障、修復競爭條件、身份驗證令牌未通過、前端-後端連接錯誤、
+401 錯誤、將 Clerk 與 Workers 集成、設置全棧 Cloudflare 應用程序、vite cloudflare 插件設置。
+
+防止：CORS 錯誤、401 未經授權、身份驗證令牌不匹配、身份驗證加載的競爭條件、
+環境變量混亂、前端調用錯誤端點、JWT 驗證錯誤、D1 連接問題。
+
+關鍵詞：前端后端集成、Cloudflare Workers、Hono、Clerk auth、JWT 驗證、CORS、React API 客戶端、
+競爭條件、身份驗證加載、連接問題、全棧集成、vite 插件、@cloudflare/vite-plugin、
+D1 數據庫、環境變量、令牌附件、會話管理、受保護的路由、API 中間件

@@ -1,0 +1,6 @@
+使用 Grafana 和 LGTM 堆棧的可觀測性可視化。儀表板設計、面板配置、警報、變量/模板和數據源。
+
+使用時間：創建 Grafana 儀表板、配置面板和可視化、編寫 LogQL/TraceQL 查詢、設置 Grafana 數據源、配置儀表板變量和模板、構建 Grafana 警報。
+請勿使用：用於編寫 PromQL 查詢（使用 /prometheus）、用於警報規則策略（使用 /prometheus）、用於一般可觀察性架構（使用以基礎設施為重點的高級軟件工程師）。
+
+觸發器：grafana、儀表板、面板、可視化、logql、traceql、loki、tempo、mimir、數據源、註釋、變量、模板、行、統計、圖形、表格、熱圖、儀表、條形圖、餅圖、時間序列、日誌面板、跟踪面板、LGTM 堆棧。

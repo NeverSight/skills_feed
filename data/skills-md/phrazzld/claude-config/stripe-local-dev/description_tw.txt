@@ -1,0 +1,8 @@
+修復本地開發中的 Stripe webhook 400 錯誤。問題：`stripe Listen`
+每次啟動時都會生成一個新的秘密，但您的應用程序使用來自
+.env.local。此技能會在開發服務器啟動之前自動同步臨時密鑰。
+
+自動調用時：stripe webhooks 返回 400、“簽名驗證失敗”、
+“未找到匹配的簽名”，webhooks 無法在本地工作，結帳成功
+但訂閱未更新，STRIPE_WEBHOOK_SECRET 不匹配，正在設置
+stripe 監聽，使用 Stripe 配置 pnpm dev。

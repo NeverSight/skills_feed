@@ -1,0 +1,19 @@
+此技能為 GitHub 存儲庫設置和配置提供全面的自動化。
+它應該在創建新項目、設置 CI/CD 管道、配置問題時使用
+模板、啟用安全掃描或將現有項目遷移到 GitHub 自動化。
+
+該技能可以防止 GitHub Actions YAML 語法、工作流配置中的 18 個記錄錯誤，
+問題模板結構、Dependabot 設置和 CodeQL 安全掃描。它包括12
+經過生產測試的工作流程模板、4 個問題模板、安全配置和自動化
+用於快速項目設置的腳本。
+
+使用場合：設置 GitHub Actions CI/CD、創建問題/PR 模板、啟用 Dependabot、
+配置 CodeQL 掃描、自動化 GitHub 存儲庫設置、修復 YAML 語法錯誤、
+集成安全掃描，通過 GitHub Actions 部署到 Cloudflare Workers，或者
+實施多框架測試矩陣。
+
+關鍵詞：github 操作、github 工作流程、ci/cd、問題模板、拉取請求模板、
+dependentabot、codeql、安全掃描、yaml 語法、github 自動化、存儲庫設置、
+工作流程模板、github 操作矩陣、秘密管理、分支保護、代碼所有者、
+github項目、持續集成、持續部署、工作流程語法錯誤、
+操作版本固定、運行程序版本、github 上下文、yaml 縮進錯誤

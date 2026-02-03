@@ -1,0 +1,1 @@
+在為 Claude Code 實施設置特定於項目的掛鉤時使用。當 .claude/hooks/ 丟失或創建新項目時，在 INIT 狀態期間加載。安裝 5 個從 .claude/config/project.json 讀取的鉤子（測試、運行狀況、依賴項）。

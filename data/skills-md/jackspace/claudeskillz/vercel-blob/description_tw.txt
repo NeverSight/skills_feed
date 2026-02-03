@@ -1,0 +1,12 @@
+此技能提供了將 Vercel Blob 對象存儲集成到 Vercel 應用程序中的全面知識。它應該在設置文件上傳、管理圖像和文檔、實施 CDN 交付的資產或在 Next.js 無服務器和邊緣功能中處理大文件時使用。
+
+在以下情況下使用此技能：
+- 為 Next.js 應用程序設置文件上傳（圖像、PDF、視頻）
+- 使用預簽名 URL 實現客戶端上傳
+- 管理用戶生成的內容（頭像、附件、媒體）
+- 構建文件管理功能（列表、下載、刪除）
+- 從 Cloudflare R2 遷移到 Vercel Blob
+- 遇到“BLOB_READ_WRITE_TOKEN 未設置”、“超出文件大小限制”或“客戶端上傳令牌錯誤”等錯誤
+- 需要簡單的對象存儲和自動 CDN 分發
+
+關鍵詞：vercel blob、@vercel/blob、vercel 存儲、vercel 文件上傳、vercel cdn、blob 存儲 vercel、客戶端上傳 vercel、預簽名 url vercel、文件上傳 nextjs、圖像上傳 vercel、pdf 上傳、視頻上傳、用戶上傳、分段上傳、流式上傳、blob cdn、vercel 資產、文件下載

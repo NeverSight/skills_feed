@@ -1,0 +1,5 @@
+此技能提供了實施 Cloudflare Turnstile（驗證碼替代機器人保護系統）的全面知識。當將機器人防護集成到表單、登錄頁面、註冊流程或任何需要防止垃圾郵件/機器人的面向用戶的功能時，應該使用它。 Turnstile 在後台運行隱形挑戰，在阻止自動流量的同時保持出色的用戶體驗。
+
+使用場合：向表單添加機器人保護、實現登錄安全、保護 API 端點免遭濫用、從 reCAPTCHA/hCaptcha 遷移、使用 Turnstile 遇到 CSP 錯誤、處理令牌驗證失敗、使用 Turnstile 實施 E2E 測試、與 React/Next.js/Hono 應用程序集成或調試錯誤代碼 100*、300*、600*。
+
+關鍵詞：旋轉門、驗證碼、機器人保護、cloudflare 挑戰、siteverify、recaptcha 替代方案、垃圾郵件預防、表單保護、cf-turnstile、旋轉門小部件、令牌驗證、託管挑戰、隱形挑戰、@marsidev/react-turnstile、hono 旋轉門、工人旋轉門

@@ -1,0 +1,7 @@
+Next.js 緩存組件和部分預渲染 (PPR) 的專家指南。
+
+**主動激活**：在 next.js 項目中工作時，在 next.config.ts/next.config.js 中包含 `cacheComponents: true` 時，自動使用此技能。當檢測到此配置時，主動將緩存組件模式和最佳實踐應用於所有 React 服務器組件實現。
+
+**檢測**：在 Next.js 項目中的會話開始時，檢查 next.config 中的“cacheComponents: true”。如果啟用，該技能的模式應指導所有組件創作、數據獲取和緩存決策。
+
+**用例**：實現“使用緩存”指令、使用cacheLife()配置緩存生命週期、使用cacheTag()標記緩存數據、使用updateTag()/revalidateTag()使緩存無效、優化靜態與動態內容邊界、調試緩存問題以及檢查緩存組件實現。

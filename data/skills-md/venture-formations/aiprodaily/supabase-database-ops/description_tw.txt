@@ -1,0 +1,1 @@
+Supabase 數據庫操作的關鍵護欄，確保通過 Publication_id 過濾實現多租戶隔離、正確使用 supabaseAdmin、避免 SELECT *、錯誤處理模式以及安全的服務器端數據庫訪問。在編寫數據庫查詢、使用 supabase、訪問 newsletter_campaigns、文章、rss_posts 或任何租戶範圍的數據時使用。

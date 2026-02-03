@@ -1,0 +1,1 @@
+Langfuse 的 Next.js 14/tRPC/Express/TypeScript monorepo 的綜合後端開髮指南。在創建 tRPC 路由器、公共 API 端點、BullMQ 隊列處理器、服務或使用 tRPC 過程、Next.js API 路由、Prisma 數據庫訪問、ClickHouse 分析查詢、Redis 隊列、OpenTelemetry 檢測、Zod v4 驗證、env.mjs 配置、租戶隔離模式或異步模式時使用。涵蓋分層架構（tRPC 過程 → 服務、隊列處理器 → 服務）、雙數據庫系統（PostgreSQL + ClickHouse）、用於多租戶隔離的projectId 過濾、traceException 錯誤處理、可觀察性模式和測試策略（用於 Web 的 Jest、用於 Worker 的 vitest）。

@@ -1,0 +1,10 @@
+基於 PostgreSQL 的語義和混合搜索，使用 pgvector 和 ParadeDB。
+在實現矢量搜索、語義搜索、混合搜索時使用
+或 PostgreSQL 中的全文搜索。涵蓋 pgvector 設置、索引
+（HNSW、IVFFlat）、混合搜索（FTS + BM25 + RRF）、ParadeDB as
+Elasticsearch 替代方案，並使用 Cohere/交叉編碼器重新排名。
+支持 OpenAI 嵌入的向量（1536）和 halfvec（3072）類型。
+
+觸發器：pgvector、向量搜索、語義搜索、混合搜索、
+嵌入搜索、PostgreSQL RAG、BM25、RRF、HNSW 索引、相似性搜索、
+ParadeDB、pg_search、重新排名、Cohere 重新排名

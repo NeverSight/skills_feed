@@ -1,0 +1,7 @@
+Cloudflare Agents SDK 綜合指南 - 在 Workers + Durable 對像上構建人工智能驅動的自主代理。
+
+使用場景：構建 AI 代理、使用 WebSocket 創建有狀態代理、通過流實現聊天代理、使用 cron/delay 調度任務、運行異步工作流程、使用 Vectorize 構建 RAG（檢索增強生成）系統、創建 MCP（模型上下文協議）服務器、實現人機循環工作流程、使用瀏覽器渲染瀏覽網頁、使用 SQL 管理代理狀態、在代理和客戶端之間同步狀態、從 Workers 調用代理、構建多代理系統或遇到代理配置錯誤。
+
+防止超過 15 個已記錄的問題：遷移不是原子的、缺少 new_sqlite_classes、代理類未導出、綁定名稱不匹配、全局唯一性陷阱、WebSocket 狀態處理、計劃任務回調錯誤、狀態大小限制、工作流綁定丟失、需要瀏覽器綁定、未找到矢量化索引、MCP 傳輸混亂、繞過身份驗證、實例命名錯誤和狀態同步失敗。
+
+關鍵詞：Cloudflare Agents、代理 sdk、cloudflare 代理 sdk、代理類、持久對象代理、有狀態代理、WebSocket 代理、this.setState、this.sql、this.schedule、計劃任務、cron 代理、運行工作流、代理工作流、瀏覽網頁、puppeteer 代理、瀏覽器渲染、rag 代理、矢量化代理、嵌入、mcp 服務器、McpAgent、mcp 工具、模型上下文協議、 RouteAgentRequest、getAgentByName、useAgent hook、AgentClient、agentFetch、useAgentChat、AIChatAgent、聊天代理、流式聊天、人機循環、hitl 代理、多代理、代理編排、自治代理、長時間運行的代理、AI SDK、Workers AI、“代理類必須擴展”、“new_sqlite_classes”、“需要遷移”、“未找到綁定”、“代理未導出”、“回調不存在”、“超出狀態限制”

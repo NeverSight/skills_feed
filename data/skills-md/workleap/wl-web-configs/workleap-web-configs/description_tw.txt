@@ -1,0 +1,15 @@
+使用 Workleap 共享 Web 配置包的指南（@workleap/eslint-configs、@workleap/typescript-configs、@workleap/rsbuild-configs、@workleap/rslib-configs、@workleap/stylelint-configs、@workleap/browserslist-config）。
+
+在以下情況下使用此技能：
+(1) 為 Workleap 項目設置或修改共享 Web 工具配置
+（2）使用@workleap/eslint-configs配置ESLint（defineWebApplicationConfig、defineReactLibraryConfig、defineTypeScriptLibraryConfig、defineMonorepoWorkspaceConfig）
+（3）使用@workleap/typescript-configs配置TypeScript（web-application、library、monorepo-workspace）
+（4）使用@workleap/rsbuild-configs配置Rsbuild（defineDevConfig、defineBuildConfig、defineStorybookConfig）
+（5）使用@workleap/rslib-configs為庫項目配置Rslib
+(6) 使用@workleap/stylelint-configs配置Stylelint
+(7) 使用@workleap/browserslist-config配置Browserslist
+(8) 自定義或擴展共享配置
+（9）設置monorepo（Turborepo）與polyrepo配置策略
+(10) 解決 wl-web-configs 包的配置或兼容性問題
+(11)關於Workleap項目中ESM/ESNext配置約束的問題
+(12)使用Rsbuild或Rslib配置Storybook

@@ -1,0 +1,5 @@
+在 Cloudflare Workers 上使用 TanStack Start 構建全棧 React 應用程序。類型安全路由、服務器功能、SSR/流媒體和無縫 D1/KV/R2 集成。
+
+使用時機：構建全棧 React 應用程序、需要使用 Cloudflare Workers 進行 SSR、需要類型安全的服務器功能或從 Next.js 遷移。
+
+RC 狀態 - v1.0 穩定待定。在生產使用之前監視 tanstack/router#5734（內存洩漏）。

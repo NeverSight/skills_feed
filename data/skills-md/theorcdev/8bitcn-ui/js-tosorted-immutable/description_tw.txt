@@ -1,0 +1,1 @@
+使用 toSorted() 而不是 sort() 以避免數組發生變化。在對 React props、state 或其他地方共享/引用的數組進行排序時應用。

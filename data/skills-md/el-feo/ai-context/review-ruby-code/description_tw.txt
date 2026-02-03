@@ -1,0 +1,1 @@
+使用 Sandi Metz 規則和 SOLID 原則進行全面的 Ruby 和 Rails 代碼審查。自動運行 ruby​​​​critic 和 simplecov，分析當前分支與基礎分支中的更改文件，識別 OOP 違規、Rails 反模式、安全問題和測試覆蓋率差距。輸出帶有 VSCode 兼容文件鏈接的 REVIEW.md。在審查 Ruby/Rails 代碼、進行代碼審查、檢查設計問題或用戶提及代碼審查、拉取請求審查或代碼質量分析時使用。

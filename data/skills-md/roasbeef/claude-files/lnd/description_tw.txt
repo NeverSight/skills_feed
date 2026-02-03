@@ -1,0 +1,1 @@
+在 Docker 中運行 lnd 閃電網絡守護進程並與之交互。用於 Lightning 開發、在 regtest 上測試支付通道、管理 lnd 容器以及調用 lnd RPC 端點（getinfo、連接、打開/關閉通道、支付/接收）。支持 bitcoind、btcd 和 neutrino 後端。

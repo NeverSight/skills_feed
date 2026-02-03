@@ -1,0 +1,1 @@
+指導 Muni 代碼庫的端到端測試、模擬和模擬。在編寫集成測試、設置測試環境、創建模擬 CAN 總線、測試 WebSocket 協議、驗證數據庫裝置或調試測試失敗時使用。涵蓋 Rust 測試模式（tokio::test、集成測試）、TypeScript 測試 (Vitest)、模擬基礎設施（用於測試的 Docker Compose）、CAN 總線模擬、WebSocket 測試客戶端、數據庫播種和重新運行記錄驗證。對於確保組件正確協同工作至關重要。

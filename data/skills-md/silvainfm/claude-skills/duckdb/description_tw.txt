@@ -1,0 +1,1 @@
+用於對 DataFrame、CSV、Parquet、JSON 文件等進行 SQL 查詢的快速進程內分析數據庫。當用戶想要對數據文件或 Python DataFrame（pandas、Polars）執行 SQL 分析、運行複雜的聚合、聯接或窗口函數或查詢外部數據源而不加載到內存中時使用。最適合分析工作負載、OLAP 查詢和數據探索。

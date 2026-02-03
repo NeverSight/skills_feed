@@ -1,0 +1,13 @@
+此技能提供了將 Neon 無服務器 Postgres 和 Vercel Postgres（基於 Neon 基礎設施構建）集成到 Web 應用程序中的全面知識。在設置無服務器 Postgres 數據庫、為邊緣和無服務器環境配置連接池、實施數據庫分支工作流程或對 Cloudflare Workers、Vercel Edge Functions 或 Node.js 無服務器函數中的 Postgres 連接問題進行故障排除時，應使用它。
+
+在以下情況下使用此技能：
+- 為 Cloudflare Workers、Vercel Edge 或無服務器環境設置 Neon Postgres
+- 為 Next.js 應用程序配置 Vercel Postgres
+- 實施數據庫分支工作流程（類似 git 的數據庫分支）
+- 將 Drizzle ORM 或 Prisma 與 Neon/Vercel Postgres 集成
+- 調試連接池錯誤、事務超時或 SSL 配置問題
+- 從 D1/SQLite 遷移到 Postgres 或從傳統 Postgres 遷移到無服務器 Postgres
+- 設置時間點恢復 (PITR) 或數據庫備份
+- 遇到“連接池耗盡”、“無服務器不支持 TCP 連接”或“需要 sslmode”等錯誤
+
+關鍵詞：neon postgres、@neondatabase/serverless、@vercel/postgres、serverless postgres、postgres edge、neon 分支、vercel 數據庫、http postgres、websocket postgres、池化連接、drizzle neon、prisma neon、postgres cloudflare、postgres vercel edge、sql 模板標籤、neonctl、數據庫分支、時間點恢復、postgres 遷移、無服務器 sql、邊緣數據庫、neon api、vercel sql

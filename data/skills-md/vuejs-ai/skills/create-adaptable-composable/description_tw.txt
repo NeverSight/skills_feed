@@ -1,0 +1,1 @@
+創建一個庫級 Vue 可組合項，它接受 Maybe-reactive 輸入 (MaybeRef / MaybeRefOrGetter)，以便調用者可以傳遞普通值、ref 或 getter。使用反應效果 (watch/watchEffect) 內的 toValue()/toRef() 標準化輸入，以保持行為可預測和反應。當用戶要求創建適應性強或可重用的可組合項時，請使用此技能。

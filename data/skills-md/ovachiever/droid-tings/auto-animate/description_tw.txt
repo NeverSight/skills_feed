@@ -1,0 +1,6 @@
+使用 @formkit/auto-animate 實現 React、Vue、Solid、Svelte、Preact 的零配置動畫 (3.28kb)。
+防止 10 多個已記錄的錯誤：SSR/Next.js 導入、條件父項、缺少鍵、flexbox 寬度、
+表格顯示、Jest/esbuild 配置、CSS 位置衝突、Vue/Nuxt 註冊、Angular ESM。
+
+使用場合：動畫列表/手風琴/toasts/表單，解決 SSR 動畫錯誤，需要
+可訪問的動畫（自動首選減少運動），或者想要無需運動開銷的直接過渡。

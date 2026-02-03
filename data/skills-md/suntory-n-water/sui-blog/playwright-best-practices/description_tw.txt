@@ -1,0 +1,1 @@
+網絡抓取和測試的劇作家自動化最佳實踐。在編寫或審閱 Playwright 代碼時使用，尤其是元素操作（單擊、填充、選擇）、等待策略（waitForSelector、waitForURL、waitForLoadState）、導航模式和定位器使用。當遇到不穩定的測試、競爭條件或需要指導以避免已棄用的模式（例如 waitForNavigation 或 networkidle）時應用。

@@ -1,0 +1,16 @@
+適用於 Next.js 和 Cloudflare Workers 的生產就緒 Auth.js v5 設置。
+
+使用場合：設置身份驗證、實施 OAuth/憑據/魔術鏈接，
+配置 D1 或 PostgreSQL 適配器、調試會話問題、從
+v4 到 v5、修復邊緣兼容性、JWT/數據庫會話故障排除、
+解決 AUTH_SECRET 錯誤、修復 CallbackRouteError 或實施 RBAC。
+
+涵蓋：Next.js App Router 和 Pages Router、Cloudflare Workers + D1、OAuth 提供商
+（GitHub、Google 等）、憑證身份驗證、魔術鏈接、JWT 與數據庫會話、
+中間件模式、基於角色的訪問控制、令牌刷新、邊緣運行時
+兼容性和常見錯誤預防。
+
+關鍵詞：Auth.js、NextAuth.js、身份驗證、OAuth、憑據、魔術鏈接、
+D1 適配器、Cloudflare Workers、Next.js 中間件、JWT 會話、數據庫會話、
+刷新令牌、RBAC、邊緣兼容性、AUTH_SECRET、CallbackRouteError、
+CredentialsSignin、JWEDecryptionFailed、會話未更新、路由保護

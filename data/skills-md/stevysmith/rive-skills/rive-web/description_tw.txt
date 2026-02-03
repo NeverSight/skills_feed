@@ -1,0 +1,8 @@
+在以下情況下觸發：(1) 在網絡上加載或嵌入 .riv 文件，
+(2) 使用@rive-app/canvas 或@rive-app/webgl 包，
+(3) 從 JavaScript 控制 Rive 狀態機，
+(4) 讀/寫 Rive 輸入或處理事件，
+(5) 用戶在網絡上下文中提及“Rive 運行時”或“Rive 動畫”。
+
+在網絡上嵌入和控制 Rive 動畫的最佳實踐
+使用官方 Rive JavaScript/TypeScript 運行時。

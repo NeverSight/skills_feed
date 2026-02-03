@@ -1,0 +1,15 @@
+使用正確的當前 SDK 的 Google Gemini API 完整指南（@google/genai v1.27+，而不是
+已棄用@google/generative-ai)。涵蓋文本生成、多模態輸入（文本+圖像+視頻+
+音頻 + PDF）、函數調用、思維模式、流媒體和系統指令，精確到 2025
+型號信息（Gemini 2.5 Pro/Flash/Flash-Lite，具有 1M 輸入令牌，而不是 2M）。
+
+使用時機：集成Gemini API、實現多模態AI應用、使用思維模式進行
+複雜的推理、並行執行的函數調用、流式響應、部署到
+Cloudflare Workers、構建聊天應用程序或遇到 SDK 棄用警告、上下文窗口
+錯誤、模型未找到錯誤、函數調用失敗或多模式格式錯誤。
+
+關鍵詞：gemini api、@google/genai、gemini-2.5-pro、gemini-2.5-flash、gemini-2.5-flash-lite、
+多模式雙子座、思維模式、谷歌人工智能、genai sdk、函數調用雙子座、流媒體雙子座、
+雙子座視覺、雙子座視頻、雙子座音頻、雙子座pdf、系統說明、多輪聊天、
+已棄用 @google/generative-ai、Gemini 上下文窗口、Gemini 模型 2025、Gemini 100 萬代幣、
+Gemini工具使用、並行函數調用、組合函數調用

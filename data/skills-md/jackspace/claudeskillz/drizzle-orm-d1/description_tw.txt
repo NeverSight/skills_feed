@@ -1,0 +1,20 @@
+使用 Drizzle 的 Cloudflare D1 數據庫的類型安全 ORM。該技能提供全面的
+模式定義、遷移管理、類型安全查詢、關係和
+Cloudflare Workers 集成。
+
+使用場合：構建 D1 數據庫模式、編寫類型安全的 SQL 查詢、管理數據庫
+使用 Drizzle Kit 進行遷移，定義表關係，實施準備好的語句，
+使用D1批量API進行交易，或者遇到“D1_ERROR”，交易錯誤，
+外鍵約束失敗、遷移應用錯誤或架構推斷問題。
+
+防止 12 個已記錄的問題：D1 事務錯誤（不支持 SQL BEGIN）、外鍵
+遷移期間約束失敗、Wrangler 模塊導入錯誤、未找到 D1 綁定、
+遷移應用失敗、模式 TypeScript 推理錯誤、準備好的語句緩存問題、
+事務回滾模式、TypeScript 嚴格模式錯誤、drizzle.config.ts 未找到、
+遠程與本地數據庫混淆，以及 wrangler.toml 與 wrangler.jsonc 混合。
+
+關鍵詞： drizzle orm、 drizzle d1、類型安全 sql、 drizzle 模式、 drizzle 遷移、
+毛毛雨套件、orm cloudflare、d1 orm、毛毛雨打字稿、毛毛雨關係、毛毛雨交易、
+drizzle 查詢構建器、模式定義、準備好的語句、drizzle 批處理、遷移管理、
+關係查詢、毛毛雨連接、D1_ERROR、BEGIN TRANSACTION d1、外鍵約束、
+遷移失敗，未找到架構，d1 綁定錯誤

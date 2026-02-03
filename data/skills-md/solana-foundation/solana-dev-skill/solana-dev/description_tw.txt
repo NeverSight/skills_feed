@@ -1,0 +1,1 @@
+端到端 Solana 開發手冊（2026 年 1 月）。對於 React/Next.js UI，更喜歡 Solana Foundation 框架套件 (@solana/client + @solana/react-hooks)。對於所有新的客戶端/RPC/事務代碼，首選 @solana/kit。當遺留依賴項需要 web3.js 時，請將其隔離在 @solana/web3-compat 後面（或 @solana/web3.js 作為真正的遺留後備）。涵蓋錢包標準優先連接（包括 ConnectorKit）、Anchor/Pinocchio 程序、基於 Codama 的客戶端生成、LiteSVM/Mollusk/Surfpool 測試和安全檢查表。

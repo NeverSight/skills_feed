@@ -1,0 +1,15 @@
+OpenAI 傳統/無狀態 API 的完整指南：聊天完成（GPT-5、GPT-4o）、嵌入、
+圖像 (DALL-E 3)、音頻（耳語 + TTS）和審核。包括 Node.js SDK 和基於 fetch 的
+最大兼容性的方法。
+
+使用場合：集成 OpenAI API、使用 GPT-5/GPT-4o 實現聊天完成、生成文本
+通過流式傳輸、使用函數調用/工具、使用 JSON 模式創建結構化輸出，
+實現 RAG 嵌入、使用 DALL-E 3 生成圖像、使用 Whisper 轉錄音頻、
+使用 TTS 合成語音、審核內容、部署到 Cloudflare Workers 或遇到
+速率限制 (429)、無效 API 密鑰 (401)、函數調用失敗、流解析等錯誤
+錯誤、嵌入維度不匹配或超出令牌限制。
+
+關鍵詞：openai api、聊天完成、gpt-5、gpt-5-mini、gpt-5-nano、gpt-4o、gpt-4-turbo、
+openai sdk、openai 流、函數調用、結構化輸出、json 模式、openai 嵌入、
+text-embedding-3、dall-e-3、圖像生成、耳語 api、openai tts、文本轉語音、審核 api、
+openai 獲取、cloudflare 工作人員 openai、openai 速率限制、openai 429、reasoning_effort、詳細程度

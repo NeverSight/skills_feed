@@ -1,0 +1,1 @@
+要求：在包含 .xcodeproj 的目錄中創建任何 .swift、.m、.mm、.c、.cpp 或 .h 文件後，必須運行 add_to_xcode.rb 將其註冊到項目中。如果沒有這一步，該文件將不會出現在 Xcode 中，也不會編譯。

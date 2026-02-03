@@ -1,0 +1,16 @@
+使用 TypeScript 在 React 應用程序中進行 Zustand 狀態管理的經過生產測試的設置。
+該技能為構建可擴展的、類型安全的全局狀態提供了全面的模式。
+
+使用時機：在 React 中設置全局狀態、從 Redux 或 Context API 遷移、實現
+使用 localStorage 進行狀態持久化，使用 Zustand 配置 TypeScript，使用切片模式
+對於模塊化商店，添加 devtools 中間件進行調試，處理 Next.js SSR 水合作用，
+或者遇到水合錯誤、TypeScript 推理問題或持續存在的中間件問題。
+
+防止 5 個已記錄的問題：Next.js 水合不匹配、TypeScript 雙括號
+語法錯誤、持久中間件導出錯誤、無限渲染循環和切片模式
+類型推斷失敗。
+
+關鍵詞：zustand、狀態管理、React 狀態、TypeScript 狀態、持久中間件、
+開發工具、切片模式、全局狀態、React hooks、創建存儲、useBoundStore、
+StateCreator、水合錯誤、文本內容不匹配、無限渲染、localStorage、
+sessionStorage、沉浸式中間件、淺層相等、選擇器模式、zustand v5

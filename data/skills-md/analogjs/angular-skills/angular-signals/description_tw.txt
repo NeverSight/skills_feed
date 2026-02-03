@@ -1,0 +1,1 @@
+在 Angular v20+ 中實現基於信號的反應式狀態管理。用於使用 signal() 創建反應狀態、使用compute() 創建派生狀態、使用 linkedSignal() 創建依賴狀態以及使用effect() 創建副作用。觸發狀態管理問題，從BehaviorSubject/Observable 模式轉換為信號，或實現反應式數據流。

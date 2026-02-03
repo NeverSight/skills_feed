@@ -1,0 +1,2 @@
+使用 ipSAE（對齊誤差的蛋白間評分）對粘合劑設計進行排名。在以下情況下使用此技能：(1) 對實驗測試的結合劑設計進行排名，(2) 過濾 BindCraft 或 RFdiffusion 輸出，(3) 比較 AF2/AF3/Boltz 預測，(4) 預測結合成功率，(5) 需要比 ipTM 或 iPAE 更好的排名。
+對於結構預測，請使用 chai 或 alphafold。對於 QC 閾值，請使用 Protein-qc。

@@ -1,0 +1,7 @@
+Turborepo monorepo 構建系統指南。觸發：turbo.json、任務管道、
+dependentOn、緩存、遠程緩存、“turbo”CLI、--filter、--affected、CI 優化、環境
+變量、內部包、單一存儲庫結構/最佳實踐和邊界。
+
+當用戶配置任務/工作流程/管道、創建包、設置時使用
+monorepo，在應用程序之間共享代碼，運行更改/受影響的包，調試緩存，
+或者有 apps/packages 目錄。

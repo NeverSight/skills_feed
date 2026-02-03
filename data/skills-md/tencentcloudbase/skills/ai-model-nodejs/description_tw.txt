@@ -1,0 +1,1 @@
+在開發需要 AI 功能的 Node.js 後端服務或 CloudBase 雲功能（Express/Koa/NestJS、Serverless、後端 API）時使用此技能。通過 @cloudbase/node-sdk ≥3.16.0 實現文本生成 (generateText)、流式傳輸 (streamText) 和圖像生成 (generateImage)。內置模型包括hunyuan（推薦hunyuan-2.0-instruct-20251111）、DeepSeek（推薦deepseek-v3.2）、圖像的hunyuan-image。這是唯一支持圖像生成的 SDK。不適用於瀏覽器/網絡應用程序（使用 ai-model-web）或微信小程序（使用 ai-model-wechat）。

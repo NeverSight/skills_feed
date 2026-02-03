@@ -1,0 +1,1 @@
+使用 TileLang（用於 GPU 編程的 Python DSL）編寫、優化和調試高性能 AI 計算內核。當用戶請求時使用：(1) 為 AI 工作負載（GEMM、Attention、MLA 等）編寫自定義 GPU 內核，(2) 優化 NVIDIA、AMD 或 Ascend 硬件的現有 TileLang 代碼，(3) 實現非標準運算符（如 DeepSeek MLA、FlashAttention 變體），(4) 調試 TileLang 編譯或運行時錯誤，或 (5) 針對多個 GPU 供應商的跨平台內核開發。
