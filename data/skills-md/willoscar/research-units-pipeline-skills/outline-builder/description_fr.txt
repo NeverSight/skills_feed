@@ -1,0 +1,6 @@
+Convertissez une taxonomie (`outline/taxonomy.yml`) en un plan à puces uniquement (`outline/outline.yml`) avec des sections/sous-sections.
+**Déclencheur** : générateur de contour, contour de puce, outline.yml, 大纲生成, puces uniquement.
+**À utiliser lorsque** : structure 阶段（NO PROSE），已有 taxonomie，需要生成可映射/可写作的章节与小节骨架（每小节≥3 puces）。
+**Passer si** : 已经有批准过且可映射的 outline（避免无意义 churn）。
+**Réseau** : aucun.
+**Garde-corps** : balles uniquement；移除 TODO/模板语句；每小节至少 3 balles 个可检查。

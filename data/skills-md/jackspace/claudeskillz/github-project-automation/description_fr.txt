@@ -1,0 +1,19 @@
+Cette compétence fournit une automatisation complète pour l'installation et la configuration du référentiel GitHub.
+Il doit être utilisé lors de la création de nouveaux projets, de la configuration des pipelines CI/CD, de la configuration des problèmes
+modèles, permettant l'analyse de sécurité ou la migration de projets existants vers l'automatisation GitHub.
+
+La compétence évite 18 erreurs documentées dans la syntaxe YAML des actions GitHub, la configuration du flux de travail,
+structure du modèle de problème, configuration de Dependabot et analyse de sécurité CodeQL. Il comprend 12
+modèles de flux de travail testés en production, 4 modèles de problèmes, configurations de sécurité et automatisation
+scripts pour une configuration rapide du projet.
+
+À utiliser lors de : la configuration de GitHub Actions CI/CD, la création de modèles de problèmes/RP, l'activation de Dependabot,
+configuration de l'analyse CodeQL, automatisation de la configuration du référentiel GitHub, correction des erreurs de syntaxe YAML,
+intégrer l'analyse de sécurité, déployer sur Cloudflare Workers via GitHub Actions, ou
+mise en œuvre de matrices de tests multi-framework.
+
+Mots-clés : actions github, workflow github, ci/cd, modèles de tickets, modèles de pull request,
+dependabot, codeql, analyse de sécurité, syntaxe yaml, automatisation de github, configuration du référentiel,
+modèles de workflow, matrice d'actions github, gestion des secrets, protection des branches, propriétaires de code,
+projets github, intégration continue, déploiement continu, erreur de syntaxe de workflow,
+épinglage de la version d'action, version du coureur, contexte github, erreur d'indentation yaml

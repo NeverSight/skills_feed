@@ -1,0 +1,3 @@
+Configurez Postgres sans serveur avec Neon ou Vercel Postgres pour Cloudflare Workers/Edge. Inclut le regroupement de connexions, le branchement de type git pour les environnements de prévisualisation et l'intégration Drizzle/Prisma.
+
+À utiliser lors de : la configuration de Postgres Edge, la configuration du branchement de base de données ou le dépannage "TCP non pris en charge", le pool de connexions épuisé, la configuration SSL (sslmode=require) ou la compatibilité Prisma Edge.

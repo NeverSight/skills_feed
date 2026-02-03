@@ -1,0 +1,3 @@
+Gérez l'état du serveur dans React avec TanStack Query v5. Couvre useMutationState, les mises à jour optimistes simplifiées, throwOnError, le mode réseau (hors ligne/PWA) et infiniteQueryOptions.
+
+À utiliser lors de la configuration de la récupération de données, de la correction des erreurs de migration v4 → v5 (syntaxe d'objet, gcTime, isPending, keepPreviousData) ou du débogage des problèmes SSR/hydratation avec les composants du serveur de streaming.

@@ -1,0 +1,6 @@
+Auto-boucle des arguments : maintenir un grand livre d'arguments + un rapport de cohérence des prémisses pour les sections rédigées.
+**Déclencheur** : boucle automatique d'argument, chaîne d'arguments, cohérence des prémisses, auto-vérification de section, contrat de paragraphe, 论证自循环, 论证链路, 前提一致性, 段落论证动作.
+**À utiliser lorsque** : vous êtes en C5 (PROSE autorisé), `sections/*.md` existent et vous souhaitez empêcher l'écriture « douce mais creuse » en appliquant les mouvements d'arguments + l'hygiène des prémisses avant la fusion.
+**Sauter si** : vous êtes pré-C2 (PAS DE PROSE), ou les packs de preuves sont échafaudés/minces (acheminez d'abord vers l'amont vers « evidence-selfloop ).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits ; ne pas ajouter/supprimer/déplacer les clés de citation ; ne déplacez pas les citations d’une sous-section à l’autre ; le registre des arguments est un artefact intermédiaire et ne doit jamais être inséré dans le document.

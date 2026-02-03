@@ -1,0 +1,15 @@
+Guide complet pour l'API Assistants v2 d'OpenAI : IA conversationnelle avec état avec outils intégrés
+(Interpréteur de code, recherche de fichiers, appel de fonctions), magasins de vecteurs pour RAG (jusqu'à 10 000 fichiers),
+gestion du cycle de vie des threads/exécutions et modèles de streaming. Les approches SDK Node.js et fetch.
+
+⚠️ AVIS DE DÉPRÉCATION : OpenAI prévoit de supprimer l'API Assistants au premier semestre 2026 au profit de l'API Responses.
+Cette compétence reste précieuse pour les applications existantes et la planification de la migration.
+
+À utiliser lorsque : créer des chatbots dynamiques avec OpenAI, implémenter RAG avec des magasins de vecteurs, exécuter
+Code Python avec Code Interpreter, utilisation de la recherche de fichiers pour les questions-réponses sur les documents, gestion des fils de conversation,
+diffuser les réponses de l'assistant ou rencontrer des erreurs telles que "le thread est déjà en cours d'exécution", vecteur
+stockez les retards d’indexation, exécutez des délais d’attente d’interrogation ou des problèmes de téléchargement de fichiers.
+
+Mots-clés : assistants openai, assistants api, threads openai, exécutions openai, assistant interpréteur de code,
+recherche de fichiers openai, magasin de vecteurs openai, openai rag, assistant streaming, persistance des threads,
+Chatbot avec état, le thread a déjà une exécution active, interrogation de l'état d'exécution, erreur de magasin de vecteurs

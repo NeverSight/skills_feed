@@ -1,0 +1,6 @@
+Créez une matrice de nouveauté/travaux antérieurs comparant les contributions de la soumission aux travaux connexes (chevauchements vs deltas).
+**Déclencheur** : matrice de nouveauté, matrice de travaux antérieurs, chevauchement/delta, 相关工作对比, 新颖性矩阵.
+**À utiliser lorsque** : examen par les pairs concernant la nouveauté/le positionnement.
+**Passer si** : 缺少 claims（先跑 `claims-extractor`）或你不打算做新颖性定位分析。
+**Réseau** : aucun (la récupération de travaux connexes supplémentaires est hors de portée, sauf si elle est fournie).
+**Garde-corps** : 明确 chevauchement 与 delta；尽量给出可追溯证据来源（来自稿件/引用/作者陈述）。

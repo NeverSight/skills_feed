@@ -1,0 +1,20 @@
+ORM de type sécurisé pour les bases de données Cloudflare D1 utilisant Drizzle. Cette compétence fournit des informations complètes
+modèles pour la définition de schéma, la gestion des migrations, les requêtes de type sécurisé, les relations et
+Intégration de Cloudflare Workers.
+
+À utiliser dans les cas suivants : création de schémas de base de données D1, écriture de requêtes SQL de type sécurisé, gestion de base de données
+migrations avec Drizzle Kit, définition des relations entre les tables, implémentation des instructions préparées,
+en utilisant l'API batch D1 pour les transactions, ou en rencontrant des erreurs de transaction "D1_ERROR",
+échecs de contraintes de clé étrangère, erreurs d’application de migration ou problèmes d’inférence de schéma.
+
+Prévient 12 problèmes documentés : erreurs de transaction D1 (SQL BEGIN non pris en charge), clé étrangère
+échecs de contraintes lors des migrations, erreurs d'importation de modules avec Wrangler, liaison D1 introuvable,
+échecs d'application de migration, erreurs d'inférence de schéma TypeScript, problèmes de mise en cache des instructions préparées,
+modèles d'annulation de transaction, erreurs de mode strict TypeScript, drizzle.config.ts introuvable,
+Confusion des bases de données distantes et locales et mélange wrangler.toml vs wrangler.jsonc.
+
+Mots-clés : drizzle orm, drizzle d1, type-safe sql, schéma drizzle, migrations drizzle,
+kit de bruine, orm cloudflare, d1 orm, dactylographié de bruine, relations de bruine, transactions de bruine,
+générateur de requêtes Drizzle, définition de schéma, instructions préparées, lot Drizzle, gestion des migrations,
+requêtes relationnelles, jointures bruine, D1_ERROR, BEGIN TRANSACTION d1, contrainte de clé étrangère,
+échec de la migration, schéma introuvable, erreur de liaison d1

@@ -1,0 +1,5 @@
+Prise de décision en matière d'abstraction de plateforme pour le projet Amethyst KMP. Guide quand abstrait ou conserver spécifique à la plate-forme,
+placement de l'ensemble de sources (commonMain, jvmAndroid, spécifique à la plate-forme), modèles attendus/réels. Couvre les cibles principales
+(Android, JVM/Desktop, iOS) avec des considérations futures sur le Web/wasm. S'intègre à gradle-expert pour les problèmes de dépendance.
+Déclencheurs sur : les décisions d'abstraction ("dois-je partager ceci ?"), les questions de placement des ensembles de sources, la création attendue/réelle,
+Travail de build.gradle.kts, détection de placement incorrect, suggestions de dépendances KMP.

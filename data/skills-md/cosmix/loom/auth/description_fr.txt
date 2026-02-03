@@ -1,0 +1,6 @@
+Modèles d'authentification et d'autorisation, notamment OAuth2, JWT, RBAC/ABAC, gestion de session, clés API, hachage de mot de passe et MFA.
+
+À UTILISER QUAND : mise en œuvre des flux de connexion, du contrôle d'accès, de la gestion des identités, des jetons, des autorisations, de la gestion des sessions, de l'authentification par clé API ou de l'AMF.
+NE PAS UTILISER : Pour l'analyse des vulnérabilités de sécurité (utilisez /security-scan), pour les audits de sécurité (utilisez /security-audit), pour la modélisation des menaces (utilisez /threat-model).
+
+DÉCLENCHEURS : connexion, déconnexion, connexion, inscription, authentification, autorisation, mot de passe, informations d'identification, jeton, JWT, OAuth, OAuth2, OIDC, SSO, SAML, session, cookie, RBAC, ABAC, autorisations, rôles, MFA, 2FA, TOTP, clé API, PKCE.

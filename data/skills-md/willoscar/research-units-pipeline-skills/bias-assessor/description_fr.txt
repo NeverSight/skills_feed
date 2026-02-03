@@ -1,0 +1,6 @@
+Ajoutez des champs d’évaluation de biais/risque de biais à un tableau d’extraction et remplissez-les de manière cohérente.
+**Déclencheur** : biais, risque de biais, RoB, qualité des preuves, 偏倚评估, 证据质量.
+**À utiliser lorsque** : revue systématique 已生成 `papers/extraction_table.csv`，需要在 synthèse 前补齐偏倚/质量字段。
+**Passer si** : 不是 revue systématique，或还没有 `papers/extraction_table.csv`。
+**Réseau** : aucun.
+**Garde-corps** : 使用简单可复核刻度（faible/peu clair/élevé） + 简短 notes；保持字段一致性。

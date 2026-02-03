@@ -1,0 +1,6 @@
+Créez un graphique conceptuel (nœuds + bords prérequis) à partir d'une spécification de didacticiel, en l'enregistrant sous `outline/concept_graph.yml`.
+**Déclencheur** : graphique conceptuel, graphique des prérequis, graphique des dépendances, 概念图, 先修关系.
+**Utiliser quand** : pipeline tutoriel 的结构阶段（C2），需要把教程知识点拆成可排序的依赖图（在写教程 prose 前）。
+**Ignorer si** : Voici les spécifications du didacticiel (例如缺少 `output/TUTORIAL_SPEC.md`）。
+**Réseau** : aucun.
+**Garde-corps** : 只做结构；避免写长 prose 段落。

@@ -1,0 +1,1 @@
+Effectue un examen complet du code PR à partir de 5 perspectives (qualité/performance/tests/documents/sécurité) en parallèle, fournissant des bloqueurs/suggestions/agréables à avoir et une décision de fusion. Args : /review [owner/repo] [pr-number] [--focus all|security|perf|qa|docs|types] S'active lorsque l'utilisateur mentionne "review", "PR確認", "コードレビュー", "マージ判定".

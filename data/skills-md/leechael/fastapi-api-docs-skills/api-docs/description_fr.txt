@@ -1,0 +1,4 @@
+Analysez les fichiers de route FastAPI et complétez les métadonnées de la documentation de l'API.
+Suit la pile d'appels complète, y compris Depends, trace toutes les erreurs possibles,
+et génère des éléments de documentation OpenAPI complets.
+À utiliser lorsque : l'utilisateur fournit un chemin de fichier avec la syntaxe @filename et souhaite que la documentation de l'API soit complétée.

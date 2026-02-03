@@ -1,0 +1,8 @@
+Manifestes Kubernetes de qualité production et débogage pour les applications conteneurisées.
+Cette compétence doit être utilisée lorsque les utilisateurs demandent à déployer sur Kubernetes, à créer des manifestes K8,
+conteneuriser pour les K8, configurer les déploiements/services/jobs/StatefulSets/CronJobs, créer
+espaces de noms avec quotas de ressources, configurer l'isolation multi-équipes, configurer ResourceQuota/
+LimitRange, sécurisé avec RBAC (ServiceAccount, Role, RoleBinding), configurer init
+conteneurs (téléchargement de modèle, attente de base de données, migrations), mise en place de side-cars (logging, métriques),
+ou des pods de débogage (CrashLoopBackOff, journaux, exécution, description, événements). Détection automatique à partir de
+Dockerfile/code, génère des manifestes renforcés avec des commentaires pédagogiques. Aligné sur CKAD.

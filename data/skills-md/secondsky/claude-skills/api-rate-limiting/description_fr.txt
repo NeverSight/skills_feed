@@ -1,0 +1,1 @@
+Implémente la limitation du débit de l'API à l'aide d'un compartiment de jetons, d'une fenêtre coulissante et d'algorithmes basés sur Redis pour se protéger contre les abus. À utiliser pour sécuriser les API publiques, mettre en œuvre un accès hiérarchisé ou prévenir les attaques par déni de service.

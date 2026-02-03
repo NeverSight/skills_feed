@@ -1,0 +1,13 @@
+Connaissances complètes pour utiliser efficacement l'outil Bash dans Claude Code. Cette compétence
+doit être utilisé lors de l'orchestration des outils CLI, de la configuration des hooks, de la configuration de l'automatisation
+workflows, gestion des opérations git, gestion des modèles multi-commandes ou rencontre
+Erreurs de l’outil Bash.
+
+Couvre : hooks PreToolUse, modèles de chaînage de commandes, automatisation du workflow git, outil CLI
+intégration, commandes personnalisées (.claude/commands/), configurations de sécurité, liste blanche,
+persistance de la session, gestion des sorties, prévention des erreurs et dépannage des problèmes courants.
+
+À utiliser lorsque : la configuration des hooks Claude Code, la configuration des autorisations bash, la création de
+commandes, automatisation des flux de travail git, orchestrer plusieurs outils CLI, débogage de bash
+échecs de commandes, mise en œuvre d'agents de sécurité, journalisation de l'exécution des commandes ou prévention
+opérations dangereuses.

@@ -1,0 +1,15 @@
+Compétence unifiée pour gérer l’ensemble du cycle PDCA.
+Déclenchement automatique par mots-clés : "plan", "conception", "analyser", "rapport", "statut".
+Remplace les commandes /pdca-* héritées.
+
+Utiliser de manière proactive lorsque l'utilisateur mentionne le cycle PDCA, la planification, les documents de conception,
+rapports d'analyse des écarts, d'itération ou d'achèvement.
+
+Déclencheurs : pdca, 계획, 설계, 분석, 검증, 보고서, 반복, 개선, planifier, concevoir, analyser,
+vérifier, signaler, statut, suivant, itérer, écart, 計画, 設計, 分析, 検証, 報告,
+计划, 设计, 分析, 验证, 报告, planificar, diseño, analizar, verificar,
+plan, conception, analyseur, vérifier, rapport,
+planen, Entwurf, analysieren, überprüfen, Bericht,
+pianificare, progettazione, analizzare, verificare, rapporto
+
+Ne PAS utiliser pour : des requêtes simples sans contexte PDCA, des tâches contenant uniquement du code.

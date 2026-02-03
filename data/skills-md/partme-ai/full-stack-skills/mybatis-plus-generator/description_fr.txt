@@ -1,0 +1,6 @@
+Fournit des conseils complets pour générer du code MyBatis-Plus, notamment Entity, Mapper, Service, ServiceImpl, 
+Contrôleur, DTO, VO, BO et autres objets associés à partir des tables de base de données. À utiliser UNIQUEMENT lorsque l'utilisateur 
+mentionne MyBatis-Plus, mybatis-plus-generator ou souhaite générer du code à l'aide du framework MyBatis-Plus. 
+Cette compétence génère automatiquement des méthodes CRUD standard et des méthodes personnalisées en fonction des besoins des utilisateurs pour 
+Projets MyBatis-Plus. Prend en charge les architectures MVC et DDD, les langages Java et Kotlin. Ne PAS déclencher pendant 
+génération de code générique, JPA/Hibernate ou autres frameworks ORM.

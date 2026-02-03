@@ -1,0 +1,1 @@
+À utiliser lorsque les tests présentent des conditions de concurrence critique, des dépendances temporelles ou un comportement réussite/échec incohérent : remplace les délais d'attente arbitraires par une interrogation de conditions pour attendre les changements d'état réels, éliminant ainsi les tests irréguliers des suppositions temporelles.

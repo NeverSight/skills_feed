@@ -1,0 +1,6 @@
+Passage de cohérence logique pour les fichiers de section par H3 : appliquez une thèse claire du paragraphe 1 et faites apparaître les risques des îlots de paragraphe (les statistiques des connecteurs sont un diagnostic, pas un quota) avant la fusion.
+**Déclencheur** : polisseur logique, logique de section, énoncé de thèse, connecteurs, 段落逻辑, 连接词, 论证主线, 润色逻辑.
+**Utiliser quand** : `sections/S*.md` existent mais se lisent comme des îlots de paragraphes ; vous voulez une auto-boucle ciblée et déboguable avant la « fusion de sections ».
+**Sauter si** : les sections sont manquantes/minces (corrigez d'abord `subsection-writer`) ou les dossiers/mémoires de preuves sont échafaudés (corrigez d'abord C3/C4).
+**Réseau** : aucun.
+**Garde-corps** : n'ajoutez pas de nouvelles citations ; n'inventez pas de faits ; ne modifiez pas les clés de citation ; ne déplacez pas les citations d’une sous-section à l’autre.

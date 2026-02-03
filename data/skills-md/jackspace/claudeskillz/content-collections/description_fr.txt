@@ -1,0 +1,19 @@
+Configuration testée en production pour Content Collections - un outil de création basé sur TypeScript qui transforme
+fichiers de contenu local (Markdown/MDX) dans des collections de données de type sécurisé avec validation automatique.
+
+À utiliser lorsque : créer des blogs, des sites de documentation ou des applications riches en contenu avec Vite + React,
+configuration du contenu MDX avec les composants React, implémentation de schémas de contenu de type sécurisé avec Zod,
+migrer depuis Contentlayer ou rencontrer des erreurs d'importation TypeScript avec des collections de contenu.
+
+Couvre : configuration du plugin Vite, alias de chemin tsconfig, schémas de collection avec validation Zod,
+Compilation MDX avec compileMDX, fonctions de transformation pour les propriétés calculées, plugins rehype/remark,
+Intégration des composants React avec MDXContent, déploiement de Cloudflare Workers et optimisation de la version de production.
+
+Mots-clés : content-collections, @content-collections/core, @content-collections/vite,
+@content-collections/mdx, MDX, démarque, validation du schéma Zod, contenu de type sécurisé,
+frontmatter, compileMDX, définirCollection, définirConfig, plugin Vite, chemins tsconfig,
+.content-collections/generated, composant MDXContent, plugins de rehype, plugins de remarques,
+schéma de contenu, transformation de documents, importation allPosts, génération de sites statiques,
+configuration du blog, documentation, actifs statiques Cloudflare Workers, erreurs de validation de contenu,
+module introuvable, collections de contenu, alias de chemin ne fonctionne pas, erreurs de type MDX,
+fonction de transformation asynchrone, la collection ne se met pas à jour

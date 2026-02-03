@@ -1,0 +1,3 @@
+Créez des applications de bureau sécurisées avec Electron 33, Vite, React et TypeScript. Couvre l'IPC de type sécurisé via contextBridge, OAuth avec des gestionnaires de protocole personnalisés, la compatibilité des modules natifs (better-sqlite3, electronic-store) et le packaging du constructeur d'électrons.
+
+À utiliser lors de la création d'applications de bureau multiplateformes, de la mise en œuvre de flux OAuth dans Electron, de la gestion de la communication entre le processus principal et le moteur de rendu ou du packaging avec signature de code. Empêche : incompatibilité NODE_MODULE_VERSION, clés de chiffrement codées en dur, contournements d'isolation de contexte, conflits de bac à sable avec les modules natifs.

@@ -1,0 +1,1 @@
+Correspondance de modèle d'effet maître à l'aide de Data.TaggedEnum, $match, $is, Match.typeTags et Effect.match. Évitez les vérifications manuelles de _tag et les modèles Effect.either. Utilisez cette compétence lorsque vous travaillez avec des unions discriminées, des ADT ou une logique conditionnelle basée sur des types balisés.

@@ -1,0 +1,6 @@
+Construisez des résumés de rédaction par chapitre (H2) (PAS DE PROSE) afin que l'enquête finale se lise comme un article (chefs de chapitre + cohérence croisée-H3) sans gonfler la ToC.
+**Déclencheur** : résumés de chapitre, résumés H2, plan principal de chapitre, intention de section, 章节意图, 章节导读, H2 卡片.
+**À utiliser lorsque** : `outline/outline.yml` + `outline/subsection_briefs.jsonl` existent et vous souhaitez des chapitres plus épais (moins de titres, plus de logique).
+**Sauter si** : le contour est encore en train de changer fortement (corrigez d'abord le contour/le mappage).
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de papiers; référence uniquement aux identifiants de sous-section et aux articles déjà cartographiés.

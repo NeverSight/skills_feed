@@ -1,0 +1,6 @@
+Planifiez les modules du didacticiel à partir d'un graphique conceptuel, y compris les objectifs et le séquençage des modules, en les enregistrant sous `outline/module_plan.yml`.
+**Déclencheur** : plan de module, modules de didacticiel, plan de cours, 模块规划, module_plan.yml.
+**Utiliser quand** : pipeline de didacticiel (C2) et `outline/concept_graph.yml`.
+**Sauter si** : 还没有 concept graph（先跑 `concept-graph`）。
+**Réseau** : aucun.
+**Garde-corps** : objectifs + résultats (exemple en cours d'exécution 步骤)；避免 prose 段落。

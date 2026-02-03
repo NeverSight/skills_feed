@@ -1,0 +1,1 @@
+Backends d’observabilité des requêtes (journaux Loki, métriques Prometheus, traces Tempo). À utiliser lorsque l'utilisateur pose des questions sur les journaux, les métriques, les traces ou les problèmes de production de débogage. IMPORTANT - Utilisez toujours des sous-agents haïku pour exécuter des requêtes, n'exécutez jamais de requêtes directement.

@@ -1,0 +1,3 @@
+Authentification auto-hébergée pour les travailleurs TypeScript/Cloudflare avec authentification sociale, 2FA, mots de passe, organisations, RBAC et plus de 15 plugins. Nécessite Drizzle ORM ou Kysely pour D1 (pas d'adaptateur direct). Alternative auto-hébergée à Clerk/Auth.js.
+
+À utiliser dans les cas suivants : authentification auto-hébergée sur D1, création d'un fournisseur OAuth, SaaS multi-locataires ou dépannage d'erreurs d'adaptateur D1, mise en cache de session, limites de débit, plantages d'Expo, bogues de champs supplémentaires.

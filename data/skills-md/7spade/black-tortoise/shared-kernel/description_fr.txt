@@ -1,0 +1,1 @@
+Règles de noyau partagées pour src/app/shared, définissant ce qui peut être partagé en toute sécurité (primitives, utilitaires, atomes d'interface utilisateur) et ce qui ne doit pas être partagé (logique métier, politiques inter-contextes) ; à utiliser lors de l'ajout d'assistants ou de composants partagés.

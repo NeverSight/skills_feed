@@ -1,0 +1,7 @@
+Expansion de la littérature multivoie + normalisation des métadonnées pour les enquêtes fondées sur des preuves.
+Produit un large pool de candidats (`papers/papers_raw.jsonl`, cible ≥1 200) avec des identifiants et une provenance stables, prêt pour la déduplication/le classement + la génération de citations.
+**Déclencheur** : collectionneur de preuves, ingénieur en littérature, 文献扩充, 多路召回, boule de neige, cité par, références, 元信息增强, provenance.
+**À utiliser lorsque** : ≥1 200 méta（pipeline d'enquête et preuves de l'étape C1** :
+**Passer si** : `papers/papers_raw.jsonl`（≥1200 且每条都有稳定标识+来源记录）。
+**Réseau** : 可离线（靠 importations）；雪崩/在线检索需要网络。
+**Garde-corps** : 不允许编造论文；每条记录必须带稳定标识（arXiv id / DOI / 可信 URL） et provenance；不写 sortie/ prose。

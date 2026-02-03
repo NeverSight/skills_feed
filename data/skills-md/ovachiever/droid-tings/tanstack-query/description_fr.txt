@@ -1,0 +1,3 @@
+Gérez l'état du serveur dans React avec TanStack Query v5. Configurez des requêtes avec useQuery, des mutations avec useMutation, configurez des stratégies de mise en cache QueryClient, implémentez des mises à jour optimistes et gérez le défilement infini avec useInfiniteQuery.
+
+À utiliser lorsque : configuration de la récupération de données dans des projets React, migration de la v4 vers la v5 ou correction des erreurs requises de syntaxe d'objet, problèmes de rappel de requête supprimés, cacheTime renommé en gcTime, confusion isPending vs isLoading, problèmes supprimés de keepPreviousData.

@@ -1,0 +1,1 @@
+Agent d'audit de sécurité (L3). Analyse la base de code à la recherche de secrets codés en dur, d'injection SQL, de XSS, de dépendances non sécurisées et de validation d'entrée manquante. Renvoie les résultats avec la gravité (Critique/Élevée/Moyenne/Faible), l'emplacement, l'effort et les recommandations.

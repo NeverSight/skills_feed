@@ -1,0 +1,13 @@
+Optimisez la récupération des données du routeur d'application Next.js en convertissant le côté client lent 
+récupération vers une récupération rapide côté serveur à l'aide de React Server Components (RSC).
+
+À utiliser lorsque :
+- L'utilisateur signale un chargement initial lent de la page avec le chargement des spinners
+- La page utilise useEffect + useState pour la récupération de données
+- Le modèle StoreContext/useStore provoque une récupération en cascade
+- Nécessité d'améliorer le référencement (contenu non en HTML initial)
+- Conversion des pages "utiliser le client" en composants serveur
+
+Déclencheurs : "chargement lent", "optimiser la récupération", "données SSR", "optimisation RSC",
+"supprimer le spinner de chargement", "récupérer côté serveur", "convertir en composant serveur",
+"données récupérer lambat", "chargement de lama"

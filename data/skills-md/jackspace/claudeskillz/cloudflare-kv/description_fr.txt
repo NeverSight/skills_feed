@@ -1,0 +1,9 @@
+Domaine de connaissances complet pour Cloudflare Workers KV : stockage clé-valeur global à faible latence sur le réseau périphérique de Cloudflare.
+
+À utiliser lors de : la création d'espaces de noms KV, le stockage de données de configuration, la mise en cache des réponses API, la gestion des préférences utilisateur,
+implémentant l'expiration du TTL, gérant les métadonnées KV ou rencontrant "KV_ERROR", "429 trop de requêtes",
+"kv rate limit", erreurs cacheTtl ou éventuels problèmes de cohérence.
+
+Mots-clés : stockage kv, cloudflare kv, Workers kv, espace de noms kv, liaisons kv, cache kv, kv ttl, métadonnées kv,
+liste kv, pagination kv, optimisation du cache, mise en cache périphérique, KV_ERROR, 429 requêtes en trop, limite de débit kv,
+finalement cohérent, wrangler kv, opérations kv, stockage des valeurs clés

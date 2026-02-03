@@ -1,0 +1,6 @@
+Fusionnez/simplifiez un plan trop fragmenté pour atteindre un budget de section semblable à celui du papier (PAS DE PROSE) : ciblez la TdC finale ~ 6–8 H2, moins de H3 plus épais.
+**Déclencheur** : définir le budget, fusionner les sections, trop de sections, explosion H3, 大纲预算, 合并小节, 大纲太碎.
+**À utiliser lorsque** : `outline/outline.yml` existe mais produirait des sections fines (trop de H2/H3) ; avant (ou immédiatement après) `section-mapper`.
+**Sauter si** : le plan est déjà dans les limites du budget et approuvé ; ou vous rédigez déjà de la prose.
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de nouveaux sujets ; garder la portée cohérente ; si vous modifiez les identifiants de section, vous devez réinitialiser le mappage.

@@ -1,0 +1,6 @@
+Supprimez et harmonisez la voix papier dans les « sections/*.md » sans changer la signification ou les clés de citation.
+**Déclencheur** : harmoniseur de style, suppression des tiges, suppression des phrases d'emplacement, tiges de discours, 写作风格统一, 去槽位句式, 去生成器味.
+**À utiliser lorsque** : `writer-selfloop` est PASS mais `output/WRITER_SELFLOOP_TODO.md` signale les odeurs de style (par exemple, les ouvertures répétées basées sur le nombre), ou le brouillon se lit comme si de nombreuses sections partageaient le même rythme.
+**Sauter si** : vous avez besoin de nouvelles preuves/citations (route vers C3/C4), ou vous êtes pré-C2 (PAS DE PROSE).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits ; ne pas ajouter/supprimer/déplacer les clés de citation ; ne déplacez pas les citations d’une sous-section à l’autre ; garder l'ancrage des réclamations->preuves intact.

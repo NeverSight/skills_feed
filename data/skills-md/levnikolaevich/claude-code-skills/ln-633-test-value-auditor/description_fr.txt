@@ -1,0 +1,1 @@
+Auditeur de valeur basée sur le risque (L3). Calcule le score d'utilité = Impact (1-5) × Probabilité (1-5) pour chaque test. Renvoie les décisions KEEP/REVIEW/REMOVE basées sur des seuils (≥15 KEEP, 10-14 REVIEW, <10 REMOVE).

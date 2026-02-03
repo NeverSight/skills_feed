@@ -1,0 +1,6 @@
+Fusionnez de manière déterministe les fichiers par section sous « sections/ » dans « output/DRAFT.md », en préservant l'ordre des contours et en tissant les transitions à partir de « outline/transitions.md ».
+**Déclencheur** : fusionner des sections, fusionner des brouillons, combiner des fichiers de sections, sections/ -> output/DRAFT.md, 合并小节, 拼接草稿.
+**À utiliser lorsque** : vous avez des fichiers de prose par unité sous `sections/` et vous souhaitez un seul `output/DRAFT.md` pour le polissage/la révision/LaTeX.
+**Ignorer si** : les fichiers de section sont manquants ou contiennent toujours des marqueurs d'échafaudage (corrigez d'abord `subsection-writer`).
+**Réseau** : aucun.
+**Guardrail** : fusion déterministe uniquement (pas de nouveaux faits/citations) ; conserver l'ordre des sections de `outline/outline.yml`.

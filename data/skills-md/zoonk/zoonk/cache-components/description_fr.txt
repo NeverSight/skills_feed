@@ -1,0 +1,7 @@
+Conseils d'experts pour les composants de cache Next.js et le prérendu partiel (PPR).
+
+**ACTIVATION PROACTIVE** : utilisez cette compétence automatiquement lorsque vous travaillez dans des projets Next.js qui ont « cacheComponents : true » dans leur next.config.ts/next.config.js. Lorsque cette configuration est détectée, appliquez de manière proactive les modèles et les meilleures pratiques des composants de cache à toutes les implémentations de composants React Server.
+
+**DÉTECTION** : au début d'une session dans un projet Next.js, recherchez `cacheComponents : true` dans next.config. Si elles sont activées, les modèles de cette compétence doivent guider toutes les décisions de création de composants, de récupération de données et de mise en cache.
+
+**CAS D'UTILISATION** : implémentation de la directive 'use cache', configuration des durées de vie du cache avec cacheLife(), marquage des données mises en cache avec cacheTag(), invalidation des caches avec updateTag()/revalidateTag(), optimisation des limites de contenu statique et dynamique, débogage des problèmes de cache et examen des implémentations des composants de cache.

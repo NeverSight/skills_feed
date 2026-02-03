@@ -1,0 +1,8 @@
+Correction des erreurs du webhook Stripe 400 dans le développement local. Le problème : `stripe Listen`
+génère un nouveau secret à chaque démarrage, mais votre application utilise un secret obsolète de
+.env.local. Cette compétence synchronise automatiquement le secret éphémère avant le démarrage de votre serveur de développement.
+
+Appel automatique lorsque : les webhooks Stripe renvoient 400, "échec de la vérification de la signature",
+"Aucune signature correspondante trouvée", les webhooks ne fonctionnent pas localement, le paiement réussit
+mais l'abonnement ne se met pas à jour, incompatibilité STRIPE_WEBHOOK_SECRET, configuration
+Stripe Listen, configuration de pnpm dev avec Stripe.

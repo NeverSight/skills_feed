@@ -1,0 +1,17 @@
+Valide la traçabilité complète des exigences entre les exigences EARS → conception → tâches → code → tests.
+
+Termes déclencheurs : traçabilité, couverture des exigences, matrice de couverture, matrice de traçabilité,
+cartographie des exigences, couverture des tests, couverture EARS, suivi des exigences, audit de traçabilité,
+détection des lacunes, exigences orphelines, code non testé, validation de la couverture, analyse de traçabilité.
+
+Applique l’article V constitutionnel (mandat de traçabilité) avec une validation complète :
+- Exigence → Cartographie de conception (couverture à 100%)
+- Conception → Cartographie des tâches
+- Tâche → Cartographie de l'implémentation du code
+- Code → Cartographie des tests (couverture à 100%)
+- Détection des lacunes (exigences orphelines, code non testé)
+- Rapport sur le pourcentage de couverture
+- Génération de matrice de traçabilité
+
+À utiliser lorsque : l'utilisateur a besoin d'une validation de traçabilité, d'une analyse de couverture, d'une détection des écarts,
+ou le suivi des exigences tout au long du cycle de vie de développement.

@@ -1,0 +1,6 @@
+Écrivez la prose de l'enquête dans des fichiers par section sous « sections/ » afin que chaque unité puisse être QA\x27d indépendamment avant de fusionner.
+**Déclencheur** : rédacteur de sous-sections, écriture par section, sections divisées, sections/, 分小节写, 按章节拆分写作.
+**À utiliser lorsque** : `Approuver C2` est enregistré et des packs d'écriture existent (`outline/writer_context_packs.jsonl`) ; vous voulez une rédaction limitée aux preuves sans une ébauche monolithique unique.
+**Ignorer si** : l'approbation de `DECISIONS.md` est manquante, ou `outline/evidence_drafts.jsonl` / `citations/ref.bib` est manquant.
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits/citations ; pas de fuite TODO/points de suspension ; garder les citations limitées à des sous-sections ou à des chapitres ; Les fichiers de corps H3 et les chefs de chapitre ne doivent pas contenir de titres.

@@ -1,0 +1,6 @@
+Créez des packs contextuels par rédacteur H3 (PAS DE PROSE) : fusionnez des mémoires + des packs de preuves + des faits d'ancrage + des citations autorisées dans un seul JSONL déterministe, de sorte que la rédaction est moins creuse et moins fragile.
+**Déclencheur** : pack contextuel d'écrivain, pack contextuel, pack de rédaction, pack de plan de paragraphe, 写作上下文包.
+**À utiliser lorsque** : `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` + `outline/anchor_sheet.jsonl` existent et vous souhaitez rendre la rédaction C5 plus facile/plus cohérente.
+**Sauter si** : les preuves en amont sont manquantes ou échafaudées (corrigez d'abord `paper-notes` / `evidence-binder` / `evidence-draft` / `anchor-sheet`).
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de faits/citations ; utilisez uniquement les clés de citation présentes dans `citations/ref.bib`.

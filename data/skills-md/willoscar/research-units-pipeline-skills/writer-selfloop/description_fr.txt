@@ -1,0 +1,6 @@
+Écriture d'une boucle automatique pour les enquêtes : exécutez la porte stricte de qualité de section, puis réécrivez uniquement les fichiers `sections/*.md` défaillants jusqu'à ce que le rapport soit PASS.
+**Déclencheur** : boucle automatique d'écriture, boucle d'écriture, boucle de porte de qualité, réécriture des sections défaillantes, 自循环, 反复改到 PASS.
+**À utiliser lorsque** : des fichiers par section existent mais C5 est ÉCHEC/BLOQUÉ (sections minces, pistes/éléments préliminaires manquants, violations de la portée de la citation, voix du générateur).
+**Sauter si** : vous êtes toujours pré-C2 (PAS DE PROSE) ou les packs de preuves sont incomplets (corrigez d'abord C3/C4).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits ; n'utilisez que les clés de citation présentes dans `citations/ref.bib` ; garder les citations dans le champ d'application selon `outline/evidence_bindings.jsonl` ; n'ajoutez/ne supprimez pas de clés de citation pendant les réécritures.

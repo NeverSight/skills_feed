@@ -1,0 +1,6 @@
+Extrayez les principales affirmations, contributions et hypothèses d'un article/manuscrit dans `output/CLAIMS.md` avec traçabilité jusqu'aux emplacements sources.
+**Déclencheur** : extracteur de revendications, extrait de revendications, contributions, hypothèses, examen par les pairs, 审稿, 主张提取.
+**À utiliser lorsque** : 审稿/评审或 audit des preuves，需要把主张列表落盘并可追溯到原文位置（section/page/quote）。
+**Sauter si** : 没有可用的稿件/全文（例如缺少 `output/PAPER.md` 价文本）。
+**Réseau** : aucun.
+**Garde-corps** : la revendication 每条 必须带可定位的 pointeur source et les revendications empiriques vs conceptuelles.

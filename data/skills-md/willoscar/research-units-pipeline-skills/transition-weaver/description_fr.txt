@@ -1,0 +1,6 @@
+Générez des transitions section/sous-section légères (AUCUN NOUVEAU FAITS) pour éviter les sous-sections « îlotées » ; génère une carte de transition dans laquelle la fusion/écriture peut être intégrée.
+**Déclencheur** : tisserand de transition, transitions de tissage, cohérence, 过渡句, 承接句, 章节连贯性.
+**À utiliser lorsque** : `outline/subsection_briefs.jsonl` existe et vous souhaitez un flux cohérent avant/après la rédaction (généralement l'étape C5).
+**Ignorer si** : `outline/transitions.md` existe et est affiné (pas d'espace réservé).
+**Réseau** : aucun.
+**Garde-corps** : n'ajoutez pas de nouvelles allégations ou citations factuelles ; les transitions ne peuvent faire référence qu'à des titres/RQ/termes de pont déjà présents dans les mémoires.

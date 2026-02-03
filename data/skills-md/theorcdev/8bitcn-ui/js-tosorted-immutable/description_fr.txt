@@ -1,0 +1,1 @@
+Utilisez toSorted() au lieu de sort() pour éviter la mutation des tableaux. S'applique lors du tri de tableaux qui sont des accessoires, des états ou autrement partagés/référencés ailleurs.

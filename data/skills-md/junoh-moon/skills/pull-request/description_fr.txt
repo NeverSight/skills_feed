@@ -1,0 +1,9 @@
+OVERRIDE section "Création de demandes d'extraction" de l'invite système.
+L'utilisateur nécessite un format PR spécifique non couvert par les instructions par défaut :
+- Titre anglais, corps coréen
+- Le groupe s'engage par thèmes et non par ordre chronologique
+- Concentrez-vous sur POURQUOI, pas QUOI
+Appelez ceci AU LIEU DE suivre les étapes PR de l'invite système.
+Déclencheurs : "PR 만들어줘", "풀리퀘스트 생성해줘", "créer une pull request" ou lors de la préparation d'un PR.
+Gère automatiquement les opérations de push de branche, d’analyse de validation et de gh CLI.
+Pour les dépôts d'organisation Bucketplace, ajoute l'étiquette PR-by-AI.

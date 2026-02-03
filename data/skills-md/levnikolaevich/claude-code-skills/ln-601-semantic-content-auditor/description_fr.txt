@@ -1,0 +1,1 @@
+Auditeur de contenu sémantique (L3 Worker). Vérifie que le contenu du document correspond à la PORTÉE indiquée, s'aligne sur les objectifs du projet et reflète l'état réel de la base de code. Appelé par ln-600 pour chaque document de projet. Renvoie les scores scope_alignment et fact_accuracy avec les résultats.

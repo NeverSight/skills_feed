@@ -1,0 +1,17 @@
+Recherchez des personnes et des propriétés à l'aide des API Whitepages via x402.
+
+UTILISER POUR :
+- Rechercher des personnes par nom et lieu
+- Recherches et vérification d'adresses
+- Informations sur le propriétaire
+- Recherche de fond (dans un but légitime)
+
+DÉCLENCHEURS :
+- "trouver une personne", "rechercher une personne", "qui habite à"
+- "propriétaire", "recherche de propriété", "recherche d'adresse"
+- "personne à l'adresse", "coordonnées de"
+
+IMPORTANT : Ces points de terminaison contiennent des informations personnelles. Utilisez-le de manière responsable et uniquement à des fins légitimes.
+Voir Rules/privacy.md pour obtenir des conseils.
+
+Utilisez mcp__x402__fetch pour les points de terminaison des pages blanches. Les deux points de terminaison coûtent 0,44 $ par appel.

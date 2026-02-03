@@ -1,0 +1,13 @@
+Cette compétence fournit des connaissances complètes pour l'intégration de Postgres sans serveur Neon et de Vercel Postgres (qui repose sur l'infrastructure Neon) dans des applications Web. Il doit être utilisé lors de la configuration de bases de données Postgres sans serveur, de la configuration du regroupement de connexions pour les environnements périphériques et sans serveur, de la mise en œuvre de workflows de branchement de bases de données ou du dépannage des problèmes de connexion Postgres dans Cloudflare Workers, Vercel Edge Functions ou les fonctions sans serveur Node.js.
+
+Utilisez cette compétence lorsque :
+- Configuration de Neon Postgres pour Cloudflare Workers, Vercel Edge ou des environnements sans serveur
+- Configuration de Vercel Postgres pour les applications Next.js
+- Implémentation de workflows de branchement de base de données (branches de base de données de type git)
+- Intégration de Drizzle ORM ou Prisma avec Neon/Vercel Postgres
+- Débogage des erreurs de pool de connexions, des délais d'expiration des transactions ou des problèmes de configuration SSL
+- Migration de D1/SQLite vers Postgres ou de Postgres traditionnel vers Postgres sans serveur
+- Mise en place de restaurations ponctuelles (PITR) ou de sauvegardes de bases de données
+- Erreurs rencontrées telles que "pool de connexions épuisé", "Connexions TCP non prises en charge en mode sans serveur" ou "mode SSL requis".
+
+Mots clés : neon postgres, @neondatabase/serverless, @vercel/postgres, postgres sans serveur, postgres edge, branchement neon, base de données vercel, http postgres, websocket postgres, connexion poolée, bruine néon, prisma neon, postgres cloudflare, postgres vercel edge, balise de modèle sql, neonctl, branches de base de données, restauration ponctuelle, migrations postgres, sans serveur SQL, base de données Edge, API néon, Vercel SQL

@@ -1,0 +1,7 @@
+Auditez l'espace de travail par rapport au contrat d'artefact de pipeline (sorties DONE + pipeline target_artifacts).
+Écrit `output/CONTRACT_REPORT.md`.
+**Déclencheur** : audit de contrat, contrat d'artefact, artefacts manquants, target_artifacts, CONTRACT_REPORT.
+**À utiliser lorsque** : vous souhaitez une vue RÉUSSITE/ÉCHEC vérifiable indiquant si un espace de travail est complet et autonome (fin d'exécution ou avant partage).
+**Sauter si** : vous êtes toujours intentionnellement à mi-parcours et ne vous souciez pas encore de l'exhaustivité (mais c'est toujours utile comme instantané).
+**Réseau** : aucun.
+**Garde-corps** : analyse uniquement ; ne modifiez pas les artefacts de contenu ; rédigez seulement le rapport.

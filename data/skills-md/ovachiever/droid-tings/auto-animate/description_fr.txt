@@ -1,0 +1,6 @@
+Animations sans configuration pour React, Vue, Solid, Svelte, Preact avec @formkit/auto-animate (3,28 Ko).
+Empêche plus de 10 erreurs documentées : importations SSR/Next.js, parents conditionnels, clés manquantes, largeur de la flexbox,
+affichage du tableau, configuration Jest/esbuild, conflits de position CSS, enregistrement Vue/Nuxt, Angular ESM.
+
+À utiliser lorsque : animation de listes/accordéons/toasts/formulaires, dépannage des erreurs d'animation SSR, besoin
+animations accessibles (préférences automatiques de mouvement réduit) ou souhaitez des transitions instantanées sans surcharge de mouvement.

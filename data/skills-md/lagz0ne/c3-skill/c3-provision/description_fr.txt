@@ -1,0 +1,17 @@
+Architecture des documents SANS implémentation. Crée des documents ADR et composants avec le statut : provisionné.
+
+DOIT utiliser cette compétence lorsque l'utilisateur souhaite CONCEVOIR ou PLANIFIER sans implémenter :
+- "provision X", "provisionner un composant", "provisionner un nouveau service"
+- "concevoir l'architecture pour X", "concevoir un composant"
+- "plan X", "planifier un nouveau service", "planifier l'architecture"
+- "architecture du document X", "architecte X"
+- "envision X", "esquisse l'architecture X"
+
+N'utilisez PAS cette compétence si l'invite contient :
+- "modèle", "modèles" → route vers c3-ref
+- "ref", "refs" → route vers c3-ref
+- "convention", "standard" → route vers c3-ref
+
+Indicateur clé : l'utilisateur souhaite une sortie de documentation/conception, PAS des modifications de code.
+Nécessite .c3/ pour exister. Crée un ADR avec le statut : provisionné.
+Pour les demandes d’implémentation, dirigez-vous vers c3-alter.

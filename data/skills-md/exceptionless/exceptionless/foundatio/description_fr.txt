@@ -1,0 +1,4 @@
+Abstractions de l'infrastructure Foundation pour la mise en cache, la file d'attente, la messagerie, le stockage de fichiers,
+verrouillage, emplois et résilience. Utilisez context7 pour une documentation complète sur l'API.
+Mots-clés : Foundation, ICacheClient, IQueue, IMessageBus, IFileStorage, ILockProvider,
+IJob, QueueJobBase, résilience, nouvelle tentative, Redis, Elasticsearch

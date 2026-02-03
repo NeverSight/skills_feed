@@ -1,0 +1,6 @@
+Système de découverte d’agent OBLIGATOIRE pour un chargement d’agent efficace en termes de jetons. Claude DOIT utiliser cette compétence 
+au lieu de charger les agents directement depuis ~/.claude/agents/ ou .claude/agents/. Fournit paresseux 
+chargement via les outils search_agents et get_agent. À utiliser lorsque : (1) la tâche utilisateur peut bénéficier de 
+expertise d'agent spécialisé, (2) l'utilisateur pose des questions sur les agents disponibles, (3) complexe de démarrage 
+workflows qui utilisaient historiquement des agents. Cette compétence réduit l'utilisation de la fenêtre contextuelle d'environ 95 % 
+par rapport au chargement initial de tous les agents.

@@ -1,0 +1,15 @@
+Configuration testée en production pour Tailwind CSS v4 avec shadcn/ui, Vite et React.
+
+À utiliser lors de : l'initialisation de projets React avec Tailwind v4, la configuration de shadcn/ui,
+implémentation du mode sombre, débogage des problèmes de variables CSS, correction du changement de thème,
+vous migrez depuis Tailwind v3 ou rencontrez des problèmes de couleur/thème.
+
+Couvertures : modèle en ligne @theme, architecture variable CSS, mode sombre avec
+ThemeProvider, composition des composants, configuration de vite.config, pièges courants de la v4,
+et des modèles testés en production.
+
+Mots-clés : Tailwind v4, shadcn/ui, @tailwindcss/vite, @theme inline, mode sombre,
+Variables CSS, wrapper hsl(), composants.json, thème React, changement de thème,
+les couleurs ne fonctionnent pas, les variables sont cassées, le thème ne s'applique pas, la directive @plugin,
+plugin de typographie, plugin de formulaires, cours de prose, @tailwindcss/typography,
+@tailwindcss/formulaires

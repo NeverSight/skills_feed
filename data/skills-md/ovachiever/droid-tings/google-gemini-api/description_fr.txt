@@ -1,0 +1,12 @@
+Intégrez l'API Gemini avec le SDK actuel correct (@google/genai v1.27+, NON obsolète @google/generative-ai).
+Prend en charge la génération de texte, le multimodal (images/vidéo/audio/PDF), l'appel de fonctions et le mode réflexion. 1 million de jetons d'entrée.
+
+À utiliser lorsque : intégration de l'API Gemini, mise en œuvre de l'IA multimodale, utilisation du mode réflexion pour le raisonnement, appel de fonction
+avec exécution parallèle, diffusion de réponses, déploiement sur Cloudflare Workers, création de discussions ou dépannage
+Obsolescence du SDK, fenêtre contextuelle, modèle introuvable, appel de fonction ou erreurs de format multimodal.
+
+Mots-clés : gemini api, @google/genai, gemini-2.5-pro, gemini-2.5-flash, gemini-2.5-flash-lite,
+gemini-3-pro-preview, gemini multimodal, mode réflexion, google ai, genai sdk, fonction appelant gemini,
+streaming gemini, vision gemini, vidéo gemini, audio gemini, pdf gemini, instructions système,
+chat multi-tours, obsolète @google/generative-ai, fenêtre contextuelle Gemini, modèles Gemini 2025,
+jetons gemini 1m, utilisation de l'outil gemini, appel de fonction parallèle, appel de fonction compositionnelle, gemini 3

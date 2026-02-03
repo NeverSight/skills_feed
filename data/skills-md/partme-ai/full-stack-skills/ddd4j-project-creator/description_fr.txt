@@ -1,0 +1,6 @@
+Une compétence complète pour créer de nouveaux projets ddd4j (Domain-Driven Design for Java) basés sur le framework ddd4j-boot. 
+À utiliser UNIQUEMENT lorsque l'utilisateur mentionne explicitement la création d'un projet ddd4j, l'initialisation du projet ddd4j ou la configuration 
+Projet ddd4j-boot. Prend en charge trois types de projets : monolithe à module unique, monolithe multi-module et microservices. 
+Génère un échafaudage de projet basé sur l'architecture ddd4j-boot avec DDD, Hexagonal Architecture, Clean Architecture, 
+et les modèles COLA V5. Ne pas déclencher pour les projets DDD génériques, les projets JPA/Hibernate ou d'autres frameworks ORM 
+sans mention explicite de ddd4j.

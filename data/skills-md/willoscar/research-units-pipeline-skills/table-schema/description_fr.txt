@@ -1,0 +1,6 @@
+Définissez des schémas de tableaux axés sur les preuves pour une enquête : ce que chaque tableau doit répondre, l'unité de ligne, les colonnes et les champs de l'ensemble de preuves requis pour le remplir.
+**Déclencheur** : schéma de table, tables de schéma d'abord, conception de table, schéma 表格, schéma 先 后填充.
+**À utiliser lorsque** : vous souhaitez des tableaux d'enquête vérifiables et remplissables avant LaTeX (généralement l'étape C4, après l'existence des packs de preuves).
+**Ignorer si** : `outline/table_schema.md` existe déjà et est affiné (couvre à la fois les tables d'index et les tables d'annexe ; aucun espace réservé ; la cartographie des preuves est explicite).
+**Réseau** : aucun.
+**Garde-corps** : aucun fait inventé ; le schéma doit être vérifiable et mapper chaque colonne à une source de preuves.

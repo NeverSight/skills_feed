@@ -1,0 +1,15 @@
+Il s'agit d'une fonctionnalité de développement de fonctionnalités.
+
+**使用场景：**
+- 已有完整项目文档，需要执行开发任务
+- 用户指定执行某个计划（如"执行 plan 001"）
+- 用户请求开发新功能 (自动使用 feature-dev 生成计划)
+
+**前置条件：**
+- 项目应该已有 docs/ 文档结构（PRD、SAD 等）
+- 如果是新项目，建议先使用 project-docs-setup skills 创建完整文档
+
+**触发方式：**
+- "执行 plan 001" / "继续 001-user-authentication"
+- "开始开发" / "执行计划" / "继续上次的任务"
+- "实现用户认证功能" / "添加 XXX 模块"

@@ -1,0 +1,9 @@
+Il s'agit de « 核查/优化综述 `{主题}_review.tex` et de « Check-review-alignment » par exemple.
+
+AI的语义理解逐条核查引用是否与文献内容吻合，**只在发现致命性引用错误时**对« 包含引用的句子 »做最小化改写，并复用`revue systématique de la littérature` sous forme de PDF/Word（脚本不在本地直接调用 API LLM）。
+
+核心原则：**不为了改而改**。无法确定是否为致命性错误时，保留原样并在报告中警告。
+
+⚠️ 以下情况不适用：
+- Revue systématique de la littérature
+- BibTeX 条目（应使用专门的 bavoir 管理流程）

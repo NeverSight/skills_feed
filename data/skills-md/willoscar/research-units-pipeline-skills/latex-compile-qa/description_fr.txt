@@ -1,0 +1,6 @@
+Compilez un projet LaTeX et exécutez un contrôle qualité de base (références manquantes, erreurs de référence, citations brisées), en produisant `latex/main.pdf` et un rapport de construction.
+**Déclencheur** : compilation latex, génération de PDF, erreurs LaTeX, références manquantes, PDF, 引用错误.
+**À utiliser lorsque** : "latex/main.tex" (latex-scaffold`) et "latex-scaffold"
+**Sauter si** : Utilisez l'échafaudage LaTeX (et `latex-scaffold`)。
+**Réseau** : aucun.
+**Garde-corps** : `output/LATEX_BUILD_REPORT.md`；不做“内容改写”，只做编译/QA。

@@ -1,0 +1,1 @@
+Optimise les tests Playwright E2E en supprimant les anti-modèles waitForTimeout, en implémentant des attentes intelligentes et en activant le partitionnement des tests pour une exécution parallèle. À utiliser lorsque le délai des tests expire, que l'exécution du CI dépasse les limites ou que des problèmes de fiabilité des tests surviennent.

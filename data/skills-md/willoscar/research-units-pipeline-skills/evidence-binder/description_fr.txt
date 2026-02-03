@@ -1,0 +1,6 @@
+Liez les identifiants de preuves adressables de `papers/evidence_bank.jsonl` à chaque sous-section (H3), produisant `outline/evidence_bindings.jsonl`.
+**Déclencheur** : classeur de preuves, plan de preuves, section->cartographie des preuves, 证据绑定, proof_id.
+**À utiliser lorsque** : `papers/evidence_bank.jsonl` existe et vous souhaitez que le rédacteur/auditeur utilise des éléments de preuve au niveau de la section (banque de mémoire de style WebWeaver).
+**Sauter si** : vous n'écrivez pas d'abord les preuves, section par section.
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de preuves; sélectionnez uniquement dans la banque de preuves existante.

@@ -1,0 +1,14 @@
+Gérez les initiatives de produits, les épopées et les parties prenantes via des commandes en langage naturel.
+Stocke les données sous forme de fichiers de démarques compatibles Logseq avec le frontmatter YAML.
+
+À utiliser lorsque les utilisateurs ont besoin de :
+- Créer, mettre à jour, lister ou afficher des initiatives et des épopées
+- Suivre l'exhaustivité de la documentation de l'initiative
+- Gérer les personnes, les équipes et les partenaires
+- Vérifiez quelles informations manquent
+- Initialiser la structure du référentiel
+
+Déclencheurs sur : /init_repository, /create_initiative, /list_initiatives, /show_initiative,
+/update_initiative, /what_missing, /create_epic, /list_epics, /create_person,
+/create_team, /create_partner, /create_product_area, /list_product_areas,
+/show_product_area, /update_product_area, /help

@@ -1,0 +1,6 @@
+Réécrivez `outline/claim_evidence_matrix.md` en tant que projection/index de packs de preuves (PAS DE PROSE), de sorte que les revendications/axes soient pilotés par `outline/evidence_drafts.jsonl` plutôt que par des espaces réservés de contour.
+**Déclencheur** : réécriture de la matrice de réclamation, réécriture de la matrice de réclamation-preuve, matrice de réclamation de première preuve, index matriciel, 证据矩阵重写, 从证据包生成矩阵.
+**À utiliser lorsque** : `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` sont prêts et vous souhaitez une réclamation propre → un index de preuves pour le contrôle qualité/la rédaction.
+**Ignorer si** : `outline/claim_evidence_matrix.md` est déjà affiné et cohérent avec les packs de preuves.
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de faits ; citer uniquement les clés présentes dans `citations/ref.bib` ; si la preuve est abstraite/titre uniquement, les revendications doivent être provisoires.

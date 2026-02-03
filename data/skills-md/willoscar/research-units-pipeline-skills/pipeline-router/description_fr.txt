@@ -1,0 +1,6 @@
+Sélectionnez le pipeline le plus approprié pour un objectif utilisateur, verrouillez-le dans « PIPELINE.lock.md » et acheminez les questions de point de contrôle vers « DECISIONS.md ».
+**Déclencheur** : routeur de pipeline, choisissez le pipeline, sélection du workflow, PIPELINE.lock.md, 选择流程.
+**À utiliser lorsque** : 用户目标/交付物不清晰，需要在 instantané/enquête/tutoriel/examen systématique/examen par les pairs 中选一个并设置最小 HITL 问题集。
+**Sauter si** : pipeline 已锁定（`PIPELINE.lock.md` 存在）且所需问题已回答/签字完成。
+**Réseau** : aucun.
+**Garde-corps** : `DECISIONS.md` 并停下等待。

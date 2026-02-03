@@ -1,0 +1,6 @@
+Échafaudez un projet LaTeX (`latex/main.tex`, câblage bibliographique, structure) à partir d'un brouillon Markdown existant et de `citations/ref.bib`.
+**Déclencheur** : échafaudage en latex, md→tex, LaTeX 项目骨架, 生成 main.tex.
+**À utiliser lorsque** : Il s'agit d'un projet LaTeX/PDF ou d'un pipeline arxiv-survey-latex）, ou d'un brouillon de projet/de projet.
+**Sauter si** : utilisez `output/DRAFT.md`（或你不需要 LaTeX 交付）。
+**Réseau** : aucun.
+**Garde-corps** : 移除 markdown 残留（`##`, `**`, `[@...]`）；bibliographie 指向 `citations/ref.bib`；不在此步骤改写内容。

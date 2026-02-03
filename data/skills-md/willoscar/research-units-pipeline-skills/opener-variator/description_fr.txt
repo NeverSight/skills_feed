@@ -1,0 +1,6 @@
+Réécrivez les ouvertures de sous-sections afin qu'elles arrêtent de lire comme une table des matières générée : supprimez les tiges de « présentation/narration » et réduisez les cadences d'ouverture répétées à travers les H3.
+**Déclencheur** : variateur d'ouverture, réécriture de l'ouvreur, réécriture des ouvreurs, aperçu de l'ouverture, 开头改写, 小节开头, 去overview, 去旁白.
+**À utiliser lorsque** : `writer-selfloop` est PASS mais signale les tiges d'ouverture répétées/la narration générale dans `output/WRITER_SELFLOOP_TODO.md`, ou le brouillon a toujours une subtile « cadence de générateur ».
+**Sauter si** : vous êtes pré-C2 (PAS DE PROSE) ou la section est mince (routez en amont ; ne stylisez pas les remplissages).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits ; ne pas ajouter/supprimer/déplacer les clés de citation ; ne déplacez pas les citations d’une sous-section à l’autre ; garder le sens intact.

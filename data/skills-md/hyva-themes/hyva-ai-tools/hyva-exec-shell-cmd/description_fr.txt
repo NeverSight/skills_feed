@@ -1,0 +1,1 @@
+Compétence utilitaire pour détecter l’environnement de développement Magento et déterminer le wrapper de commande. Cette compétence doit être utilisée par d'autres compétences qui doivent exécuter des commandes shell dans l'environnement Magento. Il détecte Warden, docker-magento, DDEV et les environnements locaux et fournit le wrapper de commande approprié.

@@ -1,0 +1,1 @@
+Modèles d’accès à la Supabase et limites des services. À utiliser uniquement lorsque vous travaillez avec des projets Supabase. Centralisez l'accès à Supabase dans services/ et n'appelez jamais Supabase directement à partir des composants/hooks/utils/gestionnaires de routes.

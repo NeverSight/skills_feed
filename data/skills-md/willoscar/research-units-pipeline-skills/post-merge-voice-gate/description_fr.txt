@@ -1,0 +1,6 @@
+Porte vocale papier après la fusion : détecte les artefacts de discussion du planificateur / d'étiquette d'axe introduits lors de la fusion (en particulier à partir de `outline/transitions.md`), puis achemine les correctifs vers la source la plus ancienne.
+**Déclencheur** : porte vocale post-fusion, porte vocale de fusion, fuite de transition, discussion du planificateur, 合并后口吻门, 过渡句污染.
+**À utiliser lorsque** : `section-merger` a produit `output/DRAFT.md` et vous voulez vous assurer que le texte injecté par fusion ne fera pas glisser le brouillon dans la voix du générateur avant de le peaufiner.
+**Ignorer si** : vous êtes toujours en pré-fusion (pas de `output/DRAFT.md`) ou vous envisagez de retravailler la structure en amont en premier.
+**Réseau** : aucun.
+**Garde-corps** : analyse uniquement ; ne modifiez pas `output/DRAFT.md` ; n'inventez pas de faits/citations ; rédiger uniquement le rapport + le routage.

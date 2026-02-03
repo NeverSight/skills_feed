@@ -1,0 +1,19 @@
+Suivi de production, observabilité, gestion SLO/SLI et réponse aux incidents.
+
+Termes déclencheurs : surveillance, observabilité, SRE, fiabilité du site, alerte, réponse à incident,
+SLO, SLI, budget d'erreurs, Prometheus, Grafana, Datadog, New Relic, pile ELK, journaux, métriques,
+traces, astreintes, suivi de production, bilans de santé, disponibilité, tableaux de bord,
+post-mortem, gestion des incidents, runbook.
+
+Complète l'étape 8 du SDD (surveillance) avec une observabilité complète de la production :
+- Définitions et suivi SLI/SLO
+- Mise en place de stack de monitoring (Prometheus, Grafana, ELK, Datadog, etc.)
+- Règles d'alerte et canaux de notification
+- Runbooks de réponse aux incidents
+- Tableaux de bord d'observabilité (logs, métriques, traces)
+- Modèles et analyses post-mortem
+- Points de terminaison du contrôle de santé
+- Suivi du budget d'erreur
+
+À utiliser lorsque : l'utilisateur a besoin d'une surveillance de la production, d'une plateforme d'observabilité, d'alertes, de SLO,
+réponse aux incidents ou suivi de l’état de santé après le déploiement.

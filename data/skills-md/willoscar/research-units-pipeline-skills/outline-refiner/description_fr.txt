@@ -1,0 +1,6 @@
+Couverture du planificateur + rapport de redondance pour un contour + cartographie, produisant `outline/coverage_report.md` et `outline/outline_state.jsonl`.
+**Déclencheur** : planificateur, plan dynamique, affinement du plan, rapport de couverture, 大纲迭代, 覆盖率报告.
+**À utiliser lorsque** : vous avez `outline/outline.yml` + `outline/mapping.tsv` et vous souhaitez une passe de planificateur vérifiable et SANS PROSE avant d'écrire.
+**Ignorer si** : vous ne souhaitez aucun diagnostic de plan/cartographie (ou vous avez une structure gelée/approuvée et vous ne la modifierez pas).
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de papiers; signalez uniquement la couverture/réutilisation et proposez des actions structurelles sous forme de puces.

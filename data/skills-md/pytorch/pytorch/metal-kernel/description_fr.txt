@@ -1,0 +1,1 @@
+Écrivez des noyaux Metal/MPS pour les opérateurs PyTorch. À utiliser lors de l'ajout de la prise en charge des périphériques MPS aux opérateurs, de la mise en œuvre de shaders Metal ou du portage des noyaux CUDA sur Apple Silicon. Couvre la répartition native_functions.yaml, les opérateurs côté hôte et l'implémentation du noyau Metal.

@@ -1,0 +1,4 @@
+Génère automatiquement des diagrammes de flux de code à partir de l'analyse du module Python.
+Détecte quand les diagrammes d'architecture deviennent obsolètes (code modifié, diagramme non).
+À utiliser lors de : la création de nouveaux modules, la révision des PR pour déterminer leur impact sur l'architecture ou la vérification de la fraîcheur des diagrammes.
+Génère des diagrammes de sirène montrant les importations, les dépendances et les relations entre les modules.

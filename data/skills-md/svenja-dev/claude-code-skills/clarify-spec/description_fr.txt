@@ -1,0 +1,12 @@
+AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN comme fausse mise en œuvre.
+
+Erkennungsmerkmale (EINES authentique !) :
+- Auftrag <25 heures
+- Keine konkreten Dateinamen/Pfade
+- Vage Verben : besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refactoren, aufraumen, ueberarbeiten
+- Unsichere Sprache : irgendwie, vielleicht, mal eben, schnell, einfach, bisschen, koennte, sollte
+- Fehlende Erfolgskriterien : Kein damit, sodass, weil, um zu
+- Begriffe relative ohne Kontext : schneller, besser, schoener, einfacher
+
+La sortie est structurée en JSON pour la compétence d'architecte d'invite.
+Évasion : mach einfach, keine Rueckfragen, entscheide selbst ueberspringt Klaerung.

@@ -1,0 +1,6 @@
+Extrayez les données de l'étude dans un tableau structuré (`papers/extraction_table.csv`) à l'aide du schéma d'extraction du protocole.
+**Déclencheur** : formulaire d'extraction, table d'extraction, extraction de données, 信息提取, 提取表.
+**À utiliser lorsque** : revue systématique et dépistage et extraction (C3) et synthèse CSV.
+**Passer si** : Il s'agit de `papers/screening_log.csv` et du protocole 未锁定.
+**Réseau** : aucun.
+**Garde-corps** : 严格按 schéma 填字段；不要在此阶段写 synthèse narrative（那是 `synthesis-writer`）。

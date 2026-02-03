@@ -1,0 +1,6 @@
+Définir la portée du didacticiel, le public cible, les prérequis, les objectifs d'apprentissage et un exemple concret ; générer une spécification de didacticiel pour la planification en aval.
+**Déclencheur** : spécifications du didacticiel, portée, public, prérequis, objectifs d'apprentissage, exemple d'exécution, 教程规格.
+**À utiliser lorsque** : pipeline de tutoriel 的起点（C1），需要先锁定教学目标与边界，再进入 graphique conceptuel/planification de module。
+**Passer si** : 你不是在做教程产出（或已经有明确且不允许改动的 spec du tutoriel）。
+**Réseau** : aucun.
+**Garde-corps** : 结构化 spec 优先；避免提前写长教程 prose（prose 在 C3）。

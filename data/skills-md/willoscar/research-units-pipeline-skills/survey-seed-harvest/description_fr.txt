@@ -1,0 +1,6 @@
+Identifiez les articles d'enquête/de révision dans un ensemble récupéré et extrayez les graines de taxonomie dans `outline/taxonomy.yml` (sujets/sous-thèmes/terminologie).
+**Déclencheur** : récolte de graines d'enquête, graines de taxonomie, taxonomie d'enquête et taxonomie bootstrap.
+**À utiliser lorsque** : récupération/dup 后想快速从已有 enquête/révision 论文中提取术语与主题结构，用于加速 `taxonomy-builder`。
+**Passer si** : 已经有高质量 taxonomie（或你不想被 enquête 既有框架限制）。
+**Réseau** : aucun.
+**Garde-corps** : 产物是 seed, et `taxonomy-builder` avec portée；避免生成泛化占位节点.

@@ -1,0 +1,10 @@
+Créez des documents d'exigences produit (PRD) complets qui définissent ce qu'il faut créer et pourquoi, en vous concentrant sur les objectifs, la portée, les témoignages d'utilisateurs et les critères de réussite, sans détails de mise en œuvre.
+
+Utilisez cette compétence lorsque :
+- L'utilisateur demande de « rédiger un PRD », « créer un PRD », « rédiger un document d'exigences »
+- L'utilisateur mentionne "document d'exigences", "exigences du produit", "spécifications du produit"
+- Exécution de la commande /pm.plan pour créer un document de planification de version
+- Démarrage d'un nouveau produit, d'une fonctionnalité majeure ou d'une initiative nécessitant des exigences formelles
+- Nécessité de documenter les objectifs, la portée, les user stories, les exigences fonctionnelles et les critères de réussite
+
+Sortie : écrivez TOUJOURS les fichiers PRD dans docs/reference/pm/versions/{version-name}.md

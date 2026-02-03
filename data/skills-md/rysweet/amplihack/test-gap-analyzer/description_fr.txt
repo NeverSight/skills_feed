@@ -1,0 +1,4 @@
+Analyse le code pour identifier les fonctions non testées, les zones à faible couverture et les cas extrêmes manquants.
+À utiliser lors de l'examen de la couverture des tests ou de la planification des améliorations des tests.
+Génère des suggestions de tests spécifiques avec des exemples de modèles suivant la pyramide de tests d'amplihack (60 % d'unité, 30 % d'intégration, 10 % E2E).
+Peut utiliser cover.py pour les projets Python.

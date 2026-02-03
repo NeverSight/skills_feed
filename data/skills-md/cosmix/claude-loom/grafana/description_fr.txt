@@ -1,0 +1,6 @@
+Visualisation de l'observabilité avec la pile Grafana et LGTM. Conception de tableaux de bord, configuration des panneaux, alertes, variables/modèles et sources de données.
+
+UTILISER QUAND : création de tableaux de bord Grafana, configuration de panneaux et de visualisations, écriture de requêtes LogQL/TraceQL, configuration de sources de données Grafana, configuration de variables et de modèles de tableau de bord, création d'alertes Grafana.
+NE PAS UTILISER : pour écrire des requêtes PromQL (utilisez /prometheus), pour la stratégie de règles d'alerte (utilisez /prometheus), pour l'architecture d'observabilité générale (utilisez un ingénieur logiciel senior axé sur l'infrastructure).
+
+DÉCLENCHEURS : grafana, tableau de bord, panneau, visualisation, logql, traceql, loki, tempo, mimir, source de données, annotation, variable, modèle, ligne, statistique, graphique, tableau, carte thermique, jauge, graphique à barres, diagramme circulaire, série chronologique, panneau de journaux, panneau de traces, pile LGTM.

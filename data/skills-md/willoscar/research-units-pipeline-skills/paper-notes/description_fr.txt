@@ -1,0 +1,6 @@
+Rédigez des notes structurées pour chaque article de l'ensemble de base dans `papers/paper_notes.jsonl` (résumé/méthode/résultats/limitations).
+**Déclencheur** : notes papier, notes structurées, notes de lecture, 论文笔记, paper_notes.jsonl.
+**À utiliser lorsque** : enquête et preuves 阶段（C3）, et `papers/core_set.csv`（以及可选 fulltext）, 需要为后续 allégations/citations/écritures 准备可引用证据。
+**Passer si** : Il s'agit de l'ensemble de base (dedupe-rank`) et de l'instantané 不需要细粒度证据.
+**Réseau** : aucun.
+**Garde-corps** : 具体可核对（method/metrics/limitations），避免大量重复模板；保持结构化字段而非长 prose。

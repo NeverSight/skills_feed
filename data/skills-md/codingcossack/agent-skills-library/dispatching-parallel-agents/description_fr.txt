@@ -1,0 +1,1 @@
+Distribue un sous-agent par domaine indépendant pour paralléliser les enquêtes/correctifs. À utiliser lorsque vous avez plus de 2 échecs non liés (par exemple, des fichiers de test défaillants séparés, des sous-systèmes, des bogues) sans état partagé ni dépendances d'ordre.

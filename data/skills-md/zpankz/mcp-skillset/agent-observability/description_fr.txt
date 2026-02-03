@@ -1,0 +1,14 @@
+Tableau de bord d'observabilité en temps réel pour les sessions Claude Code multi-agents.
+
+Visualisez les interactions des agents, l'utilisation des outils et les flux de sessions en temps réel via un tableau de bord Web. Suivez plusieurs agents fonctionnant en parallèle grâce à la visualisation des couloirs, au filtrage des événements et aux graphiques en direct.
+
+**Principales caractéristiques :**
+- 🔴 Streaming d'événements en temps réel via WebSocket
+- 📊 Couloirs d'agent montrant une exécution parallèle
+- 🔍 Filtrage des événements par agent, session, type d'événement
+- 📈 Graphiques en direct pour les modèles d'utilisation des outils
+- 💾 Basé sur un système de fichiers (aucune base de données requise)
+
+**Inspiré des travaux de [@indydevdan](https://github.com/indydevdan)** sur l'observabilité multi-agents.
+
+**Notre approche :** Système de fichiers + streaming en mémoire par rapport à l'approche de base de données SQLite d'Indydevdan.

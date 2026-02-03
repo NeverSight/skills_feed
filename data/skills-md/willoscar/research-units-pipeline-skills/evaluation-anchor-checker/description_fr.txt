@@ -1,0 +1,6 @@
+Auditez et réécrivez les déclarations d'évaluation/numériques pour vous assurer qu'elles contiennent un contexte de protocole minimal (tâche + métrique + contrainte) et éviter une dénomination de modèle sous-spécifiée.
+**Déclencheur** : vérificateur d'ancre d'évaluation, hygiène des revendications numériques, nombres sous-spécifiés, contexte du protocole, 评测锚点检查, 数字断言, 指标上下文.
+**À utiliser quand** : avant la fusion/le polissage final, ou lorsque les réviseurs signaleraient probablement les réclamations comme sous-spécifiées (chiffres sans tâche/métrique/budget), ou « pipeline-auditor » avertit en cas de dénomination de modèle suspecte.
+**Sauter si** : les preuves sont trop minces pour justifier des affirmations numériques (route en amont vers C3/C4), ou vous êtes pré-C2 (PAS DE PROSE).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de chiffres ; ne pas ajouter/supprimer/déplacer les clés de citation ; si le contexte du protocole est manquant, affaiblissez/supprimez la revendication numérique plutôt que de deviner.

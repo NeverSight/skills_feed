@@ -1,0 +1,6 @@
+Créez des ensembles de preuves par sous-section (PAS DE PROSE) : revendications candidates, comparaisons concrètes, protocole d'évaluation, limites, ainsi que des extraits de preuves appuyés par des citations avec provenance.
+**Déclencheur** : brouillon de preuves, ensemble de preuves, candidats aux revendications, comparaisons concrètes, extraits de preuves, provenance, 证据草稿, 证据包, 可引用事实.
+**À utiliser lorsque** : `outline/subsection_briefs.jsonl` existe et vous souhaitez une rédaction de section axée d'abord sur les preuves, où chaque paragraphe peut être soutenu par des citations/extraits traçables.
+**Ignorer si** : `outline/evidence_drafts.jsonl` existe déjà et est affiné (pas d'espace réservé ; >=8 comparaisons par sous-section ; `blocking_missing` vide).
+**Réseau** : aucun (des preuves plus riches s'améliorent avec les résumés/texte intégral).
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de faits ; utilisez uniquement les clés de citation qui existent dans `citations/ref.bib`.

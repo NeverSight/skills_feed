@@ -1,0 +1,13 @@
+API REST pour les échanges de jetons inter-chaînes et identiques, les ponts et les opérations DeFi.
+
+UTILISEZ CETTE COMPÉTENCE LORSQUE L'UTILISATEUR VEUT :
+- Échangez des jetons entre différentes blockchains (par exemple, "échangez USDC sur Ethereum contre ETH sur Arbitrum")
+- Ponter les jetons vers une autre chaîne (par exemple, "déplacer mon ETH du réseau principal vers Optimism")
+- Échangez des jetons sur la même chaîne avec les meilleurs tarifs (par exemple, « échangez ETH contre USDC sur Polygon »)
+- Trouvez le meilleur itinéraire ou le meilleur devis pour un échange de jetons entre chaînes
+- Exécuter des opérations DeFi sur les chaînes (zap, bridge+swap+deposit, entrée d'agriculture de rendement)
+- Créer des flux de paiement multi-chaînes (accepter n'importe quel jeton, régler avec un jeton spécifique)
+- Vérifiez les chaînes, jetons ou ponts pris en charge pour les transferts entre chaînes
+- Suivre l'état d'une transaction inter-chaînes
+- Créer des services backend (Python, Go, Rust, etc.) qui nécessitent des échanges entre chaînes
+- Intégrer la fonctionnalité cross-chain via HTTP/REST (pas le SDK JavaScript)

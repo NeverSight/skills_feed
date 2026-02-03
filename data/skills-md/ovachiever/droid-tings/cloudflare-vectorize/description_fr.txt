@@ -1,0 +1,5 @@
+Créez une recherche sémantique avec Cloudflare Vectorize V2 (septembre 2024 GA). Couvre les changements majeurs de la V2 : mutations asynchrones,
+5 millions de vecteurs/index (au lieu de 200 000), latence de 31 ms (au lieu de 549 ms), énumération returnMetadata et dépréciation de la V1 (décembre 2024).
+
+À utiliser lors de : migration de V1 → V2, gestion des mutations asynchrones avec mutationId, création d'index de métadonnées avant l'insertion,
+ou dépannage « returnMetadata doit être « tout » », problèmes de synchronisation V2, erreurs d'index de métadonnées, incompatibilités de dimensions.

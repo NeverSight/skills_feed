@@ -1,0 +1,6 @@
+Rédigez les dossiers préliminaires de l'enquête (résumé, introduction, travaux connexes, discussion, conclusion) sous forme papier, avec une densité de citations élevée et un seul paragraphe de politique de preuves.
+**Déclencheur** : rédacteur de présentation, rédacteur d'introduction, rédacteur de travaux connexes, rédacteur de résumés, rédacteur de discussion, rédacteur de conclusion, 引言, 相关工作, 摘要, 讨论, 结论.
+**À utiliser lorsque** : vous êtes en C5 (prose autorisée) et avez besoin de la "coquille" semblable à du papier pour arrêter la lecture du brouillon comme des sous-sections cousues.
+**Sauter si** : `Approve C2` est manquant dans `DECISIONS.md`, ou `citations/ref.bib` est manquant (générez d'abord les citations).
+**Réseau** : aucun.
+**Garde-corps** : pas de jargon de pipeline dans la prose finale ; aucun avertissement de preuve répété ; n'inventez pas de faits/citations ; n'utilisez que les clés présentes dans `citations/ref.bib`.

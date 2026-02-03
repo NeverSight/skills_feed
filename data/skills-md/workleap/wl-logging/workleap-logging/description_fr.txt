@@ -1,0 +1,14 @@
+Guide de la bibliothèque de journalisation de Workleap (@workleap/logging) qui fournit une journalisation structurée et composable pour les applications TypeScript frontales.
+
+Utilisez cette compétence lorsque :
+(1) Configuration de la journalisation dans une application frontale Workleap
+(2) Création ou configuration de loggers (BrowserConsoleLogger, CompositeLogger)
+(3) Comprendre les niveaux de journalisation (débogage, information, avertissement, erreur, critique)
+(4) Création d'entrées de journal complexes avec des segments chaînés (withText, withObject, withError)
+(5) Utilisation des étendues de journalisation pour regrouper les entrées de journal associées
+(6) Stylisation de la sortie du journal dans la console du navigateur
+(7) Composer plusieurs enregistreurs pour envoyer des journaux à différentes destinations
+(8) Filtrage des journaux par niveau de gravité
+(9) Intégration de la journalisation avec LogRocket ou d'autres outils de télémétrie
+(10) Examen des modifications liées à la journalisation dans les demandes d'extraction
+(11) Questions sur les meilleures pratiques de journalisation spécifiques à wl-logging

@@ -1,0 +1,7 @@
+Boucle automatique des preuves pour les enquêtes : lisez les liaisons de preuves + les packs de preuves, puis rédigez un plan TODO exploitable en amont (quelle étape/compétence corriger) avant d'écrire plus de prose.
+Écrit `output/EVIDENCE_SELFLOOP_TODO.md`.
+**Déclencheur** : boucle automatique des preuves, boucle des preuves, lacunes dans les preuves, lacunes de liaison, blocking_missing, 证据自循环, 证据缺口回路.
+**À utiliser lorsque** : les sorties C4 existent (`outline/evidence_bindings.jsonl`, `outline/evidence_drafts.jsonl`) mais l'écriture semble creuse ou C5 est BLOQUÉ en raison de preuves minces.
+**Sauter si** : vous êtes encore pré-C3 (pas encore de notes/banque de preuves), ou vous souhaitez quand même rédiger et accepter une barre de preuves inférieure.
+**Réseau** : aucun.
+**Garde-corps** : analyse uniquement ; ne modifiez pas les preuves/artefacts écrits ; n'inventez pas de faits/citations ; rédigez uniquement le rapport TODO.

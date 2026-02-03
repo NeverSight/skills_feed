@@ -1,0 +1,1 @@
+Suivi des problèmes natif de Git avec prise en charge des dépendances de première classe. Problèmes stockés avec le code dans le répertoire .beads/, doublement persistants dans SQLite (requêtes) et JSONL (historique convivial pour Git). ID basés sur le hachage, dépendances DAG, mode démon avec RPC et prise en charge multi-espaces de travail inspirée de LSP.

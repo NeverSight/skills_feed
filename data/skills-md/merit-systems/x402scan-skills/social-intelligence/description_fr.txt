@@ -1,0 +1,20 @@
+Recherchez et surveillez les médias sociaux à l'aide des API X/Twitter (via Grok) et Reddit.
+
+UTILISER POUR :
+- Recherche de publications X/Twitter par mots-clés ou hashtags
+- Recherche d'utilisateurs X/Twitter par critères
+- Obtenir les messages récents d'un utilisateur
+- Recherche de publications et de discussions Reddit
+- Obtenir des commentaires sur les fils de discussion Reddit
+- Veille et recherche sur les réseaux sociaux
+
+DÉCLENCHEURS :
+- "twitter", "X", "tweets", "posts sur X"
+- "reddit", "subreddit", "discussion reddit"
+- "Que disent les gens", "réseaux sociaux", "sentiment"
+- "tendances", "virales", "messages populaires"
+- "messages de l'utilisateur", "chronologie", "activité récente"
+
+Utilisez mcp__x402__fetch pour les points de terminaison Grok (X) et Reddit. Tous les points de terminaison coûtent 0,02 $ par appel.
+
+IMPORTANT : utilisez les chemins de terminaison exacts du tableau de référence rapide ci-dessous.

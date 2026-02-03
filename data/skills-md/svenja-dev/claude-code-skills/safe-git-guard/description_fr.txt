@@ -1,0 +1,1 @@
+Empêche les opérations Git destructrices en exigeant une sauvegarde et une confirmation. Bloque git reset --hard, git push --force on main, git clean -fd. Nécessite une sauvegarde avant git checkout, git reset, git rebase. Activez toute commande git destructrice.

@@ -1,0 +1,6 @@
+Téléchargez les PDF (si disponibles) et extrayez le texte brut pour prendre en charge les preuves en texte intégral, en écrivant « papers/fulltext_index.jsonl » et « papers/fulltext/*.txt ».
+**Déclencheur** : téléchargement PDF, texte intégral, extrait de texte, articles/pdfs, 全文抽取, 下载PDF.
+**À utiliser lorsque** : `queries.md` pour `evidence_mode: fulltext`（或你明确需要全文证据）并希望为 notes/réclamations papier ou preuves。
+**Passer si** : `evidence_mode: abstract`（默认）；或你不希望进行下载/抽取（成本/权限/时间）。
+**Réseau** : texte intégral 下载通常需要网络（除非你手工提供 PDF 缓存在 `papers/pdfs/`)。
+**Garde-corps** : 缓存下载到 `papers/pdfs/`；默认不覆盖已有抽取文本（除非显式要求重抽）。

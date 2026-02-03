@@ -1,0 +1,7 @@
+Audit LLM complet. Devise du modèle, qualité rapide, évaluations, observabilité, CI/CD.
+S'assure que toutes les fonctionnalités basées sur LLM suivent les meilleures pratiques et sont correctement instrumentées.
+
+Appel automatique lorsque : noms de modèles/versions mentionnés, configuration du fournisseur d'IA, modifications rapides,
+.env avec clés AI, aiProviders.ts ou prompts.ts modifiés, PR liés à l'IA.
+
+CRITIQUE : les données de formation sont en retard de plusieurs mois. TOUJOURS effectuer une recherche sur le Web avant les décisions de LLM.

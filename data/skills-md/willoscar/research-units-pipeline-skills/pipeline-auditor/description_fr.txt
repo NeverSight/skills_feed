@@ -1,0 +1,6 @@
+Vérifications d'audit/de régression pour le pipeline d'enquêtes axées sur les preuves : santé des citations, couverture par section, fuite d'espaces réservés et répétition des modèles.
+**Déclencheur** : auditeur, audit, test de régression, rapport qualité, 审计, 回归测试.
+**À utiliser lorsque** : `output/DRAFT.md` existe et vous souhaitez un rapport PASS/FAIL déterministe avant LaTeX/PDF.
+**Ignorer si** : vous modifiez toujours considérablement les packs de récupération/aperçu/preuves (audit plus tard).
+**Réseau** : aucun.
+**Garde-corps** : ne modifiez pas le contenu ; seulement analyser et rapporter.

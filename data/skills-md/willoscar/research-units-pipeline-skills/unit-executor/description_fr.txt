@@ -1,0 +1,6 @@
+Exécutez exactement une unité exécutable à partir de `UNITS.csv` (premier TODO dont les dépendances sont FAIT), puis mettez à jour l'état de l'unité et les artefacts.
+**Déclencheur** : exécuteur d'unité, exécution d'une unité, unité suivante, pipeline étape par étape, 逐条执行, UNITS.csv.
+**À utiliser lorsque** : 需要严格 « 一次只做一个 unit » (可审计、可中断）), 并遵守 checkpoints/HUMAN 阻塞逻辑。
+**Sauter si** : Il s'agit de l'espace de travail `research-pipeline-runner`）或.
+**Réseau** : aucun.
+**Garde-corps** : unité 只执行一个; point de contrôle HUMAIN 必须停下。

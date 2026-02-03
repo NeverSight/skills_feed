@@ -1,0 +1,9 @@
+Méthodologie systématique pour la mise en œuvre de portes de qualité de construction complètes à l'aide du cadre BAIME.
+Couverture des erreurs atteinte à 98 % avec un temps de détection de 17,4 s, réduisant les défaillances CI de 40 % à 5 %.
+
+**Résultats validés** :
+- V_instance : 0,47 → 0,876 (+86%)
+- V_méta : 0,525 → 0,933 (+78%)
+- Couverture des erreurs : 30 % → 98 % (+227 %)
+- Taux d'échec CI : 40% → 5% (-87,5%)
+- Temps de détection : 480s → 17,4s (-96,4%)

@@ -1,0 +1,3 @@
+Sélection de tests intelligente basée sur les modifications du code. Mappe les fichiers sources aux tests via l'analyse d'importation,
+met en œuvre des tests à plusieurs niveaux (rapide < 1 min, impacté < 5 min, suite complète) et suit la fiabilité des tests.
+À utiliser lors de l'exécution de tests après des modifications de code pour optimiser les boucles de rétroaction et le temps CI.

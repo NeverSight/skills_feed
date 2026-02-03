@@ -1,0 +1,6 @@
+Transformez un seul fichier d'unité H3 sous « sections / » en prose de qualité enquête (dé-modèle + contraste/évaluation/limitation), sans modifier les clés de citation.
+**Déclencheur** : polisseur de sous-sections, polissage par sous-section, fichier de section polonaise, 小节润色, 去模板, 结构化段落.
+**Utiliser quand** : `sections/S*.md` existe mais lit rigid/template-y ; vous souhaitez corriger la qualité localement avant la « fusion de sections ».
+**Sauter si** : les fichiers de sous-section sont manquants, les dossiers de preuves sont incomplets ou « Approuver C2 » n'est pas enregistré.
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits/citations ; ne pas ajouter/supprimer de clés de citation ; conserver les citations dans le même H3 ; gardez les citations limitées à la sous-section.

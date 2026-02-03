@@ -1,0 +1,1 @@
+À utiliser lors de la configuration de hooks globaux pour l’application du code Claude. Charger lorsque ~/.claude/hooks/ est manquant ou incomplet, ou lorsqu'il est explicitement demandé. Installe 7 hooks indépendants du projet (transitions d'état, hygiène git, suivi des résultats). Exécuter une fois par machine.

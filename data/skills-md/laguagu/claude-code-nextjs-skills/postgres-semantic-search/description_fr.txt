@@ -1,0 +1,10 @@
+Recherche sémantique et hybride basée sur PostgreSQL avec pgvector et ParadeDB.
+À utiliser lors de la mise en œuvre d'une recherche vectorielle, d'une recherche sémantique, d'une recherche hybride,
+ou recherche en texte intégral dans PostgreSQL. Couvre la configuration de pgvector, l'indexation
+(HNSW, IVFFlat), recherche hybride (FTS + BM25 + RRF), ParadeDB comme
+Alternative à Elasticsearch et reclassement avec Cohere/cross-encoders.
+Prend en charge les types vector(1536) et halfvec(3072) pour les intégrations OpenAI.
+
+Déclencheurs : pgvector, recherche vectorielle, recherche sémantique, recherche hybride,
+recherche d'intégration, PostgreSQL RAG, BM25, RRF, index HNSW, recherche de similarité,
+ParadeDB, pg_search, reclassement, reclassement Cohere

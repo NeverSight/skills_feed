@@ -1,0 +1,14 @@
+Agent Lens : Tableau de bord d'observabilité en temps réel pour les sessions Claude Code multi-agents.
+
+Visualisez les interactions des agents, l'utilisation des outils et les flux de sessions via une interface moderne à double volet. Suivez les relations entre les événements parent-enfant grâce à une visualisation hiérarchique de la chronologie, aux approbations HITL et à des mesures complètes.
+
+**Principales caractéristiques :**
+- 👁️ Disposition à double volet (chronologie du processus + résultats/métriques)
+- 🌳 Visualisation de la hiérarchie Span avec les relations parent-enfant
+- 🔴 Streaming d'événements en temps réel via WebSocket
+- 🤖 Interface HITL avec indicateurs de délai d'attente et modèle à trois actions
+- 📊 Utilisation des jetons, suivi des coûts et mesures de performances
+- 🎨 Thème sombre optimisé pour OLED (normes 2026)
+- 💾 Basé sur un système de fichiers (aucune base de données requise)
+
+**Version 2.0**

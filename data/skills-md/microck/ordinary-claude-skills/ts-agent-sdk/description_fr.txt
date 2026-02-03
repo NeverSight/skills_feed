@@ -1,0 +1,3 @@
+Générez des SDK TypeScript typés pour que les agents IA interagissent avec les serveurs MCP. Convertit les commandes curl JSON-RPC verbeuses en appels de fonction propres (docs.createDocument() vs curl). Détecte automatiquement les outils MCP à partir des modules serveur, génère des types TypeScript et des méthodes client, crée des exemples de scripts exécutables.
+
+À utiliser lorsque : vous créez des applications compatibles MCP, vous avez besoin d'un accès programmatique typé aux outils MCP, vous souhaitez que Claude Code gère les applications via des scripts, vous éliminez les commandes curl JSON-RPC manuelles, vous validez les entrées/sorties MCP ou vous créez une automatisation d'agent réutilisable.

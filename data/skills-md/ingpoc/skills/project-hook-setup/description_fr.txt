@@ -1,0 +1,1 @@
+À utiliser lors de la configuration de hooks spécifiques au projet pour l'application du code Claude. Charger pendant l'état INIT lorsque .claude/hooks/ est manquant ou lors de la création d'un nouveau projet. Installe 5 hooks qui lisent depuis .claude/config/project.json (tests, santé, dépendances).

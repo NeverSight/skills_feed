@@ -1,0 +1,1 @@
+Crée une demande d'extraction à partir des modifications actuelles, surveille GitHub CI et débogue tout échec jusqu'à ce que CI passe. Utilisez-le lorsque l'utilisateur dit "créer un pr", "créer un pr", "ouvrir une demande d'extraction", "soumettre un pr" ou "pr pour ces modifications". Ne fusionne PAS - s'arrête lorsque CI passe et fournit le lien PR.

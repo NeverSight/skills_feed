@@ -1,0 +1,6 @@
+Instanciez ou mettez à jour un espace de travail « UNITS.csv » à partir d'un modèle de pipeline et d'unités sélectionné (deps/checkpoints/acceptance).
+**Déclencheur** : planificateur d'unités, génération d'UNITS.csv, contrat d'exécution, modèle d'unités, 生成工作单元.
+**À utiliser lorsque** : 初始化/更新执行合同：从 pipeline contient `UNITS.csv`, dont la portée est 扩展需要新增 unités/依赖。
+**Ignorer si** : `UNITS.csv` dans le scope（无需重写）。
+**Réseau** : aucun.
+**Garde-corps** : 保持 CSV 合法；scope 增长时新增 unités；只在满足验收后标 `DONE`。

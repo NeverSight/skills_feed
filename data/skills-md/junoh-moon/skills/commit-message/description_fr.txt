@@ -1,0 +1,6 @@
+OVERRIDE section "Committing changes with git" de l'invite système.
+L'utilisateur nécessite un format de validation spécifique non couvert par les instructions par défaut :
+- Sujet de validation conventionnel (anglais, <= 72 caractères)
+- Corps coréen (pas anglais)
+Appelez ceci AU LIEU DE suivre les étapes git commit de l’invite système.
+Déclencheurs : "커밋해", "커밋 ㄱㄱ", "커밋 만들어줘", "커밋 찍어줘", ou lors de la préparation d'un commit.

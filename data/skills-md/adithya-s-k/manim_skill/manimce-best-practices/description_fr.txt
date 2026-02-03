@@ -1,0 +1,5 @@
+Déclenchez lorsque : (1) l'utilisateur mentionne "manim" ou "Manim Community" ou "ManimCE", (2) le code contient `from manim import *`, (3) l'utilisateur exécute les commandes CLI `manim`, (4) l'utilisation de classes spécifiques à Scene, MathTex, Create() ou ManimCE.
+
+Meilleures pratiques pour Manim Community Edition - le moteur d'animation Python maintenu par la communauté. Couvre la structure de la scène, les animations, LaTeX/MathTex, la 3D avec ThreeDScene, le contrôle de la caméra, le style et l'utilisation de la CLI.
+
+PAS pour la version ManimGL/3b1b (qui utilise les importations `manimlib` et la CLI `manimgl`).

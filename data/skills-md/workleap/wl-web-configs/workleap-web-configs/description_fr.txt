@@ -1,0 +1,15 @@
+Guide d'utilisation des packages de configuration Web partagés de Workleap (@workleap/eslint-configs, @workleap/typescript-configs, @workleap/rsbuild-configs, @workleap/rslib-configs, @workleap/stylelint-configs, @workleap/browserslist-config).
+
+Utilisez cette compétence lorsque :
+(1) Mise en place ou modification des configurations d'outils Web partagés pour un projet Workleap
+(2) Configuration d'ESLint avec @workleap/eslint-configs (defineWebApplicationConfig, DefineReactLibraryConfig, DefineTypeScriptLibraryConfig, DefineMonorepoWorkspaceConfig)
+(3) Configuration de TypeScript avec @workleap/typescript-configs (application Web, bibliothèque, monorepo-workspace)
+(4) Configuration de Rsbuild avec @workleap/rsbuild-configs (defineDevConfig, DefineBuildConfig, DefineStorybookConfig)
+(5) Configuration de Rslib avec @workleap/rslib-configs pour les projets de bibliothèque
+(6) Configuration de Stylelint avec @workleap/stylelint-configs
+(7) Configuration de la liste des navigateurs avec @workleap/browserslist-config
+(8) Personnalisation ou extension des configurations partagées
+(9) Mise en place de stratégies de configuration monorepo (Turborepo) vs polyrepo
+(10) Dépannage des problèmes de configuration ou de compatibilité avec les packages wl-web-configs
+(11) Questions sur les contraintes de configuration ESM/ESNext dans les projets Workleap
+(12) Configuration de Storybook avec Rsbuild ou Rslib

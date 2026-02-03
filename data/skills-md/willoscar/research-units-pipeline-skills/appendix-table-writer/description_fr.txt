@@ -1,0 +1,6 @@
+Organisez des tableaux d'enquête destinés aux lecteurs pour l'annexe (mise en page claire + densité d'informations élevée), en utilisant uniquement les preuves pertinentes et les clés de citation existantes.
+**Déclencheur** : tableaux en annexe, tableaux publiables, tableaux d'enquête, tableaux de lecture, 附录表格, 可发表表格, 综述表格.
+**À utiliser lorsque** : vous disposez d'artefacts C4 (packs de preuves + feuille d'ancrage + citations) et souhaitez des tableaux qui ressemblent à une véritable enquête (pas de journaux internes).
+**Ignorer si** : `outline/tables_appendix.md` existe déjà et est affiné (>=2 tables ; soutenu par des citations ; pas d'espace réservé ; pas d'index-y).
+**Réseau** : aucun.
+**Garde-corps** : aucun fait inventé ; pas de jargon de pipeline ; pas de cellules de paragraphe ; utilisez uniquement les clés présentes dans `citations/ref.bib`.

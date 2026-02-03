@@ -1,0 +1,46 @@
+Compétence complète en tests unitaires pour les projets TypeScript/NestJS à l'aide de bases de données Jest, @golevelup/ts-jest et en mémoire.
+
+Utilisez TOUJOURS cette compétence lorsque l'utilisateur doit :
+
+**SETUP** - Initialiser ou configurer les tests unitaires :
+- Mettre en place Jest pour un nouveau projet
+- Configurer l'infrastructure de test (jest.config.ts)
+- Installer les dépendances de test (@nestjs/testing, @golevelup/ts-jest)
+- Créer des assistants fictifs ou des utilitaires de test
+- Mettre en place la configuration de la couverture
+
+**WRITE** - Créez ou ajoutez des tests unitaires :
+- Écrire, créer, ajouter ou générer des tests unitaires
+- Testez un service, un cas d'utilisation, un contrôleur, un garde, un intercepteur, un tuyau ou un filtre
+- Ajouter des tests pour le nouveau code ou les fonctionnalités
+- Améliorer la couverture des tests ou ajouter des tests manquants
+- Maquette de dépendances ou mise en place de montages de test
+- Travailler sur n'importe quel fichier se terminant par .spec.ts
+
+**REVIEW** - Auditer ou évaluer les tests unitaires :
+- Examiner les tests existants pour la qualité
+- Vérifier la couverture des tests et les lacunes
+- Auditer les modèles et conventions de tests
+- Évaluer la qualité des assertions
+
+**RUN** - Exécuter ou analyser les résultats des tests :
+- Exécuter des tests unitaires
+- Analyser les résultats de tests ou les rapports de couverture
+- Comprendre les échecs ou les succès des tests
+- Vérifiez quels tests réussissent/échouent
+
+**DEBUG** - Correction des tests défaillants ou interrompus :
+- Correction des tests unitaires défaillants
+- Déboguer les erreurs ou exceptions de test
+- Résoudre les problèmes fictifs ou les problèmes de configuration
+- Résoudre les délais d'attente des tests ou les tests irréguliers
+- Diagnostiquer les résultats "indéfinis" ou inattendus
+
+**OPTIMISE** - Améliorez les performances et la maintenabilité des tests :
+- Accélérer les tests lents
+- Correction des poignées ouvertes empêchant une sortie propre
+- Améliorer l'organisation des tests
+- Réduire le temps d'exécution des tests
+- Nettoyer le code de test
+
+Mots-clés : test unitaire, spécification, plaisanterie, dactylographié, nestjs, mock, DeepMocked, createMock, AAA, couverture de test, TDD, .spec.ts, test, écriture de test, ajout de test, création de test, correction de test, débogage de test, exécution de test, révision de test, optimisation de test, configuration de test, configuration de plaisanterie

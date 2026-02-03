@@ -1,0 +1,1 @@
+Audite les fichiers de migration SQL pour détecter les actions destructrices, les verrous de table potentiels et les problèmes de compatibilité. À utiliser avant d'appliquer des migrations aux bases de données de production pour éviter les temps d'arrêt et garantir l'intégrité des données.

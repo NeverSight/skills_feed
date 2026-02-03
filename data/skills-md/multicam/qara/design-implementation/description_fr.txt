@@ -1,0 +1,18 @@
+Flux de travail de développement d'interface utilisateur rationalisé avec implémentation de fonctionnalités à commande unique.
+Automatise : serveur de développement, navigateur, vérification, correction d'erreurs, boucle d'itération.
+
+**Commande principale :** "implémenter la fonctionnalité suivante" ou "implémenter [description de la fonctionnalité]"
+
+**Ce qu'il fait :**
+1. Démarre le serveur de développement (détecte automatiquement le port à partir de package.json)
+2. Lance le navigateur (visible par défaut, --headless disponible)
+3. Implémente la fonctionnalité via la compétence de conception frontend
+4. Vérifie : erreurs de console, erreurs TS, pannes de réseau, correspondance visuelle
+5. Corrige de manière itérative (max 5 itérations)
+6. Rapports terminés ou transmis avec un rapport détaillé
+
+**Déclencheurs :**
+- "implémenter la fonctionnalité suivante", "implémenter la section héros"
+- "vérifier cette implémentation", "vérifier l'interface utilisateur"
+- "corriger les erreurs", "itérer là-dessus"
+- "démarrer le serveur de développement", "gérer le serveur"

@@ -1,0 +1,1 @@
+À utiliser lors du démarrage d'une nouvelle session sans feature-list.json, de la configuration de la structure du projet ou de la décomposition des exigences en fonctionnalités atomiques. Chargement à l'état INIT. Détecte le type de projet (Python/Node/Django/FastAPI), crée feature-list.json avec des priorités, initialise .claude/progress/tracking.

@@ -1,0 +1,6 @@
+Écrivez « output/DRAFT.md » (ou « output/SNAPSHOT.md ») à partir d'un plan approuvé et de packs de preuves, en utilisant uniquement les clés de citation vérifiées de « citations/ref.bib ».
+**Déclencheur** : rédiger un brouillon, un prosateur, un instantané, la rédaction d'une enquête, 写综述, 生成草稿, rédaction section par section.
+**À utiliser lorsque** : la structure est approuvée (`DECISIONS.md` a `Approve C2`) et des packs de preuves existent (`outline/subsection_briefs.jsonl`, `outline/evidence_drafts.jsonl`).
+**Ignorer si** : les approbations sont manquantes ou les ensembles de preuves sont incomplets/échafaudés (champs manquants, marqueurs TODO).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits ou de citations ; citer uniquement les clés présentes dans `citations/ref.bib` ; évitez les fuites de jargon dans la prose finale.

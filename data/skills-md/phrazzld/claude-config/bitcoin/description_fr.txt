@@ -1,0 +1,5 @@
+Cycle de vie complet des paiements Bitcoin. Audite l’état actuel, résout tous les problèmes,
+et vérifie que les flux de paiement fonctionnent de bout en bout. Chaque course fait tout cela.
+
+Appel automatique lorsque : les fichiers contiennent bitcoin/btc/utxo/satoshi, importent bitcoin
+packages, références BITCOIN_* ou BTC_*, variables d'environnement, gestionnaires de portefeuille modifiés.

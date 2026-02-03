@@ -1,0 +1,1 @@
+Construire un agent d'audit de santé (L3). Vérifie les erreurs du compilateur/linter, les avertissements de dépréciation, les erreurs de type, les tests échoués, les problèmes de configuration de build. Renvoie les résultats avec la gravité (Critique/Élevée/Moyenne/Faible), l'emplacement, l'effort et les recommandations.

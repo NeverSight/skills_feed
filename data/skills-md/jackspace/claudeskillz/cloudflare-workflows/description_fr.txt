@@ -1,0 +1,13 @@
+Domaine de connaissances complet pour Cloudflare Workflows - cadre d'exécution durable
+pour créer des applications en plusieurs étapes sur Workers qui réessayent automatiquement, persistent
+état et fonctionner pendant des heures ou des jours.
+
+À utiliser dans les cas suivants : création de workflows de longue durée, mise en œuvre d'une logique de nouvelle tentative, création
+processus événementiels, planification de tâches en plusieurs étapes, coordination entre API,
+ou rencontrer "NonRetryableError", "Contexte d'E/S", "échec de l'exécution du workflow",
+Erreurs « erreur de sérialisation » ou « WorkflowEvent not found ».
+
+Mots-clés : workflows cloudflare, workflows Workers, exécution durable, étape du workflow,
+WorkflowEntrypoint, step.do, step.sleep, tentatives de workflow, NonRetryableError,
+état du flux de travail, flux de travail Wrangler, événements de flux de travail, tâches de longue durée, step.sleepUntil,
+step.waitForEvent, liaisons de flux de travail

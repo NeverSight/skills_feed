@@ -1,0 +1,6 @@
+Rédigez le contenu du didacticiel (`output/TUTORIAL.md`) à partir d'un plan de module approuvé, comprenant des exercices et des plans de réponses.
+**Déclencheur** : écriture d'un didacticiel, modules de didacticiel, 教程写作, TUTORIAL.md.
+**Utiliser quand** : pipeline de didacticiel pour la portée/l'exemple d'exécution (C3) et `DECISIONS.md` pour la portée/l'exemple d'exécution HUMAN (C2).
+**Sauter si** : plan de module 未完成/未批准（先跑 `module-planner`/`exercise-builder` et Approuver C2）。
+**Réseau** : aucun.
+**Garde-corps** : 只写已批准范围；保持 exemple d'exécution 一致；每模块包含练习与答案要点。

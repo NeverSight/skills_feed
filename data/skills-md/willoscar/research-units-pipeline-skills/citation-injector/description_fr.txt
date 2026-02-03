@@ -1,0 +1,6 @@
+Appliquez un rapport budgétaire de « diversification des citations » en injectant des citations *in-scope* dans un brouillon existant (PAS DE NOUVEAUX FAITS), afin que l'exécution passe la porte globale des citations uniques sans vidages de citations.
+**Déclencheur** : injecteur de citations, appliquer un budget de citations, injecter des citations, ajouter des citations en toute sécurité, 引用注入, 按预算加引用, 引用增密.
+**À utiliser lorsque** : `output/CITATION_BUDGET_REPORT.md` existe et vous devez générer des citations uniques *globales* (ou réduire la réutilisation excessive) avant `draft-polisher` / `pipeline-auditor`.
+**Sauter si** : vous avez besoin de plus d'articles/citations en amont (corrigez d'abord le mappage C1/C2), ou `citations/ref.bib` est manquant.
+**Réseau** : aucun.
+**Garde-corps** : AUCUN NOUVEAU FAIT ; n'inventez pas de citations; injecter uniquement les clés présentes dans `citations/ref.bib` ; conserver les citations injectées dans le périmètre autorisé de chaque H3 (via le rapport budgétaire) ; évitez les paragraphes de vidage de citations (intégrez les citations par œuvre).

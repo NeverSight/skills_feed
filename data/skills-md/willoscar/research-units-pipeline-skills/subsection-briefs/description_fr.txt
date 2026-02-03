@@ -1,0 +1,6 @@
+Créez des mémoires de rédaction par sous-section (PAS DE PROSE) afin que la rédaction ultérieure soit guidée par des preuves et des axes de comparaison vérifiables (et non des espaces réservés de plan).
+**Déclencheur** : briefs de sous-section, cartes d'écriture, cartes d'intention, briefs H3, scope_rule, axes, clusters, 写作意图卡, 小节卡片, 段落计划.
+**À utiliser lorsque** : `outline/outline.yml` + `outline/mapping.tsv` + `papers/paper_notes.jsonl` existent et vous souhaitez une rédaction section par section sans fuite de modèle.
+**Ignorer si** : `outline/subsection_briefs.jsonl` existe déjà et est affiné (pas d'espaces réservés/points de suspension ; axes+clusters+paragraph_plan sont remplis).
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; n'inventez pas de papiers; référence uniquement à `paper_id`/`bibkey` qui existe dans `papers/paper_notes.jsonl`.

@@ -1,0 +1,6 @@
+Synthétisez les preuves dans un récit structuré (`output/SYNTHESIS.md`) fondé sur `papers/extraction_table.csv`, y compris les limitations et les considérations de biais.
+**Déclencheur** : synthèse, synthèse des preuves, rédaction d'une revue systématique, 综合写作, SYNTHESIS.md.
+**À utiliser lorsque** : revue systématique de dépistage+extraction（含 biais 评估）后进入写作阶段（C4）。
+**Sauter si** : "papers/extraction_table.csv`（或 protocol/screening 尚未完成）。
+**Réseau** : aucun.
+**Garde-corps** : 以 table d'extraction 为证据底座；明确局限性与偏倚；不要在无数据支撑时扩写结论。

@@ -1,0 +1,6 @@
+Restructure le code existant pour améliorer la lisibilité, la maintenabilité et les performances sans modifier le comportement externe.
+
+UTILISER QUAND : Restructurer le code sans changer de comportement, extraire des méthodes/classes, supprimer les duplications, appliquer des modèles de conception, améliorer l'organisation du code, réduire la dette technique.
+NE PAS UTILISER : Pour les corrections de bugs (utiliser /debugging), pour ajouter des tests (utiliser /testing), pour de nouvelles fonctionnalités (implémenter directement).
+
+DÉCLENCHEURS : refactoriser, restructurer, réécrire, nettoyer, simplifier, extraire, intégrer, renommer, déplacer, diviser, fusionner, décomposer, modulariser, découpler, dette technique, odeur de code, SEC, SOLIDE, améliorer le code, moderniser, réorganiser.

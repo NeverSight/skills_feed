@@ -1,0 +1,6 @@
+Dédoublonnez et classez un ensemble de papiers bruts (`papers/papers_raw.jsonl`) pour produire `papers/papers_dedup.jsonl` et `papers/core_set.csv`.
+**Déclencheur** : déduplication, classement, ensemble de base, 去重, 排序, 精选论文, 核心集合.
+**À utiliser lorsque** : ensemble de base de l'ensemble de base (taxonomie/contour/cartographie)
+**Sauter si** : `papers/core_set.csv`（无需再次 churn）。
+**Réseau** : aucun.
+**Garde-corps** : 偏 déterministe；输出应可重复（稳定 paper_id、字段规范）。

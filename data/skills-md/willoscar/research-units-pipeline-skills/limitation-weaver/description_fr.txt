@@ -1,0 +1,6 @@
+Réécrivez les passages de limitation afin que le document respecte les limitations sans tomber dans des phrases d'emplacement basées sur le nombre (par exemple, « Deux limitations… ») sur de nombreux H3.
+**Déclencheur** : tisserand de limitations, limitations de réécriture, suppression de deux limitations, 去Deux limitations, 局限改写, réécriture avec mise en garde.
+**À utiliser lorsque** : `writer-selfloop` est PASS mais signale les ouvreurs de limitations répétés basés sur le nombre dans `output/WRITER_SELFLOOP_TODO.md`, ou plusieurs H3 partagent la même cadence de limitation.
+**Sauter si** : la limitation manque de preuves (itinéraire en amont), ou vous êtes pré-C2 (PAS DE PROSE).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas de faits ; ne pas ajouter/supprimer/déplacer les clés de citation ; ne supprimez pas les limitations spécifiques aux sous-sections ; garder l'ancrage de la revendication → des preuves intact.

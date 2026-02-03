@@ -1,0 +1,6 @@
+Normalisez les interfaces JSONL inter-compétences (identifiants + titres + formats de clés de citation) afin que les compétences en aval ne reposent pas sur des jointures au mieux.
+**Déclencheur** : normalisation du schéma, contrat jsonl, dérive de l'interface, dérive des jointures, 字段不一致, schéma 规范化.
+**À utiliser lorsque** : vous avez généré des artefacts JSONL C2-C4 (contours/mémoires/reliures/packs/ancres) et souhaitez des champs déterministes et stables avant les boucles/écritures automatiques.
+**Ignorer si** : vous n'utilisez pas les pipelines d'enquête ou l'espace de travail dispose déjà d'un nouveau PASS `output/SCHEMA_NORMALIZATION_REPORT.md` pour les artefacts actuels.
+**Réseau** : aucun.
+**Garde-corps** : PAS DE PROSE ; transformations déterministes uniquement ; n’inventez pas de preuves/allégations ; remplissez uniquement les identifiants/titres manquants dans `outline/outline.yml`.

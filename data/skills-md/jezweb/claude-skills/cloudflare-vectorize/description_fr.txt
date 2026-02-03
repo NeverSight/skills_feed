@@ -1,0 +1,3 @@
+Créez une recherche sémantique avec Cloudflare Vectorize V2. Couvre les mutations asynchrones, 5 millions de vecteurs/index, la latence de 31 ms, les modifications de l'énumération returnMetadata et la dépréciation de la V1. Empêche 14 erreurs, y compris les incompatibilités de dimensions, les types TypeScript et la configuration des tests.
+
+À utiliser lors de : la création de RAG ou d'une recherche sémantique, le dépannage de returnMetadata, le timing V2, l'index de métadonnées, les erreurs de dimension, la configuration de Vitest ou la sortie wrangler --json.

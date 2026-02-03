@@ -1,0 +1,12 @@
+Cette compétence fournit des connaissances complètes pour intégrer le stockage d’objets Vercel Blob dans les applications Vercel. Il doit être utilisé lors de la configuration des téléchargements de fichiers, de la gestion d'images et de documents, de la mise en œuvre d'actifs fournis par CDN ou de la gestion de fichiers volumineux dans les fonctions sans serveur et Edge de Next.js.
+
+Utilisez cette compétence lorsque :
+- Mise en place des uploads de fichiers pour les applications Next.js (images, PDF, vidéos)
+- Implémentation de téléchargements côté client avec des URL présignées
+- Gestion du contenu généré par les utilisateurs (avatars, pièces jointes, médias)
+- Création de fonctionnalités de gestion de fichiers (liste, téléchargement, suppression)
+- Migration de Cloudflare R2 vers Vercel Blob
+- Erreurs rencontrées telles que "BLOB_READ_WRITE_TOKEN non défini", "limite de taille de fichier dépassée" ou "erreurs de jeton de téléchargement client"
+- Besoin d'un stockage d'objets simple avec distribution automatique de CDN
+
+Mots clés : vercel blob, @vercel/blob, stockage vercel, téléchargement de fichiers vercel, vercel cdn, stockage blob vercel, téléchargement client vercel, URL présignée vercel, téléchargement de fichiers nextjs, téléchargement d'images vercel, téléchargement pdf, téléchargement vidéo, téléchargements utilisateur, téléchargement partitionné, téléchargement en streaming, cdn blob, actifs vercel, téléchargement de fichiers

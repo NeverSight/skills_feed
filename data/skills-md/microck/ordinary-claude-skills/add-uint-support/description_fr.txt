@@ -1,0 +1,1 @@
+Ajoutez la prise en charge du type entier non signé (uint) aux opérateurs PyTorch en mettant à jour les macros AT_DISPATCH. À utiliser lors de l'ajout de la prise en charge des types uint16, uint32, uint64 aux opérateurs, aux noyaux ou lorsque l'utilisateur mentionne l'activation des types non signés, des types non signés barebones ou de la prise en charge uint.

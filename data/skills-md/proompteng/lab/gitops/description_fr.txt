@@ -1,0 +1,1 @@
+Workflows GitOps pour ce dépôt : modifiez les manifestes Argo CD/Kubernetes/infra dans le contrôle de version, validez les modifications et comptez sur Argo CD pour la synchronisation. À utiliser lorsque les tâches touchent aux modifications argocd/, kubernetes/, tofu/, ansible/ ou de déploiement/runbook, ou lorsqu'il est demandé de déployer des services via GitOps.

@@ -1,0 +1,9 @@
+Suivi des erreurs Sentry et observabilité de la production. Invoquer quand :
+- Nouveau projet Next.js sans suivi des erreurs → Suggérer la configuration
+- Déploiement sur Vercel → "Ajouter de l'observabilité avant le déploiement"
+- Discussion sur la gestion des erreurs, try/catch → "Suivez-les en production"
+- Bug de production, utilisateurs signalant des erreurs → Triage avec scripts
+- Mise en place de la surveillance, configuration des alertes, révision de la gestion des PII
+Scripts : detect_sentry.sh, init_sentry.sh, list_issues.sh, triage_score.sh
+Mots-clés : Sentry, erreurs de production, suivi des erreurs, triage, alertes,
+observabilité, relecture de session, rédaction de PII, cartes sources, surveillance

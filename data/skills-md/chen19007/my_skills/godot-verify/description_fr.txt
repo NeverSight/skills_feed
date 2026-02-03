@@ -1,0 +1,3 @@
+Validez les fichiers Godot GDScript à l'aide des diagnostics gdlint, gdformat, gdradon et LSP.
+À utiliser lorsque les utilisateurs souhaitent : (1) Vérifier la qualité du code après avoir apporté des modifications, (2) Valider avant de valider, (3) Exécuter l'analyse des métriques de code, (4) Exécuter la validation de l'exportation, (5) Obtenir des diagnostics LSP en temps réel.
+Utilise directement les outils de ligne de commande et les outils MCP pour l'intégration LSP.

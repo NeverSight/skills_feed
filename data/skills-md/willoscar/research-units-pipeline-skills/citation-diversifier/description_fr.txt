@@ -1,0 +1,6 @@
+Augmentez la diversité/densité des citations (PAS DE NOUVEAUX FAITS) : générez un plan de « budget de citation » par H3 afin que les brouillons cessent d'échouer au portail mondial des citations uniques et cessent de paraître sous-cités.
+**Déclencheur** : augmentation des citations, budget de citations, citations uniques trop faibles, ajout de citations supplémentaires, amélioration de la densité de références, 引用太少, 增加引用, 引用密度.
+**À utiliser lorsque** : `pipeline-auditor` échoue en raison de faibles citations uniques, ou vous souhaitez augmenter la densité des citations sans modifier les revendications.
+**Sauter si** : vous avez besoin de nouveaux articles (corrigez d'abord le mappage C1/C2), ou `citations/ref.bib` / `outline/writer_context_packs.jsonl` est manquant.
+**Réseau** : aucun.
+**Garde-corps** : AUCUN NOUVEAU FAIT ; n'inventez pas de citations; n'utilisez que les clés déjà présentes dans `citations/ref.bib` ; conservez les citations dans la portée autorisée de chaque H3 (`outline/writer_context_packs.jsonl` / `outline/evidence_bindings.jsonl`).

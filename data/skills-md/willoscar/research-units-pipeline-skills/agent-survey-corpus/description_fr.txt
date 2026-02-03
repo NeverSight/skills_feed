@@ -1,0 +1,6 @@
+Téléchargez un petit corpus de PDF d'enquête/d'évaluation arXiv en libre accès sur les agents LLM et extrayez le texte pour l'apprentissage du style.
+**Déclencheur** : corpus d'enquête auprès des agents, corpus de référence, enquêtes à télécharger, 学习综述写法, enquête 下载.
+**À utiliser lorsque** : vous souhaitez étudier comment les enquêtes auprès d'agents réels structurent les sections (6 à 8 H2), dimensionnent les sous-sections et rédigent des comparaisons fondées sur des preuves.
+**Ignorer si** : vous ne pouvez pas télécharger de PDF (pas de réseau) ou vous ne voulez pas de fichiers PDF locaux.
+**Réseau** : obligatoire.
+**Garde-corps** : téléchargez uniquement les PDF arXiv ; stockez sous `ref/` et conservez les fichiers volumineux hors de git.

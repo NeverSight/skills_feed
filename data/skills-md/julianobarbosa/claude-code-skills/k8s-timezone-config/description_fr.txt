@@ -1,0 +1,1 @@
+Configurez le fuseau horaire pour les pods Kubernetes à l'aide de la variable d'environnement TZ. À utiliser lors du déploiement de charges de travail nécessitant le fuseau horaire du Brésil/São Paulo ou lorsque les journaux affichent UTC (+0000) au lieu de l'heure locale.

@@ -1,0 +1,6 @@
+Écrivez des blocs principaux de chapitre H2 (`sections/S<sec_id>_lead.md`) qui prévisualisent l'objectif de comparaison du chapitre\x27s et connectent ses sous-sections H3, sans ajouter de nouveaux faits.
+**Déclencheur** : rédacteur principal du chapitre, rédacteur principal de la section, rédacteur principal H2, paragraphe principal, 章节导读, 章节导语.
+**À utiliser lorsque** : vous avez des chapitres H2 avec plusieurs sous-sections H3 et le brouillon se lit comme des « îlots de paragraphes » à travers les sous-sections.
+**Ignorer si** : le plan n'a pas de sous-sections H3, ou `outline/chapter_briefs.jsonl` est manquant (créez d'abord les briefs).
+**Réseau** : aucun.
+**Garde-corps** : aucun fait/citation nouveau ; pas de titres ; pas de modèles de narration ; utilisez uniquement les clés de citation présentes dans `citations/ref.bib`.

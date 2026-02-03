@@ -1,0 +1,1 @@
+Modèles de synchronisation de l'état entre les services externes (Stripe, Clerk) et la base de données locale. Invoquer pour : les échecs de webhook, les problèmes de synchronisation des données, la cohérence éventuelle, la récupération après des événements manqués, la gestion de l'état des abonnements.

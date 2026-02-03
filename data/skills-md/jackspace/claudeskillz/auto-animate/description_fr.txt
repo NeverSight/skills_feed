@@ -1,0 +1,13 @@
+Configuration testée en production pour AutoAnimate (@formkit/auto-animate) - une bibliothèque d'animation sans configuration et à intégrer
+qui ajoute automatiquement des transitions fluides lorsque des éléments DOM sont ajoutés, supprimés ou déplacés. Cette compétence devrait
+être utilisé lors de la création d'interfaces utilisateur nécessitant des animations simples et automatiques pour les listes, les accordéons, les toasts ou la validation de formulaires
+messages sans la complexité des bibliothèques d’animation complètes.
+
+À utiliser lorsque : Ajout d'animations fluides à des listes dynamiques, création d'interfaces de filtrage/tri, création de composants en accordéon,
+implémenter des notifications toast, animer des messages de validation de formulaire, nécessiter des transitions simples sans code d'animation,
+travailler avec Vite + React + Tailwind, déployer sur Cloudflare Workers Static Assets ou rencontrer des erreurs SSR avec
+bibliothèques d'animations.
+
+Mots-clés : auto-animate, @formkit/auto-animate, formkit, animation sans configuration, animations automatiques, animation drop-in,
+animations de liste, animation accordéon, animation toast, animation de validation de formulaire, animation légère, animation 2 Ko,
+préfère le mouvement réduit, les animations accessibles, l'animation de réaction rapide, l'animation des travailleurs cloudflare, l'animation sécurisée ssr

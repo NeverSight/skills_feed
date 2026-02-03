@@ -1,0 +1,50 @@
+Compétences complètes en matière de tests E2E (de bout en bout) et d'intégration pour les projets TypeScript/NestJS utilisant Jest, une infrastructure réelle via Docker et le modèle GWT.
+
+Utilisez TOUJOURS cette compétence lorsque l'utilisateur doit :
+
+**CONFIGURATION** - Initialiser ou configurer l'infrastructure de test E2E :
+- Mettre en place les tests E2E pour un nouveau projet
+- Configurer docker-compose pour les tests (Kafka, PostgreSQL, MongoDB, Redis)
+- Créer une configuration jest-e2e.config.ts ou E2E Jest
+- Configurer des assistants de test pour la base de données, Kafka ou Redis
+- Configurer les variables d'environnement .env.e2e
+- Créer une structure de répertoires test/e2e
+
+**ÉCRIRE** - Créez ou ajoutez des tests E2E/intégration :
+- Écrire, créer, ajouter ou générer des tests e2e ou des tests d'intégration
+- Testez les points de terminaison de l'API, les flux de travail ou les fonctionnalités complètes de bout en bout
+- Testez avec de vraies bases de données, des courtiers de messages ou des services externes
+- Tester les consommateurs/producteurs Kafka, les workflows événementiels
+- Travailler sur n'importe quel fichier se terminant par .e2e-spec.ts ou dans le répertoire test/e2e/
+- Utiliser le modèle GWT (Given-When-Then) pour les tests
+
+**REVIEW** - Auditer ou évaluer les tests E2E :
+- Examiner les tests E2E existants pour la qualité
+- Vérifier les modèles d'isolement et de nettoyage des tests
+- Auditer la conformité du modèle GWT
+- Évaluer la qualité et la spécificité des assertions
+- Vérifier les anti-modèles (plusieurs actions WHEN, assertions conditionnelles)
+
+**RUN** - Exécuter ou analyser les résultats des tests E2E :
+- Exécuter des tests E2E
+- Démarrer/arrêter l'infrastructure Docker pour les tests
+- Analyser les résultats des tests E2E
+- Vérifier que les services Docker sont sains
+- Interpréter les résultats et les échecs des tests
+
+**DEBUG** - Correction des tests E2E défaillants ou instables :
+- Correction des tests E2E défaillants
+- Déboguer les tests irréguliers ou les problèmes d'isolation des tests
+- Dépanner les erreurs de connexion (base de données, Kafka, Redis)
+- Résoudre les problèmes de délai d'attente ou les échecs d'opérations asynchrones
+- Diagnostiquer les conditions de concurrence ou les fuites d'état
+- Déboguer les problèmes de consommation des messages Kafka
+
+**OPTIMISE** - Améliorez les performances des tests E2E :
+- Accélérez les tests E2E lents
+- Optimiser le démarrage de l'infrastructure Docker
+- Remplacez les attentes fixes par des sondages intelligents
+- Réduire avant chaque temps de nettoyage
+- Améliorer la parallélisation des tests là où cela est sûr
+
+Mots clés : e2e, de bout en bout, test d'intégration, e2e-spec.ts, test/e2e, Jest, supertest, NestJS, Kafka, Redpanda, PostgreSQL, MongoDB, Redis, docker-compose, modèle GWT, Given-When-Then, infrastructure réelle, isolation des tests, test irrégulier, MSW, nock, waitForMessages, fix e2e, debug e2e, exécuter e2e, examiner e2e, optimiser e2e, configurer e2e
