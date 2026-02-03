@@ -1,0 +1,5 @@
+該技能提供了使用 Hono 構建類型安全 API 的全面知識，重點關注路由模式、中間件組合、請求驗證、RPC 客戶端/服務器模式、錯誤處理和上下文管理。
+
+使用時機：使用 Hono（任何運行時）構建 API、使用 Zod/Valibot/Typia/ArkType 驗證器設置請求驗證、創建類型安全的 RPC 客戶端/服務器通信、實現自定義中間件、使用 HTTPException 處理錯誤、使用自定義變量擴展 Hono 上下文，或遇到中間件類型推斷問題、驗證掛鉤混淆或 RPC 性能問題。
+
+關鍵詞：hono、hono 路由、hono 中間件、hono rpc、hono 驗證器、zod 驗證器、valibot 驗證器、類型安全 api、hono 上下文、hono 錯誤處理、HTTPException、c.req.valid、中間件組合、hono 鉤子、類型化路由、hono 客戶端、中間件響應未鍵入、hono 驗證失敗、hono rpc 類型推斷

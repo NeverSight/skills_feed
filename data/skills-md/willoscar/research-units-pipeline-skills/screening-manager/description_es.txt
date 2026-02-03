@@ -1,0 +1,6 @@
+Administre la selección de títulos/resúmenes y registre las decisiones en `papers/screening_log.csv` de acuerdo con un protocolo aprobado.
+**Activador**: selección, selección de título/resúmenes, inclusión/exclusión, screening_log.csv, 文献筛选, 纳入排除.
+**Utilizar cuando**: revisión sistemática 的 screening 阶段（C2），protocol 已锁定并通过 HUMAN 审批。
+**Omitir si**: 还没有 `output/PROTOCOL.md`（或 protocolo 未通过签字）。
+**Red**: ninguna.
+**Barandilla**: 每条记录包含决策与理由；保持可审计（不要把“未读/不确定”当作纳入）。

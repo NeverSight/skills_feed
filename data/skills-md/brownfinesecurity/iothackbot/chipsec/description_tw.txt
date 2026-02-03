@@ -1,0 +1,1 @@
+使用英特爾的chipsec 框架對UEFI/BIOS 固件轉儲進行靜態分析。解碼固件結構、檢測已知惡意軟件和 rootkit（LoJax、ThinkPwn、HackingTeam、MosaicRegressor）、使用哈希值生成 EFI 可執行清單、提取 NVRAM 變量並解析 SPI 閃存描述符。在離線分析固件 .bin/.rom/.fd/.cap 文件時使用，無需硬件訪問。

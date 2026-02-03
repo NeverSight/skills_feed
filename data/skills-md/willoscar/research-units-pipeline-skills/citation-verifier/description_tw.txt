@@ -1,0 +1,6 @@
+從紙質筆記中生成並驗證 BibTeX 條目，編寫“引用/ref.bib”和“引用/verified.jsonl”。
+**觸發器**：引用、BibTeX、ref.bib、verified.jsonl、參考文獻、引用、參考文獻。
+**使用時**：已有`papers/paper_notes.jsonl`，需要為prose/LaTeX準備可追溯的引用（每條都有url/date/title驗證記錄）。
+**如果**跳過：還沒有紙質筆記（或本次洪水引用不需要/參考文獻）。
+**網絡**：自動驗證通常需要網絡；無網絡時可先記錄，再標註需要手動驗證。
+**Guardrail**: 每個 BibTeX 條目必須對應一條 `itations/verified.jsonl` 記錄；prose 只能使用已存在於 `itations/ref.bib` 的引用鍵。

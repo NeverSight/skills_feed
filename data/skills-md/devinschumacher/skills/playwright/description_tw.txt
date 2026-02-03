@@ -1,0 +1,1 @@
+用於 E2E 測試和臨時瀏覽器自動化的 Canonical Playwright 中心。當用戶明確提及“Playwright”、“@playwright/test”、“npx playwright”、“playwright.config.ts”、“PWDEBUG”、“trace 查看器”或“toHaveScreenshot”時使用。除非請求 Playwright，否則請避免用於通用瀏覽器自動化，並避免用於純粹的網頁抓取。

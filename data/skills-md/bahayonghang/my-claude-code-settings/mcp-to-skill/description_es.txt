@@ -1,0 +1,6 @@
+Convierta servidores MCP (Protocolo de contexto modelo) a Claude Code Skills. Úselo cuando:
+(1) El usuario desea convertir un proyecto de servidor MCP en una habilidad
+(2) El usuario menciona "MCP a habilidad", "convertir MCP" o "MCP 转 habilidad"
+(3) El usuario tiene una base de código de servidor MCP y quiere convertirla en una habilidad reutilizable
+(4) El usuario desea analizar la estructura del servidor MCP para la creación de habilidades
+Admite servidores TypeScript/JavaScript y Python MCP. Genera un paquete de habilidades completo con SKILL.md, scripts y referencias.

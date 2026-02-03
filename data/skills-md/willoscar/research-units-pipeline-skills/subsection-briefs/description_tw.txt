@@ -1,0 +1,6 @@
+構建每個小節的寫作摘要（無散文），以便以後的起草由證據和可檢查的比較軸（而不是大綱佔位符）驅動。
+**觸發器**：分段摘要、書寫卡、意圖卡、H3摘要、範圍規則、軸、簇、寫作意圖卡、小節對應、段落計劃。
+**當**使用： `outline/outline.yml` + `outline/mapping.tsv` + `papers/paper_notes.jsonl` 存在，並且您希望逐節起草而不洩漏模板。
+**如果**跳過：`outline/subsection_briefs.jsonl`已經存在並且已完善（沒有佔位符/省略號；軸+簇+paragraph_plan已填充）。
+**網絡**：無。
+**護欄**：沒有散文；不要發明論文；僅引用存在於 `papers/paper_notes.jsonl` 中的 `paper_id`/`bibkey`。

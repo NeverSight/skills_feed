@@ -1,0 +1,1 @@
+檢測並修復導致韓語和其他非 ASCII 字符在 Windows 上顯示不正確的 PowerShell 腳本編碼問題。在以下情況下使用：(1) PowerShell 腳本顯示亂碼韓語/非 ASCII 文本，(2) 創建包含非 ASCII 內容的新 .ps1 文件，(3) 在提交 PowerShell 腳本之前驗證編碼，或 (4) 對 PowerShell 輸出中的字符顯示問題進行故障排除。

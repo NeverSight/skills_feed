@@ -1,0 +1,3 @@
+Cree aplicaciones de escritorio seguras con Electron 33, Vite, React y TypeScript. Cubre IPC con seguridad de tipos a través de contextBridge, OAuth con controladores de protocolo personalizados, compatibilidad de módulos nativos (better-sqlite3, electron-store) y empaquetado de generadores de electrones.
+
+Úselo al crear aplicaciones de escritorio multiplataforma, implementar flujos de OAuth en Electron, manejar la comunicación del proceso principal/renderizador o empaquetar con firma de código. Previene: discrepancias en NODE_MODULE_VERSION, claves de cifrado codificadas, omisiones de aislamiento de contexto y conflictos de espacio aislado con módulos nativos.

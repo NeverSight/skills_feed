@@ -1,0 +1,6 @@
+Implemente la autenticación OAuth 2.0 con GitHub y Microsoft Entra (Azure AD) en Cloudflare Workers
+y otros entornos periféricos. Cubre peculiaridades específicas del proveedor, encabezados requeridos, requisitos de alcance,
+y manejo de tokens sin MSAL.
+
+Úselo cuando: implemente GitHub OAuth, autenticación de Microsoft/Azure AD, maneje devoluciones de llamadas de OAuth,
+o solucionar errores 403 en flujos de OAuth.

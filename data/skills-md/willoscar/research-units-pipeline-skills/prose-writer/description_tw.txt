@@ -1,0 +1,6 @@
+從批准的大綱和證據包中編寫“output/DRAFT.md”（或“output/SNAPSHOT.md”），僅使用“itations/ref.bib”中經過驗證的引用鍵。
+**觸發**：寫草稿、散文作家、快照、調查寫作、寫綜述、生成草稿、逐節起草。
+**在以下情況下使用**：結構已批准（“DECISIONS.md”具有“批准 C2”）並且存在證據包（“outline/subsection_briefs.jsonl”、“outline/evidence_drafts.jsonl”）。
+**如果**則跳過：缺少批准，或證據包不完整/搭建（缺少字段、TODO 標記）。
+**網絡**：無。
+**護欄**：不要發明事實或引文；僅引用“引用/ref.bib”中存在的關鍵字；避免最終散文中出現管道術語洩漏。

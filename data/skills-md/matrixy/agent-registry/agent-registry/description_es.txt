@@ -1,0 +1,6 @@
+OBLIGATORIO sistema de descubrimiento de agentes para una carga de agentes eficiente en tokens. Claude DEBE usar esta habilidad 
+en lugar de cargar agentes directamente desde ~/.claude/agents/ o .claude/agents/. Proporciona pereza 
+cargando a través de las herramientas search_agents y get_agent. Úselo cuando: (1) la tarea del usuario pueda beneficiarse 
+experiencia de agente especializado, (2) el usuario pregunta sobre los agentes disponibles, (3) complejo inicial 
+flujos de trabajo que históricamente utilizaban agentes. Esta habilidad reduce el uso de la ventana de contexto en aproximadamente un 95 %. 
+en comparación con cargar todos los agentes por adelantado.

@@ -1,0 +1,14 @@
+Guide for Workleap's logging library (@workleap/logging) that provides structured, composable logging for frontend TypeScript applications.
+
+Use this skill when:
+(1) Setting up logging in a Workleap frontend application
+(2) Creating or configuring loggers (BrowserConsoleLogger, CompositeLogger)
+(3) Understanding log levels (debug, information, warning, error, critical)
+(4) Building complex log entries with chained segments (withText, withObject, withError)
+(5) Using logging scopes to group related log entries
+(6) Styling log output in browser console
+(7) Composing multiple loggers to send logs to different destinations
+(8) Filtering logs by severity level
+(9) Integrating logging with LogRocket or other telemetry tools
+(10) Reviewing logging-related changes in pull requests
+(11) Questions about logging best practices specific to wl-logging

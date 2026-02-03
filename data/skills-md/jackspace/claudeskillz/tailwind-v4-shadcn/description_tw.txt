@@ -1,0 +1,15 @@
+使用 shadcn/ui、Vite 和 React 對 Tailwind CSS v4 進行了生產測試設置。
+
+使用時機：使用 Tailwind v4 初始化 React 項目、設置 shadcn/ui、
+實現黑暗模式，調試 CSS 變量問題，修復主題切換，
+從 Tailwind v3 遷移，或遇到顏色/主題問題。
+
+涵蓋：@theme 內聯模式、CSS 變量架構、深色模式
+ThemeProvider、組件構成、vite.config 設置、常見 v4 陷阱、
+和經過生產測試的模式。
+
+關鍵詞：Tailwind v4、shadcn/ui、@tailwindcss/vite、@theme inline、深色模式、
+CSS 變量、hsl() 包裝器、components.json、React 主題、主題切換、
+顏色不起作用，變量損壞，主題不適用，@plugin指令，
+版式插件、表單插件、散文類、@tailwindcss/typography、
+@tailwindcss/表格

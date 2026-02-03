@@ -1,0 +1,6 @@
+Escriba el contenido del tutorial (`output/TUTORIAL.md`) a partir de un plan de módulo aprobado, incluidos ejercicios y esquemas de respuestas.
+**Activador**: escribir tutorial, módulos de tutorial, 教程写作, TUTORIAL.md.
+**Usar cuando**: canalización del tutorial 的写作阶段（C3），且 `DECISIONS.md` 已记录 HUMAN 对 alcance/ejemplo de ejecución 的批准（C2）。
+**Omitir si**: plan de módulo 未完成/未批准（先跑 `module-planner`/`exercise-builder` 并通过 Approv C2）。
+**Red**: ninguna.
+**Guardrail**: ejemplo de ejecución de 只写已批准范围；保持 一致；每模块包含练习与答案要点。

@@ -1,0 +1,16 @@
+Configuración probada en producción para la gestión del estado de Zustand en aplicaciones React con TypeScript.
+Esta habilidad proporciona patrones integrales para crear un estado global escalable y con seguridad de tipos.
+
+Úselo cuando: configurar el estado global en React, migrar desde Redux o Context API, implementar
+persistencia del estado con localStorage, configuración de TypeScript con Zustand, usando el patrón de cortes
+para tiendas modulares, agregar middleware devtools para depuración, manejar la hidratación de Next.js SSR,
+o encontrar errores de hidratación, problemas de inferencia de TypeScript o problemas persistentes de middleware.
+
+Previene 5 problemas documentados: discrepancias de hidratación de Next.js, paréntesis dobles de TypeScript
+errores de sintaxis, errores persistentes de exportación de middleware, bucles de renderizado infinitos y patrón de cortes
+Fallos en la inferencia de tipos.
+
+Palabras clave: zustand, gestión de estado, estado de React, estado de TypeScript, middleware persistente,
+devtools, patrón de cortes, estado global, ganchos de React, crear tienda, useBoundStore,
+StateCreator, error de hidratación, discrepancia en el contenido del texto, renderizado infinito, almacenamiento local,
+sessionStorage, middleware integrado, igualdad superficial, patrón de selección, zustand v5

@@ -1,0 +1,6 @@
+Reescriba los introductores de subsecciones para que dejen de leerse como una tabla de contenido generada: elimine las raíces de \"descripción general/narración\" y reduzca las cadencias repetidas de los introductores en los H3.
+**Disparador**: variador de abridor, reescritura de abridor, reescritura de abridores, abridor de descripción general, 开头改写, 小节开头, 去overview, 去旁白.
+**Úselo cuando**: `writer-selfloop` es APROBADO pero marca las raíces repetidas del abridor/narración general en `output/WRITER_SELFLOOP_TODO.md`, o el borrador todavía tiene una sutil “cadencia de generador”.
+**Omitir si**: eres pre-C2 (SIN PROSA), o la sección tiene poca evidencia (ruta aguas arriba; no estilices el relleno).
+**Red**: ninguna.
+**Barandilla**: no inventes hechos; no agregue/elimine/mueva claves de citas; no mueva las citas entre subsecciones; mantener el significado intacto.

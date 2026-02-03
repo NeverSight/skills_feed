@@ -1,0 +1,6 @@
+Escriba bloques principales del capítulo H2 (`sections/S<sec_id>_lead.md`) que obtengan una vista previa de la lente de comparación del capítulo\x27 y conecten sus subsecciones H3, sin agregar nuevos hechos.
+**Activador**: escritor principal del capítulo, escritor principal de la sección, líder H2, párrafo principal, 章节导读, 章节导语.
+**Úselo cuando**: tiene capítulos H2 con múltiples subsecciones H3 y el borrador se lee como \"islas de párrafos\" en las subsecciones.
+**Omitir si**: el esquema no tiene subsecciones H3, o falta `outline/chapter_briefs.jsonl` (primero cree los resúmenes).
+**Red**: ninguna.
+**Guardrail**: no hay nuevos hechos/citas; sin títulos; sin plantillas de narración; use solo claves de citas presentes en `citations/ref.bib`.

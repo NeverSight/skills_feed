@@ -1,0 +1,1 @@
+使用 Graphite CLI (gt) 而不是 git push/gh pr create 管理堆疊的 PR。自動檢測 Graphite 存儲庫並使用有用的替代方案阻止衝突的命令。在以下情況下使用：(1) 即將在 Graphite 存儲庫中運行 git push 或 gh pr create，(2) 為某個功能創建新分支，(3) 提交代碼以供審核，(4) 應拆分為可審核塊的大型更改，(5) Hook 會阻止您的 git 命令並建議使用 gt 等效命令。不適合：未使用 Graphite、git add/commit/status/log 初始化的存儲庫。觸發器：git push 受阻、gh pr create 受阻、創建分支、提交 PR、堆疊 PR、拆分大型 PR、gt 創建、gt 提交、石墨工作流程。

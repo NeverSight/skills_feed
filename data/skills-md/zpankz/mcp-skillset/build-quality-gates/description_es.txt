@@ -1,0 +1,9 @@
+Metodología sistemática para implementar puertas integrales de calidad de construcción utilizando el marco BAIME.
+Logró una cobertura de errores del 98 % con un tiempo de detección de 17,4 s, lo que redujo las fallas de CI del 40 % al 5 %.
+
+**Resultados validados**:
+- V_instancia: 0,47 → 0,876 (+86%)
+- V_meta: 0,525 → 0,933 (+78%)
+- Cobertura de errores: 30% → 98% (+227%)
+- Tasa de fracaso de CI: 40% → 5% (-87,5%)
+- Tiempo de detección: 480s → 17,4s (-96,4%)

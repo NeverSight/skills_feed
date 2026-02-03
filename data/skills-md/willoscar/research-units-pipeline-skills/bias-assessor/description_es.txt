@@ -1,0 +1,6 @@
+Agregue campos de evaluación de sesgo/riesgo de sesgo a una tabla de extracción y rellénelos de manera consistente.
+**Desencadenante**: sesgo, riesgo de sesgo, RoB, calidad de la evidencia, 偏倚评估, 证据质量.
+**Usar cuando**: revisión sistemática 已生成 `papers/extraction_table.csv`，需要在 syntesis 前补齐偏倚/质量字段。
+**Omitir si**: 不是 revisión sistemática, 或还没有 `papers/extraction_table.csv`.
+**Red**: ninguna.
+**Guardrail**: 使用简单可复核刻度（bajo/poco claro/alto）+ 简短 notas；保持字段一致性。

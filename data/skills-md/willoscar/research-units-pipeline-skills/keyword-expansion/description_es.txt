@@ -1,0 +1,6 @@
+Amplíe y refine las palabras clave de búsqueda (sinónimos, acrónimos, exclusiones) y actualice `queries.md`.
+**Activador**: expansión de palabras clave, sinónimos, exclusiones, queries.md, 关键词扩展, 同义词, 排除词.
+**Utilizar cuando**: 检索覆盖不足/噪声过大，或主题别名很多，需要系统化扩展与收敛检索词。
+**Omitir si**: `queries.md` 已经能稳定检出覆盖面（无需扩大范围导致后续成本爆炸）。
+**Red**: ninguna.
+**Guardrail**: 保持可控的 consulta 数量；明确 exclusiones；避免“无限扩展”。

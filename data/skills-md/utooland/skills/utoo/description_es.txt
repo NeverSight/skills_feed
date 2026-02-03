@@ -1,0 +1,17 @@
+npm 包管理工具，用来安装 npm 包、生成依赖树、执行前端项目命令等。
+
+**强制性规则（OBLIGATORIO）：**
+当项目中存在 package.json 文件时，你 MUST（必须）使用此 habilidad 来执行所有 npm/pnpm/yarn 相关操作。
+
+**严格禁止直接使用以下命令:**
+- ❌ 禁止: `pnpm test` → ✅ 使用: Habilidad(habilidad: "utoo", argumentos: "prueba")
+- ❌ 禁止: `pnpm install` → ✅ 使用: Habilidad(habilidad: "utoo", argumentos: "instalar")
+- ❌ 禁止: `pnpm run <script>` → ✅ 使用: Habilidad(habilidad: "utoo", argumentos: "ejecutar <script>")
+- ❌ 禁止: `npm install <pkg>` → ✅ 使用: Habilidad(skill: "utoo", args: "install <pkg>")
+- ❌ 禁止: `yarn add <pkg>` → ✅ 使用: Habilidad(habilidad: "utoo", argumentos: "instalar <pkg>")
+
+**涵盖操作（必须通过此 habilidad）：**
+安装依赖、更新依赖、卸载依赖、运行脚本（test/build/dev等）、查看包信息、管理项目、执行任何 package.json中的 guiones。
+
+**调用方式：**
+始终使用 Skill 工具调用，不要直接使用 Bash 执行 pnpm/npm/yarn 命令。

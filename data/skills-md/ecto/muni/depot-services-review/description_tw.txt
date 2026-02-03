@@ -1,0 +1,1 @@
+在 depot/ 目錄中回顧 Rust 微服務，重點關注 Axum Web 框架、SQLx 數據庫模式、Docker 部署和 WebSocket 通信。在檢查倉庫服務更改（發現、調度、map-api、gps-status、映射器）、添加新端點、修改數據庫架構、實施 WebSocket 協議或調試服務集成問題時使用。涵蓋 Tokio 異步模式、REST/WebSocket API 設計、PostgreSQL 遷移、錯誤處理、運行狀況檢查和 Docker 多階段構建。

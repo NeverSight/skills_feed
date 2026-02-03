@@ -1,0 +1,3 @@
+使用 Neon 或 Vercel Postgres 為 Cloudflare Workers/Edge 設置無服務器 Postgres。包括連接池、用於預覽環境的類似 git 的分支以及 Drizzle/Prisma 集成。
+
+在以下情況下使用：設置邊緣 Postgres、配置數據庫分支或對“不支持 TCP”進行故障排除、連接池耗盡、SSL 配置 (sslmode=require) 或 Prisma 邊緣兼容性。

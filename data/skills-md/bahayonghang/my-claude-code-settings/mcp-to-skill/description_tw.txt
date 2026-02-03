@@ -1,0 +1,6 @@
+將 MCP（模型上下文協議）服務器轉換為 Claude Code Skills。使用時：
+(1) 用戶想要將MCP服務器項目轉換為技能
+(2) 用戶提及“MCP轉技能”、“轉換MCP”或“MCP轉技能”
+(3) 用戶擁有 MCP 服務器代碼庫並希望使其成為可重用的技能
+(4) 用戶想要分析MCP服務器結構以創建技能
+支持 TypeScript/JavaScript 和 Python MCP 服務器。生成包含 SKILL.md、腳本和參考的完整技能包。

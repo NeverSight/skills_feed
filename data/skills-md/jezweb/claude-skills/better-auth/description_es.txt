@@ -1,0 +1,3 @@
+Autenticación autohospedada para trabajadores de TypeScript/Cloudflare con autenticación social, 2FA, claves de acceso, organizaciones, RBAC y más de 15 complementos. Requiere Drizzle ORM o Kysely para D1 (sin adaptador directo). Alternativa autohospedada a Clerk/Auth.js.
+
+Úselo cuando: autenticación de autohospedaje en D1, creación de proveedor OAuth, SaaS multiinquilino o resolución de errores del adaptador D1, almacenamiento en caché de sesiones, límites de velocidad, fallas de Expo, errores de Fields adicionales.

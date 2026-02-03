@@ -1,0 +1,13 @@
+API REST para intercambios de tokens, puentes y operaciones DeFi entre cadenas y en la misma cadena.
+
+UTILICE ESTA HABILIDAD CUANDO EL USUARIO QUIERA:
+- Intercambiar tokens entre diferentes blockchains (por ejemplo, "intercambiar USDC en Ethereum por ETH en Arbitrum")
+- Puentear tokens a otra cadena (por ejemplo, "mover mi ETH de la red principal a Optimismo")
+- Intercambie tokens en la misma cadena con las mejores tarifas (por ejemplo, "intercambie ETH por USDC en Polygon")
+- Encuentre la mejor ruta o cotización para un intercambio de tokens entre cadenas
+- Ejecutar operaciones DeFi en todas las cadenas (zap, puente+intercambio+depósito, entrada de cultivo de rendimiento)
+- Cree flujos de pago de múltiples cadenas (acepte cualquier token, liquide en un token específico)
+- Verifique las cadenas, tokens o puentes admitidos para transferencias entre cadenas
+- Seguimiento del estado de una transacción entre cadenas
+- Cree servicios de backend (Python, Go, Rust, etc.) que necesiten intercambios entre cadenas.
+- Integre la funcionalidad entre cadenas a través de HTTP/REST (no del SDK de JavaScript)

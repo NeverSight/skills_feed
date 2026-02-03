@@ -1,0 +1,1 @@
+調試 Crossplane 組合、函數（KCL、Go 模板、修補和轉換、自動就緒）和託管資源。在對合成渲染問題、函數錯誤、資源創建失敗、依賴性問題或聲明狀態問題進行故障排除時使用。當合成文件本地不可用時，支持遠程集群調試。在“crossplane”、“composition”、“XR”、“claim”、“function-kcl”、“託管資源”等關鍵字上觸發，或者在調試由 Crossplane 創建的 Kubernetes 資源時觸發。

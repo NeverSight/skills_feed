@@ -1,0 +1,14 @@
+通過自然語言命令管理產品計劃、史詩和利益相關者。
+使用 YAML frontmatter 將數據存儲為 Logseq 兼容的 markdown 文件。
+
+當用戶需要時使用：
+- 創建、更新、列出或展示倡議和史詩
+- 跟踪計劃文檔的完整性
+- 管理人員、團隊和合作夥伴
+- 檢查缺少哪些信息
+- 初始化存儲庫結構
+
+觸發：/init_repository、/create_initiative、/list_initiatives、/show_initiative、
+/update_initiative、/what_missing、/create_epic、/list_epics、/create_person、
+/create_team、/create_partner、/create_product_area、/list_product_areas、
+/show_product_area、/update_product_area、/help

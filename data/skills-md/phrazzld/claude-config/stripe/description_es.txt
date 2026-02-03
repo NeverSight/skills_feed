@@ -1,0 +1,5 @@
+Gestión completa del ciclo de vida de Stripe. Audita el estado actual, soluciona todos los problemas,
+y verifica que los flujos de pago funcionen de principio a fin. Cada carrera hace todo esto.
+
+Invocar automáticamente cuando: los archivos contienen stripe/pago/pago/webhook, importa stripe
+paquete, hace referencia a STRIPE_* env vars, controladores de webhook modificados.

@@ -1,0 +1,6 @@
+Aumente la diversidad/densidad de las citas (SIN HECHOS NUEVOS): genere un plan de “presupuesto de citas” dentro del alcance por H3 para que los borradores dejen de fallar en la puerta global de citas únicas y dejen de parecer subcitados.
+**Activador**: aumento de citas, presupuesto de citas, citas únicas demasiado bajas, agregar más citas, mejorar la densidad de referencias, 引用太少, 增加引用, 引用密度.
+**Úselo cuando**: `pipeline-auditor` FALLA debido a un bajo número de citas únicas, o desea aumentar la densidad de citas sin cambiar los reclamos.
+**Omita si**: necesita documentos nuevos (arregle primero el mapeo C1/C2), o falta `citations/ref.bib`/`outline/writer_context_packs.jsonl`.
+**Red**: ninguna.
+**Barandilla**: NO HAY HECHOS NUEVOS; no inventes citas; utilice únicamente las claves que ya están presentes en `citations/ref.bib`; mantenga las citas dentro del alcance permitido de cada H3 (`outline/writer_context_packs.jsonl` / `outline/evidence_bindings.jsonl`).

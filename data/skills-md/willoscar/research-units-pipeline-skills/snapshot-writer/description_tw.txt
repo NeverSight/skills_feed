@@ -1,0 +1,6 @@
+從一個小的核心集+一個僅項目符號的大綱中編寫一個一頁的文獻快照（“output/SNAPSHOT.md”）。
+**觸發**：快照、文獻快照、速覽、48小時快照、一頁快照、SNAPSHOT.md。
+**使用時間**：你需要在 24-48 小時內交付一個“無可爭議的研究速覽”（項目符號優先，包含關鍵引用），而不是完整的調查。
+**如果**則跳過：你已經進入證據優先調查寫作（有 `outline/evidence_drafts.jsonl` / `itations/ref.bib` / `output/DRAFT.md`），應改用 `subsection-writer`/`prose-writer`。
+**網絡**：無。
+**Guardrail**：不發明論文/引用；引用僅來自`papers/core_set.csv`（或同工作空間的候選池）；不寫長段落（“避免像綜述生成器”）。

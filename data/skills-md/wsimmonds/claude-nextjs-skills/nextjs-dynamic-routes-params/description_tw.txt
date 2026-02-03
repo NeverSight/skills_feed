@@ -1,0 +1,1 @@
+Next.js App Router 動態路由和路徑名參數指南。在構建依賴於 URL 段（ID、slugs、嵌套路徑）的頁面、訪問“params”屬性或通過標識符獲取資源時使用。通過默認最簡單的路由結構（例如，除非 URL 需要它，否則使用 `app/[id]` 而不是 `app/products/[id]`）來幫助避免過度嵌套。

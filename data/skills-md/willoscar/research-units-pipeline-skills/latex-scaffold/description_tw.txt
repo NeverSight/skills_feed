@@ -1,0 +1,6 @@
+從現有的 Markdown 草稿和“引用/ref.bib”中搭建一個 LaTeX 項目（“latex/main.tex”、參考書目佈線、結構）。
+**觸發器**：latex腳手架，md→tex，LaTeX項目重構，生成main.tex。
+**使用時**：需要LaTeX/PDF交付（例如arxiv-survey-latex pipeline），且草稿生成已/已進入寫作階段。
+**如果**則跳過：還沒有 `output/DRAFT.md`（或者你不需要 LaTeX 交付）。
+**網絡**：無。
+**Guardrail**: 移除 markdown 過量（`##`, `**`, `[@...]`）；參考書目指向 `itations/ref.bib`；這裡不步驟改寫內容。

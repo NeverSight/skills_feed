@@ -1,0 +1,4 @@
+Abstracciones de infraestructura de Foundatio para almacenamiento en caché, colas, mensajería, almacenamiento de archivos,
+bloqueo, empleos y resiliencia. Utilice context7 para obtener documentación API completa.
+Palabras clave: Foundatio, ICacheClient, IQueue, IMessageBus, IFileStorage, ILockProvider,
+IJob, QueueJobBase, resiliencia, reintento, Redis, Elasticsearch

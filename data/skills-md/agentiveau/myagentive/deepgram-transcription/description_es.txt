@@ -1,0 +1,1 @@
+Transcribe archivos de audio y video usando la API de Deepgram. Esta habilidad debe usarse cuando el usuario solicita la transcripción de archivos de audio (mp3, wav, m4a, aac) o archivos de video (mp4, mov, avi, etc.). Maneja archivos de video grandes extrayendo primero el audio para reducir el tamaño de carga y el tiempo de procesamiento.

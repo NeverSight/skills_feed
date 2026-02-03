@@ -1,0 +1,15 @@
+Guía completa para la API de Google Gemini usando el SDK actual CORRECTO (@google/genai v1.27+, NO el
+en desuso @google/generative-ai). Cubre generación de texto, entradas multimodales (texto + imágenes + video +
+audio + PDF), llamadas de funciones, modo de pensamiento, transmisión e instrucciones del sistema con precisión 2025
+información del modelo (Gemini 2.5 Pro/Flash/Flash-Lite con tokens de entrada de 1M, NO 2M).
+
+Úselo cuando: integrando Gemini API, implementando aplicaciones de IA multimodal, usando el modo de pensamiento para
+razonamiento complejo, llamada a funciones con ejecución paralela, transmisión de respuestas, implementación en
+Trabajadores de Cloudflare, creación de aplicaciones de chat o advertencias de obsolescencia del SDK, ventana contextual
+errores, errores de modelo no encontrado, errores de llamada de funciones o errores de formato multimodal.
+
+Palabras clave: gemini api, @google/genai, gemini-2.5-pro, gemini-2.5-flash, gemini-2.5-flash-lite,
+gemini multimodal, modo de pensamiento, google ai, genai sdk, función de llamada a gemini, streaming de gemini,
+visión gemini, video gemini, audio gemini, pdf gemini, instrucciones del sistema, chat multiturno,
+DEPRECADO @google/generative-ai, ventana de contexto de gemini, modelos de gemini 2025, tokens de 1 millón de gemini,
+uso de herramientas gemini, llamadas a funciones paralelas, llamadas a funciones compositivas

@@ -1,0 +1,5 @@
+該技能提供了使用 Cloudflare Sandboxes SDK 構建應用程序的全面知識，從而可以在邊緣的完整 Linux 容器中安全、隔離地執行代碼。它應該在執行不受信任的代碼、運行 Python/Node.js 腳本、執行 git 操作、構建 AI 代碼執行系統、創建交互式開發環境或實現需要完整操作系統功能的 CI/CD 工作流程時使用。
+
+使用時機：設置 Cloudflare 沙箱、安全執行 Python/Node.js 代碼、管理有狀態開發環境、實施 AI 代碼解釋器、獨立運行 shell 命令、以編程方式處理 git 存儲庫、構建基於聊天的編碼代理、創建臨時構建環境、使用系統工具（ffmpeg、imagemagick 等）處理文件，或者遇到容器生命週期、會話管理或狀態持久性問題時。
+
+關鍵詞：cloudflare 沙箱、容器執行、代碼執行、隔離環境、持久對象、linux 容器、python 執行、節點執行、git 操作、代碼解釋器、AI 代理、會話管理、臨時容器、工作區、沙箱 SDK、@cloudflare/sandbox、exec()、getSandbox()、runCode()、gitCheckout()、ubuntu 容器

@@ -1,0 +1,1 @@
+在 Dify 前端重構高複雜性 React 組件。當 `pnpmanalyze-component --json` 顯示複雜性 > 50 或 lineCount > 300 時，當用戶要求代碼分割、鉤子提取或降低複雜性時，或者當 `pnpmanalyze-component` 在測試前警告重構時使用；避免使用簡單/結構良好的組件、第三方包裝器，或者當用戶明確希望在不重構的情況下進行測試時。

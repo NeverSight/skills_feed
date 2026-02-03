@@ -1,0 +1,11 @@
+在 Cloudflare Workers 上構建持久、長期運行的工作流程，具有自動重試、狀態持久性和
+多步驟編排。支持step.do、step.sleep、step.waitForEvent，並運行數小時到數天。
+
+使用時機：創建長時間運行的工作流程、實施重試邏輯、構建事件驅動流程、
+協調 API 調用、安排多步驟任務或對 NonRetryableError、I/O 上下文進行故障排除
+序列化錯誤或工作流執行失敗。
+
+關鍵詞：cloudflare 工作流程、工作流程工作人員、持久執行、工作流程步驟、
+WorkflowEntrypoint、step.do、step.sleep、工作流重試、NonRetryableError、
+工作流程狀態、wrangler 工作流程、工作流程事件、長時間運行的任務、step.sleepUntil、
+step.waitForEvent，工作流綁定

@@ -1,0 +1,3 @@
+使用 MSAL.js 對 React SPA 進行 Microsoft Entra ID (Azure AD) 身份驗證，並使用 jose 庫進行 Cloudflare Workers JWT 驗證。具有授權代碼流 + PKCE 的全棧模式。防止 8 個記錄錯誤。
+
+使用時機：實施 Microsoft SSO、排除 AADSTS50058 循環、AADSTS700084 刷新令牌錯誤、React Router 重定向、setActiveAccount 重新渲染問題或驗證 Workers 中的 Entra ID 令牌。

@@ -1,0 +1,1 @@
+關注 SKILL.MD 中的狀態機。當用戶說“繼續”時：(1) FIRST：運行 pwd，(2) 宣布 STATE：CHECK_STATUS，(3) 讀取 .claude/session.md 以檢查 Status 字段，(4) 基於 Status 的路由。切勿自動推進任務。切勿使用 TodoWrite。永遠不要創建 git 提交。

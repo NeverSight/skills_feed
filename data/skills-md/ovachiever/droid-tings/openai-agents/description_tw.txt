@@ -1,0 +1,3 @@
+使用 OpenAI Agents SDK 構建 AI 應用程序 - 文本代理、語音代理（實時）、帶切換的多代理工作流程、帶 Zod 模式的工具、輸入/輸出護欄、結構化輸出和流。使用人機交互模式部署到 Cloudflare Workers、Next.js 或 React。
+
+使用場合：使用工具和 Zod 架構構建基於文本的代理、使用 WebRTC/WebSocket 創建實時語音代理、在專家之間進行切換來實現多代理工作流程、設置輸入/輸出安全護欄、需要人工批准關鍵操作、流代理響應、將代理部署到 Cloudflare Workers 或 Next.js，或者排除 Zod 架構類型錯誤、MCP 跟踪失敗、無限循環 (MaxTurnsExceededError)、工具調用失敗、架構不匹配，或者語音代理切換限制。

@@ -1,0 +1,9 @@
+Cloudflare Workers KV 的完整知識領域 - Cloudflare 邊緣網絡上的全局、低延遲鍵值存儲。
+
+使用場合：創建 KV 命名空間、存儲配置數據、緩存 API 響應、管理用戶首選項、
+實現TTL過期，處理KV元數據，或者遇到“KV_ERROR”，“429請求太多”，
+“kv 速率限制”、cacheTtl 錯誤或最終一致性問題。
+
+關鍵詞：kv 存儲、cloudflare kv、workers kv、kv 命名空間、kv 綁定、kv 緩存、kv ttl、kv 元數據、
+kv列表、kv分頁、緩存優化、邊緣緩存、KV_ERROR、429請求過多、kv速率限制、
+最終一致、牧馬人kv、kv操作、鍵值存儲

@@ -1,0 +1,3 @@
+Selección de pruebas inteligente basada en cambios de código. Asigna archivos fuente a pruebas mediante análisis de importación,
+implementa pruebas por niveles (rápidas < 1 min, impactadas < 5 min, conjunto completo) y realiza un seguimiento de la confiabilidad de las pruebas.
+Úselo al ejecutar pruebas después de cambios de código para optimizar los ciclos de retroalimentación y el tiempo de CI.

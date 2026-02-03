@@ -1,0 +1,6 @@
+身份驗證和授權模式，包括 OAuth2、JWT、RBAC/ABAC、會話管理、API 密鑰、密碼哈希和 MFA。
+
+使用時間：實施登錄流程、訪問控制、身份管理、令牌、權限、會話處理、API 密鑰身份驗證或 MFA。
+請勿使用：用於安全漏洞掃描（使用 /security-scan）、用於安全審核（使用 /security-audit）、用於威脅建模（使用 /threat-model）。
+
+觸發器：登錄、註銷、登錄、註冊、身份驗證、授權、密碼、憑證、令牌、JWT、OAuth、OAuth2、OIDC、SSO、SAML、會話、cookie、RBAC、ABAC、權限、角色、MFA、2FA、TOTP、API 密鑰、PKCE。

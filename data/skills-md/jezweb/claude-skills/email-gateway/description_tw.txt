@@ -1,0 +1,6 @@
+為 Cloudflare Workers 和 Node.js 應用程序發送多提供商電子郵件。
+
+使用 Resend（React Email 支持）、SendGrid（企業規模）構建交易電子郵件系統
+Mailgun（開發者 webhooks）或 SMTP2Go（可靠中繼）。包括模板模式、webhook
+驗證、附件處理和錯誤恢復。通過 API 發送電子郵件時使用，處理
+退回/投訴，或在提供商之間遷移。

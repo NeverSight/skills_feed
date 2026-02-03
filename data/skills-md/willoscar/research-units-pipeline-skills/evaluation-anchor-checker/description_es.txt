@@ -1,0 +1,6 @@
+Audite y reescriba evaluaciones/afirmaciones numéricas para asegurarse de que incluyan un contexto de protocolo mínimo (tarea + métrica + restricción) y evite nombres de modelos poco especificados.
+**Activador**: verificador de anclaje de evaluación, higiene de reclamos numéricos, números poco especificados, contexto de protocolo, 评测锚点检查, 数字断言, 指标上下文.
+**Usar cuando**: antes de la fusión/pulido final, o cuando los revisores probablemente marquen reclamos como poco especificados (números sin tarea/métrica/presupuesto), o cuando `pipeline-auditor` advierta sobre nombres de modelos sospechosos.
+**Omita si**: la evidencia es demasiado escasa para justificar afirmaciones numéricas (ruta ascendente a C3/C4), o usted es pre-C2 (SIN PROSA).
+**Red**: ninguna.
+**Barandilla**: no inventes números; no agregue/elimine/mueva claves de citas; Si falta el contexto del protocolo, debilite/elimine la afirmación numérica en lugar de adivinar.

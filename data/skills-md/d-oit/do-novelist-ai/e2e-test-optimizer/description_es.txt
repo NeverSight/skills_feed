@@ -1,0 +1,1 @@
+Optimiza las pruebas de Playwright E2E eliminando antipatrones de waitForTimeout, implementando esperas inteligentes y habilitando la fragmentación de pruebas para la ejecución paralela. Úselo cuando se agote el tiempo de espera de las pruebas, la ejecución de CI exceda los límites o se produzcan problemas de confiabilidad de las pruebas.

@@ -1,0 +1,1 @@
+編寫任何 TypeScript 代碼時始終使用此技能。該項目中的所有 TypeScript 必須使用 Effect 庫。使用 Effect 進行錯誤處理（不是 try/catch），使用 Effect.gen 進行異步代碼（不是使用 Promises 進行異步/等待），使用 Schema 進行驗證（不是 zod/yup），使用 Services 和 Layers 進行依賴注入，以及使用 Effect 模式進行所有業務邏輯。這適用於任何 TypeScript 文件創建、修改或代碼生成。

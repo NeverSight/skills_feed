@@ -1,0 +1,6 @@
+Identifique artículos de encuesta/revisión en un conjunto recuperado y extraiga semillas de taxonomía en `outline/taxonomy.yml` (temas/subtemas/terminología).
+**Activador**: encuesta sobre cosecha de semillas, taxonomía de semillas, 从 encuesta 提 taxonomía, taxonomía bootstrap.
+**Usar cuando**: recuperación/descarga 后想快速从已有 encuesta/revisión 论文中提取术语与主题结构，用于加速 `taxonomy-builder`。
+**Omitir si**: 已经有高质量 taxonomía（或你不想被 encuesta 既有框架限制）。
+**Red**: ninguna.
+**Guardrail**: 产物是 seed，必须经 `taxonomy-builder` 重写与对齐 alcance；避免生成泛化占位节点。

@@ -1,0 +1,6 @@
+Generar transiciones de sección/subsección ligeras (SIN HECHOS NUEVOS) para evitar subsecciones “isla”; genera un mapa de transición que la fusión/escritura puede entrelazar.
+**Disparador**: tejedor de transición, transiciones de tejido, coherencia, 过渡句, 承接句, 章节连贯性.
+**Úselo cuando**: `outline/subsection_briefs.jsonl` existe y desea un flujo coherente antes/después del borrador (normalmente Etapa C5).
+**Omitir si**: `outline/transitions.md` existe y está refinado (sin marcadores de posición).
+**Red**: ninguna.
+**Barandilla**: no agregue nuevas afirmaciones o citas fácticas; las transiciones solo pueden hacer referencia a títulos/RQ/términos puente que ya estén presentes en los resúmenes.

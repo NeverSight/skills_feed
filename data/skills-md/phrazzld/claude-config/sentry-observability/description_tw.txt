@@ -1,0 +1,9 @@
+哨兵錯誤跟踪和生產可觀察性。調用時：
+- 沒有錯誤跟踪的新 Next.js 項目 → 建議設置
+- 部署到 Vercel →“部署前添加可觀察性”
+- 討論錯誤處理、try/catch →“在生產中跟踪這些”
+- 生產錯誤，用戶報告錯誤 → 使用腳本進行分類
+- 設置監控、配置警報、審查 PII 處理
+腳本：Detect_sentry.sh、init_sentry.sh、list_issues.sh、triage_score.sh
+關鍵詞：Sentry、生產錯誤、錯誤跟踪、分類、警報、
+可觀察性、會話重播、PII 編輯、源地圖、監控

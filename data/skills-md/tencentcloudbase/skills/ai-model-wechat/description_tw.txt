@@ -1,0 +1,1 @@
+在開發需要AI能力的微信小程序（小程序、企業微信小程序、基於wx.cloud的應用程序）時使用此技能。具有文本生成（generateText）和流式傳輸（streamText）功能，並通過 wx.cloud.extend.AI 提供回調支持（onText、onEvent、onFinish）。內置模型包括Hunyuan（推薦hunyuan-2.0-instruct-20251111）和DeepSeek（推薦deepseek-v3.2）。 API 與 JS/Node SDK 不同——streamText 需要數據包裝器，generateText 返回原始響應。不適用於瀏覽器/Web 應用程序（使用 ai-model-web）、Node.js 後端（使用 ai-model-nodejs）或圖像生成（不支持）。

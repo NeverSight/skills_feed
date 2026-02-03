@@ -1,0 +1,4 @@
+適用於 Python 和 Node.js 應用程序的生產級 Docker 容器化。
+當用戶要求容器化應用程序、創建 Dockerfile、
+dockerize 項目，或設置 Docker Compose。自動檢測項目結構，
+分析 .env 的秘密、驗證安全性並生成經過測試的 Dockerfile。

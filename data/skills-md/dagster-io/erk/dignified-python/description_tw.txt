@@ -1,0 +1,1 @@
+具有自動版本檢測功能的 Python 編碼標準。在編寫、審查或重構 Python 時使用，以確保遵守 LBYL 異常處理模式、現代類型語法（list[str]、str | None）、pathlib 操作、基於 ABC 的接口、絕對導入和 CLI 級別的顯式錯誤邊界。還提供來自 Dagster Labs 的經過生產測試的代碼氣味模式，用於 API 設計、參數複雜性和代碼組織。對於維護 erk 尊嚴的 Python 標準至關重要。

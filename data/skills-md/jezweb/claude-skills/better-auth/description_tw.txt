@@ -1,0 +1,3 @@
+適用於 TypeScript/Cloudflare Workers 的自託管身份驗證，具有社交身份驗證、2FA、密鑰、組織、RBAC 和 15 個以上插件。 D1 需要 Drizzle ORM 或 Kysely（無直接適配器）。 Clerk/Auth.js 的自託管替代方案。
+
+使用場合：D1 上的自託管身份驗證、構建 OAuth 提供程序、多租戶 SaaS 或排除 D1 適配器錯誤、會話緩存、速率限制、Expo 崩潰、additionalFields 錯誤。

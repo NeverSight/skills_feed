@@ -1,0 +1,7 @@
+Cloudflare 持久對象的綜合指南 - 全球唯一的有狀態對象，用於協調、實時通信和持久狀態管理。
+
+使用時機：構建實時應用程序、創建具有休眠功能的 WebSocket 服務器、實現聊天室或多人遊戲、在多個客戶端之間進行協調、管理每個用戶或每個房間的狀態、實現速率限製​​或會話管理、使用警報調度任務、構建隊列或工作流，或者遇到“執行類導出”、“new_sqlite_classes”、“需要遷移”、“websocket 休眠”、“警報 api 錯誤”或“全局唯一性”錯誤。
+
+防止超過 15 個已記錄的問題：類未導出、缺少遷移、錯誤的遷移類型、構造函數開銷阻止休眠、setTimeout 中斷休眠、休眠時內存中狀態丟失、傳出 WebSocket 不休眠、全局唯一性混淆、KV 後端上的部分 deleteAll、綁定名稱不匹配、超出狀態大小限制、非原子遷移、位置提示被誤解、警報重試失敗以及阻止休眠的 fetch 調用。
+
+關鍵詞：持久對象、cloudflare do、DurableObject 類、do 綁定、websocket 休眠、do state api、ctx.storage.sql、ctx.acceptWebSocket、webSocketMessage、alarm() 處理程序、storage.setAlarm、idFromName、newUniqueId、getByName、DurableObjectStub、serializeAttachment、實時 cloudflare、多人 cloudflare、聊天室工作人員、協調 cloudflare、有狀態工作人員、new_sqlite_classes、執行遷移、位置提示、RPC 方法、blockConcurrencyWhile、“執行類導出”、“new_sqlite_classes”、“需要遷移”、“websocket 休眠”、“警報 api 錯誤”、“全局唯一性”、“未找到綁定”

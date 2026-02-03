@@ -1,0 +1,12 @@
+Vercel AI SDK v5 的後端 AI 功能 - 文本生成、使用 Zod 的結構化輸出、
+工具調用和代理。對 OpenAI、Anthropic、Google 和 Cloudflare Workers AI 的多提供商支持。
+
+使用場合：實現服務器端 AI 功能、生成文本/聊天完成、創建結構化
+使用 Zod 模式進行 AI 輸出，使用工具構建 AI 代理，流式傳輸 AI 響應，集成
+OpenAI/Anthropic/Google/Cloudflare 提供商，或遇到 AI_APICallError 等 AI SDK 錯誤，
+AI_NoObjectGeneratedError、流式傳輸失敗或工作線程啟動限制。
+
+關鍵詞：ai sdk core、vercel ai sdk、generateText、streamText、generateObject、streamObject、
+ai sdk節點，ai sdk服務器，zod ai模式，ai工具調用，ai代理類，openai sdk，anthropic sdk，
+谷歌Gemini sdk，workers-ai-provider，ai流媒體後端，多提供商ai，ai sdk錯誤，
+AI_APICallError、AI_NoObjectGenerateError、streamText 失敗、worker 啟動限制 ai

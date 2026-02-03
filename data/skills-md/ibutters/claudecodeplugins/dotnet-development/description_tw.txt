@@ -1,0 +1,5 @@
+全面的 .NET 開髮指南，涵蓋 DDD、SOLID 原則、ASP.NET Core REST API 和 C# 最佳實踐。
+使用時使用：(1) C# 代碼文件 (.cs)、(2) .NET 項目文件（.csproj、.sln）、(3) ASP.NET Core 應用程序、
+(4) 領域驅動設計實現，(5) REST API 開發，(6) Entity Framework Core，
+(7) .NET 中的單元/集成測試。具體觸發：繼承 AggregateRoot/Entity 的類，
+具有 IRepository 依賴項的服務、繼承 ControllerBase 的控制器或域/應用程序/基礎設施文件夾中的文件。

@@ -1,0 +1,19 @@
+Configuración probada en producción para Content Collections: una herramienta de compilación basada en TypeScript que transforma
+archivos de contenido local (Markdown/MDX) en colecciones de datos con seguridad de tipos y validación automática.
+
+Úselo cuando: cree blogs, sitios de documentación o aplicaciones con mucho contenido con Vite + React,
+configurar contenido MDX con componentes React, implementar esquemas de contenido con seguridad de tipos con Zod,
+migrar desde Contentlayer o encontrar errores de importación de TypeScript con colecciones de contenido.
+
+Cubre: configuración del complemento Vite, alias de ruta tsconfig, esquemas de colección con validación Zod,
+Compilación MDX con compileMDX, funciones de transformación para propiedades calculadas, complementos de revalorización/comentario,
+Integración de componentes de React con MDXContent, implementación de Cloudflare Workers y optimización de la compilación de producción.
+
+Palabras clave: colecciones de contenido, @content-collections/core, @content-collections/vite,
+@content-collections/mdx, MDX, rebajas, validación del esquema Zod, contenido con seguridad de tipos,
+frontmatter, compileMDX, defineCollection, defineConfig, complemento Vite, rutas tsconfig,
+.content-collections/generated, componente MDXContent, complementos de recarga, complementos de comentarios,
+esquema de contenido, transformación de documentos, importación de todas las publicaciones, generación de sitios estáticos,
+configuración del blog, documentación, activos estáticos de Cloudflare Workers, errores de validación de contenido,
+Módulo no encontrado, colecciones de contenido, alias de ruta que no funciona, errores de tipo MDX,
+función de transformación asíncrona, la colección no se actualiza

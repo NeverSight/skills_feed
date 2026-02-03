@@ -1,0 +1,12 @@
+Esta habilidad proporciona un conocimiento integral para integrar el almacenamiento de objetos Vercel Blob en las aplicaciones de Vercel. Debe usarse al configurar la carga de archivos, administrar imágenes y documentos, implementar activos entregados por CDN o manejar archivos grandes en las funciones perimetrales y sin servidor de Next.js.
+
+Utilice esta habilidad cuando:
+- Configuración de carga de archivos para aplicaciones Next.js (imágenes, PDF, videos)
+- Implementación de cargas del lado del cliente con URL prefirmadas
+- Gestión de contenido generado por el usuario (avatares, archivos adjuntos, medios)
+- Creación de funciones de gestión de archivos (enumerar, descargar, eliminar)
+- Migración de Cloudflare R2 a Vercel Blob
+- Errores como "BLOB_READ_WRITE_TOKEN no establecido", "límite de tamaño de archivo excedido" o "errores de token de carga del cliente"
+- Necesita almacenamiento de objetos simple con distribución CDN automática
+
+Palabras clave: vercel blob, @vercel/blob, almacenamiento vercel, carga de archivos vercel, vercel cdn, almacenamiento de blobs vercel, carga de cliente vercel, URL prefirmada vercel, carga de archivos nextjs, carga de imágenes vercel, carga de pdf, carga de videos, cargas de usuarios, carga multiparte, carga de streaming, blob cdn, activos de vercel, descarga de archivos

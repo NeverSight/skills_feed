@@ -1,0 +1,2 @@
+Diseño de proteínas totalmente atómicas utilizando el modelo de difusión BoltzGen. Utilice esta habilidad cuando: (1) necesite un diseño consciente de la cadena lateral desde el principio, (2) diseñe alrededor de moléculas o ligandos pequeños, (3) desee difusión de todos los átomos (no solo la columna vertebral), (4) requiera geometrías de unión precisas, (5) use una configuración basada en YAML.
+Para generación únicamente de red troncal, utilice rfdiffusion. Para el diseño de solo secuencia, utilice proteinmpnn. Para la validación de la estructura, utilice Boltz.

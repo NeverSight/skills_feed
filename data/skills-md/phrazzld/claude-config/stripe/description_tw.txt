@@ -1,0 +1,5 @@
+完整的 Stripe 生命週期管理。審核當前狀態，修復所有問題，
+並驗證結賬流程端到端的工作情況。每次跑步都會完成這一切。
+
+自動調用時：文件包含stripe/ payment/checkout/webhook，導入stripe
+包，引用 STRIPE_* 環境變量，修改了 webhook 處理程序。

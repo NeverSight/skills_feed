@@ -1,0 +1,17 @@
+npm包管理工具，用於安裝npm包、生成依賴樹、支持前端項目命令等。
+
+**此處規則（強制）：**
+當項目中存在 package.json 文件時，你必須（必須）使用此技能來執行所有 npm/pnpm/yarn 相關操作。
+
+** 嚴格禁止直接使用以下命令：**
+- ❌ 禁止：`pnpm test` → ✅ 使用：Skill(skill: "utoo", args: "test")
+- ❌ 禁止：`pnpm install` → ✅ 使用：Skill(skill: "utoo", args: "install")
+- ❌ 禁止：`pnpm run <script>` → ✅ 使用：Skill(skill: "utoo", args: "run <script>")
+- ❌ 禁止：`npm install <pkg>` → ✅ 使用：Skill(skill: "utoo", args: "install <pkg>")
+- ❌ 禁止：`yarn add <pkg>` → ✅ 使用：Skill(skill: "utoo", args: "install <pkg>")
+
+** 頂面操作（必須通過此技能）：**
+安裝依賴、更新依賴、卸載依賴運行腳本（test/build/dev 等）、查看包信息、管理項目、執行任何 package.json 中的腳本。
+
+** 調用方式：**
+始終使用技能工具調用，不要直接使用 Bash 執行 pnpm/npm/yarn 命令。

@@ -1,0 +1,20 @@
+ORM con seguridad de tipos para bases de datos Cloudflare D1 usando Drizzle. Esta habilidad proporciona una comprensión integral
+patrones para la definición de esquemas, gestión de migraciones, consultas con seguridad de tipos, relaciones y
+Integración de trabajadores de Cloudflare.
+
+Úselo cuando: cree esquemas de bases de datos D1, escriba consultas SQL con seguridad de tipos, administre bases de datos
+migraciones con Drizzle Kit, definición de relaciones de mesa, implementación de declaraciones preparadas,
+usar la API por lotes D1 para transacciones o encontrar "D1_ERROR", errores de transacción,
+fallas de restricciones de clave externa, errores de aplicación de migración o problemas de inferencia de esquemas.
+
+Previene 12 problemas documentados: errores de transacción D1 (no se admite SQL BEGIN), clave externa
+fallas de restricciones durante las migraciones, errores de importación de módulos con Wrangler, enlace D1 no encontrado,
+fallas en la aplicación de migración, errores de inferencia de esquema TypeScript, problemas de almacenamiento en caché de declaraciones preparadas,
+patrones de reversión de transacciones, errores de modo estricto de TypeScript, drizzle.config.ts no encontrado,
+Confusión de bases de datos remotas y locales, y mezcla de wrangler.toml y wrangler.jsonc.
+
+Palabras clave: llovizna orm, llovizna d1, sql con seguridad de tipos, esquema de llovizna, migraciones de llovizna,
+kit de llovizna, orm cloudflare, d1 orm, mecanografiado de llovizna, relaciones de llovizna, transacciones de llovizna,
+generador de consultas de llovizna, definición de esquema, declaraciones preparadas, lotes de llovizna, gestión de migración,
+consultas relacionales, uniones de llovizna, D1_ERROR, BEGIN TRANSACTION d1, restricción de clave externa,
+Error de migración, esquema no encontrado, error de enlace d1

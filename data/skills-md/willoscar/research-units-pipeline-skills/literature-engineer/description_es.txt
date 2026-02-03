@@ -1,0 +1,7 @@
+Ampliación de la literatura por rutas múltiples + normalización de metadatos para encuestas que priorizan la evidencia.
+Produce un gran grupo de candidatos (`papers/papers_raw.jsonl`, objetivo ≥1200) con ID y procedencia estables, listo para deduplicación/clasificación + generación de citas.
+**Desencadenante**: recolector de evidencia, ingeniero de literatura, 文献扩充, 多路召回, bola de nieve, citado por, referencias, 元信息增强, procedencia.
+**Usar cuando**: 需要把候选文献扩充到 ≥1200 篇并补齐可追溯 meta（encuesta en proceso, etapa C1,写作前置 evidencia）。
+**Omitir si**: 已经有高质量 `papers/papers_raw.jsonl`（≥1200 且每条都有稳定标识+来源记录）。
+**Red**: 可离线（靠 imports）；雪崩/在线检索需要网络.
+**Guardrail**: 不允许编造论文；每条记录必须带稳定标识（arXiv id / DOI / 可信 URL）和 procedencia；不写 salida/ prosa。

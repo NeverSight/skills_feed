@@ -1,0 +1,13 @@
+通過轉換緩慢的客戶端來優化 Next.js App Router 數據獲取 
+使用 React Server Components (RSC) 進行快速服務器端獲取。
+
+使用時：
+- 用戶報告加載旋轉器的初始頁面加載緩慢
+- 頁面使用useEffect + useState來獲取數據
+- StoreContext/useStore 模式導致瀑布式獲取
+- 需要改進 SEO（內容不在初始 HTML 中）
+- 將“使用客戶端”頁面轉換為服務器組件
+
+觸發器：“緩慢加載”、“優化獲取”、“SSR 數據”、“RSC 優化”、
+“刪除加載旋轉器”、“服務器端獲取”、“轉換為服務器組件”、
+“數據獲取lambat”，“加載喇嘛”

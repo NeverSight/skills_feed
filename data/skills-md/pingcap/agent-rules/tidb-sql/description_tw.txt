@@ -1,0 +1,1 @@
+編寫、審查和調整適用於 TiDB 的 SQL，正確處理 TiDB 與 MySQL 的差異（向量類型 + 向量索引/函數、全文搜索、AUTO_RANDOM、樂觀/悲觀事務、外鍵、視圖、DDL 限制以及不支持的 MySQL 功能，如過程/觸發器/事件/GEOMETRY/SPATIAL）。當生成必須在 TiDB 上運行的 SQL、將 MySQL SQL 遷移到 TiDB 或調試 TiDB SQL 兼容性錯誤時使用。

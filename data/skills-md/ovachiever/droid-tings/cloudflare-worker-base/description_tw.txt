@@ -1,0 +1,11 @@
+使用經過生產測試的模式設置具有 Hono 路由、Vite 插件和靜態資產的 Cloudflare Workers。
+防止 6 種錯誤：導出語法、路由衝突、HMR 崩潰和 Service Worker 格式混亂。
+
+使用場合：創建 Workers 項目、為 Workers 配置 Hono 或 Vite、使用 Wrangler 進行部署、
+添加帶有 SPA 回退的靜態資產，或排除導出語法、API 路由衝突、計劃的問題
+處理程序或 HMR 競爭條件。
+
+關鍵詞：Cloudflare Workers、CF Workers、Hono、wrangler、Vite、靜態資產、@cloudflare/vite-plugin、
+wrangler.jsonc、ES 模塊、run_worker_first、SPA 後備、API 路由、無服務器、邊緣計算、
+“無法讀取未定義的屬性”，“靜態資產 404”，“掛起的 Promise 被取消”，
+“處理程序未導出”、部署失敗、路由不起作用、HMR 崩潰

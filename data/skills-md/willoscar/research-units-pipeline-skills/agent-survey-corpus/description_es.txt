@@ -1,0 +1,6 @@
+Descargue un pequeño corpus de archivos PDF de encuestas/reseñas de arXiv de acceso abierto sobre agentes de LLM y extraiga texto para aprender estilos.
+**Activador**: corpus de encuestas de agentes, corpus de referencia, descargar encuestas, 学习综述写法, 下载 encuesta.
+**Úselo cuando**: desee estudiar cómo las encuestas de agentes reales estructuran las secciones (6 a 8 H2), el tamaño de las subsecciones y escribe comparaciones respaldadas por evidencia.
+**Omitir si**: no puede descargar archivos PDF (sin red) o no desea archivos PDF locales.
+**Red**: requerido.
+**Guardrail**: solo descargue archivos PDF de arXiv; almacene en `ref/` y mantenga los archivos grandes fuera de git.

@@ -1,0 +1,6 @@
+使用關鍵字查詢從 arXiv 檢索論文元數據並將結果保存為 JSONL (`papers/papers_raw.jsonl`)。
+**觸發**：arXiv、arxiv、論文檢索、元數據檢索、文獻檢索、論文檢索、拉取元數據、離線導入。
+**使用時**：需要一個初始論文集合（調查/快照的階段C1），來源為arXiv（在線檢索或離線導入導出）。
+**如果**: 已經有可用的 `papers/papers_raw.jsonl`，或數據源不是 arXiv，則跳過。
+**網絡**：在線檢索需要網絡；離線 `--input <export.*>` 不需要網絡。
+**Guardrail**：只做元數據；不要在`output/`寫長散文。

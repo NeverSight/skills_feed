@@ -1,0 +1,7 @@
+Audite el espacio de trabajo con respecto al contrato de artefactos de canalización (salidas REALIZADAS + artefactos_destino de canalización).
+Escribe `salida/CONTRACT_REPORT.md`.
+**Activador**: auditoría de contrato, contrato de artefacto, artefactos faltantes, target_artifacts, CONTRACT_REPORT.
+**Úselo cuando**: desee una vista de PASA/FALLA auditable para determinar si un espacio de trabajo está completo y es autónomo (al final de la ejecución o antes de compartirlo).
+**Omitir si**: todavía estás intencionalmente en la mitad de la ejecución y todavía no te importa que esté completo (pero sigue siendo útil como instantánea).
+**Red**: ninguna.
+**Guardrail**: solo análisis; no edite artefactos de contenido; Sólo escribe el informe.

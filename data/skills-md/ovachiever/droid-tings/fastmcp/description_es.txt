@@ -1,0 +1,8 @@
+Cree servidores MCP en Python con el marco FastMCP para exponer herramientas, recursos y solicitudes a los LLM. Soportes
+backends de almacenamiento (memoria/disco/Redis), middleware, proxy OAuth, integración OpenAPI e implementación FastMCP Cloud.
+
+Úselo cuando: cree servidores MCP, defina herramientas o recursos, implemente la autenticación OAuth, configure
+backends de almacenamiento para tokens/caché, agregando middleware para registro/limitación de velocidad, implementación en FastMCP Cloud,
+o solucionar problemas de servidor a nivel de módulo, almacenamiento, vida útil, orden de middleware, importaciones circulares o errores de OAuth.
+
+Palabras clave: FastMCP, servidor MCP Python, protocolo de contexto modelo Python, marco fastmcp, herramientas mcp, recursos mcp, avisos mcp, almacenamiento fastmcp, almacenamiento de memoria fastmcp, almacenamiento en disco fastmcp, fastmcp redis, fastmcp dynamodb, vida útil de fastmcp, middleware fastmcp, proxy oauth fastmcp, composición del servidor mcp, importación fastmcp, montaje fastmcp, nube fastmcp, implementación fastmcp, autenticación mcp, iconos fastmcp, openapi mcp, servidor claude mcp, pruebas fastmcp, configuración incorrecta de almacenamiento, problemas de vida útil, orden de middleware, importaciones circulares, servidor a nivel de módulo, async await mcp

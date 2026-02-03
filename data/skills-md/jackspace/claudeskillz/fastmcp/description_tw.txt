@@ -1,0 +1,3 @@
+在 Python 中使用 FastMCP 構建 MCP（模型上下文協議）服務器時，請使用此技能。 FastMCP 是一個用於創建服務器的框架，向 Claude 等法學碩士公開工具、資源和提示。該技能涵蓋服務器創建、工具/資源定義、存儲後端（內存/磁盤/Redis/DynamoDB）、服務器生命週期、中間件系統（8種內置類型）、服務器組成（導入/掛載）、OAuth代理、身份驗證模式、圖標、OpenAPI集成、客戶端配置、雲部署（FastMCP Cloud）、錯誤處理和生產模式。它可以防止超過 25 種常見錯誤，包括存儲配置錯誤、壽命問題、中間件順序錯誤、循環導入、模塊級服務器問題、異步/等待混淆、OAuth 安全漏洞和雲部署失敗。包括基本服務器、存儲後端、中間件、服務器組合、OAuth 代理、API 集成、測試和獨立生產架構的模板。
+
+關鍵詞：FastMCP、MCP 服務器 Python、模型上下文協議 Python、fastmcp 框架、mcp 工具、mcp 資源、mcp 提示、fastmcp 存儲、fastmcp 內存存儲、fastmcp 磁盤存儲、fastmcp redis、fastmcp dynamodb、fastmcp 生命週期、fastmcp 中間件、fastmcp oauth 代理、mcp 服務器組合、fastmcp 導入、fastmcp 掛載、fastmcp 雲、fastmcp 部署、mcp 身份驗證、 fastmcp 圖標、openapi mcp、claude mcp 服務器、fastmcp 測試、存儲配置錯誤、壽命問題、中間件順序、循環導入、模塊級服務器、異步等待 mcp

@@ -1,0 +1,10 @@
+Dominio de conocimiento completo para colas de Cloudflare: cola de mensajes flexible para procesamiento asincrónico
+y tareas en segundo plano en Cloudflare Workers.
+
+Úselo cuando: creación de colas de mensajes, procesamiento asíncrono, trabajos en segundo plano, procesamiento por lotes, manejo de reintentos,
+configurar colas de mensajes no entregados, implementar la simultaneidad del consumidor o encontrar un "tiempo de espera de cola",
+Errores de "reintento por lotes", "mensaje perdido", "rendimiento excedido", "el consumidor no escala".
+
+Palabras clave: colas de Cloudflare, colas de trabajadores, cola de mensajes, enlaces de cola, procesamiento asíncrono,
+trabajos en segundo plano, consumidor de cola, productor de cola, procesamiento por lotes, cola de mensajes no entregados, dlq,
+reintento de mensajes, confirmación de cola, simultaneidad de consumidores, acumulación de colas, colas de wrangler

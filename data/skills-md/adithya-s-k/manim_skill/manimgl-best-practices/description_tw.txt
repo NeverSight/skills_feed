@@ -1,0 +1,5 @@
+在以下情況下觸發：(1) 用戶提到“manimgl”或“ManimGL”或“3b1b manim”，(2) 代碼包含 `from manimlib import *`，(3) 用戶運行 `manimgl` CLI 命令，(4) 使用 InteractiveScene、self.frame、self.embed()、ShowCreation() 或 ManimGL 特定模式。
+
+ManimGL 的最佳實踐（Grant Sanderson 的 3Blue1Brown 版本）——基於 OpenGL 的交互式開發動畫引擎。涵蓋 InteractiveScene、Tex with t2c、相機幀控制、交互模式（-se 標誌）、3D 渲染和 checkpoint_paste() 工作流程。
+
+不適用於 Manim 社區版（使用“manim”導入和“manim”CLI）。

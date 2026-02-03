@@ -1,0 +1,16 @@
+Busque lugares, empresas y ubicaciones utilizando las API de Google Maps a través de x402.
+
+UTILIZAR PARA:
+- Encontrar empresas por nombre o tipo
+- Buscando lugares cercanos
+- Obtener información detallada del lugar (dirección, horario, reseñas)
+- Encontrar restaurantes, tiendas, servicios en una zona.
+- Obtener calificaciones y reseñas comerciales
+
+DESENCADENADORES:
+- "buscar", "buscar", "localizar", "cerca"
+- "restaurantes cerca", "hoteles en", "tiendas alrededor"
+- "detalles del negocio", "horario de apertura", "reseñas de"
+- "lugares en", "lo que está cerca", "direcciones a"
+
+Utilice mcp__x402__fetch para los puntos finales de Google Maps. Elija parcial ($0,02) o total ($0,05-0,08) según las necesidades de datos.

@@ -1,0 +1,11 @@
+Orientación experta para la biblioteca Streamdown de Vercel: un reemplazo de reacción-markdown optimizado para transmisión para aplicaciones de IA.
+Úselo cuando: (1) Representar rebajas generadas por IA desde useChat/streamText,
+(2) Creación de interfaces de usuario de chat con respuestas en tiempo real,
+(3) Migrar de reaccionar-markdown a renderizado compatible con transmisión,
+(4) Configuración de bloques de código (Shiki), matemáticas (KaTeX), diagramas (Mermaid),
+(5) Manejo de rebajas incompletas durante la transmisión de IA (recomendar preprocesador),
+(6) Personalizar el estilo de rebajas con variables Tailwind/CSS,
+(7) Asegurar la salida de IA con rehype-harden (protocolos de enlace/imagen).
+Desencadenantes: Streamdown, rebaja de transmisión, rebaja de chat de IA, reemplazo de rebaja de reacción,
+Respuesta de elementos de IA, reducción incompleta, recomendación, temas de Shiki, diagramas de sirena,
+Matemáticas KaTeX, rehype-harden, isAnimating, transmisión de rebajas.

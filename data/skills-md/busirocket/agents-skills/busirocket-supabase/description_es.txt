@@ -1,0 +1,1 @@
+Patrones de acceso a supabase y límites de servicio. Úselo solo cuando trabaje con proyectos de Supabase. Centralice el acceso a Supabase en servicios/ y nunca llame a Supabase directamente desde componentes/ganchos/utilidades/controladores de rutas.

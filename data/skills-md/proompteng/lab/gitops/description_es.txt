@@ -1,0 +1,1 @@
+Flujos de trabajo de GitOps para este repositorio: edite los manifiestos de Argo CD/Kubernetes/infra en el control de versiones, valide los cambios y confíe en Argo CD para la sincronización. Úselo cuando las tareas toquen argocd/, kubernetes/, tofu/, ansible/ o cambios de implementación/runbook, o cuando se le solicite implementar servicios a través de GitOps.

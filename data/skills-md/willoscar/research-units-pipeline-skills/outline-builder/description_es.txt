@@ -1,0 +1,6 @@
+Convierta una taxonomía (`outline/taxonomy.yml`) en un esquema de solo viñetas (`outline/outline.yml`) con secciones/subsecciones.
+**Activador**: generador de esquemas, esquema de viñetas, esquema.yml, 大纲生成, solo viñetas.
+**Usar cuando**: estructura 阶段（NO PROSA），已有 taxonomía，需要生成可映射/可写作的章节与小节骨架（每小节≥3 viñetas）。
+**Omitir si**: 已经有批准过且可映射的 esquema (避免无意义 abandono)。
+**Red**: ninguna.
+**Guardrail**: solo balas；移除 TODO/模板语句；每小节至少 3 个可检查 balas。

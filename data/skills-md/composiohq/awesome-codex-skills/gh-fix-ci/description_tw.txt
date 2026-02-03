@@ -1,0 +1,1 @@
+使用 gh 檢查 GitHub PR 檢查，提取失敗的 GitHub Actions 日誌，總結失敗上下文，然後創建修復計劃並在用戶批准後實施。當用戶要求調試或修復 GitHub Actions 上失敗的 PR CI/CD 檢查並希望計劃 + 代碼更改時使用；對於外部檢查（例如 Buildkite），僅報告詳細 URL 並將其標記為超出範圍。

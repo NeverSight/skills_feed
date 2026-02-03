@@ -1,0 +1,4 @@
+Genere pruebas unitarias de OpenHarmony C++ siguiendo las convenciones del marco HWTEST_F.
+Admite estrategias simuladas, configuración BUILD.gn, interfaces NDK/NAPI,
+y mantiene requisitos de cobertura superiores al 75 % con una estricta coherencia en el estilo del código.
+Úselo al generar pruebas unitarias para archivos fuente de OpenHarmony C++.

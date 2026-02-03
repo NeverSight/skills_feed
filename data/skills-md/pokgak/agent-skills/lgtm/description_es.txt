@@ -1,0 +1,1 @@
+Consultar backends de observabilidad (registros de Loki, métricas de Prometheus, seguimientos de Tempo). Úselo cuando el usuario pregunte sobre registros, métricas, seguimientos o problemas de producción de depuración. IMPORTANTE: utilice siempre subagentes de haiku para ejecutar consultas, nunca ejecute consultas directamente.

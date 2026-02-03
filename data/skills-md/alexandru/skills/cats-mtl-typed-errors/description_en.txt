@@ -1,0 +1,1 @@
+Scala typed errors with Cats MTL Raise/Handle and allow/rescue. Use for designing custom domain error types without EitherT, while keeping Cats Effect and ecosystem composition. Covers Scala 2/3 syntax and IO-only or F[_] usage.

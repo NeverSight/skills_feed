@@ -1,0 +1,6 @@
+Aplique un informe presupuestario "diversificador de citas" inyectando citas *dentro del alcance* en un borrador existente (SIN HECHOS NUEVOS), de modo que la ejecución pase la puerta global de citas únicas sin volcados de citas.
+**Activador**: inyector de citas, aplicar presupuesto de citas, inyectar citas, agregar citas de forma segura, 引用注入, 按预算加引用, 引用增密.
+**Úselo cuando**: `output/CITATION_BUDGET_REPORT.md` existe y necesita generar citas únicas *globales* (o reducir la reutilización excesiva) antes de `draft-polisher`/`pipeline-auditor`.
+**Omitir si**: necesita más artículos/citas en sentido ascendente (arregle primero el mapeo C1/C2), o falta `citations/ref.bib`.
+**Red**: ninguna.
+**Barandilla**: NO HAY HECHOS NUEVOS; no inventes citas; solo inyecta claves presentes en `citations/ref.bib`; mantener las citas inyectadas dentro del alcance permitido de cada H3 (a través del informe presupuestario); Evite los párrafos de volcado de citas (incorpore citas por trabajo).

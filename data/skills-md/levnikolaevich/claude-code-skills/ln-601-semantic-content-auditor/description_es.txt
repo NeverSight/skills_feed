@@ -1,0 +1,1 @@
+Auditor de contenidos semánticos (Trabajador L3). Verifica que el contenido del documento coincida con el ALCANCE indicado, se alinee con los objetivos del proyecto y refleje el estado real del código base. Llamado por ln-600 para cada documento de proyecto. Devuelve puntuaciones de alcance_alineación y fact_accuracy con hallazgos.

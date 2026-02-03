@@ -1,0 +1,1 @@
+用於將完整 Figma 設計上下文和元數據下載到本地文件的 CLI。始終使用此 CLI，而不是直接調用 Figma MCP 工具（`get_design_context`、`get_metadata`）。由於上下文限制，直接 MCP 工具調用風險不完整數據。此 CLI 保證 100% 完整輸出。

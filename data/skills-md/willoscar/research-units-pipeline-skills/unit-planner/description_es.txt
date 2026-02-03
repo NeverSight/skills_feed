@@ -1,0 +1,6 @@
+Cree una instancia o actualice un espacio de trabajo `UNITS.csv` desde una canalización seleccionada y una plantilla de unidades (departamentos/puntos de control/aceptación).
+**Activador**: planificador de unidades, generar UNITS.csv, contrato de ejecución, plantilla de unidades, 生成工作单元.
+**Usar cuando**: 初始化/更新执行合同：从 pipeline 选择生成 `UNITS.csv`，或 alcance 扩展需要新增 unit/依赖。
+**Omitir si**: `UNITS.csv` 已正确反映当前 alcance（无需重写）。
+**Red**: ninguna.
+**Guardrail**: 保持 CSV 合法；scope 增长时新增 unidades；只在满足验收后标 `DONE`.

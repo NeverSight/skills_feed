@@ -1,0 +1,1 @@
+更新 .tool-versions 文件 (asdf) 中的語言運行時版本，並將更改傳播到 Dockerfile、GitHub Actions 工作流程和其他版本引用文件。在以下情況下使用：(1) 更新項目的語言運行時版本，(2) 跨 .tool 版本、Dockerfile 和 CI/CD 配置同步版本，或 (3) 遷移到新的運行時版本。

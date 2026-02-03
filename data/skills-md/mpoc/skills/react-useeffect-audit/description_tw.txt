@@ -1,0 +1,1 @@
+識別並修復 React 代碼中不必要的 useEffect 使用。當審查使用 Effects 的 React 代碼時、當被要求優化 React 組件時、當看到“useEffect + setState”之類的模式時、當用戶詢問 Effect 最佳實踐時或重構 React 代碼時，請使用。幫助消除冗餘渲染並簡化組件邏輯。

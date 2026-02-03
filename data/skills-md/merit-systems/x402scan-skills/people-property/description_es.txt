@@ -1,0 +1,17 @@
+Busque personas y propiedades utilizando las API de Whitepages a través de x402.
+
+UTILIZAR PARA:
+- Encontrar personas por nombre y ubicación
+- Búsquedas y verificación de direcciones.
+- Información del propietario de la propiedad.
+- Investigación de antecedentes (con finalidad legítima)
+
+DESENCADENADORES:
+- "buscar persona", "buscar persona", "quién vive en"
+- "propietario de propiedad", "búsqueda de propiedad", "búsqueda de dirección"
+- "persona en la dirección", "información de contacto de"
+
+IMPORTANTE: Estos puntos finales contienen información personal. Úselo de manera responsable y solo para fines legítimos.
+Consulte reglas/privacy.md para obtener orientación.
+
+Utilice mcp__x402__fetch para los puntos finales de Whitepages. Ambos puntos finales cuestan $0,44 por llamada.

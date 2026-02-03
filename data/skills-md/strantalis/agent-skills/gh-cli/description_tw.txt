@@ -1,0 +1,1 @@
+通過 GitHub CLI (`gh`) 標準化所有 GitHub 交互，而不是臨時 URL、UI 單擊或直接 REST API 調用。當您需要讀取或更改 GitHub 狀態（存儲庫、問題、拉取請求、評論、檢查狀態、操作工作流程/運行、發布、標籤、里程碑、討論、要點）並需要確定性輸出（首選 `--json` + `--jq`）時使用。當用戶提供 GitHub URL（包括“https://github.com/OWNER/REPO/pull/123”、“.../issues/123”、“.../pull/123/files”等深層鏈接或“#issuecomment-...”等評論永久鏈接時也可使用，並且您需要獲取底層 PR/issue/thread 並回复。僅當沒有一流的“gh NOUN VERB”命令時才回退到“gh api”。

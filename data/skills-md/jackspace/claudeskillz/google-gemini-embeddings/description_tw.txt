@@ -1,0 +1,3 @@
+該技能完整覆蓋了 Google Gemini 嵌入 API (gemini-embedding-001)，用於構建 RAG 系統、語義搜索、文檔聚類和相似性匹配。在使用 Google 的嵌入模型實現矢量搜索、與 Cloudflare Vectorize 集成或構建檢索增強生成系統時使用。涵蓋 SDK 使用 (@google/genai)、基於 fetch 的 Workers 實現、批處理、8 種任務類型（RETRIEVAL_QUERY、RETRIEVAL_DOCUMENT、SEMANTIC_SIMILARITY 等）、維度優化 (128-3072) 和余弦相似度計算。防止 8 個以上特定於嵌入的錯誤，包括維度不匹配、不正確的任務類型、速率限制問題（100 RPM 免費套餐）、向量標準化錯誤、文本截斷（2,048 個令牌限制）和模型版本混淆。包括具有 Cloudflare Vectorize 集成、分塊策略和緩存模式的生產就緒 RAG 模式。代幣節省：~60%。生產測試。
+
+關鍵詞：gemini 嵌入、gemini-embedding-001、google 嵌入、語義搜索、RAG、矢量搜索、文檔聚類、相似性搜索、檢索增強生成、矢量化集成、cloudflare 矢量化嵌入、768 維度、嵌入內容 Gemini、批量嵌入、嵌入 api、餘弦相似度、矢量歸一化、檢索查詢、檢索文檔、任務類型、維度不匹配、嵌入率限制、文本截斷、@google/genai

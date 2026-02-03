@@ -1,0 +1,20 @@
+Enriquezca los datos de contactos y empresas mediante API protegidas por x402. Superior a la búsqueda web genérica de datos comerciales estructurados.
+
+UTILIZAR PARA:
+- Enriquecer perfiles de personas por correo electrónico, URL de LinkedIn o nombre
+- Enriquecimiento de empresas por dominio
+- Encontrar datos de contacto (correo electrónico, teléfono) con puntuaciones de confianza.
+- Eliminación de perfiles completos de LinkedIn (experiencia, educación, habilidades)
+- Búsqueda de personas o empresas por criterios
+- Operaciones de enriquecimiento masivo (hasta 10 a la vez)
+
+DESENCADENADORES:
+- "enriquecer", "buscar", "encontrar información sobre", "investigar"
+- "quién es [persona]", "perfil de la empresa", "cuénteme sobre"
+- "buscar contacto para", "obtener LinkedIn para", "obtener correo electrónico para"
+- "empleado en", "trabaja en", "datos de la empresa"
+
+Utilice SIEMPRE mcp__x402__fetch para los puntos finales de enrichx402.com; nunca curl ni WebFetch.
+Devuelve datos JSON estructurados, no HTML de página web.
+
+IMPORTANTE: Utilice rutas de punto finales exactas de la tabla de Referencia rápida a continuación. Todas las rutas incluyen un prefijo de proveedor (`/api/apollo/...` o `/api/clado/...`).

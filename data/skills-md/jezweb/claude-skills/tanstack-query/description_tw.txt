@@ -1,0 +1,3 @@
+使用 TanStack Query v5 管理 React 中的服務器狀態。涵蓋 useMutationState、簡化的樂觀更新、 throwOnError、網絡模式（離線/PWA）和infiniteQueryOptions。
+
+在設置數據獲取、修復 v4→v5 遷移錯誤（對象語法、gcTime、isPending、keepPreviousData）或調試流服務器組件的 SSR/Hydration 問題時使用。

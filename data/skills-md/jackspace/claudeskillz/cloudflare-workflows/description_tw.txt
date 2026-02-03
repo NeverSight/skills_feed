@@ -1,0 +1,13 @@
+Cloudflare Workflows 的完整知識領域 - 持久執行框架
+用於在 Workers 上構建自動重試、持久的多步驟應用程序
+狀態，並運行數小時或數天。
+
+使用時機：創建長時間運行的工作流程、實施重試邏輯、構建
+事件驅動的流程、調度多步驟任務、API 之間的協調、
+或遇到“NonRetryableError”、“I/O 上下文”、“工作流程執行失敗”、
+“序列化錯誤”或“未找到 WorkflowEvent”錯誤。
+
+關鍵詞：cloudflare 工作流程、工作流程工作人員、持久執行、工作流程步驟、
+WorkflowEntrypoint、step.do、step.sleep、工作流重試、NonRetryableError、
+工作流程狀態、wrangler 工作流程、工作流程事件、長時間運行的任務、step.sleepUntil、
+step.waitForEvent，工作流綁定

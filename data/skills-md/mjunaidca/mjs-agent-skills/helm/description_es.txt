@@ -1,0 +1,6 @@
+Desarrollo de gráficos, gestión de lanzamientos y depuración de gráficos Helm 4 de nivel de producción.
+Esta habilidad debe usarse cuando los usuarios solicitan crear gráficos de Helm, implementar con Helm,
+administrar versiones (instalar/actualizar/revertir), enviar gráficos a registros OCI, depurar
+implementaciones fallidas, configurar dependencias de gráficos, crear gráficos generales, configurar
+GitOps con ArgoCD/Flux o solucionar problemas de Helm. Detecta automáticamente desde Dockerfile/código,
+genera gráficos reforzados para la producción con patrones de biblioteca. Complementa la habilidad de Kubernetes.

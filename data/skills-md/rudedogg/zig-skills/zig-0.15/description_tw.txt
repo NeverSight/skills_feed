@@ -1,0 +1,1 @@
+版本 0.15.x 的最新 Zig 編程語言模式。在編寫、審查或調試 Zig 代碼、使用 build.zig 和 build.zig.zon 文件或使用 comptime 元編程時使用。對於避免訓練數據中的過時模式至關重要 - 特別是構建系統 API（root_module 而不是 root_source_file）、I/O API（緩衝寫入器模式）、容器初始化（.empty/.init）、分配器選擇（DebugAllocator）和刪除的語言功能（async/await、usingnamespace）。

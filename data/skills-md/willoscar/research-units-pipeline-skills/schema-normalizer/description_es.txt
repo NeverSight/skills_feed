@@ -1,0 +1,6 @@
+Normalice las interfaces JSONL entre habilidades (identificadores, títulos y formatos de claves de citas) para que las habilidades posteriores no dependan de uniones de mejor esfuerzo.
+**Activador**: normalización de esquema, contrato jsonl, deriva de interfaz, deriva de unión, 字段不一致, esquema 规范化.
+**Úselo cuando**: ha generado artefactos JSONL C2-C4 (esquema/briefs/enlaces/paquetes/anclajes) y desea campos deterministas y estables antes de los bucles automáticos/escritura.
+**Omitir si**: no está utilizando los canales de encuesta o el espacio de trabajo ya tiene un PASS `output/SCHEMA_NORMALIZATION_REPORT.md` nuevo para los artefactos actuales.
+**Red**: ninguna.
+**Barandilla**: SIN PROSA; transformaciones deterministas solamente; no inventar pruebas/afirmaciones; solo complete los identificadores/títulos que faltan en `outline/outline.yml`.

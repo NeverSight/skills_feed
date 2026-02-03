@@ -1,0 +1,6 @@
+將可尋址證據 ID 從 `papers/evidence_bank.jsonl` 綁定到每個小節 (H3)，生成 `outline/evidence_bindings.jsonl`。
+**觸發器**：證據活頁夾、證據計劃、部分->證據映射、證據綁定、evidence_id。
+**當**使用：存在 `papers/evidence_bank.jsonl` 並且您希望作者/審核員使用部分範圍的證據項（WebWeaver 樣式的內存庫）。
+**如果**則跳過：您沒有進行證據優先的逐節寫作。
+**網絡**：無。
+**護欄**：沒有散文；不要發明證據；僅從現有證據庫中選擇。

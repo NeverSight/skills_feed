@@ -1,0 +1,1 @@
+Reglas de kernel compartidas para src/app/shared, que definen qué se puede compartir de forma segura (primitivas, utilidades, átomos de UI) y qué no (lógica de negocios, políticas de contexto cruzado); utilícelo al agregar ayudantes o componentes compartidos.
