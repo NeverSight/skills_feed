@@ -1,0 +1,5 @@
+Vollständiges Stripe-Lebenszyklusmanagement. Überprüft den aktuellen Status, behebt alle Probleme,
+und überprüft, ob die Checkout-Abläufe durchgängig funktionieren. Jeder Lauf bewirkt all dies.
+
+Automatischer Aufruf, wenn: Dateien Stripe/Payment/Checkout/Webhook enthalten, Stripe importiert
+Paket, verweist auf STRIPE_* Umgebungsvariablen, Webhook-Handler geändert.

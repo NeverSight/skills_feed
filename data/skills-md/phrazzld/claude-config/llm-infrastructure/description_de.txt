@@ -1,0 +1,7 @@
+Umfassendes LLM-Audit. Modellwährung, Prompt-Qualität, Auswertungen, Beobachtbarkeit, CI/CD.
+Stellt sicher, dass alle LLM-gestützten Funktionen Best Practices befolgen und ordnungsgemäß instrumentiert sind.
+
+Automatischer Aufruf, wenn: Modellnamen/-versionen erwähnt, KI-Anbieterkonfiguration, Änderungen auffordern,
+.env mit AI-Schlüsseln, aiProviders.ts oder prompts.ts modifizierten, AI-bezogenen PRs.
+
+KRITISCH: Trainingsdaten hinken um Monate hinterher. IMMER eine Websuche vor LLM-Entscheidungen.

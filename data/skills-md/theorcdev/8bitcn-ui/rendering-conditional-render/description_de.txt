@@ -1,0 +1,1 @@
+Verwenden Sie für bedingtes Rendern explizite ternäre Operatoren anstelle von &&. Anwenden, wenn Werte gerendert werden, die 0, NaN oder andere falsche Werte sein könnten, die unerwartet gerendert werden könnten.

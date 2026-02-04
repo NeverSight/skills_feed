@@ -1,0 +1,6 @@
+Führen Sie Dateien pro Abschnitt unter „sections/“ deterministisch in „output/DRAFT.md“ zusammen, wobei die Gliederungsreihenfolge erhalten bleibt und Übergänge aus „outline/transitions.md“ verwoben werden.
+**Auslöser**: Abschnitte zusammenführen, Entwürfe zusammenführen, Abschnittsdateien kombinieren, Abschnitte/ -> Ausgabe/DRAFT.md, 合并小节, 拼接草稿.
+**Verwenden Sie es, wenn**: Sie Prosadateien pro Einheit unter „sections/“ haben und eine einzelne „output/DRAFT.md“ zum Polieren/Review/LaTeX benötigen.
+**Überspringen, wenn**: Abschnittsdateien fehlen oder noch Gerüstmarkierungen enthalten (zuerst „subsection-writer“ reparieren).
+**Netzwerk**: keines.
+**Leitplanke**: nur deterministische Zusammenführung (keine neuen Fakten/Zitate); Behalten Sie die Abschnittsreihenfolge aus „outline/outline.yml“ bei.

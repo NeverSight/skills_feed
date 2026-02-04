@@ -1,0 +1,4 @@
+Identifiziert Anti-Patterns, die für die Amplihack-Philosophie spezifisch sind.
+Verwenden Sie diese Option, wenn Sie Code auf Qualitätsprobleme oder Refactoring überprüfen.
+Erkennt: Überabstraktion, komplexe Vererbung, große Funktionen (>50 Zeilen), enge Kopplung, fehlende __all__-Exporte.
+Bietet spezifische Lösungen und Erklärungen für jeden Geruch.

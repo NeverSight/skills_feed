@@ -1,0 +1,14 @@
+Leitfaden für die Protokollierungsbibliothek von Workleap (@workleap/logging), die eine strukturierte, zusammensetzbare Protokollierung für Frontend-TypeScript-Anwendungen bereitstellt.
+
+Verwenden Sie diese Fähigkeit, wenn:
+(1) Einrichten der Protokollierung in einer Workleap-Frontend-Anwendung
+(2) Logger erstellen oder konfigurieren (BrowserConsoleLogger, CompositeLogger)
+(3) Verständnis der Protokollebenen (Debug, Information, Warnung, Fehler, kritisch)
+(4) Erstellen komplexer Protokolleinträge mit verketteten Segmenten (withText, withObject, withError)
+(5) Verwenden von Protokollierungsbereichen zum Gruppieren zusammengehöriger Protokolleinträge
+(6) Protokollausgabe in der Browserkonsole gestalten
+(7) Zusammenstellung mehrerer Logger, um Protokolle an verschiedene Ziele zu senden
+(8) Protokolle nach Schweregrad filtern
+(9) Integration der Protokollierung mit LogRocket oder anderen Telemetrie-Tools
+(10) Überprüfung protokollierungsbezogener Änderungen in Pull-Anfragen
+(11) Fragen zu Best Practices für die Protokollierung speziell für die WL-Protokollierung

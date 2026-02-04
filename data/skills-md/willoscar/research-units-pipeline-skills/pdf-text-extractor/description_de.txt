@@ -1,0 +1,6 @@
+Laden Sie PDFs herunter (sofern verfügbar) und extrahieren Sie einfachen Text, um Volltextbeweise zu unterstützen, indem Sie „papers/fulltext_index.jsonl“ und „papers/fulltext/*.txt“ schreiben.
+**Auslöser**: PDF-Download, Volltext, Text extrahieren, Papiere/PDFs, PDF-Datei, PDF-Datei.
+**Verwenden Sie, wenn**: `queries.md` den `evidence_mode: fulltext` verwendet.
+**Überspringen, wenn**: `evidence_mode: abstract`（默认）；或你不希望进行下载/抽取（成本/权限/时间）。
+**Netzwerk**: Volltext.
+**Leitplanke**: 缓存下载到 `papers/pdfs/`;

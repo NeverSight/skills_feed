@@ -1,0 +1,6 @@
+Erhöhen Sie die Zitationsvielfalt/-dichte (KEINE NEUEN FAKTEN): Erstellen Sie pro H3 einen in den Geltungsbereich fallenden „Zitierbudgetplan“, damit Entwürfe nicht mehr durch das globale Unique-Citation-Gate fallen und nicht mehr unterbewertet erscheinen.
+**Auslöser**: Zitatsteigerung, Zitationsbudget, Einzelzitate zu niedrig, weitere Zitate hinzufügen, Referenzdichte verbessern, 引用太少, 增加引用, 引用密度.
+**Verwenden Sie es, wenn**: „pipeline-auditor“ aufgrund geringer eindeutiger Zitate fehlschlägt oder Sie die Zitationsdichte erhöhen möchten, ohne Ansprüche zu ändern.
+**Überspringen, wenn**: Sie neue Dokumente benötigen (zuerst die C1/C2-Zuordnung korrigieren) oder „citations/ref.bib“ / „outline/writer_context_packs.jsonl“ fehlt.
+**Netzwerk**: keines.
+**Leitplanke**: KEINE NEUEN FAKTEN; erfinden Sie keine Zitate; Verwenden Sie nur Schlüssel, die bereits in „citations/ref.bib“ vorhanden sind. Halten Sie Zitate innerhalb des zulässigen Umfangs jedes H3 (`outline/writer_context_packs.jsonl` / `outline/evidence_bindings.jsonl`).

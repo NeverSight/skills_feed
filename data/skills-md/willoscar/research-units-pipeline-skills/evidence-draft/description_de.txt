@@ -1,0 +1,6 @@
+Erstellen Sie Beweispakete pro Unterabschnitt (KEIN PROSE): Anspruchskandidaten, konkrete Vergleiche, Bewertungsprotokoll, Einschränkungen sowie durch Zitate untermauerte Beweisausschnitte mit Herkunft.
+**Auslöser**: Beweisentwurf, Beweispaket, Anspruchskandidaten, konkrete Vergleiche, Beweisausschnitte, Herkunft, 证据草稿, 证据包, 可引用事实.
+**Verwenden Sie es, wenn**: „outline/subsection_briefs.jsonl“ vorhanden ist und Sie einen evidenzorientierten Abschnittsentwurf wünschen, bei dem jeder Absatz durch nachvollziehbare Zitate/Ausschnitte untermauert werden kann.
+**Überspringen, wenn**: „outline/evidence_drafts.jsonl“ bereits existiert und verfeinert wurde (keine Platzhalter; >=8 Vergleiche pro Unterabschnitt; „blocking_missing“ leer).
+**Netzwerk**: keine (umfangreichere Beweise verbessern sich mit Abstracts/Volltext).
+**Leitplanke**: KEINE PROSA; erfinde keine Fakten; Verwenden Sie nur Zitationsschlüssel, die in „citations/ref.bib“ vorhanden sind.

@@ -1,0 +1,6 @@
+Schreiben Sie den Tutorialinhalt („output/TUTORIAL.md“) aus einem genehmigten Modulplan, einschließlich Übungen und Antwortskizzen.
+**Trigger**: Tutorial schreiben, Tutorial-Module, 教程写作, TUTORIAL.md.
+**Verwenden, wenn**: Tutorial-Pipeline (C3) oder „DECISIONS.md“ (Human) für Scope/Running-Beispiel (C2).
+**Überspringen, wenn**: module plan 未完成/未批准（先跑 `module-planner`/`exercise-builder` 并通过 Approve C2）.
+**Netzwerk**: keines.
+**Guardrail**: 只写已批准范围；保持 running example 一致；每模块包含练习与答案要点.

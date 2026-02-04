@@ -1,0 +1,5 @@
+Entscheidungsfindung zur Plattformabstraktion für das Amethyst KMP-Projekt. Leitfäden, wann man abstrahieren oder plattformspezifisch bleiben sollte,
+Platzierung des Quellsatzes (commonMain, jvmAndroid, plattformspezifisch), erwartete/tatsächliche Muster. Deckt primäre Ziele ab
+(Android, JVM/Desktop, iOS) mit zukünftigen Überlegungen zu Web/Wasm. Lässt sich bei Abhängigkeitsproblemen in Gradle-Expert integrieren.
+Auslöser bei: Abstraktionsentscheidungen („Soll ich das teilen?“), Fragen zur Platzierung des Quellsatzes, erwartete/tatsächliche Erstellung,
+build.gradle.kts funktioniert, falsche Platzierungserkennung, KMP-Abhängigkeitsvorschläge.

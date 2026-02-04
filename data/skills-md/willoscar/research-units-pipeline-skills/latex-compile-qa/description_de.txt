@@ -1,0 +1,6 @@
+Kompilieren Sie ein LaTeX-Projekt und führen Sie eine grundlegende Qualitätssicherung durch (fehlende Referenzen, Bib-Fehler, fehlerhafte Zitate), um „latex/main.pdf“ und einen Build-Bericht zu erstellen.
+**Auslöser**: Latex-Kompilierung, PDF erstellen, LaTeX-Fehler, fehlende Referenzen, PDF-Fehler, PDF-Fehler.
+**Verwenden Sie, wenn**: `latex/main.tex` (oder `latex-scaffold`) öffnen.
+**Überspringen, wenn**: LaTeX scaffold (oder „latex-scaffold“) verwenden.
+**Netzwerk**: keines.
+**Guardrail**: Geben Sie die Datei „output/LATEX_BUILD_REPORT.md“ ein.

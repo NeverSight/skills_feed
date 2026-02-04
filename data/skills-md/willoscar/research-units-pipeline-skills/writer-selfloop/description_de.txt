@@ -1,0 +1,6 @@
+Schreiben einer Selbstschleife für Umfragen: Führen Sie das strikte Abschnittsqualitäts-Gate aus und schreiben Sie dann nur die fehlgeschlagenen „sections/*.md“-Dateien neu, bis der Bericht PASS ist.
+**Auslöser**: Writer-Selbstschleife, Schreibschleife, Quality-Gate-Schleife, fehlerhafte Abschnitte neu schreiben, Zurücksetzen, PASS.
+**Verwenden Sie diese Option, wenn**: Dateien pro Abschnitt vorhanden sind, aber C5 FEHLERHAFT/BLOCKIERT ist (dünne Abschnitte, fehlende Leads/Titelangelegenheiten, Verstöße gegen den Zitierbereich, Generatorstimme).
+**Überspringen, wenn**: Sie sind noch vor C2 (KEIN PROSE) oder die Beweispakete sind unvollständig (zuerst C3/C4 korrigieren).
+**Netzwerk**: keines.
+**Leitplanke**: keine Fakten erfinden; Verwenden Sie nur Zitierschlüssel, die in „citations/ref.bib“ vorhanden sind. Zitate gemäß „outline/evidence_bindings.jsonl“ im Gültigkeitsbereich halten; Fügen Sie beim Umschreiben keine Zitatschlüssel hinzu bzw. entfernen Sie sie nicht.

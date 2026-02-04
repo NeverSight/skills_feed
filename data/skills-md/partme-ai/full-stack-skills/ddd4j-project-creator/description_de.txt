@@ -1,0 +1,6 @@
+Eine umfassende Fähigkeit zum Erstellen neuer ddd4j-Projekte (Domain-Driven Design for Java) basierend auf dem ddd4j-Boot-Framework. 
+NUR verwenden, wenn der Benutzer ausdrücklich die Erstellung eines ddd4j-Projekts, die Initialisierung eines ddd4j-Projekts oder die Einrichtung erwähnt 
+ddd4j-boot-Projekt. Unterstützt drei Projekttypen: Einzelmodul-Monolith, Multi-Modul-Monolith und Microservices. 
+Erstellt Projektgerüste basierend auf der ddd4j-Boot-Architektur mit DDD, Hexagonal Architecture, Clean Architecture, 
+und COLA V5-Muster. NICHT für generische DDD-Projekte, JPA/Hibernate-Projekte oder andere ORM-Frameworks auslösen 
+ohne explizite ddd4j-Erwähnung.

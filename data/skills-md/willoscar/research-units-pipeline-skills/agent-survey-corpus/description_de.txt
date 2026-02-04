@@ -1,0 +1,6 @@
+Laden Sie einen kleinen Korpus frei zugänglicher arXiv-Umfrage-/Rezensions-PDFs über LLM-Agenten herunter und extrahieren Sie Text zum Stillernen.
+**Trigger**: Agent-Umfragekorpus, Ref-Korpus, Download-Umfragen, 学习综述写法, 下载-Umfrage.
+**Verwenden Sie es, wenn**: Sie untersuchen möchten, wie reale Agentenbefragungen Abschnitte (6–8 H2) strukturieren, Unterabschnitte dimensionieren und evidenzbasierte Vergleiche verfassen möchten.
+**Überspringen, wenn**: Sie können keine PDFs herunterladen (kein Netzwerk) oder Sie möchten keine lokalen PDF-Dateien.
+**Netzwerk**: erforderlich.
+**Leitplanke**: Laden Sie nur arXiv-PDFs herunter. Speichern Sie unter „ref/“ und halten Sie große Dateien von Git fern.

@@ -1,0 +1,1 @@
+Führt vor dem Commit oder Push Qualitäts-Gate-Checks durch. Führt Lint-Korrekturen, TypeScript-Kompilierung, Tests und CI-Validierung aus. Reproduziert CI-Fehler lokal. Löst aus bei: Pre-Commit, Pre-Push, Qualitätsprüfung, CI-Prüfung, Flusenprüfung, Typprüfung, Validierung von Änderungen, Check:Fix, PNPM-Test.

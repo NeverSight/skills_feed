@@ -1,0 +1,6 @@
+Konvertieren Sie eine Taxonomie („outline/taxonomy.yml“) in eine Gliederung nur mit Aufzählungszeichen („outline/outline.yml“) mit Abschnitten/Unterabschnitten.
+**Auslöser**: Outline Builder, Bullet Outline, Outline.yml, 大纲生成, nur Aufzählungszeichen.
+**Verwenden, wenn**: Struktur 阶段（KEIN PROSA）,已有 Taxonomie,需要生成可映射/可写作的章节与小节骨架（每小节≥3 Aufzählungszeichen）.
+**Überspringen, wenn**: 已经有批准过且可映射的 outline（避免无意义 churn）.
+**Netzwerk**: keines.
+**Leitplanke**: nur Aufzählungszeichen. TODO/模板语句; 3 weitere Aufzählungszeichen.

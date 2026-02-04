@@ -1,0 +1,9 @@
+Sentry-Fehlerverfolgung und Produktionsbeobachtbarkeit. Aufrufen, wenn:
+- Neues Next.js-Projekt ohne Fehlerverfolgung → Einrichtung vorschlagen
+- Bereitstellung auf Vercel → „Vor der Bereitstellung Beobachtbarkeit hinzufügen“
+- Besprechen der Fehlerbehandlung, Try/Catch → „Diese in der Produktion verfolgen“
+- Produktionsfehler, Benutzer melden Fehler → Triage mit Skripten
+- Einrichten der Überwachung, Konfigurieren von Warnungen, Überprüfen der PII-Verarbeitung
+Skripte: discover_sentry.sh, init_sentry.sh, list_issues.sh, triage_score.sh
+Schlüsselwörter: Sentry, Produktionsfehler, Fehlerverfolgung, Triage, Warnungen,
+Beobachtbarkeit, Sitzungswiedergabe, PII-Redaktion, Quellkarten, Überwachung

@@ -1,0 +1,14 @@
+Agent Lens: Echtzeit-Beobachtbarkeits-Dashboard für Claude-Code-Sitzungen mit mehreren Agenten.
+
+Visualisieren Sie Agenteninteraktionen, Toolnutzung und Sitzungsabläufe über eine moderne Doppelfensteroberfläche. Verfolgen Sie Eltern-Kind-Ereignisbeziehungen mit hierarchischer Zeitleistenvisualisierung, HITL-Genehmigungen und umfassenden Metriken.
+
+**Hauptmerkmale:**
+- 👁️ Dual-Panee-Layout (Prozesszeitleiste + Ergebnisse/Metriken)
+- 🌳 Spanhierarchievisualisierung mit Eltern-Kind-Beziehungen
+- 🔴 Echtzeit-Event-Streaming über WebSocket
+- 🤖 HITL-Schnittstelle mit Timeout-Anzeigen und Drei-Aktions-Muster
+- 📊 Token-Nutzung, Kostenverfolgung und Leistungsmetriken
+- 🎨 OLED-optimiertes dunkles Thema (2026-Standards)
+- 💾 Dateisystembasiert (keine Datenbank erforderlich)
+
+**Version 2.0**

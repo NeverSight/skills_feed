@@ -1,0 +1,12 @@
+AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN als falsch Implementierung.
+
+Erkennungsmerkmale (EINES genuegt!):
+- Auftrag <25 Woerter
+- Keine konkreten Dateinamen/Pfade
+- Vage Verben: besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refaktorieren, aufraumen, überarbeiten
+- Unsichere Sprache: irgendwie, vielleicht, mal eben, schnell, einfach, bisschen, koennte, sollte
+- Fehlende Erfolgskriterien: Kein damit, so, weil, um zu
+- Relative Begriffe ohne Kontext: schneller, besser, schöner, einfacher
+
+Die Ausgabe ist strukturiertes JSON für Prompt-Architect Skill.
+Escape: mach einfach, keine Rückfragen, entscheide selbst überspringt Klaerung.

@@ -1,0 +1,1 @@
+Führt parallel eine umfassende PR-Codeüberprüfung aus fünf Perspektiven (Qualität/Leistung/Tests/Dokumente/Sicherheit) durch und liefert Blocker/Vorschläge/Nice-to-have- und Zusammenführungsentscheidungen. Argumente: /review [owner/repo] [pr-number] [--focus all|security|perf|qa|docs|types] Wird aktiviert, wenn der Benutzer „review“, „PR確認“, „コードレビュー“, „マージ判定“ erwähnt.

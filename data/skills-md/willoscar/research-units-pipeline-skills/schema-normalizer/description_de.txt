@@ -1,0 +1,6 @@
+Normalisieren Sie die Skill-übergreifenden JSONL-Schnittstellen (IDs + Titel + Zitierschlüsselformate), damit nachgelagerte Skills nicht auf Best-Effort-Joins angewiesen sind.
+**Auslöser**: Schema-Normalisierung, JSONL-Vertrag, Schnittstellendrift, Join-Drift, Schemaveränderung, Schemaveränderung.
+**Verwenden Sie es, wenn**: Sie C2-C4-JSONL-Artefakte (Gliederung/Briefs/Bindungen/Pakete/Anker) generiert haben und deterministische, stabile Felder vor Selbstschleifen/Schreiben benötigen.
+**Überspringen, wenn**: Sie die Umfragepipelines nicht verwenden oder der Arbeitsbereich bereits über ein neues PASS „output/SCHEMA_NORMALIZATION_REPORT.md“ für die aktuellen Artefakte verfügt.
+**Netzwerk**: keines.
+**Leitplanke**: KEINE PROSA; nur deterministische Transformationen; keine Beweise/Behauptungen erfinden; Füllen Sie nur fehlende IDs/Titel aus „outline/outline.yml“ aus.

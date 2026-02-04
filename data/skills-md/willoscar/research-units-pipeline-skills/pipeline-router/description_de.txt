@@ -1,0 +1,6 @@
+Wählen Sie die am besten geeignete Pipeline für ein Benutzerziel aus, sperren Sie sie in „PIPELINE.lock.md“ und leiten Sie Prüfpunktfragen an „DECISIONS.md“ weiter.
+**Trigger**: Pipeline-Router, Pipeline auswählen, Workflow-Auswahl, PIPELINE.lock.md, 选择流程.
+**Verwenden, wenn**: 用户目标/交付物不清晰，需要在 snapshot/survey/tutorial/systematic-review/peer-review 中选一个并设置最小 HITL 问题集。
+**Überspringen, wenn**: Pipeline 已锁定（`PIPELINE.lock.md` 存在）且所需问题已回答/签字完成.
+**Netzwerk**: keines.
+**Leitplanke**: Die aktuelle Version von „DECISIONS.md“ ist nicht verfügbar.

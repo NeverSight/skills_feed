@@ -1,0 +1,8 @@
+Behebung von Stripe-Webhook-400-Fehlern in der lokalen Entwicklung. Das Problem: „Stripe Listen“.
+generiert bei jedem Start ein neues Geheimnis, aber Ihre App verwendet ein veraltetes Geheimnis von
+.env.local. Dieser Skill synchronisiert das kurzlebige Geheimnis automatisch, bevor Ihr Entwicklungsserver startet.
+
+Automatischer Aufruf, wenn: Stripe-Webhooks 400 zurückgeben, „Signaturüberprüfung fehlgeschlagen“,
+„Keine passenden Signaturen gefunden“, Webhooks funktionieren lokal nicht, der Checkout ist erfolgreich
+aber das Abonnement wird nicht aktualisiert, STRIPE_WEBHOOK_SECRET stimmt nicht überein, Einrichtung
+Stripe Listen, Konfigurieren von PNPM Dev mit Stripe.

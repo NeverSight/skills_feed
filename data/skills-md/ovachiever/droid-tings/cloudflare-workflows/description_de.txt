@@ -1,0 +1,11 @@
+Erstellen Sie dauerhafte, langlebige Workflows auf Cloudflare Workers mit automatischen Wiederholungsversuchen, Statuspersistenz usw
+mehrstufige Orchestrierung. Unterstützt step.do, step.sleep, step.waitForEvent und läuft stunden- bis tagelang.
+
+Verwendung bei: Erstellen lang laufender Workflows, Implementieren von Wiederholungslogik, Erstellen ereignisgesteuerter Prozesse,
+Koordinierung von API-Aufrufen, Planung mehrstufiger Aufgaben oder Fehlerbehebung bei NonRetryableError, E/A-Kontext,
+Serialisierungsfehler oder Workflow-Ausführungsfehler.
+
+Schlüsselwörter: Cloudflare-Workflows, Workflow-Worker, dauerhafte Ausführung, Workflow-Schritt,
+WorkflowEntrypoint, step.do, step.sleep, Workflow-Wiederholungen, NonRetryableError,
+Workflow-Status, Wrangler-Workflows, Workflow-Ereignisse, lang laufende Aufgaben, step.sleepUntil,
+step.waitForEvent, Workflow-Bindungen

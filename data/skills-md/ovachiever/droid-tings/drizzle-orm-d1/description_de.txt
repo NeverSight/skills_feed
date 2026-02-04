@@ -1,0 +1,18 @@
+Erstellen Sie typsichere D1-Datenbanken mit Drizzle ORM für Cloudflare Workers. Beinhaltet Schemadefinition und Migrationen
+mit Drizzle Kit, Beziehungen und D1-Batch-API-Mustern. Verhindert 12 Fehler, einschließlich SQL BEGIN-Fehler.
+
+Verwenden Sie, wenn: D1-Schemas definieren, Migrationen verwalten, typsichere Abfragen schreiben, Beziehungen implementieren usw
+Vorbereitete Anweisungen, Verwendung der Batch-API für Transaktionen oder Fehlerbehebung bei D1_ERROR, BEGIN TRANSACTION,
+Fremdschlüssel, Migrationsfehler oder Schemainferenzfehler.
+
+Verhindert 12 dokumentierte Probleme: D1-Transaktionsfehler (SQL BEGIN nicht unterstützt), Fremdschlüssel
+Einschränkungsfehler während Migrationen, Modulimportfehler mit Wrangler, D1-Bindung nicht gefunden,
+Migrationsanwendungsfehler, Schema-TypeScript-Inferenzfehler, Probleme beim Zwischenspeichern vorbereiteter Anweisungen,
+Transaktions-Rollback-Muster, Fehler im strikten TypeScript-Modus, drizzle.config.ts nicht gefunden,
+Verwirrung zwischen Remote- und lokaler Datenbank und Vermischung von wrangler.toml und wrangler.jsonc.
+
+Schlüsselwörter: Drizzle ORM, Drizzle D1, typsicheres SQL, Drizzle-Schema, Drizzle-Migrationen,
+Drizzle-Kit, Orm Cloudflare, D1 Orm, Drizzle-Typoskript, Drizzle-Beziehungen, Drizzle-Transaktionen,
+Drizzle Query Builder, Schemadefinition, vorbereitete Anweisungen, Drizzle Batch, Migrationsmanagement,
+relationale Abfragen, Drizzle-Joins, D1_ERROR, BEGIN TRANSACTION d1, Fremdschlüsseleinschränkung,
+Migration fehlgeschlagen, Schema nicht gefunden, d1-Bindungsfehler

@@ -1,0 +1,6 @@
+Identifizieren Sie Umfrage-/Rezensionspapiere in einem abgerufenen Satz und extrahieren Sie Taxonomie-Seeds in „outline/taxonomy.yml“ (Themen/Unterthemen/Terminologie).
+**Auslöser**: Umfrage zur Saatguternte, Taxonomie-Samen, Umfrage zur Taxonomie, Bootstrap-Taxonomie.
+**Verwenden, wenn**: Retrieval/Dedup 后想快速从已有 Umfrage/Überprüfung 论文中提取术语与主题结构，用于加速 `taxonomy-builder`.
+**Überspringen, wenn**: 已经有高质量 Taxonomie（或你不想被 Umfrage 既有框架限制）.
+**Netzwerk**: keines.
+**Leitplanke**: Die Verwendung von „Seed“ und „Taxonomy-Builder“ umfasst den Geltungsbereich.

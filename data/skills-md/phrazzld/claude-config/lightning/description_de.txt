@@ -1,0 +1,5 @@
+Vollständiger Lightning Network-Lebenszyklus. Prüft Kanäle, Routing und Rechnungen.
+Plant Kapazitäten, führt Neuausrichtungen durch und überprüft Zahlungen. Jeder Lauf macht alles.
+
+Automatischer Aufruf, wenn: Dateien Lightning/lnd/bolt11/invoice, Importe enthalten
+Lightning-Pakete, Referenzen LND_* Umgebungsvariablen, Kanalhandler geändert.

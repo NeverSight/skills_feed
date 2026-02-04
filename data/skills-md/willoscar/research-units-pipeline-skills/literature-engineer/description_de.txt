@@ -1,0 +1,7 @@
+Multi-Route-Literaturerweiterung + Metadatennormalisierung für Evidence-First-Umfragen.
+Erzeugt einen großen Kandidatenpool („papers/papers_raw.jsonl“, Ziel ≥1200) mit stabilen IDs und Herkunft, bereit für die Deduplizierung/Rang- und Zitatgenerierung.
+**Auslöser**: Beweissammler, Literaturingenieur, 文献扩充, 多路召回, Schneeballeffekt, zitiert von, Referenzen, 元信息增强, Herkunft.
+**Verwenden, wenn**: ≥1200 篇并补齐可追溯 Meta（Survey Pipeline 的 Stage C1，写作前置 Beweise）.
+**Überspringen, wenn**: 已经有高质量 `papers/papers_raw.jsonl`（≥1200 且每条都有稳定标识+来源记录）.
+**Netzwerk**: 可离线（靠 imports）；雪崩/在线检索需要网络.
+**Guardrail**: 不允许编造论文；每条记录必须带稳定标识（arXiv id / DOI / 可信 URL）和 Provenance；不写 Output/ Prosa。

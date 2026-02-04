@@ -1,0 +1,9 @@
+Wird ausgelöst, wenn: (1) mit Rive-Skripten oder Luau-Code gearbeitet wird,
+(2) Der Code enthält Node-, Layout-, Konverter- oder PathEffect-Protokolle.
+(3) Benutzer erwähnt „Rive scripting“ oder „Rive Luau“,
+(4) Zeichnen mit Path-, Paint- und Renderer-APIs,
+(5) Dateien haben in einem Rive-Projektkontext die Erweiterung .lua.
+
+Best Practices für Rive Scripting – Luau-basierte Skripte für prozedurale
+Grafiken, benutzerdefinierte Layouts, Datenkonverter und Pfadeffekte, die ausgeführt werden
+in Rive-Animationen.

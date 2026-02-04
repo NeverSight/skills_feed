@@ -1,0 +1,6 @@
+Instanziieren oder aktualisieren Sie einen Arbeitsbereich „UNITS.csv“ aus einer ausgewählten Pipeline- und Einheitenvorlage (deps/checkpoints/acceptance).
+**Auslöser**: Einheitenplaner, UNITS.csv generieren, Ausführungsvertrag, Einheitenvorlage, 生成工作单元.
+**Verwenden, wenn**: 初始化/更新执行合同: Die Pipeline verwendet die Datei „UNITS.csv“, und der Gültigkeitsbereich umfasst die Einheiten/Einheiten.
+**Überspringen, wenn**: `UNITS.csv` wird im Gültigkeitsbereich angezeigt.
+**Netzwerk**: keines.
+**Leitplanke**: CSV-Datei erstellen; Scope-Datei mit Einheiten anzeigen lassen; Seite mit „FERTIG“ markieren.
