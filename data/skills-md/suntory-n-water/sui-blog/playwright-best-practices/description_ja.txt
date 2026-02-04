@@ -1,0 +1,1 @@
+Web スクレイピングとテストのための Playwright 自動化のベスト プラクティス。 Playwright コードを作成またはレビューするときに、特に要素操作 (クリック、入力、選択)、待機戦略 (waitForSelector、waitForURL、waitForLoadState)、ナビゲーション パターン、およびロケーターの使用について使用します。不安定なテストや競合状態が発生した場合、または waitForNavigation や networkidle などの非推奨のパターンを回避するためのガイダンスが必要な場合に適用します。

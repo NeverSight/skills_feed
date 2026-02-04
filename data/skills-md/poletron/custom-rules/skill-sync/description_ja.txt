@@ -1,0 +1,1 @@
+スキルのメタデータを AGENTS.md の自動呼び出しセクションに同期します。トリガー: スキルメタデータ (metadata.scope/metadata.auto_invoke) の更新時、自動呼び出しテーブルの再生成時、または ./skills/skill-sync/assets/sync.sh (--dry-run/--scope を含む) の実行時。

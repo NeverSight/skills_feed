@@ -1,0 +1,8 @@
+トリガーされるタイミング: (1) @rive-app/react-canvas または @rive-app/react-webgl を使用する、
+(2) useRive フックまたは RiveComponent を使用して、
+(3) Rive アニメーションを使用した React コンポーネントの構築、
+(4) ユーザーが「Rive React」または「useRive」に言及した場合、
+(5) Rive を使用してスクロールベースまたは視差アニメーションを実装します。
+
+Rive アニメーションを React アプリケーションに統合するためのベスト プラクティス
+公式 Rive React パッケージを使用します。フック、レイアウト、スクロール アニメーションについて説明します。

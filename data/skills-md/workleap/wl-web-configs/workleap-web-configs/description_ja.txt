@@ -1,0 +1,15 @@
+Workleap の共有 Web 構成パッケージ (@workleap/eslint-configs、@workleap/typescript-configs、@workleap/rsbuild-configs、@workleap/rslib-configs、@workleap/stylelint-configs、@workleap/browserslist-config) を使用するためのガイド。
+
+このスキルは次の場合に使用します。
+(1) Workleap プロジェクトの共有 Web ツール構成のセットアップまたは変更
+(2) @workleap/eslint-configs による ESLint の設定 (defineWebApplicationConfig、defineReactLibraryConfig、defineTypeScriptLibraryConfig、defineMonorepoWorkspaceConfig)
+(3) @workleap/typescript-configs で TypeScript を設定する (Web アプリケーション、ライブラリ、monorepo-workspace)
+(4) @workleap/rsbuild-configs による Rsbuild の設定 (defineDevConfig、defineBuildConfig、defineStorybookConfig)
+(5) @workleap/rslib-configs を使用したライブラリ プロジェクトの Rslib の構成
+(6) @workleap/stylelint-configs で Stylelint を設定する
+(7) @workleap/browserslist-config によるブラウザリストの設定
+(8) 共有構成のカスタマイズまたは拡張
+(9) モノリポジトリ (Turborepo) とポリリポジトリの構成戦略のセットアップ
+(10) wl-web-configs パッケージの構成または互換性の問題のトラブルシューティング
+(11) Workleap プロジェクトにおける ESM/ESNext 構成の制約に関する質問
+(12) Rsbuild または Rslib を使用した Storybook の構成

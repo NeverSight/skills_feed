@@ -1,0 +1,1 @@
+DatabaseProxy およびスコープ指定された接続/トランザクションで Peewee ORM を使用するためのパターン。 DatabaseProxy を設定する場合、connection_context/atomic ブロックを管理する場合、または SQLite でテストを作成する場合に使用します。

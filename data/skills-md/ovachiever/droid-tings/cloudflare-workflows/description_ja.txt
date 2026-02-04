@@ -1,0 +1,11 @@
+自動再試行、状態の永続化、および
+マルチステップのオーケストレーション。 step.do、step.sleep、step.waitForEvent をサポートし、数時間から数日間実行されます。
+
+次の場合に使用します: 長時間実行されるワークフローの作成、再試行ロジックの実装、イベント駆動型プロセスの構築、
+API 呼び出しの調整、複数ステップのタスクのスケジュール、NonRetryableError、I/O コンテキストのトラブルシューティング、
+シリアル化エラー、またはワークフロー実行の失敗。
+
+キーワード: Cloudflare ワークフロー、ワークフロー ワーカー、永続的な実行、ワークフロー ステップ、
+WorkflowEntrypoint、step.do、step.sleep、ワークフローの再試行、NonRetryableError、
+ワークフロー状態、Wrangler ワークフロー、ワークフロー イベント、長時間実行タスク、step.sleepUntil、
+step.waitForEvent、ワークフロー バインディング

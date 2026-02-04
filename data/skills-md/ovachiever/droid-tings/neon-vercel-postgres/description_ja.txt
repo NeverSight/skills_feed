@@ -1,0 +1,3 @@
+Cloudflare Workers/Edge 用に Neon または Vercel Postgres を使用してサーバーレス Postgres をセットアップします。接続プーリング、プレビュー環境用の Git のような分岐、Drizzle/Prisma 統合が含まれます。
+
+エッジ Postgres のセットアップ、データベース ブランチの構成、または「TCP がサポートされていない」トラブルシューティング、接続プールの枯渇、SSL 構成 (sslmode=require)、または Prisma エッジ互換性の場合に使用します。

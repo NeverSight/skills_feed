@@ -1,0 +1,1 @@
+共有コンポーザブル用の高度な Compose マルチプラットフォーム UI パターン。ビジュアル UI コンポーネント、状態管理パターン (derivedStateOf、ProduceState を覚えておいてください)、再構成の最適化 (@Stable/@Immutable のビジュアル使用法)、マテリアル 3 テーマ、カスタム ImageVector アイコンを操作する場合、または commonMain で UI を共有するかプラットフォーム固有に保つかを決定する場合に使用します。ナビゲーションを android-expert/desktop-expert に委任します。 kotlin-expert を補完します (Kotlin 言語の状態/アノテーションの側面を処理します)。

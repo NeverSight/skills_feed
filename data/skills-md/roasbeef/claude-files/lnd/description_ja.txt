@@ -1,0 +1,1 @@
+Docker で lnd Lightning Network デーモンを実行し、対話します。 Lightning 開発、regtest での支払いチャネルのテスト、lnd コンテナの管理、lnd RPC エンドポイントの呼び出し (getinfo、接続、チャネルのオープン/クローズ、支払い/受信) に使用します。 bitcoind、btcd、neutrino バックエンドをサポートします。

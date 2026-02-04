@@ -1,0 +1,1 @@
+Superdesign は、フロントエンドの UI/UX デザインに特化したデザイン エージェントです。デザイン思考が必要な UI を実装する前に、このスキルを使用してください。一般的なコマンド: superdesign create-project --title "X" --template .superdesign/replica_html_template/home.html --json (セットアップ プロジェクト)、superdesign iterate-design-draft --draft-id <id> -p "dark theme" -p "minimal" -p "bold" --mode Branch --json (テンプレートまたは既存のドラフトに基づいて設計を反復)

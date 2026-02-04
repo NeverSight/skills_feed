@@ -1,0 +1,8 @@
+次の場合にトリガーされます: (1) Web 上で .riv ファイルをロードまたは埋め込む。
+(2) @rive-app/canvas または @rive-app/webgl パッケージを使用し、
+(3) JavaScript から Rive ステート マシンを制御する、
+(4) Rive 入力の読み取り/書き込みまたはイベントの処理、
+(5) ユーザーが Web コンテキストで「Rive ランタイム」または「Rive アニメーション」に言及します。
+
+Web 上で Rive アニメーションを埋め込み、制御するためのベスト プラクティス
+公式の Rive JavaScript/TypeScript ランタイムを使用します。

@@ -1,0 +1,1 @@
+pnpm codegen:tmdb を使用した、選択的な Zod スキーマを使用した TMDB API コード生成ワークフロー。 TMDB エンドポイントの操作、タイプの再生成、TMDB API 機能の追加、endpoints-config.js、tmdb-server-functions.ts、Zod スキーマの変更を行う場合、またはユーザーが TMDB codegen、endpoints-config、pnpm codegen:tmdb、needsZodSchema、または自動生成された TMDB ファイルに言及した場合に使用します。

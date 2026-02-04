@@ -1,0 +1,3 @@
+React で TanStack Query v5 でサーバーの状態を管理します。 useQuery でクエリを設定し、useMutation で突然変異を設定し、QueryClient キャッシュ戦略を構成し、オプティミスティック更新を実装し、useInfiniteQuery で無限スクロールを処理します。
+
+React プロジェクトでのデータ取得の設定、v4 から v5 への移行、またはオブジェクト構文に必要なエラーの修正、クエリ コールバックの削除に関する問題、cacheTime の名前が gcTime に変更された場合、isPending と isLoading の混乱、keepPreviousData の削除に関する問題の場合に使用します。

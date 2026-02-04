@@ -1,0 +1,1 @@
+バックアップと確認を要求することで、破壊的な Git 操作を防止します。メインで git replace --hard、git Push --force、git clean -fd をブロックします。 git checkout、git reset、git rebase の前にバックアップが必要です。破壊的な git コマンドでアクティブ化します。

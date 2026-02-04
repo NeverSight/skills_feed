@@ -1,0 +1,1 @@
+Supabase データベース操作の重要なガードレール。publication_id フィルタリングによるマルチテナントの分離、supabaseAdmin の適切な使用、SELECT * の回避、エラー処理パターン、安全なサーバー側データベース アクセスを保証します。データベース クエリを作成するとき、supabase を操作するとき、newsletter_campaigns、記事、rss_posts、またはテナント限定のデータにアクセスするときに使用します。

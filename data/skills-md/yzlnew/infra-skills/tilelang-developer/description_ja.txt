@@ -1,0 +1,1 @@
+TileLang (GPU プログラミング用の Python DSL) を使用して、高性能 AI 計算カーネルを作成、最適化、デバッグします。ユーザーが次の要求を行う場合に使用します: (1) AI ワークロード (GEMM、Attention、MLA など) 用のカスタム GPU カーネルの作成、(2) NVIDIA、AMD、または Ascend ハードウェア用の既存の TileLang コードの最適化、(3) 非標準演算子 (DeepSeek MLA、FlashAttendant バリアントなど) の実装、(4) TileLang のコンパイルまたはランタイム エラーのデバッグ、または (5) クロスプラットフォーム カーネル複数の GPU ベンダーを対象とした開発。

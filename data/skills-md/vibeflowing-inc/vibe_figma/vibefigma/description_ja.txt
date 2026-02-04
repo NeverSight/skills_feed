@@ -1,0 +1,1 @@
+Tailwind CSS を使用して、Figma デザインを本番環境に対応した React コンポーネントに変換します。ユーザーが Figma URL を提供する場合、Figma デザインを React/コードに変換するよう要求する場合、Figma からコンポーネントを抽出したい場合、または「vibefigma」に言及する場合に使用します。 Figma アクセス トークンが必要です (--token フラグ、FIGMA_TOKEN 環境変数、または .env ファイル経由)。

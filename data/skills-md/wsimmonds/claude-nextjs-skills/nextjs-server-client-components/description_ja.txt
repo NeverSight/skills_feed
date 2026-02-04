@@ -1,0 +1,1 @@
+Next.js App Router でサーバー コンポーネントとクライアント コンポーネントのどちらを選択するためのガイド。 useSearchParams (Suspense + 'use client' が必要)、ナビゲーション (リンク、リダイレクト、useRouter)、Cookie/ヘッダー アクセス、および 'use client' ディレクティブに重要です。プロンプトに useSearchParams、Suspense、ナビゲーション、ルーティング、リンク コンポーネント、リダイレクト、パス名、searchParams、Cookie、ヘッダー、非同期コンポーネント、または「クライアントの使用」が記載されている場合にアクティブになります。サーバー/クライアント API の混在を避けるために不可欠です。

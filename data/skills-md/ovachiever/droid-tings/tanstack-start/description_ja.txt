@@ -1,0 +1,5 @@
+Cloudflare Workers 上の TanStack Start を使用して、フルスタックの React アプリケーションを構築します。タイプセーフなルーティング、サーバー機能、SSR/ストリーミング、シームレスな D1/KV/R2 統合。
+
+フルスタックの React アプリを構築する場合、Cloudflare Workers による SSR が必要な場合、タイプセーフなサーバー機能が必要な場合、または Next.js から移行する場合に使用します。
+
+RC ステータス - v1.0 安定版保留中。運用環境で使用する前に、tanstack/router#5734 (メモリ リーク) を監視します。
