@@ -96,6 +96,10 @@ jobs:
           python scripts/translate_descriptions.py --target zh-CN --limit 2000
           python scripts/translate_descriptions.py --target zh-TW --limit 2000
           python scripts/translate_descriptions.py --target es --limit 2000
+          python scripts/translate_descriptions.py --target ja --limit 2000
+          python scripts/translate_descriptions.py --target ko --limit 2000
+          python scripts/translate_descriptions.py --target de --limit 2000
+          python scripts/translate_descriptions.py --target fr --limit 2000
       
       - name: Commit translations
         run: |
