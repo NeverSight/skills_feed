@@ -1,0 +1,5 @@
+Agent-based declarative testing with YAML test specs. Tests run in sub-agents to preserve
+main context while executing many tests. Supports MCP servers, APIs, and browser automation.
+
+Use when: testing MCP servers, running integration tests, validating tool behavior after changes,
+or creating regression test suites. Keywords: yaml tests, agent testing, mcp test, integration tests.

@@ -1,0 +1,1 @@
+Fix React hydration issues where user input typed before hydration gets wiped/cleared when React takes over. Use when (1) users report input fields clearing on page load, (2) working with SSR/SSG React apps (Next.js, Remix, Astro) that have controlled inputs, (3) auditing forms for hydration safety, or (4) building new forms in statically rendered React apps.
