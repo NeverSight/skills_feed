@@ -1,0 +1,3 @@
+Azure Speech to Text REST-API für kurze Audioaufnahmen (Python). Zur einfachen Spracherkennung von Audiodateien mit einer Länge von bis zu 60 Sekunden ohne Speech SDK.
+Auslöser: „Sprache in Text REST“, „kurze Audiotranskription“, „Spracherkennung REST API“, „STT REST“, „Sprache erkennen REST“.
+NICHT VERWENDEN FÜR: Lange Audioaufnahmen (>60 Sekunden), Echtzeit-Streaming, Batch-Transkription, benutzerdefinierte Sprachmodelle, Sprachübersetzung. Verwenden Sie stattdessen das Speech SDK oder die Batch Transcription API.

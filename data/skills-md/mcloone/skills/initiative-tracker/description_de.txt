@@ -1,0 +1,14 @@
+Verwalten Sie Produktinitiativen, Epics und Stakeholder über Befehle in natürlicher Sprache.
+Speichert Daten als Logseq-kompatible Markdown-Dateien mit YAML-Frontmatter.
+
+Verwenden Sie es, wenn Benutzer Folgendes benötigen:
+- Initiativen und Epics erstellen, aktualisieren, auflisten oder anzeigen
+- Verfolgen Sie die Vollständigkeit der Initiativendokumentation
+- Verwalten Sie Personen, Teams und Partner
+- Überprüfen Sie, welche Informationen fehlen
+- Initialisieren Sie die Repository-Struktur
+
+Löst aus auf: /init_repository, /create_initiative, /list_initiatives, /show_initiative,
+/update_initiative, /what_missing, /create_epic, /list_epics, /create_person,
+/create_team, /create_partner, /create_product_area, /list_product_areas,
+/show_product_area, /update_product_area, /help

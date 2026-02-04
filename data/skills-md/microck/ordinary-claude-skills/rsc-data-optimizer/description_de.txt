@@ -1,0 +1,13 @@
+Optimieren Sie den Datenabruf des Next.js App Routers durch Konvertierung langsamer Client-Seite 
+vom schnellen serverseitigen Abrufen mit React Server Components (RSC).
+
+Verwenden Sie, wenn:
+– Benutzer meldet langsames Laden der ersten Seite mit Lade-Spinnern
+– Die Seite verwendet useEffect + useState zum Datenabruf
+– Das StoreContext/useStore-Muster verursacht einen Wasserfallabruf
+- SEO muss verbessert werden (Inhalt nicht im ursprünglichen HTML enthalten)
+- Konvertieren von „Client verwenden“-Seiten in Serverkomponenten
+
+Auslöser: „langsames Laden“, „Abruf optimieren“, „SSR-Daten“, „RSC-Optimierung“,
+„Ladespinner entfernen“, „Serverseitiger Abruf“, „In Serverkomponente konvertieren“,
+„Datenabruf-Lambat“, „Lade-Lama“
