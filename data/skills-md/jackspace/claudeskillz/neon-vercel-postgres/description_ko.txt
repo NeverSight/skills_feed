@@ -1,0 +1,13 @@
+이 기술은 Neon 서버리스 Postgres 및 Vercel Postgres(Neon 인프라를 기반으로 구축됨)를 웹 애플리케이션에 통합하기 위한 포괄적인 지식을 제공합니다. 서버리스 Postgres 데이터베이스 설정, 에지 및 서버리스 환경에 대한 연결 풀링 구성, 데이터베이스 분기 워크플로 구현 또는 Cloudflare Workers, Vercel Edge Functions 또는 Node.js 서버리스 함수의 Postgres 연결 문제 해결 시 사용해야 합니다.
+
+다음과 같은 경우에 이 기술을 사용하십시오.
+- Cloudflare Workers, Vercel Edge 또는 서버리스 환경을 위한 Neon Postgres 설정
+- Next.js 애플리케이션을 위한 Vercel Postgres 구성
+- 데이터베이스 분기 워크플로 구현(git과 유사한 데이터베이스 분기)
+- Drizzle ORM 또는 Prisma를 Neon/Vercel Postgres와 통합
+- 연결 풀 오류, 트랜잭션 시간 초과 또는 SSL 구성 문제 디버깅
+- D1/SQLite에서 Postgres로 또는 기존 Postgres에서 서버리스 Postgres로 마이그레이션
+- 특정 시점 복원(PITR) 또는 데이터베이스 백업 설정
+- "연결 풀이 소진되었습니다", "TCP 연결이 서버리스에서 지원되지 않습니다" 또는 "sslmode 필요"와 같은 오류가 발생합니다.
+
+키워드: 네온 포스트그레스, @neondatabase/serverless, @vercel/postgres, 서버리스 포스트그레스, 포스트그레스 엣지, 네온 분기, vercel 데이터베이스, http 포스트그레스, 웹소켓 포스트그레스, 풀링된 연결, 드리즐 네온, 프리즈마 네온, 포스트그레스 클라우드플레어, 포스트그레스 베르셀 엣지, SQL 템플릿 태그, 네온ctl, 데이터베이스 브랜치, 특정 시점 복원, 포스트그레스 마이그레이션, 서버리스 SQL, 엣지 데이터베이스, 네온 API, Vercel SQL

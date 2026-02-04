@@ -1,0 +1,15 @@
+OpenAI의 기존/상태 비저장 API에 대한 전체 가이드: 채팅 완료(GPT-5, GPT-4o), 임베딩,
+이미지(DALL-E 3), 오디오(Whisper + TTS) 및 조정. Node.js SDK와 가져오기 기반을 모두 포함합니다.
+최대 호환성을 위한 접근 방식입니다.
+
+사용 시기: OpenAI API 통합, GPT-5/GPT-4o로 채팅 완료 구현, 텍스트 생성
+스트리밍, 함수 호출/도구 사용, JSON 스키마로 구조화된 출력 생성,
+RAG용 임베딩 구현, DALL-E 3으로 이미지 생성, Whisper로 오디오 전사,
+TTS로 음성 합성, 콘텐츠 조정, Cloudflare Workers에 배포 또는 다음과 같은 문제가 발생합니다.
+비율 제한(429), 잘못된 API 키(401), 함수 호출 실패, 스트리밍 구문 분석과 같은 오류
+오류, 임베딩 차원 불일치 또는 토큰 한도 초과.
+
+키워드: openai api, 채팅 완료, gpt-5, gpt-5-mini, gpt-5-nano, gpt-4o, gpt-4-turbo,
+openai SDK, openai 스트리밍, 함수 호출, 구조화된 출력, json 스키마, openai 임베딩,
+text-embedding-3, dall-e-3, 이미지 생성, 속삭임 api, openai tts, 텍스트 음성 변환, 조정 api,
+openai 가져오기, cloudflare 작업자 openai, openai 속도 제한, openai 429, Reasoning_effort, 자세한 정보

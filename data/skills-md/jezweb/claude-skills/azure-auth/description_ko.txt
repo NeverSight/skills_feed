@@ -1,0 +1,3 @@
+MSAL.js를 사용하는 React SPA에 대한 Microsoft Entra ID(Azure AD) 인증과 jose 라이브러리를 사용하는 Cloudflare Workers JWT 검증입니다. 인증 코드 흐름 + PKCE를 사용한 전체 스택 패턴입니다. 8개의 문서화된 오류를 방지합니다.
+
+사용 시기: Microsoft SSO 구현, AADSTS50058 루프 문제 해결, AADSTS700084 새로 고침 토큰 오류, React Router 리디렉션, setActiveAccount 다시 렌더링 문제 또는 작업자의 Entra ID 토큰 유효성 검사.

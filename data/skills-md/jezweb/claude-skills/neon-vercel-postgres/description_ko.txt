@@ -1,0 +1,3 @@
+Cloudflare Workers/Edge용 Neon 또는 Vercel Postgres를 사용하여 서버리스 Postgres를 설정하세요. 연결 풀링, Git과 같은 분기 및 Drizzle ORM 통합이 포함됩니다.
+
+사용 시기: Edge Postgres 설정, "TCP 지원 안 됨" 문제 해결, 연결 풀 소진, SSL 구성 오류 또는 Node v20 트랜잭션 문제.

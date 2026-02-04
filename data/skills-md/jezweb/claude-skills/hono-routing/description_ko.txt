@@ -1,0 +1,3 @@
+Cloudflare Workers, Deno, Bun, Node.js용 Hono를 사용하여 유형이 안전한 API를 구축하세요. 라우팅, 미들웨어, 검증(Zod/Valibot), RPC, 스트리밍(SSE), WebSocket, 보안(CSRF, secureHeaders).
+
+사용 시기: Hono API 구축, SSE 스트리밍, WebSocket, 검증, RPC. 문제 해결: 유효성 검사 후크, RPC 유형, 미들웨어 체인, JWT 확인 알고리즘 필요(v4.11.4+), 본문 사용 오류.

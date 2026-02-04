@@ -1,0 +1,7 @@
+Cloudflare 지속형 개체에 대한 종합 가이드 - 조정, 실시간 통신 및 지속적인 상태 관리를 위한 전역적으로 고유한 상태 저장 개체입니다.
+
+사용 시기: 실시간 애플리케이션 구축, 최대 절전 모드로 WebSocket 서버 생성, 채팅방 또는 멀티플레이어 게임 구현, 여러 클라이언트 간 조정, 사용자별 또는 방별 상태 관리, 속도 제한 또는 세션 관리 구현, 경보로 작업 예약, 대기열 또는 워크플로 구축 또는 "클래스 내보내기 수행", "new_sqlite_classes", "마이그레이션 필요", "웹소켓 최대 절전 모드", "알람 API 오류" 또는 "전역 고유성" 발생 오류.
+
+15가지 이상의 문서화된 문제 방지: 클래스가 내보내지지 않음, 마이그레이션 누락, 잘못된 마이그레이션 유형, 최대 절전 모드를 차단하는 생성자 오버헤드, 최대 절전 모드를 중단하는 setTimeout, 최대 절전 모드에서 메모리 내 상태 손실, 최대 절전 모드가 아닌 나가는 WebSocket, 전역 고유성 혼란, KV 백엔드의 부분 deleteAll, 바인딩 이름 불일치, 상태 크기 제한 초과, 비원자 마이그레이션, 오해된 위치 힌트, 경보 재시도 실패, 가져오기 호출 차단 최대 절전 모드.
+
+키워드: 내구성 개체, cloudflare do, 내구성 개체 클래스, 바인딩 수행, websocket 최대 절전 모드, 상태 API 수행, ctx.storage.sql, ctx.acceptWebSocket, webSocketMessage, Alarm() 처리기, Storage.setAlarm, idFromName, newUniqueId, getByName, 내구성 개체 스텁, serializeAttachment, 실시간 cloudflare, 멀티 플레이어 cloudflare, 채팅방 작업자, 조정 cloudflare, 상태 저장 작업자, new_sqlite_classes, 마이그레이션 수행, 위치 힌트, RPC 메서드, blockConcurrencyWhile, "클래스 내보내기 수행", "new_sqlite_classes", "마이그레이션 필요", "websocket 최대 절전 모드", "알람 API 오류", "전역 고유성", "바인딩을 찾을 수 없음"

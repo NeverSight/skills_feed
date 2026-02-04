@@ -1,0 +1,1 @@
+Claude Code 적용을 위한 프로젝트별 후크를 설정할 때 사용합니다. .claude/hooks/가 누락되었거나 새 프로젝트를 생성할 때 INIT 상태에서 로드됩니다. .claude/config/project.json(테스트, 상태, 종속성)에서 읽는 5개의 후크를 설치합니다.

@@ -1,0 +1,3 @@
+소셜 인증, 2FA, 패스키, 조직, RBAC 및 15개 이상의 플러그인을 갖춘 TypeScript/Cloudflare 작업자를 위한 자체 호스팅 인증입니다. D1에는 Drizzle ORM 또는 Kysely가 필요합니다(직접 어댑터 없음). Clerk/Auth.js에 대한 자체 호스팅 대안입니다.
+
+사용 시기: D1의 자체 호스팅 인증, OAuth 공급자 구축, 다중 테넌트 SaaS 또는 D1 어댑터 오류 문제 해결, 세션 캐싱, 속도 제한, Expo 충돌, 추가 필드 버그.

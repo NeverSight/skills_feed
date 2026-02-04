@@ -1,0 +1,10 @@
+pgVector 및 ParadeDB를 사용한 PostgreSQL 기반 의미 체계 및 하이브리드 검색.
+벡터 검색, 의미 검색, 하이브리드 검색을 구현할 때 사용합니다.
+또는 PostgreSQL의 전체 텍스트 검색. pgVector 설정, 인덱싱을 다룹니다.
+(HNSW, IVFFlat), 하이브리드 검색(FTS + BM25 + RRF), ParadeDB
+Elasticsearch 대안, Cohere/크로스 인코더를 사용한 순위 재지정.
+OpenAI 임베딩을 위해 벡터(1536) 및 halfvec(3072) 유형을 지원합니다.
+
+트리거: pgVector, 벡터 검색, 의미 검색, 하이브리드 검색,
+임베딩 검색, PostgreSQL RAG, BM25, RRF, HNSW 인덱스, 유사성 검색,
+ParadeDB, pg_search, 재순위, Cohere 재순위

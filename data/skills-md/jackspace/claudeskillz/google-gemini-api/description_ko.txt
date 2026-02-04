@@ -1,0 +1,15 @@
+올바른 현재 SDK(@google/genai v1.27+, NOT
+@google/generative-ai는 지원 중단되었습니다. 텍스트 생성, 다중 모드 입력(텍스트 + 이미지 + 비디오 +
+오디오 + PDF), 함수 호출, 사고 모드, 스트리밍 및 정확한 2025의 시스템 지침
+모델 정보(2M이 아닌 1M 입력 토큰이 있는 Gemini 2.5 Pro/Flash/Flash-Lite).
+
+사용 시기: Gemini API 통합, 멀티모달 AI 애플리케이션 구현, 사고 모드 사용
+복잡한 추론, 병렬 실행을 통한 함수 호출, 스트리밍 응답, 배포
+Cloudflare Workers, 채팅 애플리케이션 구축 또는 SDK 지원 중단 경고 발생, 컨텍스트 창
+오류, 모델을 찾을 수 없음 오류, 함수 호출 실패 또는 다중 모달 형식 오류.
+
+키워드: gemini api, @google/genai, gemini-2.5-pro, gemini-2.5-flash, gemini-2.5-flash-lite,
+멀티모달 쌍둥이자리, 사고 모드, google ai, genai sdk, 쌍둥이자리 함수 호출, 스트리밍 쌍둥이자리,
+Gemini 비전, Gemini 비디오, Gemini 오디오, Gemini PDF, 시스템 지침, 다중 회전 채팅,
+더 이상 사용되지 않는 @google/generative-ai, gemini 컨텍스트 창, gemini 모델 2025, gemini 1m 토큰,
+Gemini 도구 사용, 병렬 함수 호출, 합성 함수 호출

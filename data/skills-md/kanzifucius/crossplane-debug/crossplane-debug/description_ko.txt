@@ -1,0 +1,1 @@
+Crossplane 구성, 기능(KCL, Go 템플릿, 패치 및 변환, 자동 준비) 및 관리형 리소스를 디버그합니다. 컴포지션 렌더링 문제, 함수 오류, 리소스 생성 실패, 종속성 문제 또는 클레임 ​​상태 문제를 해결할 때 사용합니다. 구성 파일을 로컬에서 사용할 수 없는 경우 원격 클러스터 디버깅을 지원합니다. "crossplane", "composition", "XR", "claim", "function-kcl", "managed Resource"와 같은 키워드에서 트리거되거나 Crossplane에서 생성된 Kubernetes 리소스를 디버깅할 때 트리거됩니다.

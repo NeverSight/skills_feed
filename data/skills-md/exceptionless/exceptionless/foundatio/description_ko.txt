@@ -1,0 +1,4 @@
+캐싱, 큐잉, 메시징, 파일 저장을 위한 Foundation 인프라 추상화,
+잠금, 작업 및 복원력. 완전한 API 문서를 보려면 context7을 사용하세요.
+키워드: Foundation, ICacheClient, IQueue, IMessageBus, IFileStorage, ILockProvider,
+IJob, QueueJobBase, 탄력성, 재시도, Redis, Elasticsearch

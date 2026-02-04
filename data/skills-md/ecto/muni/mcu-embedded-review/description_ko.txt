@@ -1,0 +1,1 @@
+Embassy 비동기 런타임, 메모리 제약 조건, LED 제어, CAN 연결 프로토콜 및 SLCAN 브리징에 중점을 두고 RP2350(Raspberry Pi Pico 2W) 및 ESP32-S3(Heltec) 마이크로컨트롤러용 임베디드 Rust 펌웨어를 검토합니다. MCU 펌웨어 변경 검토, LED 컨트롤러 문제 디버깅, Embassy 비동기 패턴 평가, 정적 메모리 할당 확인, SLCAN 구현 검증 또는 WS2812 LED, CAN 주변 장치 및 도구 연결에 대한 하드웨어별 코드 평가 시 사용합니다. no_std 환경, PIO 상태 머신, RMT 주변 장치 및 USB CDC 직렬 통신을 다룹니다.

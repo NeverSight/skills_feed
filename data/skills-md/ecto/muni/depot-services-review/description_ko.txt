@@ -1,0 +1,1 @@
+Axum 웹 프레임워크, SQLx 데이터베이스 패턴, Docker 배포 및 WebSocket 통신에 중점을 두고 depot/ 디렉터리의 Rust 마이크로서비스를 검토합니다. 디포 서비스 변경 사항(검색, 디스패치, map-api, gps-status, 매퍼) 검토, 새 엔드포인트 추가, 데이터베이스 스키마 수정, WebSocket 프로토콜 구현 또는 서비스 통합 문제 디버깅 시 사용합니다. Tokio 비동기 패턴, REST/WebSocket API 설계, PostgreSQL 마이그레이션, 오류 처리, 상태 확인 및 Docker 다단계 빌드를 다룹니다.

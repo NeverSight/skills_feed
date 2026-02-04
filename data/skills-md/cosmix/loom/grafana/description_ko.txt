@@ -1,0 +1,6 @@
+Grafana 및 LGTM 스택을 사용한 관측 가능성 시각화. 대시보드 디자인, 패널 구성, 경고, 변수/템플릿 및 데이터 소스.
+
+사용 시기: Grafana 대시보드 생성, 패널 및 시각화 구성, LogQL/TraceQL 쿼리 작성, Grafana 데이터 소스 설정, 대시보드 변수 및 템플릿 구성, Grafana 경고 구축.
+사용하지 마십시오: PromQL 쿼리 작성용(/prometheus 사용), 경고 규칙 전략용(/prometheus 사용), 일반 관찰 아키텍처용(senior-infrastructure-engineer 사용).
+
+트리거: grafana, 대시보드, 패널, 시각화, logql, Traceql, loki, 템포, mimir, 데이터 소스, 주석, 변수, 템플릿, 행, 통계, 그래프, 테이블, 히트맵, 게이지, 막대 차트, 원형 차트, 시계열, 로그 패널, 추적 패널, LGTM 스택.

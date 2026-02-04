@@ -1,0 +1,1 @@
+JUnit 5, Mockito, RestAssured를 사용한 REST 통합 테스트 패턴입니다. 외부 종속성을 모의하는 통합 테스트를 작성할 때 사용하고, 데이터베이스에 Testcontainers/H2를 사용하고, 원시 JSON 본문이 있는 엔드포인트를 테스트하세요.

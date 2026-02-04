@@ -1,0 +1,5 @@
+이 기술은 라우팅 패턴, 미들웨어 구성, 요청 검증, RPC 클라이언트/서버 패턴, 오류 처리 및 컨텍스트 관리에 중점을 두고 Hono를 사용하여 유형 안전 API를 구축하기 위한 포괄적인 지식을 제공합니다.
+
+사용 시기: Hono(모든 런타임)로 API 구축, Zod/Valibot/Typia/ArkType 유효성 검사기로 요청 유효성 검사 설정, 유형이 안전한 RPC 클라이언트/서버 통신 생성, 사용자 정의 미들웨어 구현, HTTPException으로 오류 처리, 사용자 정의 변수로 Hono 컨텍스트 확장 또는 미들웨어 유형 추론 문제, 유효성 검사 후크 혼란 또는 RPC 성능 문제 발생.
+
+키워드: hono, hono 라우팅, hono 미들웨어, hono rpc, hono 유효성 검사기, zod 유효성 검사기, valibot 유효성 검사기, 유형 안전 API, hono 컨텍스트, hono 오류 처리, HTTPException, c.req.valid, 미들웨어 구성, hono 후크, 유형화된 경로, hono 클라이언트, 미들웨어 응답 유형이 지정되지 않음, hono 검증 실패, hono rpc 유형 추론

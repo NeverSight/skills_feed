@@ -1,0 +1,1 @@
+음성 작업에는 Qwen(DashScope/百炼)을 사용합니다. (1) qwen3-asr-flash를 사용하고 선택적으로 청킹을 통해 대략적인 타임스탬프를 사용하여 사용자 오디오/음성 메시지(Telegram .ogg opus, wav, mp3)의 ASR 음성-텍스트 전사; (2) 선택 가능한 음성(기본 Cherry)과 함께 qwen3-tts-flash를 사용하여 TTS 텍스트 음성 변환 음성 회신 및 텔레그램용 .ogg 음성 메모로 출력.

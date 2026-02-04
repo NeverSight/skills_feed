@@ -1,0 +1,1 @@
+FastAPI, Pydantic 및 asyncio에 대한 Python 오류 처리 패턴. "Let it crash" 철학을 따릅니다. 예외를 발생시키고 경계를 파악합니다. HTTPException, 전역 예외 처리기, 유효성 검사 오류, 백그라운드 작업 실패를 다룹니다. 다음 경우에 사용하십시오: (1) API 오류 응답 설계, (2) RequestValidationError 처리, (3) 비동기 예외 관리, (4) 스택 추적 누출 방지, (5) 사용자 정의 예외 계층 구조 설계.

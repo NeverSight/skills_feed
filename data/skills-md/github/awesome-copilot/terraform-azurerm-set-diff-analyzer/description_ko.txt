@@ -1,0 +1,1 @@
+AzureRM 공급자에 대한 Terraform 계획 JSON 출력을 분석하여 가양성 차이(세트 유형 특성의 순서만 변경)와 실제 리소스 변경을 구별합니다. Application Gateway, Load Balancer, Firewall, Front Door, NSG 및 내부 순서 변경으로 인해 허위 차이를 발생시키는 집합 유형 특성이 있는 기타 리소스와 같은 Azure 리소스에 대한 Terraform 계획 출력을 검토할 때 사용합니다.

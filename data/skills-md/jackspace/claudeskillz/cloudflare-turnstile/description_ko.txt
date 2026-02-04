@@ -1,0 +1,5 @@
+이 기술은 CAPTCHA 대체 봇 보호 시스템인 Cloudflare Turnstile을 구현하기 위한 포괄적인 지식을 제공합니다. 양식, 로그인 페이지, 가입 흐름 또는 스팸/봇 방지가 필요한 사용자 대면 기능에 봇 보호를 통합할 때 사용해야 합니다. Turnstile은 백그라운드에서 보이지 않는 문제를 실행하여 자동화된 트래픽을 차단하는 동시에 뛰어난 사용자 경험을 유지합니다.
+
+사용 시기: 양식에 봇 보호 추가, 로그인 보안 구현, API 엔드포인트 남용 방지, reCAPTCHA/hCaptcha에서 마이그레이션, Turnstile에서 CSP 오류 발생, 토큰 검증 실패 처리, Turnstile에서 E2E 테스트 구현, React/Next.js/Hono 애플리케이션과 통합 또는 오류 코드 100*, 300*, 600* 디버깅.
+
+키워드: 개찰구, 보안 문자, 봇 보호, cloudflare 챌린지, siteverify, recaptcha 대안, 스팸 방지, 양식 보호, cf-turnstile, 개찰구 위젯, 토큰 검증, 관리형 챌린지, 보이지 않는 챌린지, @marsidev/react-turnstile, hono 개찰구, 작업자 개찰구

@@ -1,0 +1,1 @@
+Laravel Horizon 대기열, Octane 성능, Reverb WebSocket, Redis 캐싱, PostgreSQL 데이터베이스. 항상 활성화되는 경우: 대기열 작업, 캐시, 세션, 브로드캐스트, 데이터베이스 성능, 감독자, 작업자 작업. 트리거 대상: 작업 실패, 대기열 중단, 캐시 삭제 안 됨, Redis 연결, 브로드캐스트 이벤트, WebSocket, 실시간, Horizon 대시보드, Octane 메모리 누수, 느린 쿼리, N+1, 데이터베이스 시간 초과, 연결 거부, kuyruk çalışmıyor, 캐시 temizlenmiyor, 작업 başarısız, 작업자 durdu, 브로드캐스트 çalışmıyor, 실시간 gelmiyor.

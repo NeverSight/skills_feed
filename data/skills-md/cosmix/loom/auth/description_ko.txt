@@ -1,0 +1,6 @@
+OAuth2, JWT, RBAC/ABAC, 세션 관리, API 키, 비밀번호 해싱 및 MFA를 포함한 인증 및 권한 부여 패턴.
+
+사용 시기: 로그인 흐름, 액세스 제어, ID 관리, 토큰, 권한, 세션 처리, API 키 인증 또는 MFA 구현.
+사용하지 마십시오: 보안 취약점 검색(/security-scan 사용), 보안 감사(/security-audit 사용), 위협 모델링(/threat-model 사용)의 경우.
+
+트리거: 로그인, 로그아웃, 로그인, 가입, 인증, 권한 부여, 비밀번호, 자격 증명, 토큰, JWT, OAuth, OAuth2, OIDC, SSO, SAML, 세션, 쿠키, RBAC, ABAC, 권한, 역할, MFA, 2FA, TOTP, API 키, PKCE.

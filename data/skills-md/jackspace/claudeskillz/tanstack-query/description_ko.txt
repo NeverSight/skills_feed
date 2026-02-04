@@ -1,0 +1,5 @@
+이 기술은 React 애플리케이션의 TanStack Query v5(React Query) 서버 상태 관리에 대한 포괄적인 지식을 제공합니다. useQuery로 데이터 가져오기 설정, useMutation으로 변형 구현, QueryClient 구성, 캐싱 전략 관리, v4에서 v5로 마이그레이션, 낙관적 업데이트 구현, 무한 쿼리 사용 또는 쿼리/변형 오류 발생 시 사용해야 합니다.
+
+사용 시기: React 프로젝트에서 TanStack 쿼리 초기화, QueryClient 설정 구성, 사용자 정의 쿼리 후크 생성, 오류 처리가 포함된 변형 구현, 낙관적 업데이트 설정, 페이지 매기기에 useInfiniteQuery 사용, React Query v4에서 v5로 마이그레이션, 오래된 데이터 문제 디버깅, 캐싱 문제 해결, v5 주요 변경 사항 해결, 일시 중단 쿼리 구현 또는 쿼리 개발 도구 설정.
+
+키워드: TanStack 쿼리, React 쿼리, useQuery, useMutation, useInfiniteQuery, useSuspenseQuery, QueryClient, QueryClientProvider, 데이터 가져오기, 서버 상태, 캐싱, staleTime, gcTime, 쿼리 무효화, 프리페치, 낙관적 업데이트, 돌연변이, 쿼리 키, 쿼리 함수, 오류 경계, 서스펜스, React Query DevTools, v5 마이그레이션, v4에서 v5로, 요청 폭포, 백그라운드 다시 가져오기, 캐시 시간 이름 변경됨, 로드 상태 이름 변경됨, 보류 상태,initialPageParam 필요, keepPreviousData 제거됨, placeholderData, 쿼리 콜백 제거됨, onSuccess 제거됨, onError 제거됨, 개체 구문 필요함

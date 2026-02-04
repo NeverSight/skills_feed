@@ -1,0 +1,1 @@
+이 기술은 CI 검사를 반복적으로 실행하고 오류를 수정할 때 사용해야 합니다. make 대상(fast-ci, all-ci, ci)을 실행하거나 lint/format/type/test 오류를 반복하거나 pytest/ty/ruff/prettier/make/gt 명령에 대한 devrun 에이전트 패턴이 필요할 때 사용합니다.

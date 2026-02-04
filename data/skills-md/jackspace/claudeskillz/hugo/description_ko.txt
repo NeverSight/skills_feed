@@ -1,0 +1,5 @@
+이 기술은 Hugo 정적 사이트 생성기를 사용하여 정적 웹사이트를 구축하기 위한 포괄적인 지식을 제공합니다. Hugo 프로젝트(블로그, 문서 사이트, 랜딩 페이지, 포트폴리오) 설정, 사용자 지정 스타일 지정을 위한 Tailwind CSS v4 통합, 헤드리스 CMS 시스템(Sveltia CMS 또는 TinaCMS) 통합, 정적 자산을 사용하여 Cloudflare Workers에 배포, 테마 및 템플릿 구성, 일반적인 Hugo 설정 오류 방지 등에 사용해야 합니다.
+
+새로운 Hugo 사이트 스캐폴딩, Hugo Extended 및 Standard 에디션 중에서 선택, Tailwind CSS v4를 Hugo Pipes와 통합, Hugo.yaml 또는 Hugo.toml 파일 구성, Git 하위 모듈을 통해 PaperMod 또는 기타 테마 통합, 콘텐츠 관리를 위해 Sveltia CMS 또는 TinaCMS 설정, Cloudflare Workers 또는 Pages에 배포, baseURL 구성 문제 해결, 테마 설치 오류 해결, 서문 수정 등의 시나리오에 직면할 때 이 기술을 사용하십시오. 형식 문제(YAML 대 TOML), 날짜 관련 빌드 실패 방지, Hugo로 PostCSS 설정 또는 GitHub Actions로 CI/CD 설정.
+
+키워드: Hugo, Hugo-extended, static-site-generator, ssg, go-templates, papermod, goldmark, markdown, 블로그, 문서, docs-site, 랜딩 페이지, sveltia-cms, tina-cms, headless-cms, cloudflare-workers, Workers-static-assets, wrangler,hugo-server,hugo-build, frontmatter, yaml-frontmatter, toml-config, hugo-themes,hugo-modules, 다국어, i18n, github-actions, 버전 불일치, baseurl-error, 테마를 찾을 수 없음, tailwind, tailwind-v4, tailwind-css,hugo-pipes, postcss, css-framework,util-css,hugo-tailwind, tailwind-integration,hugo-assets

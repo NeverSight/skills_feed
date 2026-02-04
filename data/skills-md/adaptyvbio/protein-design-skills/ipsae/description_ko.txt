@@ -1,0 +1,2 @@
+ipSAE(Aligned Errors의 단백질 간 점수)를 사용한 바인더 디자인 순위. (1) 실험 테스트를 위한 바인더 디자인 순위 지정, (2) BindCraft 또는 RFdiffusion 출력 필터링, (3) AF2/AF3/Boltz 예측 비교, (4) 바인딩 성공률 예측, (5) ipTM 또는 iPAE보다 더 나은 순위가 필요한 경우 이 기술을 사용하십시오.
+구조 예측에는 chai 또는 alphafold를 사용합니다. QC 임계값의 경우 Protein-qc를 사용하세요.

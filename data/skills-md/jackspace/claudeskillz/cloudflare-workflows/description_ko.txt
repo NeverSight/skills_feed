@@ -1,0 +1,13 @@
+Cloudflare Workflows에 대한 완전한 지식 영역 - 내구성 있는 실행 프레임워크
+자동으로 재시도하고 지속하는 작업자에 대한 다단계 애플리케이션 구축
+상태를 확인하고 몇 시간 또는 며칠 동안 실행합니다.
+
+사용 시기: 장기 실행 워크플로 생성, 재시도 논리 구현, 빌드
+이벤트 기반 프로세스, 다단계 작업 예약, API 간 조정,
+또는 "NonRetryableError", "I/O 컨텍스트", "워크플로 실행 실패"가 발생하는 경우
+"직렬화 오류" 또는 "WorkflowEvent를 찾을 수 없음" 오류입니다.
+
+키워드: cloudflare 워크플로, 워크플로 작업자, 내구성 있는 실행, 워크플로 단계,
+WorkflowEntrypoint, step.do, step.sleep, 워크플로 재시도, NonRetryableError,
+워크플로 상태, 랭글러 워크플로, 워크플로 이벤트, 장기 실행 작업, step.sleepUntil,
+step.waitForEvent, 워크플로 바인딩

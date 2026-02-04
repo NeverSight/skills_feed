@@ -1,0 +1,14 @@
+Hono, Vite 및 정적 자산을 사용하는 Cloudflare Workers에 대한 프로덕션 테스트 설정입니다.
+
+사용 시기: 새로운 Cloudflare Workers 프로젝트 생성, Workers로 Hono 라우팅 설정,
+Workers용 Vite 플러그인 구성, Workers에 정적 자산 추가, Wrangler를 사용한 배포,
+또는 배포 오류, 라우팅 충돌 또는 HMR 충돌이 발생합니다.
+
+문서화된 6가지 문제 방지: 내보내기 구문 오류, 정적 자산 라우팅 충돌,
+예약된 핸들러 오류, HMR 경합 조건, 업로드 경합 조건 및 서비스 워커
+형식 혼란.
+
+키워드: Cloudflare 작업자, CF 작업자, Hono, wrangler, Vite, 정적 자산, @cloudflare/vite-plugin,
+wrangler.jsonc, ES 모듈, run_worker_first, SPA 폴백, API 경로, 서버리스, 엣지 컴퓨팅,
+"정의되지 않은 속성을 읽을 수 없습니다", "정적 자산 404", "중단된 약속이 취소되었습니다",
+"핸들러가 내보내지지 않음", 배포 실패, 라우팅이 작동하지 않음, HMR 충돌

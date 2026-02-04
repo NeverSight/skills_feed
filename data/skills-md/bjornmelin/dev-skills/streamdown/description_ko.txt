@@ -1,0 +1,11 @@
+Vercel의 Streamdown 라이브러리에 대한 전문가 지침 - AI 애플리케이션을 위한 스트리밍 최적화 반응 마크다운 대체품입니다.
+사용 시기: (1) useChat/streamText에서 AI 생성 마크다운 렌더링,
+(2) 스트리밍 응답으로 채팅 UI 구축,
+(3) 반응 마크다운에서 스트리밍 친화적인 렌더링으로 전환,
+(4) 코드 블록(Shiki), 수학(KaTeX), 다이어그램(Mermaid),
+(5) AI 스트리밍 중 불완전한 마크다운 처리(전처리기 권장),
+(6) Tailwind/CSS 변수를 사용하여 마크다운 스타일 맞춤설정,
+(7) rehype-harden(링크/이미지 프로토콜)을 사용하여 AI 출력을 보호합니다.
+트리거: 스트림다운, 스트리밍 마크다운, AI 채팅 마크다운, 반응 마크다운 교체,
+AI Elements Response, 미완성 마크다운, 수정, Shiki 테마, 인어 다이어그램,
+KaTeX 수학, rehype-harden, isAnimating, 마크다운 스트리밍.

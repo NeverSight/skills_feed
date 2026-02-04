@@ -1,0 +1,1 @@
+Viem을 사용하는 낮은 수준의 EVM 블록체인 상호 작용을 위한 TypeScript 패턴입니다. Ethereum 또는 EVM 체인을 읽고 쓰는 Node 스크립트, CLI 도구 또는 백엔드 서비스를 작성할 때 사용합니다. 계약 상호 작용, 지갑 작업, 트랜잭션 서명, 이벤트 감시, ABI 인코딩 또는 비React 블록체인 TypeScript 코드를 트리거합니다. 후크가 있는 React/Next.js 앱에는 사용하지 마세요(대신 wagmi 스킬 사용).

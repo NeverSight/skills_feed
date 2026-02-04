@@ -1,0 +1,1 @@
+Intel의 Chipsec 프레임워크를 사용하여 UEFI/BIOS 펌웨어 덤프에 대한 정적 분석. 펌웨어 구조를 디코딩하고, 알려진 맬웨어 및 루트킷(LoJax, ThinkPwn, HackingTeam, mosaicRegressor)을 감지하고, 해시를 사용하여 EFI 실행 가능 인벤토리를 생성하고, NVRAM 변수를 추출하고, SPI 플래시 설명자를 구문 분석합니다. 하드웨어 액세스 없이 오프라인으로 펌웨어 .bin/.rom/.fd/.cap 파일을 분석할 때 사용합니다.

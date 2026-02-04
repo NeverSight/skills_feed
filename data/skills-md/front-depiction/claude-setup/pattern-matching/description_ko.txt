@@ -1,0 +1,1 @@
+Data.TaggedEnum, $match, $is, Match.typeTags 및 Effect.match를 사용한 마스터 효과 패턴 일치. 수동 _tag 확인 및 Effect.either 패턴을 피하세요. 구별된 공용체, ADT 또는 태그 유형을 기반으로 하는 조건부 논리로 작업할 때 이 기술을 사용하십시오.

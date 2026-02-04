@@ -1,0 +1,7 @@
+Cloudflare Agents SDK에 대한 종합 가이드 - 작업자 + 지속형 개체에 AI 기반 자율 에이전트를 구축하세요.
+
+사용 시기: AI 에이전트 구축, WebSocket으로 상태 저장 에이전트 생성, 스트리밍으로 채팅 에이전트 구현, cron/지연으로 작업 예약, 비동기식 워크플로 실행, Vectorize로 RAG(Retrieval Augmented Generation) 시스템 구축, MCP(Model Context Protocol) 서버 생성, Human-In-The-Loop 워크플로 구현, 브라우저 렌더링으로 웹 탐색, SQL로 에이전트 상태 관리, 에이전트와 클라이언트 간 상태 동기화, 작업자에서 에이전트 호출, 다중 에이전트 시스템 구축, 에이전트 발생 구성 오류.
+
+원자적이지 않은 마이그레이션, new_sqlite_classes 누락, 에이전트 클래스를 내보내지 않음, 바인딩 이름 불일치, 전역 고유성 문제, WebSocket 상태 처리, 예약된 작업 콜백 오류, 상태 크기 제한, 워크플로 바인딩 누락, 브라우저 바인딩 필요, 벡터화 인덱스를 찾을 수 없음, MCP 전송 혼란, 인증 우회, 인스턴스 이름 지정 오류 및 상태 동기화 실패 등 15개 이상의 문서화된 문제를 방지합니다.
+
+키워드: Cloudflare 에이전트, 에이전트 SDK, cloudflare 에이전트 SDK, 에이전트 클래스, 내구성 개체 에이전트, 상태 저장 에이전트, WebSocket 에이전트, this.setState, this.sql, this.schedule, 작업 예약, cron 에이전트, 워크플로 실행, 에이전트 워크플로, 웹 검색, 인형극 에이전트, 브라우저 렌더링, 래그 에이전트, 벡터화 에이전트, 임베딩, mcp 서버, McpAgent, mcp 도구, 모델 컨텍스트 프로토콜, RouteAgentRequest, getAgentByName, useAgent 후크, AgentClient, AgentFetch, useAgentChat, AIChatAgent, chat 에이전트, 스트리밍 채팅, 루프에 있는 인간, hitl 에이전트, 다중 에이전트, 에이전트 오케스트레이션, 자율 에이전트, 장기 실행 에이전트, AI SDK, Workers AI, "에이전트 클래스를 확장해야 함", "new_sqlite_classes", "마이그레이션 필요", "바인딩을 찾을 수 없음", "에이전트를 내보낼 수 없음", "콜백이 존재하지 않습니다", "상태 제한을 초과했습니다"

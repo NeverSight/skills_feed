@@ -1,0 +1,1 @@
+중요: 안전하지 않은 Rust 코드 검토 및 FFI에 사용하세요. 트리거 대상: unsafe, raw 포인터, FFI, extern, transmute, *mut, *const, Union, #[repr(C)], libc, std::ffi, MaybeUninit, NonNull, SAFETY 주석, 건전성, 정의되지 않은 동작, UB, 안전한 래퍼, 메모리 레이아웃, bindgen, cbindgen, CString, CStr, 安全抽象, 裸指针, 외부 函数接口, 内存布局, 不安全代码, FFI 绑定, 未定义行为

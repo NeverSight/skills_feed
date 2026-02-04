@@ -1,0 +1,1 @@
+Wagmi v3를 사용하여 Ethereum 및 EVM 블록체인 상호 작용을 위한 React Hooks입니다. 지갑 연결, 계약 읽기/쓰기 또는 블록체인 상태를 사용하여 React 또는 Next.js 앱을 구축할 때 사용합니다. useAccount, useConnect, useContractRead, useContractWrite, WagmiProvider, ConnectKit, RainbowKit 또는 모든 React 블록체인 후크에서 트리거됩니다. Node 스크립트나 React가 아닌 코드에는 사용하지 마세요(대신 viem 스킬을 사용하세요).

@@ -1,0 +1,16 @@
+Next.js 및 Cloudflare Workers를 위한 프로덕션 준비 Auth.js v5 설정.
+
+사용 시기: 인증 설정, OAuth/자격 증명/매직 링크 구현,
+D1 또는 PostgreSQL 어댑터 구성, 세션 문제 디버깅, 마이그레이션
+v4에서 v5로, Edge 호환성 수정, JWT/데이터베이스 세션 문제 해결,
+AUTH_SECRET 오류 해결, CallbackRouteError 수정 또는 RBAC 구현.
+
+포함: Next.js 앱 라우터 및 페이지 라우터, Cloudflare Workers + D1, OAuth 공급자
+(GitHub, Google 등), 자격 증명 인증, 매직 링크, JWT 대 데이터베이스 세션,
+미들웨어 패턴, 역할 기반 액세스 제어, 토큰 새로 고침, 엣지 런타임
+호환성 및 일반적인 오류 방지.
+
+키워드: Auth.js, NextAuth.js, 인증, OAuth, 자격 증명, 매직 링크,
+D1 어댑터, Cloudflare Workers, Next.js 미들웨어, JWT 세션, 데이터베이스 세션,
+새로 고침 토큰, RBAC, 에지 호환성, AUTH_SECRET, CallbackRouteError,
+CredentialsSignin, JWEDecryptionFailed, 세션이 업데이트되지 않음, 경로 보호

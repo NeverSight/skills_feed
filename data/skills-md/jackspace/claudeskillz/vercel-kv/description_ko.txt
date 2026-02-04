@@ -1,0 +1,13 @@
+이 기술은 Vercel KV(Upstash에서 제공하는 Redis 호환 키-값 스토리지)를 Vercel 애플리케이션에 통합하기 위한 포괄적인 지식을 제공합니다. Next.js 애플리케이션용 Vercel KV 설정, 캐싱 패턴 구현, 세션 관리 또는 에지 및 서버리스 기능의 속도 제한 처리 시 사용해야 합니다.
+
+다음과 같은 경우에 이 기술을 사용하십시오.
+- Next.js 애플리케이션을 위한 Vercel KV 설정
+- 캐싱 전략 구현(페이지 캐시, API 캐시, 데이터 캐시)
+- 서버리스 환경에서 사용자 세션 또는 인증 토큰 관리
+- API 또는 기능에 대한 속도 제한 구축
+- TTL(time-to-live)로 임시 데이터 저장
+- Cloudflare KV에서 Vercel KV로 마이그레이션
+- "KV_REST_API_URL이 설정되지 않음", "속도 제한 초과" 또는 "JSON 직렬화 오류"와 같은 오류 발생
+- 강력한 일관성(vs 최종 일관성)을 갖춘 Redis 호환 API가 필요합니다.
+
+키워드: vercel kv, @vercel/kv, vercel redis, upstash vercel, kv vercel, redis vercel edge, 키-값 vercel, vercel 캐시, vercel 세션, vercel 속도 제한, redis upstash, kv 스토리지, Edge kv, 서버리스 Redis, vercel ttl, vercel 만료, kv typescript, next.js kv, 서버 작업 kv, Edge 런타임 kv

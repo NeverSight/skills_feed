@@ -1,0 +1,5 @@
+DDD, SOLID 원칙, ASP.NET Core REST API 및 C# 모범 사례를 다루는 포괄적인 .NET 개발 지침입니다.
+다음 작업 시 사용: (1) C# 코드 파일(.cs), (2) .NET 프로젝트 파일(.csproj, .sln), (3) ASP.NET Core 애플리케이션,
+(4) 도메인 기반 디자인 구현, (5) REST API 개발, (6) Entity Framework Core,
+(7) .NET에서의 단위/통합 테스트. 특히 다음을 트리거합니다: AggregateRoot/Entity를 상속하는 클래스,
+IRepository 종속성이 있는 서비스, ControllerBase를 상속하는 컨트롤러 또는 도메인/응용 프로그램/인프라 폴더의 파일.

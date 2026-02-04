@@ -1,0 +1,3 @@
+Cloudflare Zero Trust Access 인증을 Cloudflare Workers 애플리케이션과 통합할 때 이 기술을 사용하세요. Hono 미들웨어 설정, 수동 JWT 검증 패턴, 서비스 토큰 인증, Access를 통한 CORS 처리 및 다중 테넌트 구성을 제공합니다. CORS 실행 전 차단(45분 절약), 키 캐시 경합 조건(20분), JWT 헤더 누락(30분), 개발/프로덕션 팀 불일치(15분)를 포함한 8가지 일반적인 오류를 방지합니다. 최대 58%의 토큰(3,250개 토큰) 및 구현당 2.5시간을 절약합니다. 사용자 인증 흐름, 서비스 간 인증, 지리적 제한, 역할 기반 액세스 제어 및 액세스 정책 구성을 다룹니다.
+
+키워드: Cloudflare 액세스, 제로 트러스트, Cloudflare 제로 트러스트 액세스, 액세스 인증, JWT 검증, 액세스 jwt, 서비스 토큰, hono cloudflare 액세스, hono-cloudflare-access 미들웨어, 작업자 인증, 작업자 경로 보호, 관리자 인증, 액세스 정책, ID 공급자, Azure 광고 액세스, google 작업 공간 액세스, okta 액세스, github 액세스, rbac cloudflare, 지리적 제한, 다중 테넌트 액세스, cors 액세스, CORS 실행 전 차단, JWT 헤더 누락, 액세스 키 캐시, 팀 불일치, 액세스 클레임

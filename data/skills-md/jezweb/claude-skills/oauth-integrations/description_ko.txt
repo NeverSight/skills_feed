@@ -1,0 +1,6 @@
+Cloudflare Workers에서 GitHub 및 Microsoft Entra(Azure AD)를 사용하여 OAuth 2.0 인증 구현
+및 기타 엣지 환경. 공급자별 단점, 필수 헤더, 범위 요구 사항,
+MSAL 없이 토큰 처리.
+
+사용 시기: GitHub OAuth 구현, Microsoft/Azure AD 인증, OAuth 콜백 처리,
+또는 OAuth 흐름의 403 오류 문제를 해결합니다.

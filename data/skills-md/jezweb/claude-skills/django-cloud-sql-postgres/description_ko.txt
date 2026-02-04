@@ -1,0 +1,3 @@
+Cloud SQL PostgreSQL을 사용하여 Google App Engine Standard에 Django를 배포합니다. Unix 소켓 연결, 로컬 개발을 위한 Cloud SQL 인증 프록시, Gunicorn 구성, 프로덕션에 즉시 사용 가능한 설정을 다룹니다.
+
+사용 시기: App Engine에 Django 배포, Cloud SQL PostgreSQL 구성, Unix 소켓 연결 설정, '해당 파일 또는 디렉터리 없음', '연결 거부됨' 또는 '치명적: 비밀번호 인증 실패' 문제 해결.

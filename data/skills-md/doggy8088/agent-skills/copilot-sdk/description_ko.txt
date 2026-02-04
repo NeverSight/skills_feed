@@ -1,0 +1,1 @@
+이 기술은 GitHub Copilot SDK를 사용하여 에이전트 및 애플리케이션을 생성하기 위한 지침을 제공합니다. 중요 - TypeScript/Node.js와 함께 SDK를 사용할 때 프로젝트는 ESM(ECMAScript 모듈)을 사용해야 합니다. CommonJS(require/module.exports)는 지원되지 않습니다. 사용자가 TypeScript(ESM만 해당), Python, Go 또는 .NET에서 GitHub Copilot SDK를 사용하는 소프트웨어를 생성, 수정 또는 작업하려는 경우 사용해야 합니다. 이 기술은 SDK 사용 패턴, ESM 기반 프로젝트 구성, CLI 구성, 사용자 정의 도구, MCP 서버 및 사용자 정의 에이전트를 다룹니다.

@@ -1,0 +1,18 @@
+기본 UI(@base-ui-comComponents/react)에 대한 프로덕션 테스트를 거친 설정 - MUI의 스타일이 적용되지 않은 구성 요소 라이브러리
+렌더링 소품 패턴을 사용하여 액세스 가능하고 사용자 정의 가능한 React 구성 요소를 제공합니다. 이 스킬
+전체 스타일 제어 기능을 갖춘 액세스 가능한 UI를 구축하고 Radix UI에서 마이그레이션할 때 사용해야 합니다.
+또는 스마트 포지셔닝을 위해 플로팅 UI 통합이 포함된 구성 요소가 필요합니다.
+
+사용 시기: Vite + React 프로젝트에서 Base UI 설정, Radix UI에서 Base UI로 마이그레이션,
+접근 가능한 구성 요소 구현(Dialog, Select, Popover, Tooltip, NumberField, Accordion)
+asChild 패턴 대신 렌더링 소품 API가 필요한 팝업 위치 지정 문제가 발생합니다.
+Tailwind v4 + shadcn/ui를 사용하여 구축하거나 Cloudflare Workers에 배포합니다.
+
+⚠️ 베타 상태: 기본 UI는 v1.0.0-beta.4입니다. Stable v1.0은 2025년 4분기에 출시될 예정입니다. 이 기술은 다음을 제공합니다.
+알려진 베타 문제에 대한 해결 방법 및 API 안정성에 대한 지침.
+
+키워드: base-ui, @base-ui-comComponents/react, mui base ui, 스타일이 지정되지 않은 구성 요소, 액세스 가능한 구성 요소,
+렌더링 소품, 기수 대안, 기수 마이그레이션, 부동 UI, 포지셔너 패턴, 헤드리스 UI,
+접근 가능한 대화 상자, 접근 가능한 선택, 접근 가능한 팝오버, 접근 가능한 도구 설명, 접근 가능한 아코디언,
+숫자 필드, 반응 구성 요소, tailwind 구성 요소, vite 반응, cloudflare 작업자 UI,
+베타 구성 요소, 구성 요소 라이브러리

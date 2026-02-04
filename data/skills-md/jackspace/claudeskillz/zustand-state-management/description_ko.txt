@@ -1,0 +1,16 @@
+TypeScript를 사용하는 React 애플리케이션의 Zustand 상태 관리를 위한 프로덕션 테스트 설정입니다.
+이 기술은 확장 가능하고 형식이 안전한 전역 상태를 구축하기 위한 포괄적인 패턴을 제공합니다.
+
+사용 시기: React에서 전역 상태 설정, Redux 또는 Context API에서 마이그레이션, 구현
+localStorage를 사용한 상태 지속성, Zustand로 TypeScript 구성, 슬라이스 패턴 사용
+모듈식 저장소의 경우 디버깅을 위한 devtools 미들웨어 추가, Next.js SSR 하이드레이션 처리,
+또는 수화 오류, TypeScript 추론 문제가 발생하거나 미들웨어 문제가 지속됩니다.
+
+5가지 문서화된 문제 방지: Next.js 수화 불일치, TypeScript 이중 괄호
+구문 오류, 미들웨어 내보내기 오류 지속, 무한 렌더링 루프 및 조각 패턴
+유형 추론 실패.
+
+키워드: zustand, 상태 관리, React 상태, TypeScript 상태, 지속 미들웨어,
+devtools, 슬라이스 패턴, 전역 상태, React 후크, 저장소 생성, useBoundStore,
+StateCreator, 수화 오류, 텍스트 콘텐츠 불일치, 무한 렌더링, localStorage,
+sessionStorage, immer 미들웨어, 얕은 동등성, 선택기 패턴, zustand v5

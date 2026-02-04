@@ -1,0 +1,5 @@
+이 기술은 핵심 패턴, 보안 모범 사례, 데이터베이스 상호 작용, 후크/필터, 설정 API, 사용자 정의 게시물 유형, REST API 및 AJAX를 다루는 WordPress 플러그인 개발에 대한 포괄적인 지식을 제공합니다. 이 기술은 WordPress 플러그인 생성, 보안 문제 해결, 사용자 정의 게시물 유형/분류 구현, 관리 인터페이스 구축 또는 WordPress 데이터베이스 작업 시 사용해야 합니다.
+
+사용 시기: 새로운 WordPress 플러그인 생성, nonce/sanitization/escaping 구현, $wpdb 및 준비된 명령문 작업, 설정 API 페이지 구축, 사용자 정의 게시물 유형 또는 분류 등록, REST API 엔드포인트 구현, AJAX 요청 처리, 플러그인 활성화/비활성화 문제 디버깅, SQL 삽입/XSS/CSRF 취약점 방지.
+
+키워드: wordpress 플러그인 개발, wordpress 보안, wordpress 후크, wordpress 필터, wordpress 데이터베이스, wpdb 준비, sanitize_text_field, esc_html, wp_nonce, 사용자 정의 게시물 유형,register_post_type, 설정 API, 나머지 API, admin-ajax, wordpress sql 주입, wordpress xss, wordpress csrf, 플러그인 헤더, 활성화 후크, 비활성화 후크, wordpress 코딩 표준, wordpress 플러그인 아키텍처

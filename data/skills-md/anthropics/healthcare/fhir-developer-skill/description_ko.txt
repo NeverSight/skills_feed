@@ -1,0 +1,1 @@
+의료 엔드포인트 구축을 위한 FHIR API 개발 가이드입니다. 사용 시기: (1) FHIR REST 엔드포인트(환자, 관찰, 만남, 조건, MedicationRequest) 생성, (2) FHIR 리소스 유효성 검사 및 적절한 HTTP 상태 코드 및 오류 응답 반환, (3) FHIR 승인 및 OAuth 범위에서 SMART 구현, (4) 번들, 트랜잭션, 일괄 작업 또는 검색 페이지 매김 작업. FHIR R4 리소스 구조, 필수 필드, 값 세트(상태 코드, 성별, 의도), 코딩 시스템(LOINC, SNOMED, ​​RxNorm, ICD-10) 및 OperationOutcome 오류 처리를 다룹니다.

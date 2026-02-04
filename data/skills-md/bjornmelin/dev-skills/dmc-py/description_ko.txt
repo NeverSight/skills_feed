@@ -1,0 +1,9 @@
+DMC(Dash Mantine Components) v2.4.0을 사용하여 Dash 애플리케이션을 구축하기 위한 전문가 지침입니다.
+DMC를 사용하여 대시보드, 양식, 데이터 시각화 앱을 만들 때 사용합니다.
+커버: MantineProvider 테마, 스타일 소품(m, p, c, bg, w, h), 스타일 API,
+콜백(기본, 패턴 일치 ALL/MATCH/ALLSMALLER, 클라이언트측, 백그라운드),
+Dash Pages, 차트(LineChart, BarChart, DonutChart)가 포함된 다중 페이지 앱
+날짜 선택기, 모달 및 모든 90개 이상의 구성 요소.
+트리거 대상: dash-mantine-comComponents, DMC, MantineProvider, dmc.Button, dmc.Select,
+dmc.Modal, dmc.BarChart, Mantine 테마, Dash UI 구성 요소, Dash 콜백,
+다중 페이지 Dash 앱, 패턴 일치 콜백, 클라이언트측 콜백, AppShell.

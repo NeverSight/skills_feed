@@ -1,0 +1,7 @@
+이 기술은 React, Next.js 및 Cloudflare Workers 애플리케이션에 Clerk 인증을 통합하기 위한 포괄적인 지식을 제공합니다. 사용자 인증 설정, 보호된 경로 구현, JWT 토큰 확인, 사용자 메타데이터 및 조직 클레임이 포함된 사용자 정의 JWT 템플릿 생성, Clerk 미들웨어 구성, shadcn/ui 구성 요소와 통합, 인증 흐름 테스트 또는 Clerk 인증 오류 문제 해결 시 사용해야 합니다.
+
+사용 시기: React/Vite 프로젝트에 Clerk 추가, Next.js App Router에서 Clerk 설정, Cloudflare Workers에서 Clerk 인증 구현, 경로 보호를 위해 clerkMiddleware 구성, 단축 코드(user.id, user.email, user.public_metadata.role)를 사용하여 사용자 지정 JWT 템플릿 생성, RBAC에 대한 세션 클레임 액세스, Supabase/Grafbase와 통합, @clerk/backend로 토큰 확인, Clerk 통합 Hono 사용, Clerk shadcn/ui 구성 요소 사용, Playwright로 E2E 테스트 작성, 테스트 세션 토큰 생성, 테스트 이메일 주소 및 전화 번호 사용 또는 인증 오류 발생.
+
+비밀 키 누락 오류, API 키 마이그레이션 실패, JWKS 캐시 경합 조건, AuthorizedParties 누락으로 인한 CSRF 취약성, Core 2 업그레이드 후 가져오기 경로 오류, JWT 크기 제한 문제, 더 이상 사용되지 않는 API 버전 경고, ClerkProvider JSX 구성 요소 오류, 비동기 인증() 도우미 혼동, 환경 변수 잘못된 구성 및 Vite 개발 모드 431 헤더 오류 등 11가지 문서화된 문제를 방지합니다.
+
+키워드: 사무원, 사무원 인증, 사무원 인증, @clerk/nextjs, @clerk/backend, @clerk/clerk-react, clerkMiddleware, createRouteMatcher, verifyToken, useUser, useAuth, useClerk, JWT 템플릿, JWT 클레임, JWT 단축 코드, 사용자 정의 JWT, 세션 클레임, getToken 템플릿, user.public_metadata, org_id, org_slug, org_role, CustomJwtSessionClaims, sessionClaims 메타데이터, 사무원 Webhook, 사무원 비밀 키, 사무원 게시 가능 키, 보호된 경로, Cloudflare 작업자 인증, Next.js 인증, shadcn/ui 인증, @hono/clerk-auth, "사무실 비밀 키 누락", "JSX 구성 요소로 사용할 수 없습니다", JWKS 오류, AuthorizedParties, 서기 미들웨어, ClerkProvider, UserButton, SignIn, SignUp, 서기 테스트, 테스트 이메일, 테스트 전화번호, +clerk_test, 424242 OTP, 세션 토큰, 테스트 토큰, @clerk/testing, 극작가 테스트, E2E 테스트, 서기 테스트 모드, 봇 감지, 세션 토큰 생성, 테스트 사용자

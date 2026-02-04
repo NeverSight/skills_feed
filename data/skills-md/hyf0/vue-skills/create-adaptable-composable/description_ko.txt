@@ -1,0 +1,1 @@
+호출자가 일반 값, ref 또는 getter를 전달할 수 있도록 반응형 입력(MaybeRef / MaybeRefOrGetter)을 허용하는 라이브러리급 Vue 컴포저블을 만듭니다. 반응형 효과(watch/watchEffect) 내에서 toValue()/toRef()를 사용하여 입력을 정규화하여 동작을 예측 가능하고 반응적으로 유지합니다. 사용자가 적응형 또는 재사용 가능한 컴포저블 생성을 요청할 때 이 기술을 사용하세요.

@@ -1,0 +1,17 @@
+Cloudflare Browser Rendering에 대한 완전한 지식 영역 - 헤드리스 Chrome 자동화
+스크린샷, PDF, 웹 스크래핑을 위해 Cloudflare Workers에서 Puppeteer 및 Playwright와 함께
+및 브라우저 자동화 워크플로우.
+
+사용 시기: 스크린샷 찍기, HTML 또는 URL에서 PDF 생성, 웹 스크래핑 콘텐츠,
+웹사이트 크롤링, 브라우저 자동화 작업, 웹 애플리케이션 테스트, 브라우저 세션 관리,
+일괄 브라우저 작업을 수행하거나, 콘텐츠 추출을 위해 AI와 통합하거나,
+브라우저 렌더링 오류, XPath 선택기 오류, 브라우저 시간 초과 문제, 동시성 제한,
+메모리 초과 오류 또는 "정의되지 않은 속성을 읽을 수 없습니다('가져오기' 읽기)" 오류.
+
+키워드: 브라우저 렌더링 cloudflare, @cloudflare/puppeteer, @cloudflare/playwright,
+인형극 노동자, 극작가 노동자, 스크린샷 Cloudflare, PDF 생성 노동자,
+웹 스크래핑 cloudflare, 헤드리스 크롬 작업자, 브라우저 자동화, puppeteer.launch,
+playwright.chromium.launch, 브라우저 바인딩, 세션 관리, puppeteer.sessions,
+puppeteer.connect, browser.close, browser.disconnect, XPath가 지원되지 않음, 브라우저 시간 초과,
+동시성 제한, keep_alive, page.screenshot, page.pdf, page.goto, page.evaluate,
+시크릿 컨텍스트, 세션 재사용, 일괄 스크래핑, 웹사이트 크롤링

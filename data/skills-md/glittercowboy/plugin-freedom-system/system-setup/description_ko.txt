@@ -1,0 +1,1 @@
+Plugin Freedom System에 필요한 모든 종속성을 검증하고 구성합니다. 이는 플러그인 워크플로가 시작되기 전에 실행되는 독립형 기술입니다. Python, 빌드 도구, CMake, JUCE 및 Pluginval을 확인하고 선택적으로 사용자 승인을 통해 누락된 종속성을 설치합니다. 구성은 다른 기술에서 사용할 수 있도록 .claude/system-config.json에 저장됩니다. 사용자가 설정, 설치, 종속성, 누락된 도구를 언급하거나 SessionStart 후크가 구성 문제를 감지할 때 사용합니다.

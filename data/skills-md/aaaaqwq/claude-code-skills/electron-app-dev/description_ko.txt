@@ -1,0 +1,11 @@
+Electron은 Electron-vite、TypeScript、React、IPC통신、窗口管理、原生功能集成等Electron전체栈开发技术。
+
+용용场景:
+- 创建electron-vite + TypeScript + React项目
+- 보안이 철저한 IPC 통신
+- 窗口管理(创建、控管、多窗口、状态持久化)
+- 原生功能(系统托盘、菜单、통지、文件对话框)
+- 전자 빌더打包分发
+- 自动更新和代码签name
+
+所有代码遵循最新Electron안전最佳实践：contextIsolation开启、nodeIntegration关闭、sandbox模式开启、contextBridge안전暴露IPC。

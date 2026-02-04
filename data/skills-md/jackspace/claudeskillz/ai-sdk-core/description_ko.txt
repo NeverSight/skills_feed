@@ -1,0 +1,12 @@
+Vercel AI SDK v5를 사용한 백엔드 AI 기능 - 텍스트 생성, Zod를 사용한 구조화된 출력,
+도구 호출 및 에이전트. OpenAI, Anthropic, Google 및 Cloudflare Workers AI에 대한 다중 공급자 지원.
+
+사용 시기: 서버 측 AI 기능 구현, 텍스트/채팅 완료 생성, 구조화된 생성
+Zod 스키마를 사용한 AI 출력, 도구를 사용하여 AI 에이전트 구축, AI 응답 스트리밍, 통합
+OpenAI/Anthropic/Google/Cloudflare 공급자 또는 AI_APICallError와 같은 AI SDK 오류가 발생하는 경우,
+AI_NoObjectGeneratedError, 스트리밍 실패 또는 작업자 시작 제한.
+
+키워드: ai SDK 코어, vercel ai SDK, generateText, streamText, generateObject, streamObject,
+ai SDK 노드, ai SDK 서버, zod ai 스키마, ai 도구 호출, ai 에이전트 클래스, openai SDK, Anthropic SDK,
+google gemini sdk, Workers-ai-provider, ai 스트리밍 백엔드, 다중 제공자 ai, ai sdk 오류,
+AI_APICallError, AI_NoObjectGeneratedError, streamText 실패, 작업자 시작 제한 ai

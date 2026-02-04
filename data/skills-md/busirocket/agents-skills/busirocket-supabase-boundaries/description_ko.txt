@@ -1,0 +1,1 @@
+Supabase 액세스 패턴 및 서비스 경계. Supabase 프로젝트 작업 시에만 사용하세요. Supabase 액세스를 services/에 중앙 집중화하고 구성 요소/후크/유틸리티/경로 처리기에서 직접 Supabase를 호출하지 마십시오.
