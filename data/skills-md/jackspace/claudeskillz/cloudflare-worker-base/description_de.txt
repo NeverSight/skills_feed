@@ -1,0 +1,14 @@
+Produktionserprobtes Setup für Cloudflare Workers mit Hono, Vite und Static Assets.
+
+Verwendung bei: Erstellen neuer Cloudflare Workers-Projekte, Einrichten von Hono-Routing mit Workers,
+Konfigurieren des Vite-Plugins für Workers, Hinzufügen statischer Assets zu Workers, Bereitstellen mit Wrangler,
+oder es kommt zu Bereitstellungsfehlern, Routing-Konflikten oder HMR-Abstürzen.
+
+Verhindert 6 dokumentierte Probleme: Exportsyntaxfehler, Routingkonflikte bei statischen Assets,
+geplante Handler-Fehler, HMR-Race-Bedingungen, Upload-Race-Bedingungen und Service Worker
+Formatverwirrung.
+
+Schlüsselwörter: Cloudflare Workers, CF Workers, Hono, Wrangler, Vite, Static Assets, @cloudflare/vite-plugin,
+wrangler.jsonc, ES-Modul, run_worker_first, SPA-Fallback, API-Routen, serverlos, Edge-Computing,
+„Eigenschaften von undefiniert können nicht gelesen werden“, „Statische Assets 404“, „Ein hängendes Versprechen wurde abgebrochen“,
+„Handler exportiert nicht“, Bereitstellung schlägt fehl, Routing funktioniert nicht, HMR stürzt ab

@@ -1,0 +1,13 @@
+REST-API für kettenübergreifende und kettenübergreifende Token-Swaps, Bridging und DeFi-Operationen.
+
+VERWENDEN SIE DIESE FÄHIGKEIT, WENN DER BENUTZER Folgendes möchte:
+- Tauschen Sie Token zwischen verschiedenen Blockchains aus (z. B. „Swap USDC on Ethereum to ETH on Arbitrum“)
+- Bridge-Tokens zu einer anderen Kette (z. B. „meine ETH vom Mainnet zu Optimism verschieben“)
+- Tauschen Sie Token in derselben Kette mit den besten Kursen aus (z. B. „ETH gegen USDC auf Polygon tauschen“).
+- Finden Sie die beste Route oder das beste Angebot für einen Token-Austausch über Ketten hinweg
+- Führen Sie DeFi-Operationen kettenübergreifend aus (Zap, Bridge+Swap+Deposit, Yield-Farming-Eintrag)
+- Erstellen Sie Multi-Chain-Zahlungsflüsse (akzeptieren Sie jeden Token, rechnen Sie mit einem bestimmten Token ab)
+- Überprüfen Sie unterstützte Ketten, Token oder Brücken auf kettenübergreifende Übertragungen
+- Verfolgen Sie den Status einer kettenübergreifenden Transaktion
+- Erstellen Sie Backend-Dienste (Python, Go, Rust usw.), die kettenübergreifende Swaps benötigen
+- Integrieren Sie Cross-Chain-Funktionalität über HTTP/REST (nicht JavaScript SDK)

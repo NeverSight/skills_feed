@@ -1,0 +1,3 @@
+Erstellen Sie typsichere APIs mit Hono für Cloudflare Workers, Deno, Bun, Node.js. Routing, Middleware, Validierung (Zod/Valibot), RPC, Streaming (SSE), WebSocket, Sicherheit (CSRF, secureHeaders).
+
+Verwendung bei: Erstellung von Hono-APIs, Streaming von SSE, WebSocket, Validierung, RPC. Fehlerbehebung: Validierungs-Hooks, RPC-Typen, Middleware-Ketten, JWT-Verifizierungsalgorithmus erforderlich (v4.11.4+), Body-Consumed-Fehler.

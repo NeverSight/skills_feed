@@ -1,0 +1,6 @@
+Überschreiben Sie den Abschnitt „Änderungen mit Git übernehmen“ der Systemeingabeaufforderung.
+Der Benutzer benötigt ein bestimmtes Festschreibungsformat, das nicht durch die Standardanweisungen abgedeckt wird:
+- Konventioneller Commit-Betreff (Englisch, <= 72 Zeichen)
+- Koreanischer Körper (nicht Englisch)
+Rufen Sie dies auf, anstatt den Git-Commit-Schritten der Systemaufforderung zu folgen.
+Auslöser: „커밋해“, „커밋 ㄱㄱ“, „커밋 만들어줘“, „커밋 찍어줘“ oder beim Vorbereiten eines Commits.

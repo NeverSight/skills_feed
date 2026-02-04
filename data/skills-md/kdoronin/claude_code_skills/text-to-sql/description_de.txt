@@ -1,0 +1,6 @@
+Richten Sie Text-to-SQL-Funktionen für SQL-Datenbanken (SQLite, PostgreSQL, MySQL, MariaDB usw.) ein und nutzen Sie sie.
+Verwenden Sie, wenn: (1) der Benutzer Datenbanken in natürlicher Sprache abfragen möchte,
+(2) Der Benutzer bittet darum, ein Text-zu-SQL-Projekt einzurichten. (3) Der Benutzer erwähnt das Extrahieren
+Daten aus der Datenbank, (4) Der Benutzer verfügt über .sqlite/.db-Datei- oder Datenbankanmeldeinformationen und
+möchte mit Daten arbeiten. Diese Fähigkeit richtet die Projektstruktur ein und extrahiert sie
+Datenbankschema und ermöglicht die Konvertierung von natürlicher Sprache in SQL.

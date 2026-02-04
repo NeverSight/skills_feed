@@ -1,0 +1,16 @@
+Produktionserprobtes Setup für die Zustandsverwaltung in React-Anwendungen mit TypeScript.
+Dieser Skill stellt umfassende Muster zum Aufbau eines skalierbaren, typsicheren globalen Zustands bereit.
+
+Verwendung bei: Einrichten des globalen Status in React, Migration von Redux oder Context API, Implementierung
+Zustandspersistenz mit localStorage, TypeScript mit Zustand konfigurieren, Slices-Muster verwenden
+für modulare Stores, Hinzufügen von Devtools-Middleware zum Debuggen, Handhabung der Next.js SSR-Hydratation,
+oder es treten Hydratationsfehler, TypeScript-Inferenzprobleme oder anhaltende Middleware-Probleme auf.
+
+Verhindert 5 dokumentierte Probleme: Next.js-Feuchtigkeitskonflikte, doppelte TypeScript-Klammern
+Syntaxfehler, persistente Middleware-Exportfehler, endlose Renderschleifen und Slices-Muster
+Fehler bei der Typinferenz.
+
+Schlüsselwörter: Zustand, Zustandsverwaltung, React-Zustand, TypeScript-Zustand, Persistenz-Middleware,
+Devtools, Slices-Muster, globaler Status, React-Hooks, Store erstellen, useBoundStore,
+StateCreator, Hydratationsfehler, Textinhaltskonflikt, unendliches Rendern, localStorage,
+sessionStorage, immer Middleware, flache Gleichheit, Selektormuster, Zustand v5

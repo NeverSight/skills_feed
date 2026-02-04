@@ -1,0 +1,1 @@
+Steuern Sie kopfloses Chrome über Cloudflare Browser Rendering CDP WebSocket. Wird für Screenshots, Seitennavigation, Scraping und Videoaufnahme verwendet, wenn in einer Cloudflare Workers-Umgebung eine Browserautomatisierung erforderlich ist. Erfordert CDP_SECRET env var und cdpUrl, die in browser.profiles konfiguriert sind.

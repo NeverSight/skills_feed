@@ -1,0 +1,17 @@
+Dokumentenarchitektur OHNE Implementierung. Erstellt ADR- und Komponentendokumente mit dem Status „bereitgestellt“.
+
+Diese Fähigkeit MUSS verwendet werden, wenn der Benutzer ENTWERFEN oder PLANEN möchte, ohne Folgendes zu implementieren:
+- „X bereitstellen“, „eine Komponente bereitstellen“, „neuen Dienst bereitstellen“
+- „Entwerfen Sie die Architektur für X“, „Entwerfen Sie eine Komponente“
+- „Plan X“, „Planen Sie einen neuen Dienst“, „Planen Sie die Architektur“
+- „Dokument-X-Architektur“, „Architekt X“
+- „envision X“, „skizze X-Architektur“
+
+Verwenden Sie diesen Skill NICHT, wenn die Eingabeaufforderung Folgendes enthält:
+- „pattern“, „patterns“ → Route zu c3-ref
+- „ref“, „refs“ → Route zu c3-ref
+- „convention“, „standard“ → Route zu c3-ref
+
+Schlüsselindikator: Der Benutzer möchte eine Dokumentation/Designausgabe, KEINE Codeänderungen.
+Erfordert die Existenz von .c3/. Erstellt ADR mit dem Status: bereitgestellt.
+Für Implementierungsanfragen leiten Sie sie an c3-alter weiter.

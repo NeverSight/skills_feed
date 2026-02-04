@@ -1,0 +1,1 @@
+Supabase-Zugriffsmuster und Dienstgrenzen. Nur verwenden, wenn mit Supabase-Projekten gearbeitet wird. Zentralisieren Sie den Supabase-Zugriff in „services/“ und rufen Sie Supabase niemals direkt über Komponenten/Hooks/Utils/Routenhandler auf.

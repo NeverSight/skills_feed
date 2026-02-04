@@ -1,0 +1,3 @@
+Selbstgehostete Authentifizierung für TypeScript/Cloudflare-Mitarbeiter mit sozialer Authentifizierung, 2FA, Passkeys, Organisationen, RBAC und über 15 Plugins. Erfordert Drizzle ORM oder Kysely für D1 (kein Direktadapter). Selbstgehostete Alternative zu Clerk/Auth.js.
+
+Verwendung bei: Selbsthosting-Authentifizierung auf D1, Aufbau eines OAuth-Anbieters, mandantenfähigem SaaS oder Fehlerbehebung bei D1-Adapterfehlern, Sitzungscaching, Ratenbegrenzungen, Expo-Abstürzen, AdditionalFields-Fehlern.

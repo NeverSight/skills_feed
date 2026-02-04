@@ -1,0 +1,16 @@
+Produktionsbereites Auth.js v5-Setup für Next.js und Cloudflare Workers.
+
+Verwendung bei: Einrichten der Authentifizierung, Implementieren von OAuth/Anmeldeinformationen/Magic-Links,
+Konfigurieren von D1- oder PostgreSQL-Adaptern, Debuggen von Sitzungsproblemen, Migration von
+v4 bis v5, Behebung der Edge-Kompatibilität, Fehlerbehebung bei JWT-/Datenbanksitzungen,
+Beheben von AUTH_SECRET-Fehlern, Beheben von CallbackRouteError oder Implementieren von RBAC.
+
+Deckt ab: Next.js App Router & Pages Router, Cloudflare Workers + D1, OAuth-Anbieter
+(GitHub, Google usw.), Authentifizierung von Anmeldeinformationen, magische Links, JWT vs. Datenbanksitzungen,
+Middleware-Muster, rollenbasierte Zugriffskontrolle, Token-Aktualisierung, Edge-Laufzeit
+Kompatibilität und Vermeidung häufiger Fehler.
+
+Schlüsselwörter: Auth.js, NextAuth.js, Authentifizierung, OAuth, Anmeldeinformationen, magische Links,
+D1-Adapter, Cloudflare Workers, Next.js-Middleware, JWT-Sitzung, Datenbanksitzung,
+Aktualisierungstoken, RBAC, Edge-Kompatibilität, AUTH_SECRET, CallbackRouteError,
+CredentialsSignin, JWEDecryptionFailed, Sitzung wird nicht aktualisiert, Routenschutz

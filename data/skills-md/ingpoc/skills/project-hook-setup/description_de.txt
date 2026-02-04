@@ -1,0 +1,1 @@
+Wird zum Einrichten projektspezifischer Hooks für die Claude-Code-Durchsetzung verwendet. Wird im INIT-Status geladen, wenn .claude/hooks/ fehlt oder wenn ein neues Projekt erstellt wird. Installiert 5 Hooks, die aus .claude/config/project.json lesen (Tests, Zustand, Abhängigkeiten).

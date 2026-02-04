@@ -1,0 +1,15 @@
+Vollständiger Leitfaden für die traditionellen/zustandslosen APIs von OpenAI: Chat-Abschlüsse (GPT-5, GPT-4o), Einbettungen,
+Bilder (DALL-E 3), Audio (Whisper + TTS) und Moderation. Enthält sowohl Node.js SDK als auch fetch-basiert
+Ansätze für maximale Kompatibilität.
+
+Verwendung bei: Integration von OpenAI-APIs, Implementierung von Chat-Vervollständigungen mit GPT-5/GPT-4o, Generieren von Text
+mit Streaming, Verwendung von Funktionsaufrufen/Tools, Erstellen strukturierter Ausgaben mit JSON-Schemas,
+Einbettungen für RAG implementieren, Bilder mit DALL-E 3 generieren, Audio mit Whisper transkribieren,
+Sprachsynthese mit TTS, Moderation von Inhalten, Bereitstellung für Cloudflare-Mitarbeiter oder Begegnung
+Fehler wie Ratenbegrenzungen (429), ungültige API-Schlüssel (401), Funktionsaufruffehler, Streaming-Analyse
+Fehler, Nichtübereinstimmungen der Einbettungsdimensionen oder Überschreitung des Token-Limits.
+
+Schlüsselwörter: OpenAI API, Chat-Vervollständigungen, GPT-5, GPT-5-Mini, GPT-5-Nano, GPT-4O, GPT-4-Turbo,
+OpenAI SDK, OpenAI Streaming, Funktionsaufruf, strukturierte Ausgabe, JSON-Schema, OpenAI-Einbettungen,
+Text-Embedding-3, Dall-E-3, Bildgenerierung, Whisper API, OpenAI TTS, Text-to-Speech, Moderations-API,
+openai fetch, cloudflare worker openai, openai rate limit, openai 429, reasoning_effort, verbosity

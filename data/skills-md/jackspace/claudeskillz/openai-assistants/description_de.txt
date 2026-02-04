@@ -1,0 +1,15 @@
+Vollständiger Leitfaden für die Assistants API v2 von OpenAI: Stateful Conversational AI mit integrierten Tools
+(Code-Interpreter, Dateisuche, Funktionsaufruf), Vektorspeicher für RAG (bis zu 10.000 Dateien),
+Thread-/Lauflebenszyklusverwaltung und Streaming-Muster. Sowohl Node.js SDK als auch Fetch-Ansätze.
+
+⚠️ HINWEIS ZUR VERALTUNG: OpenAI plant, die Assistants API im ersten Halbjahr 2026 zugunsten der Responses API einzustellen.
+Diese Fähigkeit bleibt für bestehende Apps und die Migrationsplanung wertvoll.
+
+Verwendung bei: Erstellen zustandsbehafteter Chatbots mit OpenAI, Implementieren von RAG mit Vektorspeichern, Ausführen
+Python-Code mit Code Interpreter, Dateisuche für Dokument-Fragen und Antworten verwenden, Konversationsthreads verwalten,
+Antworten des Streaming-Assistenten oder das Auftreten von Fehlern wie „Thread wurde bereits aktiv ausgeführt“, Vektor
+Verzögerungen bei der Speicherindizierung, Zeitüberschreitungen bei der Ausführung von Abfragen oder Probleme beim Hochladen von Dateien.
+
+Schlüsselwörter: OpenAI-Assistenten, Assistenten-API, OpenAI-Threads, OpenAI-Läufe, Code-Interpreter-Assistent,
+Dateisuche OpenAI, Vector Store OpenAI, OpenAI Rag, Assistant Streaming, Thread-Persistenz,
+Zustandsbehafteter Chatbot, Thread wurde bereits aktiv ausgeführt, Abfrage des Ausführungsstatus, Vektorspeicherfehler

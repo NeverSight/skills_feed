@@ -1,0 +1,5 @@
+Diese Fähigkeit vermittelt umfassende Kenntnisse für die Arbeit mit der Responses API von OpenAI, der einheitlichen Stateful-API zum Erstellen von Agentenanwendungen. Es sollte verwendet werden, wenn KI-Agenten erstellt werden, die die Argumentation über Runden hinweg beibehalten, MCP-Server für externe Tools integriert werden, integrierte Tools (Code-Interpreter, Dateisuche, Websuche, Bildgenerierung) verwendet werden, zustandsbehaftete Konversationen verwaltet, Hintergrundverarbeitung implementiert oder von der Chat Completions API migriert werden.
+
+Verwendung beim Erstellen von Agenten-Workflows, Konversations-KI mit Speicher, werkzeugbasierten Anwendungen, RAG-Systemen, Datenanalyse-Agenten oder anderen Anwendungen, die die Argumentationsmodelle von OpenAI mit persistentem Status erfordern. Deckt sowohl Node.js SDK- als auch Cloudflare Workers-Implementierungen ab.
+
+Schlüsselwörter: Antworten API, OpenAI-Antworten, Stateful OpenAI, OpenAI MCP, Code-Interpreter OpenAI, Dateisuche OpenAI, Websuche OpenAI, Bildgenerierung OpenAI, Begründungserhaltung, Agenten-Workflows, Konversationsstatus, Hintergrundmodus, Chat-Abschlussmigration, GPT-5, polymorphe Ausgaben

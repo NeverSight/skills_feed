@@ -1,0 +1,19 @@
+Produktionserprobtes Setup für Content Collections – ein TypeScript-First-Build-Tool, das transformiert
+lokale Inhaltsdateien (Markdown/MDX) in typsichere Datensammlungen mit automatischer Validierung.
+
+Verwenden Sie Folgendes: Erstellen von Blogs, Dokumentationsseiten oder inhaltsintensiven Anwendungen mit Vite + React,
+Einrichten von MDX-Inhalten mit React-Komponenten, Implementieren typsicherer Inhaltsschemata mit Zod,
+Migration von Contentlayer oder Auftreten von TypeScript-Importfehlern bei Inhaltssammlungen.
+
+Behandelt: Einrichtung des Vite-Plugins, tsconfig-Pfadaliase, Sammlungsschemata mit Zod-Validierung,
+MDX-Kompilierung mit CompileMDX, Transformationsfunktionen für berechnete Eigenschaften, Rehype/Remark-Plugins,
+React-Komponentenintegration mit MDXContent, Cloudflare Workers-Bereitstellung und Produktions-Build-Optimierung.
+
+Schlüsselwörter: Content-Collections, @content-collections/core, @content-collections/vite,
+@content-collections/mdx, MDX, Markdown, Zod-Schema-Validierung, typsicherer Inhalt,
+frontmatter, compileMDX, defineCollection, defineConfig, Vite-Plugin, tsconfig-Pfade,
+.content-collections/generated, MDXContent-Komponente, Rehype-Plugins, Remark-Plugins,
+Inhaltsschema, Dokumenttransformation, AllPosts-Import, statische Site-Generierung,
+Blog-Setup, Dokumentation, statische Cloudflare Workers-Assets, Fehler bei der Inhaltsvalidierung,
+Modul nicht gefunden, Inhaltssammlungen, Pfadalias funktioniert nicht, MDX-Typfehler,
+Transformationsfunktion asynchron, Sammlung wird nicht aktualisiert

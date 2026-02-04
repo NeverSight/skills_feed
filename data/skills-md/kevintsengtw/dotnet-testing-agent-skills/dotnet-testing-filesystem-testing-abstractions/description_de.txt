@@ -1,0 +1,3 @@
+Die System.IO.Abstractions-App ist eine neue Version von System.IO.Abstractions.
+當需要測試 File、Directory、Path 等操作、模擬檔案系統時使用。
+Verwenden Sie IFileSystem, MockFileSystem, die neue Datei oder die Datei, die Sie benötigen.

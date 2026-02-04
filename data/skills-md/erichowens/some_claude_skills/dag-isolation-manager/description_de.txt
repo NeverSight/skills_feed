@@ -1,0 +1,1 @@
+Verwaltet Agent-Isolationsstufen und Ressourcengrenzen. Konfiguriert strenge, moderate und permissive Isolationsprofile. Aktivieren Sie auf „Isolationsebene“, „Agent-Isolation“, „Ressourcengrenzen“, „Sandboxing“, „Agent-Eindämmung“. NICHT zur Berechtigungsvalidierung (verwenden Sie dag-permission-validator) oder zur Laufzeitdurchsetzung (verwenden Sie dag-scope-enforcer).

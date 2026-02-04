@@ -1,0 +1,12 @@
+Diese Fähigkeit vermittelt umfassende Kenntnisse zur Integration des Vercel Blob-Objektspeichers in Vercel-Anwendungen. Es sollte verwendet werden, wenn Sie Datei-Uploads einrichten, Bilder und Dokumente verwalten, über CDN bereitgestellte Assets implementieren oder große Dateien in den serverlosen und Edge-Funktionen von Next.j verarbeiten.
+
+Verwenden Sie diese Fähigkeit, wenn:
+- Einrichten von Datei-Uploads für Next.js-Anwendungen (Bilder, PDFs, Videos)
+- Implementierung clientseitiger Uploads mit vorsignierten URLs
+- Verwaltung von benutzergenerierten Inhalten (Avatare, Anhänge, Medien)
+- Erstellen von Dateiverwaltungsfunktionen (Auflisten, Herunterladen, Löschen)
+– Migration von Cloudflare R2 zu Vercel Blob
+– Es treten Fehler wie „BLOB_READ_WRITE_TOKEN nicht festgelegt“, „Dateigrößenbeschränkung überschritten“ oder „Fehler beim Client-Upload-Token“ auf.
+- Benötigen Sie eine einfache Objektspeicherung mit automatischer CDN-Verteilung
+
+Schlüsselwörter: Vercel Blob, @Vercel/Blob, Vercel-Speicher, Vercel-Datei-Upload, Vercel CDN, Blob-Speicher Vercel, Client-Upload Vercel, vorsignierte URL Vercel, Datei-Upload NextJS, Bild-Upload Vercel, PDF-Upload, Video-Upload, Benutzer-Uploads, mehrteiliger Upload, Streaming-Upload, Blob CDN, Vercel-Assets, Datei-Download
