@@ -1,0 +1,1 @@
+Muster zum Synchronisieren des Status zwischen externen Diensten (Stripe, Clerk) und der lokalen Datenbank. Invoke für: Webhook-Fehler, Datensynchronisierungsprobleme, eventuelle Konsistenz, Wiederherstellung nach verpassten Ereignissen, Abonnementstatusverwaltung.

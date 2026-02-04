@@ -1,0 +1,6 @@
+H3 작성자 컨텍스트 팩 구축(PROSE 없음): 요약서 + 증거 팩 + 앵커 사실 + 허용된 인용을 단일 결정적 JSONL로 병합하므로 초안 작성이 덜 공허하고 덜 불안정합니다.
+**트리거**: 작성기 컨텍스트 팩, 컨텍스트 팩, 초안 팩, 단락 계획 팩, 写작품상하문包.
+**다음 경우에 사용하세요**: `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` + `outline/anchor_sheet.jsonl`이 존재하고 C5 초안 작성을 더 쉽고 일관되게 만들고 싶을 때.
+**다음 경우 건너뛰기**: 업스트림 증거가 누락되었거나 비계가 있습니다('paper-notes' / 'evidence-binder' / 'evidence-draft' / 'anchor-sheet'를 먼저 수정).
+**네트워크**: 없음.
+**가드레일**: 산문 없음; 사실/인용을 꾸며내지 마십시오. `citations/ref.bib`에 있는 인용 키만 사용하세요.

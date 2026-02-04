@@ -1,0 +1,1 @@
+このリポジトリの GitOps ワークフロー: バージョン管理で Argo CD/Kubernetes/infra マニフェストを編集し、変更を検証し、Argo CD を使用して同期します。タスクが argocd/、kubernetes/、tofu/、ansible/、または展開/Runbook の変更に触れる場合、または GitOps 経由でサービスをロールアウトするように求められる場合に使用します。

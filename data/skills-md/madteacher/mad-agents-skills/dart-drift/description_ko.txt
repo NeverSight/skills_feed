@@ -1,0 +1,1 @@
+Dart 애플리케이션(CLI, 서버 측, 비 Flutter)에서 드리프트 데이터베이스 라이브러리를 사용하기 위한 전체 가이드입니다. 유형이 안전한 쿼리, 반응형 스트림, 마이그레이션 및 효율적인 CRUD 작업을 통해 로컬 SQLite 데이터베이스 스토리지 또는 PostgreSQL 연결이 필요한 Dart 앱을 구축할 때 사용합니다. sqlite3 패키지 설정, Drift_postgres를 통한 PostgreSQL 지원, 연결 풀링 및 서버 측 패턴이 포함됩니다.

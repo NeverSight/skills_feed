@@ -1,0 +1,6 @@
+Erstellen Sie eine Neuheits-/Vorarbeitsmatrix, in der Sie die Beiträge der Einreichung mit verwandten Arbeiten vergleichen (Überschneidungen vs. Deltas).
+**Auslöser**: Neuheitsmatrix, Vorarbeitsmatrix, Überlappung/Delta, 相关工作对比, 新颖性矩阵.
+**Verwenden, wenn**: Peer-Review 中评估 Neuheit/Positionierung,需要把贡献与相关工作逐项对齐并写出差异点证据.
+**Überspringen, wenn**: 缺少 actions（先跑 `claims-extractor`）或你不打算做新颖性定位分析.
+**Netzwerk**: keines (der Abruf zusätzlicher verwandter Arbeiten liegt außerhalb des Umfangs, sofern nicht anders angegeben).
+**Leitplanke**: Überlappung im Delta-Format.

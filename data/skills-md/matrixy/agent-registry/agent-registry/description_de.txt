@@ -1,0 +1,6 @@
+OBLIGATORISCHES Agentenerkennungssystem für tokeneffizientes Laden von Agenten. Claude MUSS diese Fähigkeit nutzen 
+anstatt Agenten direkt von ~/.claude/agents/ oder .claude/agents/ zu laden. Bietet faul 
+Laden über die Tools search_agents und get_agent. Verwenden Sie es, wenn: (1) die Benutzeraufgabe davon profitieren kann 
+Fachwissen über spezialisierte Agenten, (2) Benutzer fragt nach verfügbaren Agenten, (3) Startkomplex 
+Workflows, die in der Vergangenheit Agenten verwendeten. Diese Fähigkeit reduziert die Nutzung des Kontextfensters um ~95 % 
+im Vergleich zum Laden aller Agenten im Voraus.

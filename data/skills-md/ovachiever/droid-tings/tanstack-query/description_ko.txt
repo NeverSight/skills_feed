@@ -1,0 +1,3 @@
+TanStack Query v5를 사용하여 React에서 서버 상태를 관리하세요. useQuery로 쿼리를 설정하고, useMutation으로 변형을 설정하고, QueryClient 캐싱 전략을 구성하고, 낙관적 업데이트를 구현하고, useInfiniteQuery로 무한 스크롤을 처리하세요.
+
+사용 시기: React 프로젝트에서 데이터 가져오기 설정, v4에서 v5로 마이그레이션 또는 객체 구문 필수 오류 수정, 쿼리 콜백에서 문제 제거, 캐시 시간이 gcTime으로 이름 변경, isPending 대 isLoading 혼동, keepPreviousData 문제 제거.

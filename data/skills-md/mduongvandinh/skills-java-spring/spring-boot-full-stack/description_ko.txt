@@ -1,0 +1,9 @@
+엔터프라이즈 애플리케이션 구축을 위한 완전한 Java Spring Boot 기술 세트입니다.
+선택적 구성요소가 포함된 모듈식 아키텍처 포함:
+- JPA/Hibernate + Flyway 마이그레이션이 포함된 PostgreSQL 데이터베이스
+- Redis 캐싱(선택 사항)
+- Kafka/RabbitMQ 메시징(선택 사항, 하나 선택)
+- JWT + OAuth2 인증(OAuth2 선택사항)
+- RBAC 인증(선택사항)
+- Mockito를 사용한 TDD
+- OpenSpec을 활용한 사양 우선 개발

@@ -1,0 +1,1 @@
+pip/python/venv 대신 `uv`를 사용하세요. 'uv run script.py'로 스크립트를 실행하고, 'uv add'로 deps를 추가하고, 독립형 스크립트에 인라인 스크립트 메타데이터를 사용하세요.

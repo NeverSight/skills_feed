@@ -1,0 +1,6 @@
+Prüfen und schreiben Sie Bewertungs-/numerische Ansprüche um, um sicherzustellen, dass sie einen minimalen Protokollkontext (Aufgabe + Metrik + Einschränkung) enthalten, und um eine unterspezifizierte Modellbenennung zu vermeiden.
+**Auslöser**: Bewertungsankerprüfer, numerische Anspruchshygiene, unterbestimmte Zahlen, Protokollkontext, 评测锚点检查, 数字断言, 指标上下文.
+**Verwenden Sie **, wenn**: vor der endgültigen Zusammenführung/Verfeinerung oder wenn Prüfer Ansprüche wahrscheinlich als unterbestimmt kennzeichnen würden (Zahlen ohne Aufgabe/Metrik/Budget) oder „Pipeline-Auditor“ vor verdächtigen Modellnamen warnt.
+**Überspringen, wenn**: Die Beweise sind zu dürftig, um numerische Behauptungen zu rechtfertigen (Route stromaufwärts zu C3/C4), oder Sie sind vor C2 (KEIN PROSE).
+**Netzwerk**: keines.
+**Leitplanke**: Zahlen nicht erfinden; keine Zitierschlüssel hinzufügen/entfernen/verschieben; Wenn der Protokollkontext fehlt, schwächen/entfernen Sie den numerischen Anspruch, anstatt zu raten.

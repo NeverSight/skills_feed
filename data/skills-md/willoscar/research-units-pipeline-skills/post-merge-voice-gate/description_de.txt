@@ -1,0 +1,6 @@
+Post-Merge-Paper-Voice-Gate: Erkennen Sie Planer-Talk-/Achsenbeschriftungsartefakte, die während der Zusammenführung eingeführt wurden (insbesondere aus „outline/transitions.md“), und leiten Sie Korrekturen dann zurück zur frühesten Quelle.
+**Auslöser**: Post-Merge-Voice-Gate, Merge-Voice-Gate, Übergangsverlust, Planergespräch, 合并后口吻门, 过渡句污染.
+**Verwenden Sie es, wenn**: „section-merger“ „output/DRAFT.md“ erzeugt hat und Sie sicherstellen möchten, dass durch Zusammenführung eingefügter Text den Entwurf nicht vor dem Polieren in die Generatorstimme zieht.
+**Überspringen, wenn**: Sie sind noch vor der Zusammenführung (kein „output/DRAFT.md“) oder Sie planen, die Struktur zuerst im Upstream zu überarbeiten.
+**Netzwerk**: keines.
+**Leitplanke**: Nur Analyse; Bearbeiten Sie „output/DRAFT.md“ nicht. keine Fakten/Zitate erfinden; schreibe nur den Bericht + Routing.

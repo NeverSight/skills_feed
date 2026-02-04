@@ -1,0 +1,12 @@
+AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN은 잘못된 구현으로도 사용됩니다.
+
+Erkennungsmerkmale(EINES genuegt!):
+- Auftrag <25 Woerter
+- Keine konkreten Dateinamen/Pfade
+- Vage Verben: besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refactoren, aufraumen, ueberarbeiten
+- Unsichere Sprache: irgendwie, vielleicht, Mal eben, schnell, einfach, bisschen, koennte, sollte
+- Fehlende Erfolgskriterien: Kein damit, Sodass, weil, um zu
+- 상대 Begriffe ohne 맥락: schneller, besser, schoener, einfacher
+
+출력은 STRUKTURIERTES JSON fuer 프롬프트-설계 기술입니다.
+탈출: mach einfach, keine Rueckfragen, entscheide selbst ueberspringt Klaerung.

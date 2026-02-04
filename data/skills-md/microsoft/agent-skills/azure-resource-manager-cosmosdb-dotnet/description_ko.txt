@@ -1,0 +1,1 @@
+.NET의 Cosmos DB용 Azure Resource Manager SDK. 관리 평면 작업에 사용: Azure Resource Manager를 통해 Cosmos DB 계정, 데이터베이스, 컨테이너, 처리량 설정 및 RBAC 생성/관리. 데이터 평면 작업(문서의 CRUD)에는 적합하지 않습니다. 이를 위해서는 Microsoft.Azure.Cosmos를 사용하세요. 트리거: "Cosmos DB 계정", "Cosmos 계정 만들기", "Cosmos 리소스 관리", "ARM Cosmos", "CosmosDBAccountResource", "Cosmos DB 프로비전".

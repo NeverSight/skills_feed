@@ -1,0 +1,6 @@
+Extrahieren Sie Studiendaten mithilfe des Extraktionsschemas des Protokolls in eine strukturierte Tabelle („papers/extraction_table.csv“).
+**Trigger**: Extraktionsformular, Extraktionstabelle, Datenextraktion, 信息提取, 提取表.
+**Verwenden Sie, wenn**: systematische Überprüfung, Screening, Extraktion (C3), CSV-Synthese.
+**Überspringen, wenn**: Lesen Sie „papers/screening_log.csv“ als Protokolldatei.
+**Netzwerk**: keines.
+**Leitplanke**: 严格按 schema 填字段；不要在此阶段写 narrative Synthesis (oder auch „Synthetic-Writer“).

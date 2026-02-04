@@ -1,0 +1,6 @@
+`citations/ref.bib`에서 확인된 인용 키만 사용하여 승인된 개요 및 증거 팩에서 `output/DRAFT.md`(또는 `output/SNAPSHOT.md`)를 작성하세요.
+**트리거**: 초안 작성, 산문 작가, 스냅샷, 설문조사 작성, 写综述, 生成草稿, 섹션별 초안 작성.
+**사용할 경우**: 구조가 승인되고(`DECISIONS.md`에 `Approve C2`가 있음) 증거 팩이 존재합니다(`outline/subsection_briefs.jsonl`, `outline/evidence_drafts.jsonl`).
+**다음 경우 건너뛰기**: 승인이 누락되었거나 증거 팩이 불완전하거나 스캐폴드되었습니다(누락된 필드, TODO 마커).
+**네트워크**: 없음.
+**가드레일**: 사실이나 인용을 꾸며내지 마세요. `citations/ref.bib`에 있는 키만 인용하세요. 최종 산문에서 파이프라인 전문 용어 누출을 피하십시오.

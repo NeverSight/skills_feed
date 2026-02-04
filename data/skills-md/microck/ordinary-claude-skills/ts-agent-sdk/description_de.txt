@@ -1,0 +1,3 @@
+Generieren Sie typisierte TypeScript-SDKs für KI-Agenten zur Interaktion mit MCP-Servern. Konvertiert ausführliche JSON-RPC-Curl-Befehle in saubere Funktionsaufrufe (docs.createDocument() vs. Curl). Erkennt MCP-Tools automatisch von Servermodulen, generiert TypeScript-Typen und Client-Methoden und erstellt ausführbare Beispielskripte.
+
+Verwenden Sie sie, wenn Sie MCP-fähige Anwendungen erstellen, typisierten programmgesteuerten Zugriff auf MCP-Tools benötigen, Claude Code Apps über Skripts verwalten soll, manuelle JSON-RPC-Curl-Befehle eliminieren, MCP-Ein-/Ausgaben validieren oder wiederverwendbare Agentenautomatisierung erstellen möchten.

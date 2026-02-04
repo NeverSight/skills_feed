@@ -1,0 +1,1 @@
+no-std, Embassy 비동기 프레임워크 및 ESP-RS 에코시스템(esp-hal, esp-rtos, esp-radio)을 사용하여 ESP32 마이크로컨트롤러용 전문 내장 Rust 개발입니다. ESP32 프로젝트를 빌드, 디버깅, 플래싱하거나 기능을 추가할 때 사용합니다. 센서 통합(ADC, GPIO, I2C, SPI), 전원 관리(깊은 절전, RTC 메모리), WiFi 네트워킹, MQTT 클라이언트, 디스플레이 드라이버, 비동기 작업 패턴, 메모리 할당, 오류 처리 및 종속성 관리를 다룹니다. LilyGO 보드, Espressif 칩(ESP32, ESP32-S3, ESP32-C3) 및 표준이 아닌 Xtensa/RISC-V 임베디드 개발에 이상적입니다.

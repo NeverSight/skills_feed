@@ -1,0 +1,1 @@
+pnpm を最新の状態に保つ: pnpm self-update/corepack prepare を実行し、package.json で packageManager を調整し、.github/workflows 内の pnpm/action-setup + 固定された pnpm バージョンを最新リリースにバンプします。これは、pnpm ツールチェーンを手動または自動で更新するときに使用します。

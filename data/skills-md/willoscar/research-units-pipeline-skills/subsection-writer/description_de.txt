@@ -1,0 +1,6 @@
+Schreiben Sie Umfrageprosa in abschnittsbezogene Dateien unter „Abschnitte/“, sodass jede Einheit vor dem Zusammenführen unabhängig einer Qualitätssicherung unterzogen werden kann.
+**Trigger**: Unterabschnittsschreiber, Schreiben pro Abschnitt, geteilte Abschnitte, Abschnitte/, 分小节写, 按章节拆分写作.
+**Verwenden, wenn**: „Approve C2“ aufgezeichnet wird und Writer-Pakete vorhanden sind („outline/writer_context_packs.jsonl“); Sie möchten einen evidenzbasierten Entwurf ohne einen monolithischen One-Shot-Entwurf.
+**Überspringen, wenn**: Die Genehmigung „DECISIONS.md“ fehlt oder „outline/evidence_drafts.jsonl“ / „citations/ref.bib“ fehlt.
+**Netzwerk**: keines.
+**Leitplanke**: Keine Fakten/Zitate erfinden; kein TODO/Ellipsen-Leck; Halten Sie Zitate unterabschnitts- oder kapitelbezogen; H3-Textdateien und Kapitelüberschriften dürfen keine Überschriften enthalten.

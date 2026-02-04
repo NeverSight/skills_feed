@@ -1,0 +1,5 @@
+Amethyst KMP 프로젝트를 위한 플랫폼 추상화 의사결정. 추상화해야 할 때와 플랫폼별로 유지해야 할 때를 안내합니다.
+소스 세트 배치(commonMain, jvmAndroid, 플랫폼별), 예상/실제 패턴. 주요 대상을 포괄합니다.
+(Android, JVM/Desktop, iOS) 웹/wasm 향후 고려 사항. 종속성 문제를 위해 gradle-expert와 통합됩니다.
+트리거: 추상화 결정("이것을 공유해야 할까요?"), 소스 세트 배치 질문, 예상/실제 생성,
+build.gradle.kts 작업, 잘못된 배치 감지, KMP 종속성 제안.

@@ -1,0 +1,1 @@
+필수: Go 테스트를 작성할 때 모든 테스트 이름에 대해 'When...it should...' 형식을 사용해야 합니다. Go 코드를 작성할 때 사용자에게 'make lint-fix' 및 'make verify'를 실행하도록 상기시켜야 합니다. 이는 협상할 수 없는 HyperShift 요구 사항입니다.

@@ -1,0 +1,5 @@
+iOS/macOS-App-Lokalisierungsverwaltung für Tuist-basierte Projekte mit .strings-Dateien.
+Wird verwendet, wenn: (1) neue Übersetzungsschlüssel zu Modulen hinzugefügt werden, (2) .strings-Dateien auf fehlende/doppelte Schlüssel überprüft werden,
+(3) Sprachenübergreifende Synchronisierung von Übersetzungen, (4) KI-gestützte Übersetzung vom Englischen in andere Regionen,
+(5) Überprüfen der Platzhalterkonsistenz (%@, %d), (6) Generieren von Lokalisierungsberichten,
+(7) Aktualisierung des Swift-Codes zur Verwendung lokalisierter Zeichenfolgen anstelle von fest codiertem Text.

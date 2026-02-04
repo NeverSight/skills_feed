@@ -1,0 +1,3 @@
+Richten Sie serverloses Postgres mit Neon oder Vercel Postgres für Cloudflare Workers/Edge ein. Beinhaltet Verbindungspooling, Git-ähnliche Verzweigung für Vorschauumgebungen und Drizzle/Prisma-Integration.
+
+Verwendung bei: Einrichten von Edge-Postgres, Konfigurieren der Datenbankverzweigung oder Fehlerbehebung bei „TCP nicht unterstützt“, Verbindungspool erschöpft, SSL-Konfiguration (sslmode=require) oder Prisma-Edge-Kompatibilität.

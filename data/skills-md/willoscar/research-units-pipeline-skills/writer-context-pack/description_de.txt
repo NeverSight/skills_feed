@@ -1,0 +1,6 @@
+Erstellen Sie Kontextpakete pro H3-Writer (KEIN PROSE): Führen Sie Briefs + Beweispakete + Ankerfakten + zulässige Zitate in einem einzigen deterministischen JSONL zusammen, sodass der Entwurf weniger hohl und weniger spröde ist.
+**Auslöser**: Writer-Kontextpaket, Kontextpaket, Entwurfspaket, Absatzplanpaket, 写作上下文包.
+**Verwenden Sie, wenn**: „outline/subsection_briefs.jsonl“ + „outline/evidence_drafts.jsonl“ + „outline/anchor_sheet.jsonl“ vorhanden sind und Sie die C5-Entwurfserstellung einfacher/konsistenter machen möchten.
+**Überspringen, wenn**: Upstream-Beweise fehlen oder fehlen (zuerst „Papiernotizen“ / „Beweisordner“ / „Beweisentwurf“ / „Ankerblatt“ korrigieren).
+**Netzwerk**: keines.
+**Leitplanke**: KEINE PROSA; keine Fakten/Zitate erfinden; Verwenden Sie nur Zitierschlüssel, die in „citations/ref.bib“ vorhanden sind.

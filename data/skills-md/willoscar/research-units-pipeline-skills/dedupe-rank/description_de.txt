@@ -1,0 +1,6 @@
+Deduplizieren und ordnen Sie einen Rohpapiersatz („papers/papers_raw.jsonl“), um „papers/papers_dedup.jsonl“ und „papers/core_set.csv“ zu erstellen.
+**Trigger**: Deduplizierung, Rang, Kernsatz, 去重, 排序, 精选论文, 核心集合.
+**Verwenden, wenn**: 检索后需要把广覆盖集合收敛成可管理的 core set (用于 Taxonomy/outline/mapping).
+**Überspringen, wenn**: 已经有人手工整理了稳定的 `papers/core_set.csv` (无需再次 churn）).
+**Netzwerk**: keines.
+**Leitplanke**: Nicht deterministisch.

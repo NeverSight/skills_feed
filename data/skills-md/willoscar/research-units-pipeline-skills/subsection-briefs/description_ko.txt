@@ -1,0 +1,6 @@
+하위 섹션별 작문 개요(PROSE 없음)를 작성하여 나중에 초안을 작성할 때 증거와 확인 가능한 비교 축(개요 자리 표시자가 아님)을 기준으로 하세요.
+**트리거**: 하위 섹션 브리핑, 쓰기 카드, 의도 카드, H3 브리프,scope_rule, 축, 클러스터, 写落卡, 小节卡picture, 段落计划.
+**사용할 경우**: `outline/outline.yml` + `outline/mapping.tsv` + `papers/paper_notes.jsonl`이 존재하고 템플릿 누출 없이 섹션별 초안을 작성하려는 경우.
+**다음 경우 건너뛰기**: `outline/subsection_briefs.jsonl`이 이미 존재하고 구체화되었습니다(자리 표시자/줄임표 없음, 축+클러스터+단락_계획이 채워짐).
+**네트워크**: 없음.
+**가드레일**: 산문 없음; 논문을 발명하지 마십시오. `papers/paper_notes.jsonl`에 있는 `paper_id`/`bibkey`만 참조하세요.

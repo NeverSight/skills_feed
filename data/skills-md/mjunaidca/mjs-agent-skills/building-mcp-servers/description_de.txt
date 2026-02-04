@@ -1,0 +1,5 @@
+Leitet die Erstellung hochwertiger MCP-Server (Model Context Protocol) an, die LLMs ermöglichen
+um mit externen Diensten über gut gestaltete Tools zu interagieren. Zum Erstellen von MCP verwenden
+Server zur Integration externer APIs oder Dienste, sei es in Python (FastMCP) oder
+Node/TypeScript (MCP SDK). Behandelt Tool-Design, Authentifizierung, Docker-Bereitstellung,
+und Auswertungserstellung. NICHT, wenn vorhandene MCP-Server genutzt werden (verwenden Sie den Server direkt).

@@ -1,0 +1,3 @@
+Cloudflare Workers, Deno, Bun 및 Node.js를 위한 빠르고 가벼운 라우팅인 Hono를 사용하여 유형이 안전한 API를 구축하세요. 라우팅 패턴, 미들웨어 구성, 요청 검증(Zod/Valibot/Typia/ArkType), 전체 유형 추론을 갖춘 RPC 클라이언트/서버 및 HTTPException을 사용한 오류 처리를 설정합니다.
+
+사용 시기: Hono로 API 구축, 스키마 라이브러리로 요청 검증 설정, 유형이 안전한 RPC 클라이언트/서버 통신 생성, 사용자 정의 미들웨어 체인 구현, HTTPException으로 오류 처리, 사용자 정의 변수로 컨텍스트 확장 또는 미들웨어 유형 추론 문제 해결, 검증 후크 혼란, RPC 성능 문제 또는 미들웨어 응답 입력 오류 문제 해결.

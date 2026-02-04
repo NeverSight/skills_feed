@@ -1,0 +1,1 @@
+백업 및 확인을 요구하여 파괴적인 Git 작업을 방지합니다. git Reset --hard, git push --force on main, git clean -fd를 차단합니다. git 체크아웃, git 재설정, git rebase 전에 백업이 필요합니다. 파괴적인 git 명령을 활성화합니다.

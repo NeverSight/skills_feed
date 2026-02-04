@@ -1,0 +1,1 @@
+DatabaseProxy 및 범위가 지정된 연결/트랜잭션과 함께 Peewee ORM을 사용하기 위한 패턴입니다. DatabaseProxy를 설정하거나, Connection_context/atomic 블록을 관리하거나, SQLite를 사용하여 테스트를 작성할 때 사용합니다.

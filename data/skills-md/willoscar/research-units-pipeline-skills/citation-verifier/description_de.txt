@@ -1,0 +1,6 @@
+Generieren und überprüfen Sie BibTeX-Einträge aus Papiernotizen, indem Sie „citations/ref.bib“ und „citations/verified.jsonl“ schreiben.
+**Auslöser**: Zitat, BibTeX, ref.bib, verifiziert.jsonl, Referenzen, Referenzen, Referenzen.
+**Verwenden, wenn**: Verwenden Sie „papers/paper_notes.jsonl“, um Prose/LaTeX zu verwenden und um die URL/Datums-/Titel-URL zu verwenden.
+**Überspringen, wenn**: 还没有 Papiernotizen（或本次产出不需要引用/参考文献）.
+**Netzwerk**: 自动验证通常需要网络；Der Eintrag muss manuell überprüft werden.
+**Leitplanke**: Der BibTeX-Eintrag „citations/verified.jsonl“ und „prose“ sind „citations/ref.bib“ und Citation Keys.

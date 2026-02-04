@@ -1,0 +1,6 @@
+'papers/paper_notes.jsonl'(summary/method/results/limitations)에 핵심 세트의 각 논문에 대한 구조화된 메모를 작성합니다.
+**트리거**: 종이 노트, 구조화된 노트, 읽기 노트, 论文笔记, paper_notes.jsonl.
+**사용 시기**: 증거 조사 阶段(C3)，已有 `papers/core_set.csv`(以及可选 fulltext)，需要为后续 주장/인용/작성 准备可引用证据。
+**다음 경우 건너뛰기**: 还没에는 코어 세트가 있습니다(先跑 `dedupe-rank`), 或你只做极轻weight snapshot 不需要细粒島证据.
+**네트워크**: 없음.
+**가드레일**: 具体可核对(방법/메트릭/제한 사항), 避免大weight重复模板;保持结构化字段而不长 prose.

@@ -1,0 +1,14 @@
+자연어 명령을 통해 제품 이니셔티브, 에픽 및 이해관계자를 관리합니다.
+YAML 앞부분을 사용하여 Logseq 호환 마크다운 파일로 데이터를 저장합니다.
+
+사용자가 다음을 수행해야 하는 경우에 사용하세요.
+- 이니셔티브 및 에픽 생성, 업데이트, 나열 또는 표시
+- 이니셔티브 문서의 완전성 추적
+- 사람, 팀, 파트너 관리
+- 누락된 정보가 무엇인지 확인하세요.
+- 저장소 구조 초기화
+
+트리거 대상: /init_repository, /create_initiative, /list_initiatives, /show_initiative,
+/update_initiative, /what_missing, /create_epic, /list_epics, /create_person,
+/create_team, /create_partner, /create_product_area, /list_product_areas,
+/show_product_area, /update_product_area, /help

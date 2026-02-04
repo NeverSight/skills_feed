@@ -1,0 +1,6 @@
+Erstellen Sie schriftliche Briefings pro Unterabschnitt (KEIN PROSE), sodass die spätere Ausarbeitung auf Beweisen und überprüfbaren Vergleichsachsen basiert (nicht auf Gliederungsplatzhaltern).
+**Trigger**: Unterabschnitts-Briefs, Schreibkarten, Absichtskarten, H3-Briefs, Scope_rule, Achsen, Cluster, 写作意图卡, 小节卡片, 段落计划.
+**Verwenden Sie, wenn**: „outline/outline.yml“ + „outline/mapping.tsv“ + „papers/paper_notes.jsonl“ vorhanden sind und Sie einen abschnittsweisen Entwurf ohne Vorlagenverlust wünschen.
+**Überspringen, wenn**: „outline/subsection_briefs.jsonl“ bereits existiert und verfeinert wurde (keine Platzhalter/Auslassungspunkte; Achsen+Cluster+Absatzplan sind gefüllt).
+**Netzwerk**: keines.
+**Leitplanke**: KEINE PROSA; erfinde keine Papiere; Verweisen Sie nur auf „paper_id“/„bibkey“, die in „papers/paper_notes.jsonl“ vorhanden sind.

@@ -1,0 +1,5 @@
+Vollständiger Bitcoin-Zahlungslebenszyklus. Überprüft den aktuellen Status, behebt alle Probleme,
+und überprüft, ob die Zahlungsströme durchgängig funktionieren. Jeder Lauf bewirkt all dies.
+
+Automatischer Aufruf, wenn: Dateien Bitcoin/BTC/Utxo/Satoshi enthalten, Bitcoin importiert
+Pakete, Referenzen BITCOIN_* oder BTC_* Umgebungsvariablen, Wallet-Handler geändert.

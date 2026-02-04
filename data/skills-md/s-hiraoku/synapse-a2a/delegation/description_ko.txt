@@ -1,0 +1,1 @@
+이 기술은 Synapse A2A의 에이전트 간 자동 작업 위임을 구성합니다. 설정 파일(.synapse/settings.json 및 .synapse/delegate.md) 또는 대화형 구성 TUI(synapse config)를 통해 위임 규칙을 구성합니다. 오케스트레이터 모드(Claude 좌표) 및 패스스루 모드(직접 전달)를 지원합니다. 에이전트 상태 확인, 우선순위 수준, 오류 처리 및 파일 안전 통합이 포함됩니다.

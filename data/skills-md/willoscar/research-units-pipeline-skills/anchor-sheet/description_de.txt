@@ -1,0 +1,6 @@
+Extrahieren Sie „Ankerfakten“ pro Unterabschnitt (KEINE PROSE) aus Beweispaketen, damit der Autor gezwungen ist, konkrete Zahlen/Benchmarks/Einschränkungen anstelle allgemeiner Zusammenfassungen anzugeben.
+**Auslöser**: Ankerblatt, Ankerfakten, numerische Anker, Beweishaken, 写作锚点, 数字锚点, 证据钩子.
+**Verwenden Sie es, wenn**: „outline/evidence_drafts.jsonl“ vorhanden ist und Sie einen stärkeren, evidenzbasierten Text in „sections/*.md“ wünschen.
+**Überspringen, wenn**: Beweispakete unvollständig sind (zuerst „Beweisentwurf“ korrigieren).
+**Netzwerk**: keines.
+**Leitplanke**: KEINE PROSA; erfinde keine Fakten; Wählen Sie nur aus vorhandenen Beweisausschnitten/Highlights aus.

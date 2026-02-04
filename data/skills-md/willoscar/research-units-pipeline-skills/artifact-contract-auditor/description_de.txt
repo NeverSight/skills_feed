@@ -1,0 +1,7 @@
+Prüfen Sie den Arbeitsbereich anhand des Pipeline-Artefaktvertrags (DONE-Ausgaben + Pipeline-Zielartefakte).
+Schreibt „output/CONTRACT_REPORT.md“.
+**Auslöser**: Vertragsprüfung, Artefaktvertrag, fehlende Artefakte, target_artifacts, CONTRACT_REPORT.
+**Verwenden Sie es, wenn**: Sie eine überprüfbare PASS/FAIL-Ansicht darüber wünschen, ob ein Arbeitsbereich vollständig und in sich geschlossen ist (Ende der Ausführung oder vor der Freigabe).
+**Überspringen, wenn**: Sie befinden sich absichtlich noch mitten im Lauf und kümmern sich noch nicht um die Vollständigkeit (aber als Momentaufnahme ist es immer noch nützlich).
+**Netzwerk**: keines.
+**Leitplanke**: Nur Analyse; Bearbeiten Sie keine Inhaltsartefakte. Schreibe nur den Bericht.

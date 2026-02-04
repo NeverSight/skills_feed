@@ -1,0 +1,3 @@
+短い音声用の Azure Speech to Text REST API (Python)。 Speech SDK を使用せずに、最大 60 秒までのオーディオ ファイルの単純な音声認識に使用します。
+トリガー: 「音声からテキストへの REST」、「短い音声の文字起こし」、「音声認識 REST API」、「STT REST」、「音声認識 REST」。
+次の用途には使用しないでください: 長い音声 (60 秒以上)、リアルタイム ストリーミング、バッチ文字起こし、カスタム音声モデル、音声翻訳。代わりに、Speech SDK または Batch Transcription API を使用してください。

@@ -1,0 +1,8 @@
+다음 경우에 트리거됩니다: (1) @rive-app/react-canvas 또는 @rive-app/react-webgl을 사용하는 경우,
+(2) useRive Hook 또는 RiveComponent를 사용하여,
+(3) Rive 애니메이션으로 React 컴포넌트 구축,
+(4) 사용자가 "Rive React" 또는 "useRive"를 언급한 경우,
+(5) Rive를 사용하여 스크롤 기반 또는 시차 애니메이션을 구현합니다.
+
+React 애플리케이션에 Rive 애니메이션을 통합하는 모범 사례
+공식 Rive React 패키지를 사용합니다. 후크, 레이아웃 및 스크롤 애니메이션을 다룹니다.

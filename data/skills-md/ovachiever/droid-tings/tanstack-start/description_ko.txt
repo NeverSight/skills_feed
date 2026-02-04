@@ -1,0 +1,5 @@
+Cloudflare Workers에서 TanStack Start를 사용하여 전체 스택 React 애플리케이션을 구축하세요. 유형 안전 라우팅, 서버 기능, SSR/스트리밍 및 원활한 D1/KV/R2 통합.
+
+사용 시기: 전체 스택 React 앱 구축, Cloudflare Workers를 통한 SSR 필요, 유형이 안전한 서버 기능 필요, Next.js에서 마이그레이션.
+
+RC 상태 - v1.0 안정 보류 중. 프로덕션 사용 전에 tanstack/router#5734(메모리 누수)를 모니터링하세요.

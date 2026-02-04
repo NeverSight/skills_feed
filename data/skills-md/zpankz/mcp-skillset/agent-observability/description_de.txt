@@ -1,0 +1,14 @@
+Echtzeit-Beobachtbarkeits-Dashboard für Claude-Code-Sitzungen mit mehreren Agenten.
+
+Visualisieren Sie Agenteninteraktionen, Toolnutzung und Sitzungsabläufe in Echtzeit über ein Web-Dashboard. Verfolgen Sie die parallele Arbeit mehrerer Agenten mit Swimlane-Visualisierung, Ereignisfilterung und Live-Diagrammen.
+
+**Hauptmerkmale:**
+- 🔴 Echtzeit-Event-Streaming über WebSocket
+- 📊 Agenten-Schwimmbahnen zeigen parallele Ausführung
+- 🔍 Ereignisfilterung nach Agent, Sitzung, Ereignistyp
+- 📈 Live-Diagramme für Werkzeugnutzungsmuster
+- 💾 Dateisystembasiert (keine Datenbank erforderlich)
+
+**Inspiriert von der Arbeit von [@indydevdan](https://github.com/indydevdan)** zur Multiagenten-Beobachtbarkeit.
+
+**Unser Ansatz:** Dateisystem + In-Memory-Streaming im Vergleich zum SQLite-Datenbankansatz von indydevdan.

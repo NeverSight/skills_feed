@@ -1,0 +1,18 @@
+Optimierter UI-Entwicklungsworkflow mit Funktionsimplementierung mit nur einem Befehl.
+Automatisiert: Entwicklungsserver, Browser, Überprüfung, Fehlerbehebung, Iterationsschleife.
+
+**Kernbefehl:** „nächste Funktion implementieren“ oder „[Funktionsbeschreibung] implementieren“
+
+**Was es tut:**
+1. Startet den Entwicklungsserver (erkennt den Port automatisch aus package.json).
+2. Startet den Browser (standardmäßig sichtbar, --headless verfügbar)
+3. Implementiert die Funktion über Frontend-Design-Fähigkeiten
+4. Überprüft: Konsolenfehler, TS-Fehler, Netzwerkfehler, visuelle Übereinstimmung
+5. Korrigiert iterativ (maximal 5 Iterationen)
+6. Meldet den Abschluss oder eskaliert mit einem detaillierten Bericht
+
+**Auslöser:**
+- „Nächstes Feature implementieren“, „Heldenabschnitt implementieren“
+- „Diese Implementierung überprüfen“, „Benutzeroberfläche überprüfen“
+- „Fehler beheben“, „dies wiederholen“
+- „Dev-Server starten“, „Server verwalten“

@@ -1,0 +1,8 @@
+다음과 같은 경우에 트리거됩니다. (1) 웹에서 .riv 파일을 로드하거나 삽입하는 경우,
+(2) @rive-app/canvas 또는 @rive-app/webgl 패키지를 사용하여,
+(3) JavaScript로 Rive 상태 머신을 제어하고,
+(4) Rive 입력 읽기/쓰기 또는 이벤트 처리,
+(5) 사용자가 웹 컨텍스트에서 "Rive 런타임" 또는 "Rive 애니메이션"을 언급합니다.
+
+웹에 Rive 애니메이션을 삽입하고 제어하는 모범 사례
+공식 Rive JavaScript/TypeScript 런타임을 사용합니다.

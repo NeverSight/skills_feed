@@ -1,0 +1,1 @@
+Hyperdrive의 글로벌 풀링 및 캐싱을 사용하여 작업자를 PostgreSQL/MySQL에 연결하세요. 사용 시기: 기존 데이터베이스에 연결, 연결 풀 설정, node-postgres/mysql2 사용, Drizzle/Prisma 통합 또는 풀 획득 실패 문제 해결, TLS 오류, nodejs_compat 누락 또는 eval() 허용 안 됨.

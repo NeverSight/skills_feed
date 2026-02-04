@@ -1,0 +1,1 @@
+Kubespray による Kubernetes クラスターのインストール。クラスターのプロビジョニングには常に Kubespray を使用してください。コア アドオン (Cilium、Gateway API、cert-manager、LoadBalancer) が含まれます。マルチクラウドのサポート。

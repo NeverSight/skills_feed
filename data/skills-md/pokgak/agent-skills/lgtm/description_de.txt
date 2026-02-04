@@ -1,0 +1,1 @@
+Beobachtbarkeits-Backends abfragen (Loki-Protokolle, Prometheus-Metriken, Tempo-Traces). Verwenden Sie diese Option, wenn der Benutzer nach Protokollen, Metriken, Ablaufverfolgungen oder dem Debuggen von Produktionsproblemen fragt. WICHTIG: Verwenden Sie immer Haiku-Subagenten, um Abfragen auszuführen, und führen Sie niemals Abfragen direkt aus.

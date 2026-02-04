@@ -1,0 +1,6 @@
+Ordnen Sie Papiere aus dem Kernsatz jedem Gliederungsunterabschnitt zu und schreiben Sie „outline/mapping.tsv“ mit Abdeckungsverfolgung.
+**Auslöser**: Abschnittszuordnung, Mapping.tsv, Abdeckung, Papier-zu-Abschnitts-Zuordnung, 论文映射, 覆盖率.
+**Verwenden, wenn**: Struktur (C2), zusammen mit `papers/core_set.csv` + `outline/outline.yml`.
+**Überspringen, wenn**: Verwenden Sie Outline (oder „Outline-Builder“) und den Core-Satz.
+**Netzwerk**: keines.
+**Leitplanke**: 覆盖率可审计（避免所有小节重复用同几篇）；为弱覆盖小节留下明确补救方向（扩query / 合并小节）.

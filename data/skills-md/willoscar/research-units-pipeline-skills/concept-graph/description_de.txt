@@ -1,0 +1,6 @@
+Erstellen Sie ein Konzeptdiagramm (Knoten + erforderliche Kanten) aus einer Tutorial-Spezifikation und speichern Sie es als „outline/concept_graph.yml“.
+**Auslöser**: Konzeptdiagramm, Voraussetzungsdiagramm, Abhängigkeitsdiagramm, Diagramm, Diagramm.
+**Verwenden, wenn**: Tutorial-Pipeline 的结构阶段（C2）,需要把教程知识点拆成可排序的依赖图（在写教程 Prosa 前）.
+**Überspringen, wenn**: Tutorial-Spezifikation anzeigen (unter „output/TUTORIAL_SPEC.md“).
+**Netzwerk**: keines.
+**Leitplanke**: 只做结构；避免写长 Prosa 段落.

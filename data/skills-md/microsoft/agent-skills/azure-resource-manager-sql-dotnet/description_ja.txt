@@ -1,0 +1,1 @@
+.NET の Azure SQL 用の Azure Resource Manager SDK。管理プレーン操作に使用します: Azure Resource Manager を介した SQL サーバー、データベース、エラスティック プール、ファイアウォール ルール、フェールオーバー グループの作成/管理。データ プレーン操作 (クエリの実行) には使用できません。これには Microsoft.Data.SqlClient を使用します。トリガー: 「SQL サーバー」、「SQL データベースの作成」、「SQL リソースの管理」、「ARM SQL」、「SqlServerResource」、「Azure SQL のプロビジョニング」、「エラスティック プール」、「ファイアウォール ルール」。

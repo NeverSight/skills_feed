@@ -1,0 +1,1 @@
+Konvertieren Sie PyTorch AT_DISPATCH-Makros in das AT_DISPATCH_V2-Format in ATen C++-Code. Wird verwendet, wenn AT_DISPATCH_ALL_TYPES_AND*, AT_DISPATCH_FLOATING_TYPES* oder andere Dispatch-Makros auf die neue v2-API portiert werden. Für ATen-Kerneldateien, CUDA-Kernel und native Operator-Implementierungen.

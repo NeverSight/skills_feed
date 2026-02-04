@@ -1,0 +1,1 @@
+Swift 동시성 모범 사례, 패턴 및 구현에 대한 전문가 지침입니다. 개발자가 다음을 언급할 때 사용합니다. (1) Swift 동시성, async/await, 액터 또는 작업, (2) "Swift 동시성 사용" 또는 "최신 동시성 패턴", (3) Swift 6으로 마이그레이션, (4) 데이터 경합 또는 스레드 안전 문제, (5) 클로저를 async/await로 리팩터링, (6) @MainActor, Sendable 또는 액터 격리, (7) 동시 코드 아키텍처 또는 성능 최적화, (8) 동시성 관련 린터 경고(SwiftLint 또는 유사, 예: async_without_await, Sendable/actor 격리/MainActor lint).

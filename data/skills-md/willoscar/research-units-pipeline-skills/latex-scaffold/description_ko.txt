@@ -1,0 +1,6 @@
+기존 Markdown 초안 및 `citations/ref.bib`에서 LaTeX 프로젝트(`latex/main.tex`, 참고문헌 연결, 구조)를 스캐폴드합니다.
+**트리거**: latex scaffold, md→tex, LaTeX 项目骨架, 生成 main.tex.
+**사용 시기**: 需要 LaTeX/PDF 交付(例如 arxiv-survey-latexpipeline), 且draft 已生成/已进入写작품阶段。
+**다음 경우 건너뛰기**: 还没有 `output/DRAFT.md`(或你不需要 LaTeX 交付).
+**네트워크**: 없음.
+**가드레일**: 移除 마크다운 残留（`##`, `**`, `[@...]`); 참고문헌 指向 `citations/ref.bib`; 不在此步骤改写内容。

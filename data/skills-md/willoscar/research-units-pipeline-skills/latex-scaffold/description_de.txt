@@ -1,0 +1,6 @@
+Erstellen Sie ein Gerüst für ein LaTeX-Projekt („latex/main.tex“, Bibliographieverkabelung, Struktur) aus einem vorhandenen Markdown-Entwurf und „citations/ref.bib“.
+**Trigger**: latex scaffold, md→tex, LaTeX-Datei, main.tex.
+**Verwenden Sie, wenn**: Erstellen Sie eine LaTeX/PDF-Datei (mit einer arxiv-survey-latex-Pipeline), einen Entwurf für die Datei/die Datei.
+**Überspringen, wenn**: Suchen Sie nach `output/DRAFT.md` (eine andere LaTeX-Version).
+**Netzwerk**: keines.
+**Leitplanke**: Markdown-Attribute (`##`, `**`, `[@...]`）;Bibliographie oder `citations/ref.bib`；不在此步骤改写内容.

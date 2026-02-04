@@ -1,0 +1,1 @@
+Hyperdrive のグローバル プーリングとキャッシュを使用して、ワーカーを PostgreSQL/MySQL に接続します。既存のデータベースへの接続、接続プールのセットアップ、node-postgres/mysql2 の使用、Drizzle/Prisma の統合、またはプール取得の失敗、TLS エラー、nodejs_compat の欠落、または eval() の禁止のトラブルシューティングを行う場合に使用します。

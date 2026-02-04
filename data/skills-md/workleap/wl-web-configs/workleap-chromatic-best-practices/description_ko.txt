@@ -1,0 +1,12 @@
+스냅샷 비용 제어 및 CI 최적화를 위한 Workleap의 Chromatic 모범 사례를 따르도록 리포지토리를 감사하고 업데이트합니다.
+
+다음과 같은 경우에 이 기술을 사용하십시오.
+(1) Chromatic 모범 사례 준수를 위한 저장소 감사
+(2) 프로젝트에서 색채 비용 최적화 구현
+(3) 코드에서 TurboSnap 비활성화 패턴 수정
+(4) untraced 옵션으로chromatic.config.json 설정
+(5) 조건부 Chromatic 실행을 위한 CI 워크플로 업데이트
+(6) Storybook 미리보기 파일에서 리팩터링 배럴 파일 가져오기
+(7) 색채 비용 영향에 대한 PR 검토
+(8) 새로운 Turborepo 프로젝트에서 Chromatic 설정
+(9) 제거해야 할 로컬 Chromatic 사용 확인

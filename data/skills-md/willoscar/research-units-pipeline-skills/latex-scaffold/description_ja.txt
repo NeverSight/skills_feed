@@ -1,0 +1,6 @@
+既存の Markdown ドラフトと `citations/ref.bib` から LaTeX プロジェクト (`latex/main.tex`、文献目録の配線、構造) を足場にします。
+**トリガー**: latex scaffold、md→tex、LaTeX 项目骨架、main.tex の生成。
+**次の場合に使用します**: LaTeX/PDF の配布 (例: arxiv-survey-latex パイプライン) が必要で、ドラフトがすでに作成されているか、すでに書込みセクションに入っている場合。
+**次の場合はスキップしてください**: `output/DRAFT.md` がありません (または LaTeX の配布が必要ありません)。
+**ネットワーク**: なし。
+**Guardrail**: 削除マークダウンが残っています (`##`, `**`, `[@...]`); 参考文献は `citations/ref.bib` を指します; このステップでは内容が変更されません。

@@ -1,0 +1,10 @@
+Squide ist eine modulare React-Anwendungsshell für Workleap-Webanwendungen. Verwenden Sie diese Fähigkeit, wenn:
+(1) Erstellen oder Ändern von Squide-Hostanwendungen oder -Modulen
+(2) Registrieren von Routen, Navigationselementen oder MSW-Anfragehandlern
+(3) Arbeiten mit FireflyRuntime, initializeFirefly oder AppRouter
+(4) Einrichten von Integrationen: TanStack Query, i18next, LaunchDarkly, Honeycomb, MSW, Storybook
+(5) Implementierung verzögerter Registrierungen oder bedingter Navigationselemente
+(6) Abrufen globaler öffentlicher/geschützter Daten mit usePublicDataQueries/useProtectedDataQueries
+(7) Verwendung von Squide-Hooks: useNavigationItems, useRenderedNavigationItems, useIsBootstrapping, useLogger, useEventBusListener, useEventBusDispatcher, useEnvironmentVariable, useFeatureFlag
+(8) Implementierung von Fehlergrenzen in modularen Anwendungen
+(9) Fragen zu modularen Architekturmustern in React-Anwendungen

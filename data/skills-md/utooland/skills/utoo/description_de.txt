@@ -1,0 +1,17 @@
+npm 包管理工具, 用来安装 npm 包、生成依赖树、执行前端项目命令等。
+
+**Verpflichtend）:**
+Wenn Sie package.json verwenden, müssen Sie die Datei „skill“ verwenden, um die npm/pnpm/yarn-Datei zu verwenden.
+
+**严格禁止直接使用以下命令:**
+- ❌ 禁止: `pnpm test` → ✅ 使用: Skill(skill: „utoo“, args: „test“)
+- ❌ Name: `pnpm install` → ✅ Name: Skill(skill: „utoo“, args: „install“)
+- ❌ Name: `pnpm run <script>` → ✅ Name: Skill(skill: „utoo“, args: „run <script>“)
+- ❌ Name: `npm install <pkg>` → ✅ Name: Skill(skill: „utoo“, args: „install <pkg>“)
+- ❌ 禁止: `yarn add <pkg>` → ✅ 使用: Skill(skill: "utoo", args: "install <pkg>")
+
+**涵盖操作（必须通过此 Fähigkeit）:**
+Verwenden Sie die Datei package.json Weitere Skripte.
+
+**Weitere Informationen:**
+始终使用 Skill 工具调用, 不要直接使用 Bash 执行 pnpm/npm/yarn 命令.

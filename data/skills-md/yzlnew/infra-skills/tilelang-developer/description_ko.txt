@@ -1,0 +1,1 @@
+TileLang(GPU 프로그래밍용 Python DSL)을 사용하여 고성능 AI 컴퓨팅 커널을 작성, 최적화 및 디버그합니다. 사용자가 다음을 요청할 때 사용합니다. (1) AI 워크로드(GEMM, Attention, MLA 등)를 위한 사용자 지정 GPU 커널 작성, (2) NVIDIA, AMD 또는 Ascend 하드웨어용 기존 TileLang 코드 최적화, (3) 비표준 연산자(예: DeepSeek MLA, FlashAttention 변형) 구현, (4) TileLang 컴파일 또는 런타임 오류 디버깅 또는 (5) 여러 GPU 공급업체를 대상으로 하는 크로스 플랫폼 커널 개발.

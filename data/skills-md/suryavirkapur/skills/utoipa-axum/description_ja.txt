@@ -1,0 +1,6 @@
+Axum フレームワークで utoipa を使用する、Rust API の OpenAPI ドキュメント スキル。
+OpenAPI 仕様の自動生成と Scalar UI を使用して REST API を構築する場合に使用します。
+対象範囲: (1) リクエスト/レスポンス タイプの ToSchema 派生、(2) エンドポイント ドキュメントの #[utoipa::path]、
+(3) 仕様を組み合わせるための OpenApi 派生、(4) セキュリティ スキーム (JWT、API キー)、(5) クエリ/パス パラメーター用の IntoParams、
+(6) スカラー UI 統合、(7) 応答およびエラー処理パターン。
+トリガー: utoipa、openapi、scalar、axum api、ToSchema、IntoParams、Rust API ドキュメント。

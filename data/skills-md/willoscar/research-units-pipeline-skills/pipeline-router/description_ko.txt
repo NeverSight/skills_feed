@@ -1,0 +1,6 @@
+사용자 목표에 가장 적합한 파이프라인을 선택하고 `PIPELINE.lock.md`에 잠근 다음 체크포인트 질문을 `DECISIONS.md`에 라우팅합니다.
+**트리거**: 파이프라인 라우터, 파이프라인 선택, 워크플로 선택, PIPELINE.lock.md, 选择流程.
+**사용 시기**: 用户目标/交付물不清晰，需要with snapshot/survey/tutorial/systematic-review/peer-review 中选一个并设置最小 HITL 问题集。
+**다음 경우 건너뛰기**: 파이프라인 已锁결정(`PIPELINE.lock.md` 存재)且所需问题已回答/签字完成。
+**네트워크**: 없음.
+**가드레일**: 尽weight一次性提问;信息不足就写`DECISIONS.md` 并停下等待。

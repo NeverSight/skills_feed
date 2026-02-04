@@ -1,0 +1,1 @@
+Verwenden Sie toSorted() anstelle von sort(), um mutierende Arrays zu vermeiden. Anwenden, wenn Arrays sortiert werden, die React-Requisiten, Status oder anderweitig an anderer Stelle gemeinsam genutzte/referenzierte Arrays sind.

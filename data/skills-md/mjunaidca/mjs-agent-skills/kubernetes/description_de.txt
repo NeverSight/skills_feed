@@ -1,0 +1,8 @@
+Kubernetes-Manifeste und Debugging in Produktionsqualität für Containeranwendungen.
+Diese Fähigkeit sollte verwendet werden, wenn Benutzer eine Bereitstellung in Kubernetes, die Erstellung von K8s-Manifesten usw. wünschen.
+Containerisieren für K8s, Einrichten von Deployments/Services/Jobs/StatefulSets/CronJobs, Erstellen
+Namespaces mit Ressourcenkontingenten, Multi-Team-Isolation einrichten, ResourceQuota/ konfigurieren
+LimitRange, mit RBAC (ServiceAccount, Role, RoleBinding) sichern, init konfigurieren
+Container (Modell-Download, DB-Wartezeit, Migrationen), Sidecars einrichten (Protokollierung, Metriken),
+oder Debug-Pods (CrashLoopBackOff, Protokolle, Exec, Beschreibung, Ereignisse). Automatische Erkennung von
+Dockerfile/Code, generiert gehärtete Manifeste mit pädagogischen Kommentaren. CKAD-ausgerichtet.

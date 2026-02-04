@@ -1,0 +1,3 @@
+@modelcontextprotocol/sdk を使用して、Cloudflare Workers 上の TypeScript でステートレス MCP サーバーを構築します。ツール、リソース、プロンプト、認証 (API キー、OAuth、ゼロ トラスト) のパターンを提供します。
+
+API を LLM に公開する場合、Cloudflare サービス (D1、KV、R2、Vectorize) を統合する場合、またはエクスポート構文エラー、クローズされていないトランスポート リーク、CORS 構成ミスのトラブルシューティングを行う場合に使用します。

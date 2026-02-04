@@ -1,0 +1,3 @@
+Intelligente Testauswahl basierend auf Codeänderungen. Ordnet Quelldateien Tests über Importanalyse zu,
+Implementiert mehrstufige Tests (schnell < 1 Minute, betroffen < 5 Minuten, vollständige Suite) und verfolgt die Testzuverlässigkeit.
+Verwenden Sie diese Option, wenn Sie Tests nach Codeänderungen ausführen, um Feedbackschleifen und CI-Zeit zu optimieren.

@@ -1,0 +1,6 @@
+Führen Sie genau eine ausführbare Einheit aus „UNITS.csv“ aus (das erste TODO, dessen Abhängigkeiten FERTIG sind), und aktualisieren Sie dann den Einheitenstatus und die Artefakte.
+**Auslöser**: Unit-Executor, eine Einheit ausführen, nächste Einheit, Schritt-für-Schritt-Pipeline, Schritt-für-Schritt-Anleitung, UNITS.csv.
+**Verwenden, wenn**: 需要严格“一次只做一个 unit”（可审计、可中断）, 并遵守 checkpoints/HUMAN 阻塞逻辑.
+**Überspringen, wenn**: Der Arbeitsbereich „Research-Pipeline-Runner“ wird geöffnet.
+**Netzwerk**: keines.
+**Leitplanke**: 只执行一个-Einheit；满足验收且输出存在才可标 `FERTIG`；遇到 HUMAN checkpoint 必须停下。

@@ -1,0 +1,1 @@
+Verhindert zerstörerische Git-Vorgänge, indem eine Sicherung und Bestätigung erforderlich ist. Blockiert git reset --hard, git push --force on main, git clean -fd. Erfordert ein Backup vor Git-Checkout, Git-Reset und Git-Rebase. Bei jedem destruktiven Git-Befehl aktivieren.

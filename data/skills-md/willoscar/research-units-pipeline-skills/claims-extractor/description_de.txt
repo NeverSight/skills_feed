@@ -1,0 +1,6 @@
+Extrahieren Sie wichtige Behauptungen, Beiträge und Annahmen aus einem Papier/Manuskript in „output/CLAIMS.md“ mit Rückverfolgbarkeit zu den Quellorten.
+**Auslöser**: Anspruchsextrahierer, Extrahieren von Ansprüchen, Beiträgen, Annahmen, Peer-Review, 审稿, 主张提取.
+**Verwenden, wenn**: 审稿/评审或 Proof Audit,需要把主张列表落盘并可追溯到原文位置（section/page/quote）。
+**Überspringen, wenn**: 没有可用的稿件/全文（如缺少 `output/PAPER.md` 或等价文本）.
+**Netzwerk**: keines.
+**Leitplanke**: Der Quellzeiger enthält keine Behauptungen, sondern empirische vs. konzeptionelle Behauptungen.

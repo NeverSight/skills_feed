@@ -1,0 +1,6 @@
+Schreiben Sie H2-Kapitel-Lead-Blöcke („sections/S<sec_id>_lead.md“), die eine Vorschau der Vergleichslinse des Kapitels anzeigen und seine H3-Unterabschnitte verbinden, ohne neue Fakten hinzuzufügen.
+**Auslöser**: Hauptautor des Kapitels, Hauptautor des Abschnitts, H2-Lead, Hauptabsatz, 章节导读, 章节导语.
+**Verwenden Sie es, wenn**: Sie H2-Kapitel mit mehreren H3-Unterabschnitten haben und der Entwurf sich über die Unterabschnitte hinweg wie „Absatzinseln“ liest.
+**Überspringen, wenn**: Die Gliederung keine H3-Unterabschnitte enthält oder „outline/chapter_briefs.jsonl“ fehlt (erstellen Sie zuerst die Kurzbeschreibungen).
+**Netzwerk**: keines.
+**Leitplanke**: keine neuen Fakten/Zitate; keine Überschriften; keine Erzählvorlagen; Verwenden Sie nur Zitierschlüssel, die in „citations/ref.bib“ vorhanden sind.

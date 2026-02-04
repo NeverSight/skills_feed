@@ -1,0 +1,6 @@
+Audit-/Regressionsprüfungen für die Evidence-First-Umfragepipeline: Zitierzustand, Abdeckung pro Abschnitt, Platzhalterleck und Vorlagenwiederholung.
+**Trigger**: Auditor, Audit, Regressionstest, Qualitätsbericht, Testbericht, Testbericht.
+**Verwenden Sie es, wenn**: „output/DRAFT.md“ vorhanden ist und Sie einen deterministischen PASS/FAIL-Bericht vor LaTeX/PDF wünschen.
+**Überspringen, wenn**: Sie ändern die Abruf-/Gliederungs-/Beweispakete immer noch stark (später prüfen).
+**Netzwerk**: keines.
+**Leitplanke**: Inhalt nicht ändern; nur analysieren und berichten.

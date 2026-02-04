@@ -1,0 +1,15 @@
+Honeycomb, LogRocket 및 Mixpanel을 일관된 상관 ID로 통합하는 Workleap의 원격 측정 솔루션(@workleap/telemetry)에 대한 가이드입니다.
+
+다음과 같은 경우에 이 기술을 사용하십시오.
+(1) 프런트엔드 애플리케이션에서 wl-telemetry 초기화
+(2) 상관 값(Telemetry Id, Device Id) 및 해당 수명 주기 작업
+(3) 분산 추적 및 성능 분석을 위해 Honeycomb을 사용합니다.
+(4) OpenTelemetry를 사용하여 Honeycomb 추적/범위 생성 및 강화
+(5) 세션 재생 및 프런트엔드 디버깅을 위해 LogRocket 사용
+(6) 제품 분석 및 이벤트 추적을 위해 Mixpanel을 사용합니다.
+(7) wl-telemetry에서의 Honeycomb, LogRocket, Mixpanel 역할 이해
+(8) Honeycomb, LogRocket 및 Mixpanel 간의 데이터 상관 관계
+(9) wl-telemetry 진단을 위한 로거 구성
+(10) Noop 원격 측정 클라이언트를 사용하여 원격 측정 비활성화/모의
+(11) 원격 측정 계측을 추가하거나 수정하는 PR 검토
+(12) 여러 도구에서 누락되거나 일관되지 않은 원격 측정 문제 해결

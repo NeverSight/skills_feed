@@ -1,0 +1,11 @@
+Richten Sie Cloudflare Workers mit Hono-Routing, Vite-Plugin und Static Assets unter Verwendung produktionsgetesteter Muster ein.
+Verhindert 6 Fehler: Exportsyntax, Routingkonflikte, HMR-Abstürze und Verwirrung im Service Worker-Format.
+
+Verwendung bei: Erstellung von Workers-Projekten, Konfiguration von Hono oder Vite für Workers, Bereitstellung mit Wrangler,
+Hinzufügen statischer Assets mit SPA-Fallback oder Fehlerbehebung bei Exportsyntax, API-Routenkonflikten, geplant
+Handler oder HMR-Rennbedingungen.
+
+Schlüsselwörter: Cloudflare Workers, CF Workers, Hono, Wrangler, Vite, Static Assets, @cloudflare/vite-plugin,
+wrangler.jsonc, ES-Modul, run_worker_first, SPA-Fallback, API-Routen, serverlos, Edge-Computing,
+„Eigenschaften von undefiniert können nicht gelesen werden“, „Statische Assets 404“, „Ein hängendes Versprechen wurde abgebrochen“,
+„Handler exportiert nicht“, Bereitstellung schlägt fehl, Routing funktioniert nicht, HMR stürzt ab

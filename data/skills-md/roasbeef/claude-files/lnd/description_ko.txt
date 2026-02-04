@@ -1,0 +1,1 @@
+Docker에서 lnd Lightning Network 데몬을 실행하고 상호 작용합니다. Lightning 개발, regtest에서 결제 채널 테스트, lnd 컨테이너 관리, lnd RPC 엔드포인트 호출(getinfo, 연결, 채널 열기/닫기, 결제/수신)에 사용됩니다. bitcoind, btcd 및 neutrino 백엔드를 지원합니다.

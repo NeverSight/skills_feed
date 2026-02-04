@@ -1,0 +1,6 @@
+Argument-Selbstschleife: Führen Sie ein Argumentbuch und einen Prämissenkonsistenzbericht für entworfene Abschnitte.
+**Auslöser**: Argumentselbstschleife, Argumentkette, Prämissenkonsistenz, Abschnittsselbstprüfung, Absatzvertrag, 论证自循环, 论证链路, 前提一致性, 段落论证动作.
+**Verwenden Sie es, wenn**: Sie sich in C5 befinden (PROSE erlaubt), „sections/*.md“ vorhanden ist und Sie „glattes, aber hohles“ Schreiben verhindern möchten, indem Sie Argumentverschiebungen + Prämissenhygiene vor dem Zusammenführen erzwingen.
+**Überspringen, wenn**: Sie sind vor C2 (KEIN PROSE) oder die Beweispakete sind gegerüstet/dünn (routen Sie zuerst stromaufwärts zu „evidence-selfloop“).
+**Netzwerk**: keines.
+**Leitplanke**: keine Fakten erfinden; keine Zitierschlüssel hinzufügen/entfernen/verschieben; Verschieben Sie Zitate nicht über Unterabschnitte hinweg. Das Argumentbuch ist ein Zwischenartefakt und darf niemals in die Arbeit eingefügt werden.

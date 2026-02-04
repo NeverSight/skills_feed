@@ -1,0 +1,6 @@
+Schreiben Sie „output/DRAFT.md“ (oder „output/SNAPSHOT.md“) aus einer genehmigten Gliederung und Beweispaketen und verwenden Sie dabei nur verifizierte Zitierschlüssel aus „citations/ref.bib“.
+**Auslöser**: Entwurf schreiben, Prosa schreiben, Schnappschuss machen, Umfrage schreiben, Umfrage, Umfrage, Abschnitt-für-Abschnitt-Entwurf.
+**Verwenden, wenn**: Struktur genehmigt ist („DECISIONS.md“ hat „Approve C2“) und Beweispakete vorhanden sind („outline/subsection_briefs.jsonl“, „outline/evidence_drafts.jsonl“).
+**Überspringen, wenn**: Genehmigungen fehlen oder Beweispakete unvollständig/gerüstig sind (fehlende Felder, TODO-Markierungen).
+**Netzwerk**: keines.
+**Leitplanke**: Erfinden Sie keine Fakten oder Zitate; Zitieren Sie nur Schlüssel, die in „citations/ref.bib“ vorhanden sind. Vermeiden Sie das Auslaufen von Pipeline-Jargon in der Schlussprosa.

@@ -1,0 +1,10 @@
+Squide는 Workleap 웹 애플리케이션을 위한 React 모듈식 애플리케이션 셸입니다. 다음과 같은 경우에 이 기술을 사용하십시오.
+(1) Squide 호스트 애플리케이션 또는 모듈 생성 또는 수정
+(2) 경로, 탐색 항목 또는 MSW 요청 핸들러 등록
+(3) FireflyRuntime, 초기화Firefly 또는 AppRouter 작업
+(4) 통합 설정: TanStack Query, i18next, LaunchDarkly, Honeycomb, MSW, Storybook
+(5) 연기된 등록 또는 조건부 탐색 항목 구현
+(6) usePublicDataQueries/useProtectedDataQueries를 사용하여 전역 공개/보호 데이터 가져오기
+(7) Squide 후크 사용: useNavigationItems, useRenderedNavigationItems, useIsBootstrapping, useLogger, useEventBusListener, useEventBusDispatcher, useEnvironmentVariable, useFeatureFlag
+(8) 모듈형 애플리케이션에서 오류 경계 구현
+(9) React 애플리케이션의 모듈식 아키텍처 패턴에 대한 질문

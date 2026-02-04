@@ -1,0 +1,6 @@
+Rufen Sie mithilfe von Schlüsselwortabfragen Papiermetadaten aus arXiv ab und speichern Sie die Ergebnisse als JSONL („papers/papers_raw.jsonl“).
+**Trigger**: arXiv, arxiv, Papiersuche, Metadatenabruf, 文献检索, 论文检索, 拉取元数据, 离线导入.
+**Verwenden, wenn**: 需要一个初始论文集合（survey/snapshot 的 Stage C1）,来源为 arXiv（在线检索或离线导入 export）。
+**Überspringen, wenn**: Verwenden Sie die Datei „papers/papers_raw.jsonl“, wenn Sie die Datei arXiv verwenden möchten.
+**Netzwerk**: 在线检索需要网络；离线 `--input <export.*>` 不需要网络.
+**Leitplanke**: Metadaten anzeigen, z. B. „Ausgabe“ oder „Prosa“.

@@ -1,0 +1,1 @@
+PyTorch AT_DISPATCH マクロを ATen C++ コードの AT_DISPATCH_V2 形式に変換します。 AT_DISPATCH_ALL_TYPES_AND*、AT_DISPATCH_FLOATING_TYPES*、またはその他のディスパッチ マクロを新しい v2 API に移植する場合に使用します。 ATen カーネル ファイル、CUDA カーネル、およびネイティブ オペレーター実装の場合。

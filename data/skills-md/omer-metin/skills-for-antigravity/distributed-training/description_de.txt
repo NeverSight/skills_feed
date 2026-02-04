@@ -1,0 +1,1 @@
+Wird verwendet, wenn Modelle über mehrere GPUs oder Knoten hinweg trainiert werden, große Modelle verarbeitet werden, die nicht in den Speicher passen, oder der Trainingsdurchsatz optimiert wird – deckt DDP, FSDP, DeepSpeed ​​ZeRO, Modell-/Datenparallelität und Gradienten-Checkpointing ab. Verwenden Sie, wenn „“, „ erwähnt wird.
