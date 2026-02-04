@@ -1116,6 +1116,36 @@ function buildDailySnapshotRssItem(feed: FeedJson, counts: { allTime: number; tr
  * Main function
  */
 async function main() {
+  const syncIndexOnly =
+    process.env.SYNC_INDEX_ONLY === '1' || process.argv.includes('--sync-index-only');
+
+  if (syncIndexOnly) {
+    console.log('Syncing indexes from local data/skills.json...\n');
+
+    const outputDir = join(process.cwd(), 'data');
+    if (!existsSync(outputDir)) {
+      mkdirSync(outputDir, { recursive: true });
+    }
+
+    const skillsJsonPath = join(outputDir, 'skills.json');
+    const existing = readJsonFile<SkillsData>(skillsJsonPath);
+    if (!existing) {
+      throw new Error(`Missing or invalid ${skillsJsonPath}. Run the crawler first.`);
+    }
+
+    const manualSkills = readManualSkills();
+    if (manualSkills.length > 0) {
+      console.log(`Loaded ${manualSkills.length} manual skills from manual_skills.json`);
+    }
+
+    if (process.env.GENERATE_SKILLS_INDEX !== '0') {
+      await buildSkillsIndex(existing, manualSkills);
+    }
+
+    console.log('Index sync complete.');
+    return;
+  }
+
   console.log('Starting skills.sh data crawl...\n');
   
   // Fetch all three endpoints
