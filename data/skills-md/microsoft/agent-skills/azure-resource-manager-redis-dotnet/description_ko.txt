@@ -1,0 +1,1 @@
+.NET의 Redis용 Azure Resource Manager SDK. 관리 평면 작업에 사용: Azure Resource Manager를 통해 Azure Cache for Redis 인스턴스, 방화벽 규칙, 액세스 키, 패치 일정, 연결된 서버(지역 복제) 및 프라이빗 엔드포인트 생성/관리. 데이터 평면 작업(키 가져오기/설정, 게시/구독)에는 사용하지 마세요. 이를 위해서는 StackExchange.Redis를 사용하세요. 트리거: "Redis 캐시", "Redis 생성", "Redis 관리", "ARM Redis", "RedisResource", "Redis 프로비저닝", "Redis용 Azure Cache".

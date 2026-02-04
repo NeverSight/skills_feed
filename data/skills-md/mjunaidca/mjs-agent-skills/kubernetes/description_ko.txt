@@ -1,0 +1,8 @@
+컨테이너화된 애플리케이션을 위한 프로덕션 등급 Kubernetes 매니페스트 및 디버깅입니다.
+이 기술은 사용자가 Kubernetes에 배포하고, K8s 매니페스트를 생성하고,
+K8s용 컨테이너화, 배포/서비스/작업/StatefulSets/CronJobs 설정, 생성
+리소스 할당량이 있는 네임스페이스, 다중 팀 격리 설정, ResourceQuota/ 구성
+LimitRange, RBAC(ServiceAccount, Role, RoleBinding)로 보안, init 구성
+컨테이너(모델 다운로드, DB 대기, 마이그레이션), 사이드카 설정(로깅, 메트릭)
+또는 디버그 포드(CrashLoopBackOff, 로그, exec, 설명, 이벤트). 다음에서 자동 감지
+Dockerfile/코드는 교육적 설명이 포함된 강화된 매니페스트를 생성합니다. CKAD 정렬.

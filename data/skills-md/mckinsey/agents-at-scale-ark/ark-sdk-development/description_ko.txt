@@ -1,0 +1,1 @@
+ARK 스택(SDK, API, 대시보드) 전체에서 유형을 재생성하고 디버깅합니다. ark-dashboard에서 TypeScript 유형 오류를 수정하거나, CRD 변경 후 유형을 업데이트하거나, OpenAPI 사양에서 type.ts를 다시 생성하거나, "유형에 속성이 존재하지 않습니다" 스키마 오류를 디버깅하거나, 오버레이를 통해 사용자 정의 SDK 기능을 추가할 때 사용합니다. Kubernetes CRD에서 TypeScript까지 전체 유형 파이프라인을 다룹니다.

@@ -1,0 +1,3 @@
+짧은 오디오(Python)를 위한 Azure Speech to Text REST API입니다. Speech SDK 없이 최대 60초까지 오디오 파일의 간단한 음성 인식에 사용합니다.
+트리거: "음성을 텍스트로 변환하는 REST", "짧은 오디오 전사", "음성 인식 REST API", "STT REST", "음성 REST 인식".
+사용하지 마십시오: 긴 오디오(60초 초과), 실시간 스트리밍, 일괄 전사, 사용자 정의 음성 모델, 음성 번역. 대신 Speech SDK 또는 Batch Transcription API를 사용하세요.

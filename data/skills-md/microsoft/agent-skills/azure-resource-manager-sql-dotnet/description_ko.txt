@@ -1,0 +1,1 @@
+.NET의 Azure SQL용 Azure Resource Manager SDK입니다. 관리 평면 작업에 사용: Azure Resource Manager를 통해 SQL 서버, 데이터베이스, 탄력적 풀, 방화벽 규칙 및 장애 조치(failover) 그룹 생성/관리. 데이터 평면 작업(쿼리 실행)에는 사용하지 마세요. Microsoft.Data.SqlClient를 사용하세요. 트리거: "SQL 서버", "SQL 데이터베이스 생성", "SQL 리소스 관리", "ARM SQL", "SqlServerResource", "Azure SQL 프로비전", "탄력적 풀", "방화벽 규칙".
