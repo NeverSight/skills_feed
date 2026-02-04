@@ -1,0 +1,1 @@
+Cloudflare Browser Rendering CDP WebSocket を介してヘッドレス Chrome を制御します。 Cloudflare Workers環境でブラウザの自動化が必要な場合、スクリーンショット、ページナビゲーション、スクレイピング、ビデオキャプチャに使用します。 CDP_SECRET 環境変数と cdpUrl が browser.profiles で設定されている必要があります。

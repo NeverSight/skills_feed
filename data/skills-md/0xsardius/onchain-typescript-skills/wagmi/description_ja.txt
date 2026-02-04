@@ -1,0 +1,1 @@
+Wagmi v3 を使用した Ethereum と EVM ブロックチェーン相互作用の React フック。ウォレット接続、コントラクトの読み取り/書き込み、またはブロックチェーン状態を使用して React または Next.js アプリを構築するときに使用します。 useAccount、useConnect、useContractRead、useContractWrite、WagmiProvider、ConnectKit、RainbowKit、または任意の React ブロックチェーン フックでトリガーします。 Node スクリプトや非 React コードには使用しないでください (代わりに viem スキルを使用してください)。

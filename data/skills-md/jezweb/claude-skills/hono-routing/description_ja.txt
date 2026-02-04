@@ -1,0 +1,3 @@
+Hono for Cloudflare Workers、Deno、Bun、Node.js を使用してタイプセーフな API を構築します。ルーティング、ミドルウェア、検証 (Zod/Valibot)、RPC、ストリーミング (SSE)、WebSocket、セキュリティ (CSRF、secureHeaders)。
+
+Hono API の構築、ストリーミング SSE、WebSocket、検証、RPC の場合に使用します。トラブルシューティング: 検証フック、RPC タイプ、ミドルウェア チェーン、必要な JWT 検証アルゴリズム (v4.11.4 以降)、本体消費エラー。

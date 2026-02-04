@@ -1,0 +1,13 @@
+このスキルは、Neon サーバーレス Postgres および Vercel Postgres (Neon インフラストラクチャ上に構築されている) を Web アプリケーションに統合するための包括的な知識を提供します。これは、サーバーレス Postgres データベースのセットアップ、エッジおよびサーバーレス環境の接続プーリングの構成、データベース分岐ワークフローの実装、または Cloudflare Workers、Vercel Edge Functions、または Node.js サーバーレス関数での Postgres 接続の問題のトラブルシューティングを行うときに使用する必要があります。
+
+このスキルは次の場合に使用します。
+- Cloudflare Workers、Vercel Edge、またはサーバーレス環境用の Neon Postgres のセットアップ
+- Next.js アプリケーション用の Vercel Postgres の構成
+- データベース分岐ワークフローの実装 (git のようなデータベース分岐)
+- Drizzle ORM または Prisma と Neon/Vercel Postgres の統合
+- 接続プールのエラー、トランザクションのタイムアウト、または SSL 構成の問題のデバッグ
+- D1/SQLite から Postgres へ、または従来の Postgres からサーバーレス Postgres への移行
+- ポイントインタイム復元 (PITR) またはデータベースバックアップのセットアップ
+- 「接続プールが枯渇しました」、「サーバーレスでは TCP 接続がサポートされていません」、「SSL モードが必要です」などのエラーが発生する
+
+キーワード: neon postgres、@neondatabase/serverless、@vercel/postgres、サーバーレス postgres、postgres エッジ、ネオン分岐、vercel データベース、http postgres、websocket postgres、プールされた接続、drizzle neon、prisma neon、postgres Cloudflare、postgres vercel Edge、SQL テンプレート タグ、neonctl、データベース ブランチ、ポイント イン タイム リストア、 postgres の移行、サーバーレス SQL、エッジ データベース、Neon API、vercel SQL

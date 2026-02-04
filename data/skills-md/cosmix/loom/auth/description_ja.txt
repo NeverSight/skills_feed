@@ -1,0 +1,6 @@
+OAuth2、JWT、RBAC/ABAC、セッション管理、API キー、パスワード ハッシュ、MFA を含む認証および認可パターン。
+
+いつ使用するか: ログイン フロー、アクセス制御、ID 管理、トークン、権限、セッション処理、API キー認証、または MFA を実装します。
+使用しないでください: セキュリティ脆弱性スキャン (/security-scan を使用)、セキュリティ監査 (/security-audit を使用)、脅威モデリング (/threat-model を使用) には使用しないでください。
+
+トリガー: ログイン、ログアウト、サインイン、サインアップ、認証、認可、パスワード、資格情報、トークン、JWT、OAuth、OAuth2、OIDC、SSO、SAML、セッション、Cookie、RBAC、ABAC、権限、ロール、MFA、2FA、TOTP、API キー、PKCE。

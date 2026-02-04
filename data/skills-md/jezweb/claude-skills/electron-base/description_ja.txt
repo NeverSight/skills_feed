@@ -1,0 +1,3 @@
+Electron 33、Vite、React、TypeScript を使用して安全なデスクトップ アプリケーションを構築します。 contextBridge を介したタイプセーフ IPC、カスタム プロトコル ハンドラーを備えた OAuth、ネイティブ モジュール互換性 (better-sqlite3、electron-store)、および Electron-Builder パッケージ化をカバーします。
+
+クロスプラットフォームのデスクトップ アプリを構築する場合、Electron で OAuth フローを実装する場合、メイン/レンダラー プロセス通信を処理する場合、またはコード署名を使用してパッケージ化する場合に使用します。防止: NODE_MODULE_VERSION の不一致、ハードコードされた暗号化キー、コンテキスト分離バイパス、ネイティブ モジュールとのサンドボックスの競合。

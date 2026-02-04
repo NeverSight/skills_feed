@@ -1,0 +1,5 @@
+DDD、SOLID 原則、ASP.NET Core REST API、および C# のベスト プラクティスをカバーする包括的な .NET 開発ガイドライン。
+作業する場合に使用します: (1) C# コード ファイル (.cs)、(2) .NET プロジェクト ファイル (.csproj、.sln)、(3) ASP.NET Core アプリケーション、
+(4) ドメイン駆動設計の実装、(5) REST API 開発、(6) Entity Framework コア、
+(7) .NET での単体テスト/統合テスト。具体的には、AggregateRoot/Entityを継承するクラス、
+IRepository 依存関係のあるサービス、ControllerBase を継承するコントローラー、またはドメイン/アプリケーション/インフラストラクチャー フォルダー内のファイル。

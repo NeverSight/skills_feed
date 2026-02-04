@@ -1,0 +1,14 @@
+Hono、Vite、静的アセットを使用した Cloudflare Workers の実稼働テスト済みセットアップ。
+
+次の場合に使用します: 新しい Cloudflare Workers プロジェクトを作成するとき、Workers で Hono ルーティングを設定するとき、
+Workers 用の Vite プラグインの設定、Workers への静的アセットの追加、Wrangler でのデプロイ、
+または、展開エラー、ルーティングの競合、または HMR クラッシュが発生します。
+
+文書化された 6 つの問題: エクスポート構文エラー、静的アセットのルーティングの競合、
+スケジュールされたハンドラー エラー、HMR 競合状態、アップロード競合状態、および Service Worker
+フォーマットの混乱。
+
+キーワード: Cloudflare ワーカー、CF ワーカー、Hono、wrangler、Vite、静的アセット、@cloudflare/vite-plugin、
+wrangler.jsonc、ES モジュール、run_worker_first、SPA フォールバック、API ルート、サーバーレス、エッジ コンピューティング、
+「未定義のプロパティを読み取れません」、「静的アセット 404」、「ハングしている Promise がキャンセルされました」、
+「ハンドラーがエクスポートされません」、デプロイメントが失敗、ルーティングが機能しない、HMR がクラッシュする

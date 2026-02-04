@@ -1,0 +1,19 @@
+実稼働環境でテストされたコンテンツ コレクションのセットアップ - 変換する TypeScript ファーストのビルド ツール
+ローカル コンテンツ ファイル (Markdown/MDX) を、自動検証を使用してタイプ セーフなデータ コレクションに変換します。
+
+次の場合に使用します: Vite + React を使用してブログ、ドキュメント サイト、またはコンテンツの多いアプリケーションを構築する場合
+React コンポーネントを使用した MDX コンテンツのセットアップ、Zod を使用したタイプセーフ コンテンツ スキーマの実装、
+Contentlayer から移行する場合、またはコンテンツ コレクションで TypeScript インポート エラーが発生する場合。
+
+対象: Vite プラグインのセットアップ、tsconfig パス エイリアス、Zod 検証を使用したコレクション スキーマ、
+COMPILEMDX による MDX コンパイル、計算されたプロパティの変換関数、リハイプ/リマーク プラグイン、
+React コンポーネントと MDXContent の統合、Cloudflare Workers のデプロイメント、本番ビルドの最適化。
+
+キーワード: コンテンツ コレクション、@content-collections/core、@content-collections/vite、
+@content-collections/mdx、MDX、マークダウン、Zod スキーマ検証、タイプセーフ コンテンツ、
+フロントマター、compileMDX、defineCollection、defineConfig、Vite プラグイン、tsconfig パス、
+.content-collections/generated、MDXContent コンポーネント、rehype プラグイン、リマーク プラグイン、
+コンテンツスキーマ、ドキュメント変換、allPostsインポート、静的サイト生成、
+ブログのセットアップ、ドキュメント、Cloudflare Workers の静的アセット、コンテンツ検証エラー、
+モジュールが見つからないコンテンツ コレクション、パス エイリアスが機能しない、MDX タイプ エラー、
+変換関数が非同期、コレクションが更新されない

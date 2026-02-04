@@ -1,0 +1,13 @@
+このスキルは、Vercel KV (Upstash を利用した Redis 互換のキー/値ストレージ) を Vercel アプリケーションに統合するための包括的な知識を提供します。これは、Next.js アプリケーション用の Vercel KV のセットアップ、キャッシュ パターンの実装、セッションの管理、またはエッジおよびサーバーレス機能でのレート制限の処理を行うときに使用する必要があります。
+
+このスキルは次の場合に使用します。
+- Next.js アプリケーション用の Vercel KV のセットアップ
+- キャッシュ戦略の実装 (ページ キャッシュ、API キャッシュ、データ キャッシュ)
+- サーバーレス環境でのユーザーセッションまたは認証トークンの管理
+- API または機能のレート制限の構築
+- TTL (有効期限) による一時データの保存
+- Cloudflare KV から Vercel KV への移行
+- 「KV_REST_API_URL が設定されていません」、「レート制限を超えています」、「JSON シリアル化エラー」などのエラーが発生する
+- 強い整合性 (結果整合性ではなく) を備えた Redis 互換の API が必要
+
+キーワード: vercel kv、@vercel/kv、vercel redis、upstash vercel、kv vercel、redis vercel Edge、キー値 vercel、vercel キャッシュ、vercel セッション、vercel レート制限、redis upstash、kv ストレージ、エッジ kv、サーバーレス redis、vercel ttl、vercel 期限切れ、kv typescript、next.js kv、サーバー アクション kv、エッジランタイムKV

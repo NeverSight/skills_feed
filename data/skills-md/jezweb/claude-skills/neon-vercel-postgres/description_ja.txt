@@ -1,0 +1,3 @@
+Cloudflare Workers/Edge 用に Neon または Vercel Postgres を使用してサーバーレス Postgres をセットアップします。接続プーリング、git のような分岐、Drizzle ORM 統合が含まれます。
+
+次の場合に使用します: エッジ Postgres のセットアップ、「TCP がサポートされていません」のトラブルシューティング、接続プールの枯渇、SSL 構成エラー、またはノード v20 トランザクションの問題。

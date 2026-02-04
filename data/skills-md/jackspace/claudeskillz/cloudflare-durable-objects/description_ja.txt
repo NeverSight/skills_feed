@@ -1,0 +1,7 @@
+Cloudflare Durable Objects の包括的なガイド - 調整、リアルタイム通信、永続的な状態管理のためのグローバルにユニークなステートフル オブジェクト。
+
+次の場合に使用します: リアルタイム アプリケーションの構築、休止状態を備えた WebSocket サーバーの作成、チャット ルームまたはマルチプレイヤー ゲームの実装、複数のクライアント間の調整、ユーザーごとまたはルームごとの状態の管理、レート制限またはセッション管理の実装、アラーム付きタスクのスケジュール設定、キューまたはワークフローの構築、または「do class export」、「new_sqlite_classes」、「migrations required」、「websocket hibernation」、「alarm api」が発生した場合エラー」または「グローバル一意性」エラー。
+
+文書化された 15 以上の問題を防止します: クラスがエクスポートされない、移行の欠落、間違った移行タイプ、コンストラクターのオーバーヘッドによる休止状態のブロック、setTimeout による休止状態の解除、休止状態でのメモリ内状態の喪失、送信 WebSocket の休止状態ではない、グローバルな一意性の混乱、KV バックエンドでの部分的な deleteAll、バインド名の不一致、状態サイズの制限超過、非アトミック移行、位置ヒントの誤解、アラームの再試行の失敗、フェッチ呼び出しによる休止状態のブロック。
+
+キーワード: 耐久性オブジェクト、cloudflare do、DurableObject クラス、do バインディング、websocket 休止状態、do state API、ctx.storage.sql、ctx.acceptWebSocket、webSocketMessage、alarm() ハンドラー、storage.setAlarm、idFromName、newUniqueId、getByName、DurableObjectStub、serializeAttachment、リアルタイム Cloudflare、マルチプレイヤーCloudflare、チャット ルーム ワーカー、調整 Cloudflare、ステートフル ワーカー、new_sqlite_classes、移行の実行、場所のヒント、RPC メソッド、blockConcurrencywhile、「クラスのエクスポートの実行」、「new_sqlite_classes」、「移行が必要」、「WebSocket の休止状態」、「アラーム API エラー」、「グローバル一意性」、「バインディングが見つかりません」

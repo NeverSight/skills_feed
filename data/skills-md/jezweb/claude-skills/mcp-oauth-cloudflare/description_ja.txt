@@ -1,0 +1,3 @@
+Cloudflare Workers 上の MCP サーバーに OAuth 認証を追加します。 Claude.ai 互換の認証には、@cloudflare/workers-oauth-provider と Google OAuth を使用します。 RFC 8707 オーディエンスのバグ、Claude.ai の接続障害、CSRF の脆弱性を含む、文書化された 9 つのエラーを防止します。
+
+ユーザー認証が必要な MCP サーバーを構築する場合、Claude.ai の動的クライアント登録 (DCR) を実装する場合、または静的認証トークンを OAuth フローに置き換える場合に使用します。実稼働リダイレクト URI の不一致と再認証ループの問題の回避策が含まれています。

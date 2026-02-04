@@ -1,0 +1,1 @@
+SQLite でのベクトル類似性検索のための sqlite-vec 拡張機能。埋め込みの保存、KNN クエリの実行、またはセマンティック検索機能の構築時に使用します。 sqlite-vec、vec0、MATCH、vec_ distance、パーティション キー、float[N]、int8[N]、bit[N]、serialize_float32、serialize_int8、vec_f32、vec_int8、vec_bit、vec_normalize、vec_quantize_binary、 distance_metric、メタデータ列、補助列でトリガーします。

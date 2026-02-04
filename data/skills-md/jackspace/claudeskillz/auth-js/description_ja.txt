@@ -1,0 +1,16 @@
+Next.js および Cloudflare Workers 用の本番環境対応の Auth.js v5 セットアップ。
+
+次の場合に使用します: 認証のセットアップ、OAuth/資格情報/マジック リンクの実装、
+D1 または PostgreSQL アダプターの構成、セッションの問題のデバッグ、からの移行
+v4 から v5 へ、エッジ互換性の修正、JWT/データベース セッションのトラブルシューティング、
+AUTH_SECRET エラーの解決、CallbackRouteError の修正、または RBAC の実装。
+
+対象: Next.js App Router および Pages Router、Cloudflare Workers + D1、OAuth プロバイダー
+(GitHub、Google など)、資格情報認証、マジック リンク、JWT とデータベース セッション、
+ミドルウェア パターン、ロールベースのアクセス制御、トークンの更新、エッジ ランタイム
+互換性と一般的なエラーの防止。
+
+キーワード: Auth.js、NextAuth.js、認証、OAuth、資格情報、マジック リンク、
+D1アダプター、Cloudflare Workers、Next.jsミドルウェア、JWTセッション、データベースセッション、
+リフレッシュトークン、RBAC、エッジ互換性、AUTH_SECRET、CallbackRouteError、
+CredentialsSignin、JWEDecryptionFailed、セッションが更新されない、ルート保護

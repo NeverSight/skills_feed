@@ -1,0 +1,11 @@
+Electron-vite、TypeScript、React、IPC 通信、口管理、原生機能集積などの Electron 全公開技術。
+
+适用场景：
+- 创建electron-vite + TypeScript + React项目
+- 安全なIPC通信を実現
+- 窗口管理（创建、制御、多窗口、状態态持久化）
+- 原生功能（系统托盘、菜单、通知、文件对话框）
+- 電子ビルダー打包分発行
+- 自動更新和代码签名
+
+すべてのコードサイクルは最新の Electron 安全最良の実践に準拠しています:contextIsolation 启、nodeIntegration 关闭、sandbox モード启、contextBridge 安全公開 IPC。

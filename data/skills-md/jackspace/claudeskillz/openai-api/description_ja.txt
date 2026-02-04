@@ -1,0 +1,15 @@
+OpenAI の従来型/ステートレス API の完全ガイド: チャット補完 (GPT-5、GPT-4o)、埋め込み、
+画像 (DALL-E 3)、音声 (ウィスパー + TTS)、およびモデレーション。 Node.js SDK とフェッチベースの両方が含まれています
+最大限の互換性を実現するためのアプローチ。
+
+次の場合に使用します: OpenAI API の統合、GPT-5/GPT-4o によるチャット補完の実装、テキストの生成
+ストリーミング、関数呼び出し/ツールの使用、JSON スキーマによる構造化出力の作成、
+RAG のエンベディングの実装、DALL-E 3 による画像の生成、Whisper による音声の文字起こし、
+TTS による音声の合成、コンテンツのモデレート、Cloudflare Workers へのデプロイ、または遭遇
+レート制限 (429)、無効な API キー (401)、関数呼び出しの失敗、ストリーミング解析などのエラー
+エラー、埋め込みディメンションの不一致、またはトークン制限の超過。
+
+キーワード: openai API、チャット補完、gpt-5、gpt-5-mini、gpt-5-nano、gpt-4o、gpt-4-turbo、
+openai SDK、openai ストリーミング、関数呼び出し、構造化出力、json スキーマ、openai 埋め込み、
+text-embedding-3、dall-e-3、画像生成、ウィスパー API、openai tts、テキスト読み上げ、モデレーション API、
+openai フェッチ、cloudflare ワーカー openai、openai レート制限、openai 429、reasoning_effort、冗長性

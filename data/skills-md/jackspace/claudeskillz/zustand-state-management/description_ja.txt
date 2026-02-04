@@ -1,0 +1,16 @@
+TypeScript を使用した React アプリケーションでの Zustand 状態管理のための実稼働環境でテストされたセットアップ。
+このスキルは、スケーラブルでタイプセーフなグローバル状態を構築するための包括的なパターンを提供します。
+
+次の場合に使用します: React でのグローバル状態のセットアップ、Redux または Context API からの移行、実装
+localStorage による状態の永続化、Zustand による TypeScript の構成、スライス パターンの使用
+モジュラー ストアの場合、デバッグ用の devtools ミドルウェアの追加、Next.js SSR ハイドレーションの処理、
+または、ハイドレーション エラー、TypeScript 推論の問題、または継続的なミドルウェアの問題が発生します。
+
+文書化された 5 つの問題を防止します: Next.js のハイドレーションの不一致、TypeScript の二重括弧
+構文エラー、永続的なミドルウェア エクスポート エラー、無限レンダリング ループ、スライス パターン
+型推論の失敗。
+
+キーワード: zustand、状態管理、React 状態、TypeScript 状態、永続化ミドルウェア、
+devtools、スライス パターン、グローバル状態、React フック、ストアの作成、useBoundStore、
+StateCreator、ハイドレーション エラー、テキスト コンテンツの不一致、無限レンダリング、localStorage、
+sessionStorage、immer ミドルウェア、浅い等価性、セレクター パターン、zustand v5

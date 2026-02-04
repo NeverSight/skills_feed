@@ -1,0 +1,15 @@
+正しい現在の SDK (@google/genai v1.27 以降ではなく、
+非推奨の @google/generative-ai)。テキスト生成、マルチモーダル入力 (テキスト + 画像 + ビデオ +
+音声 + PDF)、関数呼び出し、思考モード、ストリーミング、正確な 2025 年のシステム命令
+モデル情報 (2M ではなく 1M の入力トークンを備えた Gemini 2.5 Pro/Flash/Flash-Lite)。
+
+次の場合に使用します: Gemini API の統合、マルチモーダル AI アプリケーションの実装、思考モードの使用
+複雑な推論、並列実行による関数呼び出し、ストリーミング応答、へのデプロイ
+Cloudflare Workers、チャットアプリケーションの構築、または SDK 非推奨の警告の発生、コンテキストウィンドウ
+エラー、モデルが見つからないエラー、関数呼び出しの失敗、またはマルチモーダル形式のエラー。
+
+キーワード: gemini API、@google/genai、gemini-2.5-pro、gemini-2.5-flash、gemini-2.5-flash-lite、
+マルチモーダル ジェミニ、思考モード、Google AI、Genai SDK、関数呼び出しジェミニ、ストリーミング ジェミニ、
+gemini ビジョン、gemini ビデオ、gemini オーディオ、gemini pdf、システム説明書、マルチターン チャット、
+非推奨 @google/generative-ai、gemini コンテキスト ウィンドウ、gemini モデル 2025、gemini 1m トークン、
+gemini ツールの使用、並列関数呼び出し、合成関数呼び出し

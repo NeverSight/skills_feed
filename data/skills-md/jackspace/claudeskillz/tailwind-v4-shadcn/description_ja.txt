@@ -1,0 +1,15 @@
+shadcn/ui、Vite、および React を使用した、Tailwind CSS v4 の実稼働テスト済みセットアップ。
+
+以下の場合に使用します: Tailwind v4 で React プロジェクトを初期化するとき、shadcn/ui をセットアップするとき、
+ダークモードの実装、CSS変数の問題のデバッグ、テーマの切り替えの修正、
+Tailwind v3 から移行する場合、または色/テーマの問題が発生する場合。
+
+対象: @theme インライン パターン、CSS 変数アーキテクチャ、ダーク モード
+ThemeProvider、コンポーネント構成、vite.config セットアップ、v4 の一般的な注意事項、
+生産テスト済みのパターン。
+
+キーワード: Tailwind v4、shadcn/ui、@tailwindcss/vite、@theme インライン、ダーク モード、
+CSS 変数、hsl() ラッパー、components.json、React テーマ、テーマ切り替え、
+色が機能しない、変数が壊れている、テーマが適用されていない、@plugin ディレクティブ、
+タイポグラフィ プラグイン、フォーム プラグイン、散文クラス、@tailwindcss/typography、
+@tailwindcss/forms

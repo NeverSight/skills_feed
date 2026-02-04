@@ -1,0 +1,1 @@
+feature-list.json を使用せずに新しいセッションを開始する場合、プロジェクト構造を設定する場合、または要件をアトミックな機能に分割する場合に使用します。 INIT 状態でロードします。プロジェクト タイプ (Python/Node/Django/FastAPI) を検出し、優先順位を付けて feature-list.json を作成し、.claude/progress/ tracking を初期化します。

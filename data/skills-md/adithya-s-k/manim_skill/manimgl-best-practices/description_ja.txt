@@ -1,0 +1,5 @@
+トリガーされるタイミング: (1) ユーザーが「manimgl」または「ManimGL」または「3b1b manim」に言及した場合、(2) コードに「from manimlib import *」が含まれる場合、(3) ユーザーが「manimgl」CLI コマンドを実行する場合、(4) InteractiveScene、self.frame、self.embed()、ShowCreation()、または ManimGL 固有のパターンを使用する場合。
+
+ManimGL (Grant Sanderson の 3Blue1Brown バージョン) のベスト プラクティス - インタラクティブな開発を備えた OpenGL ベースのアニメーション エンジン。 InteractiveScene、t2c を使用した Tex、カメラ フレーム コントロール、インタラクティブ モード (-se フラグ)、3D レンダリング、および Checkpoint_paste() ワークフローをカバーします。
+
+Manim Community Edition (「manim」インポートと「manim」CLI を使用する) では使用できません。

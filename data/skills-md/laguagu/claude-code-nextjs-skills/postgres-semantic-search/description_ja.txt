@@ -1,0 +1,10 @@
+pgvector と ParadeDB を使用した PostgreSQL ベースのセマンティック検索とハイブリッド検索。
+ベクトル検索、セマンティック検索、ハイブリッド検索、
+または PostgreSQL の全文検索。 pgvector のセットアップ、インデックス作成をカバーします。
+(HNSW、IVFFlat)、ハイブリッド検索 (FTS + BM25 + RRF)、ParadeDB として
+Elasticsearch の代替手段、および Cohere/クロスエンコーダーを使用した再ランキング。
+OpenAI 埋め込みの Vector(1536) および Halfvec(3072) タイプをサポートします。
+
+トリガー: pgvector、ベクター検索、セマンティック検索、ハイブリッド検索、
+埋め込み検索、PostgreSQL RAG、BM25、RRF、HNSW インデックス、類似性検索、
+ParadeDB、pg_search、再ランキング、Cohere 再ランク

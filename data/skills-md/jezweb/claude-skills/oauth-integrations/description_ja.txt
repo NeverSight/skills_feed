@@ -1,0 +1,6 @@
+Cloudflare Workers で GitHub と Microsoft Entra (Azure AD) を使用して OAuth 2.0 認証を実装する
+およびその他のエッジ環境。プロバイダー固有の癖、必要なヘッダー、スコープ要件、
+MSAL を使用しないトークン処理。
+
+次の場合に使用します: GitHub OAuth、Microsoft/Azure AD 認証の実装、OAuth コールバックの処理、
+または OAuth フローの 403 エラーのトラブルシューティング。

@@ -1,0 +1,1 @@
+プロジェクト ログを読み取り、タスクのステータスを同期することで、TASK_BOARD.md を管理します。タスクが完了したとき、進捗があったとき、またはタスク追跡を同期する必要があるときに使用します。 MIGRATION_LOG.md、DEBUG_LOG.md、GIT_LOG.md を読み取り、実際の進行状況を評価し、それに応じて TASK_BOARD.md を更新します。 CLAUDE.md または MIGRATION_LOG.md は変更しません。

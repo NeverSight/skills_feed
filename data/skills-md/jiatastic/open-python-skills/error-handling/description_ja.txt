@@ -1,0 +1,1 @@
+FastAPI、Pydantic、および asyncio の Python エラー処理パターン。 「Let it crash」の哲学に従い、例外を発生させ、境界でキャッチします。 HTTPException、グローバル例外ハンドラー、検証エラー、バックグラウンド タスクの失敗について説明します。 (1) API エラー応答の設計、(2) RequestValidationError の処理、(3) 非同期例外の管理、(4) スタック トレース漏洩の防止、(5) カスタム例外階層の設計の場合に使用します。

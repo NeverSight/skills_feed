@@ -1,0 +1,3 @@
+ソーシャル認証、2FA、パスキー、組織、RBAC、および 15 以上のプラグインを備えた TypeScript/Cloudflare Workers のセルフホスト型認証。 D1 には Drizzle ORM または Kysely が必要です (直接アダプターは不要)。 Clerk/Auth.js に代わる自己ホスト型の代替手段。
+
+次の場合に使用します: D1 でのセルフホスティング認証、OAuth プロバイダー、マルチテナント SaaS の構築、または D1 アダプター エラー、セッション キャッシュ、レート制限、Expo のクラッシュ、AdditionalFields のバグのトラブルシューティング。

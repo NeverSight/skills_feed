@@ -1,0 +1,1 @@
+Terraform を使用して、本番環境に対応した AWS EKS クラスターをプロビジョニングします。クラスター構成、管理対象ノード グループ、Fargate プロファイル、IRSA、EKS アドオン (CoreDNS、kube-proxy、VPC CNI、EBS CSI)、VPC 統合、セキュリティのベスト プラクティスについて説明します。 EKS のプロビジョニング、AWS での Kubernetes のセットアップ、ノード グループの構成、IRSA の実装、コードとしての EKS インフラストラクチャの管理を行うときに使用します。

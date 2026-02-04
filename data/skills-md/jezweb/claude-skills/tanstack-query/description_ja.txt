@@ -1,0 +1,3 @@
+React で TanStack Query v5 でサーバーの状態を管理します。 useMutationState、簡素化されたオプティミスティック更新、throwOnError、ネットワーク モード (オフライン/PWA)、infiniteQueryOptions について説明します。
+
+データのフェッチを設定する場合、v4→v5 移行エラー (オブジェクト構文、gcTime、isPending、keepPreviousData) を修正する場合、またはストリーミング サーバー コンポーネントでの SSR/ハイドレーションの問題をデバッグする場合に使用します。
