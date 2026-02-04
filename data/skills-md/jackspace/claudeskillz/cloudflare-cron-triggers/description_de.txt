@@ -1,0 +1,11 @@
+Komplette Wissensdomäne für Cloudflare Cron-Trigger – geplante Ausführung von Workern mit
+Cron-Ausdrücke für periodische Aufgaben, Wartungsaufträge und automatisierte Arbeitsabläufe.
+
+Wird verwendet, wenn: Worker für die regelmäßige Ausführung planen, Cron-Trigger zu Workern hinzufügen, konfigurieren
+geplante Aufgaben, Testen von Cron-Handlern, Kombinieren von Crons mit Workflows, Aktivieren von Green Compute,
+Verarbeitung mehrerer Zeitpläne oder Auftreten von „geplantem Handler nicht gefunden“, „Cron-Ausdruck ungültig“,
+Fehler „Änderungen werden nicht weitergegeben“, „Handler exportiert nicht“, „Zeitzonenprobleme“.
+
+Schlüsselwörter: Cloudflare-Cron, Cron-Trigger, geplante Worker, geplanter Handler, periodische Aufgaben,
+Hintergrundjobs, geplante Aufgaben, Cron-Ausdruck, Wrangler Crons, geplantes Ereignis, Green Compute,
+Workflow-Trigger, Wartungsaufgaben, Scheduled()-Handler, ScheduledController, UTC-Zeitzone

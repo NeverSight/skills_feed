@@ -1,0 +1,6 @@
+Prometheus-Überwachung und Alarmierung für cloudnative Beobachtbarkeit.
+
+VERWENDUNG: Schreiben von PromQL-Abfragen, Konfigurieren von Prometheus-Scrape-Zielen, Erstellen von Warnregeln, Einrichten von Aufzeichnungsregeln, Instrumentieren von Anwendungen mit Prometheus-Metriken, Konfigurieren der Serviceerkennung.
+NICHT VERWENDEN: Zum Erstellen von Dashboards (verwenden Sie /grafana), für die Protokollanalyse (verwenden Sie /logging-observability), für die allgemeine Observability-Architektur (verwenden Sie senior-infrastructure-engineer).
+
+AUSLÖSER: Metriken, Prometheus, PromQL, Zähler, Messgerät, Histogramm, Zusammenfassung, Alarm, Alarmmanager, Alarmierungsregel, Aufzeichnungsregel, Scrape, Ziel, Label, Serviceerkennung, Umbenennung, Exporteur, Instrumentierung, SLO, Fehlerbudget.

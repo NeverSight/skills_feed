@@ -1,0 +1,13 @@
+Dieser Skill vermittelt umfassende Kenntnisse zur Integration von Neon serverlosem Postgres und Vercel Postgres (das auf der Neon-Infrastruktur aufbaut) in Webanwendungen. Es sollte beim Einrichten serverloser Postgres-Datenbanken, beim Konfigurieren des Verbindungspoolings für Edge- und serverlose Umgebungen, beim Implementieren von Datenbankverzweigungsworkflows oder beim Beheben von Postgres-Verbindungsproblemen in Cloudflare Workers, Vercel Edge Functions oder den serverlosen Funktionen von Node.js verwendet werden.
+
+Verwenden Sie diese Fähigkeit, wenn:
+– Einrichten von Neon Postgres für Cloudflare Workers, Vercel Edge oder serverlose Umgebungen
+– Konfigurieren von Vercel Postgres für Next.js-Anwendungen
+- Implementierung von Datenbankverzweigungsworkflows (Git-ähnliche Datenbankverzweigungen)
+- Integration von Drizzle ORM oder Prisma mit Neon/Vercel Postgres
+- Debuggen von Verbindungspoolfehlern, Transaktionszeitüberschreitungen oder SSL-Konfigurationsproblemen
+- Migration von D1/SQLite zu Postgres oder von traditionellem Postgres zu serverlosem Postgres
+- Einrichten von Point-in-Time-Restore (PITR) oder Datenbanksicherungen
+– Es treten Fehler wie „Verbindungspool erschöpft“, „TCP-Verbindungen werden in Serverless nicht unterstützt“ oder „Sslmode erforderlich“ auf.
+
+Schlüsselwörter: Neon Postgres, @neondatabase/serverless, @vercel/postgres, Serverless Postgres, Postgres Edge, Neon Branching, Vercel-Datenbank, http Postgres, WebSocket Postgres, Pooled Connection, Drizzle Neon, Prisma Neon, Postgres Cloudflare, Postgres Vercel Edge, SQL Template Tag, Neonctl, Datenbankzweige, Point-in-Time-Wiederherstellung, Postgres-Migrationen, Serverless SQL, Edge-Datenbank, Neon-API, Vercel SQL

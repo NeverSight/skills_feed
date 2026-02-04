@@ -1,0 +1,1 @@
+Dienstprogrammfähigkeit zur Erkennung der Magento-Entwicklungsumgebung und zur Bestimmung des Befehls-Wrappers. Dieser Skill sollte von anderen Skills genutzt werden, die Shell-Befehle in der Magento-Umgebung ausführen müssen. Es erkennt Warden, Docker-Magento, DDEV und lokale Umgebungen und stellt den entsprechenden Befehls-Wrapper bereit.

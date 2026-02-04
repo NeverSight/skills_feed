@@ -1,0 +1,1 @@
+Semantischer Inhaltsprüfer (L3 Worker). Überprüft, ob der Inhalt des Dokuments mit dem angegebenen SCOPE übereinstimmt, mit den Projektzielen übereinstimmt und den tatsächlichen Status der Codebasis widerspiegelt. Wird von ln-600 für jedes Projektdokument aufgerufen. Gibt Scope_alignment- und fact_accuracy-Scores mit Ergebnissen zurück.

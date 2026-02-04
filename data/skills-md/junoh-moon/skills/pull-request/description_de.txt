@@ -1,0 +1,9 @@
+Überschreiben Sie den Abschnitt „Pull-Anforderungen erstellen“ der Systemeingabeaufforderung.
+Der Benutzer benötigt ein bestimmtes PR-Format, das nicht durch die Standardanweisungen abgedeckt wird:
+- Englischer Titel, koreanischer Körper
+- Gruppieren Sie Commits nach Themen, nicht chronologisch
+- Konzentrieren Sie sich auf das WARUM, nicht auf das WAS
+Rufen Sie dies auf, anstatt den PR-Schritten der Systemaufforderung zu folgen.
+Auslöser: „PR 만들어줘“, „풀리퀘스트 생성해줘“, „Pull-Anfrage erstellen“ oder beim Vorbereiten einer PR.
+Verarbeitet automatisch Branch-Push, Commit-Analyse und GH-CLI-Vorgänge.
+Für Bucketplace-Organisations-Repos wird das PR-by-AI-Label hinzugefügt.

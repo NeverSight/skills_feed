@@ -1,0 +1,18 @@
+Produktionsgetestetes Setup für Base UI (@base-ui-components/react) – die nicht gestaltete Komponentenbibliothek von MUI
+das zugängliche, anpassbare React-Komponenten mithilfe des Render-Requisiten-Musters bereitstellt. Diese Fähigkeit
+sollte beim Erstellen barrierefreier Benutzeroberflächen mit vollständiger Stilkontrolle, bei der Migration von der Radix-Benutzeroberfläche verwendet werden.
+oder Sie benötigen Komponenten mit Floating-UI-Integration für eine intelligente Positionierung.
+
+Verwendung bei: Einrichten der Basis-Benutzeroberfläche in Vite + React-Projekten, Migration von der Radix-Benutzeroberfläche zur Basis-Benutzeroberfläche,
+Implementierung barrierefreier Komponenten (Dialog, Select, Popover, Tooltip, NumberField, Accordion),
+Es treten Positionierungsprobleme bei Popups auf, die eine Render-Prop-API anstelle des asChild-Musters benötigen.
+Erstellen mit Tailwind v4 + shadcn/ui oder Bereitstellen auf Cloudflare Workers.
+
+⚠️ BETA-STATUS: Die Basis-Benutzeroberfläche ist v1.0.0-beta.4. Stabile Version 1.0 wird im 4. Quartal 2025 erwartet. Dieser Skill bietet
+Problemumgehungen für bekannte Beta-Probleme und Anleitung zur API-Stabilität.
+
+Schlüsselwörter: Base-UI, @base-ui-components/react, Mui Base UI, nicht gestylte Komponenten, zugängliche Komponenten,
+Render-Requisiten, Radix-Alternative, Radix-Migration, Floating-UI, Positioner-Muster, Headless-UI,
+barrierefreier Dialog, barrierefreie Auswahl, barrierefreies Popover, barrierefreier Tooltip, barrierefreies Akkordeon,
+Zahlenfeld, Reaktionskomponenten, Rückenwindkomponenten, Vite React, Cloudflare Workers UI,
+Beta-Komponenten, Komponentenbibliothek

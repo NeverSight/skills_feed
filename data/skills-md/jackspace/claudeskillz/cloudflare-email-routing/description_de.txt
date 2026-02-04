@@ -1,0 +1,7 @@
+Vollständiger Leitfaden für Cloudflare Email Routing, der sowohl E-Mail-Worker (Empfang von E-Mails) als auch Send-E-Mail-Bindungen (Senden von E-Mails von Workern) abdeckt.
+
+Verwenden Sie, wenn: E-Mail-Routing einrichten, E-Mail-Worker erstellen, eingehende E-Mails verarbeiten, E-Mails von Workern senden, E-Mail-Zulassungs-/Blockierungslisten implementieren, E-Mails mit benutzerdefinierter Logik weiterleiten, E-Mails automatisch beantworten, E-Mail-Inhalte analysieren, MX-Einträge für E-Mails konfigurieren, Probleme bei der E-Mail-Zustellung beheben oder E-Mail-Worker-Fehler feststellen.
+
+Verhindert 8 dokumentierte Probleme: Fehler „E-Mail-Trigger nicht verfügbar“, Fehler bei der Überprüfung der Zieladresse, Gmail-Ratenbegrenzung, SPF-Permerror-Probleme, Anruffehler bei Arbeitern, Probleme beim Laden von Testereignissen, Diskrepanzen im Aktivitätsprotokoll und eingeschränktes Debugging bei kostenlosen Plänen.
+
+Schlüsselwörter: Cloudflare Email Routing, Email Workers, E-Mail senden, E-Mail empfangen, E-Mail-Weiterleitung, E-Mail-Zulassungsliste, E-Mail-Blocklist, Post-Mime, Mimetext, cloudflare:email, EmailMessage, ForwardableEmailMessage, EmailEvent, MX-Datensätze, SPF, DKIM, E-Mail-Worker-Bindung, send_email-Bindung, Wrangler-E-Mail, E-Mail-Handler, E-Mail-Routing-Worker, „E-Mail-Trigger nicht verfügbar“, „Anruf des Workers fehlgeschlagen“, E-Mail-Zustellung fehlgeschlagen, E-Mail wird nicht weitergeleitet, Zieladresse nicht bestätigt

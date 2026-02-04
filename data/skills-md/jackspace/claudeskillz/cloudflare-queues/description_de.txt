@@ -1,0 +1,10 @@
+Komplette Wissensdomäne für Cloudflare Queues – flexible Nachrichtenwarteschlange für asynchrone Verarbeitung
+und Hintergrundaufgaben auf Cloudflare Workers.
+
+Verwendung bei: Erstellen von Nachrichtenwarteschlangen, asynchroner Verarbeitung, Hintergrundjobs, Stapelverarbeitung, Verarbeitung von Wiederholungsversuchen,
+Konfigurieren von Warteschlangen für unzustellbare Nachrichten, Implementieren von Verbraucher-Parallelität oder Auftreten einer „Warteschlangen-Zeitüberschreitung“
+Fehler „Batch-Wiederholung“, „Nachricht verloren“, „Durchsatz überschritten“, „Consumer skaliert nicht“.
+
+Schlüsselwörter: Cloudflare-Warteschlangen, Warteschlangenarbeiter, Nachrichtenwarteschlange, Warteschlangenbindungen, asynchrone Verarbeitung,
+Hintergrundjobs, Warteschlangenkonsument, Warteschlangenproduzent, Stapelverarbeitung, Warteschlange für unzustellbare Nachrichten, dlq,
+Nachrichtenwiederholung, Warteschlangenbestätigung, Verbraucher-Parallelität, Warteschlangenrückstand, Wrangler-Warteschlangen

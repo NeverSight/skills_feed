@@ -1,0 +1,2 @@
+All-Atom-Proteindesign unter Verwendung des BoltzGen-Diffusionsmodells. Verwenden Sie diese Fähigkeit, wenn: (1) von Anfang an ein seitenkettenbewusstes Design erforderlich ist, (2) das Design auf kleinen Molekülen oder Liganden basiert, (3) die Diffusion aller Atome (nicht nur das Rückgrat) gewünscht ist, (4) präzise Bindungsgeometrien erforderlich sind, (5) eine YAML-basierte Konfiguration verwendet wird.
+Für die reine Backbone-Generierung verwenden Sie RFDiffusion. Für ein reines Sequenzdesign verwenden Sie proteinmpnn. Verwenden Sie zur Strukturvalidierung Boltz.

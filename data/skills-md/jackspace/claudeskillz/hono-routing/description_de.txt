@@ -1,0 +1,5 @@
+Diese Fähigkeit vermittelt umfassende Kenntnisse zum Erstellen typsicherer APIs mit Hono und konzentriert sich auf Routing-Muster, Middleware-Zusammensetzung, Anforderungsvalidierung, RPC-Client/Server-Muster, Fehlerbehandlung und Kontextmanagement.
+
+Wird verwendet, wenn: APIs mit Hono (jede Laufzeit) erstellt werden, die Anforderungsvalidierung mit Zod-/Valibot-/Typia-/ArkType-Validatoren eingerichtet wird, eine typsichere RPC-Client/Server-Kommunikation erstellt wird, benutzerdefinierte Middleware implementiert wird, Fehler mit HTTPException behandelt werden, der Hono-Kontext mit benutzerdefinierten Variablen erweitert wird oder Probleme bei der Inferenz von Middleware-Typen, Verwirrung bei Validierungs-Hooks oder RPC-Leistungsprobleme auftreten.
+
+Schlüsselwörter: Hono, Hono-Routing, Hono-Middleware, Hono-RPC, Hono-Validator, Zod-Validator, Valibot-Validator, typsichere API, Hono-Kontext, Hono-Fehlerbehandlung, HTTPException, c.req.valid, Middleware-Zusammensetzung, Hono-Hooks, typisierte Routen, Hono-Client, Middleware-Antwort nicht typisiert, Hono-Validierung fehlgeschlagen, Hono-RPC-Typinferenz

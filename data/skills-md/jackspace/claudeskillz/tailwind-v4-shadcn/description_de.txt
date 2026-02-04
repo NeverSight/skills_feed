@@ -1,0 +1,15 @@
+Produktionsgetestetes Setup für Tailwind CSS v4 mit shadcn/ui, Vite und React.
+
+Wird verwendet, wenn: React-Projekte mit Tailwind v4 initialisiert werden, shadcn/ui eingerichtet wird,
+Implementieren des Dunkelmodus, Debuggen von CSS-Variablenproblemen, Beheben des Theme-Wechsels,
+Migration von Tailwind v3 oder Farb-/Themenprobleme.
+
+Deckt ab: @theme-Inline-Muster, CSS-Variablenarchitektur, Dunkelmodus mit
+ThemeProvider, Komponentenzusammensetzung, vite.config-Setup, häufige v4-Fallstricke,
+und produktionserprobte Muster.
+
+Schlüsselwörter: Tailwind v4, shadcn/ui, @tailwindcss/vite, @theme inline, dunkler Modus,
+CSS-Variablen, hsl()-Wrapper, Components.json, React-Theming, Theme-Wechsel,
+Farben funktionieren nicht, Variablen defekt, Theme nicht anwendbar, @plugin-Direktive,
+Typografie-Plugin, Formular-Plugin, Prosaunterricht, @tailwindcss/typography,
+@tailwindcss/forms

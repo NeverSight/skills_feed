@@ -1,0 +1,13 @@
+Produktionsgetestetes Setup für AutoAnimate (@formkit/auto-animate) – eine Drop-in-Animationsbibliothek ohne Konfiguration
+das automatisch sanfte Übergänge hinzufügt, wenn DOM-Elemente hinzugefügt, entfernt oder verschoben werden. Diese Fähigkeit sollte
+kann beim Erstellen von Benutzeroberflächen verwendet werden, die einfache, automatische Animationen für Listen, Akkordeons, Toasts oder Formularvalidierung benötigen
+Nachrichten ohne die Komplexität vollständiger Animationsbibliotheken.
+
+Verwendung bei: Hinzufügen flüssiger Animationen zu dynamischen Listen, Erstellen von Filter-/Sortierschnittstellen, Erstellen von Akkordeonkomponenten,
+Implementieren von Toastbenachrichtigungen, Animieren von Formularvalidierungsnachrichten, Erfordernis einfacher Übergänge ohne Animationscode,
+Arbeiten mit Vite + React + Tailwind, Bereitstellen in Cloudflare Workers Static Assets oder Auftreten von SSR-Fehlern bei
+Animationsbibliotheken.
+
+Schlüsselwörter: automatisch animieren, @formkit/auto-animate, Formkit, Zero-Config-Animation, automatische Animationen, Drop-in-Animation,
+Listenanimationen, Akkordeonanimation, Toastanimation, Formularvalidierungsanimation, leichte Animation, 2-KB-Animation,
+Bevorzugt-reduzierte Bewegung, zugängliche Animationen, Vite-React-Animation, Cloudflare-Worker-Animation, SSR-sichere Animation

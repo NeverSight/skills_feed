@@ -1,0 +1,1 @@
+KRITISCH: Verwendung für unsichere Rust-Code-Überprüfung und FFI. Löst aus auf: unsicher, Rohzeiger, FFI, extern, transmute, *mut, *const, Union, #[repr(C)], libc, std::ffi, MaybeUninit, NonNull, SAFETY-Kommentar, Solidität, undefiniertes Verhalten, UB, sicherer Wrapper, Speicherlayout, bindgen, cbindgen, CString, CStr, 安全抽象,裸指针, 外部函数接口, 内存布局, 不安全代码, FFI 绑定, 未定义行为

@@ -1,0 +1,3 @@
+Erstellen Sie dauerhafte Workflows mit Cloudflare Workflows (GA April 2025). Bietet step.do, step.sleep, waitForEvent, Vitest-Tests, automatische Wiederholungsversuche und Statuspersistenz für lang laufende Aufgaben. Verhindert 12 dokumentierte Fehler.
+
+Wird verwendet, wenn: Workflows erstellt, Wiederholungsversuche implementiert oder Fehler bei NonRetryableError, E/A-Kontext, Serialisierungsfehlern, WaitForEvent-Timeouts und getPlatformProxy-Fehlern behoben werden.

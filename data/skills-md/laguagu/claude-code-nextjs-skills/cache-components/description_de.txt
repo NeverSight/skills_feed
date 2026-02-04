@@ -1,0 +1,7 @@
+Expertenberatung für Next.js-Cache-Komponenten und Partial Prerendering (PPR).
+
+**PROAKTIVE AKTIVIERUNG**: Verwenden Sie diese Fähigkeit automatisch, wenn Sie in Next.js-Projekten arbeiten, deren next.config.ts/next.config.js „cacheComponents: true“ enthält. Wenn diese Konfiguration erkannt wird, wenden Sie Cache Components-Muster und Best Practices proaktiv auf alle React Server Component-Implementierungen an.
+
+**ERKENNUNG**: Suchen Sie zu Beginn einer Sitzung in einem Next.js-Projekt nach „cacheComponents: true“ in next.config. Wenn diese Fähigkeit aktiviert ist, sollten die Muster dieser Fertigkeit als Leitfaden für alle Komponentenerstellungs-, Datenabruf- und Caching-Entscheidungen dienen.
+
+**ANWENDUNGSFÄLLE**: Implementieren der Direktive „Cache verwenden“, Konfigurieren der Cache-Lebensdauer mit CacheLife(), Markieren zwischengespeicherter Daten mit CacheTag(), Ungültigmachen von Caches mit updateTag()/revalidateTag(), Optimieren statischer vs. dynamischer Inhaltsgrenzen, Debuggen von Cache-Problemen und Überprüfen der Cache-Komponenten-Implementierungen.

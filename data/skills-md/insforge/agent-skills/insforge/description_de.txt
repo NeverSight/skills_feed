@@ -1,0 +1,8 @@
+Erstellen Sie Anwendungen mit InsForge Backend-as-a-Service. Verwenden Sie es, wenn Entwickler Folgendes benötigen:
+(1) Backend-Infrastruktur einrichten (Tabellen und Speicher-Buckets erstellen, Funktionen bereitstellen, Authentifizierung/KI konfigurieren)
+(2) Integrieren Sie das InsForge SDK in Frontend-Anwendungen (Datenbank-CRUD, Authentifizierungsflüsse, Datei-Uploads, KI-Operationen, Echtzeit-Messaging).
+(3) Stellen Sie Frontend-Anwendungen auf dem InsForge-Hosting bereit
+
+WICHTIG: Vor jeder Backend-Arbeit MÜSSEN Sie über die Projekt-URL und den API-Schlüssel des Benutzers verfügen. Wenn nicht angegeben, fragen Sie zuerst den Benutzer.
+
+Hauptunterschied: Die Backend-Konfiguration verwendet HTTP-API-Aufrufe an die InsForge-Projekt-URL. Die Client-Integration verwendet @insforge/sdk im Anwendungscode.

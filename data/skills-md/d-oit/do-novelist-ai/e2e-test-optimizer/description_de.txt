@@ -1,0 +1,1 @@
+Optimiert Playwright-E2E-Tests durch Entfernen von WaitForTimeout-Anti-Patterns, Implementieren von Smart Waits und Aktivieren von Test-Sharding für die parallele Ausführung. Wird verwendet, wenn bei Tests eine Zeitüberschreitung auftritt, die CI-Ausführung die Grenzwerte überschreitet oder Probleme mit der Testzuverlässigkeit auftreten.

@@ -1,0 +1,50 @@
+Vollständige E2E- (End-to-End) und Integrationstestkenntnisse für TypeScript/NestJS-Projekte mit Jest, echter Infrastruktur über Docker und GWT-Muster.
+
+Verwenden Sie diese Fähigkeit IMMER, wenn der Benutzer Folgendes benötigt:
+
+**SETUP** – E2E-Testinfrastruktur initialisieren oder konfigurieren:
+- Richten Sie E2E-Tests für ein neues Projekt ein
+- Docker-Compose zum Testen konfigurieren (Kafka, PostgreSQL, MongoDB, Redis)
+- Erstellen Sie eine jest-e2e.config.ts- oder E2E-Jest-Konfiguration
+- Richten Sie Testhelfer für Datenbank, Kafka oder Redis ein
+- Konfigurieren Sie .env.e2e-Umgebungsvariablen
+- Erstellen Sie eine test/e2e-Verzeichnisstruktur
+
+**WRITE** – E2E-/Integrationstests erstellen oder hinzufügen:
+- Schreiben, erstellen, hinzufügen oder generieren Sie E2E-Tests oder Integrationstests
+- Testen Sie API-Endpunkte, Workflows oder komplette Funktionen durchgängig
+- Testen Sie mit echten Datenbanken, Nachrichtenbrokern oder externen Diensten
+- Testen Sie Kafka-Konsumenten/-Produzenten und ereignisgesteuerte Workflows
+- Arbeiten an jeder Datei mit der Endung .e2e-spec.ts oder im Verzeichnis test/e2e/
+- Verwenden Sie das GWT-Muster (Given-When-Then) für Tests
+
+**REVIEW** – E2E-Tests prüfen oder bewerten:
+- Überprüfen Sie bestehende E2E-Tests auf Qualität
+- Überprüfen Sie die Testisolations- und Bereinigungsmuster
+- Überprüfen Sie die Einhaltung des GWT-Musters
+- Bewerten Sie die Qualität und Spezifität der Aussage
+- Auf Anti-Muster prüfen (mehrere WHEN-Aktionen, bedingte Behauptungen)
+
+**RUN** – E2E-Testergebnisse ausführen oder analysieren:
+- Führen Sie E2E-Tests durch
+- Starten/Stoppen der Docker-Infrastruktur zum Testen
+- Analysieren Sie die E2E-Testergebnisse
+– Stellen Sie sicher, dass die Docker-Dienste fehlerfrei sind
+- Testausgaben und -fehler interpretieren
+
+**DEBUG** – Behebung fehlgeschlagener oder fehlerhafter E2E-Tests:
+- Behebung fehlgeschlagener E2E-Tests
+- Debuggen Sie fehlerhafte Tests oder testen Sie Isolationsprobleme
+- Verbindungsfehler beheben (Datenbank, Kafka, Redis)
+- Beheben Sie Zeitüberschreitungsprobleme oder Fehler bei asynchronen Vorgängen
+- Diagnostizieren Sie Race Conditions oder State Leaks
+- Beheben Sie Probleme beim Kafka-Nachrichtenverbrauch
+
+**OPTIMIEREN** – Verbessern Sie die E2E-Testleistung:
+- Beschleunigen Sie langsame E2E-Tests
+- Optimieren Sie den Start der Docker-Infrastruktur
+- Ersetzen Sie feste Wartezeiten durch intelligente Abfragen
+- Reduzieren Sie die Reinigungszeit vor jeder Reinigung
+- Verbessern Sie die Testparallelisierung, wo dies sicher ist
+
+Schlüsselwörter: e2e, End-to-End, Integrationstest, e2e-spec.ts, test/e2e, Jest, Supertest, NestJS, Kafka, Redpanda, PostgreSQL, MongoDB, Redis, Docker-Compose, GWT-Muster, Given-When-Then, echte Infrastruktur, Testisolation, Flaky-Test, MSW, Nock, waitForMessages, e2e reparieren, e2e debuggen, ausführen e2e, überprüfen Sie e2e, optimieren Sie e2e, richten Sie e2e ein

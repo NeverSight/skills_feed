@@ -1,0 +1,13 @@
+Dieser Skill vermittelt umfassende Kenntnisse zur Integration von Vercel KV (Redis-kompatibler Schlüsselwertspeicher von Upstash) in Vercel-Anwendungen. Es sollte beim Einrichten von Vercel KV für Next.js-Anwendungen, beim Implementieren von Caching-Mustern, beim Verwalten von Sitzungen oder beim Umgang mit Ratenbegrenzungen in Edge- und serverlosen Funktionen verwendet werden.
+
+Verwenden Sie diese Fähigkeit, wenn:
+- Einrichten von Vercel KV für Next.js-Anwendungen
+- Implementierung von Caching-Strategien (Seiten-Cache, API-Cache, Daten-Cache)
+- Verwalten von Benutzersitzungen oder Authentifizierungstokens in serverlosen Umgebungen
+- Begrenzung der Baurate für APIs oder Funktionen
+- Speicherung temporärer Daten mit TTL (Time-to-Live)
+- Migration von Cloudflare KV zu Vercel KV
+– Es treten Fehler wie „KV_REST_API_URL nicht festgelegt“, „Ratenlimit überschritten“ oder „JSON-Serialisierungsfehler“ auf.
+– Benötigt Redis-kompatible API mit starker Konsistenz (vs. eventuelle Konsistenz)
+
+Schlüsselwörter: Vercel KV, @Vercel/KV, Vercel Redis, Upstash Vercel, KV Vercel, Redis Vercel Edge, Schlüsselwert Vercel, Vercel Cache, Vercel Sitzungen, Vercel Rate Limit, Redis Upstash, KV Storage, Edge KV, Serverless Redis, Vercel TTL, Vercel Expire, KV Typescript, Next.js KV, Serveraktionen KV, Edge Runtime KV

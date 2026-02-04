@@ -1,0 +1,46 @@
+Vollständige Unit-Test-Kenntnisse für TypeScript/NestJS-Projekte mit Jest, @golevelup/ts-jest und In-Memory-Datenbanken.
+
+Verwenden Sie diese Fähigkeit IMMER, wenn der Benutzer Folgendes benötigt:
+
+**SETUP** – Unit-Tests initialisieren oder konfigurieren:
+- Richten Sie Jest für ein neues Projekt ein
+- Testinfrastruktur konfigurieren (jest.config.ts)
+- Testabhängigkeiten installieren (@nestjs/testing, @golevelup/ts-jest)
+- Erstellen Sie Schein-Helfer oder Test-Dienstprogramme
+- Richten Sie die Abdeckungskonfiguration ein
+
+**WRITE** – Unit-Tests erstellen oder hinzufügen:
+- Schreiben, Erstellen, Hinzufügen oder Generieren von Komponententests
+- Testen Sie einen Dienst, einen Anwendungsfall, einen Controller, einen Guard, einen Interceptor, eine Pipe oder einen Filter
+- Fügen Sie Tests für neuen Code oder neue Funktionen hinzu
+- Verbessern Sie die Testabdeckung oder fügen Sie fehlende Tests hinzu
+- Abhängigkeiten simulieren oder Testvorrichtungen einrichten
+- Arbeiten an jeder Datei mit der Endung .spec.ts
+
+**REVIEW** – Unit-Tests prüfen oder auswerten:
+- Überprüfen Sie bestehende Tests auf Qualität
+- Überprüfen Sie die Testabdeckung und Lücken
+- Prüfungstestmuster und -konventionen
+- Bewerten Sie die Aussagequalität
+
+**RUN** – Testergebnisse ausführen oder analysieren:
+- Führen Sie Unit-Tests durch
+- Analysieren Sie Testergebnisse oder Abdeckungsberichte
+- Testfehler oder -erfolge verstehen
+- Überprüfen Sie, welche Tests bestanden bzw. nicht bestanden wurden
+
+**DEBUG** – Beheben Sie fehlgeschlagene oder fehlerhafte Tests:
+- Beheben Sie fehlerhafte Unit-Tests
+- Debuggen Sie Testfehler oder Ausnahmen
+- Lösen Sie Schein- oder Einrichtungsprobleme
+- Beheben Sie Test-Timeouts oder unzuverlässige Tests
+- Diagnostizieren Sie „undefinierte“ oder unerwartete Ergebnisse
+
+**OPTIMIEREN** – Testleistung und Wartbarkeit verbessern:
+- Beschleunigen Sie langsame Tests
+- Befestigen Sie offene Griffe, um einen sauberen Ausgang zu verhindern
+- Testorganisation verbessern
+- Reduzieren Sie die Testausführungszeit
+- Testcode bereinigen
+
+Schlüsselwörter: Komponententest, Spezifikation, Scherz, Typoskript, NestJS, Mock, DeepMocked, CreateMock, AAA, Testabdeckung, TDD, .spec.ts, Testen, Test schreiben, Test hinzufügen, Test erstellen, Test reparieren, Test debuggen, Test ausführen, Test überprüfen, Test optimieren, Testaufbau, Jest-Konfiguration

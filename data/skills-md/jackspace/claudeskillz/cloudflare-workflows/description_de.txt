@@ -1,0 +1,13 @@
+Vollständige Wissensdomäne für Cloudflare Workflows – dauerhaftes Ausführungsframework
+zum Erstellen mehrstufiger Anwendungen auf Workern, die es automatisch wiederholen, bestehen bleiben
+Zustand und laufen stunden- oder tagelang.
+
+Verwendung bei: Erstellen lang laufender Workflows, Implementieren von Wiederholungslogik, Erstellen
+ereignisgesteuerte Prozesse, mehrstufige Aufgaben planen, zwischen APIs koordinieren,
+oder es kommt zu „NonRetryableError“, „E/A-Kontext“, „Workflow-Ausführung fehlgeschlagen“,
+Fehler „Serialisierungsfehler“ oder „WorkflowEvent nicht gefunden“.
+
+Schlüsselwörter: Cloudflare-Workflows, Workflow-Worker, dauerhafte Ausführung, Workflow-Schritt,
+WorkflowEntrypoint, step.do, step.sleep, Workflow-Wiederholungen, NonRetryableError,
+Workflow-Status, Wrangler-Workflows, Workflow-Ereignisse, lang laufende Aufgaben, step.sleepUntil,
+step.waitForEvent, Workflow-Bindungen

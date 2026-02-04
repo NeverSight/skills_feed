@@ -1,0 +1,9 @@
+Komplette Wissensdomäne für Cloudflare Workers KV – globaler Schlüsselwertspeicher mit geringer Latenz im Edge-Netzwerk von Cloudflare.
+
+Verwendung bei: Erstellen von KV-Namespaces, Speichern von Konfigurationsdaten, Zwischenspeichern von API-Antworten, Verwalten von Benutzereinstellungen,
+Implementierung des TTL-Ablaufs, Verarbeitung von KV-Metadaten oder Auftreten von „KV_ERROR“, „429 zu viele Anfragen“,
+„kv-Rate-Limit“, CacheTtl-Fehler oder eventuelle Konsistenzprobleme.
+
+Schlüsselwörter: KV-Speicher, Cloudflare-KV, Worker-KV, KV-Namespace, KV-Bindungen, KV-Cache, KV-TTL, KV-Metadaten,
+KV-Liste, KV-Paginierung, Cache-Optimierung, Edge-Caching, KV_ERROR, 429 zu viele Anfragen, KV-Ratenbegrenzung,
+Eventuell konsistent, Wrangler-KV, KV-Operationen, Schlüsselwertspeicherung

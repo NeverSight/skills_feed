@@ -1,0 +1,12 @@
+Backend-KI-Funktionalität mit Vercel AI SDK v5 – Textgenerierung, strukturierte Ausgabe mit Zod,
+Tool-Aufrufe und Agenten. Multi-Provider-Unterstützung für OpenAI, Anthropic, Google und Cloudflare Workers AI.
+
+Verwendung bei: Implementierung serverseitiger KI-Funktionen, Generierung von Text-/Chat-Vervollständigungen, Erstellung strukturierter
+KI-Ausgaben mit Zod-Schemata, Erstellung von KI-Agenten mit Tools, Streaming von KI-Antworten, Integration
+OpenAI-/Anthropic-/Google-/Cloudflare-Anbieter oder das Auftreten von AI SDK-Fehlern wie AI_APICallError,
+AI_NoObjectGeneratedError, Streamingfehler oder Worker-Startlimits.
+
+Schlüsselwörter: AI SDK Core, Vercel AI SDK, GenerateText, StreamText, GenerateObject, StreamObject,
+AI-SDK-Knoten, AI-SDK-Server, Zod-AI-Schema, AI-Tools-Aufruf, AI-Agent-Klasse, OpenAI-SDK, anthropisches SDK,
+Google Gemini SDK, Workers-AI-Provider, AI-Streaming-Backend, Multi-Provider-AI, AI-SDK-Fehler,
+AI_APICallError, AI_NoObjectGeneratedError, streamText schlägt fehl, Worker-Startlimit ai

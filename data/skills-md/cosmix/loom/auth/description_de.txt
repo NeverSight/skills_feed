@@ -1,0 +1,6 @@
+Authentifizierungs- und Autorisierungsmuster einschließlich OAuth2, JWT, RBAC/ABAC, Sitzungsverwaltung, API-Schlüssel, Passwort-Hashing und MFA.
+
+VERWENDEN WANN: Implementierung von Anmeldeabläufen, Zugriffskontrolle, Identitätsverwaltung, Tokens, Berechtigungen, Sitzungsverarbeitung, API-Schlüsselauthentifizierung oder MFA.
+NICHT VERWENDEN: Zum Scannen von Sicherheitslücken (verwenden Sie /security-scan), für Sicherheitsüberprüfungen (verwenden Sie /security-audit) und zur Bedrohungsmodellierung (verwenden Sie /threat-model).
+
+AUSLÖSER: Anmeldung, Abmeldung, Anmeldung, Anmeldung, Authentifizierung, Autorisierung, Passwort, Anmeldeinformationen, Token, JWT, OAuth, OAuth2, OIDC, SSO, SAML, Sitzung, Cookie, RBAC, ABAC, Berechtigungen, Rollen, MFA, 2FA, TOTP, API-Schlüssel, PKCE.

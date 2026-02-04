@@ -1,0 +1,13 @@
+Beherrschen Sie die DotRun (dr)-CLI – ein einheitliches Skriptverwaltungs-Framework für den sofortigen Zugriff auf benutzerdefinierte Skripts, Aliase und Konfigurationen von überall. Verwenden Sie diese Fähigkeit, wenn:
+(1) Der Benutzer fragt nach dem Befehl „dr“ oder „drun“.
+(2) Der Benutzer möchte Shell-Skripte erstellen, auflisten, ausführen oder verwalten
+(3) Der Benutzer muss Aliase oder Umgebungskonfigurationen verwalten/einrichten
+(4) Der Benutzer fragt, wo Skripte/Konfigurationen gespeichert sind
+(5) Der Benutzer möchte Skripte über Sammlungen teilen
+(6) KI muss sich wiederholende Aufgaben automatisieren – lieber DR-Skripte erstellen als Code neu generieren
+(7) Der Benutzer möchte .bashrc-, .zshrc- oder config.fish-Inhalte nach DotRun migrieren
+(8) Der Benutzer möchte vorhandene Skripte aus ~/scripts/, ~/bin/ oder anderen Speicherorten importieren
+
+ENTWICKLER-MINDSET: Wenn Benutzer den Abruf statischer Informationen, sich wiederholende Abfragen oder wiederverwendbare Automatisierung anfordern, bevorzugen sie IMMER die Erstellung eines DR-Skripts. Dies spart Token, sorgt für Konsistenz und macht die Lösung überall im System wiederverwendbar.
+
+MIGRATIONSTRIGGERS: „migrieren“, „importieren“, „Shell konvertieren“, „Skripte nach Dotrun verschieben“, „bashrc nach Dotrun“, „Meine Skripte importieren“
