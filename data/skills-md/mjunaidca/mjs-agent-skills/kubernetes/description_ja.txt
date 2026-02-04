@@ -1,0 +1,8 @@
+運用グレードの Kubernetes マニフェストとコンテナ化されたアプリケーションのデバッグ。
+このスキルは、ユーザーが Kubernetes へのデプロイ、K8s マニフェストの作成、
+K8 用のコンテナ化、Deployments/Services/Jobs/StatefulSets/CronJobs のセットアップ、作成
+リソース クォータを使用した名前空間、マルチチーム分離のセットアップ、ResourceQuota/ の構成
+LimitRange、RBAC (ServiceAccount、Role、RoleBinding) で安全、init を構成
+コンテナー (モデルのダウンロード、DB 待機、移行)、サイドカーのセットアップ (ロギング、メトリクス)、
+またはポッドをデバッグします (CrashLoopBackOff、ログ、実行、説明、イベント)。から自動検出
+Dockerfile/コードは、教育的なコメントを含む強化されたマニフェストを生成します。 CKAD に合わせて調整されています。

@@ -1,0 +1,1 @@
+.NET の Cosmos DB 用 Azure Resource Manager SDK。 MANAGEMENT PLANE 操作に使用します: Azure Resource Manager を介した Cosmos DB アカウント、データベース、コンテナー、スループット設定、RBAC の作成/管理。データ プレーン操作 (ドキュメントの CRUD) には使用できません。これには Microsoft.Azure.Cosmos を使用してください。トリガー: "Cosmos DB アカウント"、"Cosmos アカウントの作成"、"Cosmos リソースの管理"、"ARM Cosmos"、"CosmosDBAccountResource"、"Cosmos DB のプロビジョニング"。

@@ -1,0 +1,1 @@
+Anthropic のベスト プラクティスに従って、HASH リポジトリで Claude Code スキルを作成および管理します。新しいスキルの作成、skill-rules.jsonの変更、トリガーパターンの理解、フックの操作、スキルアクティベーションのデバッグ、またはプログレッシブ開示の実装時に使用します。スキル構造、YAML フロントマター、トリガー タイプ (キーワード、インテント パターン)、UserPromptSubmit フック、および 500 行ルールについて説明します。 SKILL_DEBUG による検証とデバッグが含まれます。例としては、Rust-Error-Stack、Cargo の依存関係、Rust-Documentation スキルなどがあります。

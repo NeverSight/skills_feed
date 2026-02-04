@@ -1,0 +1,14 @@
+自然言語コマンドを使用して、製品イニシアチブ、エピック、関係者を管理します。
+YAML フロントマターを使用してデータを Logseq 互換のマークダウン ファイルとして保存します。
+
+ユーザーが次のことを行う必要がある場合に使用します。
+- イニシアチブとエピックを作成、更新、リスト、表示する
+- イニシアチブ文書の完全性を追跡する
+- 人、チーム、パートナーを管理する
+- 不足している情報を確認する
+- リポジトリ構造の初期化
+
+トリガー: /init_repository、/create_initiative、/list_initiatives、/show_initiative、
+/update_initiative、/what_missing、/create_epic、/list_epics、/create_person、
+/create_team、/create_partner、/create_product_area、/list_product_areas、
+/show_product_area、/update_product_area、/help

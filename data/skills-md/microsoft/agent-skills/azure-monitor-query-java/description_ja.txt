@@ -1,0 +1,3 @@
+Java 用 Azure Monitor クエリ SDK。 Log Analytics ワークスペースに対して Kusto クエリを実行し、Azure リソースからのクエリ メトリックを実行します。
+トリガー: 「LogsQueryClient java」、「MetricsQueryClient java」、「kusto クエリ java」、「log Analytics java」、「azure モニター クエリ java」。
+注: このパッケージは非推奨です。 azure-monitor-query-logs と azure-monitor-query-metrics に移行します。
