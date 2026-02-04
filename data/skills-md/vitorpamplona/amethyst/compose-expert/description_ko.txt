@@ -1,0 +1,1 @@
+공유 컴포저블을 위한 고급 Compose 다중 플랫폼 UI 패턴입니다. 시각적 UI 구성 요소, 상태 관리 패턴(기억, 파생 상태, 생산 상태), 재구성 최적화(@Stable/@Immutable 시각적 사용), Material3 테마, 사용자 정의 ImageVector 아이콘을 사용하거나 commonMain에서 UI를 공유할지 아니면 플랫폼별로 유지할지 여부를 결정할 때 사용합니다. android-expert/desktop-expert에 탐색을 위임합니다. kotlin-expert를 보완합니다(상태/주석의 Kotlin 언어 측면을 처리합니다).

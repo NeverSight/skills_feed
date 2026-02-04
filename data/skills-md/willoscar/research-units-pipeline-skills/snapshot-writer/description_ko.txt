@@ -1,0 +1,6 @@
+작은 핵심 세트 + 글머리 기호 전용 개요에서 1페이지 분량의 문헌 스냅샷(`output/SNAPSHOT.md`)을 작성합니다.
+**트리거**: 스냅샷, 문헌 스냅샷, 速览, 48시간 스냅샷, 한 페이지 스냅샷, SNAPSHOT.md.
+**사용 시기**: 你要 24~48시간 内交付一个"可读的研究速览"(글머리 기호 우선, 含关键引用), 而不是完整 설문 조사.
+**다음 경우 건너뛰기**: 你已经进入 증거 우선 설문조사 写작（유 `outline/evidence_drafts.jsonl` / `citations/ref.bib` / `output/DRAFT.md`) ，应改사용 `subsection-writer`/`prose-writer`。
+**네트워크**: 없음.
+**가드레일**: 不发明论文/引用; 引用只来自 `papers/core_set.csv`(或同 작업 공간 적候选池); 不写长段落(避免“image综述生成器”).

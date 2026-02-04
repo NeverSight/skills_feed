@@ -1,0 +1,1 @@
+PyTorch 연산자용 Metal/MPS 커널을 작성합니다. 운영자에게 MPS 장치 지원을 추가하거나, Metal 셰이더를 구현하거나, CUDA 커널을 Apple Silicon으로 포팅할 때 사용합니다. Native_functions.yaml 디스패치, 호스트 측 연산자 및 Metal 커널 구현을 다룹니다.

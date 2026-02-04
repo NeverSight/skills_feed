@@ -1,0 +1,1 @@
+유형 안전성, 구문 분석 및 오류 처리를 위한 Zod 스키마 검증 모범 사례입니다. 이 기술은 z.string 검증, safeParse 또는 z.infer를 사용하여 z.object 스키마를 정의할 때 사용해야 합니다. 이 기술은 React Hook Form 통합 패턴(react-hook-form 기술 사용) 또는 OpenAPI 클라이언트 생성(orval 기술 사용)을 다루지 않습니다.

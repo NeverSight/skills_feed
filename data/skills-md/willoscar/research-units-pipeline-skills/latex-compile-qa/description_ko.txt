@@ -1,0 +1,6 @@
+LaTeX 프로젝트를 컴파일하고 기본 QA(참조 누락, 턱받이 오류, 잘못된 인용)를 실행하여 'latex/main.pdf' 및 빌드 보고서를 생성합니다.
+**트리거**: 라텍스 컴파일, PDF 빌드, LaTeX 오류, 참조 누락, 编译PDF, 引用错误.
+**다음 경우에 사용**: 已有 `latex/main.tex`(일반적으로 `latex-scaffold`),需要确认可编译并输流失败原因报告。
+**다음 경우 건너뛰기**: 还没有 LaTeX scaffold(先跑 `latex-scaffold`).
+**네트워크**: 없음.
+**가드레일**: 编译失败也要落盘 `output/LATEX_BUILD_REPORT.md`; 不做“内容改写”，只做编译/QA。

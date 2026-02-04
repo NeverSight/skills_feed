@@ -1,0 +1,1 @@
+ATen C++ 코드에서 PyTorch AT_DISPATCH 매크로를 AT_DISPATCH_V2 형식으로 변환합니다. AT_DISPATCH_ALL_TYPES_AND*, AT_DISPATCH_FLOATING_TYPES* 또는 기타 디스패치 매크로를 새 v2 API로 포팅할 때 사용합니다. ATen 커널 파일, CUDA 커널 및 기본 연산자 구현용입니다.

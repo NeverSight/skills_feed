@@ -1,0 +1,8 @@
+grammY 프레임워크, TypeScript, Prisma ORM, Vitest 테스트, Biome Linting을 사용하는 Telegram Bot 개발 기술은 D1 데이터베이스를 통해 Cloudflare Workers에 배포됩니다.
+사용 사례:
+(1) 새로운 텔레그램 봇 프로젝트 생성
+(2) 기존 Bot에 명령이나 기능 추가
+(3) Cloudflare Workers 배포 구성
+(4) Prisma + D1 데이터베이스 통합 설정
+(5) Bot 테스트 케이스 작성
+(6) Git Hooks 및 GitHub Actions CI/CD 구성

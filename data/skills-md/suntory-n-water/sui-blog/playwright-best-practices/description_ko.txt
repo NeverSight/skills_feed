@@ -1,0 +1,1 @@
+웹 스크래핑 및 테스트를 위한 극작가 자동화 모범 사례입니다. 특히 요소 작업(클릭, 채우기, 선택), 대기 전략(waitForSelector, waitForURL, waitForLoadState), 탐색 패턴 및 로케이터 사용에 대해 Playwright 코드를 작성하거나 검토할 때 사용합니다. 불안정한 테스트, 경쟁 조건이 발생하거나 waitForNavigation 또는 networkidle과 같은 더 이상 사용되지 않는 패턴을 피하는 방법에 대한 지침이 필요할 때 적용하세요.

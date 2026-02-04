@@ -1,0 +1,1 @@
+버전 0.15.x의 최신 Zig 프로그래밍 언어 패턴입니다. Zig 코드를 작성, 검토 또는 디버깅할 때, build.zig 및 build.zig.zon 파일 작업을 할 때, 또는 comptime 메타프로그래밍을 사용할 때 사용합니다. 훈련 데이터에서 오래된 패턴을 피하는 데 중요합니다. 특히 빌드 시스템 API(root_source_file 대신 root_module), I/O API(버퍼링 기록기 패턴), 컨테이너 초기화(.empty/.init), 할당자 선택(DebugAllocator) 및 제거된 언어 기능(async/await, usingnamespace).

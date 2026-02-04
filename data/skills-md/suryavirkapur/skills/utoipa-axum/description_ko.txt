@@ -1,0 +1,6 @@
+Axum 프레임워크와 함께 utoipa를 사용하는 Rust API용 OpenAPI 문서화 기술입니다.
+자동 OpenAPI 사양 생성 및 Scalar UI를 사용하여 REST API를 구축할 때 사용합니다.
+내용: (1) 요청/응답 유형에 대한 ToSchema 파생, (2) 엔드포인트 문서에 대한 #[utoipa::path],
+(3) 사양 결합을 위한 OpenApi 파생, (4) 보안 체계(JWT, API 키), (5) 쿼리/경로 매개변수용 IntoParams,
+(6) 스칼라 UI 통합, (7) 응답 및 오류 처리 패턴.
+트리거: utoipa, openapi, scalar, axum api, ToSchema, IntoParams, Rust api docs.

@@ -1,0 +1,1 @@
+TiDB-vs-MySQL 차이점(VECTOR 유형 + 벡터 인덱스/함수, 전체 텍스트 검색, AUTO_RANDOM, 낙관적/비관적 트랜잭션, 외래 키, 뷰, DDL 제한 및 프로시저/트리거/이벤트/GEOMETRY/SPATIAL과 같은 지원되지 않는 MySQL 기능)을 올바르게 처리하여 TiDB용 SQL을 작성, 검토 및 조정합니다. TiDB에서 실행해야 하는 SQL을 생성하거나, MySQL SQL을 TiDB로 마이그레이션하거나, TiDB SQL 호환성 오류를 디버깅할 때 사용합니다.

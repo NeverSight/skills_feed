@@ -1,0 +1,9 @@
+Sentry 오류 추적 및 생산 관찰 가능성. 다음과 같은 경우에 호출하십시오.
+- 오류 추적이 없는 새로운 Next.js 프로젝트 → 설정 제안
+- Vercel에 배포 → "배포 전 관찰 가능성 추가"
+- 오류 처리 논의, try/catch → "프로덕션에서 추적"
+- 제작 버그, 사용자 보고 오류 → 스크립트를 통한 심사
+- 모니터링 설정, 알림 구성, PII 처리 검토
+스크립트: discover_sentry.sh, init_sentry.sh, list_issues.sh, triage_score.sh
+키워드: Sentry, 생산 오류, 오류 추적, 분류, 경고,
+관찰 가능성, 세션 재생, PII 수정, 소스 맵, 모니터링

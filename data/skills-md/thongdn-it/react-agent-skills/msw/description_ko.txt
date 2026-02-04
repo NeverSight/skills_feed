@@ -1,0 +1,1 @@
+테스트(이전의 test-msw)에서 API 모의를 위한 MSW(Mock Service Worker) 모범 사례. 이 기술은 MSW를 설정하거나, 요청 처리기를 작성하거나, HTTP API를 조롱할 때 사용해야 합니다. 이 기술은 일반적인 테스트 패턴(test-vitest 또는 test-tdd 기술 사용)이나 테스트 방법론을 다루지 않습니다.

@@ -1,0 +1,1 @@
+딥 러닝 프레임워크(PyTorch Lightning). 확장 가능한 신경망 훈련을 위해 PyTorch 코드를 LightningModules로 구성하고, 다중 GPU/TPU용 트레이너를 구성하고, 데이터 파이프라인, 콜백, 로깅(W&B, TensorBoard), 분산 훈련(DDP, FSDP, DeepSpeed)을 구현합니다.

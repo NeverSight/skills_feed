@@ -1,0 +1,1 @@
+API 버전 2025-11-10의 주요 변경 사항(청구 엔드포인트, Payment_source→결제_방법)을 사용한 사무원 인증, Next.js v6 비동기 인증(), 사용자 정의 OAuth용 PKCE, 자격 증명 스터핑 방어. 사용 시기: "서기 비밀 키 누락", JWKS 오류, AuthorizedParties CSRF, JWT 크기 제한(1.2KB), 431 헤더 오류(Vite 개발 모드) 문제 해결 또는 424242 OTP를 사용한 테스트.

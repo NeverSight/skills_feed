@@ -1,0 +1,6 @@
+PDF를 다운로드하고(가능한 경우) 일반 텍스트를 추출하여 전체 텍스트 증거를 지원하고 `papers/fulltext_index.jsonl` 및 `papers/fulltext/*.txt`를 작성합니다.
+**트리거**: PDF 다운로드, 전체 텍스트, 텍스트 추출, 논문/PDF, 全文抽取, 下载PDF.
+**사용할 경우**: `queries.md` 设置 `evidence_mode: fulltext`(或你明确需要전체文证据)并希望为 종이 메모/주장 提供更强 증거.
+**다음 경우 건너뛰기**: `evidence_mode: abstract`(默认);或你不希望进行下载/抽取(成本/权限/时间)。
+**네트워크**: 전체 텍스트 下载通常需要网络（除不你手工提供 PDF 缓存에서 `papers/pdfs/`)。
+**가드레일**: 缓存下载到 `papers/pdfs/`;默认不覆盖已有抽取文本（除不显式要求重抽）。

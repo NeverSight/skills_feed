@@ -1,0 +1,1 @@
+tursodb에서 사용되는 일반적인 비동기 패턴에 대한 설명입니다. IOResult, 상태 머신, 재진입 함정, CompletionGroup을 포함합니다. IO 작업을 수행할 때 항상 `core`에서 이러한 패턴을 사용하세요.
