@@ -1,0 +1,1 @@
+Argo CD로 관리되는 Kubernetes 워크로드에 대한 컨테이너 이미지 업데이트를 자동화합니다. ArgoCD Image Updater 구성, 자동 이미지 업데이트 설정, 업데이트 전략 구성(semver, 다이제스트, 최신 빌드, 알파벳순), git write-back 구현, 이미지 업데이트 문제 해결 또는 ImageUpdater CRD 작업 시 사용합니다. 설치, 구성, 인증 및 모범 사례를 다룹니다.

@@ -1,0 +1,1 @@
+用於 Kubernetes 機密管理的 Azure Key Vault + CSI 驅動程序集成。在創建 SecretProviderClass 資源、從 Key Vault 裝載機密、排除 403 錯誤、將機密同步到 K8s 或配置應用程序以使用 Key Vault 機密時使用。

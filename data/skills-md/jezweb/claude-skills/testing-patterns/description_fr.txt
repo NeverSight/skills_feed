@@ -1,0 +1,5 @@
+Tests déclaratifs basés sur des agents avec les spécifications de test YAML. Tests exécutés dans les sous-agents pour préserver
+contexte principal lors de l'exécution de nombreux tests. Prend en charge les serveurs MCP, les API et l'automatisation du navigateur.
+
+À utiliser lorsque : tester les serveurs MCP, exécuter des tests d'intégration, valider le comportement de l'outil après des modifications,
+ou créer des suites de tests de régression. Mots clés : tests yaml, tests d'agents, test mcp, tests d'intégration.

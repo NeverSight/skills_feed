@@ -1,0 +1,1 @@
+OpenTelemetry トレース用の高スケール分散トレーシング バックエンドである Grafana Tempo を実装するためのガイド。 Tempo デプロイの構成、ストレージ バックエンド (S3、Azure Blob、GCS) のセットアップ、TraceQL クエリの作成、Helm 経由のデプロイ、トレース構造の理解、Kubernetes での Tempo の問題のトラブルシューティングを行う場合に使用します。

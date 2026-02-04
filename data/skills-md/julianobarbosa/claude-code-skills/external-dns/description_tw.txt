@@ -1,0 +1,1 @@
+有關跨 Azure DNS、AWS Route53、Cloudflare 和 Google Cloud DNS 配置、故障排除和實施外部 DNS 的綜合指南。在 Kubernetes 中實現自動 DNS 管理、配置特定於提供商的身份驗證（託管身份、IRSA、API 令牌）、解決 DNS 同步問題、設置安全的生產級外部 DNS 部署、優化性能、避免速率限製或使用 ArgoCD 實施 GitOps 模式時使用。

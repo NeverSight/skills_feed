@@ -1,0 +1,5 @@
+Pruebas declarativas basadas en agentes con especificaciones de prueba YAML. Pruebas ejecutadas en subagentes para preservar
+contexto principal al ejecutar muchas pruebas. Admite servidores MCP, API y automatización del navegador.
+
+Úselo cuando: probar servidores MCP, ejecutar pruebas de integración, validar el comportamiento de la herramienta después de cambios,
+o crear conjuntos de pruebas de regresión. Palabras clave: pruebas yaml, pruebas de agentes, prueba mcp, pruebas de integración.

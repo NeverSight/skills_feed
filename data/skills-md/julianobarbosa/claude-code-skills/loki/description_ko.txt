@@ -1,0 +1,1 @@
+수평 확장이 가능한 고가용성 로그 집계 시스템인 Grafana Loki 구현 가이드입니다. Loki 배포 구성, 스토리지 백엔드(S3, Azure Blob, GCS) 설정, LogQL 쿼리 작성, 보존 및 압축 구성, Helm을 통한 배포, OpenTelemetry와의 통합 또는 Kubernetes에서 Loki 문제 해결 시 사용합니다.
