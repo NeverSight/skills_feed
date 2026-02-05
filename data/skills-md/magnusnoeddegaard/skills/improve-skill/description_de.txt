@@ -1,0 +1,8 @@
+Verbessern Sie eine vorhandene Fähigkeit basierend auf dem Gesprächskontext und dem Benutzerfeedback. Verwenden Sie, wenn:
+(1) Der Benutzer sagt „/improve-skill <Skill-Name>“ oder „Skill verbessern“, nachdem er einen Skill verwendet hat
+(2) Der Benutzer möchte eine Fertigkeit anhand der während des Gesprächs vorgenommenen Korrekturen verfeinern
+(3) Der Benutzer gibt spezifisches Feedback dazu, was eine Fertigkeit anders machen sollte
+(4) Der Benutzer möchte einen Skill besser an seine Vorlieben oder seinen Arbeitsablauf anpassen
+
+Diese Fähigkeit analysiert den Gesprächsverlauf, um Kurskorrekturen, Missverständnisse usw. zu erkennen.
+und Benutzereinstellungen und aktualisiert dann SKILL.md und Ressourcen des Zielskills entsprechend.

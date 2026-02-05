@@ -1,0 +1,1 @@
+Starten Sie Clawdbot-Hintergrundsitzungen, um Geschäftsideen zu erkunden und zu analysieren. Sagen Sie „Idee: [Beschreibung]“, um die Aktion auszulösen. Fork des Skills „idea“ wurde umgeschrieben, um session_spawn statt claude CLI + tmux + telegram CLI zu verwenden. Ergebnisse werden an den aktuellen Chat gesendet, nicht an gespeicherte Nachrichten. Keine externen Abhängigkeiten.

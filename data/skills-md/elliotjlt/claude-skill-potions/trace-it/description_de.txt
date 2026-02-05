@@ -1,0 +1,4 @@
+Vor dem Ändern von gemeinsam genutztem Code (Dienstprogramme, Typen, Konfigurationen, Basisklassen) werden Traces durchgeführt
+zuerst alle Anrufer und Angehörigen. Aktiviert beim Bearbeiten von Dateien in Shared/,
+utils/, lib/ oder alles, was von 3+ Dateien importiert wird. Verhindert „eine Sache behoben,
+drei andere kaputt gemacht.

@@ -1,0 +1,1 @@
+Wird bei der Orchestrierung paralleler Phasen in der Planausführung verwendet – erstellt isolierte Arbeitsbäume für die gleichzeitige Aufgabenausführung, installiert Abhängigkeiten, erzeugt parallele Subagenten, überprüft den Abschluss, stapelt Zweige linear und bereinigt (obligatorisch für ALLE parallelen Phasen, einschließlich N=1).
