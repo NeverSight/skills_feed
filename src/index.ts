@@ -1132,6 +1132,23 @@ async function main() {
     if (!existing) {
       throw new Error(`Missing or invalid ${skillsJsonPath}. Run the crawler first.`);
     }
+    {
+      const allowEmptyCrawl = process.env.ALLOW_EMPTY_CRAWL === '1';
+      const looksInvalid =
+        !Array.isArray(existing.allTime) ||
+        !Array.isArray(existing.trending) ||
+        !Array.isArray(existing.hot) ||
+        existing.allTime.length === 0 ||
+        existing.trending.length === 0 ||
+        existing.hot.length === 0;
+      if (looksInvalid && !allowEmptyCrawl) {
+        throw new Error(
+          `Index-only sync refused: ${skillsJsonPath} has empty results (allTime=${existing.allTime?.length ?? 'n/a'}, trending=${existing.trending?.length ?? 'n/a'}, hot=${existing.hot?.length ?? 'n/a'}). ` +
+            `Likely from a previous failed crawl. Refusing to regenerate indexes. ` +
+            `Set ALLOW_EMPTY_CRAWL=1 to override.`,
+        );
+      }
+    }
 
     const manualSkills = readManualSkills();
     if (manualSkills.length > 0) {
@@ -1168,6 +1185,22 @@ async function main() {
   console.log(`- All Time: ${allTime.length} skills`);
   console.log(`- Trending: ${trending.length} skills`);
   console.log(`- Hot: ${hot.length} skills`);
+
+  // Guardrail: skills.sh occasionally returns a 200 OK "blocked/error" page that
+  // doesn't contain the expected JSON arrays. In that case, extraction yields
+  // empty lists. Do NOT overwrite cached data files with empty results.
+  const allowEmptyCrawl = process.env.ALLOW_EMPTY_CRAWL === '1';
+  const looksInvalid =
+    allTime.length === 0 ||
+    trending.length === 0 ||
+    hot.length === 0;
+  if (looksInvalid && !allowEmptyCrawl) {
+    throw new Error(
+      `Crawl produced empty results (allTime=${allTime.length}, trending=${trending.length}, hot=${hot.length}). ` +
+        `Likely blocked or skills.sh response format changed. Refusing to overwrite data files. ` +
+        `Set ALLOW_EMPTY_CRAWL=1 to override.`,
+    );
+  }
   
   // Show top 3 comparison
   console.log('\n=== Top 3 Comparison ===');
