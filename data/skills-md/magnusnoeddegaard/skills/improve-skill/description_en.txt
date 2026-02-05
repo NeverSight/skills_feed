@@ -1,0 +1,8 @@
+Improve an existing skill based on conversation context and user feedback. Use when:
+(1) User says "/improve-skill <skill-name>" or "improve the skill" after using a skill
+(2) User wants to refine a skill based on corrections made during conversation
+(3) User provides specific feedback about what a skill should do differently
+(4) User wants to make a skill more tailored to their preferences or workflow
+
+This skill analyzes the conversation history to identify course corrections, misunderstandings,
+and user preferences, then updates the target skill's SKILL.md and resources accordingly.

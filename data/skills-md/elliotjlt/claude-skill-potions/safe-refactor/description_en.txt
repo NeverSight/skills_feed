@@ -1,0 +1,5 @@
+When refactoring, rewriting, or migrating critical code paths, orchestrate a
+safe cycle: assess risks → implement → verify → document. Chains pre-mortem
+and prove-it with built-in implementation phase. Prevents "refactor broke
+production" disasters. Activates on "refactor", "rewrite", "migrate", or
+"clean up" for non-trivial code.

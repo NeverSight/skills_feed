@@ -1,0 +1,4 @@
+Before modifying shared code (utilities, types, configs, base classes), traces
+all callers and dependents first. Activates when editing files in shared/,
+utils/, lib/, or anything imported by 3+ files. Prevents "fixed one thing,
+broke three others."

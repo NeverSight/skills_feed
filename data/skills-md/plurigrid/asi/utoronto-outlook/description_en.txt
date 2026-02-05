@@ -1,0 +1,1 @@
+Headless University of Toronto Outlook email access via IMAP/SMTP with OAuth2. Uses Thunderbird's pre-authorized client ID to bypass admin consent requirements (AADSTS65002). Device code flow for initial auth, macOS Keychain for token cache.

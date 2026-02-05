@@ -1,0 +1,5 @@
+Before starting ANY significant task (feature build, refactor, integration,
+migration, or architectural change), first imagine the project has failed.
+Generate 3-5 specific failure scenarios, assess risk levels, identify
+mitigations, then adjust the implementation plan to address high-risk items
+FIRST. Do not start coding until the pre-mortem is acknowledged.

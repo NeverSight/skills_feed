@@ -1,0 +1,1 @@
+Use when orchestrating parallel phases in plan execution - creates isolated worktrees for concurrent task execution, installs dependencies, spawns parallel subagents, verifies completion, stacks branches linearly, and cleans up (mandatory for ALL parallel phases including N=1)

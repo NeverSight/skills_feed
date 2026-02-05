@@ -1,0 +1,1 @@
+Analyze Homescout output directories (current.json, history/*.jsonl(.gz), speedtests.jsonl, speedtests/*.jsonl(.gz)) with CLI tools like jq/rg/awk to answer questions about device presence, outages, scan stats, or speedtest trends. Use when an agent needs to ingest Homescout outputs, especially from remote/Tailscale/Taildrive output paths.

@@ -1,0 +1,1 @@
+Fixed timestep game loop with interpolation for frame-rate independent physics. Separates physics updates from rendering, prevents spiral of death, and supports hitstop/slow-mo effects.

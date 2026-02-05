@@ -1,0 +1,1 @@
+L3 Worker. Audits layer boundaries + cross-layer consistency: I/O violations, transaction boundaries (commit ownership), session ownership (DI vs local), async consistency (sync I/O in async), fire-and-forget tasks.

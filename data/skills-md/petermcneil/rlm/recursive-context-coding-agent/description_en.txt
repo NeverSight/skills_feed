@@ -1,0 +1,1 @@
+Use recursive context processing with grep/find/uv to handle large codebases. When working with codebases larger than your context window, treat the codebase as an external environment and recursively process it using symbolic execution.

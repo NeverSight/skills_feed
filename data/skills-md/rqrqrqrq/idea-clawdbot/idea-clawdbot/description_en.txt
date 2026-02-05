@@ -1,0 +1,1 @@
+Launch background Clawdbot sessions to explore and analyze business ideas. Say 'Idea: [description]' to trigger. Fork of 'idea' skill rewritten to use sessions_spawn instead of claude CLI + tmux + telegram CLI. Results sent to current chat, not Saved Messages. Zero external dependencies.

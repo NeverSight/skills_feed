@@ -1,0 +1,4 @@
+Orchestration pattern for large-scale processing where work is distributed,
+processed independently, then combined. Map phase splits and processes,
+Reduce phase aggregates results. Use for codebase-wide analysis, bulk
+transformations, or any task where "do X to everything, then summarize."

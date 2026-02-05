@@ -1,0 +1,1 @@
+Story-level quality orchestrator with 4-level Gate (PASS/CONCERNS/FAIL/WAIVED) and Quality Score. Pass 1: code quality -> regression -> manual testing. Pass 2: verify tests/coverage -> calculate NFR scores -> mark Story Done. Use when user requests quality gate for Story or when ln-400 delegates quality check.
