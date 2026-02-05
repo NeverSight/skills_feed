@@ -1,0 +1,6 @@
+Comprehensive codebase audit with specialized reviewers. Generates actionable reports.
+Use when asked to "audit the codebase", "review code quality", "check for issues",
+"security review", or "performance audit". Accepts path scope like "apps/web".
+
+Reviewers run in batches of 2 by default to avoid resource exhaustion.
+Use --parallel to run all reviewers simultaneously (resource-intensive).

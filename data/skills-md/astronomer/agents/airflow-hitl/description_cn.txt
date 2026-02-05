@@ -1,0 +1,1 @@
+当用户需要 Airflow 中的人机交互工作流程（批准/拒绝、表单输入或人工驱动的分支）时使用。涵盖 ApprovalOperator、HITLOperator、HITLBranchOperator、HITLEntryOperator。需要气流 3.1+。不涵盖 AI/LLM 调用（请参阅airflow-ai）。

@@ -1,0 +1,3 @@
+Save session context to agent configuration files or create full checkpoint files.
+Supports three modes: session history (default), full checkpoint (--full),
+and skill analysis (--full --analyze) for extracting reusable patterns.

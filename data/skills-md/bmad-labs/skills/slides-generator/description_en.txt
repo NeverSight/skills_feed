@@ -1,0 +1,1 @@
+Generate interactive presentation slides using React + Tailwind, and export to standalone single-file HTML. Triggers on keywords like "slides", "presentation", "PPT", "demo", "benchmark", or when user requests export. Uses agent-browser skill for browser verification before export (install with `npx skills add vercel-labs/agent-browser` if not available).

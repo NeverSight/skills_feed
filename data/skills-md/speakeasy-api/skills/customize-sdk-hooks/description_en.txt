@@ -1,0 +1,7 @@
+Use when implementing SDK code hooks for custom logic (not spec configuration or runtime overrides).
+Covers SDK lifecycle hooks: BeforeRequest, AfterSuccess, AfterError for custom headers,
+telemetry, HMAC signing, and request/response transformation.
+
+Triggers on "SDK hooks", "add hooks", "BeforeRequestHook", "custom logic in SDK",
+"telemetry hook", "SDK middleware", "intercept requests", "HMAC signing hook",
+"custom code in hooks directory".

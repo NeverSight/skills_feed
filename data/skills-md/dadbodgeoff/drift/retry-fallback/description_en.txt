@@ -1,0 +1,1 @@
+Handle transient failures with exponential backoff and graceful fallbacks. Retry on network blips, fall back to cached data when services fail.
