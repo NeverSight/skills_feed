@@ -1,0 +1,1 @@
+Verwenden Sie diese Option, wenn der Benutzer Human-in-the-Loop-Workflows in Airflow benötigt (Genehmigung/Ablehnung, Formulareingabe oder vom Menschen gesteuerte Verzweigung). Deckt ApprovalOperator, HITLOperator, HITLBranchOperator und HITLEntryOperator ab. Erfordert Airflow 3.1+. Deckt keine AI/LLM-Anrufe ab (siehe airflow-ai).

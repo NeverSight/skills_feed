@@ -1,0 +1,11 @@
+Jira-API-Operationen über Python-CLI-Skripte. AUTOMATISCH AUSLÖSEN, wenn Benutzer
+erwähnt Jira-URLs (https://jira.*/browse/*, https://*.atlassian.net/browse/*),
+Issue-Schlüssel (PROJ-123) oder fragt nach Jira-Issues. Verwenden Sie es, wenn Claude Folgendes benötigt:
+(1) Probleme mit JQL-Abfragen suchen, (2) Problemdetails abrufen oder aktualisieren,
+(3) Neue Probleme erstellen, (4) Status des Übergangsproblems (z. B. „Zu erledigen“ → „Erledigt“),
+(5) Kommentare hinzufügen, (6) Arbeitszeit protokollieren (Arbeitsprotokolle), (7) Sprints und Sprint-Probleme auflisten,
+(8) Boards und Board-Probleme auflisten, (9) Issue-Links erstellen oder auflisten,
+(10) Verfügbare Jira-Felder entdecken, (11) Benutzerprofilinformationen abrufen,
+(12) Laden Sie Anhänge von Problemen herunter.
+Wenn die Authentifizierung fehlschlägt, bieten Sie die interaktive Einrichtung der Anmeldeinformationen über jira-setup.py an.
+Unterstützt sowohl Jira Cloud als auch Server/Data Center mit automatischer Authentifizierungserkennung.

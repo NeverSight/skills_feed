@@ -1,0 +1,7 @@
+Wird bei der Implementierung von SDK-Code-Hooks für benutzerdefinierte Logik verwendet (keine Spezifikationskonfiguration oder Laufzeitüberschreibungen).
+Deckt SDK-Lebenszyklus-Hooks ab: BeforeRequest, AfterSuccess, AfterError für benutzerdefinierte Header,
+Telemetrie, HMAC-Signierung und Anforderungs-/Antworttransformation.
+
+Triggert auf „SDK-Hooks“, „Hooks hinzufügen“, „BeforeRequestHook“, „benutzerdefinierte Logik im SDK“,
+„Telemetrie-Hook“, „SDK-Middleware“, „Anfragen abfangen“, „HMAC-Signatur-Hook“,
+„Benutzerdefinierter Code im Hooks-Verzeichnis“.

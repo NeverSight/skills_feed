@@ -1,0 +1,17 @@
+Validiert die vollständige Rückverfolgbarkeit der Anforderungen über EARS-Anforderungen → Design → Aufgaben → Code → Tests hinweg.
+
+Auslöserbegriffe: Rückverfolgbarkeit, Anforderungsabdeckung, Abdeckungsmatrix, Rückverfolgbarkeitsmatrix,
+Anforderungszuordnung, Testabdeckung, EARS-Abdeckung, Anforderungsverfolgung, Rückverfolgbarkeitsprüfung,
+Lückenerkennung, verwaiste Anforderungen, ungetesteter Code, Abdeckungsvalidierung, Rückverfolgbarkeitsanalyse.
+
+Setzt Verfassungsartikel V (Rückverfolgbarkeitsmandat) mit umfassender Validierung durch:
+- Anforderung → Design-Mapping (100 % Abdeckung)
+- Design → Aufgabenzuordnung
+- Aufgabe → Code-Implementierungszuordnung
+- Code → Test-Mapping (100 % Abdeckung)
+- Lückenerkennung (verwaiste Anforderungen, ungetesteter Code)
+- Berichterstattung über den Abdeckungsprozentsatz
+- Generierung einer Rückverfolgbarkeitsmatrix
+
+Verwendung, wenn: Der Benutzer eine Rückverfolgbarkeitsvalidierung, Abdeckungsanalyse, Lückenerkennung benötigt,
+oder Anforderungsverfolgung über den gesamten Entwicklungslebenszyklus.
