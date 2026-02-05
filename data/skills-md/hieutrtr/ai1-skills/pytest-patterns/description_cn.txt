@@ -1,1 +1,1 @@
->-
+使用 pytest 对 FastAPI 应用程序进行 Python 后端测试模式。编写 Python 测试时使用：服务和存储库的单元测试、使用 httpx.AsyncClient 对 API 端点进行集成测试、夹具创建、使用factory_boy 进行工厂设置、使用 pytest-asyncio 进行异步测试、模拟策略和参数化测试。涵盖测试组织（测试/单元、测试/集成）、conftest 层次结构和覆盖率要求。不涵盖前端测试（使用react-testing-patterns）或E2E浏览器测试（使用e2e-testing）。

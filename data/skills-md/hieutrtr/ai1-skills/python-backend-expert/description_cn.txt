@@ -1,1 +1,1 @@
->-
+具有 SQLAlchemy 2.0、Pydantic v2 和异步模式的 FastAPI 应用程序的 Python 后端实现模式。在实现阶段创建或修改 FastAPI 端点、Pydantic 模型、SQLAlchemy 模型、服务层或存储库类时使用。涵盖异步会话管理、通过 Depends() 进行依赖注入、分层错误处理和 Alembic 迁移。不涵盖测试（使用 pytest-patterns）、部署（使用部署管道）或 FastAPI 框架机制，如中间件和 WebSocket（使用 fastapi-patterns）。

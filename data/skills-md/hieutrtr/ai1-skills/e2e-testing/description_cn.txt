@@ -1,1 +1,1 @@
->-
+与 Playwright 一起对全栈 Python/React 应用程序进行端到端测试模式。在为完整的用户工作流程（登录、CRUD、导航）、关键路径回归测试或跨浏览器验证编写 E2E 测试时使用。涵盖测试结构、页面对象模型、选择器策略（data-testid > 角色 > 标签）、等待策略、身份验证状态重用、测试数据管理和 CI 集成。不涵盖单元测试或组件测试（使用 pytest-patterns 或 React-testing-patterns）。
