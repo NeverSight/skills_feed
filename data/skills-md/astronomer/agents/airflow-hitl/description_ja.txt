@@ -1,0 +1,1 @@
+ユーザーが Airflow で人間参加型のワークフロー (承認/拒否、フォーム入力、または人間主導の分岐) を必要とする場合に使用します。 ApprovalOperator、HITLOperator、HITLBranchOperator、HITLEntryOperator をカバーします。 Airflow 3.1+が必要です。 AI/LLM コールは対象外です (airflow-ai を参照)。

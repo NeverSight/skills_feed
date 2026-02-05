@@ -1,0 +1,7 @@
+Úselo al implementar enlaces de código SDK para lógica personalizada (no configuración de especificaciones ni anulaciones de tiempo de ejecución).
+Cubre los enlaces del ciclo de vida del SDK: BeforeRequest, AfterSuccess, AfterError para encabezados personalizados,
+telemetría, firma HMAC y transformación de solicitud/respuesta.
+
+Activadores en "enganches de SDK", "agregar ganchos", "BeforeRequestHook", "lógica personalizada en SDK",
+"enganche de telemetría", "middleware SDK", "solicitudes de intercepción", "enganche de firma HMAC",
+"código personalizado en el directorio de ganchos".

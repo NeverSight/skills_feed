@@ -1,0 +1,1 @@
+このスキルは、ユーザーが「研究を更新する」、「新しい実験を分析する」、「実験文書を更新する」、または「研究ノートを更新する」を要求するときに使用する必要があります。インクリメンタル検出 (新しい実験のみを分析)、品質基準を備えた反復書き込み改善ループ、幻覚ゼロの検証、PDF エクスポートを備えています。使用法 - `/update-study logs/experiment.log review.md` または `/update-study "logs/exp1.log logs/exp2.log" results/ablation_study.md`

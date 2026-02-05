@@ -1,0 +1,1 @@
+SQLAlchemy 2.0、Pydantic v2、および非同期パターンを使用した FastAPI アプリケーションの Python バックエンド実装パターン。 FastAPI エンドポイント、Pydantic モデル、SQLAlchemy モデル、サービス レイヤー、またはリポジトリ クラスを作成または変更する実装フェーズ中に使用します。非同期セッション管理、Depends() による依存関係の注入、階層化されたエラー処理、Alembic の移行について説明します。テスト (pytest-patterns を使用)、デプロイメント (deployment-pipeline を使用)、またはミドルウェアや WebSocket などの FastAPI フレームワークの仕組み (fastapi-patterns を使用) はカバーしません。

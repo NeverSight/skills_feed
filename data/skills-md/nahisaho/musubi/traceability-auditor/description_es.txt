@@ -1,0 +1,17 @@
+Valida la trazabilidad completa de los requisitos entre requisitos EARS → diseño → tareas → código → pruebas.
+
+Términos desencadenantes: trazabilidad, cobertura de requisitos, matriz de cobertura, matriz de trazabilidad,
+mapeo de requisitos, cobertura de pruebas, cobertura EARS, seguimiento de requisitos, auditoría de trazabilidad,
+detección de brechas, requisitos huérfanos, código no probado, validación de cobertura, análisis de trazabilidad.
+
+Hace cumplir el Artículo V Constitucional (Mandato de Trazabilidad) con validación integral:
+- Requisito → Mapeo de diseño (100% de cobertura)
+- Diseño → Mapeo de tareas
+- Tarea → Mapeo de implementación de código
+- Código → Mapeo de prueba (100% de cobertura)
+- Detección de brechas (requisitos huérfanos, código no probado)
+- Informes de porcentaje de cobertura.
+- Generación de matriz de trazabilidad.
+
+Úselo cuando: el usuario necesite validación de trazabilidad, análisis de cobertura, detección de brechas,
+o seguimiento de requisitos a lo largo de todo el ciclo de vida de desarrollo.
