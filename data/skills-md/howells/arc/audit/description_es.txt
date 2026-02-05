@@ -1,0 +1,6 @@
+Auditoría integral de código base con revisores especializados. Genera informes procesables.
+Úselo cuando se le solicite "auditar la base del código", "revisar la calidad del código", "verificar problemas",
+"revisión de seguridad" o "auditoría de desempeño". Acepta alcance de ruta como "aplicaciones/web".
+
+Los revisores se ejecutan en lotes de 2 de forma predeterminada para evitar el agotamiento de los recursos.
+Utilice --parallel para ejecutar todos los revisores simultáneamente (requiere muchos recursos).

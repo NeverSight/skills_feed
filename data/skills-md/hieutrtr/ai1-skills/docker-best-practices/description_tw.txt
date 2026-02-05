@@ -1,0 +1,1 @@
+Python/React 項目的 Docker 容器化模式。在創建或修改 Dockerfile、優化映像大小、設置 Docker Compose 進行本地開發或強化容器安全性時使用。涵蓋 Python (python:3.12-slim) 和 React (node:20-alpine -> nginx:alpine) 的多階段構建、層優化、.dockerignore、非 root 用戶、Trivy 安全掃描、Docker Compose for dev（後端 + 前端 + PostgreSQL + Redis）以及圖像標記策略。不涵蓋部署編排（使用部署管道）。

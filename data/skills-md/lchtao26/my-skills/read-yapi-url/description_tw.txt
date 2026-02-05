@@ -1,0 +1,1 @@
+通過URL從YApi平台獲取API文檔。當用戶要求閱讀、獲取或獲取 YApi API 文檔，或提供 YApi URL（例如“https://yapi.nocode-tech.com/project/{id}/interface/api/{api_id}”或“https://yapi.nocode-tech.com/project/{id}/interface/api/cat_{cat_id}”）時使用。支持單一 API URL 和類別 URL。返回原始 API 文檔數據。

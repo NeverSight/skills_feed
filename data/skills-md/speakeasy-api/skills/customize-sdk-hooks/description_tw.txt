@@ -1,0 +1,7 @@
+在為自定義邏輯（不是規範配置或運行時覆蓋）實現 SDK 代碼掛鉤時使用。
+涵蓋 SDK 生命週期掛鉤：自定義標頭的 BeforeRequest、AfterSuccess、AfterError，
+遙測、HMAC 簽名和請求/響應轉換。
+
+在“SDK hooks”、“add hooks”、“BeforeRequestHook”、“SDK 中的自定義邏輯”上觸發
+“遙測鉤子”，“SDK中間件”，“攔截請求”，“HMAC簽名鉤子”，
+“hooks 目錄中的自定義代碼”。

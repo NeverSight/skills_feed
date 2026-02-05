@@ -1,0 +1,1 @@
+Python/React 項目的部署過程和 CI/CD 管道配置。在部署到暫存或生產、使用 GitHub Actions 創建 CI/CD 管道、排除部署故障或計劃回滾時使用。涵蓋管道階段（構建/測試/登台/生產）、環境升級、部署前驗證、運行狀況檢查、金絲雀部署、回滾過程和 GitHub Actions 工作流程。不涵蓋 Docker 映像構建（使用 docker-best-practices）或事件響應（使用事件響應）。
