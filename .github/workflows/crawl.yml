@@ -6,6 +6,15 @@ on:
     - cron: '0 0 * * *'
   # Support manual trigger
   workflow_dispatch:
+    inputs:
+      sync_time_budget_minutes:
+        description: 'Max minutes to backfill missing SKILL.md per run'
+        required: false
+        default: '240'
+      translate_limit:
+        description: 'Max description_en files to translate per language'
+        required: false
+        default: '500'
   # Run on push to main branch
   push:
     branches:
@@ -50,9 +59,13 @@ jobs:
           SYNC_ALL_SKILL_MDS: "1"
           SYNC_ALL_ONLY_MISSING: "1"
           # Keep each run comfortably below the GitHub job time limit.
-          SYNC_ALL_TIME_BUDGET_MINUTES: "330"
+          # (Leave time for building indexes + translations.)
+          SYNC_ALL_TIME_BUDGET_MINUTES: ${{ github.event.inputs.sync_time_budget_minutes || '240' }}
           # Speed up backfill while keeping load reasonable.
           SYNC_ALL_CONCURRENCY: "8"
+          # Gentle pacing for the skills API fetcher (ms per page).
+          # Can be overridden ad-hoc if needed.
+          SKILLS_API_DELAY_MS: "50"
 
       # Build skill category index (bot pushes won't trigger other workflows)
       - name: Setup Python
@@ -93,13 +106,14 @@ jobs:
         run: |
           # Translate up to 2000 new descriptions per run (per language).
           # The script will skip if the target file already exists (unless --force).
-          python scripts/translate_descriptions.py --target zh-CN --limit 2000
-          python scripts/translate_descriptions.py --target zh-TW --limit 2000
-          python scripts/translate_descriptions.py --target es --limit 2000
-          python scripts/translate_descriptions.py --target ja --limit 2000
-          python scripts/translate_descriptions.py --target ko --limit 2000
-          python scripts/translate_descriptions.py --target de --limit 2000
-          python scripts/translate_descriptions.py --target fr --limit 2000
+          LIMIT="${{ github.event.inputs.translate_limit || '500' }}"
+          python scripts/translate_descriptions.py --target zh-CN --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target zh-TW --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target es --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target ja --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target ko --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target de --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target fr --limit "$LIMIT"
       
       - name: Commit translations
         run: |
