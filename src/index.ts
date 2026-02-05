@@ -965,6 +965,142 @@ async function fetchEndpoint(endpoint: string): Promise<string> {
   }
 }
 
+type SkillsApiBoard = 'all-time' | 'trending' | 'hot';
+
+type SkillsApiResponse<TSkill extends Skill> = {
+  skills: TSkill[];
+  total: number;
+  hasMore: boolean;
+  page: number;
+};
+
+function skillsApiUrl(board: SkillsApiBoard, page: number) {
+  return `https://skills.sh/api/skills/${board}/${page}`;
+}
+
+function safeJsonParse<T>(text: string): T {
+  try {
+    return JSON.parse(text) as T;
+  } catch {
+    // Some tooling can append stray characters to stdout (e.g., '%' in curl output).
+    // Try to salvage by trimming to the last JSON object terminator.
+    const lastObj = text.lastIndexOf('}');
+    if (lastObj !== -1) {
+      const trimmed = text.slice(0, lastObj + 1);
+      return JSON.parse(trimmed) as T;
+    }
+    throw new Error('Failed to parse JSON response');
+  }
+}
+
+async function fetchSkillsApiPage<TSkill extends Skill>(
+  board: SkillsApiBoard,
+  page: number,
+): Promise<SkillsApiResponse<TSkill>> {
+  const url = skillsApiUrl(board, page);
+  const delayMs =
+    process.env.SKILLS_API_DELAY_MS && !Number.isNaN(Number(process.env.SKILLS_API_DELAY_MS))
+      ? Number(process.env.SKILLS_API_DELAY_MS)
+      : 50;
+
+  // Simple retry with backoff for transient failures (429/5xx/network).
+  const maxAttempts = 4;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const response = await fetch(url, {
+        signal: AbortSignal.timeout(30_000),
+        headers: {
+          accept: '*/*',
+          'accept-language': headers['accept-language'],
+          'cache-control': 'no-cache',
+          pragma: 'no-cache',
+          referer: 'https://skills.sh/',
+          'user-agent': headers['user-agent'],
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const text = await response.text();
+      const parsed = safeJsonParse<Partial<SkillsApiResponse<TSkill>> & { skills?: unknown }>(text);
+
+      const skillsRaw = (parsed as any)?.skills;
+      if (!Array.isArray(skillsRaw)) {
+        throw new Error(`Invalid API response: missing skills array`);
+      }
+
+      const hasMoreRaw = (parsed as any)?.hasMore;
+      if (typeof hasMoreRaw !== 'boolean') {
+        throw new Error(`Invalid API response: missing hasMore boolean`);
+      }
+
+      const totalRaw = (parsed as any)?.total;
+      const pageRaw = (parsed as any)?.page;
+      const total = typeof totalRaw === 'number' ? totalRaw : Number(totalRaw ?? 0);
+      const pageOut = typeof pageRaw === 'number' ? pageRaw : Number(pageRaw ?? page);
+
+      const out: SkillsApiResponse<TSkill> = {
+        skills: skillsRaw as TSkill[],
+        total: Number.isFinite(total) ? total : 0,
+        hasMore: hasMoreRaw,
+        page: Number.isFinite(pageOut) ? pageOut : page,
+      };
+
+      // Respect a small optional delay to avoid rate limits.
+      if (delayMs > 0) await new Promise(r => setTimeout(r, delayMs));
+
+      return out;
+    } catch (error) {
+      if (attempt === maxAttempts) {
+        const msg = error instanceof Error ? error.message : String(error);
+        throw new Error(`Failed to fetch ${board} page ${page}: ${msg}`);
+      }
+      // Exponential backoff (200ms, 400ms, 800ms...)
+      const backoff = 200 * Math.pow(2, attempt - 1);
+      await new Promise(r => setTimeout(r, backoff));
+    }
+  }
+
+  throw new Error(`Failed to fetch ${board} page ${page}: unknown error`);
+}
+
+async function fetchSkillsApiAllPages<TSkill extends Skill>(
+  board: SkillsApiBoard,
+  opts: { startPage?: number; maxPages?: number } = {},
+): Promise<TSkill[]> {
+  const startPage = opts.startPage ?? 0;
+  const maxPages = opts.maxPages ?? (process.env.SKILLS_API_MAX_PAGES ? Number(process.env.SKILLS_API_MAX_PAGES) : 10000);
+  const logEvery =
+    process.env.SKILLS_API_LOG_EVERY && !Number.isNaN(Number(process.env.SKILLS_API_LOG_EVERY))
+      ? Number(process.env.SKILLS_API_LOG_EVERY)
+      : 25;
+
+  const all: TSkill[] = [];
+
+  for (let page = startPage; page < startPage + maxPages; page++) {
+    const res = await fetchSkillsApiPage<TSkill>(board, page);
+    const skills = Array.isArray(res.skills) ? res.skills : [];
+
+    if (logEvery > 0 && page % logEvery === 0) {
+      console.log(`[${board}] page ${page}: +${skills.length} (total so far ${all.length})`);
+    }
+
+    if (skills.length === 0) {
+      // Terminal condition: API returns an empty page with hasMore=false.
+      if (res.hasMore === false) break;
+      throw new Error(`[${board}] Unexpected empty page ${page} with hasMore=true`);
+    }
+
+    all.push(...skills);
+
+    if (res.hasMore === false) break;
+  }
+
+  return all;
+}
+
 function readJsonFile<T>(path: string): T | null {
   try {
     const raw = readFileSync(path, 'utf-8');
@@ -1165,21 +1301,13 @@ async function main() {
 
   console.log('Starting skills.sh data crawl...\n');
   
-  // Fetch all three endpoints
-  const [homeText, trendingText, hotText] = await Promise.all([
-    fetchEndpoint('/'),
-    fetchEndpoint('/trending'),
-    fetchEndpoint('/hot'),
-  ]);
-  
-  // Extract allTimeSkills from home page
-  const allTime = extractSkillsArray(homeText, 'allTimeSkills');
-  
-  // Extract trendingSkills from trending page
-  const trending = extractSkillsArray(trendingText, 'trendingSkills');
-  
-  // Extract trulyTrendingSkills from hot page (this is the actual field name for hot)
-  const hot = extractSkillsArray(hotText, 'trulyTrendingSkills') as HotSkill[];
+  // Fetch via the public API (skills.sh frontend no longer embeds arrays in HTML/RSC).
+  console.log('Fetching: https://skills.sh/api/skills/<board>/<page>');
+  console.log('Boards: all-time, trending, hot\n');
+
+  const allTime = await fetchSkillsApiAllPages<Skill>('all-time');
+  const trending = await fetchSkillsApiAllPages<Skill>('trending');
+  const hot = await fetchSkillsApiAllPages<HotSkill>('hot');
   
   console.log(`\nCrawl completed:`);
   console.log(`- All Time: ${allTime.length} skills`);
