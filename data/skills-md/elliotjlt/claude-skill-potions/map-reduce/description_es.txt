@@ -1,0 +1,4 @@
+Patrón de orquestación para procesamiento a gran escala donde se distribuye el trabajo.
+procesados de forma independiente y luego combinados. Mapear divisiones y procesos de fases,
+Reducir los resultados de los agregados de fase. Úselo para análisis de toda la base de código, de forma masiva
+transformaciones, o cualquier tarea en la que "haga X en todo y luego resuma".

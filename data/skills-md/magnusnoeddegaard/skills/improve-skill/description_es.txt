@@ -1,0 +1,8 @@
+Mejore una habilidad existente según el contexto de la conversación y los comentarios de los usuarios. Úselo cuando:
+(1) El usuario dice "/improve-skill <skill-name>" o "mejorar la habilidad" después de usar una habilidad
+(2) El usuario quiere perfeccionar una habilidad basándose en las correcciones realizadas durante la conversación.
+(3) El usuario proporciona comentarios específicos sobre lo que una habilidad debería hacer de manera diferente.
+(4) El usuario quiere crear una habilidad más adaptada a sus preferencias o flujo de trabajo.
+
+Esta habilidad analiza el historial de conversaciones para identificar correcciones de rumbo, malentendidos,
+y las preferencias del usuario, luego actualiza SKILL.md y los recursos de la habilidad objetivo en consecuencia.

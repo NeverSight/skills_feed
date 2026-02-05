@@ -1,0 +1,1 @@
+Se corrigió el bucle del juego de pasos de tiempo con interpolación para física independiente de la velocidad de fotogramas. Separa las actualizaciones de física del renderizado, previene la espiral de muerte y admite efectos de parada/cámara lenta.

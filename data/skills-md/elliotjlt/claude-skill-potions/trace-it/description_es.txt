@@ -1,0 +1,4 @@
+Antes de modificar el código compartido (utilidades, tipos, configuraciones, clases base), los seguimientos
+primero a todas las personas que llaman y a sus dependientes. Se activa al editar archivos en compartido/,
+utils/, lib/ o cualquier cosa importada por más de 3 archivos. Previene "arreglar una cosa,
+rompió otros tres."

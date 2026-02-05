@@ -1,0 +1,4 @@
+Contenedorización Docker de nivel de producción para aplicaciones Python y Node.js.
+Esta habilidad debe usarse cuando los usuarios solicitan contener aplicaciones, crear Dockerfiles,
+acoplar proyectos o configurar Docker Compose. Detecta automáticamente la estructura del proyecto,
+analiza .env en busca de secretos, valida la seguridad y genera Dockerfiles probados.
