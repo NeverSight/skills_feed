@@ -1,0 +1,1 @@
+OpenAI Apps SDK を使用して ChatGPT アプリを構築します。次の場合に使用します: (1) ChatGPT 統合用の MCP サーバーのセットアップ、(2) OAuth プロバイダー エンドポイントの実装 (あなたがプロバイダー、ChatGPT がクライアント)、(3) text/html+skybridge MIME タイプでウィジェットを作成、(4) ウィジェットと ChatGPT の通信に window.openai API を使用、(5) OAuth、CORS、PKCE、CSP、またはウィジェットのデバッグレンダリングの問題、(6) ChatGPT アプリのアーキテクチャ (MCP + ウィジェット + OAuth) について。

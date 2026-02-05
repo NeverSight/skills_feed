@@ -1,0 +1,1 @@
+.NET の Redis 用 Azure Resource Manager SDK。管理プレーン操作に使用: Azure Cache for Redis インスタンス、ファイアウォール ルール、アクセス キー、パッチ スケジュール、リンク サーバー (地理レプリケーション)、および Azure Resource Manager 経由のプライベート エンドポイントの作成/管理。データ プレーン操作 (キーの取得/設定、パブリッシュ/サブスクライブ) には使用できません。これには StackExchange.Redis を使用します。トリガー: 「Redis キャッシュ」、「Redis の作成」、「Redis の管理」、「ARM Redis」、「RedisResource」、「Redis のプロビジョニング」、「Azure Cache for Redis」。

@@ -1,0 +1,1 @@
+コンパイルされた API コントラクトとして Kubernetes CustomResourceDefinition (CRD) YAML (完全なマニフェストまたは差分) をレビューするときに使用します: スキーマ/検証の正確性 (OpenAPI/CEL)、仕様とステータスの境界、条件/observedGeneration 規則、SSA/GitOps リストのセマンティクスとパッチ可能性、プリンター列、オブジェクト参照モデリング (リソース関係: 1 対 1、1 対多)、互換性/移行リスク(重大な変更のリスク、バージョン管理、ロールアウト)。 Kubebuilder マーカー/Go タイプの選択には使用できません。 kubebuilder-api-design を使用します。

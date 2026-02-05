@@ -1,0 +1,1 @@
+Pydantic v2 を使用した FastAPI プロジェクトの API コントラクト設計規則。新しい API エンドポイントの計画、リクエスト/レスポンス コントラクトの定義、ページネーションやフィルタリングの設計、エラー応答の標準化、API のバージョン管理の計画などの設計フェーズ中に使用します。 RESTful 命名、HTTP メソッド セマンティクス、Pydantic v2 スキーマ命名規則 (XxxCreate/XxxUpdate/XxxResponse)、カーソル ベースのページネーション、標準エラー形式、OpenAPI ドキュメントについて説明します。実装の詳細 (python-backend-expert を使用) やシステムレベルのアーキテクチャ (system-architecture を使用) については説明しません。
