@@ -1,0 +1,1 @@
+使用 IServiceCollection 擴展方法組織 DI 註冊。將相關服務分組為可組合的 Add* 方法，以實現乾淨的 Program.cs 和測試中可重用的配置。

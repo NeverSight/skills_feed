@@ -1,0 +1,1 @@
+Datenbankzugriffsmuster für Leistung. Trennen Sie Lese-/Schreibmodelle, vermeiden Sie N+1-Abfragen, verwenden Sie AsNoTracking, wenden Sie Zeilenbeschränkungen an und führen Sie niemals anwendungsseitige Verknüpfungen durch. Funktioniert mit EF Core und Dapper.

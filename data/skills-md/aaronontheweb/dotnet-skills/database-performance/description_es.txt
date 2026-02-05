@@ -1,0 +1,1 @@
+Patrones de acceso a la base de datos para el rendimiento. Separe los modelos de lectura/escritura, evite consultas N+1, use AsNoTracking, aplique límites de filas y nunca realice uniones del lado de la aplicación. Funciona con EF Core y Dapper.
