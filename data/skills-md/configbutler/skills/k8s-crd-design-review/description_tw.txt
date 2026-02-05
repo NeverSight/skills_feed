@@ -1,0 +1,1 @@
+在審查 Kubernetes CustomResourceDefinition (CRD) YAML（完整清單或差異）作為編譯的 API 契約時使用：模式/驗證正確性 (OpenAPI/CEL)、規範與狀態邊界、條件/觀察代約定、SSA/GitOps 列表語義和可修補性、打印機列、對象引用建模（資源關係：一對一、一對多）以及兼容性/遷移風險（重大變更風險、版本控制、推出）。不適用於 Kubebuilder 標記/Go 類型選擇；使用 kubebuilder-api-design。

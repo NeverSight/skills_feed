@@ -1,0 +1,1 @@
+適用於 .NET 中的 Redis 的 Azure 資源管理器 SDK。用於管理平面操作：通過 Azure 資源管理器創建/管理 Azure Cache for Redis 實例、防火牆規則、訪問密鑰、補丁計劃、鏈接服務器（異地複制）和專用終結點。不適用於數據平面操作（獲取/設置密鑰、發布/訂閱）- 為此使用 StackExchange.Redis。觸發器：“Redis 緩存”、“創建 Redis”、“管理 Redis”、“ARM Redis”、“RedisResource”、“配置 Redis”、“Azure Redis 緩存”。

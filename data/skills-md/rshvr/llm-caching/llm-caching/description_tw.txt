@@ -1,0 +1,1 @@
+通過 KV 緩存和提示緩存優化 LLM 成本和延遲。在以下情況下使用：(1) 構造緩存命中的提示，(2) 為 Anthropic/Cohere/OpenAI/Gemini 配置 API cache_control，(3) 使用 vLLM/SGLang/Ollama 設置自託管推理，(4) 構建具有前綴重用的代理工作流程，(5) 設計批處理管道，或 (6) 了解緩存定價和權衡。

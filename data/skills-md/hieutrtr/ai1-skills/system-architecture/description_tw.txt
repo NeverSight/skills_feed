@@ -1,0 +1,1 @@
+Python/React 全棧項目的系統架構指南。在設計階段製定架構決策時使用 - 組件邊界、服務層設計、數據流模式、數據庫模式規劃和技術權衡分析。涵蓋 FastAPI 層架構（路由/服務/存儲庫/模型）、React 組件層次結構、狀態管理和橫切關注點（身份驗證、錯誤、日誌記錄）。生成架構文檔和 ADR。不涵蓋實現（使用 python-backend-expert 或 react-frontend-expert）或 API 契約設計（使用 api-design-patterns）。

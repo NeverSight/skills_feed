@@ -1,0 +1,1 @@
+適用於 .NET 中的 Azure SQL 的 Azure 資源管理器 SDK。用於管理平面操作：通過 Azure 資源管理器創建/管理 SQL 服務器、數據庫、彈性池、防火牆規則和故障轉移組。不適用於數據平面操作（執行查詢）- 為此使用 Microsoft.Data.SqlClient。觸發器：“SQL 服務器”、“創建 SQL 數據庫”、“管理 SQL 資源”、“ARM SQL”、“SqlServerResource”、“配置 Azure SQL”、“彈性池”、“防火牆規則”。

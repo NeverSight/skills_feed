@@ -1,0 +1,1 @@
+使用 OpenAI Apps SDK 構建 ChatGPT 應用程序。在以下情況下使用：(1) 設置用於 ChatGPT 集成的 MCP 服務器，(2) 實現 OAuth 提供程序端點（您是提供程序，ChatGPT 是客戶端），(3) 使用 text/html+skybridge MIME 類型創建小部件，(4) 使用 window.openai API 進行小部件與 ChatGPT 通信，(5) 調試 OAuth、CORS、PKCE、CSP 或小部件渲染問題，(6) 了解 ChatGPT 應用程序架構（MCP + 小部件 + OAuth）。

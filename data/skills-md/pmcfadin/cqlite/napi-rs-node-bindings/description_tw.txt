@@ -1,0 +1,1 @@
+使用napi-rs 的 Rust 庫的 Node.js 綁定。在處理 Node.js/JavaScript 與 Rust 代碼的綁定時使用，包括創建或修改 napi 宏和結構、在 Rust 和 JavaScript 之間轉換類型、跨 FFI 邊界處理錯誤、異步/Promise 模式、構建本機模塊、發佈到 npm、測試綁定代碼或調試綁定問題。針對具有奇偶校驗跟踪功能的 CQLite（Cassandra CQL 綁定）進行了調整。

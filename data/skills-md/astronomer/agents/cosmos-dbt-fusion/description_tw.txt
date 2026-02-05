@@ -1,0 +1,1 @@
+在使用 Astronomer Cosmos 運行 dbt Fusion 項目時使用。涵蓋使用 ExecutionMode.LOCAL 在 Snowflake/Databricks 上進行 Fusion 的 Cosmos 1.11+ 配置。在實施之前，驗證dbt引擎是Fusion（不是Core），支持倉庫，並且可以接受本地執行。不涵蓋 dbt 核心。
