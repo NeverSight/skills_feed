@@ -1,0 +1,1 @@
+URL によって YApi プラットフォームから API ドキュメントを取得します。ユーザーが YApi API ドキュメントの読み取り、フェッチ、または取得を要求する場合、または「https://yapi.nocode-tech.com/project/{id}/interface/api/{api_id}」または「https://yapi.nocode-tech.com/project/{id}/interface/api/cat_{cat_id}」などの YApi URL を提供する場合に使用します。単一 API URL とカテゴリ URL の両方をサポートします。生の API ドキュメント データを返します。
