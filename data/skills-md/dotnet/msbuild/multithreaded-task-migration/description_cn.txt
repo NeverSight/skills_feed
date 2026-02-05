@@ -1,0 +1,1 @@
+将 MSBuild 任务迁移到多线程模式支持的指南。当要求将任务转换为线程安全版本、实现 IMultiThreadableTask 或向任务添加 TaskEnvironment 支持时，请使用此选项。

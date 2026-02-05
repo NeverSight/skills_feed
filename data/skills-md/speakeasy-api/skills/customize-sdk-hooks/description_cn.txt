@@ -1,0 +1,7 @@
+在为自定义逻辑（不是规范配置或运行时覆盖）实现 SDK 代码挂钩时使用。
+涵盖 SDK 生命周期挂钩：自定义标头的 BeforeRequest、AfterSuccess、AfterError，
+遥测、HMAC 签名和请求/响应转换。
+
+在“SDK hooks”、“add hooks”、“BeforeRequestHook”、“SDK 中的自定义逻辑”上触发
+“遥测钩子”，“SDK中间件”，“拦截请求”，“HMAC签名钩子”，
+“hooks 目录中的自定义代码”。

@@ -86,7 +86,10 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
     for attempt in range(3):
         try:
             result = translator.translate(text)  # type: ignore[attr-defined]
-            return result
+            # deep-translator can occasionally return None on transient failures.
+            if result is None:
+                raise RuntimeError("GoogleTranslator returned None")
+            return str(result)
         except Exception as e:
             if attempt < 2:
                 time.sleep(2)
@@ -131,6 +134,9 @@ def translate_file(
                 out_text = translate_with_google(en_text, source_lang=source_lang, target_lang=target_lang)
         else:
             out_text = translate_with_google(en_text, source_lang=source_lang, target_lang=target_lang)
+        if out_text is None:
+            raise RuntimeError("Translation output is None")
+        out_text = str(out_text)
         
         # Write translated file
         if not dry_run:
