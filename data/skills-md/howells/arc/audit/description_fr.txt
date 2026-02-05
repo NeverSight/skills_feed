@@ -1,0 +1,6 @@
+Audit complet de la base de code avec des réviseurs spécialisés. Génère des rapports exploitables.
+À utiliser lorsqu'on vous demande de "auditer la base de code", "examiner la qualité du code", "vérifier les problèmes",
+« examen de sécurité » ou « audit de performance ». Accepte la portée du chemin comme « apps/web ».
+
+Les réviseurs s'exécutent par lots de 2 par défaut pour éviter l'épuisement des ressources.
+Utilisez --parallel pour exécuter tous les réviseurs simultanément (consommateur de ressources).

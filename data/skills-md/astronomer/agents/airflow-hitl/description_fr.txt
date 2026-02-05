@@ -1,0 +1,1 @@
+À utiliser lorsque l'utilisateur a besoin de flux de travail intégrés dans Airflow (approbation/rejet, saisie de formulaire ou branchement piloté par l'homme). Couvre ApprovalOperator, HITLOperator, HITLBranchOperator, HITLEntryOperator. Nécessite Airflow 3.1+. Ne couvre pas les appels AI/LLM (voir airflow-ai).

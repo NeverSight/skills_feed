@@ -1,0 +1,11 @@
+Opérations de l'API Jira via des scripts Python CLI. DÉCLENCHEMENT AUTOMATIQUE lorsque l'utilisateur
+mentionne les URL Jira (https://jira.*/browse/*, https://*.atlassian.net/browse/*),
+émettre des clés (PROJ-123) ou poser des questions sur les problèmes Jira. À utiliser lorsque Claude a besoin de :
+(1) Rechercher des problèmes avec des requêtes JQL, (2) Obtenir ou mettre à jour les détails du problème,
+(3) Créer de nouveaux problèmes, (4) Transition du statut du problème (par exemple, « À faire » → « Terminé »),
+(5) Ajouter des commentaires, (6) Consigner le temps de travail (journaux de travail), (7) Répertorier les sprints et les problèmes de sprint,
+(8) Répertorier les forums et les problèmes du conseil, (9) Créer ou répertorier les liens vers les problèmes,
+(10) Découvrez les champs Jira disponibles, (11) Obtenez des informations sur le profil utilisateur,
+(12) Téléchargez les pièces jointes des numéros.
+Si l'authentification échoue, proposez la configuration interactive des informations d'identification via jira-setup.py.
+Prend en charge à la fois Jira Cloud et Server/Data Center avec détection automatique de l'authentification.
