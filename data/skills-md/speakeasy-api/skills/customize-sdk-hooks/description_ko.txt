@@ -1,0 +1,7 @@
+사용자 지정 논리(사양 구성 또는 런타임 재정의가 아님)에 대한 SDK 코드 후크를 구현할 때 사용합니다.
+SDK 수명주기 후크를 다룹니다: BeforeRequest, AfterSuccess, AfterError for custom headers,
+원격 측정, HMAC 서명 및 요청/응답 변환.
+
+"SDK 후크", "후크 추가", "BeforeRequestHook", "SDK의 사용자 정의 로직"에서 트리거됩니다.
+"원격 측정 후크", "SDK 미들웨어", "요청 가로채기", "HMAC 서명 후크",
+"후크 디렉토리의 사용자 정의 코드".

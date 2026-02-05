@@ -1,0 +1,1 @@
+Python/React 프로젝트를 위한 Docker 컨테이너화 패턴입니다. Dockerfile 생성 또는 수정, 이미지 크기 최적화, 로컬 개발을 위한 Docker Compose 설정 또는 컨테이너 보안 강화 시 사용합니다. Python(python:3.12-slim) 및 React(node:20-alpine -> nginx:alpine)에 대한 다단계 빌드, 계층 최적화, .dockerignore, 루트가 아닌 사용자, Trivy를 사용한 보안 검색, 개발용 Docker Compose(백엔드 + 프런트엔드 + PostgreSQL + Redis) 및 이미지 태그 지정 전략을 다룹니다. 배포 오케스트레이션은 다루지 않습니다(배포 파이프라인 사용).

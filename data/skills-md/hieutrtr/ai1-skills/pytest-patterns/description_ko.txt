@@ -1,0 +1,1 @@
+FastAPI 애플리케이션용 pytest를 사용한 Python 백엔드 테스트 패턴입니다. Python 테스트 작성 시 사용: 서비스 및 리포지토리에 대한 단위 테스트, httpx.AsyncClient를 사용한 API 엔드포인트에 대한 통합 테스트, 설비 생성, Factory_boy를 사용한 공장 설정, pytest-asyncio를 사용한 비동기 테스트, 모의 전략 및 매개변수화된 테스트. 테스트 조직(테스트/단위, 테스트/통합), 컨테스트 계층 구조 및 적용 범위 요구 사항을 다룹니다. 프런트엔드 테스트(react-testing-patterns 사용) 또는 E2E 브라우저 테스트(e2e-testing 사용)는 다루지 않습니다.

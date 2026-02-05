@@ -1,0 +1,1 @@
+SQLAlchemy 2.0, Pydantic v2 및 비동기 패턴을 사용하는 FastAPI 애플리케이션을 위한 Python 백엔드 구현 패턴입니다. FastAPI 엔드포인트, Pydantic 모델, SQLAlchemy 모델, 서비스 계층 또는 저장소 클래스를 생성하거나 수정할 때 구현 단계에서 사용합니다. 비동기 세션 관리, 종속성()을 통한 종속성 주입, 계층형 오류 처리 및 Alembic 마이그레이션을 다룹니다. 테스트(pytest-patterns 사용), 배포(deployment-pipeline 사용) 또는 미들웨어 및 WebSocket(fastapi-patterns 사용)과 같은 FastAPI 프레임워크 메커니즘은 다루지 않습니다.

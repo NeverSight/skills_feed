@@ -1,0 +1,1 @@
+사용자에게 Airflow에서 인간 참여형 워크플로(승인/거부, 양식 입력 또는 인간 중심 분기)가 필요할 때 사용합니다. ApprovalOperator, HITLOperator, HITLBranchOperator, HITLEntryOperator를 다룹니다. Airflow 3.1 이상이 필요합니다. AI/LLM 호출은 다루지 않습니다(airflow-ai 참조).
