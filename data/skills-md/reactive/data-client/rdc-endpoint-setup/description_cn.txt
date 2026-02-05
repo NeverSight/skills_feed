@@ -1,0 +1,1 @@
+为自定义异步操作设置@data-client/endpoint。使用 Endpoint 包装现有异步函数，以便与数据客户端挂钩一起使用。在 rdc-setup 检测到非 REST/GraphQL 异步模式后使用。

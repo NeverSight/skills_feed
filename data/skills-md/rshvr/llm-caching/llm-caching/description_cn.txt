@@ -1,0 +1,1 @@
+通过 KV 缓存和提示缓存优化 LLM 成本和延迟。在以下情况下使用：(1) 构造缓存命中的提示，(2) 为 Anthropic/Cohere/OpenAI/Gemini 配置 API cache_control，(3) 使用 vLLM/SGLang/Ollama 设置自托管推理，(4) 构建具有前缀重用的代理工作流程，(5) 设计批处理管道，或 (6) 了解缓存定价和权衡。

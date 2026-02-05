@@ -1,0 +1,1 @@
+启动后台 Clawdbot 会话来探索和分析业务想法。说“想法：[描述]”即可触发。 'idea'技能的分支重写为使用sessions_spawn而不是claude CLI + tmux + telegram CLI。结果发送到当前聊天，而不是保存的消息。零外部依赖。

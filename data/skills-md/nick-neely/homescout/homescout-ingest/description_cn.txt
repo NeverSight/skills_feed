@@ -1,0 +1,1 @@
+使用 jq/rg/awk 等 CLI 工具分析 Homescout 输出目录（current.json、history/*.jsonl(.gz)、speedtests.jsonl、speedtests/*.jsonl(.gz)），以回答有关设备存在、中断、扫描统计信息或速度测试趋势的问题。当代理需要获取 Homescout 输出时使用，特别是从远程/Tailscale/Taildrive 输出路径。

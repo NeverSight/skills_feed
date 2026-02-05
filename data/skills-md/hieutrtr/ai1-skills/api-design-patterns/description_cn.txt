@@ -1,0 +1,1 @@
+使用 Pydantic v2 的 FastAPI 项目的 API 合约设计约定。在设计阶段规划新的 API 端点、定义请求/响应契约、设计分页或过滤、标准化错误响应或规划 API 版本控制时使用。涵盖 RESTful 命名、HTTP 方法语义、Pydantic v2 模式命名约定 (XxxCreate/XxxUpdate/XxxResponse)、基于游标的分页、标准错误格式和 OpenAPI 文档。不涵盖实现细节（使用 python-backend-expert）或系统级架构（使用 system-architecture）。

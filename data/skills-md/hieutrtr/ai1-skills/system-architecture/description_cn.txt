@@ -1,0 +1,1 @@
+Python/React 全栈项目的系统架构指南。在设计阶段制定架构决策时使用 - 组件边界、服务层设计、数据流模式、数据库模式规划和技术权衡分析。涵盖 FastAPI 层架构（路由/服务/存储库/模型）、React 组件层次结构、状态管理和横切关注点（身份验证、错误、日志记录）。生成架构文档和 ADR。不涵盖实现（使用 python-backend-expert 或 react-frontend-expert）或 API 契约设计（使用 api-design-patterns）。

@@ -1,0 +1,1 @@
+在 Dagster 中将 dlt 管道作为软件定义的资产（组件或 Pythonic @dlt_assets）或作为单个标准 Dagster 资产运行。使用 Dagster 编排 dlt 时使用；脚手架loads.py/defs.yaml；工作/日程安排；秘密/环境；通过 apply_hints 进行增量/回填；并行化（每个资源一个资产）； Dagster 云部署；或外部计算（ECS、Fargate — 请参阅 dagster-integrations）。触发器：dagster-dlt、Dagster 上的 dlt、使用 Dagster 部署 dlt、标准 Dagster 资产、外部计算。

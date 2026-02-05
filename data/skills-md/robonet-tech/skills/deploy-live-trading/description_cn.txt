@@ -1,0 +1,1 @@
+在 Hyperliquid 上部署和管理实时交易代理。 ⚠️ 高风险 - 真正的资本风险 ⚠️ 提供deployment_create（启动代理，0.50 美元）、deployment_list（监控）、deployment_start/stop（控制）和帐户工具（信用管理）。支持 EOA（最多 1 个部署）和 Hyperliquid Vault（需要 200+ USDC，无限制部署）。关键：未经彻底回溯测试（6 个月以上，Sharpe >1.0，回撤 <20%），切勿部署。从小处开始，每天监控，在部署之前定义退出标准。
