@@ -1,0 +1,1 @@
+Lancez des sessions Clawdbot en arrière-plan pour explorer et analyser des idées commerciales. Dites « Idée : [description] » pour déclencher. Fork of 'idea' skills réécrit pour utiliser sessions_spawn au lieu de claude CLI + tmux + telegram CLI. Résultats envoyés au chat en cours, pas aux messages enregistrés. Zéro dépendance externe.

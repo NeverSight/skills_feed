@@ -1,0 +1,1 @@
+À utiliser lors de l'exécution d'un projet dbt Fusion avec Astronomer Cosmos. Couvre la configuration Cosmos 1.11+ pour Fusion sur Snowflake/Databricks avec ExecutionMode.LOCAL. Avant l'implémentation, vérifiez que le moteur dbt est Fusion (et non Core), que l'entrepôt est pris en charge et que l'exécution locale est acceptable. Ne couvre pas dbt Core.

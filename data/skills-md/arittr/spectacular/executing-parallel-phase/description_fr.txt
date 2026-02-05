@@ -1,0 +1,1 @@
+À utiliser lors de l'orchestration de phases parallèles dans l'exécution du plan : crée des arbres de travail isolés pour l'exécution de tâches simultanées, installe des dépendances, génère des sous-agents parallèles, vérifie l'achèvement, empile les branches de manière linéaire et nettoie (obligatoire pour TOUTES les phases parallèles, y compris N=1).

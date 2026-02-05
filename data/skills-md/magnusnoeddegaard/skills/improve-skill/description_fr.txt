@@ -1,0 +1,8 @@
+Améliorez une compétence existante en fonction du contexte de conversation et des commentaires des utilisateurs. À utiliser lorsque :
+(1) L'utilisateur dit "/improve-skill <skill-name>" ou "améliore la compétence" après avoir utilisé une compétence.
+(2) L'utilisateur souhaite affiner une compétence en fonction des corrections apportées au cours de la conversation
+(3) L'utilisateur fournit des commentaires spécifiques sur ce qu'une compétence devrait faire différemment
+(4) L'utilisateur souhaite adapter une compétence à ses préférences ou à son flux de travail.
+
+Cette compétence analyse l'historique des conversations pour identifier les corrections de cap, les malentendus,
+et les préférences de l'utilisateur, puis met à jour le SKILL.md et les ressources de la compétence cible en conséquence.

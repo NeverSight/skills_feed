@@ -1,0 +1,4 @@
+Avant de modifier le code partagé (utilitaires, types, configurations, classes de base), tracez
+tous les appelants et personnes à charge en premier. S'active lors de l'édition de fichiers dans shared/,
+utils/, lib/ ou tout ce qui est importé par plus de 3 fichiers. Empêche "réparé une chose,
+en a cassé trois autres.
