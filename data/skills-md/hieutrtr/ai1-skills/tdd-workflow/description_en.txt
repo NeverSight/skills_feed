@@ -1,1 +1,1 @@
->-
+Test-driven development workflow enforcement for Python and React projects. Use when the user requests TDD, test-first development, or red-green-refactor methodology. Enforces strict cycle: write ONE failing test -> implement minimum code to pass -> refactor while green -> repeat. Applies to both backend (pytest) and frontend (Testing Library). Changes agent behavior to write tests before code. Does NOT provide testing patterns (use pytest-patterns or react-testing-patterns for how to write tests).

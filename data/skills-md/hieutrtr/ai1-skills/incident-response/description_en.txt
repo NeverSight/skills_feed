@@ -1,1 +1,1 @@
->-
+Production incident response procedures for Python/React applications. Use when responding to production outages, investigating error spikes, diagnosing performance degradation, or conducting post-mortems. Covers severity classification (SEV1-SEV4), incident commander role, communication templates, diagnostic commands for FastAPI/ PostgreSQL/Redis, rollback procedures, and blameless post-mortem process. Does NOT cover monitoring setup (use monitoring-setup) or deployment procedures (use deployment-pipeline).

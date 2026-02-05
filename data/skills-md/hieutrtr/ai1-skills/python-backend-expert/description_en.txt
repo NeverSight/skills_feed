@@ -1,1 +1,1 @@
->-
+Python backend implementation patterns for FastAPI applications with SQLAlchemy 2.0, Pydantic v2, and async patterns. Use during the implementation phase when creating or modifying FastAPI endpoints, Pydantic models, SQLAlchemy models, service layers, or repository classes. Covers async session management, dependency injection via Depends(), layered error handling, and Alembic migrations. Does NOT cover testing (use pytest-patterns), deployment (use deployment-pipeline), or FastAPI framework mechanics like middleware and WebSockets (use fastapi-patterns).

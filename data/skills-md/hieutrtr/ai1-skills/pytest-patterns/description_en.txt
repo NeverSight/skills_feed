@@ -1,1 +1,1 @@
->-
+Python backend testing patterns with pytest for FastAPI applications. Use when writing Python tests: unit tests for services and repositories, integration tests for API endpoints with httpx.AsyncClient, fixture creation, factory setup with factory_boy, async testing with pytest-asyncio, mocking strategies, and parametrized tests. Covers test organization (tests/unit, tests/integration), conftest hierarchy, and coverage requirements. Does NOT cover frontend tests (use react-testing-patterns) or E2E browser tests (use e2e-testing).

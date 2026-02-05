@@ -26,6 +26,7 @@ import sys
 import time
 import argparse
 from pathlib import Path
+import os
 
 # Base directory
 BASE_DIR = Path(__file__).parent.parent / "data" / "skills-md"
@@ -82,20 +83,65 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
         translator = GoogleTranslator(source=source_lang, target=target_lang)
         _translator_cache[key] = translator
 
+    def _reset_translator() -> None:
+        # In practice, Google Translate can temporarily block or return None.
+        # Recreating the translator instance sometimes helps.
+        _translator_cache.pop(key, None)
+        _translator_cache[key] = GoogleTranslator(source=source_lang, target=target_lang)
+
     # Add retry logic
     for attempt in range(3):
         try:
             result = translator.translate(text)  # type: ignore[attr-defined]
             # deep-translator can occasionally return None on transient failures.
             if result is None:
+                _reset_translator()
                 raise RuntimeError("GoogleTranslator returned None")
             return str(result)
         except Exception as e:
             if attempt < 2:
-                time.sleep(2)
+                _reset_translator()
+                # Exponential-ish backoff. Allow overriding via env for local runs.
+                base = float(os.getenv("TRANSLATE_RETRY_SLEEP_SECONDS", "3"))
+                time.sleep(base * (attempt + 1))
             else:
-                raise e
-    return text
+                last_error = e
+
+    # Fallback: MyMemory (often works when Google blocks).
+    try:
+        from deep_translator import MyMemoryTranslator
+
+        def _mm_lang(code: str) -> str:
+            c = (code or "").strip().lower().replace("_", "-")
+            if c in {"en", "en-us", "en-gb"}:
+                return "english"
+            if c in {"zh-cn", "zh-hans", "zh-hans-cn"}:
+                return "chinese simplified"
+            if c in {"zh-tw", "zh-hant", "zh-hant-tw"}:
+                return "chinese traditional"
+            if c == "es":
+                return "spanish"
+            if c == "fr":
+                return "french"
+            if c == "de":
+                return "german"
+            if c == "ja":
+                return "japanese"
+            if c == "ko":
+                return "korean"
+            return code
+
+        mm = MyMemoryTranslator(source=_mm_lang(source_lang), target=_mm_lang(target_lang))
+        res = mm.translate(text)
+        if res is None:
+            raise RuntimeError("MyMemoryTranslator returned None")
+        return str(res)
+    except Exception as e:
+        # Re-raise the last Google error if available; otherwise raise MyMemory error.
+        try:
+            raise last_error  # type: ignore[misc]
+        except Exception:
+            raise e
 
 
 # ============= Main translation logic =============
@@ -156,6 +202,7 @@ def main():
     parser.add_argument("--force", action="store_true", help="Force re-translate existing files")
     parser.add_argument("--source", type=str, default="en", help="Source language (default: en)")
     parser.add_argument("--target", type=str, default="zh-CN", help="Target language (default: zh-CN). Example: zh-TW, ja, ko")
+    parser.add_argument("--sleep", type=float, default=float(os.getenv("TRANSLATE_SLEEP_SECONDS", "0.3")), help="Sleep seconds between files (default: 0.3, overridable via TRANSLATE_SLEEP_SECONDS)")
     
     args = parser.parse_args()
     
@@ -231,7 +278,7 @@ def main():
                   f"Rate: {rate:.1f}/sec, Estimated remaining: {remaining/60:.1f} min ---\n")
         
         # Add delay to avoid rate limiting
-        time.sleep(0.3)
+        time.sleep(max(0.0, float(args.sleep)))
     
     # Final statistics
     elapsed = time.time() - start_time

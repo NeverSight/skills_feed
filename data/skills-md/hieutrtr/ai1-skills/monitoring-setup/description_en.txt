@@ -1,1 +1,1 @@
->-
+Application monitoring and observability setup for Python/React projects. Use when configuring logging, metrics collection, health checks, alerting rules, or dashboard creation. Covers structured logging with structlog, Prometheus metrics for FastAPI, health check endpoints, alert threshold design, Grafana dashboard patterns, error tracking with Sentry, and uptime monitoring. Does NOT cover incident response procedures (use incident-response) or deployment (use deployment-pipeline).

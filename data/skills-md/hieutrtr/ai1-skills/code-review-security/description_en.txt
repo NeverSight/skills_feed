@@ -1,1 +1,1 @@
->-
+Security-focused code review checklist and automated scanning patterns. Use when reviewing pull requests for security issues, auditing authentication/authorization code, checking for OWASP Top 10 vulnerabilities, or validating input sanitization. Covers SQL injection prevention, XSS protection, CSRF tokens, authentication flow review, secrets detection, dependency vulnerability scanning, and secure coding patterns for Python (FastAPI) and React. Does NOT cover deployment security (use docker-best-practices) or incident handling (use incident-response).

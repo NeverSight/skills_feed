@@ -1,1 +1,1 @@
->-
+Docker containerization patterns for Python/React projects. Use when creating or modifying Dockerfiles, optimizing image size, setting up Docker Compose for local development, or hardening container security. Covers multi-stage builds for Python (python:3.12-slim) and React (node:20-alpine -> nginx:alpine), layer optimization, .dockerignore, non-root user, security scanning with Trivy, Docker Compose for dev (backend + frontend + PostgreSQL + Redis), and image tagging strategy. Does NOT cover deployment orchestration (use deployment-pipeline).

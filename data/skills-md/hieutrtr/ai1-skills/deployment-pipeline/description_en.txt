@@ -1,1 +1,1 @@
->-
+Deployment procedures and CI/CD pipeline configuration for Python/React projects. Use when deploying to staging or production, creating CI/CD pipelines with GitHub Actions, troubleshooting deployment failures, or planning rollbacks. Covers pipeline stages (build/test/staging/production), environment promotion, pre-deployment validation, health checks, canary deployment, rollback procedures, and GitHub Actions workflows. Does NOT cover Docker image building (use docker-best-practices) or incident response (use incident-response).
