@@ -534,6 +534,7 @@ def main() -> None:
     out = {
         "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "sourceIndexUpdatedAt": index.get("updatedAt"),
+        "sourceSkillsUpdatedAt": index.get("sourceUpdatedAt") or index.get("updatedAt"),
         "version": 3,
         "primaryCategories": PRIMARY_CATEGORIES,
         "skillToCategory": dict(sorted(skill_to_category.items())),

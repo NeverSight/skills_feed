@@ -3,7 +3,7 @@
  * Fetches skill data from skills.sh and outputs as JSON format
  */
 
-import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
+import { writeFileSync, mkdirSync, existsSync, readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { Feed } from 'feed';
 import matter from 'gray-matter';
@@ -203,6 +203,68 @@ function extractDescriptionFromSkillMd(md: string): string | undefined {
     return line;
   }
   return undefined;
+}
+
+function extractNameFromSkillMd(md: string): string | undefined {
+  try {
+    const parsed = matter(md);
+    const name = (parsed?.data as Record<string, unknown> | undefined)?.name;
+    if (typeof name === 'string' && name.trim()) return name.trim();
+  } catch {
+    // ignore
+  }
+  return undefined;
+}
+
+function listCachedSkillDirs(): Array<{ source: string; skillId: string }> {
+  // Layout:
+  // data/skills-md/<owner>/<repo>/<skillId>/SKILL.md
+  const base = join(process.cwd(), 'data', 'skills-md');
+  const out: Array<{ source: string; skillId: string }> = [];
+
+  try {
+    const owners = readdirSync(base, { withFileTypes: true, encoding: 'utf8' });
+    for (const ownerEnt of owners) {
+      if (!ownerEnt.isDirectory()) continue;
+      const owner = ownerEnt.name;
+      if (!owner || owner.startsWith('_')) continue;
+
+      const ownerPath = join(base, owner);
+      let repos: typeof owners = [];
+      try {
+        repos = readdirSync(ownerPath, { withFileTypes: true, encoding: 'utf8' });
+      } catch {
+        continue;
+      }
+
+      for (const repoEnt of repos) {
+        if (!repoEnt.isDirectory()) continue;
+        const repo = repoEnt.name;
+        if (!repo || repo.startsWith('_')) continue;
+
+        const repoPath = join(ownerPath, repo);
+        let skills: typeof owners = [];
+        try {
+          skills = readdirSync(repoPath, { withFileTypes: true, encoding: 'utf8' });
+        } catch {
+          continue;
+        }
+
+        for (const skillEnt of skills) {
+          if (!skillEnt.isDirectory()) continue;
+          const skillId = skillEnt.name;
+          if (!skillId || skillId.startsWith('_')) continue;
+          const skillDir = join(repoPath, skillId);
+          if (!existsSync(join(skillDir, 'SKILL.md'))) continue;
+          out.push({ source: `${owner}/${repo}`, skillId });
+        }
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  return out;
 }
 
 async function fetchText(url: string): Promise<string | null> {
@@ -642,7 +704,23 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
     );
   }
 
-  const totalSkills = skillsWithMd.length + manualSkillsWithMd.length;
+  // Also include cached skills that are present in data/skills-md but not in skills.sh and not in manual skills.
+  const manualIds = new Set(manualSkillsWithMd.map(s => `${s.source}/${s.skillId}`));
+  const cached = listCachedSkillDirs();
+  const cachedExtras = cached
+    .filter(({ source, skillId }) => {
+      const id = `${source}/${skillId}`;
+      if (skillsShIds.has(id)) return false;
+      if (manualIds.has(id)) return false;
+      return true;
+    })
+    .sort((a, b) => `${a.source}/${a.skillId}`.localeCompare(`${b.source}/${b.skillId}`));
+
+  if (cachedExtras.length > 0) {
+    console.log(`Including ${cachedExtras.length} cached skills (data/skills-md) not in skills.sh/manual`);
+  }
+
+  const totalSkills = skillsWithMd.length + manualSkillsWithMd.length + cachedExtras.length;
   const items: SkillIndexItem[] = new Array(totalSkills);
 
   // Process skills.sh skills
@@ -714,6 +792,43 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
     return null;
   });
 
+  // Process cached extras
+  await mapWithConcurrency(cachedExtras, 24, async ({ source, skillId }, i) => {
+    const idx = skillsWithMd.length + manualSkillsWithMd.length + i;
+    const id = `${source}/${skillId}`;
+    const mdAbs = localSkillMdPath(source, skillId);
+    let descriptionPath: string | undefined;
+    let skillMdPath: string | undefined;
+    let title = skillId;
+
+    try {
+      const md = readFileSync(mdAbs, 'utf-8');
+      const description = extractDescriptionFromSkillMd(md);
+      const name = extractNameFromSkillMd(md);
+      if (name) title = name;
+      skillMdPath = repoRelativeSkillMdPath(source, skillId);
+      writeDescriptionEnIfChanged(source, skillId, description);
+      descriptionPath = repoRelativeDescriptionEnPath(source, skillId);
+    } catch {
+      // ignore read errors
+    }
+
+    items[idx] = {
+      id,
+      providerId: 'cached',
+      source,
+      skillId,
+      title,
+      link: `https://github.com/${source}`,
+      installsAllTime: 0,
+      firstSeenAt: getOrInitFirstSeenAt(id),
+      description: descriptionPath,
+      skillMdPath,
+    };
+
+    return null;
+  });
+
   // Persist the stable firstSeen mapping.
   // Keep entries for skills that disappeared from the latest crawl so history is stable.
   mkdirSync(join(process.cwd(), 'data'), { recursive: true });
@@ -726,7 +841,10 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
   writeFileSync(firstSeenPath(), JSON.stringify(firstSeenOut, null, 2));
 
   const output = {
-    updatedAt: data.updatedAt,
+    // When the index was generated (cache-busting / debugging).
+    updatedAt: nowIso,
+    // When the upstream skills snapshot (data/skills.json) was updated.
+    sourceUpdatedAt: data.updatedAt,
     providerId: 'mixed',
     count: items.length,
     items,

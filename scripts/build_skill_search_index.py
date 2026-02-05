@@ -152,6 +152,7 @@ def main() -> None:
     out = {
         "updatedAt": _utc_now_iso(),
         "sourceIndexUpdatedAt": index.get("updatedAt"),
+        "sourceSkillsUpdatedAt": index.get("sourceUpdatedAt") or index.get("updatedAt"),
         "version": 2,
         "count": len(by_id),
         "items": dict(sorted(by_id.items())),

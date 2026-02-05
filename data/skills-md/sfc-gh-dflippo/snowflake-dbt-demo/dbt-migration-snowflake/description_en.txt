@@ -1,1 +1,1 @@
-Transform Snowflake DDL (views, tables, stored procedures) into production-quality dbt models,
+Convert Snowflake DDL to dbt models. This skill should be used when converting views, tables, or stored procedures from Snowflake to dbt code, generating schema.yml files with tests and documentation, or migrating existing Snowflake SQL to follow dbt best practices.
