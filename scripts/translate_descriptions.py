@@ -27,6 +27,7 @@ import time
 import argparse
 from pathlib import Path
 import os
+import signal
 
 # Base directory
 BASE_DIR = Path(__file__).parent.parent / "data" / "skills-md"
@@ -89,9 +90,22 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
         _translator_cache.pop(key, None)
         _translator_cache[key] = GoogleTranslator(source=source_lang, target=target_lang)
 
+    timeout_s = float(os.getenv("TRANSLATE_REQUEST_TIMEOUT_SECONDS", "20"))
+
+    class _Timeout(Exception):
+        pass
+
+    def _alarm_handler(signum, frame):  # type: ignore[no-untyped-def]
+        raise _Timeout(f"Translation request timed out after {timeout_s:.0f}s")
+
+    old_handler = signal.getsignal(signal.SIGALRM)
+    signal.signal(signal.SIGALRM, _alarm_handler)
+
     # Add retry logic
+    last_error: Exception | None = None
     for attempt in range(3):
         try:
+            signal.alarm(int(timeout_s))
             result = translator.translate(text)  # type: ignore[attr-defined]
             # deep-translator can occasionally return None on transient failures.
             if result is None:
@@ -99,13 +113,16 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
                 raise RuntimeError("GoogleTranslator returned None")
             return str(result)
         except Exception as e:
+            last_error = e
             if attempt < 2:
                 _reset_translator()
                 # Exponential-ish backoff. Allow overriding via env for local runs.
                 base = float(os.getenv("TRANSLATE_RETRY_SLEEP_SECONDS", "3"))
                 time.sleep(base * (attempt + 1))
             else:
-                last_error = e
+                pass
+        finally:
+            signal.alarm(0)
 
     # Fallback: MyMemory (often works when Google blocks).
     try:
@@ -132,16 +149,19 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
             return code
 
         mm = MyMemoryTranslator(source=_mm_lang(source_lang), target=_mm_lang(target_lang))
+        signal.alarm(int(timeout_s))
         res = mm.translate(text)
         if res is None:
             raise RuntimeError("MyMemoryTranslator returned None")
         return str(res)
     except Exception as e:
         # Re-raise the last Google error if available; otherwise raise MyMemory error.
-        try:
-            raise last_error  # type: ignore[misc]
-        except Exception:
-            raise e
+        if last_error is not None:
+            raise last_error
+        raise e
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
 
 
 # ============= Main translation logic =============
