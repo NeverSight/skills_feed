@@ -1,0 +1,1 @@
+Kubernetes CustomResourceDefinition(CRD)을 검토할 때 YAML(전체 매니페스트 또는 차이점)을 컴파일된 API 계약으로 사용: 스키마/검증 정확성(OpenAPI/CEL), 사양 대 상태 경계, 조건/관찰된 생성 규칙, SSA/GitOps 목록 의미 체계 및 패치 가능성, 프린터 열, 객체 참조 모델링(리소스 관계: 일대일, 일대다) 및 호환성/마이그레이션 위험(변경 중단) 위험, 버전 관리, 출시). Kubebuilder 마커/Go 유형 선택용이 아닙니다. kubebuilder-api-design을 사용하세요.

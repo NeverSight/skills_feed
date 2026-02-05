@@ -1,0 +1,1 @@
+Dagster에서 dlt 파이프라인을 소프트웨어 정의 자산(Component 또는 Pythonic @dlt_assets) 또는 단일 표준 Dagster 자산으로 실행합니다. Dagster로 dlt를 조정할 때 사용합니다. 스캐폴딩 load.py/defs.yaml; 작업/일정; 비밀/환경; apply_hints를 통한 증분/백필; 병렬화(리소스당 하나의 자산) Dagster 클라우드 배포; 또는 외부 컴퓨팅(ECS, Fargate — dagster-integrations 참조). 트리거: dagster-dlt, Dagster의 dlt, Dagster와 함께 dlt 배포, 표준 Dagster 자산, 외부 컴퓨팅.

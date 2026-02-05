@@ -1,0 +1,1 @@
+OpenAI Apps SDK를 사용하여 ChatGPT 앱을 구축합니다. 사용 시기: (1) ChatGPT 통합을 위한 MCP 서버 설정, (2) OAuth 제공자 엔드포인트 구현(귀하가 제공자, ChatGPT가 클라이언트), (3) text/html+skybridge MIME 유형으로 위젯 생성, (4) 위젯-ChatGPT 통신을 위해 window.openai API 사용, (5) OAuth, CORS, PKCE, CSP 또는 위젯 렌더링 문제 디버깅, (6) ChatGPT 앱 아키텍처 이해(MCP + 위젯 + OAuth).

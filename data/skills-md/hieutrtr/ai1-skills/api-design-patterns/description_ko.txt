@@ -1,0 +1,1 @@
+Pydantic v2를 사용하는 FastAPI 프로젝트에 대한 API 계약 설계 규칙. 디자인 단계에서 새로운 API 엔드포인트를 계획하고, 요청/응답 계약을 정의하고, 페이지 매김 또는 필터링을 디자인하고, 오류 응답을 표준화하거나, API 버전 관리를 계획할 때 사용하세요. RESTful 이름 지정, HTTP 메소드 의미 체계, Pydantic v2 스키마 이름 지정 규칙(XxxCreate/XxxUpdate/XxxResponse), 커서 기반 페이지 매김, 표준 오류 형식 및 OpenAPI 문서를 다룹니다. 구현 세부 사항(python-backend-expert 사용) 또는 시스템 수준 아키텍처(시스템 아키텍처 사용)는 다루지 않습니다.

@@ -1,0 +1,1 @@
+jq/rg/awk와 같은 CLI 도구를 사용하여 Homescout 출력 디렉터리(current.json, History/*.jsonl(.gz), speedtests.jsonl, speedtests/*.jsonl(.gz))를 분석하여 장치 존재, 중단, 스캔 통계 또는 속도 테스트 추세에 대한 질문에 답하세요. 에이전트가 특히 원격/Tailscale/Taildrive 출력 경로에서 Homescout 출력을 수집해야 할 때 사용합니다.

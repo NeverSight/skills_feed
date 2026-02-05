@@ -1,0 +1,1 @@
+napi-rs를 사용하는 Rust 라이브러리용 Node.js 바인딩. napi 매크로 및 구조체 생성 또는 수정, Rust와 JavaScript 간의 유형 변환, FFI 경계를 넘는 오류 처리, 비동기/Promise 패턴, 네이티브 모듈 빌드, npm에 게시, 바인딩 코드 테스트 또는 바인딩 문제 디버깅을 포함하여 Rust 코드에 대한 Node.js/JavaScript 바인딩 작업을 할 때 사용합니다. 기능 패리티 추적을 통해 CQLite(Cassandra CQL 바인딩)에 맞게 조정되었습니다.
