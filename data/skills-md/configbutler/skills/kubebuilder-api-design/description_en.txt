@@ -1,0 +1,1 @@
+Use when authoring or modifying Kubebuilder Go API types and +kubebuilder markers so generation (`make generate`/`make manifests`) emits the intended CRD schema (validation/defaults, required/optional, list semantics, printer columns, subresources), or when asked which marker/type to use.

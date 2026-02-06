@@ -1,0 +1,1 @@
+Wählen Sie das richtige Serialisierungsformat für .NET-Anwendungen. Bevorzugen Sie schemabasierte Formate (Protobuf, MessagePack) gegenüber reflexionsbasierten Formaten (Newtonsoft.Json). Verwenden Sie System.Text.Json mit AOT-Quellgeneratoren für JSON-Szenarien.

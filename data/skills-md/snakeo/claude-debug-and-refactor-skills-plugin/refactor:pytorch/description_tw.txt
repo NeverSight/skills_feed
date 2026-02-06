@@ -1,0 +1,1 @@
+重構 PyTorch 代碼以提高可維護性、可讀性並遵守最佳實踐。識別並修復 DRY 違規、長函數、深度嵌套、SRP 違規以及模塊化組件的機會。應用 PyTorch 2.x 模式，包括 torch.compile 優化、自動混合精度 (AMP)、優化的 DataLoader 配置、模塊化 nn.Module 設計、梯度檢查點、CUDA 內存管理、PyTorch Lightning 集成、自定義數據集類、模型工廠模式、權重初始化和再現性模式。

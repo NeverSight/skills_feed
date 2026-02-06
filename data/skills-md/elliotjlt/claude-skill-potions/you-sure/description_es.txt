@@ -1,0 +1,5 @@
+Antes de CUALQUIER acción destructiva, irreversible o de alto impacto, haga una pausa y salga a la superficie.
+una lista de verificación clara de lo que está por suceder. Esto incluye: eliminación de archivos,
+cambios en la base de datos, implementaciones de producción, actualizaciones masivas, cambios de permisos,
+o cualquier cosa que no se pueda deshacer fácilmente. Requerir confirmación explícita antes
+procedimiento. Nunca ejecute automáticamente operaciones peligrosas.

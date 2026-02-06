@@ -1,0 +1,1 @@
+Gestion des erreurs sécurisée pour la production qui enregistre tous les détails côté serveur tout en exposant uniquement les messages génériques et sécurisés aux utilisateurs. Empêche les fuites d'informations sur les chaînes de base de données, les chemins de fichiers, les traces de pile et les clés API.

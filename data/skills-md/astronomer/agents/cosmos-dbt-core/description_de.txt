@@ -1,0 +1,1 @@
+Wird verwendet, wenn Sie mit Astronomer Cosmos ein dbt-Core-Projekt in eine Airflow-DAG/TaskGroup umwandeln. Gilt nicht für dbt Fusion. Überprüfen Sie vor der Implementierung die DBT-Engine, das Warehouse, die Airflow-Version, die Ausführungsumgebung, DAG vs. TaskGroup und die Manifestverfügbarkeit.

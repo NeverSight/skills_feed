@@ -1,0 +1,1 @@
+PyTorch 코드를 리팩터링하여 유지 관리성, 가독성 및 모범 사례 준수를 향상합니다. DRY 위반, 긴 기능, 깊은 중첩, SRP 위반 및 모듈식 구성 요소에 대한 기회를 식별하고 수정합니다. torch.compile 최적화, AMP(Automatic Mixed Precision), 최적화된 DataLoader 구성, 모듈식 nn.Module 설계, 그래디언트 체크포인트, CUDA 메모리 관리, PyTorch Lightning 통합, 사용자 정의 데이터 세트 클래스, 모델 팩토리 패턴, 가중치 초기화 및 재현성 패턴을 포함한 PyTorch 2.x 패턴을 적용합니다.

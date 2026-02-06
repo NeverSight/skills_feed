@@ -1,0 +1,1 @@
+为 REST API 设置 @data-client/rest。创建具有常见行为（auth、urlPrefix、错误处理）的自定义 RestEndpoint 基类。在 rdc-setup 检测到 REST 模式后使用。

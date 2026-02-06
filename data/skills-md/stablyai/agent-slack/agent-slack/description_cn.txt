@@ -1,0 +1,8 @@
+用于 AI 代理的 Slack 自动化 CLI。使用时：
+- 读取 Slack 消息或线程（给定 URL 或频道+ts）
+- 将 Slack 附件（片段、图像、文件）下载到本地路径
+- 搜索 Slack 消息或文件
+- 发送回复或添加/删除反应
+- 获取 Slack 画布作为 markdown
+- 查找 Slack 用户
+触发器：“slack 消息”、“slack 线程”、“slack URL”、“slack 链接”、“阅读 slack”、“回复 slack”、“搜索 slack”

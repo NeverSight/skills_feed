@@ -1,0 +1,5 @@
+Avant TOUTE action destructrice, irréversible ou à fort impact, faites une pause et faites surface
+une liste de contrôle claire de ce qui est sur le point de se passer. Cela inclut : les suppressions de fichiers,
+modifications de la base de données, déploiements de production, mises à jour de masse, modifications des autorisations,
+ou tout ce qui ne peut pas être facilement défait. Exiger une confirmation explicite avant
+procéder. N’exécutez jamais automatiquement des opérations dangereuses.

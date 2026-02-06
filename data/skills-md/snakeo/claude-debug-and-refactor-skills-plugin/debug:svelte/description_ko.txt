@@ -1,0 +1,1 @@
+Svelte 애플리케이션 문제를 체계적으로 디버그합니다. 이 기술은 반응성 실패, 룬 문제($state, $derived, $ effect), 저장소 구독 메모리 누수, SSR 하이드레이션 불일치 및 컴파일러 경고를 포함한 Svelte 관련 문제를 진단하고 해결하는 데 도움이 됩니다. Svelte 4 레거시 패턴과 Svelte 5 룬 기반 반응성을 모두 다룹니다. $inspect(), {@debug} 태그, svelte-check CLI 사용법과 같은 디버깅 도구를 제공합니다.

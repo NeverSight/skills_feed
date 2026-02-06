@@ -1,0 +1,1 @@
+Muster zum Umschließen von SDK-Clients von Drittanbietern (Stripe, Resend, AWS usw.) mit Effect. Wird zum Erstellen von Effektdiensten verwendet, die externe Bibliotheken mit Promise-basierten APIs umschließen. Bietet typsichere Fehlerbehandlung, automatische Ablaufverfolgung und saubere Abhängigkeitsinjektion über das „use“-Muster.

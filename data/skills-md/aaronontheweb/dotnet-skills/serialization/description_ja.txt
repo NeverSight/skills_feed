@@ -1,0 +1,1 @@
+.NET アプリケーションに適切なシリアル化形式を選択します。リフレクション ベース (Newtonsoft.Json) よりもスキーマ ベースの形式 (Protobuf、MessagePack) を優先します。 JSON シナリオでは、AOT ソース ジェネレーターで System.Text.Json を使用します。

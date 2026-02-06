@@ -1,0 +1,1 @@
+重构 Pandas 代码以提高可维护性、可读性和性能。识别并修复应该矢量化的循环/.iterrows()、在存在矢量化替代方案的情况下过度使用 .apply()、链式索引模式、inplace=True 用法、低效的 dtypes、缺少方法链接机会、复杂的过滤器、未经验证的合并操作以及SettingWithCopyWarning 模式。应用 Pandas 2.0+ 功能，包括 PyArrow 后端、写入时复制、矢量化操作、方法链接、.query()/.eval()、优化的数据类型和管道模式。

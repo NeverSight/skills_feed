@@ -1,0 +1,1 @@
+.NET 애플리케이션에 적합한 직렬화 형식을 선택하세요. 리플렉션 기반(Newtonsoft.Json)보다 스키마 기반 형식(Protobuf, MessagePack)을 선호합니다. JSON 시나리오의 경우 AOT 소스 생성기와 함께 System.Text.Json을 사용하세요.
