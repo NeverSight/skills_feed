@@ -1,9 +1,6 @@
 name: Build Skill Search Index
 
 on:
-  # Run daily (separate from crawl; crawl bot pushes won't trigger other workflows).
-  schedule:
-    - cron: '30 0 * * *' # UTC 00:30
   workflow_dispatch:
   # If humans change the script/index, verify & update on push.
   push:
@@ -54,14 +51,15 @@ jobs:
 
           # Rebase onto latest main to avoid non-fast-forward races
           git fetch origin main
-          git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+          # Prefer the generated output from this run on conflicts.
+          git rebase origin/main -X theirs
 
           # Retry push in case another workflow pushed concurrently
           for i in 1 2 3 4 5; do
             git push && break
             echo "Push failed, retrying ($i/5)..."
             git fetch origin main
-            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            git rebase origin/main -X theirs
             sleep $((i * 2))
           done
 

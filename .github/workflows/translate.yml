@@ -59,13 +59,13 @@ jobs:
           
           # Pull latest code first, rebase to avoid conflicts
           git fetch origin main
-          git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+          git rebase origin/main -X theirs
           
           # Retry push, handle concurrent situations
           for i in 1 2 3 4 5; do
             git push && break
             echo "Push failed, retrying ($i/5)..."
             git fetch origin main
-            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            git rebase origin/main -X theirs
             sleep $((i * 2))
           done

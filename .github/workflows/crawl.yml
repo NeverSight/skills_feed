@@ -14,7 +14,7 @@ on:
       translate_limit:
         description: 'Max description_en files to translate per language'
         required: false
-        default: '500'
+        default: '2000'
   # Run on push to main branch
   push:
     branches:
@@ -88,13 +88,14 @@ jobs:
 
           # Rebase onto latest main to avoid ref lock / non-fast-forward races
           git fetch origin main
-          git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+          # Prefer the generated outputs from this run when conflicts happen.
+          git rebase origin/main -X theirs
 
           # Retry push to tolerate concurrent runs
           for i in 1 2 3 4 5; do
             git push && break
             git fetch origin main
-            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            git rebase origin/main -X theirs
             sleep $((i * 2))
           done
       
@@ -106,7 +107,7 @@ jobs:
         run: |
           # Translate up to 2000 new descriptions per run (per language).
           # The script will skip if the target file already exists (unless --force).
-          LIMIT="${{ github.event.inputs.translate_limit || '500' }}"
+          LIMIT="${{ github.event.inputs.translate_limit || '2000' }}"
           python scripts/translate_descriptions.py --target zh-CN --limit "$LIMIT"
           python scripts/translate_descriptions.py --target zh-TW --limit "$LIMIT"
           python scripts/translate_descriptions.py --target es --limit "$LIMIT"
@@ -125,13 +126,13 @@ jobs:
             
             # Rebase and push
             git fetch origin main
-            git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+            git rebase origin/main -X theirs
             
             for i in 1 2 3 4 5; do
               git push && break
               echo "Push failed, retrying ($i/5)..."
               git fetch origin main
-              git rebase origin/main || (git rebase --abort && git reset --soft origin/main)
+              git rebase origin/main -X theirs
               sleep $((i * 2))
             done
           fi
