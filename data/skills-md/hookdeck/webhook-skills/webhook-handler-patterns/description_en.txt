@@ -1,0 +1,1 @@
+Best practices for webhook handlers. Use when implementing the handler sequence (verify first, parse second, handle idempotently), idempotency, error handling, retry logic, or framework-specific issues with Express, Next.js, or FastAPI.

@@ -1,0 +1,1 @@
+Patrón para empaquetar clientes SDK de terceros (Stripe, Resend, AWS, etc.) con Effect. Úselo al crear servicios de Effect que incluyan bibliotecas externas con API basadas en Promise. Proporciona manejo de errores con seguridad de tipos, seguimiento automático e inyección de dependencia limpia a través del patrón "use".

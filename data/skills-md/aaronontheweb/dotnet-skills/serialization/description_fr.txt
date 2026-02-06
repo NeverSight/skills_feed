@@ -1,0 +1,1 @@
+Choisissez le bon format de sérialisation pour les applications .NET. Préférez les formats basés sur des schémas (Protobuf, MessagePack) aux formats basés sur la réflexion (Newtonsoft.Json). Utilisez System.Text.Json avec les générateurs de sources AOT pour les scénarios JSON.

@@ -1,0 +1,1 @@
+重构 PyTorch 代码以提高可维护性、可读性并遵守最佳实践。识别并修复 DRY 违规、长函数、深度嵌套、SRP 违规以及模块化组件的机会。应用 PyTorch 2.x 模式，包括 torch.compile 优化、自动混合精度 (AMP)、优化的 DataLoader 配置、模块化 nn.Module 设计、梯度检查点、CUDA 内存管理、PyTorch Lightning 集成、自定义数据集类、模型工厂模式、权重初始化和再现性模式。

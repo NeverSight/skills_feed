@@ -1,0 +1,1 @@
+为 .NET 应用程序选择正确的序列化格式。优先选择基于模式的格式（Protobuf、MessagePack）而不是基于反射的格式（Newtonsoft.Json）。将 System.Text.Json 与 AOT 源生成器结合使用以实现 JSON 场景。

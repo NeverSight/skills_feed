@@ -1,0 +1,1 @@
+Configure @data-client/rest para las API REST. Crea una clase base RestEndpoint personalizada con comportamientos comunes (auth, urlPrefix, manejo de errores). Úselo después de que rdc-setup detecte patrones REST.

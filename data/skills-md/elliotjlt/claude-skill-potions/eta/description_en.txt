@@ -1,0 +1,4 @@
+When a user asks how long a task will take, requests a time estimate, or before
+starting any non-trivial coding task, immediately run scripts/estimate_task.py
+to analyze the codebase scope and provide a data-driven time estimate. Show the
+estimate breakdown, risk factors, and checkpoint recommendations without asking.

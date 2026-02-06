@@ -1,0 +1,1 @@
+利用這種全面的故障排除技能係統地調試 Kubernetes 集群和工作負載。涵蓋 CrashLoopBackOff、ImagePullBackOff、OOMKilled、pending pod、服務連接問題、PVC 綁定失敗和 RBAC 權限錯誤。提供結構化的四階段調試方法，包括 kubectl 命令、臨時調試容器和基本的單行代碼，用於跨命名空間診斷 pod、服務、網絡和存儲問題。

@@ -1,0 +1,1 @@
+重构 Nuxt.js/Vue 代码以提高可维护性、可读性和对最佳实践的遵守。识别并修复 DRY 违规、过大的组件、深度嵌套、SRP 违规、useFetch/useAsyncData/$fetch 数据获取反模式、不良的可组合组织以及混合业务/表示逻辑。应用 Nuxt 3 模式，包括自动导入、正确的数据获取、单一职责可组合项、TypeScript 集成、运行时配置、Nitro 服务器路由、Nuxt 层、中间件模式、Pinia 状态管理和性能优化。

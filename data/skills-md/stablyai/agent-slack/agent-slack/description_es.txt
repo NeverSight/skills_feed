@@ -1,0 +1,8 @@
+CLI de automatización de Slack para agentes de IA. Úselo cuando:
+- Leer un mensaje o hilo de Slack (dada una URL o canal+ts)
+- Descarga de archivos adjuntos de Slack (fragmentos, imágenes, archivos) a rutas locales
+- Búsqueda de mensajes o archivos de Slack
+- Enviar una respuesta o agregar/eliminar una reacción
+- Obteniendo un lienzo de Slack como descuento
+- Búsqueda de usuarios de Slack
+Activadores: "mensaje de slack", "hilo de slack", "URL de slack", "enlace de slack", "leer slack", "responder en slack", "buscar slack"

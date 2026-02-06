@@ -1,0 +1,8 @@
+AI 에이전트를 위한 Slack 자동화 CLI. 다음과 같은 경우에 사용하세요.
+- Slack 메시지 또는 스레드 읽기(URL 또는 채널+ts 제공)
+- Slack 첨부 파일(스니펫, 이미지, 파일)을 로컬 경로로 다운로드
+- Slack 메시지 또는 파일 검색
+- 답장 보내기 또는 반응 추가/삭제
+- Slack 캔버스를 마크다운으로 가져오기
+- Slack 사용자 조회
+트리거: "slack 메시지", "slack 스레드", "slack URL", "slack 링크", "slack 읽기", "slack에 응답", "slack 검색"

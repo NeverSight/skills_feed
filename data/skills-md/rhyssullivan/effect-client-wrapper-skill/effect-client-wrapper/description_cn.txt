@@ -1,0 +1,1 @@
+使用 Effect 包装第三方 SDK 客户端（Stripe、Resend、AWS 等）的模式。在创建使用基于 Promise 的 API 包装外部库的 Effect 服务时使用。通过“use”模式提供类型安全的错误处理、自动跟踪和干净的依赖注入。

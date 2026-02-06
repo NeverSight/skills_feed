@@ -1,0 +1,1 @@
+PyTorch コードをリファクタリングして、保守性、可読性、ベスト プラクティスの順守を向上させます。 DRY 違反、長い関数、深いネスト、SRP 違反、およびモジュール コンポーネントの機会を特定して修正します。 torch.compile 最適化、Automatic Mixed Precision (AMP)、最適化された DataLoader 構成、モジュラー nn.Module 設計、勾配チェックポイント、CUDA メモリ管理、PyTorch Lightning 統合、カスタム データセット クラス、モデル ファクトリ パターン、重み初期化、再現性パターンなどの PyTorch 2.x パターンを適用します。

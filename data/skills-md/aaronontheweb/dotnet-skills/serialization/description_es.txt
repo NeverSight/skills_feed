@@ -1,0 +1,1 @@
+Elija el formato de serialización correcto para aplicaciones .NET. Prefiera los formatos basados ​​en esquemas (Protobuf, MessagePack) a los basados ​​en reflexiones (Newtonsoft.Json). Utilice System.Text.Json con generadores de fuentes AOT para escenarios JSON.

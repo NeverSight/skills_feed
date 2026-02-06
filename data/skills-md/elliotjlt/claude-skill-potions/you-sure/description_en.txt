@@ -1,0 +1,5 @@
+Before ANY destructive, irreversible, or high-impact action, pause and surface
+a clear checklist of what's about to happen. This includes: file deletions,
+database changes, production deployments, mass updates, permission changes,
+or anything that can't easily be undone. Require explicit confirmation before
+proceeding. Never auto-execute dangerous operations.

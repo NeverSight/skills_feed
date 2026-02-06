@@ -1,0 +1,1 @@
+Production-safe error handling that logs full details server-side while exposing only generic, safe messages to users. Prevents information leakage of database strings, file paths, stack traces, and API keys.
