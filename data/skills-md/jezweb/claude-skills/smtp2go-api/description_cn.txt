@@ -1,0 +1,1 @@
+通过 SMTP2GO API 发送交易电子邮件和短信。涵盖身份验证、/email/send 和 /email/mime 端点、模板管理、附件 (base64/URL)、用于传递事件的 Webhook、统计和抑制。从 Cloudflare Workers 发送电子邮件、构建通知、跟踪递送状态、处理退回邮件时使用。防止身份验证错误、附件编码问题。
