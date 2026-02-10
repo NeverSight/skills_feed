@@ -1,0 +1,1 @@
+将多写操作包装在事务中；使用dispatchAfterCommit和幂等模式来确保一致性
