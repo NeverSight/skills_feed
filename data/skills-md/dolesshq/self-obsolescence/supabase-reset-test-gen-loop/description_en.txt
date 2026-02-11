@@ -1,0 +1,1 @@
+Iteratively run a local Supabase reset, database tests, and type generation until they succeed, fixing issues between runs. Use when asked to reset the local Supabase DB, run `supabase test db`, and regenerate types (`npm run gen-types`) in a loop.

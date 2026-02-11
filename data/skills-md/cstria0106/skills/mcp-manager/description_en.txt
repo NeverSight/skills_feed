@@ -1,0 +1,1 @@
+Manage MCP servers in Codex quickly and safely. Use this skill when the user asks to add, update, remove, inspect, or troubleshoot MCP servers, especially from a GitHub URL. The skill enforces scope selection (project `./.codex/config.toml` vs global `~/.codex/config.toml`), checks for existing entries, and asks the user to choose required options before making changes.

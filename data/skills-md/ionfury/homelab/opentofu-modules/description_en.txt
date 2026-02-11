@@ -1,0 +1,14 @@
+Write OpenTofu/Terraform modules and comprehensive tests for homelab infrastructure.
+
+Use when: (1) Creating new OpenTofu or Terraform modules, (2) Writing or modifying .tftest.hcl test files,
+(3) Adding variables, outputs, or resources to modules, (4) Debugging test failures,
+(5) Understanding module testing patterns, (6) Writing infrastructure unit tests,
+(7) Questions about tftest syntax or assertions.
+
+Triggers: "opentofu module", "terraform module", "tofu module", "create module",
+".tftest.hcl", "tftest", "test my module", "module test", "infrastructure test",
+"test infrastructure", "variables.tf", "outputs.tf", "module testing", "assertion",
+"task tg:test", "test-config", "test failures"
+
+This skill covers OpenTofu v1.11 testing syntax, variable inheritance patterns,
+assertion best practices, and repository-specific conventions in infrastructure/modules/.

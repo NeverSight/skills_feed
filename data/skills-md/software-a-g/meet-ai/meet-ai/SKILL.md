@@ -1,0 +1,1 @@
+../../../packages/meet-ai-skill/meet-ai/SKILL.md

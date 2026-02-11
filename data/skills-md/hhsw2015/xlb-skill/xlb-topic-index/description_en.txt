@@ -1,0 +1,1 @@
+Use when user input contains xlb topic queries (for example "xlb >vibe coding/vib", "xlb ??vibe coding", or "查询xlb vibe coding主题") and the task is to fetch Markdown index from local getPluginInfo API, then perform code-based retrieval with routing to available network skills/MCP tools when possible.

@@ -1,0 +1,1 @@
+Implement branded (nominal/opaque) types in TypeScript to prevent accidental mixing of structurally identical types. Use when writing type-safe IDs (UserId, PostId), validated strings (Email, URL), unit-specific numbers (Meters, Seconds), or any scenario requiring nominal typing in TypeScript's structural type system.

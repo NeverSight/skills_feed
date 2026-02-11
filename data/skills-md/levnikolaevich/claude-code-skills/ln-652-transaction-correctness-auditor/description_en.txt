@@ -1,0 +1,1 @@
+Transaction correctness audit worker (L3). Checks missing intermediate commits, transaction scope (too wide/narrow), missing rollback handling, long-held transactions, trigger/notify interaction. Returns findings with severity, location, effort, recommendations.

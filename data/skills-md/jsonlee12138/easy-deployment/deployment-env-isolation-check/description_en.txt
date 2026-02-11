@@ -1,0 +1,1 @@
+Validate environment isolation using merged values from .deploy.env.common and .deploy.env.<ENV_MODE>. Use when ensuring test/prod/custom do not share the same registry, remote host, user, and port identity.

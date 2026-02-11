@@ -1,0 +1,1 @@
+High-performance structured JSON logging for Node.js. Use when building production APIs that need fast, structured logs for observability platforms (Datadog, ELK, CloudWatch). Provides request logging middleware, child loggers for context, and sensitive data redaction. Choose Pino over console.log for any production TypeScript backend.

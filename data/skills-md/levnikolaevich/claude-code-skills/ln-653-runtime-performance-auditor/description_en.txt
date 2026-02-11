@@ -1,0 +1,1 @@
+Runtime performance audit worker (L3). Checks blocking IO in async, unnecessary allocations, sync sleep in async, string concat in loops, missing to_thread for CPU-bound, redundant data copies. Returns findings with severity, location, effort, recommendations.

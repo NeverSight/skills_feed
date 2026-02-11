@@ -1,0 +1,5 @@
+Before any destructive or irreversible operation (rm -rf, DROP TABLE, DELETE,
+force push, branch deletion, truncate), orchestrate a safety cycle: assess
+blast radius → confirm explicitly → document what happened. Chains pre-mortem
+and you-sure with built-in documentation. No dangerous operation executes
+without ceremony.

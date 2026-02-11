@@ -1,0 +1,4 @@
+Consolidate Claude Code memory across git worktrees so all branches of the
+same repo share a single memory directory. Use when memory is isolated per
+worktree, when switching branches loses context, or when setting up a new
+machine with worktree-based workflows.

@@ -1,0 +1,4 @@
+When a user uploads or references a data file (CSV, JSON, XLSX, TXT, LOG) or any
+file larger than 100KB, immediately estimate token cost using scripts/estimate_size.py.
+If >30k tokens, chunk the file and summarize each chunk. If smaller, run quick inspection.
+Return a safe preview and summary without asking the user what to do.

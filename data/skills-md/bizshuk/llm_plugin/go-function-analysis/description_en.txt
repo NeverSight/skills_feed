@@ -1,0 +1,1 @@
+Analyze Go function lengths within a workspace and generate statistics (p50, p90, p99). Use when you need to audit function complexity, identify long functions, or generate code metrics for Go projects. Only analyzes files matching **/*.go within the current workspace, excluding dependencies.

@@ -1,0 +1,1 @@
+Deploy projects to Vercel with automatic configuration. Sets project name from folder name, deploys with --yes flag, and disables Vercel Authentication (SSO protection) post-deploy via API. Use when deploying to Vercel, running "deploy to vercel", "vercel deploy", or any Vercel deployment task. Handles both preview and production deployments.

@@ -1,0 +1,4 @@
+Orchestration pattern for sequential, dependent tasks. When work must flow
+through stages where each stage depends on the previous (design → implement →
+test → review), structure as a pipeline with explicit handoffs. Each stage
+completes before the next begins.

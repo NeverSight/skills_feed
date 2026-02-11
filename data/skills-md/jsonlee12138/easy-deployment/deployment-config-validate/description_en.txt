@@ -1,0 +1,1 @@
+Validate deployment configuration from .deploy.env.common and .deploy.env.<ENV_MODE> for config-dependent stages. Use before make-based deploy actions to catch missing variables, invalid ports, or compose issues.

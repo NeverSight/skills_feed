@@ -1,0 +1,1 @@
+Verify and handle webhooks delivered through the Hookdeck Event Gateway. Use when receiving webhooks via Hookdeck and need to verify the x-hookdeck-signature header. Covers signature verification for Express, Next.js, and FastAPI.

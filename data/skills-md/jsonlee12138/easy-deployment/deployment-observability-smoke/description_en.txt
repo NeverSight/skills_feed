@@ -1,0 +1,1 @@
+Run post-deployment smoke checks with Makefile targets (`remote-status`, `remote-logs`) plus optional health URL checks. Use after deployment to verify runtime state before final acceptance.

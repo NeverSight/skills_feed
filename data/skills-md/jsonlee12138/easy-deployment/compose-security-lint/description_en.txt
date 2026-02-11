@@ -1,0 +1,1 @@
+Lint Docker Compose files for Makefile-first deployment environments using .deploy.env.common + .deploy.env.<ENV_MODE>. Use when validating local/test/prod/custom compose files for image/build declaration, restart, healthcheck, logging, and external network settings.

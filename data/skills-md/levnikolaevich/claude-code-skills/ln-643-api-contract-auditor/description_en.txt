@@ -1,0 +1,1 @@
+API contract audit worker (L3). Checks layer leakage in method signatures, missing DTOs, entity leakage to API, inconsistent error contracts, redundant method overloads. Returns findings with 4-score model (compliance, completeness, quality, implementation).
