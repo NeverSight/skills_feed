@@ -1,0 +1,1 @@
+Query efficiency audit worker (L3). Checks redundant entity fetches, N-UPDATE/DELETE loops, unnecessary resolves, over-fetching, missing bulk operations, wrong caching scope. Returns findings with severity, location, effort, recommendations.

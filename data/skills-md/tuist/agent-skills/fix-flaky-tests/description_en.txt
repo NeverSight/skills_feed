@@ -1,0 +1,1 @@
+Fixes a specific flaky test by analyzing its failure patterns from Tuist, identifying the root cause, and applying a targeted correction. Typically invoked with a Tuist test case URL in the format such as `https://tuist.dev/{account}/{project}/tests/test-cases/{id}`.

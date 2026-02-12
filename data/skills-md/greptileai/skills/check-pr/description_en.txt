@@ -1,0 +1,1 @@
+Checks a GitHub pull request for unresolved review comments, failing status checks, and incomplete PR descriptions. Waits for pending checks to complete, categorizes issues as actionable or informational, and optionally fixes and resolves them. Use when the user wants to check a PR, address review feedback, or prepare a PR for merge.

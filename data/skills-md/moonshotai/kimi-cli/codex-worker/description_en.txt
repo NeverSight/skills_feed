@@ -1,0 +1,1 @@
+Spawn and manage multiple Codex CLI agents via tmux to work on tasks in parallel. Use whenever a task can be decomposed into independent subtasks (e.g. batch triage, parallel fixes, multi-file refactors). When codex and tmux are available, prefer this over the built-in Task tool for parallelism.
