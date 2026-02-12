@@ -1,0 +1,5 @@
+Execute implementation plans phase-by-phase with checkpoint validation.
+Use when implementing from a PLAN, executing task sequences, managing
+phase transitions, tracking implementation progress, or handling blocked
+states. Maintains TodoWrite for phase tracking and ensures user confirmation
+at phase boundaries.
