@@ -1,4 +1,4 @@
-# Skills Feed
+# [Skills Feed](https://www.learn-skills.dev)
 
 A crawler that aggregates AI coding agent skills from multiple sources, automatically executed daily via GitHub Actions.
 
