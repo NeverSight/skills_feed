@@ -1,0 +1,1 @@
+Apollo Federation 子图模式创作指南。在以下情况下使用此技能：(1) 为联合超级图创建新的子图模式，(2) 使用 @key 定义或修改实体，(3) 使用 @shareable 跨子图共享类型/字段，(4) 使用联合指令（@external、@requires、@provides、@override、@inaccessible），(5) 排除组合错误，(6) 涉及联合模式设计模式的任何任务。

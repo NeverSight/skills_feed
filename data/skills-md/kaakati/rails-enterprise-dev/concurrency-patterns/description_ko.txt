@@ -1,0 +1,1 @@
+전문적인 Swift 동시성 결정: async let 대 TaskGroup 선택, 행위자 격리 경계, @MainActor 배치 전략, Sendable 적합성 판단 호출, 구조적 vs 비구조적 작업 절충. 동시 코드를 디자인하거나, 데이터 경합을 디버깅하거나, 동시성 패턴 중에서 선택할 때 사용합니다. 트리거 키워드: async, wait, actor, Task, TaskGroup, @MainActor, Sendable, 동시성, 데이터 경합, 격리, 구조적 동시성, 연속성
