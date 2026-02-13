@@ -1,0 +1,1 @@
+**REQUERIDO** - SIEMPRE active PRIMERO en cualquier operación de git/VCS (commit, status, bifurcación, push, etc.), especialmente cuando HEAD está desconectado. Si existe `.jj/` -> este es un repositorio de Jujutsu (jj), los comandos de git dañarán los datos. Instrucciones esenciales de seguridad de Git en el interior. NO IGNORAR.

@@ -1,0 +1,1 @@
+Analice las longitudes de las funciones Go dentro de un espacio de trabajo y genere estadísticas (p50, p90, p99). Úselo cuando necesite auditar la complejidad de las funciones, identificar funciones largas o generar métricas de código para proyectos de Go. Solo analiza archivos que coincidan con **/*.go dentro del espacio de trabajo actual, excluyendo las dependencias.

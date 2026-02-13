@@ -1,0 +1,1 @@
+Lint Docker Compone archivos para entornos de implementación de Makefile primero usando .deploy.env.common + .deploy.env.<ENV_MODE>. Úselo al validar archivos de composición locales/de prueba/producción/personalizados para declaración de imagen/compilación, reinicio, verificación de estado, registro y configuración de red externa.

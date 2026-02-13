@@ -1,0 +1,1 @@
+Trabajador de auditoría de rendimiento en tiempo de ejecución (L3). Comprueba el bloqueo de E/S en asíncrono, asignaciones innecesarias, suspensión de sincronización en asíncrono, concat de cadenas en bucles, falta to_thread para copias de datos redundantes vinculadas a la CPU. Devuelve hallazgos con gravedad, ubicación, esfuerzo y recomendaciones.

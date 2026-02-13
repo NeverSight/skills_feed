@@ -1,0 +1,4 @@
+Cuando un usuario carga o hace referencia a un archivo de datos (CSV, JSON, XLSX, TXT, LOG) o cualquier
+archivo de más de 100 KB, calcule inmediatamente el costo del token utilizando scripts/estimate_size.py.
+Si >30k tokens, fragmente el archivo y resuma cada fragmento. Si es más pequeño, realice una inspección rápida.
+Devuelva una vista previa y un resumen seguros sin preguntar al usuario qué hacer.

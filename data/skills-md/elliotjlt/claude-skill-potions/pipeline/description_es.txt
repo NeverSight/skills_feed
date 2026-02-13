@@ -1,0 +1,4 @@
+Patrón de orquestación para tareas secuenciales y dependientes. Cuando el trabajo debe fluir
+a través de etapas donde cada etapa depende de la anterior (diseñar → implementar →
+prueba → revisión), estructura como un canal con transferencias explícitas. Cada etapa
+termina antes de que comience el siguiente.

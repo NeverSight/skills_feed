@@ -1,0 +1,5 @@
+Antes de cualquier operación destructiva o irreversible (rm -rf, DROP TABLE, DELETE,
+forzar empuje, eliminación de rama, truncar), orquestar un ciclo de seguridad: evaluar
+radio de explosión → confirmar explícitamente → documentar lo que sucedió. Cadenas pre-mortem
+y seguro que con la documentación incorporada. No se ejecuta ninguna operación peligrosa
+sin ceremonia.

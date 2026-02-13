@@ -1,0 +1,1 @@
+Ejecute de forma iterativa un reinicio de Supabase local, pruebas de bases de datos y generación de tipos hasta que tengan éxito, solucionando problemas entre ejecuciones. Úselo cuando se le solicite restablecer la base de datos Supabase local, ejecutar `supabase test db` y regenerar tipos (`npm run gen-types`) en un bucle.

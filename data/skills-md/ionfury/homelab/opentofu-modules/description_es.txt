@@ -1,0 +1,14 @@
+Escriba módulos OpenTofu/Terraform y pruebas integrales para la infraestructura del laboratorio doméstico.
+
+Utilícelo cuando: (1) cree nuevos módulos OpenTofu o Terraform, (2) escriba o modifique archivos de prueba .tftest.hcl,
+(3) Agregar variables, salidas o recursos a los módulos, (4) Depurar fallas de prueba,
+(5) Comprender los patrones de prueba de módulos, (6) Escribir pruebas unitarias de infraestructura,
+(7) Preguntas sobre aserciones o sintaxis de tftest.
+
+Activadores: "módulo opentofu", "módulo terraform", "módulo tofu", "crear módulo",
+".tftest.hcl", "tftest", "probar mi módulo", "prueba de módulo", "prueba de infraestructura",
+"infraestructura de prueba", "variables.tf", "outputs.tf", "prueba de módulo", "afirmación",
+"tarea tg:prueba", "prueba-config", "fallos de prueba"
+
+Esta habilidad cubre la sintaxis de prueba de OpenTofu v1.11, patrones de herencia de variables,
+mejores prácticas de aserción y convenciones específicas del repositorio en infraestructura/módulos/.

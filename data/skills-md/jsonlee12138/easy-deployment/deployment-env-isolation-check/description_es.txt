@@ -1,0 +1,1 @@
+Valide el aislamiento del entorno utilizando valores combinados de .deploy.env.common y .deploy.env.<ENV_MODE>. Utilícelo cuando garantice que test/prod/custom no comparta el mismo registro, host remoto, usuario e identidad de puerto.

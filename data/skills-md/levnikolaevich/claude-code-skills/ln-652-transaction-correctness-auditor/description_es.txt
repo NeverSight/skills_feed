@@ -1,0 +1,1 @@
+Trabajador de auditoría de corrección de transacciones (N3). Comprueba las confirmaciones intermedias que faltan, el alcance de la transacción (demasiado amplio/estrecho), el manejo de reversión que falta, las transacciones retenidas durante mucho tiempo, la interacción de activación/notificación. Devuelve hallazgos con gravedad, ubicación, esfuerzo y recomendaciones.
