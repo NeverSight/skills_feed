@@ -1,0 +1,1 @@
+.deploy.env.common と .deploy.env.<ENV_MODE> のマージされた値を使用して、環境の分離を検証します。 test/prod/custom が同じレジストリ、リモート ホスト、ユーザー、およびポート ID を共有していないことを確認する場合に使用します。

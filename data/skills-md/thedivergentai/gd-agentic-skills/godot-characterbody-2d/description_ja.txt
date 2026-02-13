@@ -1,0 +1,1 @@
+CharacterBody2D のエキスパート パターンには、プラットフォーマーの動き (コヨーテ タイム、ジャンプ バッファリング、可変ジャンプ高さ)、トップダウンの動き (8 方向、タンク コントロール)、衝突処理、一方向のプラットフォーム、ステート マシンなどがあります。プレイヤーキャラクター、NPC、または敵に使用します。トリガーキーワード: CharacterBody2D、move_and_slide、is_on_floor、coyote_time、jump_buffer、velocity、get_slide_collision、one_way_platforms、state_machine。

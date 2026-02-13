@@ -1,0 +1,1 @@
+Hookdeck Event Gateway を通じて配信される Webhook を検証して処理します。 Hookdeck 経由で Webhook を受信し、x-hookdeck-signature ヘッダーを検証する必要がある場合に使用します。 Express、Next.js、および FastAPI の署名検証について説明します。

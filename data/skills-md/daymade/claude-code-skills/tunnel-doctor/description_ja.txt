@@ -1,0 +1,1 @@
+macOS 上の Tailscale とプロキシ/VPN ツール (Shadowrocket、Clash、Surge) の間の競合を診断して修正します。ルート ハイジャック (プロキシ TUN が Tailscale ルートをオーバーライド) と HTTP プロキシ環境変数インターセプト (http_proxy/NO_PROXY の設定ミス) という 2 つの競合タイプをカバーします。 Tailscale ping は機能するが SSH/HTTP がタイムアウトした場合、Tailscale IP へのcurlが空/タイムアウトを返した場合、または Tailscale SSH を WSL インスタンスに設定する場合に使用します。

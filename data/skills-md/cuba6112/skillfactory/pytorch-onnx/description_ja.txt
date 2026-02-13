@@ -1,0 +1,1 @@
+クロスプラットフォーム展開のために PyTorch モデルを ONNX 形式にエクスポートします。動的軸の処理、ONNX ランタイムでのグラフの最適化、INT8 モデルの量子化が含まれます。 (onnx、onnxruntime、torch.onnx.export、dynamic_axes、定数折りたたみ、エッジ デプロイメント)

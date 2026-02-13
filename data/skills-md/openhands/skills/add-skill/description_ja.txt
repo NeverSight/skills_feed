@@ -1,0 +1,1 @@
+GitHub リポジトリから現在のワークスペースに外部スキルを追加します。ユーザーが GitHub URL からスキルをインポート、インストール、または追加したい場合に使用します (例: `/add-skill https://github.com/OpenHands/skills/tree/main/skills/codereview` または "https://github.com/OpenHands/skills/ からコードレビュー スキルを追加")。スキル ファイルを取得して .openhands/skills/ に配置する処理を処理します。

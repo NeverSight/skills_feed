@@ -1,0 +1,1 @@
+4D 並列処理 (FSDP2、TP、PP、CP) を備えた torchtitan を使用した、PyTorch ネイティブの分散 LLM 事前トレーニングを提供します。 Llama 3.1、DeepSeek V3、または Float8、torch.compile、分散チェックポイントを使用して 8 ～ 512+ GPU の規模でカスタム モデルを事前トレーニングする場合に使用します。

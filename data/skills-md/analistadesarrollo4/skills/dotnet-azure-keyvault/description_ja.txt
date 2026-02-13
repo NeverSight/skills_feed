@@ -1,0 +1,1 @@
+Azure Key Vault と .NET アプリケーションのマネージド ID の統合。 (1) Azure Key Vault を構成ソースとして実装する場合、(2) DefaultAzureCredential を使用してマネージド ID 認証を設定する場合、(3) インフラストラクチャで AddAzureKeyVault 拡張メソッドを作成する場合、(4) Key Vault シークレットと命名規則を構成する場合、(5) ローカル開発認証に関する質問、(6) カスタム KeyVaultSecretManager を実装する場合、または (7) Key Vault のアクセスと権限のトラブルシューティングを行う場合に使用します。
