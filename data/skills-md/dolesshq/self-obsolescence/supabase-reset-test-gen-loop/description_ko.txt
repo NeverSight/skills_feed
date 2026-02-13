@@ -1,0 +1,1 @@
+성공할 때까지 로컬 Supabase 재설정, 데이터베이스 테스트 및 유형 생성을 반복적으로 실행하여 실행 간 문제를 해결합니다. 로컬 Supabase DB를 재설정하고 `supabase test db`를 실행하고 루프에서 유형(`npm run gen-types`)을 재생성하라는 요청을 받을 때 사용합니다.

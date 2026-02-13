@@ -1,0 +1,1 @@
+Node.js를 위한 고성능 구조화된 JSON 로깅입니다. 관찰 플랫폼(Datadog, ELK, CloudWatch)을 위해 빠르고 구조화된 로그가 필요한 프로덕션 API를 구축할 때 사용합니다. 요청 로깅 미들웨어, 컨텍스트용 하위 로거, 민감한 데이터 수정 기능을 제공합니다. 프로덕션 TypeScript 백엔드에 대해 console.log 대신 Pino를 선택하세요.

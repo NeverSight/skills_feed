@@ -1,0 +1,1 @@
+플랫폼 이동(코요테 시간, 점프 버퍼링, 가변 점프 높이), 하향식 이동(8방향, 탱크 제어), 충돌 처리, 단방향 플랫폼 및 상태 머신을 포함하는 CharacterBody2D의 전문 패턴입니다. 플레이어 캐릭터, NPC 또는 적에게 사용합니다. 트리거 키워드: CharacterBody2D, move_and_slide, is_on_floor, coyote_time, jump_buffer, 속도, get_slide_collision, one_way_platforms, state_machine.

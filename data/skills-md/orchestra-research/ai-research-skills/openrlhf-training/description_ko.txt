@@ -1,0 +1,1 @@
+Ray+vLLM 가속 기능을 갖춘 고성능 RLHF 프레임워크. 대형 모델(7B-70B+)의 PPO, GRPO, RLOO, DPO 교육에 사용합니다. Ray, vLLM, ZeRO-3을 기반으로 구축되었습니다. 분산 아키텍처 및 GPU 리소스 공유를 통해 DeepSpeedChat보다 2배 빠릅니다.

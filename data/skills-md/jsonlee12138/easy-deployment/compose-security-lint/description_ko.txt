@@ -1,0 +1,1 @@
+.deploy.env.common + .deploy.env.<ENV_MODE>를 사용하는 Makefile 우선 배포 환경을 위한 Lint Docker Compose 파일입니다. 이미지/빌드 선언, 다시 시작, 상태 확인, 로깅 및 외부 네트워크 설정에 대한 local/test/prod/custom compose 파일을 검증할 때 사용합니다.

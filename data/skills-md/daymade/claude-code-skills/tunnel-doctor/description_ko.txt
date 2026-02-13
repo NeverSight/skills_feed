@@ -1,0 +1,1 @@
+macOS에서 Tailscale과 프록시/VPN 도구(Shadowrocket, Clash, Surge) 간의 충돌을 진단하고 수정합니다. 두 가지 충돌 유형, 즉 경로 하이재킹(프록시 TUN이 Tailscale 경로를 재정의함)과 HTTP 프록시 환경 변수 차단(http_proxy/NO_PROXY 잘못된 구성)을 다룹니다. Tailscale ping이 작동하지만 SSH/HTTP 시간이 초과되는 경우, Tailscale IP에 대한 컬이 비어 있음/시간 초과를 반환하는 경우 또는 Tailscale SSH를 WSL 인스턴스로 설정할 때 사용합니다.

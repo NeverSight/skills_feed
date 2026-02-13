@@ -1,0 +1,1 @@
+크로스 플랫폼 배포를 위해 PyTorch 모델을 ONNX 형식으로 내보냅니다. 동적 축 처리, ONNX 런타임의 그래프 최적화 및 INT8 모델 양자화가 포함됩니다. (onnx, onnxruntime, torch.onnx.export, Dynamic_axes, 상수 폴딩, 엣지 배포)

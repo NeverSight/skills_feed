@@ -1,0 +1,1 @@
+중요 - 모든 AI 모델(OpenRouter, Gemini, OpenAI, 로컬 모델)에서 Claude Code를 실행하기 위해 하위 에이전트를 통해서만 Claudish CLI를 사용하는 방법에 대한 가이드입니다. 사용자가 명시적으로 요청하지 않는 한 절대 기본 컨텍스트에서 Claudish를 직접 실행하지 마세요. 사용자가 외부 AI 모델, Claudish, OpenRouter, Gemini, OpenAI, Ollama 또는 대체 모델을 언급할 때 사용합니다. 필수 하위 에이전트 위임 패턴, 에이전트 선택 가이드, 파일 기반 지침 및 컨텍스트 창 오염을 방지하기 위한 엄격한 규칙이 포함되어 있습니다.

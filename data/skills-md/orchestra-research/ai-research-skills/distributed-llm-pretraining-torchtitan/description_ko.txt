@@ -1,0 +1,1 @@
+4D 병렬성(FSDP2, TP, PP, CP)을 갖춘 torchtitan을 사용하여 PyTorch 기본 분산 LLM 사전 학습을 제공합니다. Llama 3.1, DeepSeek V3 또는 Float8, torch.compile 및 분산 체크포인트를 사용하여 8~512개 이상의 GPU 규모로 사용자 정의 모델을 사전 훈련할 때 사용합니다.

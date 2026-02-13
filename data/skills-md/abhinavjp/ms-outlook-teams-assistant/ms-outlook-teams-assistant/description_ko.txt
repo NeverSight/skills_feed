@@ -1,0 +1,1 @@
+웹 버전에 의존하지 않고 Windows 컴퓨터에서 Microsoft Outlook 이메일과 (선택적으로) Microsoft Teams 메시지를 추적하고 잔소리를 할 수 있습니다. 사용자가 다음을 요청할 때 사용합니다. (1) 받은 편지함/멘션을 모니터링하고 닫을 때까지 Telegram/Teams에서 알림, (2) 기존 Outlook 스레드에서 짧고 개성 있고 전문 용어가 낮은 이메일 답장 초안 작성, (3) 지난 N일 동안의 작업 항목 표시(기본값 7). Outlook 데스크톱 자동화(COM)를 통해 작동하며 선택적으로 Teams용 Microsoft Graph(구성된 경우)를 통해 작동합니다.

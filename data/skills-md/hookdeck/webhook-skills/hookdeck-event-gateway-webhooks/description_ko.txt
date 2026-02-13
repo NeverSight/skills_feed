@@ -1,0 +1,1 @@
+Hookdeck Event Gateway를 통해 전달된 웹훅을 확인하고 처리합니다. Hookdeck을 통해 웹훅을 수신할 때 사용하고 x-hookdeck-signature 헤더를 확인해야 합니다. Express, Next.js 및 FastAPI에 대한 서명 확인을 다룹니다.

@@ -1,0 +1,1 @@
+Moralis API에서 Web3 블록체인 데이터를 쿼리합니다. 사용자가 지갑 데이터(잔액, 토큰, NFT, 거래 내역, 수익성, 순자산), 토큰 데이터(가격, 메타데이터, DEX 쌍, 분석, 보안 점수), NFT 데이터(메타데이터, 전송, 특성, 희소성, 가격 하한선), DeFi 포지션, 거래소 및 자금에 대한 엔터티/레이블 데이터 또는 블록 및 거래 데이터에 대해 질문할 때 사용합니다. EVM 체인(Ethereum, Polygon, BSC, Arbitrum, Base, Optimism, Avalanche 등) 및 Solana를 지원합니다. 실시간 스트리밍에는 적합하지 않습니다. 대신 Moris-streams-api를 사용하세요.

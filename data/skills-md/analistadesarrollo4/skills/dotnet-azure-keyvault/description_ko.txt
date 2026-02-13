@@ -1,0 +1,1 @@
+.NET 애플리케이션용 관리 ID와 Azure Key Vault 통합. 사용 시기: (1) Azure Key Vault를 구성 소스로 구현, (2) DefaultAzureCredential을 사용하여 관리 ID 인증 설정, (3) 인프라에서 AddAzureKeyVault 확장 메서드 만들기, (4) Key Vault 비밀 및 명명 규칙 구성, (5) 로컬 개발 인증에 대한 질문, (6) 사용자 지정 KeyVaultSecretManager 구현 또는 (7) Key Vault 액세스 및 권한 문제 해결.

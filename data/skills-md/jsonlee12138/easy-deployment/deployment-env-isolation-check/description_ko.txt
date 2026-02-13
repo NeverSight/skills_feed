@@ -1,0 +1,1 @@
+.deploy.env.common 및 .deploy.env.<ENV_MODE>의 병합된 값을 사용하여 환경 격리를 검증합니다. test/prod/custom이 동일한 레지스트리, 원격 호스트, 사용자 및 포트 ID를 공유하지 않도록 할 때 사용합니다.

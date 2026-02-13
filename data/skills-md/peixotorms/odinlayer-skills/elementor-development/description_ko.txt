@@ -1,0 +1,1 @@
+Elementor 애드온을 구축하거나, 사용자 정의 위젯을 생성하거나, Elementor 구성 요소를 관리할 때 사용합니다. Widget_Base 클래스(get_name, get_title, get_icon, Register_controls, render, content_template), 요소/위젯/등록 후크를 통한 위젯 등록, 애드온 구조 및 플러그인 헤더, 위젯 자산용 wp_enqueue_script, get_script_dependents, get_style_dependents, 인라인 편집 도구 모음, 사용자 정의 위젯 카테고리, 관리자 등록(등록/등록 취소), 선택기 토큰({{WRAPPER}}), 지원 중단을 다룹니다. 처리 및 Elementor CLI 명령.
