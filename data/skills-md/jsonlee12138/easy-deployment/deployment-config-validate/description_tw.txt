@@ -1,0 +1,1 @@
+從 .deploy.env.common 和 .deploy.env.<ENV_MODE> 驗證依賴於設定的階段的部署設定。在基於 make 的部署操作之前使用來擷取遺失的變數、無效的連接埠或組合問題。

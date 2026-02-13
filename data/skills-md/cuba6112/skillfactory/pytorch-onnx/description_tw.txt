@@ -1,0 +1,1 @@
+將 PyTorch 模型匯出為 ONNX 格式以進行跨平台部署。包括處理動態軸、ONNX 運行時中的圖形優化以及 INT8 模型量化。 （onnx、onnxruntime、torch.onnx.export、dynamic_axes、常數折疊、邊緣部署）

@@ -1,0 +1,1 @@
+驗證並處理透過 Hookdeck 事件閘道傳遞的 Webhook。當透過 Hookdeck 接收 webhook 並需要驗證 x-hookdeck-signature 標頭時使用。涵蓋 Express、Next.js 和 FastAPI 的簽名驗證。

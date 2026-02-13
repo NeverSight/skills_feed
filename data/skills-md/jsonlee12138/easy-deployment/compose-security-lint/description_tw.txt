@@ -1,0 +1,1 @@
+Lint Docker 使用 .deploy.env.common + .deploy.env.<ENV_MODE> 為 Makefile-first 部署環境撰寫檔案。在驗證本機/測試/產品/自訂組合檔案以進行映像/建置聲明、重新啟動、運行狀況檢查、日誌記錄和外部網路設定時使用。

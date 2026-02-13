@@ -1,0 +1,1 @@
+Azure Key Vault 與 .NET 應用程式的託管識別整合。在下列情況下使用：(1) 實作 Azure Key Vault 作為設定來源，(2) 使用 DefaultAzureCredential 設定託管身分驗證，(3) 在基礎架構中建立 AddAzureKeyVault 擴充方法，(4) 設定 Key Vault 機密與命名約定，(5) 有關本機開發驗證的問題，(6) 配置 Key 識別

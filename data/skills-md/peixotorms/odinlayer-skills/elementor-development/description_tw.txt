@@ -1,0 +1,1 @@
+在建立 Elementor 外掛程式、建立自訂小工具或管理 Elementor 元件時使用。涵蓋 Widget_Base 類別（get_name、get_title、get_icon、register_controls、render、content_template）、透過 elementor/widgets/register 鉤子註冊小部件、插件結構和插件頭、小部件資產的wp_enqueue_script、get_script_depends、get_style_depends、內聯編輯工具列、自訂小工具類別、管理器註冊（註冊/取消註冊）、選擇器令牌 ({{WRAPPER}})、棄用處理、和 Elementor CLI 命令。

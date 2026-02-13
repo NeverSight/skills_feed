@@ -1,0 +1,1 @@
+設定 Claude Code 掛鉤以在執行之前阻止危險的 git 命令（push、reset --hard、clean、branch -D 等）。當使用者想要防止破壞性的 git 操作、新增 git 安全掛鉤或阻止 Claude Code 中的 git 推送/重置時使用。
