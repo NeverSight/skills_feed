@@ -1,6 +1,9 @@
 name: Translate Descriptions (es)
 
 on:
+  # Run daily at UTC 6:00
+  schedule:
+    - cron: '30 6 * * *'
   push:
     paths:
       - 'data/skills-md/**/description_en.txt'
