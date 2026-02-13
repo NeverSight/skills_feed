@@ -1,0 +1,1 @@
+Laufzeit-Performance-Audit-Worker (L3). Überprüft blockierende E/A bei Asynchronität, unnötige Zuordnungen, Synchronisierungsschlaf bei Asynchronität, String-Concat in Schleifen, fehlendes to_thread für CPU-gebundene, redundante Datenkopien. Gibt Ergebnisse mit Schweregrad, Ort, Aufwand und Empfehlungen zurück.

@@ -1,0 +1,1 @@
+Validieren Sie die Bereitstellungskonfiguration von .deploy.env.common und .deploy.env.<ENV_MODE> für konfigurationsabhängige Phasen. Verwenden Sie es vor Make-basierten Bereitstellungsaktionen, um fehlende Variablen, ungültige Ports oder Compose-Probleme abzufangen.

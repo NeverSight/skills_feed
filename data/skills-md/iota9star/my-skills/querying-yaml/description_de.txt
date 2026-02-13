@@ -1,0 +1,1 @@
+Extrahiert mithilfe von yq effizient bestimmte Felder aus YAML-Dateien, anstatt ganze Dateien zu lesen, wodurch 80–95 % Kontext eingespart werden. Verwenden Sie diese Fähigkeit, wenn Sie YAML-Dateien abfragen, Konfigurationsdaten filtern/transformieren oder bestimmte Felder aus großen YAML-Dateien wie docker-compose.yml oder GitHub Actions-Workflows abrufen

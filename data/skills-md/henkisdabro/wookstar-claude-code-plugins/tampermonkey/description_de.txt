@@ -1,0 +1,8 @@
+Schreiben Sie Tampermonkey-Benutzerskripte für die Browserautomatisierung, Seitenänderung und Webverbesserung.
+Verwendung bei: Erstellen von Browser-Skripten, Schreiben von Greasemonkey-Skripten, Automatisieren von Benutzerinteraktionen,
+Einfügen von CSS oder JavaScript in Webseiten, Ändern des Website-Verhaltens, Erstellen von Browsererweiterungen,
+Ausblenden unerwünschter Seitenelemente, Hinzufügen von automatisch ausgefüllten Formularen, Scrapen von Website-Daten, Abfangen von Anfragen,
+Erkennen von URL-Änderungen in SPAs oder Speichern dauerhafter Benutzereinstellungen.
+Deckt Userscript-Header (@match, @grant, @require), synchrone und asynchrone GM_*-API-Funktionen ab,
+gängige Muster (DOM-Mutation, Erkennung von URL-Änderungen, Warten auf Elemente), Sicherheits-Sandboxing,
+und browserübergreifende Kompatibilität (Chrome, Firefox, Edge).

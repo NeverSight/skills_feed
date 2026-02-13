@@ -1,0 +1,5 @@
+Vor jeder destruktiven oder irreversiblen Operation (rm -rf, DROP TABLE, DELETE,
+Push erzwingen, Zweig löschen, abschneiden), einen Sicherheitszyklus orchestrieren: bewerten
+Explosionsradius → explizit bestätigen → dokumentieren, was passiert ist. Ketten vor dem Tod
+und sicher mit integrierter Dokumentation. Es wird kein gefährlicher Vorgang ausgeführt
+ohne Zeremonie.

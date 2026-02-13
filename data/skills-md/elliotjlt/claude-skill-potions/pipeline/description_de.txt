@@ -1,0 +1,4 @@
+Orchestrierungsmuster für sequentielle, abhängige Aufgaben. Wenn die Arbeit fließen muss
+durch Phasen, in denen jede Phase von der vorherigen abhängt (Design → Implementierung →).
+Test → Review), Struktur als Pipeline mit expliziten Übergaben. Jede Stufe
+abgeschlossen ist, bevor der nächste beginnt.

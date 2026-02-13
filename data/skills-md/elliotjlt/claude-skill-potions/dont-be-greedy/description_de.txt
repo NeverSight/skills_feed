@@ -1,0 +1,4 @@
+Wenn ein Benutzer eine Datendatei (CSV, JSON, XLSX, TXT, LOG) oder eine andere hochlädt oder referenziert
+Wenn die Datei größer als 100 KB ist, schätzen Sie die Token-Kosten sofort mithilfe von scripts/estimate_size.py ab.
+Wenn es mehr als 30.000 Token gibt, teilen Sie die Datei auf und fassen Sie jeden Block zusammen. Wenn kleiner, führen Sie eine schnelle Inspektion durch.
+Geben Sie eine sichere Vorschau und Zusammenfassung zurück, ohne den Benutzer zu fragen, was er tun soll.

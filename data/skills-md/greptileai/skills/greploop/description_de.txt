@@ -1,0 +1,1 @@
+Verbessert eine PR iterativ, bis Greptile ihr einen Konfidenzwert von 5/5 ohne ungelöste Kommentare gibt. Löst die Greptile-Überprüfung aus, behebt alle umsetzbaren Kommentare, Pushes, löst die Überprüfung erneut aus und wiederholt. Verwenden Sie diese Option, wenn der Benutzer eine PR vollständig anhand der Codeüberprüfungsstandards von Greptile optimieren möchte.

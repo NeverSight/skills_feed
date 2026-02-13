@@ -1,0 +1,14 @@
+Schreiben Sie OpenTofu/Terraform-Module und umfassende Tests für die Homelab-Infrastruktur.
+
+Wird verwendet, wenn: (1) neue OpenTofu- oder Terraform-Module erstellt werden, (2) .tftest.hcl-Testdateien geschrieben oder geändert werden,
+(3) Hinzufügen von Variablen, Ausgaben oder Ressourcen zu Modulen, (4) Debuggen von Testfehlern,
+(5) Modultestmuster verstehen, (6) Infrastruktur-Unit-Tests schreiben,
+(7) Fragen zur tftest-Syntax oder zu Behauptungen.
+
+Auslöser: „Opentofu-Modul“, „Terraform-Modul“, „Tofu-Modul“, „Modul erstellen“,
+„.tftest.hcl“, „tftest“, „test my module“, „module test“, „infrastructure test“,
+„Testinfrastruktur“, „Variablen.tf“, „Ausgaben.tf“, „Modultests“, „Behauptung“,
+„task tg:test“, „test-config“, „test failed“
+
+Diese Fertigkeit umfasst das Testen der OpenTofu v1.11-Syntax, variable Vererbungsmuster,
+Best Practices für die Behauptung und Repository-spezifische Konventionen in Infrastructure/Modules/.
