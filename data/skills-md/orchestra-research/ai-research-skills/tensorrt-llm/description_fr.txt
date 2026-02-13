@@ -1,0 +1,1 @@
+Optimise l'inférence LLM avec NVIDIA TensorRT pour un débit maximal et une latence la plus faible. À utiliser pour le déploiement en production sur des GPU NVIDIA (A100/H100), lorsque vous avez besoin d'une inférence 10 à 100 fois plus rapide que PyTorch, ou pour servir des modèles avec quantification (FP8/INT4), traitement par lots en vol et mise à l'échelle multi-GPU.

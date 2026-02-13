@@ -1,0 +1,1 @@
+Agent d'audit de l'exactitude des transactions (L3). Vérifie les validations intermédiaires manquantes, la portée de la transaction (trop large/étroite), la gestion des restaurations manquantes, les transactions conservées depuis longtemps, l'interaction de déclenchement/notification. Renvoie les résultats avec la gravité, l'emplacement, l'effort et les recommandations.

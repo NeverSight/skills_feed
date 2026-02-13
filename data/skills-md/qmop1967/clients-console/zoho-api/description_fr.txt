@@ -1,0 +1,7 @@
+Intégration de Zoho Books et de l'API Zoho Inventory pour la console clients TSH. À utiliser lorsque :
+(1) Création de nouvelles routes API qui appellent les points de terminaison Zoho
+(2) Débogage des erreurs d'API, des problèmes de jetons ou des limites de débit
+(3) Ajout de nouvelles fonctions de récupération de données Zoho
+(4) Comprendre la mise en cache des jetons OAuth avec Upstash Redis
+(5) Travailler avec des produits, des commandes, des factures, des paiements ou des notes de crédit
+(6) Dépannage « Contacter pour le prix » ou problèmes d'affichage des stocks

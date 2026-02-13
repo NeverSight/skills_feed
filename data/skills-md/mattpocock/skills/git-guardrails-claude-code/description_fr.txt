@@ -1,0 +1,1 @@
+Configurez les hooks Claude Code pour bloquer les commandes git dangereuses (push, reset --hard, clean, branch -D, etc.) avant leur exécution. À utiliser lorsque l'utilisateur souhaite empêcher les opérations git destructrices, ajouter des hooks de sécurité git ou bloquer git push/reset dans Claude Code.

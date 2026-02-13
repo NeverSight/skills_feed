@@ -1,0 +1,4 @@
+Consolidez la mémoire de Claude Code dans les arbres de travail git afin que toutes les branches du
+le même référentiel partage un seul répertoire mémoire. À utiliser lorsque la mémoire est isolée par
+worktree, lorsque le changement de branche perd son contexte ou lors de la configuration d'un nouveau
+machine avec des flux de travail basés sur des arbres de travail.

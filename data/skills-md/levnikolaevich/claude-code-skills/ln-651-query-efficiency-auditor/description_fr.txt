@@ -1,0 +1,1 @@
+Interrogateur d’audit d’efficacité (L3). Vérifie les récupérations d'entités redondantes, les boucles N-UPDATE/DELETE, les résolutions inutiles, la récupération excessive, les opérations groupées manquantes, la portée de mise en cache incorrecte. Renvoie les résultats avec la gravité, l'emplacement, l'effort et les recommandations.

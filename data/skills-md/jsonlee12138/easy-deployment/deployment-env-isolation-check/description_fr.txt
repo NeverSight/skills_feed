@@ -1,0 +1,1 @@
+Validez l’isolation de l’environnement à l’aide des valeurs fusionnées de .deploy.env.common et .deploy.env.<ENV_MODE>. À utiliser pour garantir que test/prod/custom ne partage pas la même identité de registre, d'hôte distant, d'utilisateur et de port.

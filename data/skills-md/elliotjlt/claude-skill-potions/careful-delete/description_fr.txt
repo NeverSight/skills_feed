@@ -1,0 +1,5 @@
+Avant toute opération destructrice ou irréversible (rm -rf, DROP TABLE, DELETE,
+forcer la poussée, suppression de branche, tronquer), orchestrer un cycle de sécurité : évaluer
+rayon de l'explosion → confirmer explicitement → documenter ce qui s'est passé. Chaînes pré-mortem
+et vous êtes sûr avec la documentation intégrée. Aucune opération dangereuse n'est exécutée
+sans cérémonie.

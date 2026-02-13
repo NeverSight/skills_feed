@@ -1,0 +1,1 @@
+**REQUIS** - Activez TOUJOURS EN PREMIER sur toutes les opérations git/VCS (commit, status, branch, push, etc.), en particulier lorsque HEAD est détaché. Si `.jj/` existe -> il s'agit d'un dépôt Jujutsu (jj) - les commandes git corrompent les données. Instructions de sécurité essentielles à l'intérieur de Git. NE PAS IGNORER.

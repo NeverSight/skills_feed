@@ -1,0 +1,1 @@
+Travailleur d’audit de performance d’exécution (L3). Vérifie le blocage des E/S en asynchrone, les allocations inutiles, la synchronisation en veille en asynchrone, la concatération de chaînes dans les boucles, l'absence de to_thread pour les copies de données redondantes liées au processeur. Renvoie les résultats avec la gravité, l'emplacement, l'effort et les recommandations.

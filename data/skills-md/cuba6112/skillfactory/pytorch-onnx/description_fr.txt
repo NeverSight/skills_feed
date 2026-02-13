@@ -1,0 +1,1 @@
+Exportation de modèles PyTorch au format ONNX pour un déploiement multiplateforme. Comprend la gestion des axes dynamiques, l'optimisation des graphiques dans ONNX Runtime et la quantification du modèle INT8. (onnx, onnxruntime, torch.onnx.export, Dynamic_axes, pliage constant, déploiement Edge)

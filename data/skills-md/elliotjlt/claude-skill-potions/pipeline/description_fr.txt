@@ -1,0 +1,4 @@
+Modèle d'orchestration pour les tâches séquentielles et dépendantes. Quand le travail doit couler
+à travers des étapes où chaque étape dépend de la précédente (conception → mise en œuvre →
+test → révision), structure sous forme de pipeline avec des transferts explicites. Chaque étape
+se termine avant le début du suivant.

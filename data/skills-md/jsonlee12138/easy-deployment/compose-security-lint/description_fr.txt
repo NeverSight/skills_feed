@@ -1,0 +1,1 @@
+Lint Docker Composez des fichiers pour les environnements de déploiement Makefile-first à l'aide de .deploy.env.common + .deploy.env.<ENV_MODE>. À utiliser lors de la validation des fichiers de composition locaux/test/prod/custom pour la déclaration d'image/build, le redémarrage, le contrôle de santé, la journalisation et les paramètres réseau externes.

@@ -1,0 +1,1 @@
+Validez la configuration du déploiement à partir de .deploy.env.common et .deploy.env.<ENV_MODE> pour les étapes dépendantes de la configuration. À utiliser avant les actions de déploiement basées sur make pour détecter les variables manquantes, les ports non valides ou les problèmes de composition.

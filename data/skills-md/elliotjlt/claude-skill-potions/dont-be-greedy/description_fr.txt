@@ -1,0 +1,4 @@
+Lorsqu'un utilisateur télécharge ou référence un fichier de données (CSV, JSON, XLSX, TXT, LOG) ou tout autre
+fichier de plus de 100 Ko, estimez immédiatement le coût du jeton à l'aide de scripts/estimate_size.py.
+Si > 30 000 jetons, fragmentez le fichier et résumez chaque fragment. S'il est plus petit, effectuez une inspection rapide.
+Renvoyez un aperçu et un résumé sécurisés sans demander à l’utilisateur quoi faire.
