@@ -1,0 +1,1 @@
+迭代运行本地 Supabase 重置、数据库测试和类型生成，直至成功，从而修复运行之间的问题。当要求重置本地 Supabase DB、运行“supabase test db”并在循环中重新生成类型（“npm run gen-types”）时使用。

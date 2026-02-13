@@ -1,0 +1,1 @@
+Azure Key Vault 与 .NET 应用程序的托管标识集成。在以下情况下使用：(1) 实现 Azure Key Vault 作为配置源，(2) 使用 DefaultAzureCredential 设置托管身份验证，(3) 在基础结构中创建 AddAzureKeyVault 扩展方法，(4) 配置 Key Vault 机密和命名约定，(5) 有关本地开发身份验证的问题，(6) 实现自定义 KeyVaultSecretManager，或 (7) 对 Key Vault 访问和权限进行故障排除。

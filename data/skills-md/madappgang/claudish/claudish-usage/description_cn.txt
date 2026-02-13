@@ -1,0 +1,1 @@
+关键 - 仅通过子代理使用 Claudish CLI 来使用任何 AI 模型（OpenRouter、Gemini、OpenAI、本地模型）运行 Claude Code 的指南。除非用户明确请求，否则切勿直接在主上下文中运行 Claudish。当用户提到外部 AI 模型、Claudish、OpenRouter、Gemini、OpenAI、Ollama 或替代模型时使用。包括强制子代理委托模式、代理选择指南、基于文件的指令以及防止上下文窗口污染的严格规则。

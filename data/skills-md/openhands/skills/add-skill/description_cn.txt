@@ -1,0 +1,1 @@
+将外部技能从 GitHub 存储库添加到当前工作区。当用户想要从 GitHub URL 导入、安装或添加技能时使用（例如，“/add-skill https://github.com/OpenHands/skills/tree/main/skills/codereview”或“从 https://github.com/OpenHands/skills/ 添加 codereview 技能”）。处理获取技能文件并将其放入 .openhands/skills/ 中。

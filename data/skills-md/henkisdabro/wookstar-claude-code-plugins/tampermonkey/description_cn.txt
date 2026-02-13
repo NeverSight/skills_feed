@@ -1,0 +1,8 @@
+编写 Tampermonkey 用户脚本以实现浏览器自动化、页面修改和 Web 增强。
+使用场合：创建浏览器脚本、编写greasemonkey脚本、自动化用户交互、
+将 CSS 或 JavaScript 注入网页、修改网站行为、构建浏览器扩展、
+隐藏不需要的页面元素，添加表单自动填充，抓取网站数据，拦截请求，
+检测 SPA 中的 URL 更改，或存储持久的用户首选项。
+涵盖用户脚本标头（@match、@grant、@require）、同步和异步 GM_* API 函数，
+常见模式（DOM 突变、URL 更改检测、元素等待）、安全沙箱、
+和跨浏览器兼容性（Chrome、Firefox、Edge）。

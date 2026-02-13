@@ -1,0 +1,1 @@
+使用 Cloudbase Agent (TypeScript) 构建和部署 AI 代理，Cloudbase Agent (TypeScript) 是一种实现 AG-UI 协议的 TypeScript SDK。在以下情况下使用：(1) 使用 @cloudbase/agent-server 部署代理服务器，(2) 使用带有 ClientStateAnnotation 的 LangGraph 适配器，(3) 使用带有 clientTools() 的 LangChain 适配器，(4) 构建实现 AbstractAgent 的自定义适配器，(5) 了解 AG-UI 协议事件，(6) 使用 @ag-ui/client 构建 Web UI 客户端，(7) 使用 @cloudbase/agent-ui-miniprogram 构建微信小程序 UI。

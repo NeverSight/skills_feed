@@ -1,0 +1,1 @@
+使用 React Native 测试库 (RNTL) v13 和 v14 (`@testing-library/react-native`) 编写测试。在编写、审查或修复 React Native 组件测试时使用。涵盖：渲染、屏幕、查询（getBy/getAllBy/queryBy/findBy）、Jest 匹配器、userEvent、fireEvent、waitFor 和异步模式。支持 v13（React 18，同步渲染）和 v14（React 19+，异步渲染）。触发条件：React Native 组件的测试文件、RNTL 导入、提及“测试库”、“编写测试”、“组件测试”或“RNTL”。

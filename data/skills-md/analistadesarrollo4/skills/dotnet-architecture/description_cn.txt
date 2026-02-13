@@ -1,0 +1,1 @@
+.NET 解决方案的 DDD 和 CQRS 架构：域建模（实体、聚合、值对象）、CQRS 模式（使用 MediatR 的命令/查询）、层边界和基础架构组合。在以下情况下使用：(1) 设计域模型或聚合边界，(2) 实现命令、查询或处理程序，(3) 有关实体、值对象与域服务的问题，(4) 结构化层（域、应用程序、基础设施、表示），(5) 在基础设施/扩展中使用扩展方法设置 DI，(6) 创建 AddPersistence、AddRepositories、AddServices、AddExternalServices、AddConfigurations 或 AddKeyVault 方法，或 (7)组织Program.cs组成。

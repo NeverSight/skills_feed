@@ -1,0 +1,1 @@
+使用 .deploy.env.common 和 .deploy.env.<ENV_MODE> 中的合并值验证环境隔离。当确保 test/prod/custom 不共享相同的注册表、远程主机、用户和端口标识时使用。

@@ -1,0 +1,1 @@
+Node.js 的高性能结构化 JSON 日志记录。在构建需要快速、结构化日志的可观察平台（Datadog、ELK、CloudWatch）的生产 API 时使用。提供请求日志记录中间件、上下文子记录器和敏感数据编辑。对于任何生产 TypeScript 后端，请选择 Pino 而不是 console.log。

@@ -1,0 +1,1 @@
+此技能提供 Zig 0.15.x API 指导，应在编写或审查 Zig 代码时使用。它确保 Zig 0.15 API 的正确使用，防止使用过时的 0.11/0.12/0.13/0.14 模式而出现常见错误。对于 ArrayList、std.Io.Writer/Reader (Writergate)、HTTP 客户端、Ed25519、JSON 和类型自省 API 至关重要。

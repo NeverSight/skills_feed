@@ -1,0 +1,1 @@
+使用测试库编写、审查或重构 React 组件测试时使用。当您看到 render()、screen、fireEvent、userEvent、waitFor 或 *.test.tsx 文件时加载。涵盖查询优先级（getByRole > getByLabelText > getByText）、以用户为中心的测试模式、异步实用程序、使用提供程序的自定义呈现以及可访问性优先的断言。关键字包括 RTL、测试库、屏幕、getByRole、findBy、queryBy、userEvent、waitFor、toBeInTheDocument、testing-library/react、testing-library/user-event、jest-dom。

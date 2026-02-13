@@ -1,0 +1,1 @@
+从 .deploy.env.common 和 .deploy.env.<ENV_MODE> 验证依赖于配置的阶段的部署配置。在基于 make 的部署操作之前使用来捕获丢失的变量、无效的端口或组合问题。

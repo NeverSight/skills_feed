@@ -1,0 +1,1 @@
+诊断并修复 macOS 上的 Tailscale 和代理/VPN 工具（Shadowrocket、Clash、Surge）之间的冲突。涵盖两种冲突类型 - 路由劫持（代理 TUN 覆盖 Tailscale 路由）和 HTTP 代理环境变量拦截（http_proxy/NO_PROXY 配置错误）。当 Tailscale ping 正常但 SSH/HTTP 超时、curl 到 Tailscale IP 返回空/超时时或设置 Tailscale SSH 到 WSL 实例时使用。
