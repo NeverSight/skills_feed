@@ -1,0 +1,8 @@
+AI Agent long-term memory system with cross-session, cross-project persistence.
+Triggers:
+- /remember - Store memories
+- /recall - Search memories
+- /forget - Delete/archive memories
+- /memory-status - Check status
+- When needing to persist important conversation insights
+- When sharing user preferences across projects
