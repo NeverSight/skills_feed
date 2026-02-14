@@ -1,0 +1,1 @@
+Govilo에 파일을 업로드하고 Bot API를 통해 잠금 해제 링크를 생성하세요. 다음 경우에 사용하십시오: (1) ZIP, 폴더 또는 개별 파일에서 Govilo 잠금 해제 링크 생성, (2) 미리 서명된 URL을 사용하여 Govilo R2 스토리지에 파일 업로드 자동화, (3) Govilo Bot API 상호 작용 관리(사전 서명 → 업로드 → 항목 생성). GOVILO_API_KEY 및 SELLER_ADDRESS 환경 변수가 필요합니다. 누락된 경우 사용자에게 https://govilo.xyz/에 등록하도록 안내합니다.

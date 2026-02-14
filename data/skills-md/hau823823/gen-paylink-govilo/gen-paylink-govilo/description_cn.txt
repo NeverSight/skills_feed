@@ -1,0 +1,1 @@
+将文件上传到 Govilo 并通过 Bot API 生成解锁链接。在以下情况下使用：(1) 从 ZIP、文件夹或单个文件创建 Govilo 解锁链接，(2) 使用预签名 URL 自动将文件上传到 Govilo R2 存储，(3) 管理 Govilo Bot API 交互（预签名 → 上传 → 创建项目）。需要 GOVILO_API_KEY 和 SELLER_ADDRESS 环境变量。如果缺少，则引导用户在 https://govilo.xyz/ 上注册。
