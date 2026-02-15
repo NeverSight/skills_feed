@@ -1,0 +1,1 @@
+控製互動終端應用程序，例如 vim、git rebase -i、git add -i、git add -p、apt、rclone config、sudo、w3m 和 TUI 應用程式。也可以監督另一個 CLI LLM（遊標代理、codex 等） - 透過在確認提示時按 y/n 來批准或拒絕其操作。當您需要與需要鍵盤輸入、顯示提示、選單或具有全螢幕介面的應用程式互動時使用。當命令失敗或因“輸入不是終端”或“輸出不是終端”等錯誤而掛起時也可以使用。比特定於應用程式的駭客（例如 GIT_SEQUENCE_EDITOR）或透過檔案使用繞過互動性更好。

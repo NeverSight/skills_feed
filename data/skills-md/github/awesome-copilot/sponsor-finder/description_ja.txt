@@ -1,0 +1,1 @@
+GitHub スポンサーを介して、GitHub リポジトリの依存関係のどれがスポンサーになっているかを見つけます。 npm、PyPI、Cargo、Go、RubyGems、Maven、NuGet にわたる依存関係の解決に deps.dev API を使用します。 npm ファンディング メタデータ、FUNDING.yml ファイル、および Web 検索をチェックします。すべてのリンクを検証します。 OSSF スコアカードの健全性データとの直接的および推移的な依存関係を示します。 GitHub の所有者/リポジトリを指定して呼び出します (例: 「expressjs/express でスポンサー可能な依存関係を見つける」)。

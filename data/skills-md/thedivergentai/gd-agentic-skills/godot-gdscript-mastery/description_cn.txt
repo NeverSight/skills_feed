@@ -1,0 +1,1 @@
+专家 GDScript 最佳实践，包括静态类型（var x: int, func 返回 void）、信号架构（signal up call down）、唯一节点访问（%NodeName、@onready）、脚本结构（extends、class_name、信号、导出、方法）和性能模式（使用默认值的 dict.get，避免循环中的 get_node）。用于代码审查、重构或建立项目标准。触发关键字：static_typing、signal_architecture、unique_nodes、@onready、class_name、signal_up_call_down、gdscript_style_guide。

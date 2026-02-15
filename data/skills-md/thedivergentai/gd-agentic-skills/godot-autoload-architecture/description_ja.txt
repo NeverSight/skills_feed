@@ -1,0 +1,1 @@
+Godot AutoLoad (シングルトン) アーキテクチャのエキスパート パターン。グローバル ステート管理、シーン遷移、シグナルベースの通信、依存関係の挿入、オートロードの初期化順序、回避すべきアンチパターンなど。ゲーム マネージャー、セーブ システム、オーディオ コントローラー、またはクロスシーン リソースに使用します。トリガーキーワード: AutoLoad、singleton、GameManager、SceneTransitioner、SaveManager、global_state、autoload_order、signal_bus、dependency_injection。

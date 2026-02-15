@@ -1,0 +1,1 @@
+控制交互式终端应用程序，例如 vim、git rebase -i、git add -i、git add -p、apt、rclone config、sudo、w3m 和 TUI 应用程序。还可以监督另一个 CLI LLM（光标代理、codex 等） - 通过在确认提示时按 y/n 来批准或拒绝其操作。当您需要与需要键盘输入、显示提示、菜单或具有全屏界面的应用程序交互时使用。当命令失败或因“输入不是终端”或“输出不是终端”等错误而挂起时也可以使用。比特定于应用程序的黑客（例如 GIT_SEQUENCE_EDITOR）或通过文件使用绕过交互性更好。

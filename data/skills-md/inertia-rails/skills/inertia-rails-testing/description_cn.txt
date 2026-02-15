@@ -1,0 +1,1 @@
+使用 RSpec 和 Minitest 测试 Inertia Rails 响应：组件断言、道具匹配、闪存验证、延迟道具和部分重新加载助手。在为 Inertia 页面编写控制器规范、请求规范或集成测试时使用。始终使用匹配器（render_component、have_props、have_flash），而不是直接访问（inertia.component、inertia.props）。关键：使用重定向进行 POST/PATCH/DELETE 后，必须调用 follow_redirect！在声明 flash 或 props 之前 - 没有它，您将针对 302 进行声明，而不是针对 Inertia 页面。设置：需要“inertia_rails/rspec”。

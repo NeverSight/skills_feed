@@ -1,0 +1,1 @@
+Hotwire 양식 워크플로 처리: 양식 제출 수명 주기, 인라인 편집, 유효성 검사 오류, 자동 완성/자동 완성, 모달 양식 및 외부 양식 제어. 핵심 문제가 형태 상호 작용의 정확성과 UX인 경우 이 스킬을 선호합니다. 페이지 매김/탭/필터 탐색에는 hwc-navigation-content를 사용하고, WebSocket/Turbo 스트림 브로드캐스팅에는 hwc-realtime-streaming을, 이미지/비디오/오디오 동작에는 hwc-media-content를, 일반 로딩/전환 개선에는 hwc-ux-feedback을, 양식에 연결되지 않은 프레임워크 수준 Stimulus API에는 hwc-simulus-fundamentals를 사용하세요.

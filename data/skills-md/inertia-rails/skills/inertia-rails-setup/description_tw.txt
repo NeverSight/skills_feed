@@ -1,0 +1,1 @@
+Inertia Rails 技能的一次性項目初始化程序。從 Gemfile 和 package.json 偵測堆疊和前端框架 (React/Vue/Svelte)，提供安裝建議的 deps（alba-inertia、js-routes、pagy、shadcn），並產生 CLAUDE.md 部分來設定應用哪些技能模式。首次安裝這些技能、引導新的 Inertia Rails 專案或堆疊發生變更時使用。

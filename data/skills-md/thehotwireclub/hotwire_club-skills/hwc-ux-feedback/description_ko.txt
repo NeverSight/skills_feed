@@ -1,0 +1,1 @@
+로딩 상태, 사용 중 표시기, 진행률 표시줄, 낙관적 UI, 렌더링 가로채기, 보기/페이지 전환 등 크로스커팅 Hotwire UX 피드백 패턴을 구현합니다. 단일 기능 영역과 관계없이 핵심 목표가 인지된 성능 및 사용자 피드백인 경우 이 기술을 선호합니다. 양식 정확성 및 유효성 검사 동작에는 hwc-forms-validation을 사용하고, 탐색/기록/캐시 메커니즘에는 hwc-navigation-content를, 푸시/스트림 조정에는 hwc-realtime-streaming을, 미디어별 동작에는 hwc-media-content를, 기본 Stimulus API 질문에는 hwc-simulus-fundamentals를 사용하세요.

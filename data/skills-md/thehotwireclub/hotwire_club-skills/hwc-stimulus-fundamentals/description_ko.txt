@@ -1,0 +1,1 @@
+Stimulus 컨트롤러 기본 사항: 수명 주기 후크, 값 및 valueChanged 콜백, 대상 및 대상 콜백, 콘센트, 작업 매개변수, 키보드 이벤트 및 컨트롤러 아키텍처 패턴을 다룹니다. 요청이 주로 특정 Hotwire 도메인과 독립적인 Stimulus API 및 컨트롤러 설계에 관한 것일 때 이 기술을 선호합니다. 양식별 워크플로에는 hwc-forms-validation을 사용하고, 터보 탐색 문제에는 hwc-navigation-content를, 터보 스트림/WebSocket 패턴에는 hwc-realtime-streaming을, 미디어 통합에는 hwc-media-content를, UX 패턴 로드/진행/전환에는 hwc-ux-feedback을 사용하세요.
