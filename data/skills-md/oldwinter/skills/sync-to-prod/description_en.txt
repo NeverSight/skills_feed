@@ -1,0 +1,1 @@
+This skill should be used when users need to sync/promote configuration from staging (aws-staging) to production (aws-prod) environment. It handles image tag synchronization, identifies configuration differences, and manages the promotion workflow. Triggers on requests mentioning "sync to prod", "promote to production", "update prod images", or comparing staging vs production.

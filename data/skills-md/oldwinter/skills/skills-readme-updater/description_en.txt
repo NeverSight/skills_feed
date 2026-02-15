@@ -1,0 +1,1 @@
+This skill should be used after creating or modifying skills to update the main README.md file. It scans all skills in ~/.claude/skills/, extracts metadata from SKILL.md files, and regenerates the README with categorized skill listings. Triggers on requests mentioning "update skills readme", "refresh skills list", or after adding new skills.
