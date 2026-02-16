@@ -1,0 +1,1 @@
+デスクトップ ゲームをモバイルに移植するための専門的なパターン。これには、タッチ コントロール スキーム (仮想ジョイスティック、ジェスチャ検出)、小さな画面の UI スケーリング、モバイル GPU のパフォーマンスの最適化、バッテリー寿命管理、プラットフォーム固有の機能が含まれます。モバイル ポートまたはクロスプラットフォーム モバイル ビルドを作成するときに使用します。トリガーキーワード: TouchScreenButton、virtual_joystick、gesture_detector、InputEventScreenTouch、InputEventScreenDrag、mobile_optimization、battery_ Saving、adaptive_performance、MOBILE_ENABLED。
