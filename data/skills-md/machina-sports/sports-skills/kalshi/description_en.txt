@@ -1,0 +1,4 @@
+Kalshi prediction markets — events, series, markets, trades, and candlestick data. Public API, no auth required for reads. US-regulated exchange (CFTC). Covers soccer, basketball, baseball, tennis, NFL, hockey event contracts.
+
+Use when: user asks about Kalshi-specific markets, event contracts, CFTC-regulated prediction markets, or candlestick/OHLC price history on sports outcomes.
+Don't use when: user asks about actual match results, scores, or statistics — use football-data or fastf1 instead. Don't use for general "who will win" questions unless Kalshi is specifically mentioned — try polymarket first (broader sports coverage). Don't use for news — use sports-news instead.

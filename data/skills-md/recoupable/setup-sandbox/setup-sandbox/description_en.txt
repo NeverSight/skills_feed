@@ -1,0 +1,1 @@
+Set up the initial file system for a new sandbox. Fetches the account's organizations and artists via the Recoup CLI and scaffolds an opinionated folder structure. Use when a sandbox has just been created and has no existing file system. Before running, check if the sandbox already has an orgs/ directory — if it does, this skill is not needed.

@@ -1,0 +1,12 @@
+**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.
+
+**READ THIS FIRST** before any MCP server work, including:
+- Creating new MCP servers
+- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)
+- Debugging MCP server issues or errors
+- Reviewing MCP server code for quality, security, or performance
+- Answering questions about MCP development or mcp-use patterns
+- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets
+
+This skill contains critical architecture decisions, security patterns, and common pitfalls.
+Always consult the relevant reference files BEFORE implementing MCP features.

@@ -1,0 +1,7 @@
+Reverse engineer a detailed product and technical specification document from a git branch's
+implementation. Use when: (1) a branch has shipped or is in-progress and needs documentation,
+(2) you need to understand what a branch does at product and architecture level, (3) onboarding
+to someone else's feature branch, (4) creating PR descriptions or design docs after the fact,
+(5) user asks to "analyze this branch", "write a spec from the code", or "document what this
+branch does". Produces a structured markdown spec covering problem statement, product requirements,
+architecture, technical design, file inventories, testing strategy, rollout plan, and risks.
