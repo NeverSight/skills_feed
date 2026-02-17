@@ -1,0 +1,1 @@
+Inertia Rails + React 的服务器驱动架构模式。在构建任何 Inertia 页面或功能时，请首先加载此内容 - 它会路由到正确的技能。数据加载、表单、导航、状态管理的决策矩阵。永远不要使用Effect+fetch，永远不要将redirect_to用于外部URL（使用inertia_location），永远不要react-hook-form（使用Form组件）。添加页面、带有视图的模型、CRUD 或在 Inertia Rails 应用程序中显示数据时必须调用。始终使用“渲染惯性：{ key：value }”来传递数据 - “@ivars”不会作为 props 自动传递。

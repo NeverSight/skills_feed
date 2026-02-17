@@ -1,0 +1,1 @@
+Inertia Rails React 的 shadcn/ui 组件集成（不是 Next.js）：表单、对话框、表格、toast、暗模式、命令面板等。在 Inertia 应用程序中使用 shadcn/ui 组件构建 UI 或改编 Next.js 中的 shadcn 示例时使用。切勿使用react-hook-form/zod — 通过 name 属性将 shadcn 输入连接到 Inertia Form。 Flash toast 需要 Rails flash_keys 初始化程序配置。

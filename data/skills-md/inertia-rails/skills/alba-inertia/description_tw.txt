@@ -1,0 +1,1 @@
+Alba 序列化器 + Typelizer，用於具有自動產生的 TypeScript 類型的類型安全性 Inertia Rails 屬性。在序列化 Inertia 回應模型、設定 Alba 資源、從 Ruby 產生 TypeScript 類型或使用具有 Alba 屬性的 Inertia 屬性選項（延遲、一次、合併、捲動）時使用。將 as_json 替換為結構化、自動類型的 ApplicationResource、頁面資源和共用 props 資源。啟動時，會覆寫其他技能中的「渲染慣性：{ ... }」模式 - 使用基於約定的實例變數渲染。

@@ -1,0 +1,1 @@
+자동 생성된 TypeScript 유형을 사용하는 유형 안전 Inertia Rails 소품을 위한 Alba 직렬 변환기 + Typelizer. 관성 응답을 위한 모델 직렬화, Alba 리소스 설정, Ruby에서 TypeScript 유형 생성 또는 Alba 속성과 함께 Inertia prop 옵션(지연, 한 번, 병합, 스크롤)을 사용할 때 사용합니다. as_json을 구조화된 자동 유형 ApplicationResource, 페이지 리소스 및 공유 소품 리소스로 대체합니다. 활성화되면 다른 기술의 `render inertia: { ... }` 패턴을 재정의합니다. 대신 규칙 기반 인스턴스 변수 렌더링을 사용합니다.

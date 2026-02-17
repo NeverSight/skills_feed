@@ -1,0 +1,1 @@
+用于多平台导出的专家模式，包括导出模板 (Windows/Linux/macOS/Android/iOS/Web)、命令行导出（无头模式）、特定于平台的设置（协同设计、公证、Android SDK）、功能标志 (OS.has_feature)、CI/CD 管道 (GitHub Actions) 和构建优化（大小缩减、调试剥离）。用于发布准备或自动化部署。触发关键字：export_preset、export_template、headless_export、platform_specific、feature_flag、CI_CD、build_optimization、codesign、Android_SDK。
