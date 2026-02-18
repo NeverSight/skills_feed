@@ -1,0 +1,1 @@
+Generieren Sie Go-Cache-Implementierungen gemäß den Konventionen der modularen GO-Architektur. Verwendung beim Erstellen von Cache-Ebenen in internal/modules/<module>/cache/ – Benutzerstatus-Caching, Sitzungs-Caching, ratenbegrenzende Daten, temporärer Datenspeicher oder jeder Domänen-Cache, der Redis für schnellen Datenzugriff mit TTL-Unterstützung verwendet.

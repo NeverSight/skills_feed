@@ -1,0 +1,5 @@
+Erstellen Sie anspruchsvolle React-Animationen mit Motion (ehemals Framer Motion) – deklarative Animationen, Gesten (Ziehen, Schweben, Tippen), Scroll-Effekte, Federphysik, Layout-Animationen und SVG-Manipulation. Optimieren Sie die Bundle-Größe mit LazyMotion (4,6 KB) oder verwenden SieAnimate mini (2,3 KB).
+
+Verwendung bei: Hinzufügen von Drag-and-Drop-Interaktionen, Erstellen von durch Scrollen ausgelösten Animationen, Implementieren modaler Dialoge mit Übergängen, Erstellen von Karussells mit Dynamik, Animieren von Seiten-/Routenübergängen, Erstellen von Parallax-Hero-Abschnitten, Implementieren von Akkordeons mit sanftem Erweitern/Reduzieren oder Optimieren der Größe von Animationspaketen. Verwenden Sie für einfache Listenanimationen stattdessen die Fähigkeit zur automatischen Animation (3,28 KB gegenüber 34 KB).
+
+Fehlerbehebung: AnimatePresence-Exit funktioniert nicht, Leistungsprobleme bei großen Listen, Tailwind-Übergangskonflikte, Next.js-„Client verwenden“-Fehler, Probleme mit dem scrollbaren Containerlayout oder Cloudflare Workers-Buildfehler (behoben im Dezember 2024).
