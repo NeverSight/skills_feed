@@ -1,0 +1,5 @@
+Créez des animations React sophistiquées avec Motion (anciennement Framer Motion) : animations déclaratives, gestes (glisser, survoler, appuyer), effets de défilement, physique des ressorts, animations de mise en page et manipulation SVG. Optimisez la taille du bundle avec LazyMotion (4,6 Ko) ou utilisez Animate mini (2,3 Ko).
+
+À utiliser lorsque : l'ajout d'interactions par glisser-déposer, la création d'animations déclenchées par défilement, la mise en œuvre de dialogues modaux avec des transitions, la création de carrousels avec élan, l'animation de transitions de page/itinéraire, la création de sections de héros de parallaxe, la mise en œuvre d'accordéons avec une expansion/réduction fluide ou l'optimisation de la taille des paquets d'animation. Pour les animations de liste simples, utilisez plutôt la compétence d’animation automatique (3,28 Ko contre 34 Ko).
+
+Dépannage : la sortie AnimatePresence ne fonctionne pas, problèmes de performances de grande liste, conflits de transition Tailwind, erreurs d'utilisation du client Next.js, problèmes de disposition des conteneurs défilants ou erreurs de construction Cloudflare Workers (résolues en décembre 2024).

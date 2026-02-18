@@ -1,0 +1,1 @@
+../../../skills/01-scout/SKILL.md
