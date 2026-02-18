@@ -1,0 +1,1 @@
+格斗游戏的专家蓝图，包括帧数据（启动/活动/恢复帧、命中/格挡优势）、命中箱/伤害箱系统、输入缓冲（5-10帧）、运动输入检测（QCF、DP）、组合系统（伤害缩放、取消层次结构）、角色状态（空闲/攻击/命中/阻挡）和回滚网络代码。基于FGC竞争性设计。触发关键字：fighting_game、frame_data、hitbox_hurtbox、input_buffer、motion_inputs、combo_system、rollback_netcode、cancel_system、advantage_frames。

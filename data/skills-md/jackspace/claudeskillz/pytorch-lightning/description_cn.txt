@@ -1,0 +1,1 @@
+深度学习框架（PyTorch Lightning）。将 PyTorch 代码组织到 LightningModules 中，为多 GPU/TPU 配置训练器，实现数据管道、回调、日志记录（W&B、TensorBoard）、分布式训练（DDP、FSDP、DeepSpeed），以进行可扩展的神经网络训练。

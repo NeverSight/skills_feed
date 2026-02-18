@@ -1,0 +1,1 @@
+节奏游戏的专家蓝图，包括音频同步（BPM指挥、使用AudioServer.get_time_since_last_mix进行延迟补偿）、音符高速公路（滚动速度、计时窗口）、判断系统（完美/伟大/好/坏/错过）、使用组合乘数进行评分、输入处理（基于通道、保持音符检测）以及图表/节拍图加载。基于 DDR/osu!/Beat Saber 研究。触发关键字：rhythm_game、audio_sync、timing_judgment、note_highway、combo_system、BPM_conductor、latency_compensation。

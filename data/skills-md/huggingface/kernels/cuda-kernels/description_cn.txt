@@ -1,0 +1,1 @@
+提供针对针对 HuggingFace 扩散器和变压器库的 NVIDIA GPU（H100、A100、T4）编写和基准测试优化 CUDA 内核的指南。支持 LTX-Video、Stable Diffusion、LLaMA、Mistral 和 Qwen 等模型。包括与 HuggingFace Kernels Hub (get_kernel) 的集成，用于加载预编译的内核。包括基准测试脚本，用于将内核性能与基准实现进行比较。

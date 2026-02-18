@@ -1,0 +1,1 @@
+将多人游戏添加到单人游戏的专家模式，包括客户端-服务器架构、权威服务器设计、MultiplayerSynchronizer、滞后补偿（客户端预测、服务器协调）、输入缓冲和反作弊措施。在改造多人游戏、移植到在线游戏或设计网络游戏时使用。触发关键字：MultiplayerPeer、ENetMultiplayerPeer、SceneMultiplayer、MultiplayerSynchronizer、rpc、rpc_id、multiplayer_authority、client_prediction、server_reconciliation、lag_compensation、rollback。

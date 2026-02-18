@@ -1,0 +1,1 @@
+实现实时 Hotwire 行为：通过 WebSocket/SSE 的 Turbo Streams、自定义流操作、内联流标签、实时列表更新和跨选项卡状态同步。当核心问题是基于推送的更新或流操作编排时，首选此技能。使用 hwc-navigation-content 进行基于拉取的分页/选项卡/惰性导航流程，使用 hwc-forms-validation 进行表单生命周期和验证，使用 hwc-media-content 进行媒体上传/播放行为，使用 hwc-ux-feedback 进行通用加载/进度/转换，使用 hwc-stimulus-fundamentals 进行非流 Stimulus 基础知识。
