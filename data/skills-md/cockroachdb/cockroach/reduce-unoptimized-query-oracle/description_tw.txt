@@ -1,0 +1,1 @@
+將未最佳化的查詢 Oracle 測試失敗日誌減少到盡可能簡單的重現情況。當您有來自失敗的 roachtest 的 unoptimized-query-oracle*.log 檔案並且需要找到最小 SQL 來重現錯誤時使用。

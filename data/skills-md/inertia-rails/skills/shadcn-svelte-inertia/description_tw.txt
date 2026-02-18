@@ -1,0 +1,1 @@
+Inertia Rails Svelte（不是 SvelteKit）的 shadcn-svelte (bits-ui) 元件整合：表單、對話方塊、表格、Toast、深色模式等。在 Inertia + Svelte 應用程式中使用 shadcn-svelte 元件建立 UI 或改編 SvelteKit 中的 shadcn-svelte 範例時使用。透過名稱屬性和 {#snippet} 語法將 shadcn-svelte 輸入連接到 Inertia Form。 Flash toast 需要 Rails flash_keys 初始化程式設定。

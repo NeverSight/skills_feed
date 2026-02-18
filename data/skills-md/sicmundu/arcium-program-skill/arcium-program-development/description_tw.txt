@@ -1,0 +1,1 @@
+跨 Arcis 電路（「加密的 ixs」）和錨程式（「programs/*」）建置、重構和偵錯 Arcium MXE 程式碼。在實現機密指令、連接 `init_comp_def`/`queue_computation`/callbacks、派生 Arcium PDA 和回調帳戶、處理加密的 I/O 和偏移、解析生成的回調輸出結構、構建權限門控流程、集成鏈下電路源、使用 `@arcium-hq/client` 進行測試、部署 MXE 或遷移 Arcium 版本時使用。

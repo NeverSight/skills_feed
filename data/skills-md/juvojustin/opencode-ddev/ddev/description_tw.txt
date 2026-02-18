@@ -1,0 +1,1 @@
+基於 Docker 的 PHP/Node 專案的 DDEV 本機開發環境指南。在下列情況下使用：(1) 在 DDEV 專案中執行 CLI 工具（composer、npm、wp、drush、artisan、console 等），(2) 在 DDEV 容器內執行指令，(3) 在 DDEV 專案的子目錄中運作（例如 wp-content/plugins/my-plugin），(4) 使用快照exec、ddev 的任何任務ssh 或 ddev 啟動/停止。

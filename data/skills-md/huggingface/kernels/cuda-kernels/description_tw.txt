@@ -1,0 +1,1 @@
+提供針對 HuggingFace 擴散器和變壓器庫的 NVIDIA GPU（H100、A100、T4）編寫和基準測試優化 CUDA 核心的指南。支援 LTX-Video、Stable Diffusion、LLaMA、Mistral 和 Qwen 等模型。包括與 HuggingFace Kernels Hub (get_kernel) 的集成，用於載入預先編譯的核心。包括基準測試腳本，用於將核心效能與基準實作進行比較。
