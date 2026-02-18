@@ -1,5 +1,5 @@
-使用 Motion（以前称为 Framer Motion）构建复杂的 React 动画 - 声明性动画、手势（拖动、悬停、点击）、滚动效果、弹簧物理、布局动画和 SVG 操作。使用 LazyMotion (4.6 KB) 或 useAnimate mini (2.3 KB) 优化包大小。
+Build sophisticated React animations with Motion (formerly Framer Motion) - declarative animations, gestures (drag, hover, tap), scroll effects, spring physics, layout animations, and SVG manipulation.使用 LazyMotion (4.6 KB) 或 useAnimate mini (2.3 KB) 优化包大小。
 
-使用场合：添加拖放交互、创建滚动触发的动画、实现带过渡的模式对话框、构建具有动量的轮播、动画页面/路线过渡、创建视差英雄部分、实现平滑展开/折叠的手风琴或优化动画包大小。对于简单的列表动画，请使用自动动画技能（3.28 KB 与 34 KB）。
+Use when: adding drag-and-drop interactions, creating scroll-triggered animations, implementing modal dialogs with transitions, building carousels with momentum, animating page/route transitions, creating parallax hero sections, implementing accordions with smooth expand/collapse, or optimizing animation bundle sizes.对于简单的列表动画，请使用自动动画技能（3.28 KB 与 34 KB）。
 
-故障排除：AnimatePresence 退出不起作用、大型列表性能问题、Tailwind 转换冲突、Next.js“使用客户端”错误、可滚动容器布局问题或 Cloudflare Workers 构建错误（已于 2024 年 12 月解决）。
+Troubleshoot: AnimatePresence exit not working, large list performance issues, Tailwind transition conflicts, Next.js "use client" errors, scrollable container layout issues, or Cloudflare Workers build errors (resolved Dec 2024).
