@@ -2,6 +2,8 @@
 
 A crawler that aggregates AI coding agent skills from multiple sources, automatically executed daily via GitHub Actions.
 
+**Web App:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — Search, install, copy and share AI Agent Skills.
+
 ## Data Sources
 
 ### Current Providers
