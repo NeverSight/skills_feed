@@ -1,9 +1,9 @@
-name: Daily Skills Crawl
+name: Skills Crawl
 
 on:
-  # Run daily at UTC 0:00
+  # Run every 6 hours (UTC 0:00, 6:00, 12:00, 18:00)
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
   # Support manual trigger
   workflow_dispatch:
     inputs:
