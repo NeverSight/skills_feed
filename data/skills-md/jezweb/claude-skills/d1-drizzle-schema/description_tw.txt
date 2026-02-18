@@ -1,0 +1,1 @@
+使用正確的 D1 特定模式為 Cloudflare D1 資料庫產生 Drizzle ORM 架構。產生架構檔案、遷移命令、類型匯出和 DATABASE_SCHEMA.md 文件。處理 D1 怪癖：始終強制執行外鍵、沒有本機 BOOLEAN/DATETIME 類型、100 個綁定參數限制、JSON 儲存為 TEXT。在建立新資料庫、新增表格或建置 D1 資料層時使用。

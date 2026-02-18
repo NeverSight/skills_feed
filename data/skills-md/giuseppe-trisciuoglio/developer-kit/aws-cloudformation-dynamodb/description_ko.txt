@@ -1,0 +1,1 @@
+DynamoDB 테이블, GSI, LSI, Auto Scaling 및 스트림을 위한 AWS CloudFormation 패턴을 제공합니다. CloudFormation으로 DynamoDB 테이블을 생성하고, 기본 키, 로컬/글로벌 보조 인덱스, 용량 모드(온디맨드/프로비저닝), 특정 시점 복구, 암호화, TTL을 구성하고, 매개변수, 출력, 매핑, 조건, 교차 스택 참조를 사용하여 템플릿 구조를 구현할 때 사용합니다.

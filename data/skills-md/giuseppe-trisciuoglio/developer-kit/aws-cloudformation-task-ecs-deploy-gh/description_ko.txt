@@ -1,0 +1,1 @@
+GitHub Actions CI/CD를 사용하여 ECS 작업 및 서비스를 배포하는 패턴을 제공합니다. Docker 이미지 구축, ECR로 푸시, ECS 작업 정의 업데이트, ECS 서비스 배포, CloudFormation 스택과 통합, GitHub Actions에 대한 AWS OIDC 인증 구성, 프로덕션용 컨테이너 배포 파이프라인 구현 시 사용합니다. 적절한 보안(OIDC 또는 IAM 키), 다중 환경 지원, 블루/그린 배포, 이미지 스캔 기능이 있는 ECR 프라이빗 리포지토리 및 CloudFormation 인프라 업데이트를 통해 ECS 배포를 지원합니다.

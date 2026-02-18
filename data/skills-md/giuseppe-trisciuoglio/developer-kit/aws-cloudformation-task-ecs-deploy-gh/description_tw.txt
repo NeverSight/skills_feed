@@ -1,0 +1,1 @@
+提供使用 GitHub Actions CI/CD 部署 ECS 任務和服務的模式。在建置 Docker 映像、推送至 ECR、更新 ECS 任務定義、部署 ECS 服務、與 CloudFormation 堆疊整合、為 GitHub Actions 配置 AWS OIDC 驗證以及實施生產就緒容器部署管道時使用。支援具有適當安全性（OIDC 或 IAM 金鑰）的 ECS 部署、多環境支援、藍/綠部署、具有映像掃描的 ECR 私人儲存庫以及 CloudFormation 基礎架構更新。

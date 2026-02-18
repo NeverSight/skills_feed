@@ -1,0 +1,1 @@
+使用正确的 D1 特定模式为 Cloudflare D1 数据库生成 Drizzle ORM 架构。生成架构文件、迁移命令、类型导出和 DATABASE_SCHEMA.md 文档。处理 D1 怪癖：始终强制执行外键、没有本机 BOOLEAN/DATETIME 类型、100 个绑定参数限制、JSON 存储为 TEXT。在创建新数据库、添加表或构建 D1 数据层时使用。
