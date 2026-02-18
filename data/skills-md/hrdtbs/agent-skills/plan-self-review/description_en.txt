@@ -1,0 +1,1 @@
+After a plan is created or updated with CreatePlan, self-evaluates it on a 100-point scale, lists deficiencies as a task list, improves the plan and any project design documents, and performs a final check for contradictions and omissions. Must be run in the same response immediately after CreatePlan; do not skip. Use when you have just called CreatePlan or updated a plan.

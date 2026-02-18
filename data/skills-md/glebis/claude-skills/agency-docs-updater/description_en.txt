@@ -1,0 +1,1 @@
+End-to-end pipeline for publishing Claude Code lab meetings. Automatically finds/creates Fathom transcript, downloads video, uploads to YouTube, generates fact-checked Russian summary, creates MDX documentation, and pushes to agency-docs for Vercel deployment. Single invocation replaces 5+ manual steps.

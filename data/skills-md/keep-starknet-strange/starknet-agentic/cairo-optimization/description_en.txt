@@ -1,0 +1,1 @@
+Use as an explicit post-test optimization pass — fixing slow loops, expensive arithmetic, integer splitting or limb assembly, modular reduction, storage slot packing, or BoundedInt type bounds. Invoke after implementation and tests pass.
