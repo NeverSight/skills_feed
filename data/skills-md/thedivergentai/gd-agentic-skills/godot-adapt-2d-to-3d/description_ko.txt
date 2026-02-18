@@ -1,0 +1,1 @@
+노드 유형 변환, 카메라 시스템(3인칭, 1인칭, 궤도), 물리 레이어 마이그레이션, 스프라이트-모델 아트 파이프라인 및 제어 체계 적용을 포함하여 2D 게임을 3D로 마이그레이션하기 위한 전문 패턴입니다. 2D 프로젝트를 3D로 포팅하거나 3D 요소를 추가할 때 사용합니다. 트리거 키워드: CharacterBody2D에서 CharacterBody3D로, Area2D에서 Area3D로, Camera2D에서 Camera3D로, Vector2에서 Vector3으로, conflict_layer 마이그레이션, Sprite에서 MeshInstance3D로, 2D에서 3D로 변환.

@@ -1,0 +1,1 @@
+Arcis 회로(`encrypted-ixs`) 및 앵커 프로그램(`programs/*`) 전반에 걸쳐 Arcium MXE 프로그램 코드를 빌드, 리팩터링 및 디버그합니다. 기밀 지침 구현, `init_comp_def`/`queue_computation`/콜백 연결, Arcium PDA 및 콜백 계정 파생, 암호화된 I/O 및 오프셋 처리, 생성된 콜백 출력 구조체 구문 분석, 권한 제한 흐름 구축, 오프체인 회로 소스 통합, `@arcium-hq/client`로 테스트, MXE 배포 또는 Arcium 버전 마이그레이션 시 사용합니다.

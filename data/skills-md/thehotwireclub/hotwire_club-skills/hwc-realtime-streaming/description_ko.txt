@@ -1,0 +1,1 @@
+실시간 Hotwire 동작 구현: WebSocket/SSE를 통한 Turbo Streams, 사용자 정의 스트림 작업, 인라인 스트림 태그, 라이브 목록 업데이트 및 크로스탭 상태 동기화. 핵심 문제가 푸시 기반 업데이트 또는 스트림 작업 조정인 경우 이 기술을 선호합니다. 끌어오기 기반 페이지 매기기/탭/지연 탐색 흐름에는 hwc-navigation-content를 사용하고, 양식 수명 주기 및 유효성 검사에는 hwc-forms-validation을, 미디어 업로드/재생 동작에는 hwc-media-content를, 일반 로딩/진행/전환에는 hwc-ux-feedback을, 비스트림 Stimulus 기본 사항에는 hwc- 자극 기초를 사용하세요.

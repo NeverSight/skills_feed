@@ -1,0 +1,1 @@
+Haloy를 사용하여 애플리케이션을 배포하기 위한 haloy.yaml 구성 파일을 만듭니다. 사용자가 "haloy 구성 만들기", "haloy.yaml 추가", "haloy 구성", "haloy 배포 설정" 또는 "haloy 준비"라고 말할 때 사용합니다. 선택적 자체 호스팅 데이터베이스를 사용하여 단일 대상 및 다중 대상 배포를 지원합니다. Dockerfile 생성(dockerize 기술 사용), 다중 환경 배포 또는 docker-compose/Kubernetes 설정에는 적합하지 않습니다.

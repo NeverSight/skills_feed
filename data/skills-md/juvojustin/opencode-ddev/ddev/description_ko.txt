@@ -1,0 +1,1 @@
+Docker 기반 PHP/Node 프로젝트를 위한 DDEV 로컬 개발 환경 지침입니다. 다음 경우에 사용하십시오: (1) DDEV 프로젝트에서 CLI 도구(composer, npm, wp, drush, artisan, console 등) 실행, (2) DDEV 컨테이너 내에서 명령 실행, (3) DDEV 프로젝트의 하위 디렉토리(예: wp-content/plugins/my-plugin)에서 작업, (4) DDEV를 사용하여 데이터베이스, 스냅샷 또는 프로젝트 수명주기 관리, (5) ddev exec, ddev와 관련된 모든 작업 ssh 또는 ddev 시작/중지.

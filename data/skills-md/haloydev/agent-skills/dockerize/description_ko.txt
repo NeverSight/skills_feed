@@ -1,0 +1,1 @@
+Haloy를 사용하여 배포할 현재 프로젝트에 대한 Dockerfile을 만듭니다. 사용자가 "dockerize", "Dockerfile 만들기", "내 앱 컨테이너화", "이 배포 가능하게 만들기" 또는 "haloy 준비"라고 말할 때 사용하세요. 이 기술은 docker-compose 없이 최적화되고 프로덕션에 즉시 사용 가능한 Dockerfile을 생성합니다. docker-compose, 여러 서비스가 포함된 로컬 개발 환경 또는 Kubernetes 매니페스트가 필요한 다중 컨테이너 설정에는 적합하지 않습니다.

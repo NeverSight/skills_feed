@@ -1,0 +1,1 @@
+HuggingFace 디퓨저 및 트랜스포머 라이브러리를 대상으로 하는 NVIDIA GPU(H100, A100, T4)에 최적화된 CUDA 커널을 작성하고 벤치마킹하기 위한 지침을 제공합니다. LTX-Video, Stable Diffusion, LLaMA, Mistral 및 Qwen과 같은 모델을 지원합니다. 사전 컴파일된 커널을 로드하기 위해 HuggingFace Kernels Hub(get_kernel)와의 통합을 포함합니다. 커널 성능을 기본 구현과 비교하기 위한 벤치마킹 스크립트가 포함되어 있습니다.

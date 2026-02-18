@@ -1,0 +1,1 @@
+GO 모듈식 아키텍처 규칙(브릭 패키지의 Chi 라우터, chi.Route 인터페이스가 있는 Fx DI, REST 엔드포인트)에 따라 Chi 라우터 구현을 생성합니다. CRUD 작업, 사용자 정의 끝점, 버전이 지정된 API 및 경로 그룹을 위한 REST 경로(GET, POST, PUT, DELETE)를 포함하여 내부/모듈/<모듈>/http/chi/router/의 리소스에 대한 HTTP 경로 등록을 생성할 때 사용합니다.
