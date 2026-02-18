@@ -1,0 +1,1 @@
+クライアント サーバー アーキテクチャ、権威サーバー設計、MultiplayerSynchronizer、ラグ補正 (クライアント予測、サーバー調整)、入力バッファリング、チート対策など、シングルプレイヤー ゲームにマルチプレイヤーを追加するための専門的なパターン。マルチプレイヤーの改造、オンライン プレイへの移植、またはネットワーク ゲームプレイの設計時に使用します。トリガーキーワード: MultiplayerPeer、ENetMultiplayerPeer、SceneMultiplayer、MultiplayerSynchronizer、rpc、rpc_id、multiplayer_authority、client_prediction、server_reconciliation、lag_compensation、rollback。

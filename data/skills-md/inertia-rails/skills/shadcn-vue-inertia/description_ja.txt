@@ -1,0 +1,1 @@
+Inertia Rails Vue 3 (Nuxt ではありません) の shadcn-vue コンポーネントの統合: フォーム、ダイアログ、テーブル、トースト、ダーク モードなど。 Inertia + Vue アプリで shadcn-vue コンポーネントを使用して UI を構築する場合、または Nuxt から shadcn-vue サンプルを適応させる場合に使用します。 name 属性と #default スコープのスロットを使用して、shadcn-vue 入力を Inertia Form に接続します。 Flash トーストには Rails flash_keys イニシャライザ設定が必要です。

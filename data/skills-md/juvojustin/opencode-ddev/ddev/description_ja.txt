@@ -1,0 +1,1 @@
+Docker ベースの PHP/Node プロジェクト用の DDEV ローカル開発環境のガイダンス。次の場合に使用します: (1) DDEV プロジェクトで CLI ツール (composer、npm、wp、drush、artisan、console など) を実行する場合、(2) DDEV コンテナ内でコマンドを実行する場合、(3) DDEV プロジェクトのサブディレクトリで作業する場合 (wp-content/plugins/my-plugin など)、(4) DDEV を使用してデータベース、スナップショット、またはプロジェクトのライフサイクルを管理する場合、(5) ddev exec に関連するタスク、 ddev ssh、または ddev の開始/停止。

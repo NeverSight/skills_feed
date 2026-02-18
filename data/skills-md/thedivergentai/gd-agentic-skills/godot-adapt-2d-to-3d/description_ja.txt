@@ -1,0 +1,1 @@
+ノード タイプの変換、カメラ システム (三人称、一人称、軌道)、物理層の移行、スプライトからモデルへのアート パイプライン、制御スキームの適応など、2D ゲームを 3D に移行するための専門的なパターン。 2D プロジェクトを 3D に移植する場合、または 3D 要素を追加する場合に使用します。トリガーキーワード: CharacterBody2D から CharacterBody3D、Area2D から Area3D、Camera2D から Camera3D、Vector2 から Vector3、collision_layer の移行、スプライトから MeshInstance3D、2D から 3D への変換。

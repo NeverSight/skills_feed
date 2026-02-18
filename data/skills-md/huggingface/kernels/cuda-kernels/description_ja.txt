@@ -1,0 +1,1 @@
+HuggingFace ディフューザーおよびトランスフォーマー ライブラリを対象とした、NVIDIA GPU (H100、A100、T4) 用に最適化された CUDA カーネルの作成とベンチマークに関するガイダンスを提供します。 LTX-Video、Stable Diffusion、LLaMA、Mistral、Qwen などのモデルをサポートします。プリコンパイルされたカーネルをロードするための HuggingFace Kernels Hub (get_kernel) との統合が含まれています。カーネルのパフォーマンスをベースライン実装と比較するためのベンチマーク スクリプトが含まれています。

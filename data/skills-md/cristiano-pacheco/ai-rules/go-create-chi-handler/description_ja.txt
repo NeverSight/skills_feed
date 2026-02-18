@@ -1,0 +1,1 @@
+GO モジュラー アーキテクチャ規約 (リクエスト/レスポンス DTO、ユースケース オーケストレーション、エラー処理、Swagger アノテーション、Fx DI) に従って Chi HTTP ハンドラーを生成します。リクエストのデコード、ユースケースの呼び出し、レスポンスのマップ、および適切なロギングとトレースによるエラーの処理を必要とする REST 操作 (List、Create、Update、Delete、Get) 用の HTTP エンドポイント ハンドラーを external/modules/<module>/http/chi/handler/ に作成するときに使用します。

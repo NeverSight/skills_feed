@@ -1,0 +1,1 @@
+Arcis 回線 (`encrypted-ixs`) およびアンカー プログラム (`programs/*`) にわたって Arcium MXE プログラム コードを構築、リファクタリング、およびデバッグします。機密命令の実装、`init_comp_def`/`queue_computation`/callbacks の配線、Arcium PDA とコールバック アカウントの導出、暗号化された I/O とオフセットの処理、生成されたコールバック出力構造体の解析、パーミッション ゲート フローの構築、オフチェーン回路ソースの統合、`@arcium-hq/client` によるテスト、MXE の展開、または Arcium バージョンの移行を行うときに使用します。

@@ -1,0 +1,1 @@
+GO モジュラー アーキテクチャ規約に従って Chi ルーター実装を生成します (ブリック パッケージからの Chi ルーター、chi.Route インターフェイスを備えた Fx DI、REST エンドポイント)。 CRUD 操作、カスタム エンドポイント、バージョン管理された API、およびルート グループの REST ルート (GET、POST、PUT、DELETE) を含む、internal/modules/<module>/http/chi/router/ 内のリソースの HTTP ルート登録を作成するときに使用します。

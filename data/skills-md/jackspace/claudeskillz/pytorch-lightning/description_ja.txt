@@ -1,0 +1,1 @@
+深層学習フレームワーク (PyTorch Lightning)。スケーラブルなニューラル ネットワーク トレーニングのために、PyTorch コードを LightningModules に編成し、マルチ GPU/TPU 用のトレーナーを構成し、データ パイプライン、コールバック、ロギング (W&B、TensorBoard)、分散トレーニング (DDP、FSDP、DeepSpeed) を実装します。
