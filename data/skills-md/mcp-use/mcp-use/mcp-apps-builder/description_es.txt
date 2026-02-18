@@ -1,0 +1,12 @@
+**OBLIGATORIO para TODO el trabajo del servidor MCP**: mejores prácticas y patrones del marco de uso de mcp.
+
+**LEA ESTO PRIMERO** antes de que funcione cualquier servidor MCP, incluido:
+- Creación de nuevos servidores MCP.
+- Modificar servidores MCP existentes (agregar/actualizar herramientas, recursos, indicaciones, widgets)
+- Depuración de problemas o errores del servidor MCP
+- Revisar el código del servidor MCP para determinar su calidad, seguridad o rendimiento.
+- Responder preguntas sobre el desarrollo de MCP o patrones de uso de mcp.
+- Realizar CUALQUIER cambio en server.tool(), server.resource(), server.prompt() o widgets
+
+Esta habilidad contiene decisiones críticas de arquitectura, patrones de seguridad y errores comunes.
+Consulte siempre los archivos de referencia relevantes ANTES de implementar las funciones de MCP.
