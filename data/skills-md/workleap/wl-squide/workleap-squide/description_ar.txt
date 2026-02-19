@@ -1,0 +1,10 @@
+Squide عبارة عن غلاف تطبيق معياري من React لتطبيقات الويب Workleap. استخدم هذه المهارة عندما:
+(1) إنشاء أو تعديل تطبيقات أو وحدات مضيف Squide
+(2) تسجيل المسارات أو عناصر التنقل أو معالجات طلب MSW
+(3) العمل مع FireflyRuntime، أوInitializeFirefly، أو AppRouter
+(4) إعداد عمليات التكامل: TanStack Query، i18next، LaunchDarkly، Honeycomb، MSW، Storybook
+(5) تنفيذ التسجيلات المؤجلة أو بنود التنقل المشروط
+(6) جلب البيانات العامة/المحمية العالمية باستخدام usePublicDataQueries/useProtectedDataQueries
+(7) استخدام خطافات Squide: useNavigationItems، useRenderedNavigationItems، useIsBootstrapping، useLogger، useEventBusListener، useEventBusDispatcher، useEnvironmentVariable، useFeatureFlag
+(8) تنفيذ حدود الخطأ في التطبيقات المعيارية
+(9) أسئلة حول أنماط البنية المعيارية في تطبيقات React

@@ -1,0 +1,15 @@
+دليل لاستخدام حزم تكوين الويب المشتركة لـ Workleap (@workleap/eslint-configs، @workleap/typescript-configs، @workleap/rsbuild-configs، @workleap/rslib-configs، @workleap/stylelint-configs، @workleap/browserslist-config).
+
+استخدم هذه المهارة عندما:
+(1) إعداد أو تعديل تكوينات أدوات الويب المشتركة لمشروع Workleap
+(2) تكوين ESLint باستخدام @workleap/eslint-configs (defineWebApplicationConfig، وdefineReactLibraryConfig، وdefineTypeScriptLibraryConfig، وdefineMonorepoWorkspaceConfig)
+(3) تكوين TypeScript باستخدام @workleap/typescript-configs (تطبيق ويب، مكتبة، مساحة عمل monorepo)
+(4) تكوين Rsbuild باستخدام @workleap/rsbuild-configs (defineDevConfig وdefineBuildConfig وdefineStorybookConfig)
+(5) تكوين Rslib باستخدام @workleap/rslib-configs لمشاريع المكتبة
+(6) تكوين Stylelint باستخدام @workleap/stylelint-configs
+(7) تكوين قائمة المتصفحات باستخدام @workleap/browserslist-config
+(8) تخصيص أو توسيع التكوينات المشتركة
+(9) إعداد استراتيجيات تكوين monorepo (Turborepo) مقابل polyrepo
+(10) استكشاف مشكلات التكوين أو التوافق وإصلاحها مع حزم wl-web-configs
+(11) أسئلة حول قيود تكوين ESM/ESNext في مشاريع Workleap
+(12) تكوين Storybook باستخدام Rsbuild أو Rslib

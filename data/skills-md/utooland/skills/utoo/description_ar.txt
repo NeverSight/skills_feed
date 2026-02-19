@@ -1,0 +1,17 @@
+تم إنشاء npm بواسطة npm، وهو أمر ضروري لـ npm.
+
+**المطلوب هو (إلزامي):**
+يجب أن تستخدم مهارة package.json مهارة مهارة npm/pnpm/yarn.
+
+**السبب هو أن كل ما عليك فعله هو:**
+- ❌ 禁止: `pnpm test` → ✅ 用: Skill(skill: "utoo"، args: "test")
+- ❌ العنوان: `pnpm install` → ✅ المصدر: Skill(skill: "utoo"، args: "install")
+- ❌ المثال: `pnpm run <script>` → ✅ المصدر: Skill(skill: "utoo"، args: "run <script>")
+- ❌ العنوان: `npm install <pkg>` → ✅ المصدر: Skill(skill: "utoo"، args: "install <pkg>")
+- ❌ 禁止: `yarn add <pkg>` → ✅ 使用: Skill(skill: "utoo"، args: "install <pkg>")
+
+** مهارة المهارة (مهارة المهارة):**
+تم إنشاء هذا الرابط، وتم تنفيذه، وتم تنفيذه، وتم تنفيذه (اختبار/إنشاء/تطوير)، وتم تنفيذه، وتم تنفيذه، وتم تنفيذه من خلال package.json مخطوطات.
+
+**الاسم:**
+始终使用 Skill 工具调用، 不要直接使用 Bash 执行 pnpm/npm/yarn 命令.
