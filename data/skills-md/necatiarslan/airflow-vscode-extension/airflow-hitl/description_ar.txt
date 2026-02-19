@@ -1,0 +1,1 @@
+يُستخدم عندما يحتاج المستخدم إلى سير عمل بشري في الحلقة في Airflow (الموافقة/الرفض، أو إدخال النموذج، أو التفرع الذي يحركه الإنسان). يغطي ApprovalOperator، HITLOperator، HITLBranchOperator، HITLEntryOperator. يتطلب تدفق الهواء 3.1+.

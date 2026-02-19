@@ -1,0 +1,1 @@
+تحويل وحدات الماكرو PyTorch AT_DISPATCH إلى تنسيق AT_DISPATCH_V2 في كود ATen C++. يُستخدم عند نقل AT_DISPATCH_ALL_TYPES_AND*، أو AT_DISPATCH_FLOATING_TYPES*، أو وحدات ماكرو إرسال أخرى إلى واجهة برمجة التطبيقات v2 الجديدة. بالنسبة لملفات ATen kernel، وCUDA kernels، وتطبيقات المشغل الأصلية.

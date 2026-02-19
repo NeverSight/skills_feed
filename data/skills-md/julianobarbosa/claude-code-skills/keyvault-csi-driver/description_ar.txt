@@ -1,0 +1,1 @@
+تكامل Azure Key Vault + CSI Driver لإدارة أسرار Kubernetes. يُستخدم عند إنشاء موارد SecretProviderClass، أو تركيب الأسرار من Key Vault، أو استكشاف أخطاء 403 وإصلاحها، أو مزامنة الأسرار مع K8s، أو تكوين التطبيقات لاستخدام أسرار Key Vault.

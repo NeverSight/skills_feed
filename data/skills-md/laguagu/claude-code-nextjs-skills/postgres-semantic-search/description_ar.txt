@@ -1,0 +1,10 @@
+البحث الدلالي والهجين القائم على PostgreSQL باستخدام pgvector وParadeDB.
+يُستخدم عند تنفيذ البحث المتجه، والبحث الدلالي، والبحث المختلط،
+أو البحث عن النص الكامل في PostgreSQL. يغطي إعداد pgvector والفهرسة
+(HNSW، IVFFlat)، البحث المختلط (FTS + BM25 + RRF)، ParadeDB as
+بديل Elasticsearch وإعادة التصنيف باستخدام Cohere/cross-encoders.
+يدعم أنواع المتجهات (1536) وhalvec (3072) لتضمينات OpenAI.
+
+المشغلات: pgvector، بحث المتجهات، البحث الدلالي، البحث المختلط،
+بحث التضمين، PostgreSQL RAG، BM25، RRF، مؤشر HNSW، بحث التشابه،
+ParadeDB، pg_search، إعادة الترتيب، إعادة ترتيب Cohere

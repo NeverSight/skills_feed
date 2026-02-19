@@ -1,0 +1,3 @@
+إدارة حالة الخادم في React مع TanStack Query v5. يغطي useMutationState، والتحديثات المتفائلة المبسطة، و throwOnError، ووضع الشبكة (غير متصل/PWA)، وinfiniteQueryOptions.
+
+يُستخدم عند إعداد جلب البيانات، أو إصلاح أخطاء ترحيل v4 → v5 (بناء جملة الكائن، أو gcTime، أو isPending، أو keepPreviousData)، أو تصحيح مشكلات SSR/الترطيب مع مكونات خادم البث.

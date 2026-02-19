@@ -1,0 +1,3 @@
+قم بإعداد Postgres بدون خادم باستخدام Neon أو Vercel Postgres لـ Cloudflare Workers/Edge. يتضمن تجميع الاتصالات، والتفرع الشبيه بـ git لبيئات المعاينة، وتكامل Drizzle/Prisma.
+
+يُستخدم عندما: إعداد Edge Postgres، أو تكوين تفرع قاعدة البيانات، أو استكشاف الأخطاء وإصلاحها "TCP غير مدعوم"، أو استنفاد تجمع الاتصال، أو تكوين SSL (sslmode = مطلوب)، أو توافق Prisma edge.

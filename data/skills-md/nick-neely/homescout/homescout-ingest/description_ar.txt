@@ -1,0 +1,1 @@
+قم بتحليل أدلة إخراج Homescout (current.json، وhistory/*.jsonl(.gz)، وspeedtests.jsonl، وspeedtests/*.jsonl(.gz)) باستخدام أدوات CLI مثل jq/rg/awk للإجابة على الأسئلة المتعلقة بوجود الجهاز، أو انقطاع التيار، أو إحصائيات المسح، أو اتجاهات اختبار السرعة. يُستخدم عندما يحتاج الوكيل إلى استيعاب مخرجات Homescout، خاصة من مسارات الإخراج البعيدة/Tailscale/Taildrive.

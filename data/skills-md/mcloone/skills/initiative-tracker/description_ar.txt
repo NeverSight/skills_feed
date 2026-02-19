@@ -1,0 +1,14 @@
+إدارة مبادرات المنتج والملاحم وأصحاب المصلحة من خلال أوامر اللغة الطبيعية.
+يخزن البيانات كملفات تخفيض السعر المتوافقة مع Logseq مع المادة الأمامية YAML.
+
+يُستخدم عندما يحتاج المستخدمون إلى:
+- إنشاء المبادرات والملاحم أو تحديثها أو إدراجها أو عرضها
+- تتبع اكتمال وثائق المبادرة
+- إدارة الأشخاص والفرق والشركاء
+- التحقق من المعلومات المفقودة
+- تهيئة هيكل المستودع
+
+المشغلات على: /init_repository، /create_initiative، /list_initiatives، /show_initiative،
+/update_initiative، /what_missing، /create_epic، /list_epics، /create_person،
+/ create_team، / create_partner، /create_product_area، /list_product_areas،
+/show_product_area، /update_product_area، /help

@@ -1,0 +1,3 @@
+مصادقة Microsoft Entra ID (Azure AD) لـ React SPAs مع التحقق من صحة MSAL.js وCloudflare Workers JWT باستخدام مكتبة jose. نمط مكدس كامل مع تدفق رمز التفويض + PKCE. يمنع 8 أخطاء موثقة.
+
+يُستخدم عندما: تنفيذ Microsoft SSO، أو استكشاف أخطاء حلقات AADSTS50058 وإصلاحها، أو أخطاء الرمز المميز لتحديث AADSTS700084، أو عمليات إعادة توجيه React Router، أو مشكلات إعادة عرض setActiveAccount، أو التحقق من صحة رموز Entra ID في العمال.
