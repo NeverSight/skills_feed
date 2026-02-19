@@ -1,0 +1,1 @@
+Преобразуйте макросы PyTorch AT_DISPATCH в формат AT_DISPATCH_V2 в коде ATen C++. Используйте при портировании AT_DISPATCH_ALL_TYPES_AND*, AT_DISPATCH_FLOATING_TYPES* или других макросов диспетчеризации в новый API версии 2. Для файлов ядра ATen, ядер CUDA и собственных реализаций операторов.

@@ -1,0 +1,6 @@
+Создавайте и проверяйте записи BibTeX на основе бумажных заметок, записывая `citations/ref.bib` и `citations/verified.jsonl`.
+**Триггер**: цитирование, BibTeX, ref.bib, Verified.jsonl, ссылки, 引用, 参考文献.
+**Используйте, когда**: 已有 `papers/paper_notes.jsonl`，需要为 prose/LaTeX 准备可追溯的引用（每条都有 url/date/title 验证记录）。
+**Пропустить, если**: 还没有 бумажные заметки（或本次产出不需要引用/参考文献）。
+**Сеть**: запись 自动验证通常需要网络；无网络时可先, 再标注 требует проверки вручную.。
+**Защита**: запись BibTeX 必须对应一条 `citations/verified.jsonl` 记录；prose 只能使用已存在于 `citations/ref.bib` 的 ключи цитирования。

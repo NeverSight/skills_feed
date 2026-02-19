@@ -1,0 +1,10 @@
+Squide — это модульная оболочка React для веб-приложений Workleap. Используйте этот навык, когда:
+(1) Создание или изменение хост-приложений или модулей Squide.
+(2) Регистрация маршрутов, элементов навигации или обработчиков запросов MSW.
+(3) Работа с FireflyRuntime, инициализациейFirefly или AppRouter.
+(4) Настройка интеграции: TanStack Query, i18next, LaunchDarkly, Honeycomb, MSW, Storybook.
+(5) Реализация отложенной регистрации или элементов условной навигации.
+(6) Получение глобальных общедоступных/защищенных данных с помощью usePublicDataQueries/useProtectedDataQueries.
+(7) Использование перехватчиков Squide: useNavigationItems, useRenderedNavigationItems, useIsBootstrapping, useLogger, useEventBusListener, useEventBusDispatcher, useEnvironmentVariable, useFeatureFlag
+(8) Реализация границ ошибок в модульных приложениях
+(9) Вопросы о шаблонах модульной архитектуры в приложениях React.

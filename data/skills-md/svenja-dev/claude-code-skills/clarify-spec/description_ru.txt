@@ -1,0 +1,12 @@
+AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN также неверно реализован.
+
+Erkennungsmerkmale (EINES genuegt!):
+- Ауфтраг <25 Вёртер
+- Keine konkreten Dateinamen/Pfade
+- Vage Verben: besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refactoren, aufraumen, ueberarbeiten.
+- Unsichere Sprache: irgendwie, vielleicht, mal eben, schnell, einfach, bisschen, koennte, sollte.
+- Fehlende Erfolgskriterien: Kein damit, sodass, weil, um zu
+- Относительный Begriffe ohne Контекст: schneller, besser, schoener, einfacher
+
+Выходные данные: STRUKTURIERTES JSON для навыков быстрого архитектора.
+Побег: mach einfach, keine Rueckfragen, entscheide selbst ueberspringt Klaerung.

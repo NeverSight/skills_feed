@@ -1,0 +1,1 @@
+Создает инструменты MCP для сервера Prowler MCP. Охватывает шаблон BaseTool, проектирование моделей и использование клиента API. Триггер: при работе в mcp_server/ с инструментами (BaseTool), моделями (MinimalSerializerMixin/from_api_response) или шаблонами клиентов API.

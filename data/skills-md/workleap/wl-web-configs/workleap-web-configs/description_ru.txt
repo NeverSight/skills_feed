@@ -1,0 +1,15 @@
+Руководство по использованию общих пакетов веб-конфигурации Workleap (@workleap/eslint-configs, @workleap/typescript-configs, @workleap/rsbuild-configs, @workleap/rslib-configs, @workleap/stylelint-configs, @workleap/browserslist-config).
+
+Используйте этот навык, когда:
+(1) Настройка или изменение общих конфигураций веб-инструментов для проекта Workleap.
+(2) Настройка ESLint с помощью @workleap/eslint-configs (defineWebApplicationConfig, defineReactLibraryConfig, defineTypeScriptLibraryConfig, defineMonorepoWorkspaceConfig)
+(3) Настройка TypeScript с помощью @workleap/typescript-configs (веб-приложение, библиотека, рабочее пространство монорепо)
+(4) Настройка Rsbuild с помощью @workleap/rsbuild-configs (defineDevConfig, defineBuildConfig, defineStorybookConfig)
+(5) Настройка Rslib с помощью @workleap/rslib-configs для библиотечных проектов.
+(6) Настройка Stylelint с помощью @workleap/stylelint-configs
+(7) Настройка списка браузеров с помощью @workleap/browserslist-config.
+(8) Настройка или расширение общих конфигураций.
+(9) Настройка стратегий конфигурации монорепо (Турборепо) и полирепо
+(10) Устранение неполадок конфигурации или проблем совместимости с пакетами wl-web-configs.
+(11) Вопросы об ограничениях конфигурации ESM/ESNext в проектах Workleap.
+(12) Настройка Storybook с помощью Rsbuild или Rslib
