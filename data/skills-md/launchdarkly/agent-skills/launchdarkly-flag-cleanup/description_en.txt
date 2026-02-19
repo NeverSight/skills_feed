@@ -1,0 +1,1 @@
+Safely remove a feature flag from code while preserving production behavior. Use when the user wants to remove a flag from code, delete flag references, or create a PR that hardcodes the winning variation after a rollout is complete.
