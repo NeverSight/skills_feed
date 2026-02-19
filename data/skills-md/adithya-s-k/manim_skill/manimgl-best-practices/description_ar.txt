@@ -1,0 +1,5 @@
+يتم التشغيل عندما: (1) يذكر المستخدم "manimgl" أو "ManimGL" أو "3b1b manim"، (2) تحتوي التعليمات البرمجية على "من manimlib import *`، (3) يقوم المستخدم بتشغيل أوامر `manimgl` CLI، (4) العمل مع InteractiveScene، أو self.frame، أو self.embed()، أو ShowCreation()، أو الأنماط الخاصة بـ ManimGL.
+
+أفضل الممارسات لـ ManimGL (إصدار Grant Sanderson's 3Blue1Brown) - محرك الرسوم المتحركة المستند إلى OpenGL مع التطوير التفاعلي. يغطي InteractiveScene، وTex مع t2c، والتحكم في إطار الكاميرا، والوضع التفاعلي (علامة -se)، والعرض ثلاثي الأبعاد، وسير عمل Checkpoint_paste().
+
+ليس لإصدار مجتمع Manim (الذي يستخدم واردات "manim" و"manim" CLI).

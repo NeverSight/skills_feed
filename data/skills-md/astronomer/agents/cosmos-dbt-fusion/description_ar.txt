@@ -1,0 +1,1 @@
+يُستخدم عند تشغيل مشروع dbt Fusion مع Astronomer Cosmos. يغطي تكوين Cosmos 1.11+ لـ Fusion on Snowflake/Databricks مع ExecutionMode.LOCAL. قبل التنفيذ، تحقق من أن محرك dbt هو Fusion (وليس Core)، وأن المستودع مدعوم، وأن التنفيذ المحلي مقبول. لا يغطي dbt الأساسية.
