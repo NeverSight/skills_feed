@@ -1,0 +1,8 @@
+管理 Cargo.lock 文件更新并解决 CI/CD 中的 --locked 标志问题。
+
+当用户提及时触发：
+- “货物测试--锁定失败”
+- “无法更新锁定文件”
+- “Cargo.lock 已过时”
+- “PR 因 --locked 错误而失败”
+- “修复 Cargo.lock”

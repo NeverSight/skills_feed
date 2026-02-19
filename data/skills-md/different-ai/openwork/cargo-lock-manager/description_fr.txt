@@ -1,0 +1,8 @@
+Gère les mises à jour du fichier Cargo.lock et résout les problèmes d'indicateur --locked dans CI/CD.
+
+Se déclenche lorsque l'utilisateur mentionne :
+- "Le test de chargement --locked a échoué"
+- "impossible de mettre à jour le fichier de verrouillage"
+- "Cargo.lock est obsolète"
+- "Le PR a échoué avec l'erreur --locked"
+- "réparer Cargo.lock"

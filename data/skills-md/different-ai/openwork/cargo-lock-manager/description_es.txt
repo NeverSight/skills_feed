@@ -1,0 +1,8 @@
+Gestiona las actualizaciones del archivo Cargo.lock y resuelve problemas de indicadores bloqueados en CI/CD.
+
+Se activa cuando el usuario menciona:
+- "prueba de carga --bloqueado fallido"
+- "no se puede actualizar el archivo de bloqueo"
+- "Cargo.lock no está actualizado"
+- "PR falló con error --locked"
+- "arreglar Cargo.lock"

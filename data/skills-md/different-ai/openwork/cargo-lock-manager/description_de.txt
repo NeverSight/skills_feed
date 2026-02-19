@@ -1,0 +1,8 @@
+Verwaltet Aktualisierungen der Cargo.lock-Datei und behebt Probleme mit der Markierung „--locked“ in CI/CD.
+
+Wird ausgelöst, wenn der Benutzer Folgendes erwähnt:
+- „Frachttest --locked fehlgeschlagen“
+- „Die Sperrdatei kann nicht aktualisiert werden“
+- „Cargo.lock ist veraltet“
+– „PR ist mit dem Fehler „--locked“ fehlgeschlagen“
+- „Cargo.lock reparieren“

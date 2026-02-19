@@ -1,0 +1,4 @@
+Crée des environnements de conteneurs isolés pour tester les modifications locales non validées avant de les diffuser.
+À utiliser pour tester les modifications de la bibliothèque, la coordination multi-dépôt ou la validation de « fonctionne sur ma machine » → « fonctionne dans CI ».
+Fournit des instantanés du bundle git, un serveur git intégré, une réécriture sélective d'URL et une isolation du cache du gestionnaire de packages.
+Fonctionne avec n'importe quel agent de codage via une CLI autonome, des scripts shell ou Docker Compose.

@@ -1,0 +1,1 @@
+macOS 上の Windows アプリ (Microsoft リモート デスクトップ / Azure Virtual Desktop / W365) の接続品質の問題を診断します。トランスポート プロトコルの選択 (UDP ショートパスと WebSocket) を分析し、STUN/TURN ネゴシエーションによる VPN/プロキシの干渉を検出し、ショートパスの障害について Windows アプリ ログを解析します。このスキルは、VDI 接続が遅い場合、トランスポートで UDP ではなく WebSocket が表示される場合、RDP ショートパスの確立に失敗する場合、または RTT が予想外に高い場合に使用する必要があります。

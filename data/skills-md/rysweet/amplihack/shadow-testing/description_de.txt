@@ -1,0 +1,4 @@
+Erstellt isolierte Containerumgebungen zum Testen lokaler, nicht festgeschriebener Änderungen vor dem Pushen.
+Wird zum Testen von Bibliotheksänderungen, zur Multi-Repo-Koordination oder zur Validierung von „funktioniert auf meinem Computer“ → „funktioniert in CI“ verwendet.
+Bietet Git-Bundle-Snapshots, eingebetteten Git-Server, selektives URL-Umschreiben und Paketmanager-Cache-Isolierung.
+Funktioniert mit jedem Codierungsagenten über eigenständige CLI, Shell-Skripte oder Docker Compose.

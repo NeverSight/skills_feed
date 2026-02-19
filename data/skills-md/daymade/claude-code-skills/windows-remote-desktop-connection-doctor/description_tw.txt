@@ -1,0 +1,1 @@
+診斷 macOS 上的 Windows 應用程式（Microsoft 遠端桌面/Azure 虛擬桌面/W365）連線品質問題。分析傳輸協定選擇（UDP Shortpath 與 WebSocket），偵測 VPN/代理程式對 STUN/TURN 協商的干擾，並解析 Windows 應用程式日誌以尋找 Shortpath 故障。當 VDI 連線速度較慢、傳輸顯示 WebSocket 而非 UDP、RDP 短路徑無法建立或 RTT 意外高時，應使用此技能。

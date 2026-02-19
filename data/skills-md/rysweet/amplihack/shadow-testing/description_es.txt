@@ -1,0 +1,4 @@
+Crea entornos de contenedores aislados para probar cambios locales no confirmados antes de enviarlos.
+Úselo cuando pruebe cambios de biblioteca, coordinación de múltiples repositorios o valide "funciona en mi máquina" → "funciona en CI".
+Proporciona instantáneas del paquete git, servidor git integrado, reescritura selectiva de URL y aislamiento de caché del administrador de paquetes.
+Funciona con cualquier agente de codificación a través de CLI independiente, scripts de shell o Docker Compose.

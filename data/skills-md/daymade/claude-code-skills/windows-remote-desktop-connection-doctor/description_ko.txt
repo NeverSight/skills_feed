@@ -1,0 +1,1 @@
+macOS에서 Windows 앱(Microsoft 원격 데스크톱/Azure Virtual Desktop/W365) 연결 품질 문제를 진단합니다. 전송 프로토콜 선택(UDP Shortpath 대 WebSocket)을 분석하고, STUN/TURN 협상을 통해 VPN/프록시 간섭을 감지하고, Shortpath 오류에 대한 Windows 앱 로그를 구문 분석합니다. 이 기술은 VDI 연결이 느릴 때, 전송이 UDP 대신 WebSocket을 표시할 때, RDP Shortpath 설정에 실패할 때 또는 RTT가 예기치 않게 높을 때 사용해야 합니다.

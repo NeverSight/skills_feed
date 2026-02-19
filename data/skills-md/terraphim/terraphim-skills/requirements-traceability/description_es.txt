@@ -1,0 +1,6 @@
+Cree o audite la trazabilidad desde los requisitos hasta el diseño, el código y las pruebas. construye un
+matriz de trazabilidad (REQ → diseño/ADR → archivos de implementación → pruebas →
+evidencia) y señala brechas (requisitos no implementados, cambios no probados,
+decisiones indocumentadas). Úselo cuando necesite una verificación de trazabilidad de requisitos
+para un PR/liberación, trabajo regulado/de cumplimiento, o cuando los requisitos están cambiando
+desde la implementación.

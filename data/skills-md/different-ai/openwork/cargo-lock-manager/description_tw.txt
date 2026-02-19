@@ -1,0 +1,8 @@
+管理 Cargo.lock 檔案更新並解決 CI/CD 中的 --locked 標誌問題。
+
+當用戶提及時觸發：
+- “貨物測試--鎖定失敗”
+- “無法更新鎖定檔案”
+- “Cargo.lock 已過時”
+- “PR 因 --locked 錯誤而失敗”
+- “修復 Cargo.lock”
