@@ -1,0 +1,6 @@
+Scrivere un rapporto di revisione tra pari basato su rubriche (`output/REVIEW.md`) utilizzando affermazioni estratte e lacune nelle prove (novità/fondatezza/chiarezza/impatto).
+**Trigger**: revisione della rubrica, rapporto del referee, resoconto della peer review, 审稿报告, REVIEW.md.
+**Utilizzare quando**: pipeline di peer-review 的最后阶段（C3）,已有 `output/CLAIMS.md` + `output/MISSING_EVIDENCE.md`（以及可选 matrice delle novità）.
+**Salta se**: 上游产物未就绪（lacune tra richieste/prove 缺失）或你不打算输出完整审稿报告.
+**Rete**: nessuno.
+**Guardrail**: 给可执行建议（feedback utilizzabile）,并覆盖 novità/solidità/chiarezza/impatto；避免泛泛而谈.

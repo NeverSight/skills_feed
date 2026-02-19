@@ -1,0 +1,6 @@
+Controlla le prove a sostegno di ciascuna affermazione e scrivi lacune/preoccupazioni in "output/MISSING_EVIDENCE.md".
+**Trigger**: verifica delle prove, prove mancanti, affermazioni non supportate, 审稿证据审计, 证据缺口.
+**Utilizzare quando**: peer review 流程中,需要逐条检查 rivendicazione 的证据链、缺 baseline、评测薄弱点.
+**Salta se**: 缺少 afferma 输入（例如还没有 `output/CLAIMS.md`）.
+**Rete**: nessuno.
+**Guardrail**: 只写“缺口/风险/下一步验证” ，不要替作者补写论述或引入新主张.

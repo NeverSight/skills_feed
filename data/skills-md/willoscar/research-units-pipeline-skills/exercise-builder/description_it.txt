@@ -1,0 +1,6 @@
+Aggiungi esercizi a ciascun modulo tutorial (input, output attesi, passaggi di verifica) e aggiorna `outline/module_plan.yml`.
+**Trigger**: esercizi, pratica, checklist di verifica, 教程练习, 可验证作业.
+**Utilizzare quando**: 已有模块计划（`outline/module_plan.yml`）,需要为每个模块补齐至少 1 个可验证练习以形成 ciclo didattico.
+**Salta se**: 还没有 module plan（先跑 `module-planner`）.
+**Rete**: nessuno.
+**Guardrail**: 每个练习必须包含 output previsto + passaggi di verifica；避免只给“思考题”无验收.

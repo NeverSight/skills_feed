@@ -1,0 +1,6 @@
+Generare transizioni tra sezioni/sottosezioni leggere (NESSUN FATTO NUOVO) per evitare sottosezioni “a isola”; genera una mappa di transizione in cui l'unione/scrittura può intrecciarsi.
+**Trigger**: tessitore di transizione, transizioni di tessitura, coerenza, 过渡句, 承接句, 章节连贯性.
+**Utilizzare quando**: `outline/subsection_briefs.jsonl` esiste e si desidera un flusso coerente prima/dopo la stesura (tipicamente Fase C5).
+**Salta se**: `outline/transitions.md` esiste ed è stato perfezionato (senza segnaposto).
+**Rete**: nessuno.
+**Guardrail**: non aggiungere nuove affermazioni o citazioni fattuali; le transizioni potranno riferirsi solo a titoli/RQ/termini ponte già presenti nelle memorie.

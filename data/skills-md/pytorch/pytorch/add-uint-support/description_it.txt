@@ -1,0 +1,1 @@
+Aggiungi il supporto del tipo intero senza segno (uint) agli operatori PyTorch aggiornando le macro AT_DISPATCH. Da utilizzare quando si aggiunge il supporto per i tipi uint16, uint32, uint64 a operatori, kernel o quando l'utente menziona l'abilitazione di tipi senza segno, tipi barebone senza segno o supporto uint.

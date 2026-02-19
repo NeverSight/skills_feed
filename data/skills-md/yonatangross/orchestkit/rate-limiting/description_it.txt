@@ -1,0 +1,1 @@
+Limitazione della velocità API con bucket di token, finestra scorrevole e modelli distribuiti Redis. Da utilizzare quando si implementano limiti di velocità, si limitano le richieste, si gestiscono 429 Too Many Requests, si protegge dall'abuso dell'API o si configura SlowAPI con Redis.

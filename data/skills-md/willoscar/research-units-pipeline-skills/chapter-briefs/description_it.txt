@@ -1,0 +1,6 @@
+Costruisci brief scritti per capitolo (H2) (NO PROSA) in modo che il sondaggio finale si legga come un documento (inizia il capitolo + coerenza incrociata H3) senza gonfiare il ToC.
+**Trigger**: brief del capitolo, brief H2, pianificazione del capitolo, intento della sezione, 章节意图, 章节导读, H2 卡片.
+**Utilizzare quando**: esistono `outline/outline.yml` + `outline/subsection_briefs.jsonl` e si desiderano capitoli più spessi (meno titoli, più logica).
+**Salta se**: il contorno sta ancora cambiando pesantemente (correggi prima il contorno/mappatura).
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare documenti; fare riferimento solo agli ID delle sottosezioni e ai documenti già mappati.

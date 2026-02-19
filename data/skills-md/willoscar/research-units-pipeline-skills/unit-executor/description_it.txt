@@ -1,0 +1,6 @@
+Esegui esattamente un'unità eseguibile da "UNITS.csv" (il primo TODO le cui dipendenze sono DONE), quindi aggiorna lo stato dell'unità e gli artefatti.
+**Trigger**: esecutore di unità, esegui un'unità, unità successiva, pipeline passo-passo, 逐条执行, UNITS.csv.
+**Utilizzare quando**: 需要严格“一次只做一个 unit”（可审计、可中断）,并遵守 checkpoints/HUMAN 阻塞逻辑。
+**Salta se**: 要端到端自动跑（用 `research-pipeline-runner`）或 workspace 不存在.
+**Rete**: nessuno.
+**Guardrail**: 只执行一个 unità；满足验收且输出存在才可标 `DONE`；遇到 HUMAN checkpoint 必须停下。

@@ -1,0 +1,6 @@
+Identifica i documenti di sondaggio/revisione in un set recuperato ed estrai i semi della tassonomia in "outline/taxonomy.yml" (argomenti/sottoargomenti/terminologia).
+**Trigger**: raccolta di semi di sondaggio, semi di tassonomia, tassonomia di sondaggio 提, tassonomia bootstrap.
+**Utilizzare quando**: recupero/dedup 后想快速从已有 sondaggio/revisione 论文中提取术语与主题结构，用于加速 `taxonomy-builder`.
+**Salta se**: 已经有高质量 tassonomia（或你不想被 sondaggio 既有框架限制）.
+**Rete**: nessuno.
+**Guardrail**: 产物是 seed,必须经 `taxonomy-builder` 重写与对齐 scope；避免生成泛化占位节点.

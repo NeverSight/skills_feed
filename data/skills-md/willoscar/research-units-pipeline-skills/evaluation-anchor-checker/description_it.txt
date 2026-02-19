@@ -1,0 +1,6 @@
+Controlla e riscrivi la valutazione/dichiarazioni numeriche per garantire che contengano un contesto di protocollo minimo (attività + metrica + vincolo) ed evitino nomi di modelli sottospecificati.
+**Trigger**: controllo dell'ancora di valutazione, igiene delle attestazioni numeriche, numeri sottospecificati, contesto del protocollo, 评测锚点检查, 数字断言, 指标上下文.
+**Utilizzare quando**: prima dell'unione/perfezionamento finale o quando i revisori probabilmente contrassegnerebbero le affermazioni come sottospecificate (numeri senza attività/metrica/budget) oppure `pipeline-auditor` avvisa in caso di denominazione di modello sospetta.
+**Salta se**: le prove sono troppo scarse per giustificare affermazioni numeriche (percorso a monte verso C3/C4), oppure sei pre-C2 (NO PROSA).
+**Rete**: nessuno.
+**Guardrail**: non inventare numeri; non aggiungere/rimuovere/spostare chiavi di citazione; se manca il contesto del protocollo, indebolisci/rimuovi l'affermazione numerica anziché indovinare.

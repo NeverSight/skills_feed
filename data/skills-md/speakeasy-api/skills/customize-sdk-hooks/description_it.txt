@@ -1,0 +1,7 @@
+Da utilizzare durante l'implementazione degli hook di codice SDK per la logica personalizzata (non la configurazione delle specifiche o le sostituzioni di runtime).
+Copre gli hook del ciclo di vita dell'SDK: BeforeRequest, AfterSuccess, AfterError per intestazioni personalizzate,
+telemetria, firma HMAC e trasformazione di richiesta/risposta.
+
+Trigger su "hook SDK", "aggiungi hook", "BeforeRequestHook", "logica personalizzata in SDK",
+"hook di telemetria", "middleware SDK", "richieste di intercettazione", "hook di firma HMAC",
+"codice personalizzato nella directory degli hook".

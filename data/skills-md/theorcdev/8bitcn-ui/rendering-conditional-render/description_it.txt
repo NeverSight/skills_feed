@@ -1,0 +1,1 @@
+Utilizza operatori ternari espliciti invece di && per il rendering condizionale. Applicare durante il rendering di valori che potrebbero essere 0, NaN o altri valori falsi che potrebbero essere visualizzati in modo imprevisto.

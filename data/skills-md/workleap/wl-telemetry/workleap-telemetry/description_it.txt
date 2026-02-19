@@ -1,0 +1,15 @@
+Guida per la soluzione di telemetria di Workleap (@workleap/telemetry) che unifica Honeycomb, LogRocket e Mixpanel con ID di correlazione coerenti.
+
+Usa questa abilità quando:
+(1) Inizializzazione di wl-telemetria in un'applicazione frontend
+(2) Lavorare con i valori di correlazione (ID telemetria, ID dispositivo) e il loro ciclo di vita
+(3) Utilizzo di Honeycomb per la tracciabilità distribuita e l'analisi delle prestazioni
+(4) Creazione e arricchimento di tracce/span di Honeycomb utilizzando OpenTelemetry
+(5) Utilizzo di LogRocket per la riproduzione della sessione e il debug del frontend
+(6) Utilizzo di Mixpanel per l'analisi dei prodotti e il monitoraggio degli eventi
+(7) Comprensione dei ruoli Honeycomb, LogRocket e Mixpanel nella telemetria wl
+(8) Correlazione dei dati tra Honeycomb, LogRocket e Mixpanel
+(9) Configurazione dei logger per la diagnostica wl-telemetria
+(10) Utilizzo dei client di telemetria Noop per disabilitare/falsificare la telemetria
+(11) Revisione dei PR che aggiungono o modificano la strumentazione di telemetria
+(12) Risoluzione dei problemi di telemetria mancante o incoerente tra gli strumenti

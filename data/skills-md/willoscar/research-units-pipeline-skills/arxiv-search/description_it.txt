@@ -1,0 +1,6 @@
+Recupera i metadati del documento da arXiv utilizzando query con parole chiave e salva i risultati come JSONL (`papers/papers_raw.jsonl`).
+**Trigger**: arXiv, arxiv, ricerca cartacea, recupero di metadati, 文献检索, 论文检索, 拉取元数据, 离线导入.
+**Utilizzare quando**: 需要一个初始论文集合（sondaggio/istantanea 的 Stage C1）,来源为 arXiv（在线检索或离线导入 export）.
+**Salta se**: 已经有可用的 `papers/papers_raw.jsonl` ， 或数据源不是 arXiv.
+**Rete**: 在线检索需要网络；离线 `--input <export.*>` 不需要网络.
+**Guardrail**: 只做 metadata；不要在 `output/` 写长 prosa.

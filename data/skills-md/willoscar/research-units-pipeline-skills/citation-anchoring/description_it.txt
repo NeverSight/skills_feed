@@ -1,0 +1,6 @@
+Ancoraggio delle citazioni con controllo di regressione (le citazioni rimangono nella stessa sottosezione) per prevenire una "deriva polacca" che interrompe l'allineamento tra affermazioni e prove.
+**Trigger**: ancoraggio delle citazioni, deriva delle citazioni, regressione, stabilità delle citazioni, 引用锚定, 引用漂移.
+**Utilizzare quando**: dopo la modifica/ottimizzazione, si desidera verificare che le citazioni non siano state trasferite nelle sottosezioni `###`.
+**Salta se**: non hai ancora un file di ancoraggio della linea di base.
+**Rete**: nessuno.
+**Guardrail**: solo analisi; non modificare il contenuto.

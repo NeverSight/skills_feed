@@ -1,0 +1,6 @@
+Scrivi note strutturate per ogni documento nel set principale in `papers/paper_notes.jsonl` (riepilogo/metodo/risultati/limitazioni).
+**Trigger**: note cartacee, note strutturate, note di lettura, 论文笔记, paper_notes.jsonl.
+**Utilizzare quando**: sondaggio 的 prova 阶段（C3）,已有 `papers/core_set.csv`（以及可选 testo completo）,需要为后续 affermazioni/citazioni/scrittura 准备可引用证据.
+**Salta se**: 还没有 core set（先跑 `dedupe-rank`）,或你只做极轻量 snapshot 不需要细粒度证据.
+**Rete**: nessuno.
+**Guardrail**: 具体可核对（metodo/metriche/limitazioni）,避免大量重复模板；保持结构化字段而非长 prosa.

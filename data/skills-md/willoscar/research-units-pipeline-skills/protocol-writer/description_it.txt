@@ -1,0 +1,6 @@
+Scrivere un protocollo di revisione sistematica in `output/PROTOCOL.md` (database, query, inclusione/esclusione, finestra temporale, campi di estrazione).
+**Trigger**: protocollo, PRISMA, revisione sistematica, inclusione/esclusione, 检索式, 纳入排除.
+**Utilizzare quando**: pipeline di revisione sistematica 的起点（C1）,需要先锁定 protocollo 再开始 screening/estrazione.
+**Salta se**: 不是做 revisione sistematica（或 protocollo 已经锁定且不允许修改）.
+**Rete**: nessuno.
+**Guardrail**: protocollo 必须包含可执行的检索与筛选规则；需要 HUMAN 签字后才能进入 screening.

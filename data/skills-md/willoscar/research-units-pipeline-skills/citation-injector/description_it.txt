@@ -1,0 +1,6 @@
+Applicare un rapporto di budget "diversificatore di citazioni" inserendo citazioni *nell'ambito* in una bozza esistente (NESSUN FATTO NUOVO), in modo che la corsa superi il cancello globale delle citazioni univoche senza dump delle citazioni.
+**Trigger**: iniettore di citazioni, applica budget per citazioni, inserisci citazioni, aggiungi citazioni in modo sicuro, 引用注入, 按预算加引用, 引用增密.
+**Utilizzare quando**: `output/CITATION_BUDGET_REPORT.md` esiste ed è necessario generare citazioni univoche *globali* (o ridurre il riutilizzo eccessivo) prima di `draft-polisher` / `pipeline-auditor`.
+**Salta se**: sono necessari più documenti/citazioni a monte (correggere prima la mappatura C1/C2) oppure manca `citations/ref.bib`.
+**Rete**: nessuno.
+**Guardrail**: NESSUN FATTO NUOVO; non inventare citazioni; inserire solo le chiavi presenti in `citations/ref.bib`; mantenere le citazioni inserite nell'ambito consentito di ciascun H3 (tramite il rapporto sul budget); evitare paragrafi di citation-dump (incorporare citazioni per opera).

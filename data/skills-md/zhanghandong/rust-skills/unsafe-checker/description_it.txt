@@ -1,0 +1,1 @@
+CRITICO: utilizzare per la revisione non sicura del codice Rust e FFI. Trigger su: unsafe, puntatore grezzo, FFI, extern, transmute, *mut, *const, union, #[repr(C)], libc, std::ffi, MaybeUninit, NonNull, commento SAFETY, solidità, comportamento non definito, UB, wrapper sicuro, layout di memoria, bindgen, cbindgen, CString, CStr, 安全抽象,裸指针, 外部函数接口, 内存布局, 不安全代码, FFI 绑定, 未定义行为

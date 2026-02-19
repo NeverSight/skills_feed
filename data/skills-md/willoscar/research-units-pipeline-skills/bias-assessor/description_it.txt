@@ -1,0 +1,6 @@
+Aggiungi campi di valutazione bias/rischio di bias a una tabella di estrazione e compilali in modo coerente.
+**Trigger**: bias, rischio di bias, RoB, qualità delle prove, 偏倚评估, 证据质量.
+**Utilizzare quando**: revisione sistematica 已生成 `papers/extraction_table.csv`,需要在 sintesi 前补齐偏倚/质量字段.
+**Salta se**: 不是 revisione sistematica,或还没有 `papers/extraction_table.csv`.
+**Rete**: nessuno.
+**Guardrail**: 使用简单可复核刻度（basso/non chiaro/alto）+ 简短 note；保持字段一致性.

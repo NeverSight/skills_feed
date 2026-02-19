@@ -1,0 +1,6 @@
+Genera e verifica voci BibTeX da note cartacee, scrivendo `citations/ref.bib` e `citations/verified.jsonl`.
+**Trigger**: citazione, BibTeX, ref.bib, verificato.jsonl, riferimenti, 引用, 参考文献.
+**Utilizzare quando**: 已有 `papers/paper_notes.jsonl` ， 需要为 prose/LaTeX 准备可追溯的引用（每条都有 url/data/titolo 验证记录）.
+**Salta se**: 还没有 note cartacee（或本次产出不需要引用/参考文献）.
+**Rete**: il record 自动验证通常需要网络；无网络时可先, 再标注 richiede la verifica manuale.
+**Guardrail**: 每个 voce BibTeX 必须对应一条 `citations/verified.jsonl` 记录；prose 只能使用已存在于 `citations/ref.bib` 的 chiavi di citazione.

@@ -1,0 +1,5 @@
+Processo decisionale sull'astrazione della piattaforma per il progetto Amethyst KMP. Indica quando astrarre o mantenere la specificità della piattaforma,
+posizionamento del set di origini (commonMain, jvmAndroid, specifico della piattaforma), modelli previsti/effettivi. Copre gli obiettivi primari
+(Android, JVM/Desktop, iOS) con considerazioni future sul web/wasm. Si integra con Gradle-Expert per problemi di dipendenza.
+Si attiva su: decisioni di astrazione ("devo condividerlo?"), domande sul posizionamento del set di fonti, creazione prevista/effettiva,
+build.gradle.kts funziona, rilevamento del posizionamento errato, suggerimenti sulle dipendenze KMP.

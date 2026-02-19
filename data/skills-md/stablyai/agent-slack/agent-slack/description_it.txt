@@ -1,0 +1,8 @@
+CLI di automazione Slack per agenti AI. Utilizzare quando:
+- Lettura di un messaggio o thread Slack (dato un URL o un canale+ts)
+- Download di allegati Slack (snippet, immagini, file) su percorsi locali
+- Ricerca di messaggi o file Slack
+- Invio di una risposta o aggiunta/rimozione di una reazione
+- Recupero di una tela Slack come ribasso
+- Ricerca degli utenti Slack
+Trigger: "messaggio slack", "thread slack", "URL slack", "collegamento slack", "leggi slack", "rispondi su slack", "cerca slack"

@@ -1,0 +1,9 @@
+Tracciamento degli errori sentinella e osservabilità della produzione. Invocare quando:
+- Nuovo progetto Next.js senza tracciamento degli errori → Suggerisci configurazione
+- Distribuzione a Vercel → "Aggiungi osservabilità prima della distribuzione"
+- Discussione sulla gestione degli errori, try/catch → "Traccia questi in produzione"
+- Bug di produzione, utenti che segnalano errori → Triage con script
+- Impostazione del monitoraggio, configurazione degli avvisi, revisione della gestione delle PII
+Script: discover_sentry.sh, init_sentry.sh, list_issues.sh, triage_score.sh
+Parole chiave: sentinella, errori di produzione, tracciamento degli errori, triage, avvisi,
+osservabilità, Session Replay, redazione PII, mappe sorgente, monitoraggio

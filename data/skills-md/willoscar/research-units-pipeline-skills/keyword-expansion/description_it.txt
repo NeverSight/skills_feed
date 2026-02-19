@@ -1,0 +1,6 @@
+Espandi e perfeziona le parole chiave di ricerca (sinonimi, acronimi, esclusioni) e aggiorna `queries.md`.
+**Trigger**: espansione delle parole chiave, sinonimi, esclusioni, query.md, 关键词扩展, 同义词, 排除词.
+**Utilizzare quando**: 检索覆盖不足/噪声过大,或主题别名很多,需要系统化扩展与收敛检索词.
+**Salta se**: `queries.md` 已经能稳定检出覆盖面（无需扩大范围导致后续成本爆炸）.
+**Rete**: nessuno.
+**Guardrail**: 保持可控的 query 数量；明确 esclusioni；避免“无限扩展”。

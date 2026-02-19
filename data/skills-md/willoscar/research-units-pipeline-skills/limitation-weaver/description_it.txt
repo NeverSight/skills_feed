@@ -1,0 +1,6 @@
+Riscrivi i passaggi di limitazione in modo che il documento mantenga le limitazioni senza cadere in frasi di slot basate sul conteggio (ad esempio, \"Due limitazioni...\") in molti H3.
+**Trigger**: tessitore di limitazioni, riscrivi limitazioni, rimuovi due limitazioni, 去Due limitazioni, 局限改写, avvertenza riscrittura.
+**Utilizzare quando**: `writer-selfloop` è PASS ma segnala ripetute aperture di limitazione basate sul conteggio in `output/WRITER_SELFLOOP_TODO.md` o più H3 condividono la stessa cadenza di limitazione.
+**Salta se**: la limitazione è mancante di prove (percorso a monte), oppure sei pre-C2 (NO PROSA).
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti; non aggiungere/rimuovere/spostare chiavi di citazione; non eliminare le limitazioni specifiche delle sottosezioni; mantenere intatto il reclamo→ancoraggio delle prove.

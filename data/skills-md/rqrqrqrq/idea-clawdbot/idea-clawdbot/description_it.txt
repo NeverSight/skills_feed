@@ -1,0 +1,1 @@
+Avvia sessioni in background di Clawdbot per esplorare e analizzare idee di business. Dì "Idea: [descrizione]" per attivare. Fork dell'abilità 'idea' riscritto per usare sessions_spawn invece di claude CLI + tmux + telegram CLI. Risultati inviati alla chat corrente, non ai messaggi salvati. Zero dipendenze esterne.

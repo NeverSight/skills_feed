@@ -1,0 +1,5 @@
+Ciclo di vita completo di Lightning Network. Canali di audit, instradamento, fatture.
+Pianifica la capacità, esegue il ribilanciamento, verifica i pagamenti. Ogni corsa fa tutto.
+
+Richiama automaticamente quando: i file contengono lightning/lnd/bolt11/invoice, importazioni
+pacchetti Lightning, riferimenti LND_* env vars, gestori di canali modificati.

@@ -1,0 +1,7 @@
+Audit LLM completo. Valuta del modello, qualità immediata, valutazioni, osservabilità, CI/CD.
+Garantisce che tutte le funzionalità basate su LLM seguano le migliori pratiche e siano adeguatamente strumentate.
+
+Richiamo automatico quando: nomi/versioni dei modelli menzionati, configurazione del provider AI, modifiche richieste,
+.env con chiavi AI, aiProviders.ts o prompts.ts modificati, PR relativi all'intelligenza artificiale.
+
+CRITICO: i dati di addestramento ritardano di mesi. SEMPRE ricerca sul web prima delle decisioni LLM.

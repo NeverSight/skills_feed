@@ -1,0 +1,6 @@
+Cancello vocale cartaceo post-unione: rileva gli artefatti di planner-talk/axis-label introdotti durante l'unione (specialmente da `outline/transitions.md`), quindi indirizza le correzioni alla prima fonte.
+**Trigger**: gate vocale post-unione, gate vocale di unione, perdita di transizione, conversazione del pianificatore, 合并后口吻门, 过渡句污染.
+**Utilizzare quando**: `section-merger` ha prodotto `output/DRAFT.md` e vuoi assicurarti che il testo inserito dall'unione non trascini la bozza nella voce del generatore prima della lucidatura.
+**Salta se**: sei ancora in pre-unione (nessun `output/DRAFT.md`) o prevedi di rielaborare prima la struttura a monte.
+**Rete**: nessuno.
+**Guardrail**: solo analisi; non modificare `output/DRAFT.md`; non inventare fatti/citazioni; scrivere solo il report + routing.

@@ -1,0 +1,6 @@
+Costruisci una matrice di prova-rivendicazione sezione per sezione (`outline/claim_evidence_matrix.md`) dallo schema e dalle note cartacee.
+**Trigger**: matrice reclamo-evidenza, mappatura delle prove, 证据矩阵, 主张-证据对齐.
+**Utilizzare quando**: 写 prosa 之前需要把每个小节的可检验主张与证据来源显式化（contorno + note cartacee 已就绪）.
+**Salta se**: 缺少 `outline/outline.yml` 或 `papers/paper_notes.jsonl`.
+**Rete**: nessuno.
+**Guardrail**: solo proiettili（NO PROSA）；每个 reclamo 至少 2 个证据来源（或显式说明例外）.

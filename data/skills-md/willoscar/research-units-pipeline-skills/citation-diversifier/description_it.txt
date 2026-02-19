@@ -1,0 +1,6 @@
+Aumentare la diversità/densità delle citazioni (NESSUN FATTO NUOVO): generare un piano di "budget delle citazioni" in ambito per H3 in modo che le bozze smettano di fallire il cancello globale delle citazioni univoche e smettano di sembrare sottocitate.
+**Trigger**: aumento delle citazioni, budget delle citazioni, citazioni univoche troppo basse, aggiungere più citazioni, migliorare la densità dei riferimenti, 引用太少, 增加引用, 引用密度.
+**Utilizzare quando**: `pipeline-auditor` FAIL a causa di poche citazioni univoche o se desideri aumentare la densità delle citazioni senza modificare le affermazioni.
+**Salta se**: hai bisogno di nuovi documenti (correggi prima la mappatura C1/C2), oppure manca `citations/ref.bib` / `outline/writer_context_packs.jsonl`.
+**Rete**: nessuno.
+**Guardrail**: NESSUN FATTO NUOVO; non inventare citazioni; utilizzare solo le chiavi già presenti in `citations/ref.bib`; mantenere le citazioni nell'ambito consentito di ciascun H3 (`outline/writer_context_packs.jsonl` / `outline/evidence_bindings.jsonl`).

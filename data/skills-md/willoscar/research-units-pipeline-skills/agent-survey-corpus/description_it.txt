@@ -1,0 +1,6 @@
+Scarica un piccolo corpus di PDF di sondaggi/recensioni arXiv ad accesso aperto sugli agenti LLM ed estrai il testo per l'apprendimento dello stile.
+**Trigger**: corpus del sondaggio dell'agente, corpus di riferimento, download dei sondaggi, 学习综述写法, 下载 sondaggio.
+**Utilizzare quando**: vuoi studiare come i sondaggi sugli agenti reali strutturano le sezioni (6–8 H2), le sottosezioni relative alle dimensioni e scrivi confronti supportati da prove.
+**Salta se**: non puoi scaricare PDF (nessuna rete) o non vuoi file PDF locali.
+**Rete**: richiesta.
+**Guardrail**: scarica solo PDF arXiv; archivia sotto "ref/" e mantieni i file di grandi dimensioni fuori da Git.

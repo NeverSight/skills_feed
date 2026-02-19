@@ -1,0 +1,6 @@
+Riscrivi gli apri delle sottosezioni in modo che smettano di leggere come un sommario generato: rimuovi le radici \"panoramica/narrazione\" e riduci le cadenze ripetute di apertura negli H3.
+**Trigger**: variatore dell'apertura, riscrittura dell'apertura, riscrittura delle aperture, panoramica dell'apertura, 开头改写, 小节开头, 去panoramica, 去旁白.
+**Utilizzare quando**: `writer-selfloop` è PASS ma segnala i gambi di apertura ripetuti / la narrazione panoramica in `output/WRITER_SELFLOOP_TODO.md`, oppure la bozza ha ancora una sottile "cadenza del generatore".
+**Salta se**: sei pre-C2 (NO PROSA), o la sezione ha poche prove (percorso a monte; non stilizzare il riempitivo).
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti; non aggiungere/rimuovere/spostare chiavi di citazione; non spostare le citazioni tra le sottosezioni; mantenere intatto il significato.

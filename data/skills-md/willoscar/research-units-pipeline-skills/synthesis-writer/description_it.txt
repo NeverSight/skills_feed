@@ -1,0 +1,6 @@
+Sintetizzare le prove in una narrazione strutturata (`output/SYNTHESIS.md`) basata su `papers/extraction_table.csv`, comprese limitazioni e considerazioni sui pregiudizi.
+**Trigger**: sintesi, sintesi delle prove, scrittura di revisioni sistematiche, 综合写作, SYNTHESIS.md.
+**Utilizzare quando**: revisione sistematica 完成 screening+estrazione（含 bias 评估）后进入写作阶段（C4）.
+**Salta se**: 还没有 `papers/extraction_table.csv`（或 protocollo/screening 尚未完成）.
+**Rete**: nessuno.
+**Guardrail**: tabella di estrazione 为证据底座；明确局限性与偏倚；不要在无数据支撑时扩写结论.

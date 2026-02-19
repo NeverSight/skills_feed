@@ -1,0 +1,3 @@
+Selezione intelligente dei test in base alle modifiche del codice. Associa i file sorgente ai test tramite analisi di importazione,
+implementa test a più livelli (veloce < 1 minuto, impattato < 5 minuti, suite completa) e tiene traccia dell'affidabilità dei test.
+Da utilizzare quando si eseguono test dopo modifiche al codice per ottimizzare i cicli di feedback e il tempo CI.

@@ -1,0 +1,6 @@
+Normalizza le interfacce JSONL tra competenze incrociate (ID + titoli + formati chiave di citazione) in modo che le competenze downstream non si basino sui join best-effort.
+**Trigger**: normalizzazione dello schema, contratto jsonl, deriva dell'interfaccia, deriva del join, 字段不一致, schema 规范化.
+**Utilizzare quando**: hai generato artefatti JSONL C2-C4 (contorno/brief/associazioni/pacchetti/ancoraggi) e desideri campi deterministici e stabili prima dei loop automatici/della scrittura.
+**Salta se**: non stai utilizzando le pipeline di sondaggio o l'area di lavoro ha già un nuovo PASS `output/SCHEMA_NORMALIZATION_REPORT.md` per gli artefatti correnti.
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; solo trasformazioni deterministiche; non inventare prove/affermazioni; riempi solo gli ID/titoli mancanti da `outline/outline.yml`.

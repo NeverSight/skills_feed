@@ -1,0 +1,6 @@
+Scrivi `output/DRAFT.md` (o `output/SNAPSHOT.md`) da una struttura approvata e da pacchetti di prove, utilizzando solo chiavi di citazione verificate da `citations/ref.bib`.
+**Trigger**: scrivi bozza, scrittore di prosa, istantanea, scrittura di sondaggio, 写综述, 生成草稿, redazione sezione per sezione.
+**Utilizzare quando**: la struttura è approvata (`DECISIONS.md` ha `Approve C2`) ed esistono pacchetti di prove (`outline/subsection_briefs.jsonl`, `outline/evidence_drafts.jsonl`).
+**Salta se**: mancano le approvazioni o i pacchetti di prove sono incompleti/impalcati (campi mancanti, indicatori TODO).
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti o citazioni; citare solo le chiavi presenti in `citations/ref.bib`; evitare perdite di gergo da pipeline nella prosa finale.

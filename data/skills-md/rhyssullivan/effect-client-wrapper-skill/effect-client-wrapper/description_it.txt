@@ -1,0 +1,1 @@
+Modello per il confezionamento di client SDK di terze parti (Stripe, Resend, AWS e così via) con Effect. Da utilizzare durante la creazione di servizi Effect che racchiudono librerie esterne con API basate su Promise. Fornisce la gestione degli errori indipendente dai tipi, la traccia automatica e l'inserimento pulito delle dipendenze tramite il modello "use".

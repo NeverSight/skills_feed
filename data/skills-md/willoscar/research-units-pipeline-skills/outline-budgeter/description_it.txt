@@ -1,0 +1,6 @@
+Unisci/semplifica uno schema eccessivamente frammentato per raggiungere un budget di sezione simile a quello cartaceo (NO PROSA): target ToC finale ~ 6–8 H2, meno H3 più spesso.
+**Trigger**: delineare il budget, unire sezioni, troppe sezioni, esplosione H3, 大纲预算, 合并小节, 大纲太碎.
+**Utilizzare quando**: `outline/outline.yml` esiste ma produrrebbe sezioni sottili (troppi H2/H3); prima (o immediatamente dopo) "section-mapper".
+**Salta se**: la struttura rientra già nel budget ed è approvata; oppure stai già scrivendo la prosa.
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare nuovi argomenti; mantenere l'ambito coerente; se modifichi gli ID delle sezioni, devi reimpostare la mappatura.

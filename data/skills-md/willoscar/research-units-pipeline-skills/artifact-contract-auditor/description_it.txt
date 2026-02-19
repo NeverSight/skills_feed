@@ -1,0 +1,7 @@
+Controllare l'area di lavoro rispetto al contratto dell'artefatto della pipeline (output DONE + target_artifacts della pipeline).
+Scrive "output/CONTRACT_REPORT.md".
+**Trigger**: controllo del contratto, contratto degli artefatti, artefatti mancanti, target_artifacts, CONTRACT_REPORT.
+**Utilizzare quando**: si desidera una visualizzazione PASS/FAIL verificabile che indichi se un'area di lavoro è completa e autonoma (fine dell'esecuzione o prima della condivisione).
+**Salta se**: sei ancora intenzionalmente a metà corsa e non ti interessa ancora la completezza (ma è comunque utile come istantanea).
+**Rete**: nessuno.
+**Guardrail**: solo analisi; non modificare gli artefatti del contenuto; scrivi solo il resoconto.

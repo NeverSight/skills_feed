@@ -1,0 +1,4 @@
+Genera automaticamente diagrammi di flusso del codice dall'analisi del modulo Python.
+Rileva quando i diagrammi dell'architettura diventano obsoleti (il codice è stato modificato, il diagramma no).
+Da utilizzare quando: si creano nuovi moduli, si esaminano i PR per l'impatto dell'architettura o si controlla l'aggiornamento del diagramma.
+Genera diagrammi a sirena che mostrano importazioni, dipendenze e relazioni tra i moduli.

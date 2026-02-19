@@ -1,0 +1,6 @@
+Estrai i dati dello studio in una tabella strutturata (`papers/extraction_table.csv`) utilizzando lo schema di estrazione del protocollo.
+**Trigger**: modulo di estrazione, tabella di estrazione, estrazione dati, 信息提取, 提取表.
+**Utilizzare quando**: revisione sistematica 在 screening 后进入 estrazione（C3）, 需要把纳入论文按字段落到 CSV 以支持后续 sintesi.
+**Salta se**: 还没有 `papers/screening_log.csv` nel protocollo 未锁定.
+**Rete**: nessuno.
+**Guardrail**: 严格按 schema 填字段；不要在此阶段写 sintesi narrativa（那是 `sintesi-scrittore`）.

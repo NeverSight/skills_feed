@@ -1,0 +1,6 @@
+Scrivere i file della parte iniziale del sondaggio (Abstract, Introduzione, Lavoro correlato, Discussione, Conclusione) in formato cartaceo, con un'elevata densità di citazioni e un unico paragrafo sulla politica delle prove.
+**Trigger**: scrittore della parte iniziale, scrittore dell'introduzione, scrittore di lavori correlati, scrittore di abstract, scrittore di discussioni, scrittore di conclusioni, 引言, 相关工作, 摘要, 讨论, 结论.
+**Utilizzare quando**: sei in C5 (prosa consentita) e hai bisogno del \"guscio\" simile alla carta per interrompere la lettura della bozza come sottosezioni cucite.
+**Salta se**: `Approve C2` manca in `DECISIONS.md` o manca `citations/ref.bib` (genera prima le citazioni).
+**Rete**: nessuno.
+**Guardrail**: nessun gergo da pipeline nella prosa finale; nessuna rinuncia ripetuta alle prove; non inventare fatti/citazioni; utilizzare solo le chiavi presenti in `citations/ref.bib`.

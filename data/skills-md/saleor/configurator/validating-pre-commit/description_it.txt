@@ -1,0 +1,1 @@
+Esegue controlli di qualità prima del commit o del push. Esegue correzioni di lanugine, compilazione TypeScript, test e convalida CI. Riproduce localmente gli errori CI. Trigger su: pre-commit, pre-push, controllo qualità, controllo CI, controllo lint, controllo tipo, convalida modifiche, check:fix, test pnpm.

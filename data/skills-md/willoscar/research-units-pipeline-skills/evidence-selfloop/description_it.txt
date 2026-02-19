@@ -1,0 +1,7 @@
+Auto-ciclo delle prove per i sondaggi: leggi i collegamenti delle prove + i pacchetti di prove, quindi scrivi un piano TODO a monte attuabile (quale fase/abilità correggere) prima di scrivere altra prosa.
+Scrive "output/EVIDENCE_SELFLOOP_TODO.md".
+**Trigger**: prova self-loop, prova circolare, lacune di prova, lacune vincolanti, blocking_missing, 证据自循环, 证据缺口回路.
+**Utilizzare quando**: esistono output C4 (`outline/evidence_bindings.jsonl`, `outline/evidence_drafts.jsonl`) ma la scrittura sembra vuota o C5 è BLOCCATO a causa di prove scarse.
+**Salta se**: sei ancora pre-C3 (nessuna banca di note/prove ancora), o vuoi redigere comunque e accettare una barra di prova inferiore.
+**Rete**: nessuno.
+**Guardrail**: solo analisi; non modificare prove/artefatti di scrittura; non inventare fatti/citazioni; scrivi solo il rapporto TODO.

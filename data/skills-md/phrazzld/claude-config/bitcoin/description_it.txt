@@ -1,0 +1,5 @@
+Completa il ciclo di vita dei pagamenti Bitcoin. Controlla lo stato attuale, risolve tutti i problemi,
+e verifica il funzionamento dei flussi di pagamento end-to-end. Ogni corsa fa tutto questo.
+
+Si attiva automaticamente quando: i file contengono bitcoin/btc/utxo/satoshi, importa bitcoin
+pacchetti, riferimenti BITCOIN_* o BTC_* vars env, gestori di portafogli modificati.

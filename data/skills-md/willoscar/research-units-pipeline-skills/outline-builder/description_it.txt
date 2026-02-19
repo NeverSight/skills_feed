@@ -1,0 +1,6 @@
+Converti una tassonomia (`outline/taxonomy.yml`) in uno schema di soli punti elenco (`outline/outline.yml`) con sezioni/sottosezioni.
+**Trigger**: generatore di contorni, contorno di punti elenco, contorno.yml, 大纲生成, solo punti elenco.
+**Utilizzare quando**: struttura 阶段（NO PROSA）,已有 tassonomia,需要生成可映射/可写作的章节与小节骨架（每小节≥3 punti elenco）.
+**Salta se**: 已经有批准过且可映射的outline（避免无意义 churn）.
+**Rete**: nessuno.
+**Guardrail**: solo proiettili；移除 TODO/模板语句；每小节至少 3 个可检查 proiettili.

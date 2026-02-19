@@ -1,0 +1,6 @@
+Riscrivi `outline/claim_evidence_matrix.md` come proiezione/indice di pacchetti di prove (NO PROSA), in modo che le affermazioni/gli assi siano guidati da `outline/evidence_drafts.jsonl` anziché dai segnaposto del contorno.
+**Trigger**: riscrittore della matrice delle attestazioni, riscrittura della matrice delle attestazioni-prove, matrice delle attestazioni con le prove, indice della matrice, 证据矩阵重写, 从证据包生成矩阵.
+**Utilizzare quando**: `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` sono pronti e si desidera un reclamo pulito→indice delle prove per il QA/la scrittura.
+**Salta se**: `outline/claim_evidence_matrix.md` è già perfezionato e coerente con i pacchetti di prove.
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare fatti; citare solo le chiavi presenti in `citations/ref.bib`; se la prova è astratta/solo titolo, le rivendicazioni devono essere provvisorie.

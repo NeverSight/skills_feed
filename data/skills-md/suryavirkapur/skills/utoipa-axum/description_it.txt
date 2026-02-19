@@ -1,0 +1,6 @@
+Capacità di documentazione OpenAPI per API Rust utilizzando utoipa con framework Axum.
+Da utilizzare durante la creazione di API REST con generazione automatica delle specifiche OpenAPI e interfaccia utente scalare.
+Copre: (1) ToSchema deriva per i tipi di richiesta/risposta, (2) #[utoipa::path] per la documentazione dell'endpoint,
+(3) Derivazione OpenApi per combinare le specifiche, (4) Schemi di sicurezza (JWT, chiavi API), (5) IntoParams per parametri di query/percorso,
+(6) Integrazione scalare dell'interfaccia utente, (7) Modelli di risposta e gestione degli errori.
+Trigger: utoipa, openapi, scalar, axum api, ToSchema, IntoParams, ruggine api docs.

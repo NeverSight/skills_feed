@@ -1,0 +1,1 @@
+Sincronizza i metadati delle competenze con le sezioni di richiamo automatico di AGENTS.md. Trigger: durante l'aggiornamento dei metadati delle competenze (metadata.scope/metadata.auto_invoke), la rigenerazione delle tabelle di richiamo automatico o l'esecuzione di ./skills/skill-sync/assets/sync.sh (incluso --dry-run/--scope).

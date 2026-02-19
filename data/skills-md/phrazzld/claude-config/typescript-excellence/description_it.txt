@@ -1,0 +1,8 @@
+Best practice di TypeScript, indipendenza dai tipi e standard della toolchain. Utilizzare quando:
+- Scrivere o rivedere il codice TypeScript
+- Configurazione di progetti TypeScript o tsconfig
+- Scelta dei modelli di gestione statale
+- Configurazione degli strumenti di compilazione (tsup, Vitest)
+- Evitare ginnastica di tipo o qualsiasi abuso
+Parole chiave: TypeScript, tsconfig, modalità rigorosa, no-any, pnpm, Vitest, tsup,
+TanStack Query, unioni discriminate, indipendenza dai tipi, ESLint

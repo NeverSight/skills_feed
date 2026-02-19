@@ -1,0 +1,6 @@
+Scrivi il testo del sondaggio in file per sezione in "sezioni/" in modo che ogni unità possa essere sottoposta a QA\x27d in modo indipendente prima della fusione.
+**Trigger**: scrittore di sottosezioni, scrittura per sezione, sezioni divise, sezioni/, 分小节写, 按章节拆分写作.
+**Utilizzare quando**: viene registrato `Approve C2` ed esistono pacchetti di scrittura (`outline/writer_context_packs.jsonl`); vuoi una bozza basata sull'evidenza senza una bozza monolitica one-shot.
+**Salta se**: manca l'approvazione di `DECISIONS.md` oppure manca `outline/evidence_drafts.jsonl` / `citations/ref.bib`.
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti/citazioni; nessuna perdita TODO/ellissi; mantenere le citazioni nell'ambito di sottosezioni o capitoli; I file del corpo H3 e gli inizi dei capitoli non devono contenere intestazioni.

@@ -1,0 +1,1 @@
+Backend di osservabilità delle query (log di Loki, metriche di Prometheus, tracce di Tempo). Da utilizzare quando l'utente richiede informazioni su log, metriche, tracce o debug di problemi di produzione. IMPORTANTE: utilizzare sempre i subagenti haiku per eseguire le query, non eseguire mai le query direttamente.

@@ -1,0 +1,6 @@
+Curare le tabelle di sondaggio rivolte al lettore per l'Appendice (layout pulito + alta densità di informazioni), utilizzando solo prove pertinenti e chiavi di citazione esistenti.
+**Trigger**: tabelle dell'appendice, tabelle pubblicabili, tabelle del sondaggio, tabelle dei lettori, 附录表格, 可发表表格, 综述表格.
+**Utilizzare quando**: disponi di artefatti C4 (pacchetti di prove + foglio di ancoraggio + citazioni) e desideri tabelle che assomiglino a un vero sondaggio (non registri interni).
+**Salta se**: `outline/tables_appendix.md` esiste già ed è stato perfezionato (>=2 tabelle; supportate da citazioni; nessun segnaposto; non indice-y).
+**Rete**: nessuno.
+**Guardrail**: nessun fatto inventato; nessun gergo relativo alle pipeline; nessuna cella di paragrafo; utilizzare solo le chiavi presenti in `citations/ref.bib`.

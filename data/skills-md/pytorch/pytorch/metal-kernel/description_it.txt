@@ -1,0 +1,1 @@
+Scrivi kernel Metal/MPS per gli operatori PyTorch. Da utilizzare quando si aggiunge il supporto dei dispositivi MPS agli operatori, si implementano gli shader Metal o si esegue il porting dei kernel CUDA su Apple Silicon. Copre il dispatch di native_functions.yaml, gli operatori lato host e l'implementazione del kernel Metal.

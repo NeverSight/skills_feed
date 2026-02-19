@@ -1,0 +1,6 @@
+Scarica i PDF (se disponibili) ed estrai testo semplice per supportare prove a testo completo, scrivendo "papers/fulltext_index.jsonl" e "papers/fulltext/*.txt".
+**Trigger**: download di PDF, testo completo, estrazione di testo, documenti/pdf, 全文抽取, 下载PDF.
+**Utilizzare quando**: `queries.md` 设置 `evidence_mode: fulltext`（或你明确需要全文证据）并希望为 note/dichiarazioni cartacee 提供更强 prova.
+**Salta se**: `evidence_mode: abstract`（默认）；或你不希望进行下载/抽取（成本/权限/时间）.
+**Rete**: testo completo 下载通常需要网络（除非你手工提供 PDF 缓存在 `papers/pdfs/`）.
+**Guardrail**: 缓存下载到 `papers/pdfs/`；默认不覆盖已有抽取文本（除非显式要求重抽）.

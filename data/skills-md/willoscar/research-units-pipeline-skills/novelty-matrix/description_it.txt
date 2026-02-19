@@ -1,0 +1,6 @@
+Creare una matrice novità/lavoro precedente confrontando i contributi della proposta con il lavoro correlato (sovrapposizioni vs delta).
+**Trigger**: matrice della novità, matrice del lavoro precedente, sovrapposizione/delta, 相关工作对比, 新颖性矩阵.
+**Utilizzare quando**: peer review 中评估 novità/posizionamento,需要把贡献与相关工作逐项对齐并写出差异点证据.
+**Salta se**: 缺少claims（先跑 `claims-extractor`）或你不打算做新颖性定位分析.
+**Rete**: nessuna (il recupero di lavoro correlato aggiuntivo non rientra nell'ambito, a meno che non venga fornito).
+**Guardrail**: 明确overlap 与 delta；尽量给出可追溯证据来源（来自稿件/引用/作者陈述）.

@@ -1,0 +1,6 @@
+Passaggio di modifica in stile controllo per `output/DRAFT.md`: rimozione del modello standard, miglioramento della coerenza e applicazione dell'ancoraggio delle citazioni.
+**Trigger**: lucida bozza, de-modello, passaggio di coerenza, rimozione boilerplate, 润色, 去套话, 去重复, 统一术语.
+**Utilizzare quando**: esiste una bozza di primo passaggio ma sembra un'impalcatura (ripetizioni/puntini di sospensione/frasi modello) o necessita di un passaggio di coerenza prima della revisione globale/LaTeX.
+**Salta se**: la bozza riporta già il livello umano e supera i cancelli di qualità; o la prosa non è approvata in "DECISIONS.md".
+**Rete**: nessuno.
+**Guardrail**: non aggiungere/rimuovere/inventare chiavi di citazione; non spostare le citazioni tra le sottosezioni; non modificare le affermazioni oltre quanto supportato dalle citazioni esistenti.

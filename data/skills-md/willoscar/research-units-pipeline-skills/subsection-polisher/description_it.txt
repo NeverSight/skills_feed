@@ -1,0 +1,6 @@
+Lucida un singolo file di unità H3 in "sezioni/" in una prosa di livello sondaggio (de-modello + contrasto/valutazione/limitazione), senza modificare le chiavi di citazione.
+**Trigger**: lucidatura di sottosezioni, lucidatura per sottosezione, file di sezione di lucidatura, 小节润色, 去模板, 结构化段落.
+**Utilizzare quando**: `sections/S*.md` esiste ma legge rigid/template-y; vuoi correggere la qualità localmente prima di "unione delle sezioni".
+**Salta se**: i file delle sottosezioni mancano, i pacchetti di prove sono incompleti o "Approva C2" non è registrato.
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti/citazioni; non aggiungere/rimuovere chiavi di citazione; mantenere le citazioni all'interno dello stesso H3; mantenere le citazioni nell'ambito della sottosezione.

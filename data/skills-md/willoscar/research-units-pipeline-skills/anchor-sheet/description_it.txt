@@ -1,0 +1,6 @@
+Estrarre i "fatti di ancoraggio" per sottosezione (NO PROSA) dai pacchetti di prove in modo che lo scrittore sia costretto a includere numeri/parametri/limitazioni concreti invece di riepiloghi generici.
+**Trigger**: foglio di ancoraggio, fatti di ancoraggio, ancore numeriche, ganci di prova, 写作锚点, 数字锚点, 证据钩子.
+**Utilizzare quando**: `outline/evidence_drafts.jsonl` esiste e si desidera una scrittura più forte e ancorata alle prove in `sections/*.md`.
+**Salta se**: i pacchetti di prove sono incompleti (correggi prima `evidence-draft`).
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare fatti; selezionare solo da frammenti/evidenziazioni di prove esistenti.

@@ -1,0 +1,6 @@
+Scrivi blocchi iniziali del capitolo H2 (`sections/S<sec_id>_lead.md`) che mostrino in anteprima la lente di confronto del capitolo\x27 e colleghino le sue sottosezioni H3, senza aggiungere nuovi fatti.
+**Trigger**: autore principale del capitolo, autore principale della sezione, responsabile H2, paragrafo principale, 章节导读, 章节导语.
+**Utilizzare quando**: hai capitoli H2 con più sottosezioni H3 e la bozza si legge come \"isole di paragrafo\" tra le sottosezioni.
+**Salta se**: la struttura non ha sottosezioni H3 o manca `outline/chapter_briefs.jsonl` (crea prima i brief).
+**Rete**: nessuno.
+**Guardrail**: nessun fatto/citazione nuova; nessuna intestazione; nessun modello di narrazione; utilizzare solo le chiavi di citazione presenti in `citations/ref.bib`.

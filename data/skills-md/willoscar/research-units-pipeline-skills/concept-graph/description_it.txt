@@ -1,0 +1,6 @@
+Costruisci un grafico concettuale (nodi + bordi prerequisiti) da una specifica del tutorial, salvandolo come `outline/concept_graph.yml`.
+**Trigger**: grafico concettuale, grafico prerequisito, grafico dipendenza, 概念图, 先修关系.
+**Utilizzare quando**: pipeline del tutorial 的结构阶段（C2）,需要把教程知识点拆成可排序的依赖图（在写教程 prose 前）.
+**Salta se**: 还没有 tutorial spec（例如缺少 `output/TUTORIAL_SPEC.md`）.
+**Rete**: nessuno.
+**Guardrail**: 只做结构；避免写长 prosa 段落.

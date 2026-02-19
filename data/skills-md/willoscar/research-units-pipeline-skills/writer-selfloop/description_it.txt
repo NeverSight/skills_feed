@@ -1,0 +1,6 @@
+Scrittura di un ciclo automatico per i sondaggi: esegui il rigoroso controllo della qualità della sezione, quindi riscrivi solo i file `sections/*.md` falliti finché il rapporto non risulta PASSATO.
+**Trigger**: loop automatico dello scrittore, loop di scrittura, loop del gate di qualità, riscrittura delle sezioni con errori, 自循环, 反复改到 PASS.
+**Utilizzare quando**: esistono file per sezione ma C5 è FALLITO/BLOCCATO (sezioni sottili, lead/prima parte mancanti, violazioni dell'ambito della citazione, voce del generatore).
+**Salta se**: sei ancora pre-C2 (NO PROSA), o i pacchetti di prove sono incompleti (correggi prima C3/C4).
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti; utilizzare solo le chiavi di citazione presenti in `citations/ref.bib`; mantenere le citazioni nell'ambito di "outline/evidence_bindings.jsonl"; non aggiungere/rimuovere chiavi di citazione durante le riscritture.

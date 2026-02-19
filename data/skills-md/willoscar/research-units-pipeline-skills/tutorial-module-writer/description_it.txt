@@ -1,0 +1,6 @@
+Scrivi il contenuto del tutorial (`output/TUTORIAL.md`) da un piano di moduli approvato, inclusi esercizi e schemi di risposta.
+**Trigger**: scrivi tutorial, moduli tutorial, 教程写作, TUTORIAL.md.
+**Utilizzare quando**: pipeline tutorial 的写作阶段（C3）, 且 `DECISIONS.md` 已记录 HUMAN 对 ambito/esempio in esecuzione 的批准（C2）.
+**Salta se**: piano del modulo 未完成/未批准（先跑 `module-planner`/`exercise-builder` 并通过 Approva C2）.
+**Rete**: nessuno.
+**Guardrail**: 只写已批准范围；保持 esempio in esecuzione 一致；每模块包含练习与答案要点.

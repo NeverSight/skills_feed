@@ -1,0 +1,6 @@
+Auto-ciclo degli argomenti: mantiene un registro degli argomenti + un rapporto sulla coerenza delle premesse per le sezioni redatte.
+**Trigger**: ciclo automatico dell'argomento, catena di argomenti, coerenza della premessa, autocontrollo della sezione, contratto del paragrafo, 论证自循环, 论证链路, 前提一致性, 段落论证动作.
+**Utilizzare quando**: sei in C5 (PROSE consentito), esistono `sections/*.md` e vuoi impedire la scrittura "fluida ma vuota" imponendo gli spostamenti degli argomenti + l'igiene delle premesse prima dell'unione.
+**Salta se**: sei pre-C2 (NO PROSE), o i pacchetti di prove sono impalcati/sottili (percorri prima il percorso a monte verso `evidence-selfloop`).
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti; non aggiungere/rimuovere/spostare chiavi di citazione; non spostare le citazioni tra le sottosezioni; il registro degli argomenti è un artefatto intermedio e non deve mai essere inserito nel documento.

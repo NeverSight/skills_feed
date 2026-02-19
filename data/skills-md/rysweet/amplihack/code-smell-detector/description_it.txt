@@ -1,0 +1,4 @@
+Identifica gli anti-modelli specifici della filosofia amplihack.
+Da utilizzare durante la revisione del codice per problemi di qualità o refactoring.
+Rileva: eccessiva astrazione, ereditarietà complessa, funzioni di grandi dimensioni (>50 righe), accoppiamento stretto, esportazioni di __tutte__ mancanti.
+Fornisce correzioni e spiegazioni specifiche per ciascun odore.

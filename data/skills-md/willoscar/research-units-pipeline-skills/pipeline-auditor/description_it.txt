@@ -1,0 +1,6 @@
+Controlli di audit/regressione per la pipeline del sondaggio basato sull'evidenza: integrità delle citazioni, copertura per sezione, perdita di segnaposto e ripetizione del modello.
+**Trigger**: auditor, audit, test di regressione, rapporto sulla qualità, 审计, 回归测试.
+**Utilizzare quando**: `output/DRAFT.md` esiste e si desidera un rapporto deterministico PASS/FAIL prima di LaTeX/PDF.
+**Salta se**: stai ancora modificando pesantemente i pacchetti di recupero/schema/prove (controlla più tardi).
+**Rete**: nessuno.
+**Guardrail**: non modifica il contenuto; basta analizzare e riferire.

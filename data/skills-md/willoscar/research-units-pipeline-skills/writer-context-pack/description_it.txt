@@ -1,0 +1,6 @@
+Crea pacchetti di contesto per scrittore per H3 (NO PROSA): unisci brief + pacchetti di prove + fatti di ancoraggio + citazioni consentite in un unico JSONL deterministico, quindi la stesura è meno vuota e meno fragile.
+**Trigger**: pacchetto di contesto dello scrittore, pacchetto di contesto, pacchetto di redazione, pacchetto di piani di paragrafo, 写作上下文包.
+**Utilizzare quando**: `outline/subsection_briefs.jsonl` + `outline/evidence_drafts.jsonl` + `outline/anchor_sheet.jsonl` esistono e si desidera rendere la stesura di C5 più semplice/più coerente.
+**Salta se**: le prove a monte sono mancanti o impalcate (correggi prima `paper-notes` / `evidence-binder` / `evidence-draft` / `anchor-sheet`).
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare fatti/citazioni; utilizzare solo le chiavi di citazione presenti in `citations/ref.bib`.

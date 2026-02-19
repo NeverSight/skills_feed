@@ -1,0 +1,6 @@
+Gestisci lo screening di titoli/abstract e registra le decisioni in "papers/screening_log.csv" secondo un protocollo approvato.
+**Trigger**: screening, screening titolo/astratto, inclusione/esclusione, screening_log.csv, 文献筛选, 纳入排除.
+**Utilizzare quando**: revisione sistematica 的 screening 阶段（C2）, protocollo 已锁定并通过 HUMAN 审批.
+**Salta se**: 还没有 `output/PROTOCOL.md`（或 protocollo 未通过签字）.
+**Rete**: nessuno.
+**Guardrail**: 每条记录包含决策与理由；保持可审计（不要把“未读/不确定”当作纳入）.

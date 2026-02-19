@@ -1,0 +1,6 @@
+Crea un'istanza o aggiorna uno spazio di lavoro "UNITS.csv" da una pipeline selezionata e da un modello di unità (deps/checkpoint/accettazione).
+**Trigger**: pianificatore di unità, generazione di UNITS.csv, contratto di esecuzione, modello di unità, 生成工作单元.
+**Utilizzare quando**: 初始化/更新执行合同：从 pipeline 选择生成 `UNITS.csv`, 或 scope 扩展需要新增units/依赖.
+**Salta se**: ambito `UNITS.csv` 已正确反映当前（无需重写）.
+**Rete**: nessuno.
+**Guardrail**: unità CSV 合法；ambito 增长时新增 unità；只在满足验收后标 `DONE`.

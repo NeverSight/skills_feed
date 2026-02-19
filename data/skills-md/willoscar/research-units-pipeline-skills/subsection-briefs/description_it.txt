@@ -1,0 +1,6 @@
+Costruisci brief di scrittura per sottosezione (NO PROSA) in modo che la stesura successiva sia guidata da prove e assi di confronto verificabili (non da segnaposti di contorno).
+**Trigger**: brief di sottosezione, schede di scrittura, schede di intenti, brief H3, scope_rule, assi, cluster, 写作意图卡, 小节卡片, 段落计划.
+**Utilizzare quando**: `outline/outline.yml` + `outline/mapping.tsv` + `papers/paper_notes.jsonl` esistono e si desidera una stesura sezione per sezione senza perdite di modello.
+**Salta se**: `outline/subsection_briefs.jsonl` esiste già ed è stato perfezionato (nessun segnaposto/ellissi; assi+cluster+paragraph_plan sono riempiti).
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare documenti; fare riferimento solo a `paper_id`/`bibkey` che esistono in `papers/paper_notes.jsonl`.

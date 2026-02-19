@@ -1,0 +1,6 @@
+Definire gli schemi di tabella delle prove per un sondaggio: cosa deve rispondere ciascuna tabella, unità di riga, colonne e quali campi del pacchetto di prove sono richiesti per riempirla.
+**Trigger**: schema di tabella, tabelle con schema-prima, progettazione di tabelle, schema di visualizzazione, schema di schema.
+**Utilizzare quando**: si desidera che le tabelle del sondaggio siano verificabili e compilabili prima di LaTeX (tipicamente Fase C4, dopo l'esistenza dei pacchetti di prove).
+**Salta se**: `outline/table_schema.md` esiste già ed è stato perfezionato (copre sia le tabelle dell'indice che le tabelle dell'appendice; nessun segnaposto; la mappatura delle prove è esplicita).
+**Rete**: nessuno.
+**Guardrail**: nessun fatto inventato; lo schema deve essere controllabile e associare ciascuna colonna a un'origine di prova.

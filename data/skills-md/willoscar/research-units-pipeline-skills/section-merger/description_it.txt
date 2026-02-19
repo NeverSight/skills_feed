@@ -1,0 +1,6 @@
+Unisci in modo deterministico i file per sezione in "sections/" in "output/DRAFT.md", preservando l'ordine della struttura e intrecciando le transizioni da "outline/transitions.md".
+**Trigger**: unisci sezioni, unisci bozza, combina file di sezione, sezioni/ -> output/DRAFT.md, 合并小节, 拼接草稿.
+**Utilizzare quando**: hai file di prosa per unità in "sezioni/" e desideri un singolo "output/DRAFT.md" per la rifinitura/revisione/LaTeX.
+**Salta se**: i file di sezione mancano o contengono ancora indicatori di impalcatura (correggi prima `subsection-writer`).
+**Rete**: nessuno.
+**Guardrail**: solo fusione deterministica (nessun fatto/citazione nuova); preserva l'ordine delle sezioni da "outline/outline.yml".

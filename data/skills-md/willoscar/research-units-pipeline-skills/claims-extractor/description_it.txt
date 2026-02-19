@@ -1,0 +1,6 @@
+Estrai affermazioni, contributi e ipotesi chiave da un documento/manoscritto in "output/CLAIMS.md" con tracciabilità delle posizioni di origine.
+**Trigger**: estrattore di attestazioni, estrazione di attestazioni, contributi, ipotesi, peer review, 审稿, 主张提取.
+**Utilizzare quando**: 审稿/评审或 verifica delle prove, 需要把主张列表落盘并可追溯到原文位置（sezione/pagina/citazione）.
+**Salta se**: 没有可用的稿件/全文（例如缺少 `output/PAPER.md` 或等价文本）.
+**Rete**: nessuno.
+**Guardrail**: 每条 rivendicazione 必须带可定位的 source pointer；区分 affermazioni empiriche vs concettuali.

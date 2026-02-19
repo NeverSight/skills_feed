@@ -1,0 +1,8 @@
+Correggi gli errori del webhook 400 di Stripe nello sviluppo locale. Il problema: "ascolto stripe".
+genera un nuovo segreto ogni volta che viene avviato, ma la tua app utilizza un segreto obsoleto da
+.env.local. Questa abilità sincronizza automaticamente il segreto temporaneo prima dell'avvio del server di sviluppo.
+
+Richiamo automatico quando: i webhook stripe restituiscono 400, "verifica della firma non riuscita",
+"Nessuna firma trovata corrispondente", i webhook non funzionano localmente, il checkout riesce
+ma l'abbonamento non si aggiorna, STRIPE_WEBHOOK_SECRET non corrispondente, configurazione
+stripe listen, configurando pnpm dev con Stripe.

@@ -1,0 +1,6 @@
+Crea pacchetti di prove per sottosezione (NO PROSE): candidati alle rivendicazioni, confronti concreti, protocollo di valutazione, limitazioni, oltre a frammenti di prove supportati da citazioni con provenienza.
+**Trigger**: bozza delle prove, pacchetto delle prove, candidati alle rivendicazioni, confronti concreti, frammenti di prove, provenienza, 证据草稿, 证据包, 可引用事实.
+**Utilizzare quando**: `outline/subsection_briefs.jsonl` esiste e si desidera una redazione della sezione basata sull'evidenza in cui ogni paragrafo può essere supportato da citazioni/snippet tracciabili.
+**Salta se**: `outline/evidence_drafts.jsonl` esiste già ed è stato perfezionato (nessun segnaposto; >=8 confronti per sottosezione; `blocking_missing` vuoto).
+**Rete**: nessuna (le prove più ricche migliorano con gli abstract/il testo completo).
+**Guardrail**: SENZA PROSA; non inventare fatti; utilizzare solo le chiavi di citazione che esistono in `citations/ref.bib`.

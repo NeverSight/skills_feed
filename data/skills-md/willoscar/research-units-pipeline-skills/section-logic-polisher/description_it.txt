@@ -1,0 +1,6 @@
+Passaggio di coerenza logica per i file di sezione per H3: applica una chiara tesi del paragrafo 1 e fa emergere i rischi dell'isola di paragrafi (le statistiche del connettore sono diagnostiche, non una quota) prima della fusione.
+**Trigger**: lucidatore logico, logica della sezione, enunciato di tesi, connettori, 段落逻辑, 连接词, 论证主线, 润色逻辑.
+**Utilizzare quando**: `sections/S*.md` esiste ma si legge come isole di paragrafo; vuoi un self-loop mirato e debuggabile prima di `section-merger`.
+**Salta se**: le sezioni sono mancanti/sottili (correggi prima `subsection-writer`) o i pacchetti/brief di prove sono impalcati (correggi prima C3/C4).
+**Rete**: nessuno.
+**Guardrail**: non aggiungere nuove citazioni; non inventare fatti; non modificare le chiavi delle citazioni; non spostare le citazioni tra le sottosezioni.

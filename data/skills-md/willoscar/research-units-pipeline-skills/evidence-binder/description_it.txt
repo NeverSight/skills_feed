@@ -1,0 +1,6 @@
+Associa gli ID delle prove indirizzabili da "papers/evidence_bank.jsonl" a ciascuna sottosezione (H3), producendo "outline/evidence_bindings.jsonl".
+**Trigger**: raccoglitore di prove, piano di prove, sezione->mappatura di prove, 证据绑定, prove_id.
+**Utilizzare quando**: `papers/evidence_bank.jsonl` esiste e si desidera che lo scrittore/revisore utilizzi elementi di prova con ambito sezione (banco di memoria in stile WebWeaver).
+**Salta se**: non stai scrivendo sezione per sezione in base alle prove.
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare prove; selezionare solo dalla banca prove esistente.

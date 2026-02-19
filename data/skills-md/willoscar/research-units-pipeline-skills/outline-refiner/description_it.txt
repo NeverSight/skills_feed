@@ -1,0 +1,6 @@
+Copertura del pass di pianificazione + report di ridondanza per uno schema+mappatura, producendo `outline/coverage_report.md` e `outline/outline_state.jsonl`.
+**Trigger**: pianificatore, struttura dinamica, perfezionamento della struttura, rapporto di copertura, 大纲迭代, 覆盖率报告.
+**Utilizzare quando**: hai `outline/outline.yml` + `outline/mapping.tsv` e desideri un pass di pianificazione verificabile, NO-PROSE prima di scrivere.
+**Salta se**: non vuoi alcuna diagnostica di contorno/mappatura (o hai una struttura congelata/approvata e non la modificherai).
+**Rete**: nessuno.
+**Guardrail**: SENZA PROSA; non inventare documenti; riferire solo sulla copertura/riutilizzo e proporre azioni strutturali come punti salienti.

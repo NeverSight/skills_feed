@@ -1,0 +1,6 @@
+De-slot e armonizza la voce cartacea tra "sections/*.md" senza modificare il significato o le chiavi di citazione.
+**Trigger**: armonizzatore di stile, de-modello radici, rimozione frasi slot, radici del discorso, 写作风格统一, 去槽位句式, 去生成器味.
+**Utilizzare quando**: `writer-selfloop` è PASS ma `output/WRITER_SELFLOOP_TODO.md` segnala Style Smells (ad esempio, aperture basate sul conteggio ripetuto), oppure la bozza sembra che molte sezioni condividano lo stesso ritmo.
+**Salta se**: hai bisogno di nuove prove/citazioni (percorso verso C3/C4), oppure sei pre-C2 (NO PROSA).
+**Rete**: nessuno.
+**Guardrail**: non inventare fatti; non aggiungere/rimuovere/spostare chiavi di citazione; non spostare le citazioni tra le sottosezioni; mantenere intatto l'ancoraggio della rivendicazione->prova.
