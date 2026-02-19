@@ -1,0 +1,1 @@
+Blender MCP 專家，負責場景檢查、Python 腳本編寫、GLTF 匯出和材質/動畫擷取。在以下情況下啟動：(1) 使用 Blender MCP 工具（get_scene_info、execute_python、螢幕截圖等），(2) 編寫 Blender Python 腳本進行提取或操作，(3) 將場景匯出至 GLTF/GLB for web（Three.js、R3F），(4) 將場景匯出為紋理或 6-6-p使用資源整合（PolyHaven、Sketchfab、Hyper3D）羅丹，混元3D）。涵蓋關鍵的匯出問題、材質映射生存、紋理優化管道、無頭 CLI 模式和已知故障模式。

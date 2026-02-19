@@ -1,0 +1,1 @@
+Blender MCP 专家，负责场景检查、Python 脚本编写、GLTF 导出和材质/动画提取。在以下情况下激活：(1) 使用 Blender MCP 工具（get_scene_info、execute_python、屏幕截图等），(2) 编写 Blender Python 脚本进行提取或操作，(3) 将场景导出到 GLTF/GLB for web（Three.js、R3F），(4) 调试材质或纹理导出损失，(5) 使用 gltf-transform 优化 GLB 文件，(6) 使用资源集成（PolyHaven、Sketchfab、Hyper3D）罗丹，混元3D）。涵盖关键的导出问题、材质映射生存、纹理优化管道、无头 CLI 模式和已知故障模式。
