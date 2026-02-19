@@ -4,634 +4,596 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Thu, 19 Feb 2026 13:20:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2026 18:59:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[[Daily] Skills.sh snapshot (2026-02-19)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:snapshot</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:snapshot</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 30024
-Trending skills: 10370
-Hot skills: 1641
-Top All Time: find-skills (265641)
-Top Trending: find-skills (10180)
-Top Hot: agent-tools (480)]]></description>
+All Time skills: 30081
+Trending skills: 10944
+Hot skills: 2298
+Top All Time: find-skills (268466)
+Top Trending: find-skills (9863)
+Top Hot: agent-browser (154)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#50): receiving-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topAllTime:new:obra/superpowers/receiving-code-review</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#50): using-git-worktrees]]></title>
+            <link>https://skills.sh/obra/superpowers/using-git-worktrees</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topAllTime:new:obra/superpowers/using-git-worktrees</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in All Time leaderboard.
 Rank: #50
-Installs: 7574
+Installs: 7644
 Source: obra/superpowers
-Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
+Description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): agent-tools]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/agent-tools</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-3/skills/agent-tools</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): agent-browser]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 480
-Source: inference-sh-3/skills
-Description: Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
+Installs: 154
+Source: vercel-labs/agent-browser
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): ai-video-generation]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/ai-video-generation</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): better-auth-best-practices]]></title>
+            <link>https://skills.sh/better-auth/skills/better-auth-best-practices</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:better-auth/skills/better-auth-best-practices</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 72
-Source: inference-sh-4/skills
-Description: Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative]]></description>
+Installs: 22
+Source: better-auth/skills
+Description: Skill for integrating Better Auth - the comprehensive TypeScript authentication framework.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): ui-animation]]></title>
-            <link>https://skills.sh/mblode/agent-skills/ui-animation</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:mblode/agent-skills/ui-animation</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): shadcn-ui]]></title>
+            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/shadcn-ui</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:giuseppe-trisciuoglio/developer-kit/shadcn-ui</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 31
-Source: mblode/agent-skills
-Description: Guidelines and examples for UI motion and animation. Use when designing, implementing, or reviewing motion, easing, timing, and reduced-motion behaviour.]]></description>
+Rank: #12
+Installs: 11
+Source: giuseppe-trisciuoglio/developer-kit
+Description: Complete shadcn/ui component library guide including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing components, building forms with React Hook Form and Zod, customizing themes with Tailwind CSS, or implementing UI patterns like buttons, dialogs, dropdowns, tables, and complex form layouts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): pitch-deck-visuals]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/pitch-deck-visuals</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/pitch-deck-visuals</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): using-git-worktrees]]></title>
+            <link>https://skills.sh/obra/superpowers/using-git-worktrees</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:obra/superpowers/using-git-worktrees</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 28
-Source: inference-sh-4/skills
-Description: Investor pitch deck structure with slide-by-slide framework, visual design rules, and data presentation. Covers the 12-slide framework, chart types, team slides, and common investor turn-offs. Use for: fundraising decks, investor presentations, startup pitch, demo day, grant proposals. Triggers: pitch deck, investor deck, startup pitch, fundraising deck, demo day, pitch presentation, investor presentation, seed deck, series a deck, pitch slides, startup presentation, vc pitch, investor meeting]]></description>
+Installs: 16
+Source: obra/superpowers
+Description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): m15-anti-pattern]]></title>
-            <link>https://skills.sh/zhanghandong/rust-skills/m15-anti-pattern</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:zhanghandong/rust-skills/m15-anti-pattern</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): next-cache-components]]></title>
+            <link>https://skills.sh/vercel-labs/next-skills/next-cache-components</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:vercel-labs/next-skills/next-cache-components</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #15
-Installs: 28
-Source: zhanghandong/rust-skills
-Description: Use when reviewing code for anti-patterns. Keywords: anti-pattern, common mistake, pitfall, code smell, bad practice, code review, is this an anti-pattern, better way to do this, common mistake to avoid, why is this bad, idiomatic way, beginner mistake, fighting borrow checker, clone everywhere, unwrap in production, should I refactor, 反模式, 常见错误, 代码异味, 最佳实践, 地道写法]]></description>
+Rank: #16
+Installs: 14
+Source: vercel-labs/next-skills
+Description: Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, updateTag]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): data-visualization]]></title>
-            <link>https://skills.sh/anthropics/knowledge-work-plugins/data-visualization</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:anthropics/knowledge-work-plugins/data-visualization</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): ralph-tui-prd]]></title>
+            <link>https://skills.sh/subsy/ralph-tui/ralph-tui-prd</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:subsy/ralph-tui/ralph-tui-prd</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 11
+Source: subsy/ralph-tui
+Description: Generate a Product Requirements Document (PRD) for ralph-tui task orchestration. Creates PRDs with user stories that can be converted to beads issues or prd.json for automated execution. Triggers on: create a prd, write prd for, plan this feature, requirements for, spec out.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): writing-skills]]></title>
+            <link>https://skills.sh/obra/superpowers/writing-skills</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:obra/superpowers/writing-skills</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 30
-Source: anthropics/knowledge-work-plugins
-Description: Create effective data visualizations with Python (matplotlib, seaborn, plotly). Use when building charts, choosing the right chart type for a dataset, creating publication-quality figures, or applying design principles like accessibility and color theory.]]></description>
+Installs: 15
+Source: obra/superpowers
+Description: Use when creating new skills, editing existing skills, or verifying skills work before deployment]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): ai-image-generation]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/ai-image-generation</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): seedance2-api]]></title>
+            <link>https://skills.sh/hexiaochun/seedance2-api/seedance2-api</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:hexiaochun/seedance2-api/seedance2-api</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 84
-Source: inference-sh-4/skills
-Description: Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image]]></description>
+Installs: 56
+Source: hexiaochun/seedance2-api
+Description: Out-of-the-box Seedance 2.0 API skill — just one API key to generate AI videos. Builds storyboards, generates reference images with Seedream 4.5, submits video tasks, and polls results. Supports both MCP and standalone Python script mode. Use when the user mentions seedance, AI video, storyboard, or video generation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): ai-voice-cloning]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-voice-cloning</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/ai-voice-cloning</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): dispatching-parallel-agents]]></title>
+            <link>https://skills.sh/obra/superpowers/dispatching-parallel-agents</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:obra/superpowers/dispatching-parallel-agents</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 27
-Source: inference-sh-4/skills
-Description: AI voice generation, text-to-speech, and voice synthesis via inference.sh CLI. Models: Kokoro TTS, DIA, Chatterbox, Higgs, VibeVoice for natural speech. Capabilities: multiple voices, emotions, accents, long-form narration, conversation. Use for: voiceovers, audiobooks, podcasts, video narration, accessibility. Triggers: voice cloning, tts, text to speech, ai voice, voice generation, voice synthesis, voice over, narration, speech synthesis, ai narrator, elevenlabs alternative, natural voice, realistic speech, voice ai]]></description>
+Installs: 15
+Source: obra/superpowers
+Description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): google-search-browser-use]]></title>
-            <link>https://skills.sh/grasseed/google-search-browser-use/google-search-browser-use</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:grasseed/google-search-browser-use/google-search-browser-use</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 24
-Source: grasseed/google-search-browser-use
-Description: Use browser-use to perform Google searches, open results, and extract key information from live pages. Use when the user asks to "search Google", "look this up on Google", or needs current web results via a real browser session (often to avoid bot blocks).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): ai-podcast-creation]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-podcast-creation</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/ai-podcast-creation</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): skill-creator]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/skill-creator</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:vercel-labs/agent-browser/skill-creator</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 22
-Source: inference-sh-4/skills
-Description: Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podcast production, audiobooks, voice content, audio newsletters. Triggers: podcast, ai podcast, text to speech podcast, audio content, voice over, ai audiobook, multi voice, conversation ai, notebooklm alternative, audio generation, podcast automation, ai narrator, voice content, audio newsletter, podcast maker]]></description>
+Installs: 9
+Source: vercel-labs/agent-browser
+Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): super-search]]></title>
-            <link>https://skills.sh/supermemoryai/claude-supermemory/super-search</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:supermemoryai/claude-supermemory/super-search</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): laravel-specialist]]></title>
+            <link>https://skills.sh/jeffallan/claude-skills/laravel-specialist</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:jeffallan/claude-skills/laravel-specialist</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 31
-Source: supermemoryai/claude-supermemory
-Description: Search your coding memory. Use when user asks about past work, previous sessions, how something was implemented, what they worked on before, or wants to recall information from earlier sessions.]]></description>
+Installs: 7
+Source: jeffallan/claude-skills
+Description: Use when building Laravel 10+ applications requiring Eloquent ORM, API resources, or queue systems. Invoke for Laravel models, Livewire components, Sanctum authentication, Horizon queues.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): music-downloader]]></title>
-            <link>https://skills.sh/nymbo/skills/music-downloader</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:nymbo/skills/music-downloader</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): golang-pro]]></title>
+            <link>https://skills.sh/jeffallan/claude-skills/golang-pro</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:jeffallan/claude-skills/golang-pro</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 30
-Source: nymbo/skills
-Description: This skill should be used when users need to download audio or music from online platforms like YouTube, SoundCloud, Spotify, or other streaming services. It provides yt-dlp and spotdl command templates for high-quality audio extraction, playlist downloads, metadata embedding, and multi-platform support.]]></description>
+Installs: 7
+Source: jeffallan/claude-skills
+Description: Use when building Go applications requiring concurrent programming, microservices architecture, or high-performance systems. Invoke for goroutines, channels, Go generics, gRPC integration.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): fastapi-python]]></title>
-            <link>https://skills.sh/mindrally/skills/fastapi-python</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:mindrally/skills/fastapi-python</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 26
-Source: mindrally/skills
-Description: Expert in FastAPI Python development with best practices for APIs and async operations]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): xlsx]]></title>
-            <link>https://skills.sh/tfriedel/claude-office-skills/xlsx</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:tfriedel/claude-office-skills/xlsx</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): nestjs-best-practices]]></title>
+            <link>https://skills.sh/kadajett/agent-nestjs-skills/nestjs-best-practices</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:kadajett/agent-nestjs-skills/nestjs-best-practices</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 22
-Source: tfriedel/claude-office-skills
-Description: Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas]]></description>
+Installs: 12
+Source: kadajett/agent-nestjs-skills
+Description: NestJS best practices and architecture patterns for building production-ready applications. This skill should be used when writing, reviewing, or refactoring NestJS code to ensure proper patterns for modules, dependency injection, security, and performance.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): talking-head-production]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/talking-head-production</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/talking-head-production</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): responsive-design]]></title>
+            <link>https://skills.sh/wshobson/agents/responsive-design</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:wshobson/agents/responsive-design</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 20
-Source: inference-sh-4/skills
-Description: Talking head video production with AI avatars, lipsync, and voiceover. Covers portrait requirements, audio quality, OmniHuman, PixVerse lipsync, Dia TTS. Use for: spokesperson videos, course content, social media, presentations, demos. Triggers: talking head, avatar video, lipsync, lip sync, ai spokesperson, virtual presenter, ai presenter, omnihuman, talking avatar, video presenter, ai talking head, presenter video, ai face video]]></description>
+Installs: 9
+Source: wshobson/agents
+Description: Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): prompt-engineering]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/prompt-engineering</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/prompt-engineering</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): obsidian-markdown]]></title>
+            <link>https://skills.sh/kepano/obsidian-skills/obsidian-markdown</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:kepano/obsidian-skills/obsidian-markdown</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 20
-Source: inference-sh-4/skills
-Description: Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, system prompts, negative prompts. Models: Claude, GPT-4, Gemini, FLUX, Veo, Stable Diffusion prompting. Use for: better AI outputs, consistent results, complex tasks, optimization. Triggers: prompt engineering, how to prompt, better prompts, prompt tips, prompting guide, llm prompting, image prompt, ai prompting, prompt optimization, prompt template, prompt structure, effective prompts, prompt techniques]]></description>
+Installs: 7
+Source: kepano/obsidian-skills
+Description: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): audit-website]]></title>
-            <link>https://skills.sh/squirrelscan/skills/audit-website</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:squirrelscan/skills/audit-website</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): api-security-best-practices]]></title>
+            <link>https://skills.sh/sickn33/antigravity-awesome-skills/api-security-best-practices</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:sickn33/antigravity-awesome-skills/api-security-best-practices</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 18
-Source: squirrelscan/skills
-Description: Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health.]]></description>
+Installs: 6
+Source: sickn33/antigravity-awesome-skills
+Description: Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): obsidian-bases]]></title>
-            <link>https://skills.sh/kepano/obsidian-skills/obsidian-bases</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:kepano/obsidian-skills/obsidian-bases</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): mcp-apps-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/mcp-apps-builder</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:mcp-use/mcp-use/mcp-apps-builder</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #3
+Installs: 30
+Source: mcp-use/mcp-use
+Description: **MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.
+
+**READ THIS FIRST** before any MCP server work, including:
+- Creating new MCP servers
+- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)
+- Debugging MCP server issues or errors
+- Reviewing MCP server code for quality, security, or performance
+- Answering questions about MCP development or mcp-use patterns
+- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets
+
+This skill contains critical architecture decisions, security patterns, and common pitfalls.
+Always consult the relevant reference files BEFORE implementing MCP features.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#30): security-review]]></title>
+            <link>https://skills.sh/sickn33/antigravity-awesome-skills/security-review</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:sickn33/antigravity-awesome-skills/security-review</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 31
+Installs: 5
+Source: sickn33/antigravity-awesome-skills
+Description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): json-canvas]]></title>
+            <link>https://skills.sh/kepano/obsidian-skills/json-canvas</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:kepano/obsidian-skills/json-canvas</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #31
+Installs: 5
+Source: kepano/obsidian-skills
+Description: Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#32): setup-sandbox]]></title>
+            <link>https://skills.sh/recoupable/setup-sandbox/setup-sandbox</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:recoupable/setup-sandbox/setup-sandbox</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 5
+Source: recoupable/setup-sandbox
+Description: Set up the initial file system for a new sandbox. Fetches the account's organizations and artists via the Recoup CLI and scaffolds an opinionated folder structure. Use when a sandbox has just been created and has no existing file system. Before running, check if the sandbox already has an orgs/ directory — if it does, this skill is not needed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): defuddle]]></title>
+            <link>https://skills.sh/kepano/obsidian-skills/defuddle</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:kepano/obsidian-skills/defuddle</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 5
+Source: kepano/obsidian-skills
+Description: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): nx-run-tasks]]></title>
+            <link>https://skills.sh/nrwl/nx-ai-agents-config/nx-run-tasks</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:nrwl/nx-ai-agents-config/nx-run-tasks</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 5
+Source: nrwl/nx-ai-agents-config
+Description: Helps with running tasks in an Nx workspace. USE WHEN the user wants to execute build, test, lint, serve, or run any other tasks defined in the workspace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): flutter-expert]]></title>
+            <link>https://skills.sh/jeffallan/claude-skills/flutter-expert</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:jeffallan/claude-skills/flutter-expert</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #35
+Installs: 5
+Source: jeffallan/claude-skills
+Description: Use when building cross-platform applications with Flutter 3+ and Dart. Invoke for widget development, Riverpod/Bloc state management, GoRouter navigation, platform-specific implementations, performance optimization.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): obsidian-cli]]></title>
+            <link>https://skills.sh/kepano/obsidian-skills/obsidian-cli</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:kepano/obsidian-skills/obsidian-cli</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 5
+Source: kepano/obsidian-skills
+Description: Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform vault operations from the command line, or develop and debug Obsidian plugins and themes.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): speakturbo-tts]]></title>
+            <link>https://skills.sh/emzod/speak-turbo/speakturbo-tts</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:emzod/speak-turbo/speakturbo-tts</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #37
+Installs: 4
+Source: emzod/speak-turbo
+Description: Give your agent the ability to speak to you real-time. Talk to your Claude! Ultra-fast TTS, text-to-speech, voice synthesis, audio output with ~90ms latency. 8 built-in voices for instant voice responses. For voice cloning, use the speak skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#38): color-palette]]></title>
+            <link>https://skills.sh/jezweb/claude-skills/color-palette</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:jezweb/claude-skills/color-palette</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #38
+Installs: 4
+Source: jezweb/claude-skills
+Description: Generate complete, accessible color palettes from a single brand hex. Creates 11-shade scale (50-950), semantic tokens (background, foreground, card, muted), and dark mode variants. Includes WCAG contrast checking for text accessibility.
+
+Use when: setting up design system, creating Tailwind theme, building brand colors from single hex, converting designs to code, checking color accessibility.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#39): prisma-client-api]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-client-api</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:prisma/skills/prisma-client-api</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 4
+Source: prisma/skills
+Description: Prisma Client API reference covering model queries, filters, operators, and client methods. Use when writing database queries, using CRUD operations, filtering data, or configuring Prisma Client. Triggers on "prisma query", "findMany", "create", "update", "delete", "$transaction".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#4): mcp-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/mcp-builder</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:mcp-use/mcp-use/mcp-builder</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #4
+Installs: 30
+Source: mcp-use/mcp-use
+Description: Build Model Context Protocol (MCP) servers with mcp-use framework.
+Use when creating MCP servers, defining tools/resources/prompts, working with mcp-use,
+bootstrapping MCP projects, or when user mentions MCP development, tools, resources, or prompts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): image-enhancer]]></title>
+            <link>https://skills.sh/composiohq/awesome-claude-skills/image-enhancer</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:composiohq/awesome-claude-skills/image-enhancer</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 4
+Source: composiohq/awesome-claude-skills
+Description: Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): subagent-driven-development]]></title>
+            <link>https://skills.sh/obra/superpowers/subagent-driven-development</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:obra/superpowers/subagent-driven-development</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 15
+Source: obra/superpowers
+Description: Use when executing implementation plans with independent tasks in the current session]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): finishing-a-development-branch]]></title>
+            <link>https://skills.sh/obra/superpowers/finishing-a-development-branch</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:obra/superpowers/finishing-a-development-branch</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 14
+Source: obra/superpowers
+Description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): playwright-cli]]></title>
+            <link>https://skills.sh/microsoft/playwright-cli/playwright-cli</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:microsoft/playwright-cli/playwright-cli</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 10
+Source: microsoft/playwright-cli
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): accessibility-compliance]]></title>
+            <link>https://skills.sh/wshobson/agents/accessibility-compliance</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:wshobson/agents/accessibility-compliance</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 8
+Source: wshobson/agents
+Description: Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA patterns, building for screen readers, or ensuring inclusive user experiences.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): backlink-analyzer]]></title>
+            <link>https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 8
+Source: aaron-he-zhu/seo-geo-claude-skills
+Description: Analyzes backlink profiles to understand link authority, identify toxic links, discover link building opportunities, and monitor competitor link acquisition. Essential for off-page SEO strategy.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): agentation]]></title>
+            <link>https://skills.sh/benjitaylor/agentation/agentation</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:benjitaylor/agentation/agentation</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 7
+Source: benjitaylor/agentation
+Description: Add Agentation visual feedback toolbar to a Next.js project]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): ralph-tui-create-json]]></title>
+            <link>https://skills.sh/subsy/ralph-tui/ralph-tui-create-json</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:subsy/ralph-tui/ralph-tui-create-json</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 7
+Source: subsy/ralph-tui
+Description: Convert PRDs to prd.json format for ralph-tui execution. Creates JSON task files with user stories, acceptance criteria, and dependencies. Triggers on: create prd.json, convert to json, ralph json, create json tasks.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): git-commit]]></title>
+            <link>https://skills.sh/github/awesome-copilot/git-commit</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:github/awesome-copilot/git-commit</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 7
+Source: github/awesome-copilot
+Description: Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions "/commit". Supports: (1) Auto-detecting type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with optional type/scope/description overrides, (4) Intelligent file staging for logical grouping]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#5): chatgpt-app-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:mcp-use/mcp-use/chatgpt-app-builder</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #5
+Installs: 30
+Source: mcp-use/mcp-use
+Description: Build ChatGPT apps with interactive widgets using mcp-use and OpenAI Apps SDK.
+Use when creating ChatGPT apps, building MCP servers with widgets, defining React widgets,
+working with Apps SDK, or when user mentions ChatGPT widgets, mcp-use widgets, or Apps SDK development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): vector-index-tuning]]></title>
+            <link>https://skills.sh/wshobson/agents/vector-index-tuning</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:wshobson/agents/vector-index-tuning</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 6
+Source: wshobson/agents
+Description: Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector search infrastructure.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): web-design-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 127
+Source: vercel-labs/agent-skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#18): seedance2-api]]></title>
+            <link>https://skills.sh/hexiaochun/seedance2-api/seedance2-api</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topTrending:new:hexiaochun/seedance2-api/seedance2-api</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #18
+Installs: 647
+Source: hexiaochun/seedance2-api
+Description: Out-of-the-box Seedance 2.0 API skill — just one API key to generate AI videos. Builds storyboards, generates reference images with Seedream 4.5, submits video tasks, and polls results. Supports both MCP and standalone Python script mode. Use when the user mentions seedance, AI video, storyboard, or video generation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#40): release-skills]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/release-skills</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topTrending:new:jimliu/baoyu-skills/release-skills</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #40
+Installs: 373
+Source: jimliu/baoyu-skills
+Description: Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says "release", "发布", "new version", "bump version", "push", "推送".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#41): obsidian-bases]]></title>
+            <link>https://skills.sh/kepano/obsidian-skills/obsidian-bases</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topTrending:new:kepano/obsidian-skills/obsidian-bases</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #41
+Installs: 359
 Source: kepano/obsidian-skills
 Description: Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): receiving-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:obra/superpowers/receiving-code-review</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 23
-Source: obra/superpowers
-Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): seo-content-brief]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/seo-content-brief</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/seo-content-brief</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 18
-Source: inference-sh-4/skills
-Description: SEO content brief creation with keyword research, search intent analysis, and content structure. Covers SERP analysis, heading hierarchy, word count targets, and internal linking strategy. Use for: content briefs, SEO writing, blog strategy, content planning, keyword targeting. Triggers: seo content brief, content brief, seo brief, keyword research, search intent, content strategy, blog brief, seo writing, content planning, keyword targeting, serp analysis, content outline, seo article, blog seo]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): ui-design-system]]></title>
-            <link>https://skills.sh/samhvw8/dot-claude/ui-design-system</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:samhvw8/dot-claude/ui-design-system</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 29
-Source: samhvw8/dot-claude
-Description: React UI component systems with TailwindCSS + Radix + shadcn/ui. Stack: TailwindCSS (styling), Radix UI (primitives), shadcn/ui (components), React/Next.js. Capabilities: design system architecture, accessible components, responsive layouts, theming, dark mode, component composition. Actions: review, design, build, improve, refactor UI components. Keywords: TailwindCSS, Radix UI, shadcn/ui, design system, component library, accessibility, ARIA, responsive, dark mode, theming, CSS variables, component architecture, atomic design, design tokens, variant, slot, composition. Use when: building component libraries, implementing shadcn/ui, creating accessible UIs, setting up design systems, adding dark mode/theming, reviewing UI component architecture.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): nextjs-supabase-auth]]></title>
-            <link>https://skills.sh/sickn33/antigravity-awesome-skills/nextjs-supabase-auth</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:sickn33/antigravity-awesome-skills/nextjs-supabase-auth</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 25
-Source: sickn33/antigravity-awesome-skills
-Description: Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): convex]]></title>
-            <link>https://skills.sh/waynesutton/convexskills/convex</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:waynesutton/convexskills/convex</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 25
-Source: waynesutton/convexskills
-Description: Umbrella skill for all Convex development patterns. Routes to specific skills like convex-functions, convex-realtime, convex-agents, etc.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): ui-ux-pro-max]]></title>
-            <link>https://skills.sh/likaia/nginxpulse/ui-ux-pro-max</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:likaia/nginxpulse/ui-ux-pro-max</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 24
-Source: likaia/nginxpulse
-Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 8 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): file-name-wizard]]></title>
-            <link>https://skills.sh/cygnusfear/agent-skills/file-name-wizard</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:cygnusfear/agent-skills/file-name-wizard</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 22
-Source: cygnusfear/agent-skills
-Description: Audit all filename and naming conventions in the codebase against AGENTS.md standards and common patterns. Use when user asks to check naming conventions, audit filenames, find naming inconsistencies, or validate file naming patterns.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): angular-component]]></title>
-            <link>https://skills.sh/analogjs/angular-skills/angular-component</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:analogjs/angular-skills/angular-component</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 22
-Source: analogjs/angular-skills
-Description: Create modern Angular standalone components following v20+ best practices. Use for building UI components with signal-based inputs/outputs, OnPush change detection, host bindings, content projection, and lifecycle hooks. Triggers on component creation, refactoring class-based inputs to signals, adding host bindings, or implementing accessible interactive components.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#4): twitter-automation]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/twitter-automation</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/twitter-automation</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 74
-Source: inference-sh-4/skills
-Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): technical-blog-writing]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/technical-blog-writing</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/technical-blog-writing</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 21
-Source: inference-sh-4/skills
-Description: Technical blog post writing with structure, code examples, and developer audience conventions. Covers post types, code formatting, explanation depth, and developer-specific engagement patterns. Use for: engineering blogs, dev tutorials, technical writing, developer content, documentation posts. Triggers: technical blog, dev blog, engineering blog, technical writing, developer tutorial, tech post, code tutorial, programming blog, developer content, technical article, engineering post, coding tutorial, technical content]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#41): flux-image]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/flux-image</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/flux-image</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 18
-Source: inference-sh-4/skills
-Description: Generate images with FLUX models (Black Forest Labs) via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA with custom style adaptation. Capabilities: text-to-image, image-to-image, LoRA fine-tuning, custom styles. Triggers: flux, flux.2, flux dev, flux schnell, flux pro, black forest labs, flux image, flux ai, flux model, flux lora]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): tailwind-design-system]]></title>
-            <link>https://skills.sh/wshobson/agents/tailwind-design-system</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:wshobson/agents/tailwind-design-system</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 30
-Source: wshobson/agents
-Description: Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): typescript-e2e-testing]]></title>
-            <link>https://skills.sh/bmad-labs/skills/typescript-e2e-testing</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:bmad-labs/skills/typescript-e2e-testing</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 27
-Source: bmad-labs/skills
-Description: Complete E2E (end-to-end) and integration testing skill for TypeScript/NestJS projects using Jest, real infrastructure via Docker, and GWT pattern.
-
-ALWAYS use this skill when user needs to:
-
-**SETUP** - Initialize or configure E2E testing infrastructure:
-- Set up E2E testing for a new project
-- Configure docker-compose for testing (Kafka, PostgreSQL, MongoDB, Redis)
-- Create jest-e2e.config.ts or E2E Jest configuration
-- Set up test helpers for database, Kafka, or Redis
-- Configure .env.e2e environment variables
-- Create test/e2e directory structure
-
-**WRITE** - Create or add E2E/integration tests:
-- Write, create, add, or generate e2e tests or integration tests
-- Test API endpoints, workflows, or complete features end-to-end
-- Test with real databases, message brokers, or external services
-- Test Kafka consumers/producers, event-driven workflows
-- Working on any file ending in .e2e-spec.ts or in test/e2e/ directory
-- Use GWT (Given-When-Then) pattern for tests
-
-**REVIEW** - Audit or evaluate E2E tests:
-- Review existing E2E tests for quality
-- Check test isolation and cleanup patterns
-- Audit GWT pattern compliance
-- Evaluate assertion quality and specificity
-- Check for anti-patterns (multiple WHEN actions, conditional assertions)
-
-**RUN** - Execute or analyze E2E test results:
-- Run E2E tests
-- Start/stop Docker infrastructure for testing
-- Analyze E2E test results
-- Verify Docker services are healthy
-- Interpret test output and failures
-
-**DEBUG** - Fix failing or flaky E2E tests:
-- Fix failing E2E tests
-- Debug flaky tests or test isolation issues
-- Troubleshoot connection errors (database, Kafka, Redis)
-- Fix timeout issues or async operation failures
-- Diagnose race conditions or state leakage
-- Debug Kafka message consumption issues
-
-**OPTIMIZE** - Improve E2E test performance:
-- Speed up slow E2E tests
-- Optimize Docker infrastructure startup
-- Replace fixed waits with smart polling
-- Reduce beforeEach cleanup time
-- Improve test parallelization where safe
-
-Keywords: e2e, end-to-end, integration test, e2e-spec.ts, test/e2e, Jest, supertest, NestJS, Kafka, Redpanda, PostgreSQL, MongoDB, Redis, docker-compose, GWT pattern, Given-When-Then, real infrastructure, test isolation, flaky test, MSW, nock, waitForMessages, fix e2e, debug e2e, run e2e, review e2e, optimize e2e, setup e2e]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): typescript-react-reviewer]]></title>
-            <link>https://skills.sh/dotneet/claude-code-marketplace/typescript-react-reviewer</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:dotneet/claude-code-marketplace/typescript-react-reviewer</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 25
-Source: dotneet/claude-code-marketplace
-Description: Expert code reviewer for TypeScript + React 19 applications. Use when reviewing React code, identifying anti-patterns, evaluating state management, or assessing code maintainability. Triggers: code review requests, PR reviews, React architecture evaluation, identifying code smells, TypeScript type safety checks, useEffect abuse detection, state management review.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): tools-ui]]></title>
-            <link>https://skills.sh/inference-sh-5/skills/tools-ui</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-5/skills/tools-ui</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 22
-Source: inference-sh-5/skills
-Description: name: tools-ui]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): verification-before-completion]]></title>
-            <link>https://skills.sh/obra/superpowers/verification-before-completion</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:obra/superpowers/verification-before-completion</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 22
-Source: obra/superpowers
-Description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): competitor-teardown]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/competitor-teardown</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/competitor-teardown</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 16
-Source: inference-sh-4/skills
-Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): security-requirement-extraction]]></title>
+            <title><![CDATA[[Trending] New entry (#45): security-requirement-extraction]]></title>
             <link>https://skills.sh/wshobson/agents/security-requirement-extraction</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:wshobson/agents/security-requirement-extraction</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 28
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topTrending:new:wshobson/agents/security-requirement-extraction</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #45
+Installs: 341
 Source: wshobson/agents
 Description: Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): video-ad-specs]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/video-ad-specs</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-4/skills/video-ad-specs</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 32
-Source: inference-sh-4/skills
-Description: Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): reka-ui]]></title>
-            <link>https://skills.sh/onmax/nuxt-skills/reka-ui</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:onmax/nuxt-skills/reka-ui</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 26
-Source: onmax/nuxt-skills
-Description: Use when building with Reka UI (headless Vue components) - provides component API, accessibility patterns, composition (asChild), controlled/uncontrolled state, virtualization, and styling integration. Formerly Radix Vue.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#7): vercel-react-best-practices]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:vercel-labs/agent-skills/vercel-react-best-practices</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 184
-Source: vercel-labs/agent-skills
-Description: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#8): mastra]]></title>
-            <link>https://skills.sh/mastra-ai/skills/mastra</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:mastra-ai/skills/mastra</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 39
-Source: mastra-ai/skills
-Description: Comprehensive guide for building AI applications with Mastra, the TypeScript AI framework for agents and workflows. Covers LLM agents with tools and memory, multi-step workflows with branching/parallel execution, storage backends (Postgres/LibSQL), RAG/vector search, and custom tool creation. Use when building conversational agents, automated workflows, RAG systems, or any Mastra TypeScript/JavaScript application. Includes 27+ production-ready code patterns, API verification guidance, troubleshooting, and best practices.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): agent-browser]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/agent-browser</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:new:inference-sh-3/skills/agent-browser</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 63
-Source: inference-sh-3/skills
-Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#48): marketing-ideas]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/marketing-ideas</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topTrending:new:coreyhaines31/marketingskills/marketing-ideas</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#47): audit-website]]></title>
+            <link>https://skills.sh/squirrelscan/skills/audit-website</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topTrending:new:squirrelscan/skills/audit-website</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
-Rank: #48
-Installs: 343
-Source: coreyhaines31/marketingskills
-Description: When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category.]]></description>
+Rank: #47
+Installs: 336
+Source: squirrelscan/skills
+Description: Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#49): verification-before-completion]]></title>
-            <link>https://skills.sh/obra/superpowers/verification-before-completion</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topTrending:new:obra/superpowers/verification-before-completion</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#49): postgres]]></title>
+            <link>https://skills.sh/planetscale/database-skills/postgres</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topTrending:new:planetscale/database-skills/postgres</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #49
-Installs: 342
-Source: obra/superpowers
-Description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always]]></description>
+Installs: 330
+Source: planetscale/database-skills
+Description: PostgreSQL best practices, query optimization, connection troubleshooting, and performance improvement. Load when working with Postgres databases.]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] Rank up (28 → 19): agent-tools]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/agent-tools</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topAllTime:rank:inference-sh-3/skills/agent-tools</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[All Time leaderboard rank change.
-Previous rank: #28
-Current rank: #19
-Delta: +9
-Installs: 14712 (prev 10937)
-Source: inference-sh-3/skills
-Description: Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (10 → 17): executing-plans]]></title>
-            <link>https://skills.sh/obra/superpowers/executing-plans</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:rank:obra/superpowers/executing-plans</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #10
-Current rank: #17
-Delta: -7
-Installs: 33 (prev 25)
-Source: obra/superpowers
-Description: Use when you have a written implementation plan to execute in a separate session with review checkpoints]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (13 → 18): requesting-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:rank:obra/superpowers/requesting-code-review</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #13
-Current rank: #18
-Delta: -5
-Installs: 32 (prev 25)
-Source: obra/superpowers
-Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (28 → 42): skill-creator]]></title>
-            <link>https://skills.sh/anthropics/skills/skill-creator</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:rank:anthropics/skills/skill-creator</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #28
-Current rank: #42
-Delta: -14
-Installs: 70 (prev 50)
-Source: anthropics/skills
-Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (5 → 16): writing-plans]]></title>
-            <link>https://skills.sh/obra/superpowers/writing-plans</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:rank:obra/superpowers/writing-plans</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #5
-Current rank: #16
-Delta: -11
-Installs: 39 (prev 35)
-Source: obra/superpowers
-Description: Use when you have a spec or requirements for a multi-step task, before touching code]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (8 → 11): brainstorming]]></title>
+            <title><![CDATA[[Hot] Rank up (11 → 9): brainstorming]]></title>
             <link>https://skills.sh/obra/superpowers/brainstorming</link>
-            <guid isPermaLink="false">2026-02-19T13:20:26.979Z:topHot:rank:obra/superpowers/brainstorming</guid>
-            <pubDate>Thu, 19 Feb 2026 13:20:26 GMT</pubDate>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:rank:obra/superpowers/brainstorming</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #8
-Current rank: #11
-Delta: -3
-Installs: 63 (prev 57)
+Previous rank: #11
+Current rank: #9
+Delta: +2
+Installs: 50 (prev 63)
 Source: obra/superpowers
 Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (12 → 7): using-superpowers]]></title>
+            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:rank:obra/superpowers/using-superpowers</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #12
+Current rank: #7
+Delta: +5
+Installs: 26 (prev 51)
+Source: obra/superpowers
+Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (18 → 15): requesting-code-review]]></title>
+            <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
+            <guid isPermaLink="false">2026-02-19T18:59:48.806Z:topHot:rank:obra/superpowers/requesting-code-review</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:48 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #18
+Current rank: #15
+Delta: +3
+Installs: 21 (prev 32)
+Source: obra/superpowers
+Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
         </item>
     </channel>
 </rss>
