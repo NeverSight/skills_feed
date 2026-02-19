@@ -1,0 +1,50 @@
+Competenze complete di test E2E (end-to-end) e di integrazione per progetti TypeScript/NestJS utilizzando Jest, infrastruttura reale tramite Docker e pattern GWT.
+
+Utilizza SEMPRE questa abilità quando l'utente ha bisogno di:
+
+**SETUP** - Inizializza o configura l'infrastruttura di test E2E:
+- Configurare il test E2E per un nuovo progetto
+- Configura docker-compose per i test (Kafka, PostgreSQL, MongoDB, Redis)
+- Crea la configurazione jest-e2e.config.ts o E2E Jest
+- Configura assistenti di test per database, Kafka o Redis
+- Configurare le variabili di ambiente .env.e2e
+- Creare la struttura delle directory test/e2e
+
+**WRITE** - Crea o aggiungi test E2E/integrazione:
+- Scrivere, creare, aggiungere o generare test e2e o test di integrazione
+- Testa gli endpoint API, i flussi di lavoro o le funzionalità complete end-to-end
+- Prova con database reali, broker di messaggi o servizi esterni
+- Testare i consumatori/produttori di Kafka, flussi di lavoro guidati dagli eventi
+- Lavorare su qualsiasi file che termina con .e2e-spec.ts o nella directory test/e2e/
+- Utilizza il modello GWT (Given-When-Then) per i test
+
+**REVISIONE** - Controlla o valuta i test E2E:
+- Esaminare i test E2E esistenti per la qualità
+- Controllare l'isolamento dei test e i modelli di pulizia
+- Controllare la conformità del modello GWT
+- Valutare la qualità e la specificità delle asserzioni
+- Verifica anti-pattern (più azioni WHEN, asserzioni condizionali)
+
+**RUN** - Esegue o analizza i risultati del test E2E:
+- Eseguire test E2E
+- Avvia/arresta l'infrastruttura Docker per i test
+- Analizzare i risultati dei test E2E
+- Verificare che i servizi Docker siano integri
+- Interpretare l'output e gli errori del test
+
+**DEBUG** - Correzione dei test E2E falliti o instabili:
+- Risolti i test E2E falliti
+- Eseguire il debug di test instabili o problemi di isolamento del test
+- Risolvere gli errori di connessione (database, Kafka, Redis)
+- Risolvere problemi di timeout o errori di funzionamento asincrono
+- Diagnosticare condizioni di competizione o perdite di stato
+- Debug dei problemi di consumo dei messaggi Kafka
+
+**OTTIMIZZA** - Migliora le prestazioni del test E2E:
+- Accelera i test E2E lenti
+- Ottimizzare l'avvio dell'infrastruttura Docker
+- Sostituisci le attese fisse con il polling intelligente
+- Ridurre prima di ogni tempo di pulizia
+- Migliorare la parallelizzazione dei test laddove sicuro
+
+Parole chiave: e2e, end-to-end, test di integrazione, e2e-spec.ts, test/e2e, Jest, supertest, NestJS, Kafka, Redpanda, PostgreSQL, MongoDB, Redis, docker-compose, modello GWT, Given-When-Then, infrastruttura reale, isolamento del test, test instabile, MSW, cocca, waitForMessages, correzione e2e, debug e2e, esegui e2e, revisione e2e, ottimizza e2e, imposta e2e

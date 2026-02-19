@@ -1,0 +1,6 @@
+Converti i server MCP (Model Context Protocol) in Claude Code Skills. Utilizzare quando:
+(1) L'utente desidera convertire un progetto server MCP in una competenza
+(2) L'utente menziona "MCP in skill", "converti MCP" o "MCP 转 skill"
+(3) L'utente ha una base di codice del server MCP e desidera renderla una competenza riutilizzabile
+(4) L'utente desidera analizzare la struttura del server MCP per la creazione di competenze
+Supporta server TypeScript/JavaScript e Python MCP. Genera un pacchetto di competenze completo con SKILL.md, script e riferimenti.

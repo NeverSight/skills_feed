@@ -1,0 +1,6 @@
+Ristruttura il codice esistente per migliorare la leggibilità, la manutenibilità e le prestazioni senza modificare il comportamento esterno.
+
+USARE QUANDO: Ristrutturare il codice senza modificare il comportamento, estrarre metodi/classi, rimuovere duplicazioni, applicare modelli di progettazione, migliorare l'organizzazione del codice, ridurre il debito tecnico.
+NON UTILIZZARE: per correzioni di bug (usare /debugging), per aggiungere test (usare /testing), per nuove funzionalità (implementare direttamente).
+
+TRIGGER: rifattorizzare, ristrutturare, riscrivere, ripulire, semplificare, estrarre, inline, rinominare, spostare, dividere, unire, scomporre, modularizzare, disaccoppiare, debito tecnico, odore di codice, DRY, SOLID, migliorare il codice, modernizzare, riorganizzare.

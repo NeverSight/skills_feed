@@ -1,0 +1,1 @@
+Modelli di accesso al database per le prestazioni. Separare i modelli di lettura/scrittura, evitare query N+1, utilizzare AsNoTracking, applicare limiti di riga e non eseguire mai join lato applicazione. Funziona con EF Core e Dapper.

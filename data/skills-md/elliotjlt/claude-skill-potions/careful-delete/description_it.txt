@@ -1,0 +1,5 @@
+Prima di qualsiasi operazione distruttiva o irreversibile (rm -rf, DROP TABLE, DELETE,
+forzare spinta, eliminazione di rami, troncare), orchestrare un ciclo di sicurezza: valutare
+raggio dell'esplosione → conferma esplicitamente → documenta l'accaduto. Catene pre-mortem
+e sei sicuro con la documentazione integrata. Non viene eseguita alcuna operazione pericolosa
+senza cerimonia.

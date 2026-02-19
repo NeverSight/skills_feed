@@ -1,0 +1,1 @@
+Esegui in modo iterativo un ripristino Supabase locale, test del database e generazione di tipi finché non hanno esito positivo, risolvendo i problemi tra le esecuzioni. Da utilizzare quando viene richiesto di reimpostare il database Supabase locale, eseguire `supabase test db` e rigenerare i tipi ("npm run gen-types") in un ciclo.

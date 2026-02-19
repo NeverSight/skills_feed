@@ -1,0 +1,1 @@
+Gestione del ciclo di vita delle risorse Scala con Cats Effect "Resource" e "IO". Da utilizzare quando si definiscono acquisizioni/rilasci sicuri, si compongono risorse (inclusa l'acquisizione parallela) o si progettano API sicure per le risorse e comportamenti di annullamento per file, flussi, pool, client e fibre in background.

@@ -1,0 +1,4 @@
+Prima di modificare il codice condiviso (utilità, tipi, configurazioni, classi base), traces
+prima tutti i chiamanti e le persone a carico. Si attiva quando si modificano file in shared/,
+utils/, lib/ o qualsiasi cosa importata da più di 3 file. Impedisce di "risolvere una cosa,
+ne ha rotti altri tre."

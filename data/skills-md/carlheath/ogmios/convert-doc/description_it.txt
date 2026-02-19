@@ -1,0 +1,12 @@
+Smart Document Pipeline: gestione dei documenti efficiente in base al contesto
+
+Converte PDF, Word, PowerPoint, Excel per pulire il markdown.
+Riepiloga automaticamente i documenti di grandi dimensioni. Cache per il riutilizzo.
+
+TRIGGER: converti, konvertera, da pdf a markdown, da docx a md, pptx
+
+PERCHÉ:
+- I PDF possono consumare più di 30 MB di contesto quando vengono letti direttamente
+- Il ribasso convertito è inferiore del 95-99%.
+- Le versioni di riepilogo sono più piccole del 99,9%.
+- Le versioni memorizzate nella cache vengono riutilizzate tra le sessioni

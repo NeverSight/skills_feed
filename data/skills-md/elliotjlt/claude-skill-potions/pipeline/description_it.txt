@@ -1,0 +1,4 @@
+Modello di orchestrazione per attività sequenziali e dipendenti. Quando il lavoro deve fluire
+attraverso fasi in cui ciascuna fase dipende dalla precedente (progettazione → implementazione →
+test → revisione), struttura come una pipeline con passaggi espliciti. Ogni fase
+viene completato prima che inizi quello successivo.

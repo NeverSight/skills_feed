@@ -1,0 +1,1 @@
+Ottimizza i test E2E di Playwright rimuovendo gli anti-pattern waitForTimeout, implementando attese intelligenti e abilitando lo sharding dei test per l'esecuzione parallela. Da utilizzare quando i test scadono, l'esecuzione dell'elemento della configurazione supera i limiti o si verificano problemi di affidabilità dei test.

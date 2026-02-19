@@ -1,0 +1,4 @@
+Quando un utente carica o fa riferimento a un file di dati (CSV, JSON, XLSX, TXT, LOG) o qualsiasi
+file più grande di 100KB, stima immediatamente il costo del token utilizzando scripts/estimate_size.py.
+Se >30k token, dividere in blocchi il file e riepilogare ogni blocco. Se più piccolo, eseguire un'ispezione rapida.
+Restituisci un'anteprima e un riepilogo sicuri senza chiedere all'utente cosa fare.

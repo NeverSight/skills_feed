@@ -1,0 +1,8 @@
+SDK completo per il controllo del robot Reachy Mini: movimento della testa, antenne, fotocamera, audio, registrazione/riproduzione del movimento.
+Copre l'architettura (daemon/client), le modalità di distribuzione (USB, wireless, simulazione, on-Pi) e la distribuzione delle app.
+Include anche modelli di applicazione avanzati: MovementManager, movimento a strati, movimento audio-reattivo, tracciamento del volto,
+Sistemi di strumenti LLM e integrazione in tempo reale OpenAI.
+Utilizzare quando: (1) scrivere il codice per controllare Reachy Mini, (2) spostare la testa del robot o le antenne, (3) accedere alla fotocamera/video,
+(4) Riproduzione/registrazione audio, (5) Registrazione o riproduzione di movimenti, (6) Osservazione di punti nell'immagine o nello spazio mondiale,
+(7) Comprendere le capacità del robot, (8) Connessione a robot reali o simulati, (9) Creazione di app AI conversazionali,
+(10) Integrazione con LLM/OpenAI, (11) Distribuzione di app al robot, (12) Qualsiasi attività di robotica con Reachy Mini.

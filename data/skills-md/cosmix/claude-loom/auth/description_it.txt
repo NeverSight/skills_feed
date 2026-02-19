@@ -1,0 +1,6 @@
+Modelli di autenticazione e autorizzazione tra cui OAuth2, JWT, RBAC/ABAC, gestione delle sessioni, chiavi API, hashing delle password e MFA.
+
+UTILIZZARE QUANDO: Implementazione di flussi di accesso, controllo degli accessi, gestione delle identità, token, autorizzazioni, gestione delle sessioni, autenticazione con chiave API o MFA.
+NON UTILIZZARE: per la scansione delle vulnerabilità della sicurezza (utilizzare /security-scan), per i controlli di sicurezza (utilizzare /security-audit), per la modellazione delle minacce (utilizzare /threat-model).
+
+TRIGGER: accesso, disconnessione, accesso, registrazione, autenticazione, autorizzazione, password, credenziale, token, JWT, OAuth, OAuth2, OIDC, SSO, SAML, sessione, cookie, RBAC, ABAC, autorizzazioni, ruoli, MFA, 2FA, TOTP, chiave API, PKCE.

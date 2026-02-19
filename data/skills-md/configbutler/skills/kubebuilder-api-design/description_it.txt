@@ -1,0 +1,1 @@
+Da utilizzare durante la creazione o la modifica dei tipi API Kubebuilder Go e dei marcatori +kubebuilder in modo che la generazione (`make generate`/`make manifests`) emetta lo schema CRD previsto (convalida/predefiniti, obbligatorio/facoltativo, semantica dell'elenco, colonne della stampante, risorse secondarie) o quando viene chiesto quale marcatore/tipo utilizzare.

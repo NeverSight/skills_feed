@@ -1,0 +1,11 @@
+Guida esperta per la libreria Streamdown di Vercel: un sostituto del react-markdown ottimizzato per lo streaming per le applicazioni IA.
+Utilizzare quando: (1) eseguire il rendering del markdown generato dall'intelligenza artificiale da useChat/streamText,
+(2) Creazione di interfacce utente di chat con risposte in streaming,
+(3) Migrazione dal react-markdown al rendering ottimizzato per lo streaming,
+(4) Configurazione di blocchi di codice (Shiki), matematica (KaTeX), diagrammi (Mermaid),
+(5) Gestione del markdown incompleto durante lo streaming AI (riparazione del preprocessore),
+(6) Personalizzazione dello stile di ribasso con le variabili Tailwind/CSS,
+(7) Protezione dell'output AI con rehype-harden (protocolli collegamento/immagine).
+Trigger: Streamdown, ribasso dello streaming, ribasso della chat AI, sostituzione del ribasso di reazione,
+Risposta agli elementi AI, ribasso incompleto, riparazione, temi Shiki, diagrammi sirena,
+Matematica KaTeX, rehype-harden, isAnimating, streaming markdown.

@@ -1,0 +1,4 @@
+Consolida la memoria di Claude Code tra gli alberi di lavoro git in modo che tutti i rami del file
+lo stesso repository condivide una singola directory di memoria. Utilizzare quando la memoria è isolata per
+worktree, quando si cambia ramo si perde il contesto o quando se ne imposta uno nuovo
+macchina con flussi di lavoro basati su worktree.

@@ -1,0 +1,2 @@
+Progetta sequenze proteiche utilizzando il ripiegamento inverso ProteinMPNN. Utilizzare questa abilità quando: (1) Progettare sequenze per dorsali di diffusione RF, (2) Riprogettare sequenze proteiche esistenti, (3) Fissare residui specifici durante la progettazione di altri, (4) Ottimizzare sequenze per espressione o stabilità, (5) Progettazione multistato o negativa.
+Per la generazione del backbone, utilizzare rfdiffusion o bindcraft. Per una progettazione che riconosce i ligandi, utilizzare ligandmpnn. Per l'ottimizzazione della solubilità, utilizzare solubilimpnn.

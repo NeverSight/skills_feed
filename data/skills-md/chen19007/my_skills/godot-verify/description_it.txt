@@ -1,0 +1,3 @@
+Convalida i file Godot GDScript utilizzando la diagnostica gdlint, gdformat, gdradon e LSP.
+Da utilizzare quando gli utenti desiderano: (1) verificare la qualità del codice dopo aver apportato modifiche, (2) convalidare prima del commit, (3) eseguire l'analisi delle metriche del codice, (4) eseguire la convalida dell'esportazione, (5) ottenere la diagnostica LSP in tempo reale.
+Utilizza direttamente strumenti da riga di comando e strumenti MCP per l'integrazione LSP.

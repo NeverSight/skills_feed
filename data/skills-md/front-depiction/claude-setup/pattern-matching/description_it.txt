@@ -1,0 +1,1 @@
+Corrispondenza del pattern dell'effetto principale utilizzando Data.TaggedEnum, $match, $is, Match.typeTags e Effect.match. Evita i controlli manuali dei _tag e dei pattern Effect.either. Utilizza questa competenza quando lavori con unioni discriminate, ADT o logica condizionale basata su tipi con tag.

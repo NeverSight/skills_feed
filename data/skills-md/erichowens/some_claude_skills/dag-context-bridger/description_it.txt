@@ -1,0 +1,1 @@
+Gestisce il passaggio del contesto tra i nodi DAG e gli agenti generati. Gestisce il riepilogo del contesto, l'inoltro selettivo e l'ottimizzazione del budget dei token. Attiva su 'contesto bridge', 'passa contesto', 'riepiloga contesto', 'gestione contesto', 'contesto agente'. NON per l'esecuzione (usa dag-parallel-executor) o l'aggregazione (usa dag-result-aggregator).

@@ -1,0 +1,6 @@
+Visualizzazione dell'osservabilità con Grafana e stack LGTM. Progettazione del dashboard, configurazione del pannello, avvisi, variabili/modelli e origini dati.
+
+UTILIZZARE QUANDO: Creazione di dashboard Grafana, configurazione di pannelli e visualizzazioni, scrittura di query LogQL/TraceQL, impostazione di origini dati Grafana, configurazione di variabili e modelli di dashboard, creazione di avvisi Grafana.
+NON UTILIZZARE: per scrivere query PromQL (usare /prometheus), per la strategia delle regole di avviso (usare /prometheus), per l'architettura generale di osservabilità (usare senior-infrastructure-engineer).
+
+TRIGGER: grafana, dashboard, pannello, visualizzazione, logql, traceql, loki, tempo, mimir, origine dati, annotazione, variabile, modello, riga, statistica, grafico, tabella, mappa termica, indicatore, grafico a barre, grafico a torta, serie temporali, pannello log, pannello tracce, stack LGTM.

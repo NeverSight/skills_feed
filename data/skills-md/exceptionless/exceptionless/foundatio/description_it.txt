@@ -1,0 +1,4 @@
+Astrazioni dell'infrastruttura di Foundation per caching, accodamento, messaggistica, archiviazione di file,
+Locking, lavoro e resilienza. Utilizza context7 per la documentazione API completa.
+Parole chiave: Foundatio, ICacheClient, IQueue, IMessageBus, IFileStorage, ILockProvider,
+IJob, QueueJobBase, resilienza, nuovo tentativo, Redis, Elasticsearch

@@ -1,0 +1,2 @@
+Modello del linguaggio proteico ESM2 per incorporamenti e punteggio di sequenza. Utilizzare questa abilità quando: (1) si calcolano i punteggi di pseudo-log-verosimiglianza (PLL), (2) si ottengono incorporamenti di proteine ​​per il clustering, (3) si filtrano i progetti in base alla plausibilità della sequenza, (4) si prevede l'effetto variante zero-shot, (5) si analizzano le relazioni sequenza-funzione.
+Per la previsione della struttura, utilizzare chai o Boltz. Per le soglie QC, utilizzare proteina-qc.

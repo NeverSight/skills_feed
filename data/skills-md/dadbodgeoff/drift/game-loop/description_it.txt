@@ -1,0 +1,1 @@
+Risolto il problema con il loop di gioco timestep con interpolazione per fisica indipendente dal frame rate. Separa gli aggiornamenti fisici dal rendering, previene la spirale della morte e supporta gli effetti hitstop/slow-motion.

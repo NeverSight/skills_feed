@@ -1,0 +1,6 @@
+Monitoraggio e avvisi di Prometheus per l'osservabilità nativa del cloud.
+
+UTILIZZARE QUANDO: scrivere query PromQL, configurare obiettivi di scrape di Prometheus, creare regole di avviso, impostare regole di registrazione, dotare le applicazioni di metriche Prometheus, configurare il rilevamento dei servizi.
+NON UTILIZZARE: per la creazione di dashboard (utilizzare /grafana), per l'analisi dei log (utilizzare /logging-observability), per l'architettura generale di osservabilità (utilizzare un ingegnere software senior con focus sull'infrastruttura).
+
+TRIGGER: metrica, prometheus, promql, contatore, indicatore, istogramma, riepilogo, avviso, alertmanager, regola di avviso, regola di registrazione, scrape, target, etichetta, rilevamento del servizio, rietichettatura, esportatore, strumentazione, slo, budget di errore.

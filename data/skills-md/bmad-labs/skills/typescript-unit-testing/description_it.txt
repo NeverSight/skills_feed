@@ -1,0 +1,46 @@
+Competenze complete di test unitario per progetti TypeScript/NestJS utilizzando Jest, @golevelup/ts-jest e database in memoria.
+
+Utilizza SEMPRE questa abilità quando l'utente ha bisogno di:
+
+**SETUP** - Inizializza o configura il test unitario:
+- Configura Jest per un nuovo progetto
+- Configurare l'infrastruttura di test (jest.config.ts)
+- Installa le dipendenze di test (@nestjs/testing, @golevelup/ts-jest)
+- Crea aiutanti finti o utilità di test
+- Impostare la configurazione della copertura
+
+**WRITE** - Crea o aggiungi test unitari:
+- Scrivi, crea, aggiungi o genera test unitari
+- Testare un servizio, un caso d'uso, un controller, una protezione, un intercettatore, un tubo o un filtro
+- Aggiungi test per nuovo codice o funzionalità
+- Migliora la copertura dei test o aggiungi i test mancanti
+- Dipendenze fittizie o installazione di dispositivi di prova
+- Lavorando su qualsiasi file che termina con .spec.ts
+
+**REVISIONE** - Controlla o valuta i test unitari:
+- Rivedere i test esistenti per la qualità
+- Controllare la copertura e le lacune del test
+- Modelli e convenzioni di test di audit
+- Valutare la qualità delle asserzioni
+
+**RUN** - Esegue o analizza i risultati del test:
+- Eseguire test unitari
+- Analizzare i risultati dei test o i rapporti di copertura
+- Comprendere i fallimenti o i successi dei test
+- Controllare quali test stanno superando/fallendo
+
+**DEBUG** - Correzione dei test falliti o interrotti:
+- Risolti i test unitari falliti
+- Eseguire il debug di errori o eccezioni del test
+- Risolvi problemi fittizi o problemi di configurazione
+- Risolvere i problemi relativi ai timeout dei test o ai test instabili
+- Diagnosticare risultati "non definiti" o imprevisti
+
+**OTTIMIZZA** - Migliora le prestazioni dei test e la manutenibilità:
+- Velocizzare i test lenti
+- Correggere le maniglie aperte che impediscono un'uscita pulita
+- Migliorare l'organizzazione dei test
+- Ridurre il tempo di esecuzione del test
+- Ripulire il codice di prova
+
+Parole chiave: test unitario, spec, jest, typescript, nestjs, mock, DeepMocked, createMock, AAA, copertura test, TDD, .spec.ts, testing, test di scrittura, aggiungi test, crea test, correggi test, test di debug, esegui test, rivedi test, ottimizza test, configurazione test, jest config

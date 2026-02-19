@@ -1,0 +1,5 @@
+Durante il refactoring, la riscrittura o la migrazione di percorsi di codice critici, orchestrare a
+ciclo sicuro: valutare i rischi → implementare → verificare → documentare. Catene pre-mortem
+e dimostrarlo con la fase di implementazione integrata. Previene il "refactoring rotto
+disastri produttivi”. Si attiva su "refactoring", "rewrite", "migrate" o
+"pulire" per codice non banale.
