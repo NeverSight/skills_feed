@@ -1,0 +1,6 @@
+Create or audit requirements-to-design-to-code-to-test traceability. Builds a
+traceability matrix (REQ → design/ADR → implementation files → tests →
+evidence) and flags gaps (unimplemented requirements, untested changes,
+undocumented decisions). Use when you need a requirements traceability check
+for a PR/release, regulated/compliance work, or when requirements are drifting
+from implementation.

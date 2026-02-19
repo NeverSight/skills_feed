@@ -1,0 +1,8 @@
+Manages Cargo.lock file updates and resolves --locked flag issues in CI/CD.
+
+Triggers when user mentions:
+- "cargo test --locked failed"
+- "cannot update the lock file"
+- "Cargo.lock is out of date"
+- "PR failed with --locked error"
+- "fix Cargo.lock"
