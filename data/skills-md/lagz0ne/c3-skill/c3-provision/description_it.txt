@@ -1,0 +1,17 @@
+Architettura dei documenti SENZA implementazione. Crea documenti ADR e componenti con stato: fornito.
+
+DEVE utilizzare questa competenza quando l'utente desidera PROGETTARE o PIANIFICARE senza implementare:
+- "fornitura X", "fornitura di un componente", "fornitura di un nuovo servizio"
+- "progettare l'architettura per X", "progettare un componente"
+- "progetta X", "progetta un nuovo servizio", "progetta l'architettura"
+- "architettura documento X", "architetto X"
+- "immagina X", "schizzo dell'architettura X"
+
+NON utilizzare questa abilità se il prompt contiene:
+- "schema", "schemi" → percorso verso c3-rif
+- "ref", "refs" → percorso verso c3-ref
+- "convenzione", "standard" → percorso verso c3-rif
+
+Indicatore chiave: l'utente desidera documentazione/output di progettazione, NON modifiche al codice.
+Richiede .c3/ per esistere. Crea ADR con stato: fornito.
+Per le richieste di implementazione, indirizzare a c3-alter.

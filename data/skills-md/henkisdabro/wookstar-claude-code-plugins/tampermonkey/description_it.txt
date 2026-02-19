@@ -1,0 +1,8 @@
+Scrivi script utente Tampermonkey per l'automazione del browser, la modifica delle pagine e il miglioramento del web.
+Utilizzare quando: creazione di script del browser, scrittura di script Greasemonkey, automazione delle interazioni dell'utente,
+inserire CSS o JavaScript nelle pagine web, modificare il comportamento del sito web, creare estensioni del browser,
+nascondere elementi indesiderati della pagina, aggiungere la compilazione automatica dei moduli, raschiare dati del sito Web, intercettare richieste,
+rilevamento di modifiche agli URL negli SPA o memorizzazione delle preferenze persistenti dell'utente.
+Copre le intestazioni degli script utente (@match, @grant, @require), le funzioni API GM_* sincrone e asincrone,
+modelli comuni (mutazione DOM, rilevamento di modifiche URL, attesa di elementi), sandboxing di sicurezza,
+e compatibilità tra browser (Chrome, Firefox, Edge).

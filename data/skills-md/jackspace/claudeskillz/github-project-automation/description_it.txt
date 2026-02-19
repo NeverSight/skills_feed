@@ -1,0 +1,19 @@
+Questa competenza fornisce un'automazione completa per l'impostazione e la configurazione del repository GitHub.
+Dovrebbe essere utilizzato durante la creazione di nuovi progetti, l'impostazione di pipeline CI/CD, la configurazione di problemi
+modelli, abilitando la scansione di sicurezza o migrando progetti esistenti all'automazione GitHub.
+
+La competenza previene 18 errori documentati nella sintassi YAML di GitHub Actions, nella configurazione del flusso di lavoro,
+struttura del modello di problema, configurazione di Dependabot e scansione di sicurezza CodeQL. Ne comprende 12
+modelli di flusso di lavoro testati in produzione, modelli di 4 problemi, configurazioni di sicurezza e automazione
+script per una rapida configurazione del progetto.
+
+Utilizzare quando: impostare CI/CD di GitHub Actions, creare modelli di issue/PR, abilitare Dependabot,
+configurazione della scansione CodeQL, automazione della configurazione del repository GitHub, correzione degli errori di sintassi YAML,
+integrazione della scansione di sicurezza, distribuzione ai dipendenti Cloudflare tramite GitHub Actions o
+implementazione di matrici di test multi-framework.
+
+Parole chiave: azioni github, flusso di lavoro github, ci/cd, modelli di problemi, modelli di richiesta pull,
+dependabot, codeql, scansione di sicurezza, sintassi yaml, automazione github, configurazione del repository,
+modelli di flusso di lavoro, matrice delle azioni Github, gestione dei segreti, protezione dei rami, proprietari di codici,
+progetti github, integrazione continua, distribuzione continua, errore di sintassi del flusso di lavoro,
+blocco della versione dell'azione, versione del runner, contesto github, errore di rientro yaml

@@ -1,0 +1,18 @@
+Configurazione testata in produzione per Base UI (@base-ui-components/react): libreria di componenti senza stile di MUI
+che fornisce componenti React accessibili e personalizzabili utilizzando il modello degli oggetti di rendering. Questa abilità
+dovrebbe essere utilizzato durante la creazione di interfacce utente accessibili con controllo completo dello stile, migrazione da Radix UI,
+o che necessitano di componenti con integrazione dell'interfaccia utente mobile per il posizionamento intelligente.
+
+Utilizzare quando: configurazione dell'interfaccia utente di base nei progetti Vite + React, migrazione da Radix UI a Base UI,
+implementare componenti accessibili (Dialog, Select, Popover, Tooltip, NumberField, Accordion),
+riscontrando problemi di posizionamento con i popup, necessitando dell'API render prop invece del pattern asChild,
+creazione con Tailwind v4 + shadcn/ui o distribuzione su Cloudflare Workers.
+
+⚠️ STATO BETA: l'interfaccia utente di base è v1.0.0-beta.4. La versione stabile 1.0 è prevista per il quarto trimestre del 2025. Questa competenza fornisce
+soluzioni alternative per problemi beta noti e indicazioni sulla stabilità dell'API.
+
+Parole chiave: base-ui, @base-ui-components/react, mui base ui, componenti senza stile, componenti accessibili,
+oggetti di rendering, alternativa radice, migrazione radice, interfaccia utente mobile, modello di posizionamento, interfaccia utente senza testa,
+finestra di dialogo accessibile, selezione accessibile, popover accessibile, descrizione comando accessibile, fisarmonica accessibile,
+campo numerico, componenti di reazione, componenti di vento in coda, vite react, interfaccia utente dei lavoratori cloudflare,
+componenti beta, libreria dei componenti

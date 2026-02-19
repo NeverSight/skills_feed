@@ -1,0 +1,14 @@
+Scrivi moduli OpenTofu/Terraform e test completi per l'infrastruttura del laboratorio domestico.
+
+Utilizzare quando: (1) creare nuovi moduli OpenTofu o Terraform, (2) scrivere o modificare file di test .tftest.hcl,
+(3) Aggiunta di variabili, output o risorse ai moduli, (4) Debug degli errori di test,
+(5) Comprendere i modelli di test dei moduli, (6) Scrivere test unitari dell'infrastruttura,
+(7) Domande sulla sintassi o sulle asserzioni di tftest.
+
+Trigger: "modulo opentofu", "modulo terraform", "modulo tofu", "crea modulo",
+".tftest.hcl", "tftest", "testa il mio modulo", "test del modulo", "test dell'infrastruttura",
+"infrastruttura di test", "variables.tf", "outputs.tf", "test del modulo", "asserzione",
+"attività tg:test", "test-config", "test falliti"
+
+Questa competenza copre la sintassi di test di OpenTofu v1.11, i modelli di ereditarietà delle variabili,
+migliori pratiche di asserzione e convenzioni specifiche del repository in infrastrutture/moduli/.

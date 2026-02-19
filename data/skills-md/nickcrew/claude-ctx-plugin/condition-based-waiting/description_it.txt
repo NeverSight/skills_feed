@@ -1,0 +1,1 @@
+Da utilizzare quando i test presentano condizioni di competizione, dipendenze temporali o comportamenti pass/fail incoerenti: sostituisce i timeout arbitrari con il polling delle condizioni per attendere i cambiamenti di stato effettivi, eliminando i test instabili dalle ipotesi temporali

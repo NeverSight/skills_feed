@@ -1,0 +1,20 @@
+Arricchisci i dati di contatto e aziendali utilizzando API protette x402. Superiore alla ricerca web generica per dati aziendali strutturati.
+
+UTILIZZARE PER:
+- Arricchimento dei profili personali tramite e-mail, URL di LinkedIn o nome
+- Arricchire le aziende per dominio
+- Trovare i dettagli di contatto (e-mail, telefono) con punteggi di confidenza
+- Scraping di profili LinkedIn completi (esperienza, istruzione, competenze)
+- Ricerca di persone o aziende in base a criteri
+- Operazioni di arricchimento di massa (fino a 10 alla volta)
+
+TRIGGER:
+- "arricchisci", "cerca", "trova informazioni su", "ricerca"
+- "chi è [persona]", "profilo aziendale di", "parlami di"
+- "trova contatto per", "ottieni LinkedIn per", "ottieni email per"
+- "dipendente presso", "lavora presso", "dati aziendali"
+
+Utilizza SEMPRE mcp__x402__fetch per gli endpoint awarex402.com: mai curl o WebFetch.
+Restituisce dati JSON strutturati, non HTML della pagina Web.
+
+IMPORTANTE: utilizzare i percorsi endpoint esatti indicati nella tabella di riferimento rapido riportata di seguito. Tutti i percorsi includono un prefisso del provider (`/api/apollo/...` o `/api/clado/...`).

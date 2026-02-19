@@ -1,0 +1,3 @@
+API REST di riconoscimento vocale di testo di Azure per brevi audio (Python). Utilizzare per il semplice riconoscimento vocale di file audio fino a 60 secondi senza Speech SDK.
+Trigger: "discorso in testo REST", "breve trascrizione audio", "API REST di riconoscimento vocale", "STT REST", "riconoscimento vocale REST".
+NON UTILIZZARE PER: audio lungo (>60 secondi), streaming in tempo reale, trascrizione batch, modelli vocali personalizzati, traduzione vocale. Utilizza invece Speech SDK o l'API di trascrizione batch.

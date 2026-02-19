@@ -1,0 +1,3 @@
+Crea applicazioni desktop sicure con Electron 33, Vite, React e TypeScript. Copre IPC indipendente dai tipi tramite contextBridge, OAuth con gestori di protocollo personalizzati, compatibilità dei moduli nativi (better-sqlite3, negozio di elettroni) e packaging per la creazione di elettroni.
+
+Da utilizzare durante la creazione di app desktop multipiattaforma, l'implementazione di flussi OAuth in Electron, la gestione della comunicazione del processo principale/renderer o la creazione di pacchetti con firma del codice. Previene: mancata corrispondenza di NODE_MODULE_VERSION, chiavi di crittografia hardcoded, bypass dell'isolamento del contesto, conflitti sandbox con moduli nativi.

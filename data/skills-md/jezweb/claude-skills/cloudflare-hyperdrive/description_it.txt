@@ -1,0 +1,1 @@
+Connetti i Worker a PostgreSQL/MySQL con il pooling globale e il caching di Hyperdrive. Da utilizzare quando: connessione a database esistenti, configurazione di pool di connessione, utilizzo di node-postgres/mysql2, integrazione di Drizzle/Prisma o risoluzione di problemi di acquisizione di pool, errori TLS o nodejs_compat mancante. Previene 11 errori documentati.

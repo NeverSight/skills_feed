@@ -1,0 +1,5 @@
+Test dichiarativi basati su agenti con specifiche di test YAML. I test vengono eseguiti negli agenti secondari da preservare
+contesto principale durante l'esecuzione di numerosi test. Supporta server MCP, API e automazione del browser.
+
+Utilizzare quando: testare i server MCP, eseguire test di integrazione, convalidare il comportamento dello strumento dopo le modifiche,
+o creare suite di test di regressione. Parole chiave: test yaml, test degli agenti, test mcp, test di integrazione.

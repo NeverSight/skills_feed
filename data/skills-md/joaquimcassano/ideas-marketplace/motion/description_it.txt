@@ -1,0 +1,5 @@
+Crea sofisticate animazioni React con Motion (in precedenza Framer Motion): animazioni dichiarative, gesti (trascinamento, passaggio del mouse, tocco), effetti di scorrimento, fisica a molla, animazioni di layout e manipolazione SVG. Ottimizza le dimensioni del pacchetto con LazyMotion (4,6 KB) o utilizza Animate mini (2,3 KB).
+
+Da utilizzare quando: si aggiungono interazioni di trascinamento, si creano animazioni attivate dallo scorrimento, si implementano finestre di dialogo modali con transizioni, si creano caroselli con slancio, si animano transizioni di pagina/percorso, si creano sezioni di eroi parallasse, si implementano fisarmoniche con espansione/compressione fluida o si ottimizzano le dimensioni del pacchetto di animazioni. Per animazioni di elenchi semplici, utilizza invece la capacità di animazione automatica (3,28 KB contro 34 KB).
+
+Risoluzione dei problemi: l'uscita AnimatePresence non funziona, problemi di prestazioni degli elenchi di grandi dimensioni, conflitti di transizione Tailwind, errori "usa client" di Next.js, problemi di layout del contenitore scorrevole o errori di creazione di Cloudflare Workers (risolti a dicembre 2024).

@@ -1,0 +1,20 @@
+Cerca e monitora i social media utilizzando X/Twitter (tramite Grok) e le API Reddit.
+
+UTILIZZARE PER:
+- Ricerca di post X/Twitter per parole chiave o hashtag
+- Trovare utenti X/Twitter in base a criteri
+- Ottenere i post recenti di un utente
+- Ricerca di post e discussioni su Reddit
+- Ottenere commenti dai thread Reddit
+- Monitoraggio e ricerca sui social media
+
+TRIGGER:
+- "twitter", "X", "tweet", "post su X"
+- "reddit", "subreddit", "discussione su reddit"
+- "cosa dice la gente", "social media", "sentiment"
+- "di tendenza", "virali", "post popolari"
+- "post dell'utente", "cronologia", "attività recente"
+
+Utilizza mcp__x402__fetch per gli endpoint Grok (X) e Reddit. Tutti gli endpoint costano $ 0,02 per chiamata.
+
+IMPORTANTE: utilizzare i percorsi endpoint esatti indicati nella tabella di riferimento rapido riportata di seguito.

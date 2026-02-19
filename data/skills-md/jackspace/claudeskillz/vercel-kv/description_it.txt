@@ -1,0 +1,13 @@
+Questa competenza fornisce una conoscenza completa per l'integrazione di Vercel KV (archiviazione di valori-chiave compatibile con Redis fornita da Upstash) nelle applicazioni Vercel. Dovrebbe essere utilizzato durante la configurazione di Vercel KV per le applicazioni Next.js, l'implementazione di modelli di memorizzazione nella cache, la gestione delle sessioni o la gestione della limitazione della velocità nelle funzioni edge e serverless.
+
+Usa questa abilità quando:
+- Configurazione di Vercel KV per le applicazioni Next.js
+- Implementazione di strategie di caching (cache delle pagine, cache API, cache dei dati)
+- Gestione delle sessioni utente o dei token di autenticazione in ambienti serverless
+- Limitazione della velocità di creazione per API o funzionalità
+- Memorizzazione dei dati temporanei con TTL (time-to-live)
+- Migrazione da Cloudflare KV a Vercel KV
+- Si sono verificati errori come "KV_REST_API_URL non impostato", "limite di velocità superato" o "errori di serializzazione JSON"
+- È necessaria un'API compatibile con Redis con elevata coerenza (rispetto alla coerenza eventuale)
+
+Parole chiave: vercel kv, @vercel/kv, vercel redis, upstash vercel, kv vercel, redis vercel edge, valore-chiave vercel, cache vercel, sessioni vercel, limite velocità vercel, redis upstash, archiviazione kv, edge kv, serverless redis, vercel ttl, vercel scade, kv typescript, next.js kv, azioni server kv, edge runtime kv

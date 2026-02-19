@@ -1,0 +1,18 @@
+Flusso di lavoro di sviluppo dell'interfaccia utente semplificato con implementazione di funzionalità a comando singolo.
+Automatizza: server di sviluppo, browser, verifica, correzione degli errori, ciclo di iterazione.
+
+**Comando principale:** "implementa la funzione successiva" o "implementa [descrizione della funzione]"
+
+**Che cosa fa:**
+1. Avvia il server di sviluppo (rileva automaticamente la porta da package.json)
+2. Avvia il browser (visibile per impostazione predefinita, --headless disponibile)
+3. Implementa funzionalità tramite competenze di progettazione frontend
+4. Verifica: errori della console, errori TS, errori di rete, corrispondenza visiva
+5. Correzioni in modo iterativo (max 5 iterazioni)
+6. Segnala il completamento o intensifica con un rapporto dettagliato
+
+**Trigger:**
+- "implementa la funzione successiva", "implementa la sezione eroi"
+- "verifica questa implementazione", "controlla l'interfaccia utente"
+- "correggi gli errori", "itera su questo"
+- "avvia server di sviluppo", "gestisci server"

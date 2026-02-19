@@ -1,0 +1,1 @@
+Operatore di controllo delle prestazioni di runtime (L3). Controlla il blocco degli I/O in asincrono, le allocazioni non necessarie, la sospensione della sincronizzazione in asincrono, la concatenazione di stringhe nei loop, to_thread mancante per copie di dati ridondanti legate alla CPU. Restituisce i risultati con gravità, posizione, impegno e raccomandazioni.

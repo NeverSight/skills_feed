@@ -1,0 +1,15 @@
+Guida completa per le API tradizionali/stateless di OpenAI: completamenti chat (GPT-5, GPT-4o), incorporamenti,
+Immagini (DALL-E 3), Audio (Whisper + TTS) e Moderazione. Include sia l'SDK Node.js che quello basato su fetch
+approcci per la massima compatibilità.
+
+Utilizzare quando: integrazione API OpenAI, implementazione completamenti chat con GPT-5/GPT-4o, generazione di testo
+con lo streaming, utilizzando chiamate/strumenti di funzioni, creando output strutturati con schemi JSON,
+implementare incorporamenti per RAG, generare immagini con DALL-E 3, trascrivere audio con Whisper,
+sintetizzare il discorso con TTS, moderare i contenuti, distribuire ai lavoratori Cloudflare o incontrare
+errori come limiti di velocità (429), chiavi API non valide (401), errori di chiamata di funzioni, analisi dello streaming
+errori, mancate corrispondenze delle dimensioni di incorporamento o limite di token superato.
+
+Parole chiave: openai api, completamenti chat, gpt-5, gpt-5-mini, gpt-5-nano, gpt-4o, gpt-4-turbo,
+openai sdk, streaming openai, chiamata di funzioni, output strutturato, schema json, incorporamenti openai,
+text-embedding-3, dall-e-3, generazione di immagini, API sussurro, openai tts, sintesi vocale, API di moderazione,
+openai fetch, lavoratori cloudflare openai, limite di velocità openai, openai 429, ragionamento_sforzo, verbosità

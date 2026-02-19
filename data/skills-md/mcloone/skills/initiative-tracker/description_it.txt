@@ -1,0 +1,14 @@
+Gestisci iniziative di prodotto, epiche e parti interessate tramite comandi in linguaggio naturale.
+Memorizza i dati come file markdown compatibili con Logseq con frontmatter YAML.
+
+Utilizzare quando gli utenti hanno bisogno di:
+- Creare, aggiornare, elencare o mostrare iniziative ed epiche
+- Monitorare la completezza della documentazione dell'iniziativa
+- Gestire persone, team e partner
+- Controlla quali informazioni mancano
+- Inizializzare la struttura del repository
+
+Si attiva su: /init_repository, /create_initiative, /list_initiatives, /show_initiative,
+/update_initiative, /what_missing, /create_epic, /list_epics, /create_person,
+/create_team, /create_partner, /create_product_area, /list_product_areas,
+/mostra_area_prodotto, /update_area_prodotto, /help

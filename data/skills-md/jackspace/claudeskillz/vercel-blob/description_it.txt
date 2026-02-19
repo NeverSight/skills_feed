@@ -1,0 +1,12 @@
+Questa competenza fornisce una conoscenza completa per l'integrazione dell'archiviazione di oggetti Blob Vercel nelle applicazioni Vercel. Dovrebbe essere utilizzato durante l'impostazione del caricamento di file, la gestione di immagini e documenti, l'implementazione di risorse fornite dalla CDN o la gestione di file di grandi dimensioni nelle funzioni serverless e edge di Next.js.
+
+Usa questa abilità quando:
+- Configurazione del caricamento di file per le applicazioni Next.js (immagini, PDF, video)
+- Implementazione dei caricamenti lato client con URL prefirmati
+- Gestione dei contenuti generati dagli utenti (avatar, allegati, media)
+- Creazione di funzionalità di gestione dei file (elenco, download, eliminazione)
+- Migrazione da Cloudflare R2 a Vercel Blob
+- Si sono verificati errori come "BLOB_READ_WRITE_TOKEN non impostato", "limite dimensione file superato" o "errori token caricamento client"
+- Necessita di un semplice storage di oggetti con distribuzione CDN automatica
+
+Parole chiave: blob vercel, @vercel/blob, archiviazione vercel, caricamento file vercel, cdn vercel, archiviazione blob vercel, caricamento client vercel, URL prefirmato vercel, caricamento file nextjs, caricamento immagini vercel, caricamento pdf, caricamento video, caricamenti utenti, caricamento in più parti, caricamento streaming, blob cdn, risorse vercel, download file

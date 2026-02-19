@@ -1,0 +1,13 @@
+Conoscenza completa per utilizzare in modo efficace lo strumento Bash in Claude Code. Questa abilità
+dovrebbe essere utilizzato durante l'orchestrazione degli strumenti CLI, la configurazione degli hook, l'impostazione dell'automazione
+flussi di lavoro, gestione delle operazioni git, gestione di modelli multi-comando o incontri
+Errori dello strumento Bash.
+
+Copre: hook PreToolUse, modelli di concatenamento di comandi, automazione del flusso di lavoro git, strumento CLI
+integrazione, comandi personalizzati (.claude/commands/), configurazioni di sicurezza, lista consentita,
+persistenza della sessione, gestione dell'output, prevenzione degli errori e risoluzione dei problemi comuni.
+
+Utilizzare quando: impostare hook Claude Code, configurare permessi bash, creare file personalizzati
+comandi, automatizzazione dei flussi di lavoro git, orchestrazione di più strumenti CLI, debug di bash
+errori di comando, implementazione di guardie di sicurezza, registrazione dell'esecuzione di comandi o prevenzione
+operazioni pericolose.

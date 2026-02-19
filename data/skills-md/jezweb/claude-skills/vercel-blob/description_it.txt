@@ -1,0 +1,3 @@
+Integra Vercel Blob per caricamenti di file e risorse fornite da CDN in Next.js. Supporta caricamenti lato client con URL prefirmati e trasferimenti in più parti per file di grandi dimensioni.
+
+Da utilizzare quando si implementano caricamenti di file (immagini, PDF, video) o si risolvono problemi relativi a token mancanti, limiti di dimensione, errori di caricamento del client, errori di scadenza dei token o problemi di compatibilità del browser. Previene 16 errori documentati.

@@ -1,0 +1,13 @@
+API REST per scambi di token cross-chain e same-chain, bridging e operazioni DeFi.
+
+UTILIZZA QUESTA COMPETENZA QUANDO L'UTENTE DESIDERA:
+- Scambia token tra diverse blockchain (ad esempio, "scambia USDC su Ethereum con ETH su Arbitrum")
+- Bridge token su un'altra catena (ad esempio, "sposta il mio ETH dalla rete principale a Optimism")
+- Scambia token sulla stessa catena con le migliori tariffe (ad esempio, "scambia ETH in USDC su Polygon")
+- Trova il percorso o il preventivo migliore per uno scambio di token tra catene
+- Eseguire operazioni DeFi attraverso le catene (zap, bridge+swap+deposito, ingresso in yield farming)
+- Costruisci flussi di pagamento multi-catena (accetta qualsiasi token, regolati con token specifico)
+- Controlla le catene, i token o i bridge supportati per i trasferimenti incrociati
+- Tieni traccia dello stato di una transazione cross-chain
+- Costruisci servizi backend (Python, Go, Rust, ecc.) che necessitano di scambi incrociati
+- Integra funzionalità cross-chain tramite HTTP/REST (non JavaScript SDK)

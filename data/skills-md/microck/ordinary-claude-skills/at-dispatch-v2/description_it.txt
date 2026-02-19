@@ -1,0 +1,1 @@
+Converti le macro PyTorch AT_DISPATCH nel formato AT_DISPATCH_V2 nel codice ATen C++. Da utilizzare durante il porting di AT_DISPATCH_ALL_TYPES_AND*, AT_DISPATCH_FLOATING_TYPES* o altre macro di invio alla nuova API v2. Per file kernel ATen, kernel CUDA e implementazioni di operatori nativi.

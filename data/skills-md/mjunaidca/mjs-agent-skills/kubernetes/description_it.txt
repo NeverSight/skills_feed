@@ -1,0 +1,8 @@
+Manifesti Kubernetes di livello produttivo e debug per applicazioni containerizzate.
+Questa competenza dovrebbe essere utilizzata quando gli utenti chiedono di eseguire la distribuzione su Kubernetes, creare manifest K8,
+containerizzare per K8, impostare distribuzioni/servizi/lavori/StatefulSet/CronJob, creare
+spazi dei nomi con quote di risorse, impostare l'isolamento multi-team, configurare ResourceQuota/
+LimitRange, sicuro con RBAC (ServiceAccount, Role, RoleBinding), configura init
+contenitori (download del modello, attesa database, migrazioni), impostazione di sidecar (logging, metriche),
+o pod di debug (CrashLoopBackOff, logs, exec, description, events). Rileva automaticamente da
+Dockerfile/codice, genera manifest rafforzati con commenti didattici. Allineato CKAD.

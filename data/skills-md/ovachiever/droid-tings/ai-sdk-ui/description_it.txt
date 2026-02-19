@@ -1,0 +1,6 @@
+Crea interfacce di chat React con Vercel AI SDK v5/v6. Copre la versione beta v6 (integrazione dell'agente, approvazione dello strumento,
+invio automatico), migrazione v4→v5 (modifiche importanti), hook useChat/useCompletion/useObject/useAssistant,
+e 12 soluzioni di errori dell'interfaccia utente (analisi del flusso, valori del corpo non aggiornati, profondità di aggiornamento di React).
+
+Da utilizzare quando: implementazione delle UI della chat AI SDK v5/v6, migrazione v4→v5, risoluzione dei problemi "useChat non è riuscito ad analizzare
+stream", "useChat nessuna risposta" o "valori corpo obsoleti" o integrazione degli assistenti OpenAI.

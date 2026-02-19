@@ -1,0 +1,1 @@
+Crea una richiesta pull dalle modifiche correnti, monitora l'elemento CI GitHub ed esegue il debug di eventuali errori finché l'elemento CI non viene superato. Utilizzalo quando l'utente dice "crea pr", "crea un pr", "apri richiesta pull", "invia pr" o "pr per queste modifiche". NON si unisce: si ferma quando CI passa e fornisce il collegamento PR.

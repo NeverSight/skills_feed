@@ -1,0 +1,3 @@
+Costruisci server MCP (Model Context Protocol) su Cloudflare Workers: l'unica piattaforma con supporto MCP remoto ufficiale. Basato su TypeScript con OAuth, oggetti durevoli e ibernazione WebSocket.
+
+Da utilizzare quando: si distribuiscono server MCP remoti, si implementa OAuth (GitHub/Google), si utilizzano doppi trasporti (SSE/HTTP) o si risolvono problemi di mancata corrispondenza del percorso URL, esportazioni McpAgent, reindirizzamenti OAuth, problemi CORS.

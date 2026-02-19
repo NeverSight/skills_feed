@@ -1,0 +1,10 @@
+Dominio di conoscenza completo per le code Cloudflare: coda di messaggi flessibile per l'elaborazione asincrona
+e attività in background su Cloudflare Workers.
+
+Da utilizzare quando: creazione di code di messaggi, elaborazione asincrona, processi in background, elaborazione batch, gestione dei tentativi,
+configurazione di code di messaggi non recapitabili, implementazione della concorrenza dei consumatori o riscontro di "timeout della coda",
+Errori "riprova in batch", "messaggio perso", "velocità effettiva superata", "consumer non ridimensionabile".
+
+Parole chiave: code cloudflare, code lavoratore, coda di messaggi, collegamenti di coda, elaborazione asincrona,
+lavori in background, coda di consumo, coda di produzione, elaborazione batch, coda di lettere morte,
+nuovo tentativo di messaggio, riconoscimento coda, concorrenza consumer, backlog coda, code wrangler

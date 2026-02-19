@@ -1,0 +1,19 @@
+Monitoraggio della produzione, osservabilità, gestione SLO/SLI e risposta agli incidenti.
+
+Termini trigger: monitoraggio, osservabilità, SRE, affidabilità del sito, avvisi, risposta agli incidenti,
+SLO, SLI, budget degli errori, Prometheus, Grafana, Datadog, New Relic, stack ELK, log, metriche,
+tracce, reperibilità, monitoraggio della produzione, controlli di integrità, uptime, disponibilità, dashboard,
+post mortem, gestione degli incidenti, runbook.
+
+Completa la fase 8 (monitoraggio) dell'SDD con osservabilità completa della produzione:
+- Definizioni e tracciamento SLI/SLO
+- Monitoraggio della configurazione dello stack (Prometheus, Grafana, ELK, Datadog, ecc.)
+- Regole di avviso e canali di notifica
+- Runbook di risposta agli incidenti
+- Dashboard di osservabilità (log, metriche, tracce)
+- Modelli e analisi post-mortem
+- Endpoint del controllo dello stato
+- Monitoraggio degli errori nel budget
+
+Utilizzare quando: l'utente necessita di monitoraggio della produzione, piattaforma di osservabilità, avvisi, SLO,
+risposta agli incidenti o monitoraggio dello stato post-distribuzione.

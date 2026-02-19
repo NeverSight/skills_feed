@@ -1,0 +1,12 @@
+Integra l'API Gemini con l'SDK corrente corretto (@google/genai v1.27+, NON deprecato @google/generative-ai).
+Supporta la generazione di testo, multimodale (immagini/video/audio/PDF), chiamata di funzioni e modalità di pensiero. Gettoni di input da 1 milione.
+
+Utilizzare quando: integrazione dell'API Gemini, implementazione dell'intelligenza artificiale multimodale, utilizzo della modalità di pensiero per il ragionamento, chiamata di funzioni
+con esecuzione parallela, risposte in streaming, distribuzione a Cloudflare Workers, creazione di chat o risoluzione dei problemi
+Deprecazione dell'SDK, finestra di contesto, modello non trovato, chiamata di funzione o errori di formato multimodale.
+
+Parole chiave: gemini api, @google/genai, gemini-2.5-pro, gemini-2.5-flash, gemini-2.5-flash-lite,
+gemini-3-pro-preview, gemini multimodali, modalità di pensiero, google ai, genai sdk, funzione che chiama gemini,
+streaming gemini, visione gemini, video gemini, audio gemini, pdf gemini, istruzioni di sistema,
+chat a più turni, DEPRECATO @google/generative-ai, finestra di contesto gemini, modelli gemini 2025,
+token gemini 1m, utilizzo dello strumento gemini, chiamata di funzioni parallele, chiamata di funzioni compositive, gemini 3

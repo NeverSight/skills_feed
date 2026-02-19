@@ -1,0 +1,1 @@
+Convalidare la configurazione di distribuzione da .deploy.env.common e .deploy.env.<ENV_MODE> per le fasi dipendenti dalla configurazione. Utilizzare prima delle azioni di distribuzione basate su make per individuare variabili mancanti, porte non valide o problemi di composizione.

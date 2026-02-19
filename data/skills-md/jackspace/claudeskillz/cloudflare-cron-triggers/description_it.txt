@@ -1,0 +1,11 @@
+Dominio di conoscenza completo per i trigger Cron di Cloudflare: esecuzione pianificata dei Worker utilizzando
+espressioni cron per attività periodiche, lavori di manutenzione e flussi di lavoro automatizzati.
+
+Utilizzare quando: pianificare l'esecuzione periodica dei Worker, aggiungere trigger cron ai Worker, configurare
+attività pianificate, testare i gestori cron, combinare cron con flussi di lavoro, abilitare Green Compute,
+gestire più pianificazioni o riscontrare "gestore pianificato non trovato", "espressione cron non valida",
+Errori "modifiche che non si propagano", "il gestore non esporta", "problemi di fuso orario".
+
+Parole chiave: cron di cloudflare, trigger cron, lavoratori pianificati, gestore pianificato, attività periodiche,
+lavori in background, attività pianificate, espressione cron, cron wrangler, evento pianificato, calcolo verde,
+trigger del flusso di lavoro, attività di manutenzione, gestore schedule(), ScheduledController, fuso orario UTC

@@ -1,0 +1,13 @@
+Ottimizza il recupero dei dati del router dell'app Next.js convertendo lentamente il lato client 
+recupero al recupero veloce lato server utilizzando React Server Components (RSC).
+
+Utilizzare quando:
+- L'utente segnala un caricamento iniziale lento della pagina con gli spinner di caricamento
+- La pagina utilizza useEffect + useState per il recupero dei dati
+- Il modello StoreContext/useStore provoca il recupero a cascata
+- Necessità di migliorare il SEO (contenuto non nell'HTML iniziale)
+- Conversione delle pagine "usa client" in componenti server
+
+Trigger: "caricamento lento", "ottimizza recupero", "dati SSR", "ottimizzazione RSC",
+"rimuovi la casella di caricamento", "recupero lato server", "converti in componente server",
+"recupero dati lambat", "caricamento lama"

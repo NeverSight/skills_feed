@@ -1,0 +1,1 @@
+Configura il fuso orario per i pod Kubernetes utilizzando la variabile di ambiente TZ. Da utilizzare quando si distribuiscono carichi di lavoro che richiedono il fuso orario del Brasile/San Paolo o quando i log mostrano UTC (+0000) anziché l'ora locale.

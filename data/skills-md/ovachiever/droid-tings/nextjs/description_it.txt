@@ -1,0 +1,3 @@
+Crea app Next.js 16 con router app, componenti/azioni server, componenti cache ("usa cache") e parametri di route asincroni. Include proxy.ts (sostituisce middleware.ts) e React 19.2.
+
+Da utilizzare quando: crei progetti Next.js 16 o risolvi i problemi relativi ai parametri asincroni (tipi Promise), direttive "usa cache", percorsi paralleli 404 (default.js mancante) o proxy.ts CORS.

@@ -1,0 +1,3 @@
+Crea applicazioni AI agenti con l'API Responses di OpenAI, il successore con stato di Chat Completions. Preserva il ragionamento tra i turni per prestazioni multiturno migliori del 5% e un utilizzo della cache migliorato del 40-80%.
+
+Utilizzare quando: creazione di agenti AI con ragionamento persistente, integrazione di server MCP per strumenti esterni, utilizzo di interprete di codice/ricerca di file/ricerca Web integrati, gestione di conversazioni stateful, implementazione dell'elaborazione in background per attività lunghe o migrazione da completamenti chat per ottenere output polimorfici e strumenti lato server.

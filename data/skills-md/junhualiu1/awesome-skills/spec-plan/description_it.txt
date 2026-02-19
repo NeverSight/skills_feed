@@ -1,0 +1,1 @@
+当用户希望进行 Spec 驱动开发（Sviluppo basato sulle specifiche/prima delle specifiche）时, 你 DEVE 使用此Abilità：先把需求与约束收敛为一份可实施、可评审的 Spec ，再进入实现。该 Abilità 最终只生成 1 个 Spec文件写入 /docs/specs/,并进行 1 次 git commit（仅提交该 Spec）。本 Skill 不写实现代码。

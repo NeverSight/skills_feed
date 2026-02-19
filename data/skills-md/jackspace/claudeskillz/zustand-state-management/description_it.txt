@@ -1,0 +1,16 @@
+Configurazione testata in produzione per la gestione dello stato Zustand nelle applicazioni React con TypeScript.
+Questa competenza fornisce modelli completi per la creazione di uno stato globale scalabile e indipendente dai tipi.
+
+Utilizzare quando: impostazione dello stato globale in React, migrazione da Redux o API Context, implementazione
+persistenza dello stato con localStorage, configurazione di TypeScript con Zustand, utilizzo del pattern a fette
+per negozi modulari, aggiunta di middleware devtools per il debug, gestione dell'idratazione Next.js SSR,
+o riscontrare errori di idratazione, problemi di inferenza di TypeScript o problemi middleware persistenti.
+
+Previene 5 problemi documentati: mancata corrispondenza dell'idratazione Next.js, doppie parentesi TypeScript
+errori di sintassi, errori persistenti di esportazione del middleware, cicli di rendering infiniti e pattern di sezioni
+errori di inferenza di tipo.
+
+Parole chiave: zustand, gestione dello stato, stato React, stato TypeScript, middleware persistente,
+devtools, pattern di fette, stato globale, hook React, creazione negozio, useBoundStore,
+StateCreator, errore di idratazione, mancata corrispondenza del contenuto del testo, rendering infinito, localStorage,
+sessionStorage, middleware immerso, uguaglianza superficiale, modello di selezione, zustand v5

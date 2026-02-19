@@ -1,0 +1,3 @@
+Crea server MCP stateless con TypeScript su Cloudflare Workers utilizzando @modelcontextprotocol/sdk. Fornisce modelli per strumenti, risorse, richieste e autenticazione (chiavi API, OAuth, Zero Trust).
+
+Da utilizzare quando si espongono le API a LLM, si integrano servizi Cloudflare (D1, KV, R2, Vectorize) o si risolvono errori di sintassi di esportazione, perdite di trasporto non chiuse o configurazioni errate CORS.

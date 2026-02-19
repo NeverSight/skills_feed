@@ -1,0 +1,11 @@
+Configura Cloudflare Worker con routing Hono, plug-in Vite e risorse statiche utilizzando modelli testati in produzione.
+Previene 6 errori: sintassi di esportazione, conflitti di routing, arresti anomali dell'HMR e confusione nel formato di Service Worker.
+
+Da utilizzare quando: si creano progetti Workers, si configura Hono o Vite for Workers, si distribuisce con Wrangler,
+aggiunta di risorse statiche con fallback SPA o risoluzione dei problemi di sintassi di esportazione e conflitti di percorso API, pianificati
+gestori o condizioni di gara HMR.
+
+Parole chiave: Cloudflare Workers, CF Workers, Hono, wrangler, Vite, Asset statici, @cloudflare/vite-plugin,
+wrangler.jsonc, modulo ES, run_worker_first, fallback SPA, percorsi API, serverless, edge computing,
+"Impossibile leggere le proprietà di undefinito", "Asset statici 404", "Una promessa sospesa è stata annullata",
+"Il gestore non esporta", la distribuzione non riesce, il routing non funziona, l'HMR si arresta in modo anomalo

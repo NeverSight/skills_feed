@@ -1,0 +1,18 @@
+Crea database D1 indipendenti dai tipi con Drizzle ORM per Cloudflare Workers. Include la definizione dello schema e le migrazioni
+con Drizzle Kit, relazioni e modelli API batch D1. Previene 12 errori inclusi gli errori SQL BEGIN.
+
+Utilizzare quando: definizione di schemi D1, gestione delle migrazioni, scrittura di query indipendenti dai tipi, implementazione di relazioni o
+dichiarazioni preparate, utilizzando l'API batch per le transazioni o la risoluzione dei problemi D1_ERROR, BEGIN TRANSACTION,
+chiavi esterne, applicazione della migrazione o errori di inferenza dello schema.
+
+Previene 12 problemi documentati: errori di transazione D1 (SQL BEGIN non supportato), chiave esterna
+errori di vincolo durante le migrazioni, errori di importazione dei moduli con Wrangler, associazione D1 non trovata,
+errori di applicazione della migrazione, errori di inferenza dello schema TypeScript, problemi di memorizzazione nella cache delle istruzioni preparate,
+modelli di rollback delle transazioni, errori in modalità rigorosa TypeScript, drizzle.config.ts non trovato,
+confusione tra database remoto e locale e combinazione tra wrangler.toml e wrangler.jsonc.
+
+Parole chiave: drizzle orm, drizzle d1, sql type-safe, schema drizzle, migrazioni drizzle,
+kit pioviggine, orm cloudflare, d1 orm, dattiloscritto pioviggine, relazioni pioviggine, transazioni pioviggine,
+generatore di query drizzle, definizione dello schema, istruzioni preparate, batch drizzle, gestione della migrazione,
+query relazionali, drizzle join, D1_ERROR, BEGIN TRANSACTION d1, vincolo di chiave esterna,
+migrazione non riuscita, schema non trovato, errore di associazione d1

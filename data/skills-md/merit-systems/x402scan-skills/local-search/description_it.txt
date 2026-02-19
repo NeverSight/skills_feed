@@ -1,0 +1,16 @@
+Cerca luoghi, attività commerciali e località utilizzando le API di Google Maps tramite x402.
+
+UTILIZZARE PER:
+- Trovare attività commerciali per nome o tipo
+- Ricerca di luoghi nelle vicinanze
+- Ottenere informazioni dettagliate sul luogo (indirizzo, orari, recensioni)
+- Trovare ristoranti, negozi, servizi in una zona
+- Ottenere valutazioni e recensioni aziendali
+
+TRIGGER:
+- "trova", "cerca", "localizza", "nelle vicinanze"
+- "ristoranti vicino", "hotel a", "negozi nei dintorni"
+- "dettagli dell'attività", "orari di apertura", "recensioni per"
+- "luoghi in", "cosa c'è vicino", "indicazioni stradali per"
+
+Utilizza mcp__x402__fetch per gli endpoint di Google Maps. Scegli parziale ($ 0,02) o completo ($ 0,05-0,08) in base alle esigenze di dati.

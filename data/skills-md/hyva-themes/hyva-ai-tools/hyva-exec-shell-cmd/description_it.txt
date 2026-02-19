@@ -1,0 +1,1 @@
+Competenza di utilità per rilevare l'ambiente di sviluppo Magento e determinare il wrapper dei comandi. Questa abilità dovrebbe essere utilizzata da altre abilità che necessitano di eseguire comandi shell nell'ambiente Magento. Rileva Warden, docker-magento, DDEV e ambienti locali e fornisce il wrapper dei comandi appropriato.

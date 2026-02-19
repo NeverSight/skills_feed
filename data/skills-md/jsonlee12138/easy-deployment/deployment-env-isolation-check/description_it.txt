@@ -1,0 +1,1 @@
+Convalidare l'isolamento dell'ambiente utilizzando i valori uniti da .deploy.env.common e .deploy.env.<ENV_MODE>. Da utilizzare per garantire che test/produzione/personalizzazione non condividano lo stesso registro, host remoto, utente e identità di porta.

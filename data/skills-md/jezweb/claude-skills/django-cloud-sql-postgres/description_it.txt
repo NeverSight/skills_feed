@@ -1,0 +1,3 @@
+Distribuisci Django su Google App Engine Standard con Cloud SQL PostgreSQL. Copre le connessioni socket Unix, il proxy di autenticazione Cloud SQL per lo sviluppo locale, la configurazione Gunicorn e le impostazioni pronte per la produzione.
+
+Da utilizzare quando: si distribuisce Django su App Engine, si configura Cloud SQL PostgreSQL, si impostano connessioni socket Unix o si risolve il problema "File o directory assente", "connessione rifiutata" o "FATAL: autenticazione della password non riuscita".

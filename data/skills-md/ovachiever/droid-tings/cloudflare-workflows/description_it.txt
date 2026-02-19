@@ -1,0 +1,11 @@
+Crea flussi di lavoro durevoli e di lunga durata su Cloudflare Workers con tentativi automatici, persistenza dello stato e
+orchestrazione in più fasi. Supporta step.do, step.sleep, step.waitForEvent e funziona per ore o giorni.
+
+Da utilizzare quando: si creano flussi di lavoro di lunga durata, si implementa la logica dei tentativi, si creano processi guidati dagli eventi,
+coordinamento delle chiamate API, pianificazione di attività a più passaggi o risoluzione dei problemi relativi a NonRetryableError, contesto I/O,
+errori di serializzazione o errori di esecuzione del flusso di lavoro.
+
+Parole chiave: flussi di lavoro cloudflare, lavoratori dei flussi di lavoro, esecuzione duratura, fase del flusso di lavoro,
+WorkflowEntrypoint, step.do, step.sleep, tentativi del flusso di lavoro, NonRetryableError,
+stato del flusso di lavoro, flussi di lavoro di Wrangler, eventi del flusso di lavoro, attività a lunga esecuzione, step.sleepUntil,
+step.waitForEvent, associazioni del flusso di lavoro

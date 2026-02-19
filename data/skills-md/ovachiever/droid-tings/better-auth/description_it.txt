@@ -1,0 +1,5 @@
+Costruisci sistemi di autenticazione per TypeScript/Cloudflare Worker con autenticazione social, 2FA, passkey, organizzazioni e RBAC. Alternativa self-hosted a Clerk/Auth.js.
+
+IMPORTANTE: richiede Drizzle ORM o Kysely per D1 - nessun adattatore D1 diretto. v1.4.0 (novembre 2025) aggiunge sessioni stateless, solo ESM (interruzione), rotazione delle chiavi JWT, provisioning SCIM. v1.3 aggiunge SSO/SAML, supporto multi-team.
+
+Da utilizzare in caso di: autenticazione self-hosting su Cloudflare D1, migrazione da Clerk, implementazione di SaaS multi-tenant o risoluzione di errori dell'adattatore D1, serializzazione di sessioni, flussi OAuth, problemi relativi ai cookie di TanStack Start, invalidazione della sessione di nanostore.

@@ -1,0 +1,1 @@
+Hook git post-checkout per la configurazione automatica dell'albero di lavoro. Utilizzare quando: (1) impostare la configurazione automatica per i nuovi alberi di lavoro git, (2) creare hook post-checkout che rilevano nuovi alberi di lavoro ed eseguire attività di installazione, (3) configurare alberi di lavoro per copiare automaticamente i file env e installare le dipendenze

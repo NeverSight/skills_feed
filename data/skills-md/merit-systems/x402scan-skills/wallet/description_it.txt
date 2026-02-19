@@ -1,0 +1,13 @@
+Gestisci il portafoglio x402 per le chiamate API a pagamento. Controlla il saldo, riscatta i codici di invito, deposita USDC.
+
+UTILIZZARE PER:
+- Controllo del saldo del portafoglio prima delle chiamate API
+- Riscattare i codici di invito per crediti gratuiti
+- Ottenere l'indirizzo di deposito per USDC
+- Risoluzione dei problemi di pagamento
+
+TRIGGER:
+- "saldo", "portafoglio", "fondi", "crediti"
+- "riscatta", "codice invito", "codice promozionale"
+- "deposito", "aggiungi fondi", "ricarica"
+- "saldo insufficiente", "pagamento fallito"

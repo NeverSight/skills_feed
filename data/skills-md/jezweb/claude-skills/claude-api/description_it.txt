@@ -1,0 +1,3 @@
+Crea con l'API Claude Messages utilizzando output strutturati per la convalida garantita dello schema JSON. Copre la memorizzazione nella cache immediata (risparmio del 90%), lo streaming SSE, l'uso dello strumento e la deprecazione dei modelli. Previene 16 errori documentati.
+
+Da utilizzare quando: creazione di chatbot/agenti, risoluzione dei problemi di rate_limit_error, problemi di memorizzazione nella cache dei prompt, errori di analisi SSE in streaming, problemi di timeout MCP o allucinazioni con output strutturato.

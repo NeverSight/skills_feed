@@ -1,0 +1,1 @@
+Configura gli hook Claude Code per bloccare comandi git pericolosi (push, reset --hard, clean, branch -D, ecc.) prima che vengano eseguiti. Da utilizzare quando l'utente desidera impedire operazioni git distruttive, aggiungere hook di sicurezza git o bloccare push/reset git nel codice Claude.

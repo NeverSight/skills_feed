@@ -1,0 +1,9 @@
+Dominio di conoscenza completo per Cloudflare Workers KV: storage globale di valori-chiave a bassa latenza sulla rete edge di Cloudflare.
+
+Utilizzare quando: creazione di spazi dei nomi KV, archiviazione di dati di configurazione, memorizzazione nella cache delle risposte API, gestione delle preferenze dell'utente,
+implementare la scadenza TTL, gestire i metadati KV o riscontrare "KV_ERROR", "429 troppe richieste",
+"limite di velocità kv", errori cacheTtl o eventuali problemi di coerenza.
+
+Parole chiave: archiviazione kv, kv cloudflare, kv lavoratori, spazio dei nomi kv, collegamenti kv, cache kv, kv ttl, metadati kv,
+elenco kv, impaginazione kv, ottimizzazione della cache, caching dei bordi, KV_ERROR, 429 troppe richieste, limite di velocità kv,
+eventualmente coerente, wrangler kv, operazioni kv, archiviazione di valori chiave

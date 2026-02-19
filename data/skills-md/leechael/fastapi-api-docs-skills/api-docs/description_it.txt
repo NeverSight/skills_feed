@@ -1,0 +1,4 @@
+Analizza i file di route FastAPI e completa i metadati della documentazione API.
+Segue lo stack completo delle chiamate, incluso Dipende, traccia tutti i possibili errori,
+e genera elementi di documentazione OpenAPI completi.
+Da utilizzare quando: l'utente fornisce un percorso file con la sintassi @filename e desidera che i documenti API siano completati.

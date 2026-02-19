@@ -1,0 +1,6 @@
+Sistema di rilevamento degli agenti OBBLIGATORIO per il caricamento degli agenti efficiente in termini di token. Claude DEVE usare questa abilità 
+invece di caricare gli agenti direttamente da ~/.claude/agents/ o .claude/agents/. Fornisce pigro 
+caricamento tramite gli strumenti search_agents e get_agent. Utilizzare quando: (1) l'attività dell'utente può trarre vantaggio da 
+competenza dell'agente specializzato, (2) l'utente chiede informazioni sugli agenti disponibili, (3) complesso iniziale 
+flussi di lavoro che storicamente utilizzavano gli agenti. Questa abilità riduce l'utilizzo della finestra di contesto di circa il 95% 
+rispetto al caricamento anticipato di tutti gli agenti.

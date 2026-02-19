@@ -1,0 +1,5 @@
+Questa competenza fornisce una conoscenza completa per la creazione di API indipendenti dai tipi con Hono, concentrandosi su modelli di routing, composizione del middleware, convalida delle richieste, modelli client/server RPC, gestione degli errori e gestione del contesto.
+
+Utilizzare quando: creazione di API con Hono (qualsiasi runtime), configurazione della convalida delle richieste con validatori Zod/Valibot/Typia/ArkType, creazione di comunicazioni client/server RPC indipendenti dal tipo, implementazione di middleware personalizzato, gestione di errori con HTTPException, estensione del contesto Hono con variabili personalizzate o riscontro di problemi di inferenza del tipo di middleware, confusione di hook di convalida o problemi di prestazioni RPC.
+
+Parole chiave: hono, hono routing, hono middleware, hono rpc, hono validator, zod validator, valibot validator, api type-safe, contesto hono, gestione degli errori hono, HTTPException, c.req.valid, composizione middleware, hono hook, percorsi tipizzati, client hono, risposta middleware non digitata, convalida hono non riuscita, inferenza del tipo hono rpc

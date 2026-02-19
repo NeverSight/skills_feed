@@ -1,0 +1,8 @@
+Migliora una competenza esistente in base al contesto della conversazione e al feedback degli utenti. Utilizzare quando:
+(1) L'utente dice "/improve-skill <nome-abilità>" o "migliora l'abilità" dopo aver utilizzato un'abilità
+(2) L'utente desidera affinare un'abilità in base alle correzioni apportate durante la conversazione
+(3) L'utente fornisce un feedback specifico su cosa dovrebbe fare di diverso un'abilità
+(4) L'utente desidera creare una competenza più adatta alle proprie preferenze o al flusso di lavoro
+
+Questa abilità analizza la cronologia delle conversazioni per identificare correzioni del corso, incomprensioni,
+e le preferenze dell'utente, quindi aggiorna SKILL.md e le risorse della competenza target di conseguenza.

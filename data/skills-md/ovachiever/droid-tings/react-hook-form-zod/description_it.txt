@@ -1,0 +1,3 @@
+Crea moduli convalidati indipendenti dai tipi in React utilizzando React Hook Form e la convalida dello schema Zod. Lo schema singolo funziona sia sul client che sul server per la convalida DRY con inferenza completa del tipo TypeScript tramite z.infer.
+
+Utilizzare quando: creazione di moduli con convalida, integrazione di componenti di moduli shadcn/ui, implementazione di procedure guidate a più passaggi, gestione di array di campi dinamici con useFieldArray o correzione di avvisi da non controllati a controllati, errori del risolutore, problemi di convalida asincrona.

@@ -1,0 +1,3 @@
+Crea intelligenza artificiale backend con Vercel AI SDK v6 stabile. Copre l'API di output (sostituisce generateObject/streamObject), sintesi vocale, trascrizione, incorporamenti, strumenti MCP con indicazioni sulla sicurezza. Include la migrazione v4→v5 e 15 soluzioni di errori con soluzioni alternative.
+
+Da utilizzare in caso di: implementazione di AI SDK v5/v6, migrazione di versioni, risoluzione dei problemi di AI_APICallError, problemi di avvio dei Workers, errori dell'API di output, problemi di memorizzazione nella cache di Gemini, errori dello strumento Anthropic, strumenti MCP o errori di ripresa dello streaming.

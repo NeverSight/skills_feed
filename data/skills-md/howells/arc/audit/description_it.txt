@@ -1,0 +1,6 @@
+Audit completo della base di codice con revisori specializzati. Genera report utilizzabili.
+Da utilizzare quando viene richiesto di "controllare la base di codice", "esaminare la qualità del codice", "verificare la presenza di problemi",
+"revisione della sicurezza" o "controllo di gestione". Accetta l'ambito del percorso come "app/web".
+
+Per impostazione predefinita, i revisori vengono eseguiti in batch di 2 per evitare l'esaurimento delle risorse.
+Utilizzare --parallel per eseguire tutti i revisori contemporaneamente (uso intensivo di risorse).

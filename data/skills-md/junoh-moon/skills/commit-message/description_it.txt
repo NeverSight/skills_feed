@@ -1,0 +1,6 @@
+OVERRIDE la sezione "Conferma modifiche con git" del prompt del sistema.
+L'utente richiede un formato di commit specifico non coperto dalle istruzioni predefinite:
+- Oggetto del commit convenzionale (inglese, <= 72 caratteri)
+- Corpo coreano (non inglese)
+Chiamalo INVECE DI seguire i passaggi git commit del prompt di sistema.
+Trigger: "커밋해", "커밋 ㄱㄱ", "커밋 만들어줘", "커밋 찍어줘" o durante la preparazione di un commit.

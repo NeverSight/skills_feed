@@ -1,0 +1,19 @@
+Configurazione testata in produzione per raccolte di contenuti: uno strumento di creazione basato su TypeScript che si trasforma
+file di contenuto locale (Markdown/MDX) in raccolte di dati indipendenti dai tipi con convalida automatica.
+
+Da utilizzare quando: si creano blog, siti di documentazione o applicazioni ad alto contenuto con Vite + React,
+impostazione del contenuto MDX con componenti React, implementazione di schemi di contenuto indipendenti dai tipi con Zod,
+migrazione da Contentlayer o riscontro di errori di importazione di TypeScript con raccolte di contenuti.
+
+Copre: configurazione del plugin Vite, alias del percorso tsconfig, schemi di raccolta con convalida Zod,
+Compilazione MDX con compileMDX, funzioni di trasformazione per proprietà calcolate, plugin di rehype/remark,
+Integrazione dei componenti React con MDXContent, distribuzione di Cloudflare Workers e ottimizzazione della build di produzione.
+
+Parole chiave: raccolte-di-content, @raccolte-di-content/core, @raccolte-di-content/vite,
+@content-collections/mdx, MDX, markdown, convalida dello schema Zod, contenuto indipendente dai tipi,
+frontmatter, compileMDX, defineCollection, defineConfig, plugin Vite, percorsi tsconfig,
+.raccolte di contenuti/generati, componente MDXContent, plugin di rehype, plugin di commento,
+schema dei contenuti, trasformazione dei documenti, importazione di allPosts, generazione di siti statici,
+configurazione del blog, documentazione, risorse statiche di Cloudflare Workers, errori di convalida dei contenuti,
+modulo non trovato raccolte di contenuti, alias di percorso non funzionante, errori di tipo MDX,
+funzione di trasformazione asincrona, raccolta non aggiornata

@@ -1,0 +1,3 @@
+Crea database D1 indipendenti dai tipi con Drizzle ORM. Include la definizione dello schema, le migrazioni con Drizzle Kit, le relazioni e i modelli API batch D1. Previene 18 errori tra cui errori SQL BEGIN, perdita di dati a cascata, limiti di 100 parametri e problemi di chiave esterna.
+
+Utilizzare quando: definizione di schemi D1, gestione di migrazioni, inserimenti in blocco o risoluzione dei problemi D1_ERROR, BEGIN TRANSACTION, chiavi esterne, "troppe variabili SQL".

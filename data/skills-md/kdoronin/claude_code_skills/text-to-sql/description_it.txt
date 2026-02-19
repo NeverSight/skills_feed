@@ -1,0 +1,6 @@
+Configura e utilizza funzionalità di conversione da testo a SQL per database SQL (SQLite, PostgreSQL, MySQL, MariaDB, ecc.).
+Da utilizzare quando: (1) l'utente desidera interrogare i database utilizzando il linguaggio naturale,
+(2) L'utente chiede di impostare il progetto text-to-sql, (3) L'utente menziona l'estrazione
+dati dal database, (4) L'utente dispone del file .sqlite/.db o delle credenziali del database e
+vuole lavorare con i dati. Questa abilità imposta la struttura del progetto, gli estratti
+schema del database e consente la conversione dal linguaggio naturale a SQL.

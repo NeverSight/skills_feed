@@ -1,0 +1,3 @@
+Aggiungi l'autenticazione OAuth ai server MCP su Cloudflare Workers. Utilizza @cloudflare/workers-oauth-provider con Google OAuth per l'autenticazione compatibile con Claude.ai. Previene 9 errori documentati tra cui bug del pubblico RFC 8707, errori di connessione di Claude.ai e vulnerabilità CSRF.
+
+Da utilizzare durante la creazione di server MCP che richiedono l'autenticazione dell'utente, l'implementazione della registrazione dinamica del client (DCR) per Claude.ai o la sostituzione di token di autenticazione statici con flussi OAuth. Include soluzioni alternative per le mancate corrispondenze degli URI di reindirizzamento della produzione e i problemi del ciclo di riautenticazione.

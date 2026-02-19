@@ -1,0 +1,1 @@
+Addetto al controllo della correttezza delle transazioni (L3). Controlla i commit intermedi mancanti, l'ambito della transazione (troppo ampio/ristretto), la gestione del rollback mancante, le transazioni di lunga durata, l'interazione di attivazione/notifica. Restituisce i risultati con gravità, posizione, impegno e raccomandazioni.

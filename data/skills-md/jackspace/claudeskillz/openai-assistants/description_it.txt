@@ -1,0 +1,15 @@
+Guida completa per Assistants API v2 di OpenAI: intelligenza artificiale conversazionale con stato con strumenti integrati
+(Interprete di codice, Ricerca di file, Chiamata di funzioni), archivi di vettori per RAG (fino a 10.000 file),
+gestione del ciclo di vita di thread/eseguimenti e modelli di streaming. Entrambi gli approcci SDK e fetch di Node.js.
+
+⚠️ AVVISO DI DEPRECAZIONE: OpenAI prevede di eliminare l'API Assistants nella prima metà del 2026 a favore dell'API Responses.
+Questa competenza rimane preziosa per le app esistenti e la pianificazione della migrazione.
+
+Utilizzare quando: creazione di chatbot con stato con OpenAI, implementazione RAG con archivi vettoriali, esecuzione
+Codice Python con Code Interpreter, utilizzo della ricerca di file per domande e risposte sui documenti, gestione dei thread di conversazione,
+risposte dell'assistente streaming o riscontri errori come "il thread ha già un'esecuzione attiva", vettore
+memorizzare ritardi di indicizzazione, eseguire timeout di polling o problemi di caricamento di file.
+
+Parole chiave: assistenti openai, assistenti API, thread openai, esecuzioni openai, assistente interprete codice,
+ricerca file openai, archivio vettoriale openai, openai rag, assistente streaming, persistenza thread,
+chatbot con stato, il thread ha già un'esecuzione attiva, esegue il polling dello stato, errore dell'archivio vettoriale

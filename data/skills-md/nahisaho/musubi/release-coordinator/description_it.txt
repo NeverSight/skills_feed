@@ -1,0 +1,18 @@
+Coordina rilasci multicomponente, flag di funzionalità, controllo delle versioni e strategie di rollback.
+
+Termini trigger: gestione dei rilasci, pianificazione dei rilasci, coordinamento dei rilasci, flag delle funzionalità,
+distribuzione canary, implementazione progressiva, note di rilascio, strategia di rollback, treno di rilascio,
+coordinamento della distribuzione, controllo delle versioni, registro delle modifiche, approvazione del rilascio, lista di controllo della distribuzione.
+
+Gestisce flussi di lavoro di rilascio complessi:
+- Coordinamento del rilascio multicomponente
+- Strategia e gestione delle bandiere delle funzionalità
+- Versioning e generazione del changelog
+- Distribuzioni canarie e blu-verdi
+- Strategie di rollout progressive
+- Procedure di rollback
+- Flussi di lavoro di approvazione del rilascio
+- Verifica post-rilascio
+
+Utilizzare quando: pianificare rilasci, coordinare distribuzioni multiservizio, gestire flag di funzionalità,
+o generare note di rilascio.

@@ -1,0 +1,17 @@
+Convalida la tracciabilità completa dei requisiti attraverso requisiti EARS → progettazione → attività → codice → test.
+
+Termini trigger: tracciabilità, copertura dei requisiti, matrice di copertura, matrice di tracciabilità,
+mappatura dei requisiti, copertura dei test, copertura EARS, monitoraggio dei requisiti, audit di tracciabilità,
+rilevamento delle lacune, requisiti orfani, codice non testato, convalida della copertura, analisi della tracciabilità.
+
+Applica l'Articolo Costituzionale V (Mandato di Tracciabilità) con una convalida completa:
+- Requisito → Mappatura del progetto (copertura al 100%)
+- Progettazione → Mappatura delle attività
+- Compito → Mappatura dell'implementazione del codice
+- Codice → Mappatura test (copertura 100%)
+- Rilevamento delle lacune (requisiti orfani, codice non testato)
+- Reporting percentuale di copertura
+- Generazione della matrice di tracciabilità
+
+Utilizzare quando: l'utente necessita di convalida della tracciabilità, analisi di copertura, rilevamento di gap,
+o il monitoraggio dei requisiti durante l'intero ciclo di vita dello sviluppo.

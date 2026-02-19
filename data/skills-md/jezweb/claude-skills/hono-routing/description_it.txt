@@ -1,0 +1,3 @@
+Crea API indipendenti dai tipi con Hono per Cloudflare Workers, Deno, Bun, Node.js. Routing, middleware, validazione (Zod/Valibot), RPC, streaming (SSE), WebSocket, sicurezza (CSRF, secureHeaders).
+
+Utilizzare quando: creazione di API Hono, streaming SSE, WebSocket, convalida, RPC. Risoluzione dei problemi: hook di convalida, tipi RPC, catene middleware, algoritmo di verifica JWT richiesto (v4.11.4+), errori di consumo del corpo.

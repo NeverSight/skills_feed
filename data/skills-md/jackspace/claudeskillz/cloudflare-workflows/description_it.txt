@@ -1,0 +1,13 @@
+Dominio di conoscenza completo per i flussi di lavoro Cloudflare: framework di esecuzione durevole
+per la creazione di applicazioni in più fasi sui lavoratori che riprovano e persistono automaticamente
+stato e durano ore o giorni.
+
+Utilizzare quando: creazione di flussi di lavoro di lunga durata, implementazione della logica di ripetizione, creazione
+processi guidati dagli eventi, pianificazione di attività in più passaggi, coordinamento tra API,
+o si riscontra "NonRetryableError", "Contesto I/O", "esecuzione del flusso di lavoro non riuscita",
+errori "errore di serializzazione" o "WorkflowEvent non trovato".
+
+Parole chiave: flussi di lavoro cloudflare, lavoratori dei flussi di lavoro, esecuzione duratura, fase del flusso di lavoro,
+WorkflowEntrypoint, step.do, step.sleep, tentativi del flusso di lavoro, NonRetryableError,
+stato del flusso di lavoro, flussi di lavoro di Wrangler, eventi del flusso di lavoro, attività a lunga esecuzione, step.sleepUntil,
+step.waitForEvent, associazioni del flusso di lavoro

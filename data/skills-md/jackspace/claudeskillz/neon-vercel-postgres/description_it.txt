@@ -1,0 +1,13 @@
+Questa competenza fornisce una conoscenza completa per l'integrazione di Neon serverless Postgres e Vercel Postgres (che è basato sull'infrastruttura Neon) nelle applicazioni web. Dovrebbe essere utilizzato durante l'impostazione di database Postgres serverless, la configurazione del pool di connessioni per ambienti edge e serverless, l'implementazione di flussi di lavoro di ramificazione del database o la risoluzione dei problemi di connessione Postgres in Cloudflare Workers, Vercel Edge Functions o funzioni serverless Node.js.
+
+Usa questa abilità quando:
+- Configurazione di Neon Postgres per Cloudflare Workers, Vercel Edge o ambienti serverless
+- Configurazione di Vercel Postgres per le applicazioni Next.js
+- Implementazione di flussi di lavoro di ramificazione del database (rami di database simili a git)
+- Integrazione di Drizzle ORM o Prisma con Neon/Vercel Postgres
+- Debug di errori del pool di connessione, timeout delle transazioni o problemi di configurazione SSL
+- Migrazione da D1/SQLite a Postgres o da Postgres tradizionale a Postgres serverless
+- Impostazione del ripristino point-in-time (PITR) o dei backup del database
+- Si sono verificati errori come "pool di connessione esaurito", "connessioni TCP non supportate in serverless" o "modalità SSL richiesta"
+
+Parole chiave: neon postgres, @neondatabase/serverless, @vercel/postgres, serverless postgres, postgres edge, neon branching, database vercel, http postgres, websocket postgres, connessione in pool, drizzle neon, prisma neon, postgres cloudflare, postgres vercel edge, tag modello sql, neonctl, rami del database, ripristino puntuale, migrazioni postgres, serverless sql, database edge, neon api, vercel mq

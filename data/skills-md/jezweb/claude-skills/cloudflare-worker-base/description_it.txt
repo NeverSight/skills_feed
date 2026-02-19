@@ -1,0 +1,3 @@
+Configura Cloudflare Workers con routing Hono, plug-in Vite e risorse statiche. Previene 10 errori tra cui sintassi di esportazione, conflitti di routing, Vite 8 nodejs_compat, regressione dell'opzione di base e danneggiamento della cache.
+
+Da utilizzare quando: si creano progetti Workers, si configura Hono/Vite o si risolvono problemi di sintassi di esportazione, conflitti di route API, problemi HMR o compatibilità Vite 8+.

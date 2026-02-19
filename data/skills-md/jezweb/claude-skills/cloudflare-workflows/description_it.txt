@@ -1,0 +1,3 @@
+Crea flussi di lavoro durevoli con Cloudflare Workflows (GA aprile 2025). Dispone di step.do, step.sleep, waitForEvent, test Vitest, tentativi automatici e persistenza dello stato per attività a lunga esecuzione. Previene 12 errori documentati.
+
+Da utilizzare quando: si creano flussi di lavoro, si implementano nuovi tentativi o si risolvono problemi relativi a NonRetryableError, contesto I/O, errori di serializzazione, timeout waitForEvent, errori getPlatformProxy.

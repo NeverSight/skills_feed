@@ -1,0 +1,1 @@
+Genera automaticamente messaggi di commit convenzionali quando l'utente ha messo in scena le modifiche e menziona il commit. Analizza il diff e lo stato di git per creare messaggi di commit formattati correttamente seguendo le specifiche dei commit convenzionali. Richiama quando l'utente menziona "commit", "staged", "commit" o chiede aiuto con i messaggi di commit.

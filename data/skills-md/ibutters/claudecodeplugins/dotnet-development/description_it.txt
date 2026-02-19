@@ -1,0 +1,5 @@
+Linee guida complete per lo sviluppo .NET che coprono DDD, principi SOLID, API REST ASP.NET Core e best practice C#.
+Da utilizzare quando si lavora con: (1) file di codice C# (.cs), (2) file di progetto .NET (.csproj, .sln), (3) applicazioni ASP.NET Core,
+(4) Implementazioni della progettazione basata su dominio, (5) Sviluppo API REST, (6) Entity Framework Core,
+(7) Test di unità/integrazione in .NET. Trigger specifici per: classi che ereditano AggregateRoot/Entity,
+servizi con dipendenze IRepository, controller che ereditano ControllerBase o file nelle cartelle Dominio/Applicazione/Infrastruttura.

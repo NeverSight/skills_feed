@@ -1,0 +1,3 @@
+Configura Postgres serverless con Neon o Vercel Postgres per Cloudflare Workers/Edge. Include pooling di connessioni, ramificazioni simili a git per ambienti di anteprima e integrazione Drizzle/Prisma.
+
+Da utilizzare quando: si configura Edge Postgres, si configura la ramificazione del database o si risolve il problema "TCP non supportato", pool di connessioni esaurito, configurazione SSL (sslmode=require) o compatibilità Prisma Edge.

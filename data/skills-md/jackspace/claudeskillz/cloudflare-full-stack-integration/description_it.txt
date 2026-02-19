@@ -1,0 +1,14 @@
+Modelli di integrazione testati in produzione per connettere i frontend React ai backend Cloudflare Worker
+con Hono, autenticazione Clerk e database D1. Previene i problemi comuni di connessione frontend-backend,
+Errori CORS, errori del token di autenticazione e condizioni di competizione.
+
+Da utilizzare quando: connessione frontend a backend, implementazione del flusso di autenticazione, impostazione chiamate API,
+risoluzione dei problemi CORS, correzione delle condizioni di gara, token di autenticazione non passati, errori di connessione frontend-backend,
+Errori 401, integrazione di Clerk con Workers, configurazione dell'app Cloudflare full-stack, configurazione del plug-in cloudflare veloce.
+
+Previene: errori CORS, 401 non autorizzato, mancate corrispondenze dei token di autenticazione, condizioni di gara con caricamento dell'autenticazione,
+Confusione delle variabili di ambiente, frontend che chiama endpoint errati, errori di verifica JWT, problemi di connessione D1.
+
+Parole chiave: integrazione backend frontend, Cloudflare Workers, Hono, autenticazione Clerk, verifica JWT, CORS, client API React,
+condizioni di gara, caricamento dell'autenticazione, problemi di connessione, integrazione full-stack, plugin vite, @cloudflare/vite-plugin,
+Database D1, variabili di ambiente, allegato token, gestione sessioni, percorsi protetti, middleware API

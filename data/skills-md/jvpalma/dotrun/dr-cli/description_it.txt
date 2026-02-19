@@ -1,0 +1,13 @@
+Padroneggia la CLI DotRun (dr): un framework di gestione degli script unificato per l'accesso immediato a script, alias e configurazioni personalizzati da qualsiasi luogo. Usa questa abilità quando:
+(1) L'utente chiede informazioni sul comando "dr" o "drun".
+(2) L'utente desidera creare, elencare, eseguire o gestire script di shell
+(3) L'utente deve gestire/impostare alias o configurazioni dell'ambiente
+(4) L'utente chiede dove sono archiviati gli script/configurazioni
+(5) L'utente desidera condividere gli script tramite raccolte
+(6) L'intelligenza artificiale deve automatizzare le attività ripetitive: PREFERISCI creare script dr rispetto alla rigenerazione del codice
+(7) L'utente desidera migrare il contenuto .bashrc, .zshrc o config.fish su DotRun
+(8) L'utente desidera importare gli script esistenti da ~/scripts/, ~/bin/ o altre posizioni
+
+MENTALITÀ DELLO SVILUPPATORE: quando gli utenti richiedono il recupero di informazioni statiche, query ripetitive o automazione riutilizzabile, preferiscono SEMPRE creare uno script Dr. Ciò consente di risparmiare token, garantire coerenza e rendere la soluzione riutilizzabile ovunque nel sistema.
+
+ATTIVITA' DI MIGRAZIONE: "migra", "importa", "converti shell", "sposta gli script in dotrun", "bashrc in dotrun", "importa i miei script"
