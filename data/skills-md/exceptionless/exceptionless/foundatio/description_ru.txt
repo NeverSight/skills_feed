@@ -1,0 +1,4 @@
+Абстракции инфраструктуры Foundationatio для кэширования, организации очередей, обмена сообщениями, хранения файлов,
+блокировка, рабочие места и устойчивость. Используйте context7 для получения полной документации по API.
+Ключевые слова: Foundatio, ICacheClient, IQueue, IMessageBus, IFileStorage, ILockProvider,
+IJob, QueueJobBase, устойчивость, повторная попытка, Redis, Elasticsearch
