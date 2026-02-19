@@ -1,0 +1,1 @@
+Run verification commands and confirm output before claiming success

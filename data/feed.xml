@@ -4,593 +4,590 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Wed, 18 Feb 2026 19:05:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2026 02:40:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-02-18)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-02-19)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:snapshot</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:snapshot</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 29449
-Trending skills: 10921
-Hot skills: 1483
-Top All Time: find-skills (258554)
-Top Trending: find-skills (9670)
-Top Hot: agent-tools (305)]]></description>
+All Time skills: 13631
+Trending skills: 8924
+Hot skills: 1360
+Top All Time: find-skills (261482)
+Top Trending: find-skills (9987)
+Top Hot: find-skills (406)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#50): onboarding-cro]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/onboarding-cro</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topAllTime:new:coreyhaines31/marketingskills/onboarding-cro</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#50): using-git-worktrees]]></title>
+            <link>https://skills.sh/obra/superpowers/using-git-worktrees</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topAllTime:new:obra/superpowers/using-git-worktrees</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in All Time leaderboard.
 Rank: #50
-Installs: 7345
-Source: coreyhaines31/marketingskills
-Description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," or "new user experience." For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.]]></description>
+Installs: 7422
+Source: obra/superpowers
+Description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): fastapi-python]]></title>
-            <link>https://skills.sh/mindrally/skills/fastapi-python</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:mindrally/skills/fastapi-python</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:vercel-labs/skills/find-skills</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #1
+Installs: 406
+Source: vercel-labs/skills
+Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#11): skill-creator]]></title>
+            <link>https://skills.sh/anthropics/skills/skill-creator</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:anthropics/skills/skill-creator</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #11
+Installs: 54
+Source: anthropics/skills
+Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#12): vercel-react-native-skills]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:vercel-labs/agent-skills/vercel-react-native-skills</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #12
+Installs: 44
+Source: vercel-labs/agent-skills
+Description: React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#13): next-best-practices]]></title>
+            <link>https://skills.sh/vercel-labs/next-skills/next-best-practices</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:vercel-labs/next-skills/next-best-practices</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 24
-Source: mindrally/skills
-Description: Expert in FastAPI Python development with best practices for APIs and async operations]]></description>
+Installs: 39
+Source: vercel-labs/next-skills
+Description: Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): mastra]]></title>
-            <link>https://skills.sh/mastra-ai/skills/mastra</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:mastra-ai/skills/mastra</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): docx]]></title>
+            <link>https://skills.sh/anthropics/skills/docx</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:anthropics/skills/docx</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 23
-Source: mastra-ai/skills
-Description: Comprehensive guide for building AI applications with Mastra, the TypeScript AI framework for agents and workflows. Covers LLM agents with tools and memory, multi-step workflows with branching/parallel execution, storage backends (Postgres/LibSQL), RAG/vector search, and custom tool creation. Use when building conversational agents, automated workflows, RAG systems, or any Mastra TypeScript/JavaScript application. Includes 27+ production-ready code patterns, API verification guidance, troubleshooting, and best practices.]]></description>
+Installs: 29
+Source: anthropics/skills
+Description: Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): product-changelog]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/product-changelog</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/product-changelog</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): web-design-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 16
-Source: inference-sh-4/skills
-Description: Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution. Use for: release notes, changelogs, product updates, feature announcements, versioning. Triggers: changelog, release notes, product update, version notes, what's new, feature announcement, product changelog, update log, release announcement, version release, product release, ship notes]]></description>
+Installs: 101
+Source: vercel-labs/agent-skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): convex]]></title>
-            <link>https://skills.sh/waynesutton/convexskills/convex</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:waynesutton/convexskills/convex</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #16
-Installs: 27
-Source: waynesutton/convexskills
-Description: Umbrella skill for all Convex development patterns. Routes to specific skills like convex-functions, convex-realtime, convex-agents, etc.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#17): shadcn-ui]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/shadcn-ui</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:google-labs-code/stitch-skills/shadcn-ui</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): xlsx]]></title>
+            <link>https://skills.sh/anthropics/skills/xlsx</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:anthropics/skills/xlsx</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 25
-Source: google-labs-code/stitch-skills
-Description: Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices.]]></description>
+Installs: 26
+Source: anthropics/skills
+Description: Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): clerk-nextjs-patterns]]></title>
-            <link>https://skills.sh/clerk/skills/clerk-nextjs-patterns</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:clerk/skills/clerk-nextjs-patterns</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): pptx]]></title>
+            <link>https://skills.sh/anthropics/skills/pptx</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:anthropics/skills/pptx</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 15
-Source: clerk/skills
-Description: Advanced Next.js patterns - middleware, Server Actions, caching with Clerk.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): agent-ui]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/agent-ui</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-3/skills/agent-ui</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 15
-Source: inference-sh-3/skills
-Description: name: agent-ui]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): algorithmic-art]]></title>
-            <link>https://skills.sh/anthropics/skills/algorithmic-art</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:anthropics/skills/algorithmic-art</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
 Installs: 31
 Source: anthropics/skills
-Description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.]]></description>
+Description: Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): react:components]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/react:components</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:google-labs-code/stitch-skills/react:components</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): brainstorming]]></title>
+            <link>https://skills.sh/obra/superpowers/brainstorming</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/brainstorming</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 52
+Source: obra/superpowers
+Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): writing-plans]]></title>
+            <link>https://skills.sh/obra/superpowers/writing-plans</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/writing-plans</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 30
+Source: obra/superpowers
+Description: Use when you have a spec or requirements for a multi-step task, before touching code]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): test-driven-development]]></title>
+            <link>https://skills.sh/obra/superpowers/test-driven-development</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/test-driven-development</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 29
+Source: obra/superpowers
+Description: Use when implementing any feature or bugfix, before writing implementation code]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): requesting-code-review]]></title>
+            <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/requesting-code-review</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 28
-Source: google-labs-code/stitch-skills
-Description: Converts Stitch designs into modular Vite and React components using system-level networking and AST-based validation.]]></description>
+Installs: 25
+Source: obra/superpowers
+Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): code-review-analysis]]></title>
-            <link>https://skills.sh/aj-geddes/useful-ai-prompts/code-review-analysis</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:aj-geddes/useful-ai-prompts/code-review-analysis</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): better-auth-best-practices]]></title>
+            <link>https://skills.sh/better-auth/skills/better-auth-best-practices</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:better-auth/skills/better-auth-best-practices</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 20
-Source: aj-geddes/useful-ai-prompts
-Description: Perform comprehensive code reviews with best practices, security checks, and constructive feedback. Use when reviewing pull requests, analyzing code quality, checking for security vulnerabilities, or providing code improvement suggestions.]]></description>
+Installs: 18
+Source: better-auth/skills
+Description: Skill for integrating Better Auth - the comprehensive TypeScript authentication framework.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): prisma-expert]]></title>
-            <link>https://skills.sh/sickn33/antigravity-awesome-skills/prisma-expert</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:sickn33/antigravity-awesome-skills/prisma-expert</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): vercel-composition-patterns]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:vercel-labs/agent-skills/vercel-composition-patterns</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 16
-Source: sickn33/antigravity-awesome-skills
-Description: Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues.]]></description>
+Installs: 65
+Source: vercel-labs/agent-skills
+Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): postbridge-social-growth]]></title>
-            <link>https://skills.sh/giulioco/skills/postbridge-social-growth</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:giulioco/skills/postbridge-social-growth</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): ui-ux-pro-max]]></title>
+            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 15
-Source: giulioco/skills
-Description: Organic social media growth coach using the Post Bridge methodology (500M+ views, 132K+ downloads, $33K+ revenue). Act as a personalized growth coach for apps, products, and businesses seeking organic traffic from TikTok and Instagram short-form video. Use when users ask about growing on TikTok/Instagram, creating viral content, getting more views organically, converting social media views to app downloads or customers, warming up new social accounts, finding winning content formats, or scaling organic social media presence. Also use when users need help with social media bios, content-market fit, trend riding, or building a repeatable content system without paid ads.]]></description>
+Installs: 51
+Source: nextlevelbuilder/ui-ux-pro-max-skill
+Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): widgets-ui]]></title>
-            <link>https://skills.sh/inference-sh-5/skills/widgets-ui</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-5/skills/widgets-ui</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): tailwind-design-system]]></title>
+            <link>https://skills.sh/wshobson/agents/tailwind-design-system</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/tailwind-design-system</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 14
-Source: inference-sh-5/skills
-Description: name: widgets-ui]]></description>
+Installs: 25
+Source: wshobson/agents
+Description: Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): email-design]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/email-design</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/email-design</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): nodejs-backend-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/nodejs-backend-patterns</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/nodejs-backend-patterns</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 14
-Source: inference-sh-4/skills
-Description: Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails, transactional templates, and mobile optimization. Use for: email marketing, newsletter design, drip campaigns, email templates, transactional emails. Triggers: email design, email template, email marketing, newsletter design, email layout, email campaign, drip campaign, welcome email, promotional email, transactional email, email subject line, email header image, email banner]]></description>
+Installs: 15
+Source: wshobson/agents
+Description: Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectures.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): ai-avatar-video]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/ai-avatar-video</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): git-advanced-workflows]]></title>
+            <link>https://skills.sh/wshobson/agents/git-advanced-workflows</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/git-advanced-workflows</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 14
-Source: inference-sh-4/skills
-Description: Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, OmniHuman 1.0, Fabric 1.0, PixVerse Lipsync. Capabilities: audio-driven avatars, lipsync videos, talking head generation, virtual presenters. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human]]></description>
+Installs: 13
+Source: wshobson/agents
+Description: Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, or troubleshooting repository issues.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): prompt-engineering]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/prompt-engineering</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/prompt-engineering</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): vercel-react-best-practices]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:vercel-labs/agent-skills/vercel-react-best-practices</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 14
-Source: inference-sh-4/skills
-Description: Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, system prompts, negative prompts. Models: Claude, GPT-4, Gemini, FLUX, Veo, Stable Diffusion prompting. Use for: better AI outputs, consistent results, complex tasks, optimization. Triggers: prompt engineering, how to prompt, better prompts, prompt tips, prompting guide, llm prompting, image prompt, ai prompting, prompt optimization, prompt template, prompt structure, effective prompts, prompt techniques]]></description>
+Rank: #3
+Installs: 134
+Source: vercel-labs/agent-skills
+Description: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): press-release-writing]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/press-release-writing</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/press-release-writing</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): webapp-testing]]></title>
+            <link>https://skills.sh/anthropics/skills/webapp-testing</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:anthropics/skills/webapp-testing</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 14
-Source: inference-sh-4/skills
-Description: Press release writing in AP style with inverted pyramid structure. Covers formatting, datelines, quotes, boilerplates, and fact-checking. Use for: product launches, funding announcements, partnerships, company news, events. Triggers: press release, pr writing, media release, news release, announcement, product launch announcement, funding announcement, company news, media advisory, ap style, press statement, news wire]]></description>
+Installs: 23
+Source: anthropics/skills
+Description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): python-executor]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/python-executor</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-3/skills/python-executor</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): using-superpowers]]></title>
+            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/using-superpowers</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 14
-Source: inference-sh-3/skills
-Description: Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib]]></description>
+Installs: 22
+Source: obra/superpowers
+Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): design-md]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/design-md</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:google-labs-code/stitch-skills/design-md</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): systematic-debugging]]></title>
+            <link>https://skills.sh/obra/superpowers/systematic-debugging</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/systematic-debugging</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 25
+Source: obra/superpowers
+Description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): executing-plans]]></title>
+            <link>https://skills.sh/obra/superpowers/executing-plans</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/executing-plans</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 25
-Source: google-labs-code/stitch-skills
-Description: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files]]></description>
+Installs: 22
+Source: obra/superpowers
+Description: Use when you have a written implementation plan to execute in a separate session with review checkpoints]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): stitch-loop]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/stitch-loop</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:google-labs-code/stitch-skills/stitch-loop</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): dispatching-parallel-agents]]></title>
+            <link>https://skills.sh/obra/superpowers/dispatching-parallel-agents</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/dispatching-parallel-agents</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 23
-Source: google-labs-code/stitch-skills
-Description: Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern]]></description>
+Installs: 19
+Source: obra/superpowers
+Description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): competitor-teardown]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/competitor-teardown</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/competitor-teardown</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 13
-Source: inference-sh-4/skills
-Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): cold-email]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/cold-email</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:coreyhaines31/marketingskills/cold-email</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 13
-Source: coreyhaines31/marketingskills
-Description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): javascript-sdk]]></title>
-            <link>https://skills.sh/inference-sh-5/skills/javascript-sdk</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-5/skills/javascript-sdk</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): e2e-testing-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/e2e-testing-patterns</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/e2e-testing-patterns</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
 Installs: 12
-Source: inference-sh-5/skills
-Description: JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaScript integration, TypeScript, Node.js, React, Next.js, frontend apps. Triggers: javascript sdk, typescript sdk, npm install, node.js api, js client, react ai, next.js ai, frontend sdk, @inferencesh/sdk, typescript agent, browser sdk, js integration]]></description>
+Source: wshobson/agents
+Description: Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishing testing standards.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): ai-rag-pipeline]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-rag-pipeline</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/ai-rag-pipeline</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): code-review-excellence]]></title>
+            <link>https://skills.sh/wshobson/agents/code-review-excellence</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/code-review-excellence</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 12
-Source: inference-sh-4/skills
-Description: Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs. Tools: Tavily Search, Exa Search, Exa Answer, Claude, GPT-4, Gemini via OpenRouter. Capabilities: research, fact-checking, grounded responses, knowledge retrieval. Use for: AI agents, research assistants, fact-checkers, knowledge bases. Triggers: rag, retrieval augmented generation, grounded ai, search and answer, research agent, fact checking, knowledge retrieval, ai research, search + llm, web grounded, perplexity alternative, ai with sources, citation, research pipeline]]></description>
+Installs: 11
+Source: wshobson/agents
+Description: Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): speech-to-text]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/speech-to-text</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/speech-to-text</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): mcp-apps-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/mcp-apps-builder</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:mcp-use/mcp-use/mcp-apps-builder</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #4
+Installs: 30
+Source: mcp-use/mcp-use
+Description: **MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.
+
+**READ THIS FIRST** before any MCP server work, including:
+- Creating new MCP servers
+- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)
+- Debugging MCP server issues or errors
+- Reviewing MCP server code for quality, security, or performance
+- Answering questions about MCP development or mcp-use patterns
+- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets
+
+This skill contains critical architecture decisions, security patterns, and common pitfalls.
+Always consult the relevant reference files BEFORE implementing MCP features.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): mobile-ios-design]]></title>
+            <link>https://skills.sh/wshobson/agents/mobile-ios-design</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/mobile-ios-design</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 11
+Source: wshobson/agents
+Description: Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design principles.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): javascript-testing-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/javascript-testing-patterns</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/javascript-testing-patterns</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 12
-Source: inference-sh-4/skills
-Description: Transcribe audio to text with Whisper models via inference.sh CLI. Models: Fast Whisper Large V3, Whisper V3 Large. Capabilities: transcription, translation, multi-language, timestamps. Use for: meeting transcription, subtitles, podcast transcripts, voice notes. Triggers: speech to text, transcription, whisper, audio to text, transcribe audio, voice to text, stt, automatic transcription, subtitles generation, transcribe meeting, audio transcription, whisper ai]]></description>
+Installs: 11
+Source: wshobson/agents
+Description: Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): typescript-advanced-types]]></title>
-            <link>https://skills.sh/wshobson/agents/typescript-advanced-types</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:wshobson/agents/typescript-advanced-types</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): security-requirement-extraction]]></title>
+            <link>https://skills.sh/wshobson/agents/security-requirement-extraction</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/security-requirement-extraction</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 23
+Installs: 11
+Source: wshobson/agents
+Description: Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): design-system-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/design-system-patterns</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/design-system-patterns</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 10
+Source: wshobson/agents
+Description: Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building component libraries, or establishing design system foundations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): modern-javascript-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/modern-javascript-patterns</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/modern-javascript-patterns</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 10
+Source: wshobson/agents
+Description: Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. Use when refactoring legacy code, implementing modern patterns, or optimizing JavaScript applications.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): just-scrape]]></title>
+            <link>https://skills.sh/scrapegraphai/just-scrape/just-scrape</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:scrapegraphai/just-scrape/just-scrape</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 10
+Source: scrapegraphai/just-scrape
+Description: CLI tool for AI-powered web scraping, data extraction, search, and crawling via ScrapeGraph AI. Use when the user needs to scrape websites, extract structured data from URLs, convert pages to markdown, crawl multi-page sites, search the web for information, automate browser interactions (login, click, fill forms), get raw HTML, discover sitemaps, or generate JSON schemas. Triggers on tasks involving: (1) extracting data from websites, (2) web scraping or crawling, (3) converting webpages to markdown, (4) AI-powered web search with extraction, (5) browser automation, (6) generating output schemas for scraping. The CLI is just-scrape (npm package just-scrape).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): architecture-decision-records]]></title>
+            <link>https://skills.sh/wshobson/agents/architecture-decision-records</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/architecture-decision-records</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 10
+Source: wshobson/agents
+Description: Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architectural choices, or establishing decision processes.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): using-git-worktrees]]></title>
+            <link>https://skills.sh/obra/superpowers/using-git-worktrees</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:obra/superpowers/using-git-worktrees</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 17
+Source: obra/superpowers
+Description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): theme-factory]]></title>
+            <link>https://skills.sh/anthropics/skills/theme-factory</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:anthropics/skills/theme-factory</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 15
+Source: anthropics/skills
+Description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): nextjs-app-router-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/nextjs-app-router-patterns</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/nextjs-app-router-patterns</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 13
+Source: wshobson/agents
+Description: Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#5): mcp-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/mcp-builder</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:mcp-use/mcp-use/mcp-builder</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #5
+Installs: 30
+Source: mcp-use/mcp-use
+Description: Build Model Context Protocol (MCP) servers with mcp-use framework.
+Use when creating MCP servers, defining tools/resources/prompts, working with mcp-use,
+bootstrapping MCP projects, or when user mentions MCP development, tools, resources, or prompts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): accessibility-compliance]]></title>
+            <link>https://skills.sh/wshobson/agents/accessibility-compliance</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:wshobson/agents/accessibility-compliance</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 10
+Source: wshobson/agents
+Description: Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA patterns, building for screen readers, or ensuring inclusive user experiences.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#6): chatgpt-app-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:mcp-use/mcp-use/chatgpt-app-builder</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #6
+Installs: 30
+Source: mcp-use/mcp-use
+Description: Build ChatGPT apps with interactive widgets using mcp-use and OpenAI Apps SDK.
+Use when creating ChatGPT apps, building MCP servers with widgets, defining React widgets,
+working with Apps SDK, or when user mentions ChatGPT widgets, mcp-use widgets, or Apps SDK development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#7): react-doctor]]></title>
+            <link>https://skills.sh/millionco/react-doctor/react-doctor</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:millionco/react-doctor/react-doctor</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #7
+Installs: 97
+Source: millionco/react-doctor
+Description: Diagnose and fix React codebase health issues. Use when reviewing React code, fixing performance problems, auditing security, or improving code quality.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): pdf]]></title>
+            <link>https://skills.sh/anthropics/skills/pdf</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:anthropics/skills/pdf</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 38
+Source: anthropics/skills
+Description: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): seedance2-api]]></title>
+            <link>https://skills.sh/hexiaochun/seedance2-api/seedance2-api</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:new:hexiaochun/seedance2-api/seedance2-api</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 25
+Source: hexiaochun/seedance2-api
+Description: Out-of-the-box Seedance 2.0 API skill — just one API key to generate AI videos. Builds storyboards, generates reference images with Seedream 4.5, submits video tasks, and polls results. Supports both MCP and standalone Python script mode. Use when the user mentions seedance, AI video, storyboard, or video generation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#40): typescript-advanced-types]]></title>
+            <link>https://skills.sh/wshobson/agents/typescript-advanced-types</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topTrending:new:wshobson/agents/typescript-advanced-types</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #40
+Installs: 403
 Source: wshobson/agents
 Description: Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): macos-design-guidelines]]></title>
-            <link>https://skills.sh/ehmo/platform-design-skills/macos-design-guidelines</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:ehmo/platform-design-skills/macos-design-guidelines</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 21
-Source: ehmo/platform-design-skills
-Description: Apple Human Interface Guidelines for Mac. Use when building macOS apps with SwiftUI or AppKit, implementing menu bars, toolbars, window management, or keyboard shortcuts. Triggers on tasks involving Mac UI, desktop apps, or Mac Catalyst.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): enhance-prompt]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/enhance-prompt</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:google-labs-code/stitch-skills/enhance-prompt</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
+            <title><![CDATA[[Trending] New entry (#44): mcp-builder]]></title>
+            <link>https://skills.sh/anthropics/skills/mcp-builder</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topTrending:new:anthropics/skills/mcp-builder</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
 Rank: #44
-Installs: 20
-Source: google-labs-code/stitch-skills
-Description: Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.]]></description>
+Installs: 365
+Source: anthropics/skills
+Description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): validate-implementation-plan]]></title>
-            <link>https://skills.sh/b-mendoza/agent-skills/validate-implementation-plan</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:b-mendoza/agent-skills/validate-implementation-plan</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 20
-Source: b-mendoza/agent-skills
-Description: Audit and annotate an AI-generated implementation plan for requirements traceability, YAGNI compliance, and assumption risks. Use when reviewing, validating, or auditing an implementation plan or design proposal produced by an AI agent.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): remotion]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/remotion</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:google-labs-code/stitch-skills/remotion</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 19
-Source: google-labs-code/stitch-skills
-Description: Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): self-learning]]></title>
-            <link>https://skills.sh/philschmid/self-learning-skill/self-learning</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:philschmid/self-learning-skill/self-learning</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 13
-Source: philschmid/self-learning-skill
-Description: Autonomous skill generator that learns new technologies from the web. Use when, users want to learn about a new library/framework/tool, need to create a skill for an unfamiliar technology, want to research and document a technology's usage patterns, or invoke with `/learn <topic>`. This skill uses web search and browser tools to discover, extract, and synthesize documentation into a reusable skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): agent-browser]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/agent-browser</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-3/skills/agent-browser</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 37
-Source: inference-sh-3/skills
-Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#7): postgres]]></title>
-            <link>https://skills.sh/planetscale/database-skills/postgres</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:planetscale/database-skills/postgres</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 35
-Source: planetscale/database-skills
-Description: PostgreSQL best practices, query optimization, connection troubleshooting, and performance improvement. Load when working with Postgres databases.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): ai-marketing-videos]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-marketing-videos</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:new:inference-sh-4/skills/ai-marketing-videos</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 21
-Source: inference-sh-4/skills
-Description: Create AI marketing videos for ads, promos, product launches, and brand content. Models: Veo, Seedance, Wan, FLUX for visuals, Kokoro for voiceover. Types: product demos, testimonials, explainers, social ads, brand videos. Use for: Facebook ads, YouTube ads, product launches, brand awareness. Triggers: marketing video, ad video, promo video, commercial, brand video, product video, explainer video, ad creative, video ad, facebook ad video, youtube ad, instagram ad, tiktok ad, promotional video, launch video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#11): agent-browser]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/agent-browser</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topTrending:new:inference-sh-3/skills/agent-browser</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #11
-Installs: 1335
-Source: inference-sh-3/skills
-Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#46): nuxt-ui]]></title>
-            <link>https://skills.sh/nuxt/ui/nuxt-ui</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topTrending:new:nuxt/ui/nuxt-ui</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#46): receiving-code-review]]></title>
+            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topTrending:new:obra/superpowers/receiving-code-review</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #46
-Installs: 347
-Source: nuxt/ui
-Description: Build UIs with @nuxt/ui v4 — 125+ accessible Vue components with Tailwind CSS theming. Use when creating interfaces, customizing themes to match a brand, building forms, or composing layouts like dashboards, docs sites, and chat interfaces.]]></description>
+Installs: 352
+Source: obra/superpowers
+Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#47): release-skills]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/release-skills</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topTrending:new:jimliu/baoyu-skills/release-skills</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#47): just-scrape]]></title>
+            <link>https://skills.sh/scrapegraphai/just-scrape/just-scrape</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topTrending:new:scrapegraphai/just-scrape/just-scrape</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #47
-Installs: 346
-Source: jimliu/baoyu-skills
-Description: Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says "release", "发布", "new version", "bump version", "push", "推送".]]></description>
+Installs: 345
+Source: scrapegraphai/just-scrape
+Description: CLI tool for AI-powered web scraping, data extraction, search, and crawling via ScrapeGraph AI. Use when the user needs to scrape websites, extract structured data from URLs, convert pages to markdown, crawl multi-page sites, search the web for information, automate browser interactions (login, click, fill forms), get raw HTML, discover sitemaps, or generate JSON schemas. Triggers on tasks involving: (1) extracting data from websites, (2) web scraping or crawling, (3) converting webpages to markdown, (4) AI-powered web search with extraction, (5) browser automation, (6) generating output schemas for scraping. The CLI is just-scrape (npm package just-scrape).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#49): social-content]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/social-content</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topTrending:new:coreyhaines31/marketingskills/social-content</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #49
-Installs: 340
-Source: coreyhaines31/marketingskills
-Description: When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#50): product-marketing-context]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/product-marketing-context</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topTrending:new:coreyhaines31/marketingskills/product-marketing-context</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#50): subagent-driven-development]]></title>
+            <link>https://skills.sh/obra/superpowers/subagent-driven-development</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topTrending:new:obra/superpowers/subagent-driven-development</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #50
-Installs: 334
-Source: coreyhaines31/marketingskills
-Description: When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Creates `.claude/product-marketing-context.md` that other marketing skills reference.]]></description>
+Installs: 329
+Source: obra/superpowers
+Description: Use when executing implementation plans with independent tasks in the current session]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank down (13 → 19): related-skill]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/related-skill</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-4/skills/related-skill</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank down (1 → 2): agent-tools]]></title>
+            <link>https://skills.sh/inference-sh-3/skills/agent-tools</link>
+            <guid isPermaLink="false">2026-02-19T02:40:40.511Z:topHot:rank:inference-sh-3/skills/agent-tools</guid>
+            <pubDate>Thu, 19 Feb 2026 02:40:40 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #13
-Current rank: #19
-Delta: -6
-Installs: 15 (prev 19)
-Source: inference-sh-4/skills
-Description: Discover and install related skills from inference.sh skill registry. Helps find complementary skills for your AI workflow. Use for: skill discovery, workflow expansion, capability exploration. Triggers: related skills, find skills, skill discovery, complementary skills, expand workflow, more capabilities, similar skills, skill suggestions]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (18 → 40): newsletter-curation]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/newsletter-curation</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-4/skills/newsletter-curation</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #18
-Current rank: #40
-Delta: -22
-Installs: 12 (prev 18)
-Source: inference-sh-4/skills
-Description: Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, commentary style, and sending cadence. Use for: email newsletters, link roundups, weekly digests, curated content, creator newsletters. Triggers: newsletter, email newsletter, newsletter curation, weekly digest, link roundup, curated newsletter, newsletter writing, newsletter format, subscriber growth, newsletter strategy, content curation, newsletter template]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (28 → 49): linkedin-content]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/linkedin-content</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-4/skills/linkedin-content</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #28
-Current rank: #49
-Delta: -21
-Installs: 11 (prev 14)
-Source: inference-sh-4/skills
-Description: LinkedIn post writing with hook formulas, formatting rules, and engagement patterns. Covers post types, algorithm signals, character limits, and content pillars. Use for: LinkedIn posts, professional content, thought leadership, B2B content, personal branding. Triggers: linkedin post, linkedin content, linkedin writing, linkedin strategy, linkedin engagement, linkedin algorithm, linkedin hook, linkedin formatting, thought leadership, professional content, b2b content, linkedin growth]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (37 → 48): ai-product-photography]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-product-photography</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-4/skills/ai-product-photography</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #37
-Current rank: #48
-Delta: -11
-Installs: 11 (prev 13)
-Source: inference-sh-4/skills
-Description: Generate professional AI product photography and commercial images. Models: FLUX, Imagen 3, Grok, Seedream for product shots, lifestyle images, mockups. Capabilities: studio lighting, lifestyle scenes, packaging, e-commerce photos. Use for: e-commerce, Amazon listings, Shopify, marketing, advertising, mockups. Triggers: product photography, product shot, commercial photography, e-commerce images, amazon product photo, shopify images, product mockup, studio product shot, lifestyle product image, advertising photo, packshot, product render, product image ai]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (4 → 5): ai-video-generation]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-4/skills/ai-video-generation</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #4
-Current rank: #5
+Previous rank: #1
+Current rank: #2
 Delta: -1
-Installs: 42 (prev 47)
-Source: inference-sh-4/skills
-Description: Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (10 → 8): remotion-best-practices]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:remotion-dev/skills/remotion-best-practices</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #10
-Current rank: #8
-Delta: +2
-Installs: 103 (prev 104)
-Source: remotion-dev/skills
-Description: Best practices for Remotion - Video creation in React]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (14 → 11): javascript-sdk]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/javascript-sdk</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-3/skills/javascript-sdk</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #14
-Current rank: #11
-Delta: +3
-Installs: 18 (prev 19)
+Installs: 100 (prev 305)
 Source: inference-sh-3/skills
-Description: JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaScript integration, TypeScript, Node.js, React, Next.js, frontend apps. Triggers: javascript sdk, typescript sdk, npm install, node.js api, js client, react ai, next.js ai, frontend sdk, @inferencesh/sdk, typescript agent, browser sdk, js integration]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (32 → 12): twitter-thread-creation]]></title>
-            <link>https://skills.sh/inference-sh-4/skills/twitter-thread-creation</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-4/skills/twitter-thread-creation</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #32
-Current rank: #12
-Delta: +20
-Installs: 17 (prev 14)
-Source: inference-sh-4/skills
-Description: Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media attachments, and posting strategies. Use for: Twitter threads, X posts, tweet storms, Twitter content, social media writing. Triggers: twitter thread, tweet thread, x thread, twitter post, tweet writing, thread creation, tweet storm, twitter content, x post, twitter writing, twitter hook, tweet formatting, thread structure]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (42 → 10): python-sdk]]></title>
-            <link>https://skills.sh/inference-sh-3/skills/python-sdk</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-3/skills/python-sdk</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #42
-Current rank: #10
-Delta: +32
-Installs: 19 (prev 13)
-Source: inference-sh-3/skills
-Description: Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Python integration, AI apps, agent development, RAG pipelines, automation. Triggers: python sdk, inferencesh, pip install, python api, python client, async inference, python agent, tool builder python, programmatic ai, python integration, sdk python]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (43 → 32): chat-ui]]></title>
-            <link>https://skills.sh/inference-sh-5/skills/chat-ui</link>
-            <guid isPermaLink="false">2026-02-18T19:05:05.085Z:topHot:rank:inference-sh-5/skills/chat-ui</guid>
-            <pubDate>Wed, 18 Feb 2026 19:05:05 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #43
-Current rank: #32
-Delta: +11
-Installs: 14 (prev 13)
-Source: inference-sh-5/skills
-Description: name: chat-ui]]></description>
+Description: Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
     </channel>
 </rss>
