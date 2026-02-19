@@ -1,0 +1,3 @@
+TimeProvider может быть использован только в этом случае.
+當需要測試 DateTime、控制時間流逝、處理時區轉換、測試過期邏輯時使用。
+Используйте TimeProvider и FakeTimeProvider, а также используйте FakeTimeProvider.

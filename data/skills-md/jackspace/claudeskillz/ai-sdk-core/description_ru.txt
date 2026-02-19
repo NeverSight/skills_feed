@@ -1,0 +1,12 @@
+Внутренние функции искусственного интеллекта с помощью Vercel AI SDK v5 — генерация текста, структурированный вывод с помощью Zod,
+вызов инструментов и агентов. Поддержка нескольких поставщиков для OpenAI, Anthropic, Google и Cloudflare Workers AI.
+
+Используйте, когда: реализация функций искусственного интеллекта на стороне сервера, создание текстовых сообщений/чатов, создание структурированных
+Результаты ИИ с помощью схем Zod, создание агентов ИИ с помощью инструментов, потоковая передача ответов ИИ, интеграция
+Поставщики OpenAI/Anthropic/Google/Cloudflare или обнаружение ошибок AI SDK, таких как AI_APICallError,
+AI_NoObjectGeneratedError, сбои потоковой передачи или ограничения на запуск исполнителя.
+
+Ключевые слова: ядро ai sdk, vercel ai sdk,generateText,streamText,generateObject,streamObject,
+узел ai sdk, сервер ai sdk, схема zod ai, вызов инструментов ai, класс агента ai, openai sdk, антропный SDK,
+Google Gemini SDK, Workers-AI-Provider, Серверная часть потоковой передачи AI, AI с несколькими поставщиками, ошибки AI SDK,
+AI_APICallError, AI_NoObjectGeneratedError, сбой потока Text, ограничение запуска рабочего ai

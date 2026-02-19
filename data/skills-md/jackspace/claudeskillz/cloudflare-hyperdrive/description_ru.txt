@@ -1,0 +1,5 @@
+Полная область знаний для Cloudflare Hyperdrive — подключение Cloudflare Workers к существующим базам данных PostgreSQL и MySQL с глобальным пулом подключений, кэшированием запросов и уменьшенной задержкой.
+
+Используйте, когда: подключение Workers к существующим базам данных, миграция PostgreSQL/MySQL в Cloudflare, настройка пула соединений, настройка привязок Hyperdrive, использование драйверов node-postgres/postgres.js/mysql2, интеграция Drizzle ORM или Prisma ORM или обнаружение «Не удалось получить соединение из пула», «TLS не поддерживается базой данных», «Соединение отклонено», «nodejs_compat отсутствует», «Генерация кода из строки запрещены» или ошибки конфигурации Hyperdrive.
+
+Ключевые слова: гипердрайв, гипердрайв Cloudflare, гипердрайв рабочих, работники Postgres, работники MySQL, пул соединений, кэширование запросов, Node-postgres, pg, postgres.js, mysql2, Drizzle Hyperdrive, Prisma Hyperdrive, Workers RDs, Workers Aurora, Workers Neon, Workers Supabase, ускорение базы данных, гибридная архитектура, база данных туннелей Cloudflare, Wrangler Hyperdrive, привязки гипердиска, гипердрайв локальной разработки
