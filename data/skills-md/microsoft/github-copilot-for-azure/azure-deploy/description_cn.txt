@@ -1,0 +1,3 @@
+执行到 Azure 的部署。准备和验证后的最后一步。运行 azd up、azd deploy 或基础设施配置命令。
+用于：运行 azd up、运行 azd deploy、执行部署、配置基础设施、推送到生产、上线、发布、部署 Web 应用程序、部署容器应用程序、部署静态站点、部署 Azure Functions、bicep 部署、terraform 应用。
+请勿用于：创建或构建应用程序（使用 azure-prepare）、部署前验证（使用 azure-validate）。

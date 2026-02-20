@@ -1,0 +1,1 @@
+遵循 GO 模块化架构约定（Gorm、PingoDB、OTEL 跟踪、Fx DI、端口架构）生成 Go 存储库端口接口和实现。在为internal/modules/<module>/中的实体创建数据访问层时使用，包括CRUD操作（Create、FindAll、FindByID、Update、Delete）、自定义查询、分页或事务。

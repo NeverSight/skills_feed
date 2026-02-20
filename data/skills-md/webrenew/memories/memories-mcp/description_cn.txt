@@ -1,0 +1,1 @@
+Memory.sh 的 MCP 服务器集成 — AI 代理的持久内存层。在以下情况下使用：(1) 为任何客户端（Claude Code、Cursor、Windsurf、VS Code、v0、Claude Desktop、OpenCode、Factory）配置 Memory.sh MCP 服务器，(2) 使用 MCP 工具以编程方式存储、搜索或检索内存，(3) 了解 get_context、search_memories 和 list_memories，(4) 使用流式内存工具处理 SSE 内容，(5) 排除 MCP 连接问题，(6) 选择云 MCP (HTTP) 和本地 MCP (stdio) 传输。

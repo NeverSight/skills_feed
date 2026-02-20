@@ -1,0 +1,1 @@
+使用现代 v23+ 模式设计、重构和审查效应器状态管理。当任务涉及 createStore/createEvent/createEffect 建模、具有 Sample/attach/split 的数据流、具有 fork/allSettled/serialize/ Hydro 的范围安全 SSR、React 与 useUnit 集成、Solid/Vue 集成模式、修复范围丢失或替换反模式（例如 watch 中的业务逻辑、effects 中的命令式调用以及直接 getState 业务读取）时使用。

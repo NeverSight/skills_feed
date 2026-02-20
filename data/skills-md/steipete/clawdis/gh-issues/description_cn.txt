@@ -1,0 +1,1 @@
+获取 GitHub 问题，生成子代理来实施修复并打开 PR，然后监控并处理 PR 审核意见。用法： /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]

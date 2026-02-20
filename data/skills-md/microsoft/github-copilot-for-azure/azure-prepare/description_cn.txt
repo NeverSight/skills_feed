@@ -1,0 +1,3 @@
+Azure 应用程序开发的默认入口点。为与 Azure 相关的任何应用程序工作调用此技能：创建应用程序、构建功能、添加组件、更新代码、迁移或现代化。分析您的项目并通过生成基础结构代码 (Bicep/Terraform)、azure.yaml 配置和 Dockerfile 为 Azure 部署做好准备。
+用于：创建应用程序、构建 Web 应用程序、创建 API、创建前端、创建后端、添加功能、构建服务、制作应用程序、开发项目、迁移我的应用程序、现代化我的代码、更新我的应用程序、添加数据库、添加身份验证、添加缓存、部署到 Azure、在 Azure 上托管、使用 Terraform 的 Azure（默认为 azd+Terraform）、使用 azd 的 Azure、生成 azure.yaml、生成 Bicep 或 Terraform、准备 Azure功能。
+请勿用于：仅验证已准备好的应用程序（使用 azure-validate）、仅运行 azd up/deploy（使用 azure-deploy）、不带 azd 的纯 Terraform（首选 azd+Terraform）。

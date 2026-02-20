@@ -1,0 +1,1 @@
+通过 Cloudflare MCP 管理 Workers/KV/R2/D1/Hyperdrive，执行可观察性/构建故障排除/审计/容器沙箱操作。触发器：worker/KV/R2/D1/logs/build/deploy/screenshot/audit/sandbox。三个权限级别：诊断（只读）、更改（写入需要确认）、超级管理员（隔离环境）。写操作必须遵循先读、用户确认、执行后验证。
