@@ -1,0 +1,14 @@
+Terragrunt, OpenTofu 및 Terraform 패턴을 사용한 홈랩 인프라 관리.
+
+다음 경우에 사용하십시오: (1) 개발/통합/라이브 클러스터에 대한 인프라 변경을 계획하거나 적용하는 경우,
+(2) Inventory.hcl에서 머신 추가/수정, (3) 유닛 및 스택 생성 또는 업데이트,
+(4) 기능 플래그 작업, (5) 유효성 검사 실행(fmt, 유효성 검사, 테스트, 계획),
+(6) 유닛→스택→모듈 아키텍처 이해, (7) HCL 구성 파일 작업,
+(8) 베어메탈 Kubernetes 프로비저닝 또는 Talos 구성.
+
+트리거: "terragrunt", "terraform", "opentofu", "tofu", "인프라 코드", "IaC",
+"inventory.hcl", "networking.hcl", "HCL 파일", "머신 추가", "노드 추가", "클러스터 프로비저닝",
+"베어 메탈", "talos config", "작업 tg:", "인프라 계획", "인프라 적용",
+"스택", "유닛", "모듈 아키텍처"
+
+terragrunt를 직접 실행하는 대신 항상 작업 명령(task tg:*)을 사용하십시오.

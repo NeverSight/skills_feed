@@ -1,0 +1,1 @@
+Apollo Router 기본 Rust 플러그인 작성 가이드. (1) 사용자가 새 라우터 플러그인을 생성하려는 경우, (2) 사용자가 서비스 후크(router_service, supergraph_service,execution_service, subgraph_service)를 추가하려는 경우, (3) 사용자가 기존 라우터 플러그인을 수정하려는 경우, (4) 사용자가 라우터 플러그인 패턴 또는 요청 수명 주기를 이해해야 하는 경우에 이 기술을 사용하십시오. (5) "새 플러그인 생성", "라우터 플러그인 추가", "X 플러그인 수정" 또는 "subgraph_service 후크 추가"와 같은 요청에 대해 트리거됩니다.
