@@ -1,0 +1,1 @@
+Workflow pour le débogage de la préservation sémantique des passes SSA à l'aide de la CLI noir-ssa. À utiliser lorsque le comportement d'un programme change de manière incorrecte pendant le pipeline SSA - divise les passes en deux pour identifier celle qui rompt la sémantique. Le fuzzer `pass_vs_prev` trouve automatiquement ces problèmes.

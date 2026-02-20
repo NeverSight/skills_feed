@@ -1,0 +1,1 @@
+Workflow de bout en bout pour le débogage des échecs du fuzzer SSA à partir de CI. Extrait un cas de reproduction des journaux d'actions GitHub, puis coupe en deux les passes SSA pour identifier le bogue. À utiliser lorsqu'un test « pass_vs_prev » ou un test de fuzzer similaire échoue dans CI.
