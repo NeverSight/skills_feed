@@ -1,0 +1,14 @@
+使用 Terragrunt、OpenTofu 和 Terraform 模式進行 Homelab 基礎架構管理。
+
+在以下情況下使用：(1) 規劃基礎架構變更或將其應用到開發/整合/即時集群，
+(2) 在 inventory.hcl 中新增/修改機器，(3) 建立或更新單元和堆疊，
+(4) 使用功能標誌，(5) 運行驗證（fmt、validate、test、plan），
+(6) 了解單元→堆疊→模組架構，(7) 使用 HCL 設定文件，
+(8) 裸機 Kubernetes 設定或 Talos 設定。
+
+觸發器：「terragrunt」、「terraform」、「opentofu」、「tofu」、「基礎設施代碼」、「IaC」、
+“inventory.hcl”、“networking.hcl”、“HCL 檔案”、“新增電腦”、“新增節點”、“叢集配置”、
+「裸機」、「talos config」、「任務 tg：」、「基礎設施計畫」、「基礎設施應用」、
+“堆疊”、“單元”、“模組架構”
+
+始終使用任務命令 (task tg:*)，而不是直接執行 terragrunt。

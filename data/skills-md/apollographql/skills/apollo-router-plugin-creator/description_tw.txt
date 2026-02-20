@@ -1,0 +1,1 @@
+編寫 Apollo Router 原生 Rust 插件的指南。在以下情況下使用此技能：（1）使用者想要建立新的路由器插件，（2）使用者想要新增服務掛鉤（router_service，supergraph_service，execution_service，subgraph_service），（3）使用者想要修改現有的路由器插件，（4）使用者需要了解路由器插件模式或要求生命週期。 (5) 觸發「建立新插件」、「新增路由器插件」、「修改 X 插件」或「新增 subgraph_service 掛鉤」等請求。

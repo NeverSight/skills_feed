@@ -1,0 +1,1 @@
+使用 Java 25 將 Spring Boot 專案遷移到版本 4.0，包括 Spring Modulith 2.0 和 Testcontainers 2.x 升級。當使用者要求升級 Spring Boot、遷移到 Java 25、更新對 Spring Boot 4 的依賴項、提及 Jackson 3 遷移、詢問啟動器重命名（web→webmvc、aop→aspectj）、修復測試註釋（@MockBean→@MockitoBean）或需要 Spring Modulith 2.0 或 Testcontainers 2.x 方面的幫助。分析程式碼庫中的遷移問題並透過特定文件引用指導變更。

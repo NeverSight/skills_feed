@@ -1,0 +1,1 @@
+用於從 CI 調試 SSA 模糊器故障的端到端工作流程。從 GitHub Actions 日誌中提取複製案例，然後將 SSA 平分以識別錯誤。當 CI 中的「pass_vs_prev」或類似模糊器測試失敗時使用。

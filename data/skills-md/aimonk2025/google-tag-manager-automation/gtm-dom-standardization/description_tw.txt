@@ -1,0 +1,1 @@
+標準化整個網站上所有與點擊相關的 ID 和 CSS 類，以實現清晰的分析追蹤。當使用者想要「標準化分析類別」、「清理追蹤 ID」、「為 GTM 準備 DOM」、「修復分析命名」或「使追蹤一致」時使用。掃描整個程式碼庫 (HTML/JSX/TSX/Vue) 並套用一致的命名約定 - ID 為“cta_{location}_{action}”，類別為“js-track js-{category} js-{action} js-{location}”。擔任高級前端工程師，確保可擴展的 GA4/GTM 實施。
