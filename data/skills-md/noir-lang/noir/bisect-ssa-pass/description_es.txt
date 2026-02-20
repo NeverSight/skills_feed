@@ -1,0 +1,1 @@
+Flujo de trabajo para depurar la preservación semántica del paso SSA mediante la CLI noir-ssa. Úselo cuando el comportamiento de un programa cambia incorrectamente durante la canalización de SSA: divide pases para identificar cuál rompe la semántica. El fuzzer `pass_vs_prev` encuentra estos problemas automáticamente.

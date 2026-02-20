@@ -1,0 +1,14 @@
+Gestión de infraestructura de Homelab con patrones Terragrunt, OpenTofu y Terraform.
+
+Úselo cuando: (1) Planifique o aplique cambios de infraestructura a clústeres de desarrollo/integración/activos,
+(2) Agregar/modificar máquinas en inventario.hcl, (3) Crear o actualizar unidades y pilas,
+(4) Trabajar con indicadores de funciones, (5) Ejecutar la validación (fmt, validar, probar, planificar),
+(6) Comprender la arquitectura de unidades → pilas → módulos, (7) Trabajar con archivos de configuración HCL,
+(8) Aprovisionamiento de Kubernetes sin sistema operativo o configuración de Talos.
+
+Activadores: "terragrunt", "terraform", "opentofu", "tofu", "código de infraestructura", "IaC",
+"inventory.hcl", "networking.hcl", "archivos HCL", "agregar máquina", "agregar nodo", "aprovisionamiento de clúster",
+"bare metal", "talos config", "task tg:", "plan de infraestructura", "aplicación de infraestructura",
+"pilas", "unidades", "arquitectura de módulos"
+
+Utilice siempre comandos de tarea (task tg:*) en lugar de ejecutar terragrunt directamente.

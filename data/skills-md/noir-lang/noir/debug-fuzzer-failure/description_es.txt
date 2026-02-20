@@ -1,0 +1,1 @@
+Flujo de trabajo de un extremo a otro para depurar fallas del fuzzer SSA desde CI. Extrae un caso de reproducción de los registros de GitHub Actions y luego divide los pases SSA para identificar el error. Úselo cuando falla una prueba de fuzzer `pass_vs_prev` o similar en CI.
