@@ -115,6 +115,9 @@ jobs:
           python scripts/translate_descriptions.py --target ko --limit "$LIMIT"
           python scripts/translate_descriptions.py --target de --limit "$LIMIT"
           python scripts/translate_descriptions.py --target fr --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target ru --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target it --limit "$LIMIT"
+          python scripts/translate_descriptions.py --target ar --limit "$LIMIT"
       
       - name: Commit translations
         run: |
