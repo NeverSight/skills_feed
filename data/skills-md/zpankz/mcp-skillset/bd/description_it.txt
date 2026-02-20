@@ -1,0 +1,1 @@
+Tracciamento dei problemi nativo di Git con supporto delle dipendenze di prima classe. Problemi archiviati insieme al codice nella directory .beads/, persistenti in SQLite (query) e JSONL (cronologia git-friendly). ID basati su hash, dipendenze DAG, modalità demone con RPC e supporto multi-area di lavoro ispirato a LSP.

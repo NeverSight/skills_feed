@@ -1,0 +1,8 @@
+Gestisce gli aggiornamenti dei file Cargo.lock e risolve i problemi relativi ai flag --locked in CI/CD.
+
+Si attiva quando l'utente menziona:
+- "test del carico --bloccato fallito"
+- "impossibile aggiornare il file di blocco"
+- "Cargo.lock non è aggiornato"
+- "PR non riuscita con errore --locked"
+- "correggi Cargo.lock"

@@ -1,0 +1,4 @@
+Crea ambienti contenitori isolati per testare le modifiche locali non confermate prima del push.
+Da utilizzare durante il test delle modifiche alla libreria, il coordinamento di più repository o la convalida di "funziona sul mio computer" → "funziona in CI".
+Fornisce snapshot del bundle git, server git incorporato, riscrittura selettiva degli URL e isolamento della cache del gestore pacchetti.
+Funziona con qualsiasi agente di codifica tramite CLI autonoma, script di shell o Docker Compose.
