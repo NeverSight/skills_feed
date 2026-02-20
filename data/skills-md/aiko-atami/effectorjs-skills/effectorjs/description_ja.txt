@@ -1,0 +1,1 @@
+最新の v23 以降のパターンを使用して、エフェクターの状態管理を設計、リファクタリング、レビューします。タスクに createStore/createEvent/createEffect モデリング、sample/attach/split によるデータフロー、fork/allSettled/serialize/水和物によるスコープ セーフ SSR、useUnit による React 統合、Solid/Vue 統合パターン、スコープ損失の修正、または監視内のビジネス ロジックなどのアンチパターンの置換、エフェクト内の命令的呼び出し、getState ビジネスの直接読み取りが含まれる場合に使用します。

@@ -1,0 +1,5 @@
+トリガーとなるのは次の場合です: (1) ユーザーが「manim」、「Manim Community」、または「ManimCE」に言及したとき、(2) コードに `from manim import *` が含まれているとき、(3) ユーザーが `manim` CLI コマンドを実行したとき、(4) Scene、MathTex、Create()、または ManimCE 固有のクラスを操作しているとき。
+
+Manim Community Edition のベスト プラクティス - コミュニティが管理する Python アニメーション エンジン。シーン構造、アニメーション、LaTeX/MathTex、ThreeDScene による 3D、カメラ制御、スタイリング、および CLI の使用法をカバーします。
+
+ManimGL/3b1b バージョン (`manimlib` インポートと `manimgl` CLI を使用する) ではありません。

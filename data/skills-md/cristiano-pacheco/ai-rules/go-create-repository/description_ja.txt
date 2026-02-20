@@ -1,0 +1,1 @@
+GO モジュラー アーキテクチャ規約 (Gorm、PingoDB、OTEL トレース、Fx DI、ポート アーキテクチャ) に従って、Go リポジトリ ポート インターフェイスと実装を生成します。 CRUD 操作 (Create、FindAll、FindByID、Update、Delete)、カスタム クエリ、ページネーション、またはトランザクションを含む、internal/modules/<module>/ 内のエンティティのデータ アクセス レイヤーを作成するときに使用します。
