@@ -1,14 +1,14 @@
 使用 Terragrunt、OpenTofu 和 Terraform 模式进行 Homelab 基础设施管理。
 
-在以下情况下使用：(1) 规划基础架构更改或将其应用到开发/集成/实时集群，
-(2) 在 inventory.hcl 中添加/修改机器，(3) 创建或更新单元和堆栈，
+Use when: (1) Planning or applying infrastructure changes to dev/integration/live clusters,
+(2) Adding/modifying machines in inventory.hcl, (3) Creating or updating units and stacks,
 (4) 使用功能标志，(5) 运行验证（fmt、validate、test、plan），
 (6) 了解单元→堆栈→模块架构，(7) 使用 HCL 配置文件，
-(8) 裸机 Kubernetes 配置或 Talos 配置。
+(8) Bare-metal Kubernetes provisioning or Talos configuration.
 
 触发器：“terragrunt”、“terraform”、“opentofu”、“tofu”、“基础设施代码”、“IaC”、
 “inventory.hcl”、“networking.hcl”、“HCL 文件”、“添加计算机”、“添加节点”、“集群配置”、
-“裸机”、“talos config”、“任务 tg：”、“基础设施计划”、“基础设施应用”、
-“堆栈”、“单元”、“模块架构”
+"bare metal", "talos config", "task tg:", "infrastructure plan", "infrastructure apply",
+"stacks", "units", "modules architecture"
 
-始终使用任务命令 (task tg:*)，而不是直接运行 terragrunt。
+Always use task commands (task tg:*) instead of running terragrunt directly.
