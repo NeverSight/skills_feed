@@ -1,0 +1,3 @@
+Azure 應用程式開發的預設入口點。為與 Azure 相關的任何應用程式工作呼叫此技能：建立應用程式、建置功能、新增元件、更新程式碼、遷移或現代化。分析您的專案並透過產生基礎結構程式碼 (Bicep/Terraform)、azure.yaml 配置和 Dockerfile 為 Azure 部署做好準備。
+用於：建立應用程式、建立 Web 應用程式、建立 API、建立前端、建立後端、新增功能、建置服務、製作應用程式、開發專案、遷移我的應用程式、現代化我的程式碼、更新我的應用程式、新增資料庫、新增驗證、新增快取、部署到 Azure、在 Azure 上託管、使用 Terraform 的程式生成器、預設為使用 Azure formuresform、formure 生成、使用Azure功能。
+請勿用於：僅驗證已準備好的應用程式（使用 azure-validate）、僅執行 azd up/deploy（使用 azure-deploy）、不含 azd 的純 Terraform（首選 azd+Terraform）。

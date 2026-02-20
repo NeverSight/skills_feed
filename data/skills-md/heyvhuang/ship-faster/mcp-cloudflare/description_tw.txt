@@ -1,0 +1,1 @@
+透過 Cloudflare MCP 管理 Workers/KV/R2/D1/Hyperdrive，執行可觀察性/建置故障排除/稽核/容器沙箱操作。觸發器：worker/KV/R2/D1/logs/build/deploy/screenshot/audit/sandbox。三個權限等級：診斷（唯讀）、變更（寫入需要確認）、超級管理員（隔離環境）。寫入操作必須遵循先讀、使用者確認、執行後驗證。

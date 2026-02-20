@@ -1,0 +1,3 @@
+執行到 Azure 的部署。準備和驗證後的最後一步。執行 azd up、azd deploy 或基礎架構設定指令。
+用於：執行 azd up、執行 azd deploy、執行部署、設定基礎架構、推送至生產、上線、發佈、部署 Web 應用程式、部署容器應用程式、部署靜態網站、部署 Azure Functions、bicep 部署、terraform 應用程式。
+請勿用於：建立或建置應用程式（使用 azure-prepare）、部署前驗證（使用 azure-validate）。

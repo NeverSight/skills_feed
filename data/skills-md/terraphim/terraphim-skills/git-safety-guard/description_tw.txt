@@ -1,0 +1,4 @@
+在執行前阻止破壞性的 git 和檔案系統命令。
+防止 git checkout 意外遺失未提交的工作 --,
+git reset --hard、rm -rf 和類似的破壞性操作。
+用作具有故障開放語意的 Claude Code PreToolUse 掛鉤。

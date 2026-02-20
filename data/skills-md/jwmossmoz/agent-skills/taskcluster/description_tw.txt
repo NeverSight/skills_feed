@@ -1,0 +1,1 @@
+使用taskcluster CLI 與Mozilla Taskcluster CI 互動。查詢任務狀態、檢視日誌、下載工件、重新觸發任務和管理任務群組。在處理來自 firefox-ci-tc.services.mozilla.com 的 CI 任務或調試工作池問題時使用。對於工作池操作（列出工作人員、終止工作人員、批次任務取消），請使用本機taskcluster api 命令（請參閱references/worker-pools.md）。在「任務群集」、「任務狀態」、「任務日誌」、「工件」、「重新觸發」、「任務組」、「工作池」上觸發。

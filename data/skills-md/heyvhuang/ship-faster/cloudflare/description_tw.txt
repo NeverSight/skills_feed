@@ -1,0 +1,1 @@
+Cloudflare 的基礎設施運作：Workers、KV、R2、D1、Hyperdrive、可觀察性、建置、審核日誌。觸發器：worker/KV/R2/D1/logs/build/deploy/audit。三個權限等級：診斷（唯讀）、變更（寫入需要確認）、超級管理員（隔離環境）。寫入操作遵循先讀、確認、執行、驗證模式。 MCP 是可選的 - 也可與 Wrangler CLI/儀表板配合使用。

@@ -1,0 +1,5 @@
+在下列情況下觸發：(1) 使用者提到“manim”或“Manim Community”或“ManimCE”，(2) 程式碼包含 `from manim import *`，(3) 使用者執行 `manim` CLI 指令，(4) 使用 Scene、MathTex、Create() 或 ManimCE 特定類別。
+
+Manim Community Edition 的最佳實踐 - 社群維護的 Python 動畫引擎。涵蓋場景結構、動畫、LaTeX/MathTex、帶有 ThreeDScene 的 3D、相機控制、樣式和 CLI 使用。
+
+不適用於 ManimGL/3b1b 版本（使用“manimlib”導入和“manimgl”CLI）。
