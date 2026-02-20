@@ -1,0 +1,6 @@
+Orchestration de vérification/validation du côté droit de V pour un changement ou une PR.
+Produit un seul rapport Quality Gate avec des preuves couvrant : la révision du code,
+audit de sécurité, risque de régression des performances, traçabilité des exigences,
+scénarios d'acceptation/UAT et (lorsque l'interface utilisateur change) tests de régression visuelle.
+À utiliser lors de la préparation d'un PR pour la fusion/la publication, en faisant un « prêt ? » chèque, ou
+appliquer une porte de qualité technique.

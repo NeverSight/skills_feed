@@ -1,0 +1,10 @@
+Web scraping et recherche CLI renvoyant un Markdown propre à partir de n'importe quelle URL (gère le rendu JS
+pages, SPA). À utiliser lorsque l'utilisateur demande : (1) "rechercher X sur le Web", (2) "gratter/récupérer
+Contenu de l'URL", (3) "obtenir le contenu du site Web", (4) "trouver des articles récents sur X",
+(5) tâches de recherche nécessitant des données Web actuelles, (6) extraire des données structurées à partir de pages.
+
+Produit Markdown compatible LLM, gère l'authentification via la connexion Firecrawl, prend en charge
+raclage parallèle pour les opérations en vrac. Écrit automatiquement dans le répertoire .firecrawl/.
+
+Déclencheurs : web scraping, recherche sur le Web, récupération d'URL, extraction de contenu, Firecrawl, scrape
+site Web, obtenir le contenu de la page, recherche sur le Web, plan du site, site d'exploration.

@@ -1,0 +1,1 @@
+Le workflow de test-correction de bout en bout génère des sessions de test avec des couches progressives (L0-L3), puis exécute des cycles de correction itératifs jusqu'à ce que le taux de réussite soit >= 95 %. Combine test-fix-gen et test-cycle-execute dans un pipeline unifié. Déclencheurs sur « workflow :test-fix-cycle ».

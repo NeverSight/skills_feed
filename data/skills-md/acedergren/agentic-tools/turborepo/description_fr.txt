@@ -1,0 +1,9 @@
+Décisions d'architecture Turborepo monorepo et anti-modèles. À utiliser lorsque : (1) choisir
+entre monorepo et polyrepo, (2) décider quand diviser les packages, (3) débogage
+échecs de cache, (4) définition des limites des packages, (5) évitement des dépendances circulaires.
+
+PAS pour la syntaxe CLI (voir turbo --help). Se concentre sur les décisions architecturales qui
+éviter l’étalement des monorepo et les cauchemars de maintenance.
+
+Déclencheurs : turborepo, monorepo, limites des packages, quand diviser les packages, turbo
+manque de cache, dépendance circulaire, organisation de l'espace de travail, dépendances de tâches.

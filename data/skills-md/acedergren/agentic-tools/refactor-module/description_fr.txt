@@ -1,0 +1,9 @@
+Cadre décisionnel d’extraction de module Terraform. À utiliser lorsque : (1) décider de
+créer un module ou le conserver en ligne, (2) déterminer les limites du module, (3) éviter
+sur-abstraction, (4) gérer la migration des États.
+
+PAS un tutoriel Terraform. Se concentre sur la décision de refactoring (quand modulariser,
+quand rester en ligne) et les anti-modèles qui créent l'étalement des modules.
+
+Déclencheurs : module Terraform, refactoriser Terraform, limites du module, quand créer
+module, abstraction terraform, étalement des modules, migration d'état.

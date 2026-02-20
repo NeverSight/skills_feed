@@ -1,0 +1,3 @@
+Point de contrôle de validation avant déploiement. Exécutez des vérifications approfondies pour vous assurer que votre application est prête pour le déploiement Azure. Valide la configuration, l’infrastructure, les autorisations et les conditions préalables.
+UTILISER POUR : valider mon application, vérifier l'état de préparation au déploiement, exécuter des contrôles en amont, vérifier la configuration, vérifier si elle est prête à être déployée, valider azure.yaml, valider Bicep, tester avant le déploiement, résoudre les erreurs de déploiement.
+NE PAS UTILISER POUR : créer ou créer des applications (utilisez azure-prepare), exécuter des déploiements (utilisez azure-deploy).
