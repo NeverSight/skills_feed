@@ -1,1 +1,1 @@
-엔드 투 엔드 테스트 수정 워크플로우는 프로그레시브 레이어(L0-L3)로 테스트 세션을 생성한 다음 통과율이 95%를 넘을 때까지 반복 수정 주기를 실행합니다. test-fix-gen과 test-cycle-execute를 통합 파이프라인으로 결합합니다. "workflow:test-fix-cycle"에서 트리거됩니다.
+엔드 투 엔드 테스트 수정 워크플로는 프로그레시브 레이어(L0-L3)로 테스트 세션을 생성한 다음 통과율이 95%를 넘을 때까지 반복 수정 주기를 실행합니다. test-fix-gen과 test-cycle-execute를 통합 파이프라인으로 결합합니다. "workflow:test-fix-cycle"에서 트리거됩니다.
