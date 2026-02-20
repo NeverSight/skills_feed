@@ -1,0 +1,12 @@
+작업(https://taskfile.dev) 모범 사례에 따라 작업 파일을 생성, 수정 및 유지 관리합니다.
+
+다음 경우에 사용하십시오: (1) 새 작업 또는 작업 파일 생성, (2) 기존 작업 정의 수정,
+(3) 새 작업 추가에는 (4) 작업 실행 문제 디버깅, (5) 다음에 대한 질문이 포함됩니다.
+작업 파일 구문 또는 패턴, (6) "작업" 명령 실행 또는 이해,
+(7) 사용 가능한 작업 또는 작업 네임스페이스에 관한 질문.
+
+트리거: "taskfile", "Taskfile.yaml", "task command", "task:", "create task",
+"작업 추가", "task --list", "task tg:", "task inv:", "task wt:", ".taskfiles/",
+"실행 방법", "사용 가능한 작업", "작업 구문", "taskfile.dev"
+
+이 기술은 .taskfiles/ 및 루트 Taskfile.yaml의 저장소의 특정 규칙을 다룹니다.

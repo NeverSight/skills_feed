@@ -1,0 +1,1 @@
+taskcluster CLI를 사용하여 Mozilla Taskcluster CI와 상호 작용합니다. 작업 상태를 쿼리하고, 로그를 보고, 아티팩트를 다운로드하고, 작업을 다시 트리거하고, 작업 그룹을 관리합니다. firefox-ci-tc.services.mozilla.com에서 CI 작업을 수행하거나 작업자 풀 문제를 디버깅할 때 사용합니다. 작업자 풀 작업(작업자 나열, 작업자 종료, 대량 작업 취소)의 경우 기본 taskcluster api 명령을 사용합니다(reference/worker-pools.md 참조). "작업 클러스터", "작업 상태", "작업 로그", "아티팩트", "재트리거", "작업 그룹", "작업자 풀"에서 트리거됩니다.

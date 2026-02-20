@@ -1,0 +1,1 @@
+공급업체 차트, 컨테이너 이미지 및 CI/CD 워크플로를 포함하여 Chainloop 프로젝트의 Helm 차트 종속성(PostgreSQL, Vault)을 업그레이드합니다. 사용자가 Helm 차트, Bitnami 종속성, PostgreSQL 차트 또는 Vault 차트 업그레이드를 언급할 때 사용합니다. 중요 - 메이저 버전 업그레이드는 금지되어 있으며 에스컬레이션해야 합니다.

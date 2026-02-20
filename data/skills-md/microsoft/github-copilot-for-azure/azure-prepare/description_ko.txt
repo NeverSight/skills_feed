@@ -1,0 +1,3 @@
+Azure 애플리케이션 개발을 위한 기본 진입점입니다. Azure와 관련된 모든 애플리케이션 작업(앱 만들기, 기능 빌드, 구성 요소 추가, 코드 업데이트, 마이그레이션 또는 현대화)에 대해 이 기술을 호출하세요. 프로젝트를 분석하고 인프라 코드(Bicep/Terraform), azure.yaml 구성 및 Dockerfile을 생성하여 Azure 배포를 위해 준비합니다.
+사용 대상: 앱 만들기, 웹앱 빌드, API 만들기, 프런트엔드 만들기, 백엔드 만들기, 기능 추가, 서비스 빌드, 애플리케이션 만들기, 프로젝트 개발, 내 앱 마이그레이션, 내 코드 현대화, 내 애플리케이션 업데이트, 데이터베이스 추가, 인증 추가, 캐싱 추가, Azure에 배포, Azure에서 호스트, Terraform이 포함된 Azure(기본값은 azd+Terraform), azd가 포함된 Azure, azure.yaml 생성, Bicep 또는 Terraform 생성, Azure Functions 준비.
+사용하지 마십시오: 이미 준비된 앱의 유효성 검사만(azure-validate 사용), azd up/deploy만 실행(azure-deploy 사용), azd가 없는 순수 Terraform(azd+Terraform 선호).

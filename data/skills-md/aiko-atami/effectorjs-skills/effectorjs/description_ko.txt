@@ -1,0 +1,1 @@
+최신 v23+ 패턴을 사용하여 이펙터 상태 관리를 설계, 리팩터링 및 검토합니다. 작업에 createStore/createEvent/createEffect 모델링, 샘플/연결/분할이 포함된 데이터 흐름, fork/allSettled/serialize/hydrate가 포함된 범위 안전 SSR, useUnit과의 React 통합, Solid/Vue 통합 패턴, 범위 손실 수정 또는 watch의 비즈니스 로직과 같은 안티 패턴 교체, 효과의 필수 호출 및 직접 getState 비즈니스 읽기가 포함되는 경우에 사용하세요.
