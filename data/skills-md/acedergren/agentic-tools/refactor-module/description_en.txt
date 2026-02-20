@@ -1,0 +1,9 @@
+Terraform module extraction decision framework. Use when: (1) deciding whether to
+create module vs keep inline, (2) determining module boundaries, (3) avoiding
+over-abstraction, (4) handling state migration.
+
+NOT a Terraform tutorial. Focuses on the refactoring decision (when to modularize,
+when to keep inline) and anti-patterns that create module sprawl.
+
+Triggers: terraform module, refactor terraform, module boundaries, when to create
+module, terraform abstraction, module sprawl, state migration.

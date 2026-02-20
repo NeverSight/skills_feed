@@ -1,0 +1,5 @@
+Design and implement visual regression testing for UI changes. Defines
+screenshot coverage, rendering stabilization, baseline management, and CI
+integration (e.g., Playwright screenshots, Percy/Chromatic). Use when
+UI/styling/layout changes need protection against regressions, or when adding
+screenshot-based tests to a web/WASM/desktop UI.

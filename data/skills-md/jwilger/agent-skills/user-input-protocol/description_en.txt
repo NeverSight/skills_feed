@@ -1,0 +1,1 @@
+Structured checkpoint format for requesting human input. When an agent needs a decision, it must stop, present context, show options, and wait. Activate when delegating to subagents, running background tasks, or hitting any decision point that requires human judgment.

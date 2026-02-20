@@ -1,0 +1,9 @@
+Turborepo monorepo architecture decisions and anti-patterns. Use when: (1) choosing
+between monorepo vs polyrepo, (2) deciding when to split packages, (3) debugging
+cache misses, (4) setting package boundaries, (5) avoiding circular dependencies.
+
+NOT for CLI syntax (see turbo --help). Focuses on architectural decisions that
+prevent monorepo sprawl and maintenance nightmares.
+
+Triggers: turborepo, monorepo, package boundaries, when to split packages, turbo
+cache miss, circular dependency, workspace organization, task dependencies.

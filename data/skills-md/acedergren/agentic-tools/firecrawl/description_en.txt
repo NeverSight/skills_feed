@@ -1,0 +1,10 @@
+Web scraping and search CLI returning clean Markdown from any URL (handles JS-rendered
+pages, SPAs). Use when user requests: (1) "search the web for X", (2) "scrape/fetch
+URL content", (3) "get content from website", (4) "find recent articles about X",
+(5) research tasks needing current web data, (6) extract structured data from pages.
+
+Outputs LLM-friendly Markdown, handles authentication via firecrawl login, supports
+parallel scraping for bulk operations. Automatically writes to .firecrawl/ directory.
+
+Triggers: web scraping, search web, fetch URL, extract content, Firecrawl, scrape
+website, get page content, web research, site map, crawl site.
