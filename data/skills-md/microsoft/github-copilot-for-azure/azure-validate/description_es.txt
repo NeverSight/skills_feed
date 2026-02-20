@@ -1,0 +1,3 @@
+Punto de control de validación previo a la implementación. Ejecute comprobaciones profundas para garantizar que su aplicación esté lista para la implementación de Azure. Valida la configuración, la infraestructura, los permisos y los requisitos previos.
+UTILIZAR PARA: validar mi aplicación, comprobar la preparación de la implementación, ejecutar comprobaciones previas, verificar la configuración, comprobar si está lista para la implementación, validar azure.yaml, validar Bicep, realizar pruebas antes de la implementación, solucionar problemas de errores de implementación.
+NO UTILIZAR PARA: crear o compilar aplicaciones (use azure-prepare), ejecutar implementaciones (use azure-deploy).

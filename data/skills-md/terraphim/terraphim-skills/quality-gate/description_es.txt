@@ -1,0 +1,6 @@
+Orquestación de verificación/validación del lado derecho de V para un cambio o PR.
+Produce un único informe Quality Gate con evidencia que cubre: revisión del código,
+auditoría de seguridad, riesgo de regresión del rendimiento, trazabilidad de requisitos,
+escenarios de aceptación/UAT y (cuando la interfaz de usuario cambia) pruebas de regresión visual.
+Úselo al preparar un PR para fusión/lanzamiento, haciendo un "¿Listo?" cheque, o
+hacer cumplir una puerta de calidad de ingeniería.

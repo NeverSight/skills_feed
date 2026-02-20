@@ -1,0 +1,4 @@
+Bloquea los comandos destructivos de git y del sistema de archivos antes de su ejecución.
+Evita la pérdida accidental de trabajo no comprometido desde git checkout --,
+git reset --hard, rm -rf y operaciones destructivas similares.
+Funciona como un gancho Claude Code PreToolUse con semántica de apertura fallida.

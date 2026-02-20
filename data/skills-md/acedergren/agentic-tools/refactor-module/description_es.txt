@@ -1,0 +1,9 @@
+Marco de decisión de extracción del módulo Terraform. Úselo cuando: (1) decida si desea
+crear módulo versus mantener en línea, (2) determinar los límites del módulo, (3) evitar
+sobreabstracción, (4) manejo de la migración estatal.
+
+NO es un tutorial de Terraform. Se centra en la decisión de refactorización (cuándo modularizar,
+cuándo mantenerse en línea) y antipatrones que crean una dispersión de módulos.
+
+Desencadenantes: módulo terraform, refactor terraform, límites del módulo, cuándo crear
+módulo, abstracción de terraforma, expansión de módulos, migración de estado.

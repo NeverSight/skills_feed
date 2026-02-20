@@ -1,0 +1,10 @@
+CLI de búsqueda y raspado web que devuelve Markdown limpio desde cualquier URL (maneja archivos renderizados en JS)
+páginas, SPA). Úselo cuando el usuario solicite: (1) "buscar X en la web", (2) "raspar/buscar
+Contenido de URL", (3) "obtener contenido del sitio web", (4) "buscar artículos recientes sobre X",
+(5) tareas de investigación que necesitan datos web actuales, (6) extraer datos estructurados de páginas.
+
+Genera Markdown compatible con LLM, maneja la autenticación a través del inicio de sesión de firecrawl, admite
+raspado paralelo para operaciones a granel. Escribe automáticamente en el directorio .firecrawl/.
+
+Activadores: web scraping, búsqueda web, obtención de URL, extracción de contenido, Firecrawl, scrape
+sitio web, obtener contenido de la página, investigación web, mapa del sitio, rastreo del sitio.

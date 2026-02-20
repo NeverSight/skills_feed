@@ -1,0 +1,9 @@
+Decisiones de arquitectura y antipatrones de Turborepo monorepo. Úselo cuando: (1) elija
+entre monorepo y polirepo, (2) decidir cuándo dividir paquetes, (3) depurar
+errores de caché, (4) establecer límites de paquetes, (5) evitar dependencias circulares.
+
+NO para la sintaxis CLI (consulte turbo --help). Se centra en decisiones arquitectónicas que
+Evite la expansión descontrolada de monorepo y las pesadillas de mantenimiento.
+
+Activadores: turborepo, monorepo, límites de paquetes, cuándo dividir paquetes, turbo
+pérdida de caché, dependencia circular, organización del espacio de trabajo, dependencias de tareas.

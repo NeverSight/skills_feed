@@ -1,0 +1,1 @@
+El flujo de trabajo de corrección de pruebas de un extremo a otro genera sesiones de prueba con capas progresivas (L0-L3) y luego ejecuta ciclos de corrección iterativos hasta que la tasa de aprobación sea >= 95 %. Combina test-fix-gen y test-cycle-execute en una canalización unificada. Se activa el "flujo de trabajo: ciclo de corrección de prueba".
