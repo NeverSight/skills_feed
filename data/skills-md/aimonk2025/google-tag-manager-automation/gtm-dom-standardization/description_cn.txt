@@ -1,0 +1,1 @@
+标准化整个网站上所有与点击相关的 ID 和 CSS 类，以实现清晰的分析跟踪。当用户想要“标准化分析类”、“清理跟踪 ID”、“为 GTM 准备 DOM”、“修复分析命名”或“使跟踪一致”时使用。扫描整个代码库 (HTML/JSX/TSX/Vue) 并应用一致的命名约定 - ID 为“cta_{location}_{action}”，类为“js-track js-{category} js-{action} js-{location}”。担任高级前端工程师，确保可扩展的 GA4/GTM 实施。

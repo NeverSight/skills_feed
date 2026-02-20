@@ -1,0 +1,1 @@
+创建或更新共享的 Apple 设计上下文文档，其他 HIG 技能可以使用该文档来定制指导。当用户说“设置我的项目上下文”、“我的目标平台是什么”、“配置 HIG 设置”或启动新的 Apple 平台项目时使用。当其他 HIG 技能需要项目背景但尚不存在时也会激活。此技能创建 .claude/apple-design-context.md，以便 hig-foundations、hig-platforms、hig-components-*、hig-inputs 和 hig-technologies 可以提供有针对性的建议，而无需重复问题。

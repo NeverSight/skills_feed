@@ -1,0 +1,1 @@
+使用 PyDESeq2 进行生产就绪的 RNA-seq 差异表达分析。执行 DESeq2 归一化、色散估计、Wald 测试、LFC 收缩和结果过滤。处理多因素设计、多重对比、批次效应，并与基因富集 (gseapy) 和 ToolUniverse 注释工具（UniProt、Ensembl、OpenTargets）集成。支持 CSV/TSV/H5AD 输入格式和任何有机体。在分析 RNA-seq 计数矩阵、识别 DEG、以统计严谨性执行差异表达或回答有关基因表达变化的问题时使用。
