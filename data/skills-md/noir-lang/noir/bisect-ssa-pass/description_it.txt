@@ -1,0 +1,1 @@
+Il flusso di lavoro per il debug della preservazione semantica del passaggio SSA utilizzando la CLI noir-ssa. Da utilizzare quando il comportamento di un programma cambia in modo errato durante la pipeline SSA: divide in due i passaggi per identificare quale interrompe la semantica. Il fuzzer `pass_vs_prev` rileva automaticamente tali problemi.
