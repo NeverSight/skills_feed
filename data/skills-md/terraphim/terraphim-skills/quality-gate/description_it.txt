@@ -1,0 +1,6 @@
+Orchestrazione di verifica/convalida del lato destro di V per una modifica o PR.
+Produce un unico rapporto Quality Gate con prove che coprono: revisione del codice,
+audit di sicurezza, rischio di regressione delle prestazioni, tracciabilità dei requisiti,
+scenari di accettazione/UAT e (quando l'interfaccia utente cambia) test di regressione visiva.
+Da utilizzare quando si prepara un PR per l'unione/rilascio, eseguendo un messaggio "pronto?" controlla, o
+applicare un cancello di qualità ingegneristica.

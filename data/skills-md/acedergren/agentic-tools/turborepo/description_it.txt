@@ -1,0 +1,9 @@
+Decisioni e anti-pattern sull'architettura Turborepo monorepo. Utilizzare quando: (1) scegliere
+tra monorepo e polyrepo, (2) decidere quando dividere i pacchetti, (3) eseguire il debug
+errori nella cache, (4) impostazione dei limiti del pacchetto, (5) evitare dipendenze circolari.
+
+NON per la sintassi CLI (vedi turbo --help). Si concentra sulle decisioni architettoniche che
+prevenire l’espansione incontrollata del monorepo e gli incubi legati alla manutenzione.
+
+Trigger: turborepo, monorepo, limiti dei pacchetti, quando dividere i pacchetti, turbo
+mancata cache, dipendenza circolare, organizzazione dello spazio di lavoro, dipendenze delle attività.

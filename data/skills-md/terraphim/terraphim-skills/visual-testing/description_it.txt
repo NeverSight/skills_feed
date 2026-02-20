@@ -1,0 +1,5 @@
+Progettare e implementare test di regressione visiva per le modifiche dell'interfaccia utente. Definisce
+copertura degli screenshot, stabilizzazione del rendering, gestione delle linee di base e CI
+integrazione (ad esempio, screenshot di Playwright, Percy/Chromatic). Utilizzare quando
+Le modifiche all'interfaccia utente/stile/layout necessitano di protezione contro le regressioni o durante l'aggiunta
+test basati su screenshot su un'interfaccia utente web/WASM/desktop.

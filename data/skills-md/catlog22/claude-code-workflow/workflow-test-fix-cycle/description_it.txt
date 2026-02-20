@@ -1,0 +1,1 @@
+Il flusso di lavoro di correzione dei test end-to-end genera sessioni di test con livelli progressivi (L0-L3), quindi esegue cicli di correzione iterativi fino a una percentuale di superamento >= 95%. Combina test-fix-gen e test-cycle-execute in una pipeline unificata. Si attiva su "flusso di lavoro:test-fix-cycle".

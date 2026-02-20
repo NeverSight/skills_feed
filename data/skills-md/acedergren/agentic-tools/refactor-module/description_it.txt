@@ -1,0 +1,9 @@
+Framework decisionale per l'estrazione dei moduli Terraform. Utilizzare quando: (1) decidere se farlo
+creare un modulo o mantenerlo in linea, (2) determinare i limiti del modulo, (3) evitare
+eccessiva astrazione, (4) gestione della migrazione di stato.
+
+NON un tutorial su Terraform. Si concentra sulla decisione del refactoring (quando modularizzare,
+quando mantenerlo in linea) e anti-pattern che creano l'espansione incontrollata dei moduli.
+
+Trigger: modulo terraform, refactoring terraform, confini del modulo, quando creare
+modulo, astrazione della terraforma, espansione dei moduli, migrazione degli stati.

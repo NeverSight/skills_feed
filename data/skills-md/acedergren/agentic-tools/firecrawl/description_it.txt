@@ -1,0 +1,10 @@
+Web scraping e CLI di ricerca che restituiscono Markdown pulito da qualsiasi URL (gestisce file con rendering JS).
+pagine, SPA). Da utilizzare quando l'utente richiede: (1) "cerca X sul Web", (2) "scrape/fetch
+Contenuto URL", (3) "ottieni contenuti dal sito web", (4) "trova articoli recenti su X",
+(5) attività di ricerca che necessitano di dati web attuali, (6) estrazione di dati strutturati dalle pagine.
+
+Fornisce Markdown compatibile con LLM, gestisce l'autenticazione tramite accesso Firecrawl, supporta
+raschiamento parallelo per operazioni di massa. Scrive automaticamente nella directory .firecrawl/.
+
+Trigger: web scraping, ricerca web, recupero URL, estrazione contenuto, Firecrawl, scraping
+sito web, acquisizione del contenuto della pagina, ricerca web, mappa del sito, scansione del sito.

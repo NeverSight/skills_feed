@@ -1,0 +1,4 @@
+Blocca i comandi distruttivi di git e filesystem prima dell'esecuzione.
+Previene la perdita accidentale del lavoro non impegnato da git checkout --,
+git reset --hard, rm -rf e operazioni distruttive simili.
+Funziona come un hook PreToolUse di Claude Code con semantica fail-open.
