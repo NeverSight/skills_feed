@@ -1,0 +1,1 @@
+Workflow zum Debuggen der SSA-Pass-Semantikkonservierung mithilfe der noir-ssa-CLI. Wird verwendet, wenn sich das Verhalten eines Programms während der SSA-Pipeline falsch ändert – halbiert Durchgänge, um zu identifizieren, welcher Durchlauf die Semantik unterbricht. Der „pass_vs_prev“-Fuzzer findet solche Probleme automatisch.
