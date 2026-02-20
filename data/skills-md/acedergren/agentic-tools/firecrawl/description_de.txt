@@ -1,0 +1,10 @@
+Web-Scraping und Such-CLI geben sauberes Markdown von jeder URL zurück (verarbeitet JS-gerendert).
+Seiten, SPAs). Wird verwendet, wenn der Benutzer Folgendes anfordert: (1) „Das Web nach X durchsuchen“, (2) „Scrape/Fetch“.
+URL-Inhalt“, (3) „Inhalt von Website abrufen“, (4) „Neueste Artikel über X finden“,
+(5) Rechercheaufgaben, die aktuelle Webdaten benötigen, (6) Extrahieren strukturierter Daten aus Seiten.
+
+Gibt LLM-freundliches Markdown aus, übernimmt die Authentifizierung per Firecrawl-Login und unterstützt
+paralleles Schaben für den Massenbetrieb. Schreibt automatisch in das Verzeichnis .firecrawl/.
+
+Auslöser: Web-Scraping, Web durchsuchen, URL abrufen, Inhalt extrahieren, Firecrawl, Scrape
+Website, Seiteninhalt abrufen, Webrecherche, Sitemap, Website crawlen.

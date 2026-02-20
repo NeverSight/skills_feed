@@ -1,0 +1,1 @@
+Durchgängiger Test-Fix-Workflow generiert Testsitzungen mit progressiven Ebenen (L0–L3) und führt dann iterative Fix-Zyklen aus, bis die Erfolgsquote >= 95 % beträgt. Kombiniert Test-Fix-Gen und Test-Cycle-Execute in einer einheitlichen Pipeline. Wird bei „workflow:test-fix-cycle“ ausgelöst.

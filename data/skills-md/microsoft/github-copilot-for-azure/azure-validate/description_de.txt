@@ -1,0 +1,3 @@
+Prüfpunkt für die Validierung vor der Bereitstellung. Führen Sie umfassende Prüfungen durch, um sicherzustellen, dass Ihre Anwendung für die Azure-Bereitstellung bereit ist. Validiert Konfiguration, Infrastruktur, Berechtigungen und Voraussetzungen.
+VERWENDUNG FÜR: Validieren meiner App, Überprüfen der Bereitstellungsbereitschaft, Ausführen von Preflight-Prüfungen, Überprüfen der Konfiguration, Überprüfen, ob sie zur Bereitstellung bereit ist, Validieren von azure.yaml, Validieren von Bicep, Testen vor der Bereitstellung, Beheben von Bereitstellungsfehlern.
+NICHT VERWENDEN FÜR: Erstellen oder Erstellen von Apps (verwenden Sie Azure-Prepare), Ausführen von Bereitstellungen (Verwenden Sie Azure-Deploy).

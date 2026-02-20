@@ -1,0 +1,9 @@
+Turborepo-Monorepo-Architekturentscheidungen und Anti-Patterns. Verwenden Sie es, wenn: (1) Sie wählen
+zwischen Monorepo und Polyrepo, (2) entscheiden, wann Pakete aufgeteilt werden sollen, (3) Debuggen
+Cache-Fehler, (4) Festlegen von Paketgrenzen, (5) Vermeiden zirkulärer Abhängigkeiten.
+
+NICHT für CLI-Syntax (siehe turbo --help). Konzentriert sich auf architektonische Entscheidungen, die
+Vermeiden Sie Monorepo-Ausbreitung und Wartungsalpträume.
+
+Auslöser: Turborepo, Monorepo, Paketgrenzen, wann Pakete aufgeteilt werden sollen, Turbo
+Cache-Fehler, zirkuläre Abhängigkeit, Arbeitsbereichsorganisation, Aufgabenabhängigkeiten.

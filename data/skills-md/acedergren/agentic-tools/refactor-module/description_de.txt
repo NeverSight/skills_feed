@@ -1,0 +1,9 @@
+Entscheidungsrahmen für die Extraktion von Terraform-Modulen. Verwenden Sie es, wenn: (1) entschieden wird, ob dies geschehen soll
+Modul erstellen vs. inline halten, (2) Modulgrenzen bestimmen, (3) vermeiden
+Überabstraktion, (4) Umgang mit Zustandsmigration.
+
+KEIN Terraform-Tutorial. Konzentriert sich auf die Refactoring-Entscheidung (wann modularisiert werden soll,
+wann man inline bleiben soll) und Anti-Patterns, die zu einer Modulausuferung führen.
+
+Auslöser: Terraform-Modul, Refactor-Terraform, Modulgrenzen, Zeitpunkt der Erstellung
+Modul, Terraform-Abstraktion, Modulausbreitung, Zustandsmigration.

@@ -1,0 +1,1 @@
+Konfigurationsdateien (.env, YAML, TOML, JSON, Docker-Compose usw.) sicher lesen/schreiben. Verwenden Sie dies anstelle der Lese-/Schreib-/Bearbeitungstools, wenn Sie Konfigurationsdateien berühren, die möglicherweise API-Schlüssel, Token, Passwörter oder andere Geheimnisse enthalten – sie werden automatisch erkannt und geschwärzt.

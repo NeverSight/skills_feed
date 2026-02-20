@@ -1,0 +1,4 @@
+Blockiert destruktive Git- und Dateisystembefehle vor der Ausführung.
+Verhindert den versehentlichen Verlust nicht festgeschriebener Arbeit beim Git-Checkout –,
+git reset --hard, rm -rf und ähnliche destruktive Operationen.
+Funktioniert als Claude Code PreToolUse-Hook mit Fail-Open-Semantik.
