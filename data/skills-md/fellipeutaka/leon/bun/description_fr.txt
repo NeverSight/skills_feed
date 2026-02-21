@@ -1,0 +1,5 @@
+Runtime Bun, gestionnaire de packages, bundler et exécuteur de tests.
+À utiliser lors de l'exécution de scripts avec Bun, de la gestion de packages, du service HTTP avec Bun.serve,
+interroger des bases de données avec Bun.sql/bun:sqlite/Bun.redis, script shell avec $,
+utiliser S3/file I/O, écrire des tests avec bun:test, regrouper ou compiler en exécutable,
+ou en utilisant n'importe quelle API spécifique à Bun (spawn, glob, semver, FFI, Workers, plugins, HTMLRewriter).

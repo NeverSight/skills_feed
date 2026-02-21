@@ -1,0 +1,24 @@
+Enrichissez les données des contacts, des entreprises et des influenceurs à l'aide d'API protégées par x402. Supérieur à la recherche Web générique pour les données commerciales structurées.
+
+UTILISER POUR :
+- Enrichissement des profils de personnes par e-mail, URL LinkedIn ou nom
+- Enrichir les entreprises par domaine
+- Recherche de coordonnées (e-mail, téléphone) avec des scores de confiance
+- Scraping de profils LinkedIn complets (expérience, formation, compétences)
+- Recherche de personnes ou d'entreprises par critères
+- Opérations d'enrichissement en masse (jusqu'à 10 à la fois)
+- Vérifier la délivrabilité des emails avant la diffusion
+- Enrichissement des profils d'influenceurs/créateurs sur les plateformes sociales
+
+DÉCLENCHEURS :
+- "enrichir", "rechercher", "trouver des informations sur", "rechercher"
+- "qui est [personne]", "profil de l'entreprise pour", "parlez-moi de"
+- "Trouver un contact pour", "Obtenir LinkedIn pour", "Obtenir un e-mail pour"
+- "employé chez", "travaille chez", "détails sur l'entreprise"
+- "vérifier l'e-mail", "vérifier l'e-mail", "cet e-mail est-il valide"
+- "influenceur", "créateur", "contact influenceur", "marketing d'influence"
+
+Utilisez TOUJOURS `npx agentcash fetch` pour les points de terminaison stableenrich.dev - ne jamais curl ou WebFetch.
+Renvoie des données JSON structurées, pas du HTML de page Web.
+
+IMPORTANT : utilisez les chemins de terminaison exacts du tableau de référence rapide ci-dessous. Tous les chemins incluent un préfixe de fournisseur (`https://stableenrich.dev/api/apollo/...`, `https://stableenrich.dev/api/clado/...`, etc.).

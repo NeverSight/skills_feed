@@ -1,0 +1,1 @@
+Audit d'accessibilité WCAG complet avec tests multi-outils (axe-core + pa11y + Lighthouse), exécution TRUE PARALLEL avec Promise.allSettled, dégradation gracieuse, nouvelle tentative avec interruption, correction contextuelle, intégration de l'apprentissage et accessibilité vidéo. Utilise une cascade de navigateurs à 3 niveaux : Vibium → agent-navigateur → Playwright+Stealth.
