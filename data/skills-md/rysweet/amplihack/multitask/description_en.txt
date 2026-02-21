@@ -1,0 +1,3 @@
+Execute multiple independent development tasks in parallel using subprocess isolation.
+Each task runs in a clean /tmp clone with Recipe Runner code-enforced workflow execution.
+Proven pattern: 4/5 PRs created successfully in first production use.

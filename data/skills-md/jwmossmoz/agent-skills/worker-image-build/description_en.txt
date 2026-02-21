@@ -1,0 +1,10 @@
+Build Firefox CI worker images by triggering GitHub Actions workflows in mozilla-platform-ops/worker-images.
+Supports FXCI Azure workflows for Windows image builds (trusted and untrusted).
+
+Use when:
+- User wants to build a worker image
+- User mentions "FXCI Azure", "worker image build", or specific pool names like "win11-64-24h2-alpha"
+- User wants to trigger image builds for Windows 10, Windows 11, or Windows Server 2022
+- User asks to check status of a worker image build
+
+Triggers: "build image", "worker image", "FXCI Azure", "trigger build", "image build status"

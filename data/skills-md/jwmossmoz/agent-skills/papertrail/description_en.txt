@@ -1,0 +1,6 @@
+Query and download logs from SolarWinds Observability (formerly Papertrail) using the paperctl CLI. Use when:
+(1) Downloading logs from Taskcluster workers or other systems
+(2) Searching for specific log entries across systems
+(3) Investigating CI failures by pulling worker logs
+(4) Listing available entities (hosts) in SolarWinds Observability
+Triggers: "papertrail", "pull logs", "worker logs", "download logs", "search logs"

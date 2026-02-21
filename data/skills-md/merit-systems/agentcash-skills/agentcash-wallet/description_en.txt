@@ -1,0 +1,16 @@
+Manage your agentcash wallet and call any x402-protected API with automatic payment. No API keys, no subscriptions — just a funded wallet (USDC on Base).
+
+USE FOR:
+- Checking wallet balance before API calls
+- Redeeming invite codes for free credits
+- Getting deposit address for USDC
+- Discovering endpoints and pricing on any x402-protected origin
+- Making paid API requests via the agentcash CLI
+- Troubleshooting payment failures
+
+TRIGGERS:
+- "balance", "wallet", "funds", "credits", "x402"
+- "redeem", "invite code", "promo code"
+- "deposit", "add funds", "top up"
+- "discover", "endpoints", "what APIs", "pricing"
+- "insufficient balance", "payment failed"

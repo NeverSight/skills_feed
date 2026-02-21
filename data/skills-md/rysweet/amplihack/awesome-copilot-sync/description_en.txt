@@ -1,0 +1,4 @@
+Monitors awesome-copilot releases for drift against the amplihack integration.
+Checks latest commits on github/awesome-copilot via the GitHub API and reports
+whether the local integration is current or has drifted behind upstream changes.
+Use when auditing integration freshness or before updating awesome-copilot features.

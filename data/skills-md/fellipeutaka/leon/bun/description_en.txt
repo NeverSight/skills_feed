@@ -1,0 +1,5 @@
+Bun runtime, package manager, bundler, and test runner.
+Use when running scripts with bun, managing packages, serving HTTP with Bun.serve,
+querying databases with Bun.sql/bun:sqlite/Bun.redis, shell scripting with $,
+using S3/file I/O, writing tests with bun:test, bundling or compiling to executable,
+or using any Bun-specific API (spawn, glob, semver, FFI, workers, plugins, HTMLRewriter).
