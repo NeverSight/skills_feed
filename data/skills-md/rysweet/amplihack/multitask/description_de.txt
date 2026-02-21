@@ -1,0 +1,3 @@
+Führen Sie mithilfe der Unterprozessisolation mehrere unabhängige Entwicklungsaufgaben parallel aus.
+Jede Aufgabe wird in einem sauberen /tmp-Klon mit durch Code erzwungener Workflow-Ausführung durch Recipe Runner ausgeführt.
+Bewährtes Muster: 4/5 PRs wurden im ersten Produktionseinsatz erfolgreich erstellt.

@@ -1,0 +1,23 @@
+Durchsuchen Sie Social-Media-Profile, Beiträge, Kommentare, Follower und suchen Sie über x402 auf 6 Plattformen.
+
+VERWENDUNG FÜR:
+- Erhalten von TikTok-, Instagram-, X/Twitter-, Facebook-, Reddit- oder LinkedIn-Profilen
+- Abrufen der Beiträge, Geschichten, Highlights oder Videos eines Benutzers
+- Kommentare, Antworten und Reaktionen auf Beiträge erhalten
+- Auflisten von Followern und Folgen für jedes Konto
+- Durchsuchen von Beiträgen, Hashtags, Profilen, Jobs und Anzeigen auf verschiedenen Plattformen
+- Plattformübergreifende Social-Media-Recherche und -Überwachung
+
+AUSLÖSER:
+- „tiktok“, „instagram“, „facebook“, „linkedin-profil“, „linkedin-beiträge“
+- „Follower erhalten“, „Wer folgt“, „Folgeliste“
+- „Scrape-Profil“, „Beiträge abrufen von“, „Social-Media-Daten“
+- „Instagram-Geschichten“, „Tiktok-Videos“, „Facebook-Seite“
+- „Linkedin-Unternehmen“, „Linkedin-Jobs“, „Linkedin-Anzeigen“
+- „Plattformübergreifend“, „Social-Media-Recherche“
+
+WICHTIG: StableSocial verwendet einen asynchronen zweistufigen Ablauf. Schritt 1: POST löst die Datenerfassung aus (kostenpflichtig, 0,06 $). Schritt 2: Abfragen von GET /api/jobs?token=... bis zum Abschluss (kostenlos). Alle Endpunkte kosten 0,06 $ pro Anruf.
+
+Verwenden Sie „npx agentcash fetch“ für kostenpflichtige POST-Trigger. Verwenden Sie „npx agentcash fetch“ für kostenlose GET-Abfragen.
+
+WICHTIG: Verwenden Sie die genauen Endpunktpfade aus den folgenden Kurzreferenztabellen. Alle Pfade enthalten ein Plattformpräfix (z. B. „https://stablesocial.dev/api/tiktok/...“).

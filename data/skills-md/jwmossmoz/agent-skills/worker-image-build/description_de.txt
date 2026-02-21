@@ -1,0 +1,10 @@
+Erstellen Sie Firefox CI-Worker-Images, indem Sie GitHub Actions-Workflows in mozilla-platform-ops/worker-images auslösen.
+Unterstützt FXCI Azure-Workflows für Windows-Image-Builds (vertrauenswürdig und nicht vertrauenswürdig).
+
+Verwenden Sie, wenn:
+– Der Benutzer möchte ein Worker-Image erstellen
+– Der Benutzer erwähnt „FXCI Azure“, „Worker Image Build“ oder bestimmte Poolnamen wie „win11-64-24h2-alpha“.
+– Der Benutzer möchte Image-Builds für Windows 10, Windows 11 oder Windows Server 2022 auslösen
+– Der Benutzer bittet darum, den Status eines Worker-Image-Builds zu überprüfen
+
+Auslöser: „Build-Image“, „Worker-Image“, „FXCI Azure“, „Trigger-Build“, „Image-Build-Status“

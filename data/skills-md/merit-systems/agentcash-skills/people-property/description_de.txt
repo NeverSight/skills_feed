@@ -1,0 +1,17 @@
+Suchen Sie mithilfe der Whitepages-APIs über x402 nach Personen und Eigenschaften.
+
+VERWENDUNG FÜR:
+- Personen anhand ihres Namens und Standorts finden
+- Adresssuche und -überprüfung
+- Informationen zum Grundstückseigentümer
+- Hintergrundrecherche (mit legitimem Zweck)
+
+AUSLÖSER:
+- „Person finden“, „Person suchen“, „Wer wohnt bei“
+- „Immobilieneigentümer“, „Immobiliensuche“, „Adresssuche“
+- „Person an der Adresse“, „Kontaktinformationen für“
+
+WICHTIG: Diese Endpunkte enthalten persönliche Informationen. Verwenden Sie verantwortungsvoll und nur für legitime Zwecke.
+Weitere Informationen finden Sie unter „rules/privacy.md“.
+
+Verwenden Sie „npx agentcash fetch“ für Whitepages-Endpunkte. Beide Endpunkte kosten 0,44 $ pro Anruf.
