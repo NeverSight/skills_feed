@@ -1,4 +1,4 @@
-paperctl CLI를 사용하여 SolarWinds Observability(이전의 Papertrail)에서 로그를 쿼리하고 다운로드합니다. 다음과 같은 경우에 사용하세요.
+paperctl CLI를 사용하여 SolarWinds Observability(이전의 Papertrail)에서 로그를 쿼리하고 다운로드합니다. 다음과 같은 경우에 사용하세요:
 (1) Taskcluster 작업자 또는 기타 시스템에서 로그 다운로드
 (2) 시스템 전체에서 특정 로그 항목 검색
 (3) 작업자 로그를 가져와서 CI 오류 조사
