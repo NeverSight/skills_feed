@@ -20,6 +20,10 @@ Usage:
 
     # Translate to another language (writes description_<lang>.txt by default)
     python translate_descriptions.py --target ja
+
+    # Fix "identical to en" (untranslated) files only (no overwrite of good translations)
+    python translate_descriptions.py --target zh-TW --fix-identical
+    python translate_descriptions.py --target ar --fix-identical
 """
 
 import sys
@@ -220,6 +224,7 @@ def main():
     parser.add_argument("--skip", type=int, default=0, help="Skip first N files")
     parser.add_argument("--dry-run", action="store_true", help="Only show files to be translated, don't actually translate")
     parser.add_argument("--force", action="store_true", help="Force re-translate existing files")
+    parser.add_argument("--fix-identical", action="store_true", help="Only re-translate files where target content starts identical to source (fix untranslated copies)")
     parser.add_argument("--source", type=str, default="en", help="Source language (default: en)")
     parser.add_argument("--target", type=str, default="zh-CN", help="Target language (default: zh-CN). Example: zh-TW, ja, ko")
     parser.add_argument("--sleep", type=float, default=float(os.getenv("TRANSLATE_SLEEP_SECONDS", "0.3")), help="Sleep seconds between files (default: 0.3, overridable via TRANSLATE_SLEEP_SECONDS)")
@@ -229,18 +234,34 @@ def main():
     # Find all files that need translation
     print("Scanning files...")
     
-    if args.force:
+    out_name = output_filename_for_target(args.target)
+    if args.fix_identical:
+        # Only files where target exists and first 55 chars match source (untranslated copy).
+        en_files = []
+        for en_file in BASE_DIR.rglob("description_en.txt"):
+            out_file = en_file.parent / out_name
+            if not out_file.exists():
+                continue
+            try:
+                en_t = en_file.read_text(encoding="utf-8").strip().replace("\n", " ")[:55]
+                xx_t = out_file.read_text(encoding="utf-8").strip().replace("\n", " ")[:55]
+            except Exception:
+                continue
+            if en_t.strip() and xx_t.strip() and en_t.strip() == xx_t.strip():
+                en_files.append(en_file)
+        en_files = sorted(en_files)
+        args.force = True  # overwrite the identical (untranslated) content
+    elif args.force:
         en_files = list(BASE_DIR.rglob("description_en.txt"))
+        en_files = sorted(en_files)
     else:
         # In non-force mode, only translate missing files for the selected target.
         en_files = []
-        out_name = output_filename_for_target(args.target)
         for en_file in BASE_DIR.rglob("description_en.txt"):
             out_file = en_file.parent / out_name
             if not out_file.exists():
                 en_files.append(en_file)
-    
-    en_files = sorted(en_files)
+        en_files = sorted(en_files)
     
     # Apply skip and limit
     if args.skip > 0:
