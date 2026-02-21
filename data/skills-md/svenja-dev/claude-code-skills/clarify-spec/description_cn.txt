@@ -1,12 +1,1 @@
-AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen。 LIEBER EINMAL ZU OFT NACHFRAGEN 是 falsch 实施者。
-
-Erkennungsmerkmale（EINES genuegt！）：
-- Auftrag <25 沃尔特
-- Keine konkreten Dateinamen/Pfade
-- Vage Verben：besser、optimieren、fixen、machen、aendern、verbessern、anpassen、erweitern、refactoren、aufraumen、ueberarbeiten
-- 统一语言：irgendwie、vielleicht、mal eben、schnell、einfach、bisschen、koennte、sollte
-- Fehlende Erfolgskriterien: Kein damit, sodass, weil, um zu
-- 相关上下文：schneller、besser、schoener、einfacher
-
-输出是 STRUKTURIERTES JSON fuer提示架构师技能。
-逃脱：mach einfach、keine Rueckfragen、entscheide selfbst ueberspringt Klaerung。
+在需求含糊时自动激活。宁可多问几次也不要错误实现。识别特征（满足其一即可）：需求少于 25 词、无具体文件名/路径、模糊动词（优化、改改、修一下、改进、调整、重构、整理）、不确定表述（有点、也许、随便、快点、简单）、缺少成功标准（没有「以便」「从而」「为了」）、相对概念无上下文（更快、更好、更简单）。输出为结构化 JSON 供 prompt-architect 使用。若用户说「直接做」「别问了」「你自己定」则跳过澄清。
