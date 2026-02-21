@@ -1,0 +1,10 @@
+通过触发 mozilla-platform-ops/worker-images 中的 GitHub Actions 工作流程来构建 Firefox CI 工作人员映像。
+支持用于 Windows 映像构建（受信任和不受信任）的 FXCI Azure 工作流程。
+
+使用时：
+- 用户想要建立工人形象
+- 用户提及“FXCI Azure”、“工作映像构建”或特定池名称，例如“win11-64-24h2-alpha”
+- 用户想要触发 Windows 10、Windows 11 或 Windows Server 2022 的映像构建
+- 用户要求检查工作映像构建的状态
+
+触发器：“构建映像”、“工作人员映像”、“FXCI Azure”、“触发构建”、“映像构建状态”
