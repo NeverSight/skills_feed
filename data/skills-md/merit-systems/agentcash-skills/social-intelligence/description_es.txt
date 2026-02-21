@@ -1,0 +1,20 @@
+Busque y supervise las redes sociales utilizando X/Twitter (a través de Grok) y las API de Reddit.
+
+UTILIZAR PARA:
+- Búsqueda de publicaciones X/Twitter por palabras clave o hashtags
+- Encontrar usuarios de X/Twitter por criterios
+- Obtener las publicaciones recientes de un usuario
+- Búsqueda de publicaciones y debates en Reddit.
+- Obtener comentarios de hilos de Reddit
+- Seguimiento e investigación de redes sociales.
+
+DESENCADENADORES:
+- "twitter", "X", "tweets", "publicaciones en X"
+- "reddit", "subreddit", "discusión de reddit"
+- "qué dice la gente", "redes sociales", "sentimiento"
+- "tendencias", "virales", "publicaciones populares"
+- "publicaciones del usuario", "cronología", "actividad reciente"
+
+Utilice `npx agentcash fetch` para los puntos finales de Grok (X) y Reddit. Todos los puntos finales cuestan $0,02 por llamada.
+
+IMPORTANTE: Utilice rutas de punto finales exactas de la tabla de Referencia rápida a continuación.

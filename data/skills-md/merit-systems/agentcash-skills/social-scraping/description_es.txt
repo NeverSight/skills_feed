@@ -1,0 +1,23 @@
+Extraiga perfiles de redes sociales, publicaciones, comentarios, seguidores y busque en 6 plataformas a través de x402.
+
+UTILIZAR PARA:
+- Obtener perfiles de TikTok, Instagram, X/Twitter, Facebook, Reddit o LinkedIn
+- Obtener las publicaciones, historias, momentos destacados o videos de un usuario
+- Obtener comentarios, respuestas y reacciones en publicaciones.
+- Listado de seguidores y seguidores para cualquier cuenta.
+- Búsqueda de publicaciones, hashtags, perfiles, trabajos y anuncios en todas las plataformas
+- Investigación y seguimiento de redes sociales multiplataforma.
+
+DESENCADENADORES:
+- "tiktok", "instagram", "facebook", "perfil de linkedin", "publicaciones de linkedin"
+- "obtener seguidores", "quién sigue", "lista de seguidores"
+- "extraer perfil", "obtener publicaciones de", "datos de redes sociales"
+- "historias de instagram", "videos tiktok", "página de facebook"
+- "empresa de linkedin", "trabajos de linkedin", "anuncios de linkedin"
+- "multiplataforma", "investigación de redes sociales"
+
+IMPORTANTE: StableSocial utiliza un flujo asíncrono de dos pasos. Paso 1: POST activa la recopilación de datos (pago, $0,06). Paso 2: Encuesta GET /api/jobs?token=... hasta finalizar (gratis). Todos los puntos finales cuestan $0,06 por llamada.
+
+Utilice `npx agentcash fetch` para activadores POST pagados. Utilice `npx agentcash fetch` para obtener un sondeo GET gratuito.
+
+IMPORTANTE: Utilice rutas de punto finales exactas de las tablas de referencia rápida a continuación. Todas las rutas incluyen un prefijo de plataforma (por ejemplo, `https://stablesocial.dev/api/tiktok/...`).

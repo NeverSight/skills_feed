@@ -1,0 +1,10 @@
+Cree imágenes de trabajadores de Firefox CI activando flujos de trabajo de GitHub Actions en mozilla-platform-ops/worker-images.
+Admite flujos de trabajo FXCI Azure para compilaciones de imágenes de Windows (confiables y no confiables).
+
+Úselo cuando:
+- El usuario quiere crear una imagen de trabajador.
+- El usuario menciona "FXCI Azure", "compilación de imagen de trabajador" o nombres de grupos específicos como "win11-64-24h2-alpha".
+- El usuario desea activar compilaciones de imágenes para Windows 10, Windows 11 o Windows Server 2022
+- El usuario solicita verificar el estado de la creación de una imagen de trabajador.
+
+Activadores: "imagen de compilación", "imagen de trabajador", "FXCI Azure", "compilación de desencadenador", "estado de compilación de imagen"

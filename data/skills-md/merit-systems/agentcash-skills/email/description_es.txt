@@ -1,0 +1,20 @@
+Envíe correos electrónicos, compre bandejas de entrada de reenvío, administre subdominios personalizados y lea mensajes mediante programación a través de x402.
+
+UTILIZAR PARA:
+- Envío de correos electrónicos (únicos o desde direcciones personalizadas)
+- Comprar una bandeja de entrada de reenvío (nombre de usuario@x402email.com)
+- Compra de subdominios de correo electrónico personalizados (usted@sunombre.x402email.com)
+- Leer y gestionar mensajes de la bandeja de entrada mediante programación.
+- Configuración del reenvío general para subdominios
+- Gestión de firmantes autorizados para subdominios compartidos.
+
+DESENCADENADORES:
+- "enviar correo electrónico", "enviar esto por correo electrónico a", "notificar por correo electrónico"
+- "bandeja de entrada de compra", "dirección de reenvío", "bandeja de entrada de correo electrónico"
+- "dominio personalizado", "subdominio", "subdominio de correo electrónico"
+- "leer correos electrónicos", "revisar la bandeja de entrada", "enumerar mensajes"
+- "dirección de correo electrónico", "correo electrónico desechable", "correo electrónico temporal"
+
+SIEMPRE utilice `npx agentcash fetch` para los puntos finales de stableemail.dev.
+
+IMPORTANTE: Utilice rutas de punto finales exactas de la tabla de Referencia rápida a continuación.
