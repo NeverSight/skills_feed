@@ -1,0 +1,20 @@
+Invia e-mail, acquista caselle di posta di inoltro, gestisci sottodomini personalizzati e leggi i messaggi in modo programmatico tramite x402.
+
+UTILIZZARE PER:
+- Invio di email (una tantum o da indirizzi personalizzati)
+- Acquistare una casella di posta di inoltro (nomeutente@x402email.com)
+- Acquisto di sottodomini email personalizzati (tu@tuonome.x402email.com)
+- Lettura e gestione dei messaggi di posta in arrivo a livello di codice
+- Impostazione dell'inoltro catch-all per i sottodomini
+- Gestione dei firmatari autorizzati per i sottodomini condivisi
+
+TRIGGER:
+- "invia email", "invia questo messaggio a", "notifica tramite email"
+- "casella di acquisto", "indirizzo di inoltro", "casella di posta elettronica"
+- "dominio personalizzato", "sottodominio", "sottodominio email"
+- "leggi email", "controlla la posta in arrivo", "elenca messaggi"
+- "indirizzo email", "email usa e getta", "email temporanea"
+
+Utilizza SEMPRE `npx agentcash fetch` per gli endpoint stableemail.dev.
+
+IMPORTANTE: utilizzare i percorsi endpoint esatti indicati nella tabella di riferimento rapido riportata di seguito.

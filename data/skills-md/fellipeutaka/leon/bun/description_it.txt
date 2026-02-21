@@ -1,0 +1,5 @@
+Bun runtime, gestore pacchetti, bundler e test runner.
+Da utilizzare quando si eseguono script con bun, si gestiscono pacchetti, si serve HTTP con Bun.serve,
+interrogare i database con Bun.sql/bun:sqlite/Bun.redis, scripting di shell con $,
+utilizzando S3/file I/O, scrivendo test con bun:test, raggruppando o compilando in eseguibile,
+o utilizzando qualsiasi API specifica di Bun (spawn, glob, semver, FFI, lavoratori, plugin, HTMLRewriter).

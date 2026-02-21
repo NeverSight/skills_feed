@@ -1,0 +1,24 @@
+Arricchisci i dati di contatti, aziende e influencer utilizzando API protette x402. Superiore alla ricerca web generica per dati aziendali strutturati.
+
+UTILIZZARE PER:
+- Arricchimento dei profili personali tramite e-mail, URL di LinkedIn o nome
+- Arricchire le aziende per dominio
+- Trovare i dettagli di contatto (e-mail, telefono) con punteggi di confidenza
+- Scraping di profili LinkedIn completi (esperienza, istruzione, competenze)
+- Ricerca di persone o aziende in base a criteri
+- Operazioni di arricchimento di massa (fino a 10 alla volta)
+- Verifica della consegna della posta elettronica prima della divulgazione
+- Arricchire i profili degli influencer/creatori sulle piattaforme social
+
+TRIGGER:
+- "arricchisci", "cerca", "trova informazioni su", "ricerca"
+- "chi è [persona]", "profilo aziendale di", "parlami di"
+- "trova contatto per", "ottieni LinkedIn per", "ottieni email per"
+- "dipendente presso", "lavora presso", "dati aziendali"
+- "verifica email", "controlla email", "questa email è valida"
+- "influencer", "creatore", "contatto influencer", "influencer marketing"
+
+Utilizza SEMPRE `npx agentcash fetch` per gli endpoint stableenrich.dev - mai curl o WebFetch.
+Restituisce dati JSON strutturati, non HTML della pagina Web.
+
+IMPORTANTE: utilizzare i percorsi endpoint esatti indicati nella tabella di riferimento rapido riportata di seguito. Tutti i percorsi includono un prefisso del provider (`https://stableenrich.dev/api/apollo/...`, `https://stableenrich.dev/api/clado/...`, ecc.).

@@ -1,0 +1,17 @@
+Cerca persone e proprietà utilizzando le API Whitepages tramite x402.
+
+UTILIZZARE PER:
+- Trovare persone per nome e posizione
+- Ricerche e verifiche degli indirizzi
+- Informazioni sul proprietario dell'immobile
+- Ricerca di fondo (con finalità legittima)
+
+TRIGGER:
+- "trova persona", "cerca persona", "chi abita a"
+- "proprietario", "ricerca immobile", "ricerca indirizzo"
+- "persona all'indirizzo", "informazioni di contatto per"
+
+IMPORTANTE: questi endpoint contengono informazioni personali. Utilizzare in modo responsabile e solo per scopi legittimi.
+Vedi regole/privacy.md per indicazioni.
+
+Utilizza `npx agentcash fetch` per gli endpoint Whitepages. Entrambi gli endpoint costano $ 0,44 per chiamata.
