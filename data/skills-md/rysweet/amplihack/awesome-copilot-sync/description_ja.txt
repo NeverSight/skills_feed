@@ -1,0 +1,4 @@
+awesome-copilot リリースが amplihack 統合に対してドリフトしていないか監視します。
+GitHub API 経由で github/awesome-copilot 上の最新のコミットを確認し、レポートします
+ローカル統合が最新であるか、上流の変更に遅れをとっているか。
+統合の鮮度を監査するとき、または awesome-copilot 機能を更新する前に使用します。
