@@ -1,0 +1,1 @@
+通过 uloop CLI 在 Unity 编辑器中动态执行 C# 代码。用于编辑器自动化：(1) 预制件/材质连接和 AddComponent 操作，(2) 使用 SerializedObject 的参考连接，(3) 场景/层次结构编辑和批处理操作。不适用于文件 I/O 或脚本创作。

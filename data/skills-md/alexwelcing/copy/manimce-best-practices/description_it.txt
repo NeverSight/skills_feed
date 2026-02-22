@@ -1,0 +1,5 @@
+Si attiva quando: (1) l'utente menziona "manim" o "Manim Community" o "ManimCE", (2) il codice contiene `from manim import *`, (3) l'utente esegue i comandi CLI `manim`, (4) lavora con Scene, MathTex, Create() o classi specifiche di ManimCE.
+
+Migliori pratiche per Manim Community Edition: il motore di animazione Python gestito dalla comunità. Copre la struttura della scena, le animazioni, LaTeX/MathTex, il 3D con ThreeDScene, il controllo della fotocamera, lo stile e l'utilizzo della CLI.
+
+NON per la versione ManimGL/3b1b (che utilizza le importazioni `manimlib` e la CLI `manimgl`).

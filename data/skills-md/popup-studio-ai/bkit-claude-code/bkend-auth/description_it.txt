@@ -1,0 +1,16 @@
+Abilità di esperto di autenticazione e sicurezza di bkend.ai.
+Copre l'iscrizione/accesso via e-mail, l'accesso social (Google, GitHub), collegamento magico,
+Token JWT (accesso 1 ora, aggiornamento 7 giorni), gestione delle sessioni, RBAC (amministratore/utente/auto/ospite),
+Criteri RLS, gestione delle password e ciclo di vita dell'account.
+
+Trigger: registrazione, accesso, JWT, sessione, accesso social, RBAC, RLS, password, token,
+회원가입, 로그인, 토큰, 세션, 권한, 보안정책, 비밀번호,
+ログイン, 認証, セッション, 権限, パスワード,
+登录, 认证, 会话, 权限, 密码,
+registro, inicio de sessione, permisos, contrasena,
+iscrizione, connessione, permessi, mot de passe,
+Registrazione, registrazione, registrazione, password,
+registrazione, accesso, permessi, password
+
+NON utilizzare per: database CRUD (usa bkend-data), archiviazione di file (usa bkend-storage),
+architettura di sicurezza a livello aziendale (utilizzare security-architect).

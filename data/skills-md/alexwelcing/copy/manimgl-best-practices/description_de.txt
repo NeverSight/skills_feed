@@ -1,0 +1,5 @@
+Wird ausgelöst, wenn: (1) der Benutzer „manimgl“ oder „ManimGL“ oder „3b1b manim“ erwähnt, (2) der Code „from manimlib import *“ enthält, (3) der Benutzer „manimgl“-CLI-Befehle ausführt, (4) mit InteractiveScene, self.frame, self.embed(), ShowCreation() oder ManimGL-spezifischen Mustern arbeitet.
+
+Best Practices für ManimGL (Grant Sandersons 3Blue1Brown-Version) – OpenGL-basierte Animations-Engine mit interaktiver Entwicklung. Deckt InteractiveScene, Tex mit t2c, Kamerabildsteuerung, interaktiven Modus (-se-Flag), 3D-Rendering und checkpoint_paste()-Workflow ab.
+
+NICHT für Manim Community Edition (die „Manim“-Importe und „Manim“-CLI verwendet).

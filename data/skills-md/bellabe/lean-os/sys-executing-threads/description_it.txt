@@ -1,0 +1,1 @@
+Scrive gli output dell'agente nei file di fase del thread numerati. Chiamato dagli agenti al termine del lavoro sul dominio. Associa il tipo di agente alle fasi, aggiorna lo stato del frontmatter e registra i metadati di completamento. La fase 1 (1-input.md) non viene mai scritta da questa abilità.

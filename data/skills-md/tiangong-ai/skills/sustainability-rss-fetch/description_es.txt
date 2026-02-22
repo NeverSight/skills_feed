@@ -1,0 +1,1 @@
+Primero, ingiera todas las entradas RSS del diario de sostenibilidad en una base de datos RSS SQLite dedicada, codificada por DOI, luego marque la relevancia y elimine las filas no relevantes a solo DOI. Use when building a DOI-first ingestion pipeline with mandatory full ingestion before topic filtering.

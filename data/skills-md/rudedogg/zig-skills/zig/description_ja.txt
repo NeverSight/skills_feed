@@ -1,0 +1,1 @@
+バージョン 0.15.x の最新の Zig プログラミング言語パターン。 Zig コードの作成、レビュー、デバッグ、build.zig および build.zig.zon ファイルの操作、または comptime メタプログラミングの使用時に使用します。トレーニング データからの古いパターンを避けるために重要です。特にビルド システム API (root_source_file の代わりに root_module)、I/O API (バッファー ライター パターン)、コンテナーの初期化 (.empty/.init)、アロケーターの選択 (DebugAllocator)、および削除された言語機能 (async/await、usingnamespace) です。

@@ -1,0 +1,1 @@
+FORGE + 에이전트 팀 — FORGE 에이전트의 진정한 병렬 실행을 위해 에이전트 팀을 활용합니다. 3가지 패턴: 파이프라인(병렬 스토리가 있는 전체 파이프라인), 파티(다중 에이전트 토론), 빌드(병렬 스토리 개발). CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1이 필요합니다. 사용법: /forge-team 파이프라인 "목표" | /forge-team 파티 "주제" | /forge-team build [STORY-ID]

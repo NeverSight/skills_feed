@@ -1,0 +1,1 @@
+构建和维护基于 Assistant-ui 的 React 聊天应用程序，具有可靠的设置、运行时选择、LangGraph 连接、工具 UI 集成和升级工作流程。当任务明确涉及 `assistant-ui` 依赖项或 API，包括 `assistant-ui` CLI 命令（`create/init/add/update/upgrade/codemod`）、`@assistant-ui/*` 提供程序/运行时、`AssistantRuntimeProvider`、Thread/Composer 原语、云持久性或工具渲染行为时使用。请勿用于通用 React 聊天工作、仅后端 LangGraph 任务或非助手 UI UI 工作。如果提示明确提示没有/没有/不是assistant-ui，则不触发该技能。

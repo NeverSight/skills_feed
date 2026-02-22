@@ -1,0 +1,5 @@
+使用 qmd (tobi/qmd) 的 Markdown 知识库本地语义搜索引擎。
+使用 BM25 关键字搜索、用于语义搜索的向量嵌入来索引 Markdown 文件，
+和混合重排序查询。通过 Claude Code hooks 对文件编辑自动建立索引
+通过 launchd 过夜刷新嵌入。搜索项目文档时使用，
+知识库、会议记录或任何索引的 Markdown 集合。

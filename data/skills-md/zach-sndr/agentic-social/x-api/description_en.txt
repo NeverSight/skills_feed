@@ -1,0 +1,11 @@
+X (Twitter) API v2 integration for posting tweets, replies, quotes, managing posts, sending DMs, searching tweets, and retrieving timeline/user activity.
+
+Use when the user needs to interact with X (Twitter) API:
+- Post content: tweets, replies, quotes, posts with media
+- Manage posts: delete, retweet, like
+- Direct Messages: send DMs with optional media attachments
+- Search: search tweets by keyword, hashtag, user, with filters
+- Retrieve data: user recent activity, home timeline
+- Extract tweet IDs from URLs
+
+Requires OAuth 1.0a credentials: X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET.

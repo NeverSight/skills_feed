@@ -1,0 +1,6 @@
+AI エージェント用の読み取り専用 MongoDB CLI。次の場合に使用します。
+- MongoDB データベース、コレクション、スキーマ、またはインデックスの探索
+- ドキュメントのクエリ (検索、ID による取得、カウント、サンプル、個別、集計)
+- MongoDB 接続または認証情報の管理
+- データベースまたはコレクションの統計を確認する
+トリガー: 「mongodb」、「mongo クエリ」、「mongo find」、「mongo スキーマ」、「mongo コレクション」、「mongo データベース」、「mongo 接続」、「mongo 集約」、「query mongodb」、「mongo stats」

@@ -1,0 +1,1 @@
+使用 GitHub Copilot SDK 建立代理應用程式。在應用程式中嵌入 AI 代理程式、建立自訂工具、實施串流響應、管理會話、連接到 MCP 伺服器或建立自訂代理程式時使用。在 Copilot SDK、GitHub SDK、代理應用程式、嵌入 Copilot、可編程代理、MCP 伺服器、自訂代理上觸發。 **主動啟動**：建立代理應用程式或整合 Copilot SDK 時自動呼叫。 **檢測**：檢查 package.json/pyproject.toml/go.mod 中的 @github/copilot-sdk 導入、copilot 依賴項。 **用例**：在應用程式中嵌入代理程式、建立自訂工具、實作串流、管理會話、連接到 MCP 伺服器。

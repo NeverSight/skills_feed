@@ -1,0 +1,5 @@
+Motor de búsqueda semántica local para bases de conocimiento de Markdown utilizando qmd (tobi/qmd).
+Indexa archivos de rebajas con búsqueda de palabras clave BM25, incrustaciones de vectores para búsqueda semántica,
+y consultas reclasificadas híbridas. Indexaciones automáticas en ediciones de archivos a través de ganchos de Claude Code y
+actualiza las incorporaciones durante la noche a través de launchd. Úselo al buscar documentos de proyectos,
+bases de conocimientos, notas de reuniones o cualquier colección de rebajas indexadas.

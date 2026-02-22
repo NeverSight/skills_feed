@@ -1,0 +1,1 @@
+Écrivez des modules Nix avec des options spécifiques à la plate-forme (NixOS vs Darwin) sans récursion infinie. À utiliser lorsque mkIf provoque des erreurs d'évaluation ou que les options n'existent pas sur toutes les plates-formes.

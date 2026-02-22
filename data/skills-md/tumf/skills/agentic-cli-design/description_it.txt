@@ -1,0 +1,6 @@
+Principi di progettazione per la creazione di strumenti CLI che gli agenti LLM/AI possano utilizzare in modo sicuro e affidabile.
+Fornisce 7 principi fondamentali (leggibile dalla macchina, non interattivo, idempotente, sicuro per impostazione predefinita,
+Osservabile, Efficiente rispetto al contesto, Introspettabile) con scorecard, modelli e anti-pattern.
+Da utilizzare quando: (1) si progettano nuovi strumenti CLI per l'utilizzo da parte dell'agente, (2) si migliorano le CLI esistenti per l'agente
+compatibilità, (3) revisione della progettazione della CLI per la compatibilità con gli agenti o (4) necessità di indicazioni su
+Formati di output JSON, codici di uscita, flussi di autenticazione o modelli CLI autodescrittivi.

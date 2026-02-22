@@ -1,0 +1,1 @@
+Récupérez les démarques propres des URL lorsque web_fetch échoue. Convertit les pages via le service de lecture Jina AI avec nouvelle tentative automatique. À utiliser lorsque web_fetch ou curl renvoie 403, bloqué, paywall, délai d'attente, erreurs de rendu JavaScript ou contenu vide ou si l'utilisateur suggère explicitement d'utiliser jina.

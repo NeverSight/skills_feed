@@ -1,0 +1,7 @@
+Verschlüsselte Sicherung und Wiederherstellung für OpenClaw Agent-Arbeitsbereichsdateien
+(SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md). Verwendungsmöglichkeiten
+tar + openssl (AES-256-CBC)-Verschlüsselung und soul-upload.com-API.
+Erzeugt automatisch ein neues zufälliges Passwort für jedes Backup (NICHT wiederverwenden).
+Passwörter). Verwenden Sie diese Option, wenn der Benutzer Folgendes tun muss: (1) Den Agenten sichern oder hochladen
+Arbeitsbereichsdateien, (2) Wiederherstellen oder Herunterladen eines vorherigen Backups, (3) Löschen
+ein Backup vom Remote-Speicher oder (4) die Persistenz des verschlüsselten Agenten verwalten.

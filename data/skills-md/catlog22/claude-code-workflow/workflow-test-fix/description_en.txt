@@ -1,0 +1,1 @@
+Unified test-fix pipeline combining test generation (session, context, analysis, task gen) with iterative test-cycle execution (adaptive strategy, progressive testing, CLI fallback). Triggers on "workflow:test-fix-gen", "workflow:test-cycle-execute", "test fix workflow".

@@ -1,0 +1,1 @@
+FORGE + エージェント チーム — エージェント チームを活用して、FORGE エージェントを真に並列実行します。 3 パターン: パイプライン (並行ストーリーを含む完全なパイプライン)、パーティー (マルチエージェントの議論)、ビルド (並行ストーリー開発)。 CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 が必要です。使用法: /forge-team パイプライン "目的" | /forge-チーム パーティー "トピック" | /forge-team build [STORY-ID]

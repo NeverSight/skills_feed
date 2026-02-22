@@ -1,0 +1,6 @@
+Principios de diseño para crear herramientas CLI que los agentes de LLM/AI puedan operar de forma segura y confiable.
+Proporciona 7 principios básicos (legible por máquina, no interactivo, idempotente, seguro por defecto,
+Observable, contextualmente eficiente, introspectable) con cuadro de mando, plantillas y antipatrones.
+Úselo cuando: (1) diseñe nuevas herramientas CLI para uso del agente, (2) mejore las CLI existentes para el agente
+compatibilidad, (3) revisar el diseño de la CLI para que sea fácil de usar para los agentes, o (4) necesita orientación sobre
+Formatos de salida JSON, códigos de salida, flujos de autenticación o patrones CLI autodescriptivos.

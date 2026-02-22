@@ -1,0 +1,7 @@
+Encrypted backup and restore for OpenClaw Agent workspace files
+(SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md). Uses
+tar + openssl (AES-256-CBC) encryption and soul-upload.com API.
+Auto-generates a new random password for each backup (DO NOT reuse
+passwords). Use when the user needs to: (1) Back up or upload agent
+workspace files, (2) Restore or download a previous backup, (3) Delete
+a backup from remote storage, or (4) Manage encrypted agent persistence.

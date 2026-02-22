@@ -1,0 +1,1 @@
+将 HuggingFace 变压器模型转换为 ONNX 格式，以便使用 Transformers.js 和 WebGPU 进行浏览器推理。当给定 HuggingFace 模型链接以转换为 ONNX 时、为 ONNX 导出设置 optimization-cli 时、为 Web 部署量化模型（fp16、q8、q4）时、使用 WebGPU 加速配置 Transformers.js 时或排除 ONNX 转换错误时使用。当提及 ONNX 转换、Transformers.js、WebGPU 推理、最佳导出、浏览器模型量化或在浏览器中运行 ML 模型时触发。

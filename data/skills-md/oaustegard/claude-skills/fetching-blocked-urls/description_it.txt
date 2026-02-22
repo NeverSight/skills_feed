@@ -1,0 +1,1 @@
+Recupera il markdown pulito dagli URL quando web_fetch fallisce. Converte le pagine tramite il servizio di lettura Jina AI con nuovo tentativo automatico. Da utilizzare quando web_fetch o curl restituisce 403, bloccato, paywall, timeout, errori di rendering JavaScript o contenuto vuoto o l'utente suggerisce esplicitamente di utilizzare jina.

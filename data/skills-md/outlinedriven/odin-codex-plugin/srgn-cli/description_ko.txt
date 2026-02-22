@@ -1,0 +1,1 @@
+소스 코드 검색 및 변환을 위한 안전한 구문 인식 srgn CLI 명령을 구축하기 위한 실용 가이드입니다. 사용자가 srgn 명령, 범위가 지정된 리팩터링(comments/docstrings/imports/functions), --glob을 사용한 다중 파일 재작성, 사용자 정의 tree-sitter 쿼리 사용 또는 --fail-any/--fail-none을 사용한 CI 스타일 검사를 요청할 때 사용합니다.

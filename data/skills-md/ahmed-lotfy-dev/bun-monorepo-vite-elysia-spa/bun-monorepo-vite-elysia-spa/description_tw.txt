@@ -1,0 +1,1 @@
+僅使用官方生成器建立或重新產生 Bun 全端 monorepo：bun create elysia@latest 用於後端，bun create vite@latest --template react-ts 用於 SPA 前端，然後應用核心後端連接（Better Auth、Drizzle、MCP、OpenAPI、CORS 和安全預設值）。在建立 Bun 工作區 monorepo 或將其重設為最新的生成器版本時使用。

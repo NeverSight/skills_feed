@@ -1,0 +1,1 @@
+Convex 작업, 트랜잭션 및 예약에 대한 모범 사례입니다. ctx.runQuery/ctx.runMutation을 사용하거나 ctx.scheduler를 사용하여 함수를 예약하거나 Convex 런타임과 Node.js 런타임("노드 사용")을 사용하여 외부 API를 호출하는 작업을 작성할 때 사용합니다.

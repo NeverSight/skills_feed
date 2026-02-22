@@ -1,0 +1,1 @@
+当需要考虑上下文窗口耗尽或处理大量 PR 评论时使用 - 通过外部 shell 循环为每个评论生成一个新的代理会话。对于会话中方法，请改用 pr-review-loop 或 copilot-review-loop。

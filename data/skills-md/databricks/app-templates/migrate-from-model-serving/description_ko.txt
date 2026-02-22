@@ -1,0 +1,1 @@
+Databricks 모델 제공에서 MLflow ResponsesAgent를 Databricks 앱으로 마이그레이션합니다. 다음 경우에 사용하세요. (1) 사용자가 Model Serving에서 앱으로 마이그레이션하려고 합니다. (2) 사용자에게 예측()/predict_stream() 메서드가 있는 ResponsesAgent가 있습니다. (3) 사용자가 @invoke/@stream 데코레이터로 변환하려고 합니다.

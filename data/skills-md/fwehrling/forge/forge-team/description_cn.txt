@@ -1,0 +1,1 @@
+FORGE + Agent Teams — 利用 Agent Teams 实现 FORGE 代理的真正并行执行。 3 种模式：管道（具有并行故事的完整管道）、聚会（多智能体辩论）、构建（并行故事开发）。需要 CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1。用法：/forge-team 管道“目标” | /forge-team 聚会“主题”| /forge-team build [故事 ID]

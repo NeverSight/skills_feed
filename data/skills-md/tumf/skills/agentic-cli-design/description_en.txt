@@ -1,0 +1,6 @@
+Design principles for building CLI tools that LLM/AI agents can safely and reliably operate.
+Provides 7 core principles (Machine-readable, Non-interactive, Idempotent, Safe-by-default,
+Observable, Context-efficient, Introspectable) with scorecard, templates, and anti-patterns.
+Use when: (1) designing new CLI tools for agent use, (2) improving existing CLIs for agent
+compatibility, (3) reviewing CLI design for agent-friendliness, or (4) need guidance on
+JSON output formats, exit codes, authentication flows, or self-describing CLI patterns.

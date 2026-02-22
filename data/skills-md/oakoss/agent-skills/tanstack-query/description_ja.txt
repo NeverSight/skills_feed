@@ -1,0 +1,3 @@
+TanStack React 用の Query v5 サーバー状態管理。クエリ/ミューテーション パターン、v4 から v5 への移行 (オブジェクト構文、gcTime、isPending、keepPreviousData)、useMutationState によるオプティミスティック更新、HydrationBoundary による SSR/ハイドレーション、無限クエリ、オフライン/PWA サポート、throwOnError によるエラー境界、および React 19 Suspense 統合をカバーします。
+
+データのフェッチの構築、移行エラーの修正、ハイドレーションの不一致のデバッグ、キャッシュ戦略の実装、またはミューテーションの構成を行うときに使用します。

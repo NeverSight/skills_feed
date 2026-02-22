@@ -1,0 +1,1 @@
+Da utilizzare quando l'esaurimento della finestra di contesto è un problema o quando si affronta un grande volume di commenti PR: genera una nuova sessione dell'agente per commento tramite un loop di shell esterno. Per un approccio in sessione, utilizzare invece pr-review-loop o copilot-review-loop.

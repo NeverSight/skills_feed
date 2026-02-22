@@ -1,0 +1,6 @@
+Gestión completa del ciclo de vida de PostHog. Audita el estado actual, soluciona todos los problemas,
+y verifica que el seguimiento de eventos funcione de un extremo a otro. Cada carrera hace todo esto.
+
+Invocar automáticamente cuando: los archivos contienen posthog/analytics/tracking, importa posthog-js
+paquete, referencias POSTHOG_* env vars, código de seguimiento de eventos modificado, usuario
+menciona "los análisis no funcionan" o "los eventos no se envían".

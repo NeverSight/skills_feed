@@ -1,0 +1,1 @@
+Lesen Sie den Speicher eines anderen Vertrags direkt ohne asynchrone Aufrufe mithilfe von storage_mapper_from_address. Wird zum Erstellen von Aggregatoren, Controllern oder anderen Verträgen verwendet, die den Status aus anderen Verträgen auf demselben Shard ohne Proxy-Aufruf-Overhead lesen müssen.

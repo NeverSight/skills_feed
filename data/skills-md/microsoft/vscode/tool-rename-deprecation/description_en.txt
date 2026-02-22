@@ -1,0 +1,1 @@
+Ensure renamed built-in tool references preserve backward compatibility. Use when renaming a toolReferenceName, tool set referenceName, or any tool identifier. Run on ANY change to tool registration code. Covers legacyToolReferenceFullNames for tools and legacyFullNames for tool sets.

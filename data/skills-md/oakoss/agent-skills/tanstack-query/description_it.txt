@@ -1,0 +1,3 @@
+Gestione dello stato del server TanStack Query v5 per React. Copre modelli di query/mutazione, migrazione da v4 a v5 (sintassi dell'oggetto, gcTime, isPending, keepPreviousData), aggiornamenti ottimistici tramite useMutationState, SSR/idratazione con HydrationBoundary, query infinite, supporto offline/PWA, limiti di errore con ThrowOnError e integrazione React 19 Suspense.
+
+Da utilizzare durante la creazione del recupero dei dati, la correzione degli errori di migrazione, il debug delle mancate corrispondenze di idratazione, l'implementazione di strategie di memorizzazione nella cache o la configurazione delle mutazioni.

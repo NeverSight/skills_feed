@@ -1,0 +1,6 @@
+Entwurfsprinzipien zum Erstellen von CLI-Tools, die LLM/KI-Agenten sicher und zuverlässig betreiben können.
+Bietet 7 Grundprinzipien (maschinenlesbar, nicht interaktiv, idempotent, standardmäßig sicher,
+Beobachtbar, kontexteffizient, introspizierbar) mit Scorecard, Vorlagen und Anti-Patterns.
+Verwenden Sie, wenn: (1) neue CLI-Tools für die Verwendung durch Agenten entworfen werden, (2) bestehende CLIs für Agenten verbessert werden
+Kompatibilität, (3) Überprüfung des CLI-Designs auf Agentenfreundlichkeit oder (4) Bedarf an Anleitung dazu
+JSON-Ausgabeformate, Exit-Codes, Authentifizierungsabläufe oder selbstbeschreibende CLI-Muster.

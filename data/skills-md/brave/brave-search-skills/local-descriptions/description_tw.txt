@@ -1,0 +1,1 @@
+用於取得 AI 產生的 POI 文字描述。需要從網路搜尋中取得 POI ID（使用 result_filter=locations）。傳回基於網路搜尋上下文的降價描述。每個請求最多 20 個 ID。

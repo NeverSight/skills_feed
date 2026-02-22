@@ -1,0 +1,1 @@
+SQLModel 的專家指南 - 結合 SQLAlchemy 和 Pydantic 的資料庫模型的 Python 函式庫。在以下情況下使用：(1) 建立同時用作 SQLAlchemy ORM 和 Pydantic 模式的資料庫模型，(2) 建立具有資料庫整合的 FastAPI 應用程序，(3) 定義模型關係（一對多、多對多），(4) 執行類型安全的 CRUD 操作，(5) 設定非同步資料庫會話，(6) 與 Abic模式之間進行轉換。

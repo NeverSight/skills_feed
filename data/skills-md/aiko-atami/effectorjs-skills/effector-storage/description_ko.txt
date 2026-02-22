@@ -1,0 +1,1 @@
+Effector 앱에 대한 이펙터-저장 지속성 패턴을 선택하고 구현합니다. 작업에 지속/createPersist 사용, 어댑터 선택(local/session/query/broadcast/storage/asyncStorage/memory/nil/log), 시계/픽업/context/keyPrefix 구성, 계약을 통한 데이터 유효성 검사, 완료/실패/최종 흐름 처리, 둘 중 하나를 사용한 SSR 안전 어댑터 대체 또는 동기화 및 직렬화 문제 디버깅이 포함되는 경우에 사용합니다.

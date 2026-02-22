@@ -1,0 +1,4 @@
+Hook d'arrêt qui permet à l'agent de fonctionner jusqu'à ce que tous les plans et demandes des utilisateurs soient terminés.
+100% terminé. Se déclenche à chaque tentative d'arrêt jusqu'à ce que l'agent émette un message explicite
+signal terminé analysable dans sa réponse finale. Fournit une machine déterministe
+détection pour un véritable achèvement.

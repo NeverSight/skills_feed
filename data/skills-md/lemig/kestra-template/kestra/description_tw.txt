@@ -1,0 +1,11 @@
+產生、偵錯和優化 Kestra 工作流程編排 YAML 檔案。 Kestra 是一個使用 YAML 語法的開源聲明性資料編排平台。
+
+在以下情況下使用此技能：
+- 建立新的 Kestra 流程（工作流程）
+- 調試或修復現有的 Kestra YAML
+- 新增觸發器（計劃、Webhook、基於流）
+- 實作錯誤處理、重試或逾時
+- 編寫腳本任務（Python、Shell、Node.js 等）
+- 建構平行或條件工作流程
+- 從 Airflow/Prefect 轉換為 Kestra
+- 有關 Kestra 語法、插件或最佳實踐的任何問題

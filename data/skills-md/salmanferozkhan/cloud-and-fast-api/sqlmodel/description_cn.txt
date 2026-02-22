@@ -1,0 +1,1 @@
+SQLModel 的专家指南 - 结合 SQLAlchemy 和 Pydantic 的数据库模型的 Python 库。在以下情况下使用：(1) 创建同时用作 SQLAlchemy ORM 和 Pydantic 模式的数据库模型，(2) 构建具有数据库集成的 FastAPI 应用程序，(3) 定义模型关系（一对多、多对多），(4) 执行类型安全的 CRUD 操作，(5) 设置异步数据库会话，(6) 与 Alembic 迁移集成，(7) 处理模型继承和混合，或 (8) 在数据库模型和 API 模式之间进行转换。

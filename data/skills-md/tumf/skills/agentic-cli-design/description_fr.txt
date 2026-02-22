@@ -1,0 +1,6 @@
+Principes de conception pour la création d'outils CLI que les agents LLM/AI peuvent exploiter de manière sûre et fiable.
+Fournit 7 principes de base (lisible par machine, non interactif, idempotent, sécurisé par défaut,
+Observable, efficace dans le contexte, introspectable) avec tableau de bord, modèles et anti-modèles.
+À utiliser lors de : (1) la conception de nouveaux outils CLI pour l'utilisation d'agents, (2) l'amélioration des CLI existantes pour l'agent.
+compatibilité, (3) revoir la conception CLI pour la convivialité des agents, ou (4) avoir besoin de conseils sur
+Formats de sortie JSON, codes de sortie, flux d'authentification ou modèles CLI auto-descriptifs.

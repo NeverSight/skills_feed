@@ -1,0 +1,15 @@
+Crea un problema GitHub dai documenti delle specifiche: genera automaticamente problemi di funzionalità strutturati dalle specifiche.
+
+Analizza i documenti delle specifiche (requirement.md, design.md, task.md) in .specs/{feature}/ e
+genera un problema di funzionalità strutturato tramite gh issue create.
+Ideale per l'utilizzo con le specifiche create da spec-generator.
+
+Trigger inglesi:
+- "Crea problema dalle specifiche", "Registra le specifiche come problema"
+- "Converti le specifiche nel problema GitHub", "Pubblica le specifiche nel problema"
+- Dopo il generatore di specifiche: "Trasforma questo in un problema"
+
+日本語トリガー:
+- 「仕様書をProblemaにして」「Problemaに登録して」「specからProblema作成」
+- 「仕様書からProblema生成」「specをProblemaに変換」
+- spec-generator完了後に「これをProblemaにして」「Problemaにして」

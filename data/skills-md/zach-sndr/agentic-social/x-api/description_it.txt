@@ -1,0 +1,11 @@
+Integrazione API X (Twitter) v2 per pubblicare tweet, risposte, citazioni, gestire post, inviare messaggi diretti, cercare tweet e recuperare sequenza temporale/attività dell'utente.
+
+Da utilizzare quando l'utente deve interagire con l'API X (Twitter):
+- Contenuti dei post: tweet, risposte, citazioni, post con media
+- Gestisci i post: elimina, ritwitta, metti mi piace
+- Messaggi diretti: invia DM con allegati multimediali opzionali
+- Cerca: cerca tweet per parola chiave, hashtag, utente, con filtri
+- Recupera dati: attività recente dell'utente, sequenza temporale domestica
+- Estrai gli ID dei tweet dagli URL
+
+Richiede credenziali OAuth 1.0a: X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET.

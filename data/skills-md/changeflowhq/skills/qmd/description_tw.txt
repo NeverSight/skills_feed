@@ -1,0 +1,5 @@
+使用 qmd (tobi/qmd) 的 Markdown 知識庫本地語意搜尋引擎。
+使用 BM25 關鍵字搜尋、用於語義搜尋的向量嵌入來索引 Markdown 文件，
+和混合重排序查詢。透過 Claude Code hooks 自動建立文件編輯索引
+透過 launchd 過夜刷新嵌入。搜尋項目文件時使用，
+知識庫、會議記錄或任何索引的 Markdown 集合。

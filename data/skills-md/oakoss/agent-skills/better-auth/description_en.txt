@@ -1,0 +1,3 @@
+Self-hosted TypeScript auth framework with social auth, 2FA, passkeys, organizations, RBAC, and 15+ plugins. Supports Drizzle/Prisma/Kysely adapters. Self-hosted alternative to Clerk/Auth.js.
+
+Use when: configuring auth, adding plugins, social OAuth, multi-tenant SaaS, organizations with teams and RBAC, two-factor authentication (TOTP/OTP/backup codes), email verification, password reset flows, session management, rate limiting, CSRF and cookie security, Expo/mobile, D1 adapter errors, TanStack Start integration, additionalFields bugs, admin plugin, migrating from NextAuth, migrating from Clerk, migrating from Supabase Auth, or troubleshooting auth issues.

@@ -1,0 +1,1 @@
+Integrate a new blockchain as a second-class citizen in ShapeShift Web. HDWallet packages live in the monorepo under packages/hdwallet-*. Covers everything from HDWallet native/Ledger support to Web chain adapter, asset generation, and feature flags. Activates when user wants to add basic support for a new blockchain.

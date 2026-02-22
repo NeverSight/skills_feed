@@ -1,0 +1,1 @@
+當 web_fetch 失敗時，從 URL 檢索乾淨的 markdown。透過 Jina AI 閱讀器服務轉換頁面並自動重試。當 web_fetch 或curl 傳回 403、被封鎖、付費專區、逾時、JavaScript 渲染錯誤或空白內容或使用者明確建議使用 jina 時使用。

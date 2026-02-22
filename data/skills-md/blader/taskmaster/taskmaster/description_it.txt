@@ -1,0 +1,4 @@
+Arresta l'hook che mantiene l'agente in funzione finché non vengono completati tutti i piani e le richieste degli utenti
+Completo al 100%. Si attiva a ogni tentativo di arresto finché l'agente non emette un messaggio esplicito
+segnale di completamento analizzabile nella sua risposta finale. Fornisce una macchina deterministica
+rilevamento per il vero completamento.

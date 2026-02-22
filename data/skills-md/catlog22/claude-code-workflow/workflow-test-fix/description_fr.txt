@@ -1,0 +1,1 @@
+Pipeline de tests-correctifs unifié combinant génération de tests (session, contexte, analyse, génération de tâches) avec exécution itérative de cycles de tests (stratégie adaptative, tests progressifs, repli CLI). Déclencheurs sur "workflow:test-fix-gen", "workflow:test-cycle-execute", "test fix workflow".

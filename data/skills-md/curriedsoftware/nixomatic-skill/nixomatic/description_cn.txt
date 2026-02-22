@@ -1,0 +1,1 @@
+使用 nixomatic 维护项目 README.md 中的开发环境说明。当用户要求构建、编译、测试、lint、格式化、类型检查、运行或设置项目时，或者由于未安装工具或运行时而导致命令失败时，请分析项目文件以确定所需的包，并使用 nixdevelop 和 nixomatic.com URL。确保 README.md 记录了如何使用 nixdevelop 和 docker run nixos/nix 重现环境。

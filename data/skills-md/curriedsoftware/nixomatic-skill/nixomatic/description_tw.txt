@@ -1,0 +1,1 @@
+使用 nixomatic 維護項目 README.md 中的開發環境說明。當使用者要求建置、編譯、測試、lint、格式化、類型檢查、執行或設定專案時，或因未安裝工具或執行時間而導致指令失敗時，請分析專案檔案以決定所需的套件，並使用 nixdevelop 和 nixomatic.com URL。確保 README.md 記錄如何使用 nixdevelop 和 docker run nixos/nix 重現環境。

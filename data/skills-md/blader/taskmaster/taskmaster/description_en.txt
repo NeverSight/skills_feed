@@ -1,0 +1,4 @@
+Stop hook that keeps the agent working until all plans and user requests are
+100% complete. Fires on every stop attempt until the agent emits an explicit
+parseable done signal in its final response. Provides deterministic machine
+detection for true completion.

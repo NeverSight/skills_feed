@@ -1,0 +1,7 @@
+Backup e ripristino crittografati per i file dell'area di lavoro di OpenClaw Agent
+(SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md). Usi
+crittografia tar + openssl (AES-256-CBC) e API soul-upload.com.
+Genera automaticamente una nuova password casuale per ogni backup (NON riutilizzare
+password). Da utilizzare quando l'utente deve: (1) eseguire il backup o caricare l'agente
+file dell'area di lavoro, (2) Ripristina o scarica un backup precedente, (3) Elimina
+un backup da un archivio remoto oppure (4) gestire la persistenza dell'agente crittografato.
