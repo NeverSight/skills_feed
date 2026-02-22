@@ -1,0 +1,1 @@
+Lisez le stockage d'un autre contrat directement sans appels asynchrones à l'aide de storage_mapper_from_address. À utiliser lors de la création d'agrégateurs, de contrôleurs ou de tout contrat nécessitant de lire l'état d'autres contrats de même partition sans surcharge d'appel proxy.

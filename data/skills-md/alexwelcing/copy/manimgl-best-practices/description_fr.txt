@@ -1,0 +1,5 @@
+Déclenchez lorsque : (1) l'utilisateur mentionne "manimgl" ou "ManimGL" ou "3b1b manim", (2) le code contient `from manimlib import *`, (3) l'utilisateur exécute les commandes CLI `manimgl`, (4) travaille avec InteractiveScene, self.frame, self.embed(), ShowCreation() ou des modèles spécifiques à ManimGL.
+
+Meilleures pratiques pour ManimGL (version 3Blue1Brown de Grant Sanderson) - Moteur d'animation basé sur OpenGL avec développement interactif. Couvre InteractiveScene, Tex avec t2c, le contrôle du cadre de la caméra, le mode interactif (indicateur -se), le rendu 3D et le flux de travail checkpoint_paste().
+
+PAS pour Manim Community Edition (qui utilise les importations `manim` et la CLI `manim`).

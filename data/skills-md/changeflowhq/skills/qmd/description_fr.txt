@@ -1,0 +1,5 @@
+Moteur de recherche sémantique local pour les bases de connaissances markdown utilisant qmd (tobi/qmd).
+Indexe les fichiers de démarques avec la recherche par mot-clé BM25, les intégrations vectorielles pour la recherche sémantique,
+et requêtes reclassées hybrides. Indexations automatiques sur les modifications de fichiers via les hooks Claude Code et
+actualise les intégrations pendant la nuit via launchd. À utiliser lors de la recherche de documents de projet,
+bases de connaissances, notes de réunion ou toute collection de démarques indexée.

@@ -1,0 +1,1 @@
+Méta-orchestrateur (L0) : lit le tableau kanban, pilote les Stories via le pipeline 300->310->400->500 en parallèle via TeamCreate. Max 3 histoires simultanées. Fusion automatique de squash pour développer sur un PASS de porte de qualité.

@@ -1,0 +1,1 @@
+Écrit les sorties de l'agent dans des fichiers d'étape de thread numérotés. Appelé par les agents une fois le travail du domaine terminé. Mappe le type d’agent aux étapes, met à jour l’état du front-matter et enregistre les métadonnées d’achèvement. L'étape 1 (1-input.md) n'est jamais écrite par cette compétence.

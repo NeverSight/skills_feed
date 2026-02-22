@@ -1,0 +1,15 @@
+Créer un problème GitHub à partir de documents de spécifications : générez automatiquement des problèmes de fonctionnalités structurés à partir des spécifications.
+
+Analyse les documents de spécifications (requirement.md, design.md, tâches.md) dans .specs/{feature}/ et
+génère un problème de fonctionnalité structuré via gh issue create.
+Mieux utilisé avec les spécifications créées par le générateur de spécifications.
+
+Déclencheurs anglais :
+- "Créer un problème à partir de la spécification", "Enregistrer la spécification en tant que problème"
+- "Convertir la spécification en problème GitHub", "Publier la spécification en problème"
+- Après le générateur de spécifications : "Transformez cela en problème"
+
+日本語トリガー :
+- "Problème de problème"
+- 「仕様書からProblème生成」「specをProblèmeに変換」
+- générateur de spécifications

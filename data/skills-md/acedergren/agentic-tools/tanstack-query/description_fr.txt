@@ -1,0 +1,13 @@
+Conseils d'experts TanStack Query v5 - pièges de la migration (modifications avec rupture v4 → v5),
+pièges de performances (boucles de récupération infinies, pièges d'obsolescence) et décision
+frameworks (quand NE PAS utiliser de requêtes, compromis SWR vs React Query).
+
+À utiliser lorsque : (1) débogage des erreurs de migration v4 → v5 (gcTime, isPending, throwOnError),
+(2) boucles de récupération infinies, (3) inadéquations d'hydratation SSR, (4) choisir entre
+React Query vs SWR vs fetch, (5) les modèles de mise à jour optimistes ne fonctionnent pas.
+
+PAS pour la configuration de base (voir la documentation officielle). Se concentre sur des décisions non évidentes et
+modèles qui causent des problèmes de production.
+
+Déclencheurs : React Query, TanStack Query, migration v5, boucle de récupération, données obsolètes,
+Hydratation SSR, invalidation des requêtes, débogage des mises à jour optimistes.
