@@ -1,0 +1,1 @@
+協助為 vvvv gamma 編寫 C# 節點類別 — [ProcessNode] 模式、Update() 方法、輸出參數、引腳配置、更改偵測、無狀態操作節點以及透過 NodeContext 的服務消耗（IFrameClock、遊戲存取、日誌記錄）。在編寫節點類別、新增引腳、實作變更偵測、存取節點建構函式中的服務或建立無狀態實用程式方法時使用。需要[程序集：ImportAsIs]。

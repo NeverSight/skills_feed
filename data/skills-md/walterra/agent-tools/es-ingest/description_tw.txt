@@ -1,0 +1,1 @@
+擷取大型資料檔案 (CSV/JSON) 並將其轉換為 Elasticsearch 索引。對最大 30GB 的檔案進行基於流的處理、跨版本遷移 (ES 8.x ↔ 9.x)、自訂 JavaScript 轉換以及透過轉換重新索引。當您需要在攝取期間將資料載入至 Elasticsearch、遷移索引或轉換資料時使用。
