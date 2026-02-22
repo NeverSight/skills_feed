@@ -1,0 +1,1 @@
+Wird verwendet, wenn die Erschöpfung des Kontextfensters ein Problem darstellt oder wenn eine große Menge an PR-Kommentaren bearbeitet wird. Über eine externe Shell-Schleife wird pro Kommentar eine neue Agentensitzung gestartet. Verwenden Sie für einen sitzungsinternen Ansatz stattdessen pr-review-loop oder copilot-review-loop.
