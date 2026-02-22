@@ -1,12 +1,1 @@
-AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN comme fausse mise en œuvre.
-
-Erkennungsmerkmale (EINES authentique !) :
-- Auftrag <25 heures
-- Keine konkreten Dateinamen/Pfade
-- Vage Verben : besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refactoren, aufraumen, ueberarbeiten
-- Unsichere Sprache : irgendwie, vielleicht, mal eben, schnell, einfach, bisschen, koennte, sollte
-- Fehlende Erfolgskriterien : Kein damit, sodass, weil, um zu
-- Begriffe relative ohne Kontext : schneller, besser, schoener, einfacher
-
-La sortie est structurée en JSON pour la compétence d'architecte d'invite.
-Évasion : mach einfach, keine Rueckfragen, entscheide selbst ueberspringt Klaerung.
+S’active automatiquement sur demandes vagues. Mieux vaut demander une précision que d’implémenter à tort. Indices : demande &lt;25 mots, pas de chemins précis, verbes vagues (optimiser, corriger, améliorer, adapter…), langage incertain (peut-être, un peu, vite…), pas de critères de succès, termes relatifs sans contexte. Produit un JSON structuré pour le skill prompt-architect. Échappement : « fais simple », « pas de questions », « décide toi-même » annule la clarification.
