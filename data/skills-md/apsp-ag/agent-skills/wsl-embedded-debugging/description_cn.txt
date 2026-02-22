@@ -1,0 +1,1 @@
+通过调用拥有 USB/JTAG 访问权限的 Windows 可执行文件（例如“cargo.exe”、“probe-rs.exe”或“openocd.exe”），从 WSL 运行嵌入式构建/闪存/调试工作流程。当代理必须在硬件上重现固件行为、刷新 MCU、收集有限的运行时日志或从 WSL 工作区调试探针连接时使用。

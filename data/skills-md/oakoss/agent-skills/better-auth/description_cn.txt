@@ -1,0 +1,3 @@
+自托管 TypeScript 身份验证框架，具有社交身份验证、2FA、密钥、组织、RBAC 和 15 多个插件。支持 Drizzle/Prisma/Kysely 适配器。 Clerk/Auth.js 的自托管替代方案。
+
+在以下情况下使用：配置身份验证、添加插件、社交 OAuth、多租户 SaaS、具有团队和 RBAC 的组织、双因素身份验证（TOTP/OTP/备份代码）、电子邮件验证、密码重置流程、会话管理、速率限制、CSRF 和 cookie 安全、Expo/mobile、D1 适配器错误、TanStack Start 集成、additionalFields 错误、管理插件、从 NextAuth 迁移、从 Clerk 迁移、从 Supabase Auth 迁移或故障排除身份验证问题。

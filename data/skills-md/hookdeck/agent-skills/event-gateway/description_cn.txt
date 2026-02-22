@@ -1,0 +1,1 @@
+用于接收、路由和传递 Webhook 和事件的 Hookdeck 事件网关的综合指南。涵盖设置、连接、身份验证、本地开发、监控和 API 自动化。在接收 Webhook、设置 Webhook 端点、本地测试 Webhook、配置 Webhook 中继或事件队列、事件路由、Webhook 重试、Webhook 监控、第三方路由、异步 API 或本地 Webhook 开发时使用。对于提供商 webhooks（Stripe、Shopify、Chargebee、GitHub 等），请与 hookdeck/webhook-skills 中的匹配技能一起使用；不仅解析 JSON — 使用提供商 SDK 验证和事件构造（例如 Stripe ConstructionEvent）。

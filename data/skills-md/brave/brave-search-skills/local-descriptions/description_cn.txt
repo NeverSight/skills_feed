@@ -1,0 +1,1 @@
+用于获取 AI 生成的 POI 文本描述。需要从网络搜索中获取 POI ID（使用 result_filter=locations）。返回基于网络搜索上下文的降价描述。每个请求最多 20 个 ID。

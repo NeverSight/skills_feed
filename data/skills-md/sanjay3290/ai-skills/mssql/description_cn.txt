@@ -1,0 +1,1 @@
+对多个 Microsoft SQL Server 数据库执行只读 SQL 查询。在以下情况下使用：(1) 查询 MSSQL/SQL Server 数据库，(2) 探索数据库模式/表，(3) 运行 SELECT 查询进行数据分析，(4) 检查数据库内容。支持多个数据库连接以及智能自动选择的描述。为了安全起见，阻止所有写入操作（INSERT、UPDATE、DELETE、DROP 等）。
