@@ -1,12 +1,1 @@
-AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN als falsch implementieren.
-
-Erkennungsmerkmale (EINES genuegt!):
-- Auftrag <25 Woerter
-- Keine konkreten Dateinamen/Pfade
-- Vage Verben: besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refactoren, aufraumen, ueberarbeiten
-- Unsichere Sprache: irgendwie, vielleicht, mal eben, schnell, einfach, bisschen, koennte, sollte
-- Fehlende Erfolgskriterien: Kein damit, sodass, weil, um zu
-- Relativo Begriffe ohne Kontext: schneller, besser, schoener, einfacher
-
-La salida es STRUKTURIERTES JSON fuer Prompt-Architect Skill.
-Escape: mach einfach, keine Rueckfragen, entscheide selbst ueberspringt Klaerung.
+Se activa automáticamente con encargos vagos. Mejor preguntar de más que implementar mal. Señales: encargo muy corto, sin rutas concretas, verbos vagos (optimizar, mejorar, refactorizar), lenguaje incierto (quizá, un poco, podría), sin criterios de éxito. Salida: JSON estructurado para el skill prompt-architect. Para omitir: «hazlo sin preguntar», «decide tú».

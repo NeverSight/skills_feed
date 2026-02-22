@@ -1,14 +1,1 @@
-项目计划产出工具。通过需求澄清、设计讨论、计划编写，产出可执行的开发计划。
-
-**使用场景：**
-- 需求不明确，需要多轮讨论澄清（Brainstorming 模式）
-- 需求明确，直接编写详细实现计划（Planes de escritura 模式）
-- 为 flujo de trabajo del proyecto 准备可执行的计划文档
-
-**输出：**
-- 计划文档:`docs/plans/001-feature-name.md`（包含设计和实施，根据复杂度决定详细程度）
-
-**触发方式：**
-- "帮我规划 XXX 功能" / "设计 XXX 模块"
-- "我想实现 XXX，但不确定怎么做"
-- "为 XXX 功能编写实现计划"
+Herramienta de planificación de proyecto: clarificación de requisitos, diseño y redacción del plan ejecutable. Modos: (1) requisitos poco claros, discusión en varias rondas; (2) requisitos claros, plan detallado directo; (3) preparar documento para project-workflow. Salida: docs/plans/001-feature-name.md. Activar con «planificar la función X», «diseñar el módulo X», «escribir plan de implementación para X».
