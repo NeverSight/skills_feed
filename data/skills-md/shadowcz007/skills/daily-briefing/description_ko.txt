@@ -1,0 +1,1 @@
+从 mixdao 최신 获取数据 → 用 MiniMax-M2.5 做分类整理(에이전트 루프：至多5组、每组至少3条)并生成分组摘要与每条推荐语 → 按캐시된StoryId 提交推荐语并上传简报到 mixdao。需配置 MIXDAO_API_KEY、ANTHROPIC_API_KEY。自然语言触发示例： 「执行 일일 브리핑」 「做今日 mixdao简报」。

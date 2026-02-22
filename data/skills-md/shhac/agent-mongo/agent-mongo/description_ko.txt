@@ -1,0 +1,6 @@
+AI 에이전트용 읽기 전용 MongoDB CLI입니다. 다음과 같은 경우에 사용하세요:
+- MongoDB 데이터베이스, 컬렉션, 스키마 또는 인덱스 탐색
+- 문서 쿼리(찾기, ID별 가져오기, 개수, 샘플, 고유, 집계)
+- MongoDB 연결 또는 자격 증명 관리
+- 데이터베이스 또는 컬렉션 통계 확인
+트리거: "mongodb", "mongo 쿼리", "mongo 찾기", "mongo 스키마", "mongo 컬렉션", "mongo 데이터베이스", "mongo 연결", "mongo 집계", "쿼리 mongodb", "mongo 통계"

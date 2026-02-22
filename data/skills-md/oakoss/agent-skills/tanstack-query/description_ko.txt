@@ -1,0 +1,3 @@
+React용 TanStack Query v5 서버 상태 관리. 쿼리/변형 패턴, v4에서 v5로의 마이그레이션(객체 구문, gcTime, isPending, keepPreviousData), useMutationState를 통한 낙관적 업데이트, HydrationBoundary를 사용한 SSR/하이드레이션, 무한 쿼리, 오프라인/PWA 지원, throwOnError를 사용한 오류 경계 및 React 19 Suspense 통합을 다룹니다.
+
+데이터 가져오기 구축, 마이그레이션 오류 수정, 수화 불일치 디버깅, 캐싱 전략 구현 또는 변형 구성 시 사용합니다.

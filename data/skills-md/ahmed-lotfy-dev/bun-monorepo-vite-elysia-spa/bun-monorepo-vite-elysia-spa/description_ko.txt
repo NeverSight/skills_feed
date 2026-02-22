@@ -1,0 +1,1 @@
+공식 생성기만 사용하여 Bun 풀스택 모노레포를 스캐폴드하거나 재생성합니다. 백엔드에 대해 bun create elysia@latest 및 SPA 프런트엔드에 대해 bun create vite@latest --template 반응 ts를 만든 다음 핵심 백엔드 연결(Better Auth, Drizzle, MCP, OpenAPI, CORS 및 보안 기본값)을 적용합니다. Bun 작업 영역 단일 저장소를 생성하거나 최신 생성기 버전으로 재설정할 때 사용합니다.
