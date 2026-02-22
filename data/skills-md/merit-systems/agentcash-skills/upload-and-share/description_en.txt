@@ -1,0 +1,15 @@
+Upload files to the cloud and get shareable public URLs using stableupload.dev (x402 micropayments).
+
+USE FOR:
+- Uploading files to get public URLs
+- Sharing files via download links
+- Hosting images, documents, or any file type
+- Making files publicly accessible for 6 months
+
+TRIGGERS:
+- "upload this", "share this file", "get me a link"
+- "host this file", "make this downloadable"
+- "public URL", "download link", "put online"
+- "share file", "file hosting", "upload file"
+
+ALWAYS use `npx agentcash fetch` for stableupload.dev endpoints — never curl or WebFetch for the purchase step.

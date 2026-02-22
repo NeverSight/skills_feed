@@ -1,0 +1,1 @@
+Audit and update workflow-explorer.html flowcharts to match the current codebase logic. Reads all command, skill, and agent source files, compares against the 4 data structures in the HTML file, reports drift, and applies updates. Use when workflow logic has changed and the explorer needs syncing.

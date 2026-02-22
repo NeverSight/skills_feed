@@ -1,0 +1,15 @@
+Carica file sul cloud e ottieni URL pubblici condivisibili utilizzando stableupload.dev (micropagamenti x402).
+
+UTILIZZARE PER:
+- Caricamento di file per ottenere URL pubblici
+- Condivisione di file tramite collegamenti per il download
+- Hosting di immagini, documenti o qualsiasi tipo di file
+- Rendere i file accessibili pubblicamente per 6 mesi
+
+TRIGGER:
+- "carica questo", "condividi questo file", "dammi un collegamento"
+- "ospita questo file", "rendilo scaricabile"
+- "URL pubblico", "link per il download", "metti online"
+- "condividi file", "hosting file", "carica file"
+
+Utilizza SEMPRE `npx agentcash fetch` per gli endpoint stableupload.dev: mai curl o WebFetch per la fase di acquisto.

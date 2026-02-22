@@ -1,0 +1,23 @@
+Supprimez les profils de réseaux sociaux, les publications, les commentaires, les abonnés et effectuez des recherches sur 6 plateformes via x402.
+
+UTILISER POUR :
+- Obtenir des profils TikTok, Instagram, X/Twitter, Facebook, Reddit ou LinkedIn
+- Récupération des publications, des histoires, des faits saillants ou des vidéos d'un utilisateur
+- Obtenir des commentaires, des réponses et des réactions sur les publications
+- Liste des abonnés et suivi pour n'importe quel compte
+- Recherche de publications, hashtags, profils, emplois et annonces sur toutes les plateformes
+- Recherche et veille multiplateforme sur les réseaux sociaux
+
+DÉCLENCHEURS :
+- "tiktok", "instagram", "facebook", "profil LinkedIn", "posts LinkedIn"
+- "obtenir des abonnés", "qui suit", "liste suivante"
+- "gratter le profil", "obtenir des publications de", "données de réseaux sociaux"
+- "histoires instagram", "vidéos tiktok", "page facebook"
+- "entreprise LinkedIn", "emplois LinkedIn", "annonces LinkedIn"
+- "multiplateforme", "recherche sur les réseaux sociaux"
+
+IMPORTANT : StableSocial utilise un flux asynchrone en deux étapes. Étape 1 : POST déclenche la collecte de données (payant, 0,06 $). Étape 2 : Sondez GET /api/jobs?token=... jusqu'à la fin (gratuit). Tous les points de terminaison coûtent 0,06 $ par appel.
+
+Utilisez « npx agentcash fetch » pour les déclencheurs POST payants. Utilisez `npx agentcash fetch` pour un sondage GET gratuit.
+
+IMPORTANT : utilisez les chemins de terminaison exacts des tableaux de référence rapide ci-dessous. Tous les chemins incluent un préfixe de plate-forme (par exemple `https://stablesocial.dev/api/tiktok/...`).

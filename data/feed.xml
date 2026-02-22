@@ -4,573 +4,662 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sat, 21 Feb 2026 02:30:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2026 18:44:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[[Daily] Skills.sh snapshot (2026-02-21)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:snapshot</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:snapshot</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 31008
-Trending skills: 11310
-Hot skills: 1010
-Top All Time: find-skills (279273)
-Top Trending: azure-storage (14205)
-Top Hot: agent-browser (133)]]></description>
+All Time skills: 31286
+Trending skills: 12304
+Hot skills: 1530
+Top All Time: find-skills (284305)
+Top Trending: find-skills (7164)
+Top Hot: remotion-render (496)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#50): executing-plans]]></title>
-            <link>https://skills.sh/obra/superpowers/executing-plans</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topAllTime:new:obra/superpowers/executing-plans</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #50
-Installs: 10469
-Source: obra/superpowers
-Description: Use when you have a written implementation plan to execute in a separate session with review checkpoints]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#1): agent-browser]]></title>
-            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #1
-Installs: 133
-Source: vercel-labs/agent-browser
-Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#10): responsive-design]]></title>
-            <link>https://skills.sh/wshobson/agents/responsive-design</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:wshobson/agents/responsive-design</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): newsletter-curation]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/newsletter-curation</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/newsletter-curation</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 10
-Source: wshobson/agents
-Description: Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.]]></description>
+Installs: 23
+Source: inference-sh-6/skills
+Description: Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, commentary style, and sending cadence. Use for: email newsletters, link roundups, weekly digests, curated content, creator newsletters. Triggers: newsletter, email newsletter, newsletter curation, weekly digest, link roundup, curated newsletter, newsletter writing, newsletter format, subscriber growth, newsletter strategy, content curation, newsletter template]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): sandbox-agent]]></title>
-            <link>https://skills.sh/rivet-dev/skills/sandbox-agent</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:rivet-dev/skills/sandbox-agent</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #11
-Installs: 8
-Source: rivet-dev/skills
-Description: Deploy, configure, and integrate Sandbox Agent - a universal API for orchestrating AI coding agents (Claude Code, Codex, OpenCode, Amp) in sandboxed environments. Use when setting up sandbox-agent server locally or in cloud sandboxes (E2B, Daytona, Docker), creating and managing agent sessions via SDK or API, streaming agent events and handling human-in-the-loop interactions, building chat UIs for coding agents, or understanding the universal schema for agent responses.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#12): ai-elements]]></title>
-            <link>https://skills.sh/vercel/ai-elements/ai-elements</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:vercel/ai-elements/ai-elements</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #12
-Installs: 12
-Source: vercel/ai-elements
-Description: Create new AI chat interface components for the ai-elements library following established composable patterns, shadcn/ui integration, and Vercel AI SDK conventions. Use when creating new components in packages/elements/src or when the user asks to add a new component to ai-elements.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#13): seedance2-api]]></title>
-            <link>https://skills.sh/hexiaochun/seedance2-api/seedance2-api</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:hexiaochun/seedance2-api/seedance2-api</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 68
-Source: hexiaochun/seedance2-api
-Description: Out-of-the-box Seedance 2.0 API skill — just one API key to generate AI videos. Builds storyboards, generates reference images with Seedream 4.5, submits video tasks, and polls results. Supports both MCP and standalone Python script mode. Use when the user mentions seedance, AI video, storyboard, or video generation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#14): systematic-debugging]]></title>
-            <link>https://skills.sh/obra/superpowers/systematic-debugging</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:obra/superpowers/systematic-debugging</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 22
-Source: obra/superpowers
-Description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#15): competitor-alternatives]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/competitor-alternatives</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): remotion-best-practices]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:remotion-dev/skills/remotion-best-practices</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 14
-Source: coreyhaines31/marketingskills
-Description: When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.]]></description>
+Installs: 104
+Source: remotion-dev/skills
+Description: Best practices for Remotion - Video creation in React]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): social-content]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/social-content</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/social-content</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): og-image-design]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/og-image-design</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/og-image-design</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 14
-Source: coreyhaines31/marketingskills
-Description: When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#17): swift-concurrency]]></title>
-            <link>https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:avdlee/swift-concurrency-agent-skill/swift-concurrency</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #17
-Installs: 6
-Source: avdlee/swift-concurrency-agent-skill
-Description: Expert guidance on Swift Concurrency best practices, patterns, and implementation. Use when developers mention: (1) Swift Concurrency, async/await, actors, or tasks, (2) "use Swift Concurrency" or "modern concurrency patterns", (3) migrating to Swift 6, (4) data races or thread safety issues, (5) refactoring closures to async/await, (6) @MainActor, Sendable, or actor isolation, (7) concurrent code architecture or performance optimization, (8) concurrency-related linter warnings (SwiftLint or similar; e.g. async_without_await, Sendable/actor isolation/MainActor lint).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#18): planning-with-files]]></title>
-            <link>https://skills.sh/othmanadi/planning-with-files/planning-with-files</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:othmanadi/planning-with-files/planning-with-files</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #18
-Installs: 5
-Source: othmanadi/planning-with-files
-Description: Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls. Now with automatic session recovery after /clear.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#19): requesting-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:obra/superpowers/requesting-code-review</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #19
 Installs: 19
-Source: obra/superpowers
-Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
+Source: inference-sh-6/skills
+Description: Open Graph and social sharing image design with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn previews, and dynamic generation. Use for: social sharing images, blog thumbnails, link previews, social cards. Triggers: og image, open graph, social sharing image, twitter card, social card, link preview image, og meta, sharing preview, social thumbnail, meta image, og:image, twitter:image, linkedin preview]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): vercel-react-native-skills]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:vercel-labs/agent-skills/vercel-react-native-skills</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 50
-Source: vercel-labs/agent-skills
-Description: React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): using-git-worktrees]]></title>
-            <link>https://skills.sh/obra/superpowers/using-git-worktrees</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:obra/superpowers/using-git-worktrees</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): character-design-sheet]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/character-design-sheet</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/character-design-sheet</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 15
-Source: obra/superpowers
-Description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification]]></description>
+Installs: 19
+Source: inference-sh-6/skills
+Description: Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character design, character sheet, character consistency, character reference, turnaround sheet, expression sheet, character art, consistent character, character concept, reference sheet, character creation, oc design, character bible]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): react:components]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/react:components</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:google-labs-code/stitch-skills/react:components</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 14
-Source: google-labs-code/stitch-skills
-Description: Converts Stitch designs into modular Vite and React components using system-level networking and AST-based validation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): enhance-prompt]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/enhance-prompt</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:google-labs-code/stitch-skills/enhance-prompt</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 14
-Source: google-labs-code/stitch-skills
-Description: Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#23): pricing-strategy]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/pricing-strategy</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/pricing-strategy</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): ai-avatar-video]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/ai-avatar-video</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 14
-Source: coreyhaines31/marketingskills
-Description: When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy.]]></description>
+Installs: 18
+Source: inference-sh-6/skills
+Description: Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, OmniHuman 1.0, Fabric 1.0, PixVerse Lipsync. Capabilities: audio-driven avatars, lipsync videos, talking head generation, virtual presenters. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): schema-markup]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/schema-markup</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/schema-markup</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): flux-image]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/flux-image</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/flux-image</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 14
-Source: coreyhaines31/marketingskills
-Description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," or "breadcrumb schema." For broader SEO issues, see seo-audit.]]></description>
+Installs: 17
+Source: inference-sh-6/skills
+Description: Generate images with FLUX models (Black Forest Labs) via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA with custom style adaptation. Capabilities: text-to-image, image-to-image, LoRA fine-tuning, custom styles. Triggers: flux, flux.2, flux dev, flux schnell, flux pro, black forest labs, flux image, flux ai, flux model, flux lora]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): product-marketing-context]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/product-marketing-context</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/product-marketing-context</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 13
-Source: coreyhaines31/marketingskills
-Description: When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Creates `.claude/product-marketing-context.md` that other marketing skills reference.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): cold-email]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/cold-email</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/cold-email</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 11
-Source: coreyhaines31/marketingskills
-Description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#27): churn-prevention]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/churn-prevention</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/churn-prevention</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #27
-Installs: 11
-Source: coreyhaines31/marketingskills
-Description: When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' or 'involuntary churn.' This skill covers voluntary churn (cancel flows, save offers, exit surveys) and involuntary churn (dunning, payment recovery). For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): swift-testing-expert]]></title>
-            <link>https://skills.sh/avdlee/swift-testing-agent-skill/swift-testing-expert</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:avdlee/swift-testing-agent-skill/swift-testing-expert</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 5
-Source: avdlee/swift-testing-agent-skill
-Description: Expert guidance for Swift Testing: test structure, #expect/#require macros, traits and tags, parameterized tests, test plans, parallel execution, async waiting patterns, and XCTest migration. Use when writing new Swift tests, modernizing XCTest suites, debugging flaky tests, or improving test quality and maintainability in Apple-platform or Swift server projects.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): json-canvas]]></title>
-            <link>https://skills.sh/kepano/obsidian-skills/json-canvas</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:kepano/obsidian-skills/json-canvas</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 4
-Source: kepano/obsidian-skills
-Description: Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): gen-paylink-govilo]]></title>
-            <link>https://skills.sh/hau823823/gen-paylink-govilo/gen-paylink-govilo</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:hau823823/gen-paylink-govilo/gen-paylink-govilo</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): azure-messaging]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:microsoft/github-copilot-for-azure/azure-messaging</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 10
-Source: hau823823/gen-paylink-govilo
-Description: Upload files to Govilo and generate unlock links via Bot API. Use when: (1) Creating a Govilo unlock link from a ZIP, folder, or individual files, (2) Automating file upload to Govilo R2 storage with presigned URLs, (3) Managing Govilo Bot API interactions (presign → upload → create item). Requires GOVILO_API_KEY and SELLER_ADDRESS env vars. If missing, guides user to register at https://govilo.xyz/.]]></description>
+Installs: 206
+Source: microsoft/github-copilot-for-azure
+Description: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. USE FOR: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter DO NOT USE FOR: creating Event Hub or Service Bus resources (use azure-prepare), monitoring metrics (use azure-observability), cost analysis (use azure-cost-optimization)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): banner-creator]]></title>
-            <link>https://skills.sh/resciencelab/opc-skills/banner-creator</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:resciencelab/opc-skills/banner-creator</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): background-removal]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/background-removal</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/background-removal</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 4
-Source: resciencelab/opc-skills
-Description: Create banners using AI image generation. Discuss format/style, generate variations, iterate with user feedback, crop to target ratio. Use when user wants to create a banner, header, hero image, or cover image.]]></description>
+Installs: 16
+Source: inference-sh-6/skills
+Description: Remove backgrounds from images with BiRefNet via inference.sh CLI. Model: BiRefNet (high accuracy background removal). Use for: product photos, portraits, e-commerce, transparent PNGs, photo editing. Triggers: remove background, background removal, remove bg, transparent background, cut out image, background remover, rembg, product photo editing, cutout, transparent png, bg removal, photo cutout]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): react-ui-patterns]]></title>
-            <link>https://skills.sh/sickn33/antigravity-awesome-skills/react-ui-patterns</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:sickn33/antigravity-awesome-skills/react-ui-patterns</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): prompt-engineering]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/prompt-engineering</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/prompt-engineering</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 4
-Source: sickn33/antigravity-awesome-skills
-Description: Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.]]></description>
+Installs: 16
+Source: inference-sh-6/skills
+Description: Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, system prompts, negative prompts. Models: Claude, GPT-4, Gemini, FLUX, Veo, Stable Diffusion prompting. Use for: better AI outputs, consistent results, complex tasks, optimization. Triggers: prompt engineering, how to prompt, better prompts, prompt tips, prompting guide, llm prompting, image prompt, ai prompting, prompt optimization, prompt template, prompt structure, effective prompts, prompt techniques]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): logo-creator]]></title>
-            <link>https://skills.sh/resciencelab/opc-skills/logo-creator</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:resciencelab/opc-skills/logo-creator</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 4
-Source: resciencelab/opc-skills
-Description: Create logos using AI image generation. Discuss style/ratio, generate variations, iterate with user feedback, crop, remove background, and export as SVG. Use when user wants to create a logo, icon, favicon, or brand mark.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#33): deploy]]></title>
-            <link>https://skills.sh/railwayapp/railway-skills/deploy</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:railwayapp/railway-skills/deploy</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 4
-Source: railwayapp/railway-skills
-Description: This skill should be used when the user wants to push code to Railway, says "railway up", "deploy", "deploy to railway", "ship", or "push". For initial setup or creating services, use new skill. For Docker images, use environment skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): nanobanana]]></title>
-            <link>https://skills.sh/resciencelab/opc-skills/nanobanana</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:resciencelab/opc-skills/nanobanana</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): text-to-speech]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/text-to-speech</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/text-to-speech</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 4
-Source: resciencelab/opc-skills
-Description: Generate and edit images using Google Gemini 3 Pro Image (Nano Banana Pro). Supports text-to-image, image editing, various aspect ratios, and high-resolution output (2K/4K).]]></description>
+Installs: 15
+Source: inference-sh-6/skills
+Description: Convert text to natural speech with DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI. Models: DIA TTS (conversational), Kokoro TTS, Chatterbox, Higgs Audio, VibeVoice (podcasts). Capabilities: text-to-speech, voice cloning, multi-speaker dialogue, podcast generation, expressive speech. Use for: voiceovers, audiobooks, podcasts, accessibility, video narration, IVR, voice assistants. Triggers: text to speech, tts, voice generation, ai voice, speech synthesis, voice over, generate speech, ai narrator, voice cloning, text to audio, elevenlabs alternative, voice ai, ai voiceover, speech generator, natural voice]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): reddit]]></title>
-            <link>https://skills.sh/resciencelab/opc-skills/reddit</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:resciencelab/opc-skills/reddit</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): ai-social-media-content]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/ai-social-media-content</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/ai-social-media-content</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 4
-Source: resciencelab/opc-skills
-Description: Search and retrieve content from Reddit. Get posts, comments, subreddit info, and user profiles via the public JSON API.]]></description>
+Installs: 15
+Source: inference-sh-6/skills
+Description: Create AI-powered social media content for TikTok, Instagram, YouTube, Twitter/X. Generate: images, videos, reels, shorts, thumbnails, captions, hashtags. Tools: FLUX, Veo, Seedance, Wan, Kokoro TTS, Claude for copywriting. Use for: content creators, social media managers, influencers, brands. Triggers: social media content, tiktok, instagram reels, youtube shorts, twitter post, content creator, ai influencer, social content, reels, shorts, viral content, thumbnail generator, caption generator, hashtag generator, ugc content]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): test-driven-development]]></title>
-            <link>https://skills.sh/obra/superpowers/test-driven-development</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:obra/superpowers/test-driven-development</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 17
-Source: obra/superpowers
-Description: Use when implementing any feature or bugfix, before writing implementation code]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): analytics-tracking]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/analytics-tracking</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/analytics-tracking</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 14
-Source: coreyhaines31/marketingskills
-Description: When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," or "tracking plan." For A/B test measurement, see ab-test-setup.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): dispatching-parallel-agents]]></title>
-            <link>https://skills.sh/obra/superpowers/dispatching-parallel-agents</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:obra/superpowers/dispatching-parallel-agents</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): email-design]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/email-design</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/email-design</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 13
-Source: obra/superpowers
-Description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies]]></description>
+Installs: 15
+Source: inference-sh-6/skills
+Description: Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails, transactional templates, and mobile optimization. Use for: email marketing, newsletter design, drip campaigns, email templates, transactional emails. Triggers: email design, email template, email marketing, newsletter design, email layout, email campaign, drip campaign, welcome email, promotional email, transactional email, email subject line, email header image, email banner]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): finishing-a-development-branch]]></title>
-            <link>https://skills.sh/obra/superpowers/finishing-a-development-branch</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:obra/superpowers/finishing-a-development-branch</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): social-media-carousel]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/social-media-carousel</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/social-media-carousel</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 13
-Source: obra/superpowers
-Description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup]]></description>
+Installs: 15
+Source: inference-sh-6/skills
+Description: Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X with layout rules and hooks. Covers slide structure, text hierarchy, swipe psychology, and platform-specific specs. Use for: carousel posts, Instagram carousels, LinkedIn carousels, slide posts, educational content. Triggers: carousel, instagram carousel, linkedin carousel, slide post, carousel design, swipe post, multi-image post, carousel template, educational carousel, carousel content, instagram slides, linkedin slides]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): copywriting]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/copywriting</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/copywriting</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): ai-voice-cloning]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/ai-voice-cloning</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/ai-voice-cloning</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 27
+Rank: #40
+Installs: 14
+Source: inference-sh-6/skills
+Description: AI voice generation, text-to-speech, and voice synthesis via inference.sh CLI. Models: Kokoro TTS, DIA, Chatterbox, Higgs, VibeVoice for natural speech. Capabilities: multiple voices, emotions, accents, long-form narration, conversation. Use for: voiceovers, audiobooks, podcasts, video narration, accessibility. Triggers: voice cloning, tts, text to speech, ai voice, voice generation, voice synthesis, voice over, narration, speech synthesis, ai narrator, elevenlabs alternative, natural voice, realistic speech, voice ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): related-skill]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/related-skill</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/related-skill</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 14
+Source: inference-sh-6/skills
+Description: Discover and install related skills from inference.sh skill registry. Helps find complementary skills for your AI workflow. Use for: skill discovery, workflow expansion, capability exploration. Triggers: related skills, find skills, skill discovery, complementary skills, expand workflow, more capabilities, similar skills, skill suggestions]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): ai-marketing-videos]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/ai-marketing-videos</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/ai-marketing-videos</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 14
+Source: inference-sh-6/skills
+Description: Create AI marketing videos for ads, promos, product launches, and brand content. Models: Veo, Seedance, Wan, FLUX for visuals, Kokoro for voiceover. Types: product demos, testimonials, explainers, social ads, brand videos. Use for: Facebook ads, YouTube ads, product launches, brand awareness. Triggers: marketing video, ad video, promo video, commercial, brand video, product video, explainer video, ad creative, video ad, facebook ad video, youtube ad, instagram ad, tiktok ad, promotional video, launch video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): product-changelog]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/product-changelog</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:new:inference-sh-6/skills/product-changelog</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 13
+Source: inference-sh-6/skills
+Description: Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution. Use for: release notes, changelogs, product updates, feature announcements, versioning. Triggers: changelog, release notes, product update, version notes, what's new, feature announcement, product changelog, update log, release announcement, version release, product release, ship notes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#22): azure-messaging]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:new:microsoft/github-copilot-for-azure/azure-messaging</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #22
+Installs: 4015
+Source: microsoft/github-copilot-for-azure
+Description: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. USE FOR: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter DO NOT USE FOR: creating Event Hub or Service Bus resources (use azure-prepare), monitoring metrics (use azure-observability), cost analysis (use azure-cost-optimization)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): docx]]></title>
+            <link>https://skills.sh/anthropics/skills/docx</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:new:anthropics/skills/docx</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 390
+Source: anthropics/skills
+Description: Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank down (17 → 35): copywriting]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/copywriting</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topAllTime:rank:coreyhaines31/marketingskills/copywriting</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #17
+Current rank: #35
+Delta: -18
+Installs: 17723 (prev 17550)
 Source: coreyhaines31/marketingskills
 Description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," or "CTA copy." For email copy, see email-sequence. For popup copy, see popup-cro.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): copy-editing]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/copy-editing</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/copy-editing</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 12
-Source: coreyhaines31/marketingskills
-Description: When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.]]></description>
+            <title><![CDATA[[All Time] Rank down (18 → 36): next-best-practices]]></title>
+            <link>https://skills.sh/vercel-labs/next-skills/next-best-practices</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topAllTime:rank:vercel-labs/next-skills/next-best-practices</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #18
+Current rank: #36
+Delta: -18
+Installs: 17259 (prev 17062)
+Source: vercel-labs/next-skills
+Description: Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): form-cro]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/form-cro</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/form-cro</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 12
-Source: coreyhaines31/marketingskills
-Description: When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fields," "form completion rate," or "contact form." For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.]]></description>
+            <title><![CDATA[[Hot] Rank down (11 → 29): speech-to-text]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/speech-to-text</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/speech-to-text</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #11
+Current rank: #29
+Delta: -18
+Installs: 16 (prev 24)
+Source: inference-sh-6/skills
+Description: Transcribe audio to text with Whisper models via inference.sh CLI. Models: Fast Whisper Large V3, Whisper V3 Large. Capabilities: transcription, translation, multi-language, timestamps. Use for: meeting transcription, subtitles, podcast transcripts, voice notes. Triggers: speech to text, transcription, whisper, audio to text, transcribe audio, voice to text, stt, automatic transcription, subtitles generation, transcribe meeting, audio transcription, whisper ai]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): ad-creative]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/ad-creative</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:coreyhaines31/marketingskills/ad-creative</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 11
-Source: coreyhaines31/marketingskills
-Description: When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' or 'ad performance optimization.' This skill covers generating ad creative at scale, iterating based on performance data, and enforcing platform character limits. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.]]></description>
+            <title><![CDATA[[Hot] Rank down (21 → 49): google-veo]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/google-veo</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/google-veo</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #21
+Current rank: #49
+Delta: -28
+Installs: 13 (prev 20)
+Source: inference-sh-6/skills
+Description: Generate videos with Google Veo models via inference.sh CLI. Models: Veo 3.1, Veo 3.1 Fast, Veo 3, Veo 3 Fast, Veo 2. Capabilities: text-to-video, cinematic output, high quality video generation. Triggers: veo, google veo, veo 3, veo 2, veo 3.1, vertex ai video, google video generation, google video ai, veo model, veo video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): skill-creator]]></title>
-            <link>https://skills.sh/vercel-labs/agent-browser/skill-creator</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:vercel-labs/agent-browser/skill-creator</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 8
-Source: vercel-labs/agent-browser
-Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
+            <title><![CDATA[[Hot] Rank down (28 → 47): data-visualization]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/data-visualization</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/data-visualization</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #28
+Current rank: #47
+Delta: -19
+Installs: 13 (prev 18)
+Source: inference-sh-6/skills
+Description: Data visualization with chart selection, color theory, and annotation best practices. Covers chart types (bar, line, scatter, heatmap), axes rules, and storytelling with data. Use for: charts, graphs, dashboards, reports, presentations, infographics, data stories. Triggers: data visualization, chart, graph, data chart, bar chart, line chart, scatter plot, data viz, visualization, dashboard chart, infographic data, data presentation, chart design, plot, heatmap, pie chart alternative]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): baoyu-image-gen]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:jimliu/baoyu-skills/baoyu-image-gen</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 6
-Source: jimliu/baoyu-skills
-Description: AI image generation with OpenAI and Google APIs. Supports text-to-image, reference images, aspect ratios, and parallel generation (recommended 4 concurrent subagents). Use when user asks to generate, create, or draw images.]]></description>
+            <title><![CDATA[[Hot] Rank down (3 → 6): twitter-automation]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/twitter-automation</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/twitter-automation</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #6
+Delta: -3
+Installs: 66 (prev 84)
+Source: inference-sh-6/skills
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): release-skills]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/release-skills</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:jimliu/baoyu-skills/release-skills</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 6
-Source: jimliu/baoyu-skills
-Description: Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says "release", "发布", "new version", "bump version", "push", "推送".]]></description>
+            <title><![CDATA[[Hot] Rank down (36 → 50): stitch-loop]]></title>
+            <link>https://skills.sh/google-labs-code/stitch-skills/stitch-loop</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:google-labs-code/stitch-skills/stitch-loop</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #36
+Current rank: #50
+Delta: -14
+Installs: 25 (prev 23)
+Source: google-labs-code/stitch-skills
+Description: Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): baoyu-format-markdown]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-format-markdown</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:jimliu/baoyu-skills/baoyu-format-markdown</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 6
-Source: jimliu/baoyu-skills
-Description: Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to "format markdown", "beautify article", "add formatting", or improve article layout. Outputs to {filename}-formatted.md.]]></description>
+            <title><![CDATA[[Hot] Rank down (6 → 7): audit-website]]></title>
+            <link>https://skills.sh/squirrelscan/skills/audit-website</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:squirrelscan/skills/audit-website</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #6
+Current rank: #7
+Delta: -1
+Installs: 64 (prev 65)
+Source: squirrelscan/skills
+Description: Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): baoyu-cover-image]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:jimliu/baoyu-skills/baoyu-cover-image</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 6
-Source: jimliu/baoyu-skills
-Description: Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 9 color palettes and 6 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to "generate cover image", "create article cover", "make cover", or mentions "封面图".]]></description>
+            <title><![CDATA[[Hot] Rank down (7 → 44): javascript-sdk]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/javascript-sdk</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/javascript-sdk</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #7
+Current rank: #44
+Delta: -37
+Installs: 14 (prev 33)
+Source: inference-sh-6/skills
+Description: JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaScript integration, TypeScript, Node.js, React, Next.js, frontend apps. Triggers: javascript sdk, typescript sdk, npm install, node.js api, js client, react ai, next.js ai, frontend sdk, @inferencesh/sdk, typescript agent, browser sdk, js integration]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): baoyu-danger-gemini-web]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-danger-gemini-web</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:jimliu/baoyu-skills/baoyu-danger-gemini-web</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 6
-Source: jimliu/baoyu-skills
-Description: Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests "generate image with Gemini", "Gemini text generation", or needs vision-capable AI generation.]]></description>
+            <title><![CDATA[[Hot] Rank down (8 → 17): agent-ui]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/agent-ui</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/agent-ui</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #8
+Current rank: #17
+Delta: -9
+Installs: 19 (prev 28)
+Source: inference-sh-6/skills
+Description: name: agent-ui]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): baoyu-comic]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-comic</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:jimliu/baoyu-skills/baoyu-comic</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 6
-Source: jimliu/baoyu-skills
-Description: Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create "知识漫画", "教育漫画", "biography comic", "tutorial comic", or "Logicomix-style comic".]]></description>
+            <title><![CDATA[[Hot] Rank down (9 → 21): web-search]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/web-search</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/web-search</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #9
+Current rank: #21
+Delta: -12
+Installs: 18 (prev 26)
+Source: inference-sh-6/skills
+Description: Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): rivetkit]]></title>
-            <link>https://skills.sh/rivet-dev/skills/rivetkit</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:rivet-dev/skills/rivetkit</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 8
-Source: rivet-dev/skills
-Description: RivetKit backend and Rivet Actor runtime guidance. Use for building, modifying, debugging, or testing Rivet Actors, registries, serverless/runner modes, deployment, or actor-based workflows.]]></description>
+            <title><![CDATA[[Hot] Rank up (19 → 13): tools-ui]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/tools-ui</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/tools-ui</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #19
+Current rank: #13
+Delta: +6
+Installs: 21 (prev 20)
+Source: inference-sh-6/skills
+Description: name: tools-ui]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): baoyu-compress-image]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-compress-image</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:jimliu/baoyu-skills/baoyu-compress-image</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 6
-Source: jimliu/baoyu-skills
-Description: Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to "compress image", "optimize image", "convert to webp", or reduce image file size.]]></description>
+            <title><![CDATA[[Hot] Rank up (20 → 14): widgets-ui]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/widgets-ui</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/widgets-ui</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #20
+Current rank: #14
+Delta: +6
+Installs: 21 (prev 20)
+Source: inference-sh-6/skills
+Description: name: widgets-ui]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): rivetkit-client-react]]></title>
-            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-react</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:rivet-dev/skills/rivetkit-client-react</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 8
-Source: rivet-dev/skills
-Description: RivetKit React client guidance. Use for React apps that connect to Rivet Actors with @rivetkit/react, create hooks with createRivetKit, or manage realtime state with useActor.]]></description>
+            <title><![CDATA[[Hot] Rank up (23 → 8): python-sdk]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/python-sdk</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/python-sdk</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #23
+Current rank: #8
+Delta: +15
+Installs: 26 (prev 19)
+Source: inference-sh-6/skills
+Description: Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Python integration, AI apps, agent development, RAG pipelines, automation. Triggers: python sdk, inferencesh, pip install, python api, python client, async inference, python agent, tool builder python, programmatic ai, python integration, sdk python]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): rivetkit-client-swift]]></title>
-            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-swift</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:rivet-dev/skills/rivetkit-client-swift</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 8
-Source: rivet-dev/skills
-Description: RivetKit Swift client guidance. Use for Swift clients that connect to Rivet Actors with RivetKitClient, create actor handles, call actions, or manage connections.]]></description>
+            <title><![CDATA[[Hot] Rank up (31 → 9): chat-ui]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/chat-ui</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/chat-ui</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #31
+Current rank: #9
+Delta: +22
+Installs: 24 (prev 16)
+Source: inference-sh-6/skills
+Description: name: chat-ui]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): rivetkit-client-swiftui]]></title>
-            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-swiftui</link>
-            <guid isPermaLink="false">2026-02-21T02:30:50.845Z:topHot:new:rivet-dev/skills/rivetkit-client-swiftui</guid>
-            <pubDate>Sat, 21 Feb 2026 02:30:50 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 8
-Source: rivet-dev/skills
-Description: RivetKit SwiftUI client guidance. Use for SwiftUI apps that connect to Rivet Actors with RivetKitSwiftUI, @Actor, rivetKit view modifiers, and SwiftUI bindings.]]></description>
+            <title><![CDATA[[Hot] Rank up (32 → 11): competitor-teardown]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/competitor-teardown</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/competitor-teardown</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #32
+Current rank: #11
+Delta: +21
+Installs: 23 (prev 16)
+Source: inference-sh-6/skills
+Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (33 → 22): explainer-video-guide]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/explainer-video-guide</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/explainer-video-guide</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #33
+Current rank: #22
+Delta: +11
+Installs: 18 (prev 16)
+Source: inference-sh-6/skills
+Description: Explainer video production guide: scripting, voiceover, visuals, and assembly. Covers script formulas, pacing rules, scene planning, and multi-tool pipelines. Use for: product demos, how-it-works videos, onboarding videos, social explainers. Triggers: explainer video, how to make explainer, product video, demo video, video production, video script, animated explainer, product demo video, tutorial video, onboarding video, walkthrough video, video pipeline]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (35 → 19): llm-models]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/llm-models</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/llm-models</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #35
+Current rank: #19
+Delta: +16
+Installs: 19 (prev 16)
+Source: inference-sh-6/skills
+Description: Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI using OpenRouter. Models: Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Gemini 3 Pro, Kimi K2, GLM-4.6, Intellect 3. One API for all models with automatic fallback and cost optimization. Use for: AI assistants, code generation, reasoning, agents, chat, content generation. Triggers: claude api, openrouter, llm api, claude sonnet, claude opus, gemini api, kimi, language model, gpt alternative, anthropic api, ai model api, llm access, chat api, claude alternative, openai alternative]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (38 → 27): ai-automation-workflows]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/ai-automation-workflows</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/ai-automation-workflows</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #38
+Current rank: #27
+Delta: +11
+Installs: 16 (prev 15)
+Source: inference-sh-6/skills
+Description: Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event-driven pipelines, agent loops. Tools: inference.sh CLI, bash scripting, Python SDK, webhook integration. Use for: content automation, data processing, monitoring, scheduled generation. Triggers: ai automation, workflow automation, batch processing, ai pipeline, automated content, scheduled ai, ai cron, ai batch job, automated generation, ai workflow, content at scale, automation script, ai orchestration]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (39 → 18): app-store-screenshots]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/app-store-screenshots</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/app-store-screenshots</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #39
+Current rank: #18
+Delta: +21
+Installs: 19 (prev 15)
+Source: inference-sh-6/skills
+Description: App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app store optimization, play store screenshots, app preview, app listing, ios screenshots, android screenshots, app store images, app mockup, device mockup, app gallery, store listing]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (44 → 33): ai-content-pipeline]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/ai-content-pipeline</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/ai-content-pipeline</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #44
+Current rank: #33
+Delta: +11
+Installs: 15 (prev 14)
+Source: inference-sh-6/skills
+Description: Build multi-step AI content creation pipelines combining image, video, audio, and text. Workflow examples: generate image -> animate -> add voiceover -> merge with music. Tools: FLUX, Veo, Kokoro TTS, OmniHuman, media merger, upscaling. Use for: YouTube videos, social media content, marketing materials, automated content. Triggers: content pipeline, ai workflow, content creation, multi-step ai, content automation, ai video workflow, generate and edit, ai content factory, automated content creation, ai production pipeline, media pipeline, content at scale]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (48 → 28): landing-page-design]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/landing-page-design</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/landing-page-design</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #48
+Current rank: #28
+Delta: +20
+Installs: 16 (prev 13)
+Source: inference-sh-6/skills
+Description: Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketing, conversion optimization. Triggers: landing page, hero section, above the fold, conversion optimization, landing page design, cta button, hero image, landing page layout, saas landing page, product page design, conversion rate, landing page best practices]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (50 → 37): ai-rag-pipeline]]></title>
+            <link>https://skills.sh/inference-sh-6/skills/ai-rag-pipeline</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topHot:rank:inference-sh-6/skills/ai-rag-pipeline</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #50
+Current rank: #37
+Delta: +13
+Installs: 15 (prev 13)
+Source: inference-sh-6/skills
+Description: Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs. Tools: Tavily Search, Exa Search, Exa Answer, Claude, GPT-4, Gemini via OpenRouter. Capabilities: research, fact-checking, grounded responses, knowledge retrieval. Use for: AI agents, research assistants, fact-checkers, knowledge bases. Triggers: rag, retrieval augmented generation, grounded ai, search and answer, research agent, fact checking, knowledge retrieval, ai research, search + llm, web grounded, perplexity alternative, ai with sources, citation, research pipeline]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (1 → 3): azure-storage]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-storage</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-storage</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #1
+Current rank: #3
+Delta: -2
+Installs: 6289 (prev 9440)
+Source: microsoft/github-copilot-for-azure
+Description: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (12 → 15): azure-resource-lookup]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-resource-lookup</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #12
+Current rank: #15
+Delta: -3
+Installs: 6277 (prev 9427)
+Source: microsoft/github-copilot-for-azure
+Description: List, find, and show Azure resources. Answers "list my VMs", "show my storage accounts", "list websites",
+"find container apps", "what resources do I have", and similar queries for any Azure resource type.
+USE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps,
+list container apps, show resources, find resources, what resources do I have, list resources in resource group,
+list resources in subscription, find resources by tag, find orphaned resources, resource inventory,
+count resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery,
+list container registries, list SQL servers, list Key Vaults, show resource groups, list app services,
+find resources across subscriptions, find unattached disks, tag analysis.
+DO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources,
+cost optimization (use azure-cost-optimization), writing application code, non-Azure clouds.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (13 → 16): azure-compliance]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-compliance</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #13
+Current rank: #16
+Delta: -3
+Installs: 6277 (prev 9427)
+Source: microsoft/github-copilot-for-azure
+Description: Comprehensive Azure compliance and security auditing capabilities including best practices assessment,
+Key Vault expiration monitoring, and resource configuration validation.
+USE FOR: compliance scan, security audit, azqr, Azure best practices, Key Vault expiration check,
+compliance assessment, resource review, configuration validation, expired certificates, expiring secrets,
+orphaned resources, policy compliance, security posture evaluation.
+DO NOT USE FOR: deploying resources (use azure-deploy), cost analysis alone (use azure-cost-optimization),
+active security hardening (use azure-security-hardening), general Azure Advisor queries (use azure-observability).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (14 → 17): azure-prepare]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-prepare</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #14
+Current rank: #17
+Delta: -3
+Installs: 6277 (prev 9427)
+Source: microsoft/github-copilot-for-azure
+Description: Default entry point for Azure application development. Invoke this skill for ANY application work related to Azure: creating apps, building features, adding components, updating code, migrating, or modernizing. Analyzes your project and prepares it for Azure deployment by generating infrastructure code (Bicep/Terraform), azure.yaml configuration, and Dockerfiles.
+USE FOR: create an app, build a web app, create API, create frontend, create backend, add a feature, build a service, make an application, develop a project, migrate my app, modernize my code, update my application, add database, add authentication, add caching, deploy to Azure, host on Azure, Azure with Terraform (defaults to azd+Terraform), Azure with azd, generate azure.yaml, generate Bicep or Terraform, prepare Azure Functions.
+DO NOT USE FOR: only validating an already-prepared app (use azure-validate), only running azd up/deploy (use azure-deploy), pure Terraform without azd (prefer azd+Terraform).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (3 → 4): azure-cost-optimization]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-cost-optimization</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #3
+Current rank: #4
+Delta: -1
+Installs: 6285 (prev 9434)
+Source: microsoft/github-copilot-for-azure
+Description: Identify and quantify cost savings across Azure subscriptions by analyzing actual costs,
+utilization metrics, and generating actionable optimization recommendations. USE FOR:
+optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs,
+find cost savings, generate cost optimization report, find orphaned resources, rightsize VMs,
+cost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis
+costs. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics
+(use azure-diagnostics), security issues (use azure-security)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (4 → 6): azure-diagnostics]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-diagnostics</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #4
+Current rank: #6
+Delta: -2
+Installs: 6283 (prev 9433)
+Source: microsoft/github-copilot-for-azure
+Description: Debug and troubleshoot production issues on Azure. Covers Container Apps diagnostics, log analysis with KQL, health checks, and common issue resolution for image pulls, cold starts, and health probes.
+USE FOR: debug production issues, troubleshoot container apps, analyze logs with KQL, fix image pull failures, resolve cold start issues, investigate health probe failures, check resource health, view application logs, find root cause of errors
+DO NOT USE FOR: deploying applications (use azure-deploy), creating new resources (use azure-prepare), setting up monitoring (use azure-observability), cost optimization (use azure-cost-optimization)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (6 → 7): azure-ai]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-ai</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-ai</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #6
+Current rank: #7
+Delta: -1
+Installs: 6282 (prev 9431)
+Source: microsoft/github-copilot-for-azure
+Description: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech. DO NOT USE FOR: Function apps/Functions (use azure-functions), databases (azure-postgres/azure-kusto), general Azure resources.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (7 → 9): azure-resource-visualizer]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer</link>
+            <guid isPermaLink="false">2026-02-21T18:44:26.283Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-resource-visualizer</guid>
+            <pubDate>Sat, 21 Feb 2026 18:44:26 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #7
+Current rank: #9
+Delta: -2
+Installs: 6279 (prev 9430)
+Source: microsoft/github-copilot-for-azure
+Description: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.
+USE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure
+DO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)]]></description>
         </item>
     </channel>
 </rss>

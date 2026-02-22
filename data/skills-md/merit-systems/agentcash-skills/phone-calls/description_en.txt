@@ -1,0 +1,19 @@
+Make AI phone calls, buy phone numbers, and get call transcripts via x402.
+
+USE FOR:
+- Making AI-powered outbound phone calls
+- Scheduling calls and getting transcripts
+- Buying and managing phone numbers
+- Leaving voicemails
+- Transferring calls to humans
+
+TRIGGERS:
+- "call", "phone call", "make a call", "dial"
+- "buy number", "phone number", "get a number"
+- "voicemail", "leave a message"
+- "transcript", "call recording", "call summary"
+- "AI call", "automated call", "bland"
+
+ALWAYS use `npx agentcash fetch` for stablephone.dev endpoints.
+
+IMPORTANT: Use exact endpoint paths from the Quick Reference table below.

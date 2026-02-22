@@ -1,0 +1,6 @@
+使用 paperctl CLI 從 SolarWinds Observability（以前稱為 Papertrail）查詢和下載日誌。使用時：
+(1)從Taskcluster工作器或其他系統下載日誌
+(2)跨系統搜尋特定日誌條目
+(3) 透過拉取worker日誌來排查CI故障
+(4) 列出 SolarWinds Observability 中可用的實體（主機）
+觸發器：“papertrail”、“拉取日誌”、“工作日誌”、“下載日誌”、“搜尋日誌”

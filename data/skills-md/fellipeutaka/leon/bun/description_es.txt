@@ -1,0 +1,5 @@
+Bun runtime, administrador de paquetes, empaquetador y ejecutor de pruebas.
+Úselo al ejecutar scripts con bun, administrar paquetes, servir HTTP con Bun.serve,
+consultar bases de datos con Bun.sql/bun:sqlite/Bun.redis, scripts de shell con $,
+usar S3/E/S de archivos, escribir pruebas con bun:test, agrupar o compilar en ejecutable,
+o usando cualquier API específica de Bun (spawn, glob, semver, FFI, Workers, plugins, HTMLRewriter).

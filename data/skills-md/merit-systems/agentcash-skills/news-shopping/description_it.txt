@@ -1,0 +1,16 @@
+Cerca in Google News e Google Shopping utilizzando le API Serper tramite x402.
+
+UTILIZZARE PER:
+- Trovare articoli di notizie recenti su un argomento
+- Attualità e ultime notizie
+- Ricerche di prodotti e confronti di prezzi
+- Ricerca sugli acquisti e scoperta dei prodotti
+- Monitoraggio delle notizie di settore
+
+TRIGGER:
+- "notizie su", "ultime notizie", "articoli recenti"
+- "attualità", "ultimi", "titoli"
+- "acquisti", "acquista", "prezzo", "ricerca prodotto"
+- "confronta prezzi", "dove acquistare", "offerte su"
+
+Utilizza `npx agentcash fetch` per gli endpoint Serper. Entrambi gli endpoint costano $ 0,04 per chiamata.

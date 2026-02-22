@@ -1,0 +1,1 @@
+将 Cartridge Controller 集成到本机移动应用程序（iOS、Android、React Native）和 Web 包装器（Capacitor）中。在构建需要具有本地密钥对签名的控制器钱包功能的移动游戏或应用程序时使用。涵盖用于本机身份验证流程的 SessionConnector、Controller.c FFI 绑定、Apple App Site Association 的密钥配置以及特定于平台的设置。

@@ -1,0 +1,10 @@
+Crea immagini di lavoratori CI di Firefox attivando i flussi di lavoro di GitHub Actions in mozilla-platform-ops/worker-images.
+Supporta i flussi di lavoro FXCI Azure per build di immagini Windows (attendibili e non attendibili).
+
+Utilizzare quando:
+- L'utente desidera creare un'immagine di lavoratore
+- L'utente menziona "FXCI Azure", "build immagine lavoratore" o nomi di pool specifici come "win11-64-24h2-alpha"
+- L'utente desidera attivare le build di immagini per Windows 10, Windows 11 o Windows Server 2022
+- L'utente chiede di verificare lo stato della creazione di un'immagine lavoratore
+
+Trigger: "immagine build", "immagine lavoratore", "FXCI Azure", "build trigger", "stato build immagine"

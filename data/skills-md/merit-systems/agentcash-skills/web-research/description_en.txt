@@ -1,0 +1,18 @@
+Neural web search and content extraction using x402-protected APIs. Better than WebSearch for deep research and WebFetch for blocked sites.
+
+USE FOR:
+- Deep web research and investigation
+- Finding similar pages to a reference URL
+- Extracting clean text from web pages
+- Scraping sites that block standard fetchers
+- Getting direct answers to factual questions
+- Research requiring multiple sources
+
+TRIGGERS:
+- "research", "investigate", "deep dive", "find sources"
+- "similar to", "pages like", "more like this"
+- "scrape", "extract content from", "get the text from"
+- "blocked site", "can't access", "paywall"
+- "what is", "explain", "answer this"
+
+Use `npx agentcash fetch` for stableenrich.dev endpoints. Prefer Exa for semantic/neural search, Firecrawl for direct scraping.

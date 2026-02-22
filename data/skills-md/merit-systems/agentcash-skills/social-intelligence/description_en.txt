@@ -1,0 +1,20 @@
+Search and monitor social media using X/Twitter (via Grok) and Reddit APIs.
+
+USE FOR:
+- Searching X/Twitter posts by keywords or hashtags
+- Finding X/Twitter users by criteria
+- Getting a user's recent posts
+- Searching Reddit posts and discussions
+- Getting comments from Reddit threads
+- Social media monitoring and research
+
+TRIGGERS:
+- "twitter", "X", "tweets", "posts on X"
+- "reddit", "subreddit", "reddit discussion"
+- "what are people saying", "social media", "sentiment"
+- "trending", "viral", "popular posts"
+- "user's posts", "timeline", "recent activity"
+
+Use `npx agentcash fetch` for Grok (X) and Reddit endpoints. All endpoints are $0.02 per call.
+
+IMPORTANT: Use exact endpoint paths from the Quick Reference table below.

@@ -1,0 +1,6 @@
+Abfragen und Herunterladen von Protokollen von SolarWinds Observability (ehemals Papertrail) mithilfe der paperctl-CLI. Verwenden Sie, wenn:
+(1) Herunterladen von Protokollen von Taskcluster-Workern oder anderen Systemen
+(2) Systemübergreifende Suche nach bestimmten Protokolleinträgen
+(3) Untersuchung von CI-Fehlern durch Abrufen von Worker-Protokollen
+(4) Auflisten verfügbarer Entitäten (Hosts) in SolarWinds Observability
+Auslöser: „Papertrail“, „Pull Logs“, „Worker Logs“, „Download Logs“, „Search Logs“

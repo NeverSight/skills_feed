@@ -1,0 +1,19 @@
+Realice llamadas telefónicas con IA, compre números de teléfono y obtenga transcripciones de llamadas a través de x402.
+
+UTILIZAR PARA:
+- Realizar llamadas telefónicas salientes impulsadas por IA
+- Programar llamadas y obtener transcripciones.
+- Compra y gestión de números de teléfono.
+- Dejar mensajes de voz
+- Transferencia de llamadas a humanos.
+
+DESENCADENADORES:
+- "llamar", "llamar por teléfono", "hacer una llamada", "marcar"
+- "comprar número", "número de teléfono", "obtener un número"
+- "correo de voz", "dejar un mensaje"
+- "transcripción", "grabación de llamadas", "resumen de llamadas"
+- "llamada AI", "llamada automática", "sosa"
+
+SIEMPRE utilice `npx agentcash fetch` para los puntos finales de stablephone.dev.
+
+IMPORTANTE: Utilice rutas de punto finales exactas de la tabla de Referencia rápida a continuación.

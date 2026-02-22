@@ -1,0 +1,23 @@
+通过 x402 跨 6 个平台抓取社交媒体资料、帖子、评论、关注者和搜索。
+
+用于：
+- 获取 TikTok、Instagram、X/Twitter、Facebook、Reddit 或 LinkedIn 个人资料
+- 获取用户的帖子、故事、亮点或视频
+- 获取帖子的评论、回复和反应
+- 列出任何帐户的关注者和关注者
+- 跨平台搜索帖子、主题标签、个人资料、职位和广告
+- 跨平台社交媒体研究和监控
+
+触发因素：
+- “tiktok”、“instagram”、“facebook”、“linkedin 个人资料”、“linkedin 帖子”
+- “获取关注者”、“关注者”、“关注列表”
+-“抓取个人资料”、“获取帖子”、“社交媒体数据”
+- “Instagram 故事”、“tiktok 视频”、“Facebook 页面”
+- “linkedin 公司”、“linkedin 职位”、“linkedin 广告”
+- “跨平台”、“社交媒体研究”
+
+重要提示：StableSocial 使用异步两步流程。第 1 步：POST 触发数据收集（付费，0.06 美元）。第 2 步：轮询 GET /api/jobs?token=... 直到完成（免费）。所有端点每次调用费用为 0.06 美元。
+
+使用“npx agentcash fetch”进行付费 POST 触发器。使用“npx agentcash fetch”进行免费 GET 轮询。
+
+重要提示：使用下面的快速参考表中的准确端点路径。所有路径都包含平台前缀（例如“https://stablesocial.dev/api/tiktok/...”）。

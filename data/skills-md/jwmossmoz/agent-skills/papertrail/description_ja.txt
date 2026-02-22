@@ -1,0 +1,6 @@
+Paperctl CLI を使用して、SolarWinds Observability (以前の Papertrail) からログをクエリしてダウンロードします。次の場合に使用します。
+(1) Taskcluster ワーカーまたは他のシステムからのログのダウンロード
+(2) システム全体で特定のログ エントリを検索する
+(3) ワーカーログの取得によるCI障害の調査
+(4) SolarWinds Observability で利用可能なエンティティ (ホスト) の一覧表示
+トリガー: 「papertrail」、「プルログ」、「ワーカーログ」、「ダウンロードログ」、「検索ログ」

@@ -1,0 +1,1 @@
+使用多工具测试（axe-core + pa11y + Lighthouse）进行全面的 WCAG 可访问性审核，使用 Promise.allSettled 进行真正的并行执行、优雅降级、带回退的重试、上下文感知修复、学习集成和视频可访问性。使用 3 层浏览器级联：Vibium → 代理浏览器 → Playwright+Stealth。

@@ -1,0 +1,16 @@
+Gérez votre portefeuille agentcash et appelez n'importe quelle API protégée par x402 avec paiement automatique. Pas de clés API, pas d'abonnement – ​​juste un portefeuille financé (USDC sur base).
+
+UTILISER POUR :
+- Vérification du solde du portefeuille avant les appels API
+- Échange de codes d'invitation contre des crédits gratuits
+- Obtenir l'adresse de dépôt pour l'USDC
+- Découverte des points de terminaison et des tarifs sur n'importe quelle origine protégée par x402
+- Faire des requêtes API payantes via la CLI agentcash
+- Dépannage des échecs de paiement
+
+DÉCLENCHEURS :
+- "solde", "portefeuille", "fonds", "crédits", "x402"
+- "utiliser", "code d'invitation", "code promotionnel"
+- "dépôt", "ajouter des fonds", "recharger"
+- "découvrir", "points de terminaison", "quelles API", "tarification"
+- "solde insuffisant", "échec du paiement"

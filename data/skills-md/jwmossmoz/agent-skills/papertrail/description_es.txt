@@ -1,0 +1,6 @@
+Consulte y descargue registros de SolarWinds Observability (anteriormente Papertrail) mediante la CLI paperctl. Úselo cuando:
+(1) Descarga de registros de trabajadores de Taskcluster u otros sistemas
+(2) Búsqueda de entradas de registro específicas en todos los sistemas
+(3) Investigar fallas de CI extrayendo registros de trabajadores
+(4) Listado de entidades disponibles (hosts) en SolarWinds Observability
+Activadores: "papertrail", "extraer registros", "registros de trabajadores", "descargar registros", "registros de búsqueda"

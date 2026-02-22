@@ -1,0 +1,5 @@
+Bun 運行時、套件管理器、捆綁器和測試運行器。
+使用 Bun 執行腳本、管理套件、使用 Bun.serve 提供 HTTP 服務時使用，
+使用 Bun.sql/bun:sqlite/Bun.redis 查詢資料庫，使用 $ 編寫 shell 腳本，
+使用S3/檔案I/O，使用bun:test編寫測試，捆綁或編譯為可執行文件，
+或使用任何特定於 Bun 的 API（spawn、glob、semver、FFI、workers、插件、HTMLRewriter）。

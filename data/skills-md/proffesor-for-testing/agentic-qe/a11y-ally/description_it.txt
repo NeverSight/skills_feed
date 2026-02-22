@@ -1,0 +1,1 @@
+Controllo completo dell'accessibilità WCAG con test multi-tool (axe-core + pa11y + Lighthouse), esecuzione TRUE PARALLEL con Promise.allSettled, degradazione graduale, riprova con backoff, correzione sensibile al contesto, integrazione dell'apprendimento e accessibilità video. Utilizza una cascata di browser a 3 livelli: Vibium → browser agente → Playwright+Stealth.

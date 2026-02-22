@@ -1,0 +1,6 @@
+Interrogez et téléchargez les journaux de SolarWinds Observability (anciennement Papertrail) à l'aide de la CLI paperctl. À utiliser lorsque :
+(1) Téléchargement de journaux à partir de travailleurs Taskcluster ou d'autres systèmes
+(2) Recherche d'entrées de journal spécifiques sur tous les systèmes
+(3) Enquêter sur les échecs de CI en extrayant les journaux des travailleurs
+(4) Liste des entités disponibles (hôtes) dans SolarWinds Observability
+Déclencheurs : "papertrail", "pull logs", "worker logs", "download logs", "search logs"

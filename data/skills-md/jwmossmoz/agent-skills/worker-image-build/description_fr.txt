@@ -1,0 +1,10 @@
+Créez des images de travail Firefox CI en déclenchant les flux de travail GitHub Actions dans mozilla-platform-ops/worker-images.
+Prend en charge les workflows FXCI Azure pour les builds d'images Windows (approuvées et non fiables).
+
+À utiliser lorsque :
+- L'utilisateur souhaite créer une image de travailleur
+- L'utilisateur mentionne « FXCI Azure », « build d'image de travail » ou des noms de pool spécifiques comme « win11-64-24h2-alpha ».
+- L'utilisateur souhaite déclencher la création d'images pour Windows 10, Windows 11 ou Windows Server 2022
+- L'utilisateur demande à vérifier l'état d'une création d'image de travailleur
+
+Déclencheurs : « image de construction », « image de travail », « FXCI Azure », « construction de déclencheur », « état de construction de l'image »

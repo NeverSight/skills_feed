@@ -1,0 +1,5 @@
+Bun 런타임, 패키지 관리자, 번들러 및 테스트 실행기.
+Bun으로 스크립트를 실행하고, 패키지를 관리하고, Bun.serve로 HTTP를 제공할 때 사용합니다.
+Bun.sql/bun:sqlite/Bun.redis로 데이터베이스 쿼리, $를 사용한 쉘 스크립팅,
+S3/파일 I/O 사용, bun:test로 테스트 작성, 실행 파일로 번들링 또는 컴파일,
+또는 Bun 특정 API(spawn, glob, semver, FFI, 작업자, 플러그인, HTMLRewriter)를 사용합니다.

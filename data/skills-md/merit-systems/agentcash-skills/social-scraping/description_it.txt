@@ -1,0 +1,23 @@
+Raccogli profili di social media, post, commenti, follower ed effettua ricerche su 6 piattaforme tramite x402.
+
+UTILIZZARE PER:
+- Ottenere profili TikTok, Instagram, X/Twitter, Facebook, Reddit o LinkedIn
+- Recupero di post, storie, momenti salienti o video di un utente
+- Ottenere commenti, risposte e reazioni ai post
+- Elenco follower e follower per qualsiasi account
+- Ricerca di post, hashtag, profili, lavori e annunci su tutte le piattaforme
+- Ricerca e monitoraggio dei social media multipiattaforma
+
+TRIGGER:
+- "tiktok", "instagram", "facebook", "profilo linkedin", "post linkedin"
+- "ottieni follower", "chi segue", "lista dei follower"
+- "scrape profilo", "ottieni post da", "dati dei social media"
+- "storie di Instagram", "video di Tiktok", "pagina Facebook"
+- "azienda linkedin", "lavori linkedin", "annunci linkedin"
+- "multipiattaforma", "ricerca sui social media"
+
+IMPORTANTE: StableSocial utilizza un flusso asincrono in due fasi. Passaggio 1: il POST attiva la raccolta dei dati (a pagamento, $ 0,06). Passaggio 2: sondaggio GET /api/jobs?token=... fino al termine (gratuito). Tutti gli endpoint costano $ 0,06 per chiamata.
+
+Utilizza `npx agentcash fetch` per i trigger POST a pagamento. Utilizza `npx agentcash fetch` per il polling GET gratuito.
+
+IMPORTANTE: utilizzare i percorsi endpoint esatti dalle tabelle di riferimento rapido riportate di seguito. Tutti i percorsi includono un prefisso della piattaforma (ad esempio `https://stablesocial.dev/api/tiktok/...`).

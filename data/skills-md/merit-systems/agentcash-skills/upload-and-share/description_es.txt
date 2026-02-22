@@ -1,0 +1,15 @@
+Cargue archivos a la nube y obtenga URL públicas que se puedan compartir usando stableupload.dev (micropagos x402).
+
+UTILIZAR PARA:
+- Subir archivos para obtener URL públicas
+- Compartir archivos a través de enlaces de descarga
+- Alojamiento de imágenes, documentos o cualquier tipo de archivo.
+- Hacer que los archivos sean de acceso público durante 6 meses.
+
+DESENCADENADORES:
+- "subir esto", "compartir este archivo", "consígueme un enlace"
+- "alojar este archivo", "hacerlo descargable"
+- "URL pública", "enlace de descarga", "poner en línea"
+- "compartir archivo", "alojar archivos", "cargar archivo"
+
+SIEMPRE use `npx agentcash fetch` para los puntos finales de stableupload.dev; nunca curl o WebFetch para el paso de compra.

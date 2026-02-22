@@ -1,0 +1,4 @@
+Surveille les versions de Awesome-Copilot pour détecter toute dérive par rapport à l'intégration d'amplihack.
+Vérifie les derniers commits sur github/awesome-copilot via l'API GitHub et les rapports
+si l'intégration locale est actuelle ou a dérivé par rapport aux changements en amont.
+À utiliser lors de l'audit de la fraîcheur de l'intégration ou avant de mettre à jour les fonctionnalités de Awesome-Copilot.

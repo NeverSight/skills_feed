@@ -1,0 +1,20 @@
+Send emails, buy forwarding inboxes, manage custom subdomains, and read messages programmatically via x402.
+
+USE FOR:
+- Sending emails (one-off or from custom addresses)
+- Buying a forwarding inbox (username@x402email.com)
+- Purchasing custom email subdomains (you@yourname.x402email.com)
+- Reading and managing inbox messages programmatically
+- Setting up catch-all forwarding for subdomains
+- Managing authorized signers for shared subdomains
+
+TRIGGERS:
+- "send email", "email this to", "notify by email"
+- "buy inbox", "forwarding address", "email inbox"
+- "custom domain", "subdomain", "email subdomain"
+- "read emails", "check inbox", "list messages"
+- "email address", "disposable email", "temporary email"
+
+ALWAYS use `npx agentcash fetch` for stableemail.dev endpoints.
+
+IMPORTANT: Use exact endpoint paths from the Quick Reference table below.

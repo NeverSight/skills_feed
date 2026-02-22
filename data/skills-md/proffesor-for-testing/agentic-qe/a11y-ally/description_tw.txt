@@ -1,0 +1,1 @@
+使用多工具測試（axe-core + pa11y + Lighthouse）進行全面的 WCAG 可訪問性審核，使用 Promise.allSettled 進行真正的並行執行、優雅降級、帶回退的重試、上下文感知修復、學習集成和視頻可訪問性。使用 3 層瀏覽器級聯：Vibium → 代理瀏覽器 → Playwright+Stealth。
