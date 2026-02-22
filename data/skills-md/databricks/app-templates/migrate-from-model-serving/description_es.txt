@@ -1,0 +1,1 @@
+Migre un agente de respuestas de MLflow desde el servicio de modelos de Databricks a aplicaciones de Databricks. Úselo cuando: (1) El usuario desea migrar de Model Serving a Apps, (2) El usuario tiene un ResponsesAgent con métodos predict()/predict_stream(), (3) El usuario desea convertir a decoradores @invoke/@stream.

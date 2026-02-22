@@ -1,0 +1,15 @@
+Cree problemas de GitHub a partir de documentos de especificaciones: genere automáticamente problemas de funciones estructurados a partir de especificaciones.
+
+Analiza documentos de especificaciones (requirement.md, design.md, task.md) en .specs/{feature}/ y
+genera un problema de función estructurado a través de gh issues create.
+Se utiliza mejor con especificaciones creadas por spec-generator.
+
+Desencadenantes en inglés:
+- "Crear problema a partir de especificaciones", "Registrar especificación como problema"
+- "Convertir especificación en problema de GitHub", "Publicar especificación en problema"
+- Después del generador de especificaciones: "Convierte esto en un problema"
+
+日本語トリガー:
+- "仕様書をProblemaにして」「Problemaに登録して」「specからProblema作成」
+- 「仕様書からIssue生成」「specをIssueに変換」
+- generador de especificaciones完了後に「これをProblemaにして」「Problemaにして」

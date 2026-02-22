@@ -1,0 +1,13 @@
+Guía de expertos de TanStack Query v5: problemas de migración (cambios importantes de v4 → v5),
+dificultades de rendimiento (bucles infinitos de recuperación, trampas de estancamiento) y decisiones
+marcos (cuándo NO utilizar consultas, compensaciones entre SWR y React Query).
+
+Úselo cuando: (1) depurar errores de migración v4→v5 (gcTime, isPending, throwOnError),
+(2) bucles infinitos de recuperación, (3) desajustes de hidratación SSR, (4) elegir entre
+React Query vs SWR vs fetch, (5) los patrones de actualización optimistas no funcionan.
+
+NO para configuración básica (ver documentos oficiales). Se centra en decisiones no obvias y
+patrones que causan problemas de producción.
+
+Activadores: React Query, TanStack Query, migración v5, bucle de recuperación, datos obsoletos,
+Hidratación SSR, invalidación de consultas, depuración de actualizaciones optimistas.

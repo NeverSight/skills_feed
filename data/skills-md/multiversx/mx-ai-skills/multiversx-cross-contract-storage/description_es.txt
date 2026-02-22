@@ -1,0 +1,1 @@
+Lea el almacenamiento de otro contrato directamente sin llamadas asíncronas usando Storage_mapper_from_address. Úselo al crear agregadores, controladores o cualquier contrato que necesite leer el estado de otros contratos del mismo fragmento sin sobrecarga de llamadas de proxy.

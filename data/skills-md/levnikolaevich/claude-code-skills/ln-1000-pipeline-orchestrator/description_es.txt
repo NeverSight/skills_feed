@@ -1,0 +1,1 @@
+Metaorquestador (L0): lee el tablero kanban, impulsa las historias a través del canal 300->310->400->500 en paralelo a través de TeamCreate. Máximo 3 historias simultáneas. Auto squash-merge para desarrollarse en la puerta de calidad PASS.

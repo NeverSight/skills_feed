@@ -1,0 +1,4 @@
+Gancho de parada que mantiene al agente trabajando hasta que se completen todos los planes y solicitudes de los usuarios.
+100% completo. Se dispara en cada intento de parada hasta que el agente emite un mensaje explícito
+señal analizable hecha en su respuesta final. Proporciona una máquina determinista.
+detección para una verdadera finalización.
