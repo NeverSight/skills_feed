@@ -1,0 +1,11 @@
+Intégration de l'API X (Twitter) v2 pour publier des tweets, des réponses, des citations, gérer des publications, envoyer des DM, rechercher des tweets et récupérer la chronologie/l'activité des utilisateurs.
+
+À utiliser lorsque l'utilisateur doit interagir avec l'API X (Twitter) :
+- Contenu de la publication : tweets, réponses, citations, publications avec les médias
+- Gérer les publications : supprimer, retweeter, aimer
+- Messages directs : envoyez des DM avec des pièces jointes multimédias facultatives
+- Recherche : rechercher des tweets par mot-clé, hashtag, utilisateur, avec des filtres
+- Récupérer des données : activité récente de l'utilisateur, chronologie de la maison
+- Extraire les identifiants de tweet des URL
+
+Nécessite les informations d'identification OAuth 1.0a : X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET.

@@ -1,0 +1,7 @@
+Sauvegarde et restauration cryptées des fichiers de l'espace de travail OpenClaw Agent
+(SOUL.md, MEMORY.md, IDENTITY.md, AGENTS.md, TOOLS.md). Utilisations
+Cryptage tar + openssl (AES-256-CBC) et API soul-upload.com.
+Génère automatiquement un nouveau mot de passe aléatoire pour chaque sauvegarde (NE PAS réutiliser
+mots de passe). À utiliser lorsque l'utilisateur a besoin de : (1) Sauvegarder ou télécharger l'agent
+fichiers de l'espace de travail, (2) Restaurer ou télécharger une sauvegarde précédente, (3) Supprimer
+une sauvegarde à partir du stockage distant, ou (4) Gérer la persistance de l'agent chiffré.
