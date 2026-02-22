@@ -1,0 +1,5 @@
+Срабатывает, когда: (1) пользователь упоминает «manim» или «Manim Community» или «ManimCE», (2) код содержит `from manim import *`, (3) пользователь запускает команды CLI `manim`, (4) работает с классами Scene, MathTex, Create() или ManimCE.
+
+Рекомендации по использованию Manim Community Edition — движка анимации Python, поддерживаемого сообществом. Охватывает структуру сцены, анимацию, LaTeX/MathTex, 3D с ThreeDScene, управление камерой, стили и использование CLI.
+
+НЕ для версии ManimGL/3b1b (которая использует импорт manimlib и CLI manimgl).
