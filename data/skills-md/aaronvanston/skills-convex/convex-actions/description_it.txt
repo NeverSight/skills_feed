@@ -1,0 +1,1 @@
+Best practice per azioni, transazioni e pianificazione convesse. Da utilizzare quando si scrivono azioni che chiamano API esterne, si utilizza ctx.runQuery/ctx.runMutation, si pianificano funzioni con ctx.scheduler o si lavora con il runtime Convex rispetto al runtime Node.js ("usa nodo").

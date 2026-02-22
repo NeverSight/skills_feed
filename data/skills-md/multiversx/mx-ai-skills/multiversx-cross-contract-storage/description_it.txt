@@ -1,0 +1,1 @@
+Leggi direttamente lo spazio di archiviazione di un altro contratto senza chiamate asincrone utilizzando storage_mapper_from_address. Da utilizzare durante la creazione di aggregatori, controller o qualsiasi contratto che necessiti di leggere lo stato da altri contratti sullo stesso shard senza sovraccarico delle chiamate proxy.

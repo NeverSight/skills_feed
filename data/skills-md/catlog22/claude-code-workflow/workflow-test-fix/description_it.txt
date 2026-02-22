@@ -1,0 +1,1 @@
+Pipeline unificata di correzione dei test che combina la generazione di test (sessione, contesto, analisi, generazione di attività) con l'esecuzione iterativa del ciclo di test (strategia adattiva, test progressivo, fallback CLI). Si attiva su "workflow:test-fix-gen", "workflow:test-cycle-execute", "test fix workflow".

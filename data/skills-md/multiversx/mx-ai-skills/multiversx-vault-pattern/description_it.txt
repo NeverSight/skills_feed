@@ -1,0 +1,1 @@
+Modello di registro dei token in memoria per tenere traccia dei saldi intermedi durante operazioni in più fasi all'interno di una singola transazione. Da utilizzare durante la creazione di contratti che elaborano operazioni sequenziali di token: aggregatori, processori batch, swap atomici o flussi DeFi in più fasi.
