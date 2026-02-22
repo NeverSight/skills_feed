@@ -1,0 +1,1 @@
+Use when context window exhaustion is a concern or when addressing a large volume of PR comments — spawns a fresh agent session per comment via an external shell loop. For an in-session approach, use pr-review-loop or copilot-review-loop instead.

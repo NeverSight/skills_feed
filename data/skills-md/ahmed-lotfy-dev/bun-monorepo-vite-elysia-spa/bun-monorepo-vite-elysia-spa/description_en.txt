@@ -1,0 +1,1 @@
+Scaffold or regenerate a Bun fullstack monorepo using official generators only: bun create elysia@latest for backend and bun create vite@latest --template react-ts for SPA frontend, then apply core backend wiring (Better Auth, Drizzle, MCP, OpenAPI, CORS, and security defaults). Use when creating or resetting a Bun workspace monorepo to latest generator versions.

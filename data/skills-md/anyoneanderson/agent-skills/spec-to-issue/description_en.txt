@@ -1,0 +1,15 @@
+Create GitHub Issue from spec documents — Auto-generate structured Feature Issues from specifications.
+
+Analyzes spec documents (requirement.md, design.md, tasks.md) in .specs/{feature}/ and
+generates a structured Feature Issue via gh issue create.
+Best used with specs created by spec-generator.
+
+English triggers:
+- "Create issue from spec", "Register spec as issue"
+- "Convert spec to GitHub issue", "Publish spec to issue"
+- After spec-generator: "Turn this into an issue"
+
+日本語トリガー:
+- 「仕様書をIssueにして」「Issueに登録して」「specからIssue作成」
+- 「仕様書からIssue生成」「specをIssueに変換」
+- spec-generator完了後に「これをIssueにして」「Issueにして」

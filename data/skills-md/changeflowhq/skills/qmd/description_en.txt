@@ -1,0 +1,5 @@
+Local semantic search engine for markdown knowledge bases using qmd (tobi/qmd).
+Indexes markdown files with BM25 keyword search, vector embeddings for semantic search,
+and hybrid reranked queries. Auto-indexes on file edits via Claude Code hooks and
+refreshes embeddings overnight via launchd. Use when searching project docs,
+knowledge bases, meeting notes, or any indexed markdown collection.

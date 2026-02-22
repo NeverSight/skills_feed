@@ -1,0 +1,1 @@
+Writes agent outputs to numbered thread stage files. Called by agents after domain work completes. Maps agent type to stages, updates frontmatter status, and records completion metadata. Stage 1 (1-input.md) is never written by this skill.

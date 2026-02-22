@@ -1,0 +1,1 @@
+CLI for debugging Node.js backend processes with non-blocking inspection. Use when the user needs to connect to Node.js processes (by PID, name, Docker, or port), set tracepoints/logpoints/exceptionpoints, capture call stacks and local variables, run JavaScript in the process context, or inspect console logs. Requires daemon; connect before other debug commands.

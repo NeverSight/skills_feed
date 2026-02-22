@@ -1,0 +1,13 @@
+TanStack Query v5 expert guidance - migration gotchas (v4→v5 breaking changes),
+performance pitfalls (infinite refetch loops, staleness traps), and decision
+frameworks (when NOT to use queries, SWR vs React Query trade-offs).
+
+Use when: (1) debugging v4→v5 migration errors (gcTime, isPending, throwOnError),
+(2) infinite refetch loops, (3) SSR hydration mismatches, (4) choosing between
+React Query vs SWR vs fetch, (5) optimistic update patterns not working.
+
+NOT for basic setup (see official docs). Focuses on non-obvious decisions and
+patterns that cause production issues.
+
+Triggers: React Query, TanStack Query, v5 migration, refetch loop, stale data,
+SSR hydration, query invalidation, optimistic updates debugging.

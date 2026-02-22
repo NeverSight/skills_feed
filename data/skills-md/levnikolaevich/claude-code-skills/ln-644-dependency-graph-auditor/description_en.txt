@@ -1,0 +1,1 @@
+L3 Worker. Builds module dependency graph, detects transitive cycles (DFS), validates boundary rules (forbidden/allowed/required), calculates coupling metrics (Ca/Ce/I, CCD/NCCD). Adaptive architecture detection: custom rules > docs > auto-detect. Supports hybrid architectures.

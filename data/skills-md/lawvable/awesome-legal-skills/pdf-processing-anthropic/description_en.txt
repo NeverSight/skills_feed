@@ -1,0 +1,1 @@
+Toolkit for comprehensive PDF manipulation, including extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. Use to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.

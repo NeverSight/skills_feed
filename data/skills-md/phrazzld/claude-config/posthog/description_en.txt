@@ -1,0 +1,6 @@
+Complete PostHog lifecycle management. Audits current state, fixes all issues,
+and verifies event tracking works end-to-end. Every run does all of this.
+
+Auto-invoke when: files contain posthog/analytics/tracking, imports posthog-js
+package, references POSTHOG_* env vars, event tracking code modified, user
+mentions "analytics not working" or "events not sending".

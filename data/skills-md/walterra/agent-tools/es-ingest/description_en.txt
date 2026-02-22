@@ -1,0 +1,1 @@
+Ingest and transform large data files (CSV/JSON) into Elasticsearch indices. Stream-based processing for files up to 30GB, cross-version migration (ES 8.x ↔ 9.x), custom JavaScript transformations, and reindexing with transforms. Use when you need to load data into Elasticsearch, migrate indices, or transform data during ingestion.

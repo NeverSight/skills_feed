@@ -1,0 +1,1 @@
+FORGE + Agent Teams — Exploits Agent Teams for true parallel execution of FORGE agents. 3 patterns: pipeline (full pipeline with parallel stories), party (multi-agent debate), build (parallel story development). Requires CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1. Usage: /forge-team pipeline "objective" | /forge-team party "topic" | /forge-team build [STORY-IDs]
