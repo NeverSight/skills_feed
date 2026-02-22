@@ -1,12 +1,1 @@
-AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN은 잘못된 구현으로도 사용됩니다.
-
-Erkennungsmerkmale(EINES genuegt!):
-- Auftrag <25 Woerter
-- Keine konkreten Dateinamen/Pfade
-- Vage Verben: besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refactoren, aufraumen, ueberarbeiten
-- Unsichere Sprache: irgendwie, vielleicht, Mal eben, schnell, einfach, bisschen, koennte, sollte
-- Fehlende Erfolgskriterien: Kein damit, Sodass, weil, um zu
-- 상대 Begriffe ohne 맥락: schneller, besser, schoener, einfacher
-
-출력은 STRUKTURIERTES JSON fuer 프롬프트-설계 기술입니다.
-탈출: mach einfach, keine Rueckfragen, entscheide selbst ueberspringt Klaerung.
+모호한 요청 시 자동 활성화. 잘못 구현하기보다 한 번 더 물어봄. 짧은 요청·구체적 경로 없음·모호한 동사·불확실한 표현·성공 기준 없음·상대적 표현 등일 때. prompt-architect용 구조화 JSON 출력. «그냥 해», «물어보지 마», «네가 정해»는 명확화 생략.
