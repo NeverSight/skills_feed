@@ -1,0 +1,1 @@
+Effector アプリのエフェクターとストレージの永続化パターンを選択して実装します。タスクに、persist/createPersist の使用、アダプターの選択 (local/session/query/broadcast/storage/asyncStorage/memory/nil/log)、クロック/ピックアップ/コンテキスト/keyPrefix の構成、コントラクトによるデータの検証、done/fail/finally フローの処理、いずれかの SSR セーフ アダプター フォールバック、または同期とシリアル化の問題のデバッグが含まれる場合に使用します。

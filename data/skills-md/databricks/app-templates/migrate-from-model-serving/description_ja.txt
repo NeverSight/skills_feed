@@ -1,0 +1,1 @@
+MLflow ResponsesAgent を Databricks モデル提供から Databricks アプリに移行します。次の場合に使用します: (1) ユーザーが Model Serving から Apps に移行したい場合、(2) ユーザーが prepare()/predict_stream() メソッドを備えた ResponsesAgent を持っている場合、(3) ユーザーが @invoke/@stream デコレータに変換したい場合。

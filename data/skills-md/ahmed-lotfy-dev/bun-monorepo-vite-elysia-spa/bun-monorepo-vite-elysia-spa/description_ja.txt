@@ -1,0 +1,1 @@
+公式ジェネレーターのみを使用して Bun フルスタック モノリポジトリをスキャフォールディングまたは再生成します。バックエンドの場合は bun create elysia@latest を、SPA フロントエンドの場合は bun create vite@latest --template act-ts を実行してから、コア バックエンドの配線 (Better Auth、Drizzle、MCP、OpenAPI、CORS、およびセキュリティのデフォルト) を適用します。 Bun ワークスペースのモノリポジトリを作成する場合、または最新のジェネレーター バージョンにリセットする場合に使用します。

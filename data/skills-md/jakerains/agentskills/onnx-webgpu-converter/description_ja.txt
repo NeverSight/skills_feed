@@ -1,0 +1,1 @@
+Transformers.js と WebGPU を使用したブラウザー推論のために、HuggingFace トランスフォーマー モデルを ONNX 形式に変換します。 ONNX に変換する HuggingFace モデル リンクが指定されている場合、ONNX エクスポート用に最適な cli を設定する場合、Web デプロイメント用にモデル (fp16、q8、q4) を量子化する場合、WebGPU アクセラレーションを使用して Transformers.js を構成する場合、または ONNX 変換エラーのトラブルシューティングを行う場合に使用します。 ONNX 変換、Transformers.js、WebGPU 推論、最適なエクスポート、ブラウザーのモデル量子化、またはブラウザーでの ML モデルの実行についての言及がトリガーされます。
