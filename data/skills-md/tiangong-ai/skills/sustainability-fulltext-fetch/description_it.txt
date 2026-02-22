@@ -1,0 +1,1 @@
+Recupera e persiste il contenuto per le voci RSS di sostenibilità con chiave DOI da un DB SQLite full-text separato, utilizzando prima i metadati dell'API OpenAlex/Semantic Scholar e l'estrazione del testo full-text della pagina Web come fallback. Da utilizzare quando si crea un arricchimento resiliente del contenuto DOI-first dopo l'etichettatura della pertinenza.
