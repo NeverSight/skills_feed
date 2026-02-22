@@ -1,0 +1,7 @@
+Copia de seguridad y restauración cifradas para archivos del espacio de trabajo del agente OpenClaw
+(ALMA.md, MEMORIA.md, IDENTIDAD.md, AGENTES.md, HERRAMIENTAS.md). Usos
+Cifrado tar + openssl (AES-256-CBC) y API soul-upload.com.
+Genera automáticamente una nueva contraseña aleatoria para cada copia de seguridad (NO reutilice
+contraseñas). Úselo cuando el usuario necesite: (1) Realizar una copia de seguridad o cargar el agente
+archivos del espacio de trabajo, (2) Restaurar o descargar una copia de seguridad anterior, (3) Eliminar
+una copia de seguridad desde el almacenamiento remoto, o (4) Administrar la persistencia del agente cifrado.
