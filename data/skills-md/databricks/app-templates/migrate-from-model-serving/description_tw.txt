@@ -1,0 +1,1 @@
+將 MLflow ResponsesAgent 從 Databricks 模型服務遷移到 Databricks 應用程式。在以下情況下使用：(1) 使用者想要從模型服務遷移到應用程序，(2) 使用者擁有帶有 Predict()/predict_stream() 方法的 ResponsesAgent，(3) 使用者想要轉換為 @invoke/@stream 裝飾器。

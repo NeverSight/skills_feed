@@ -1,0 +1,3 @@
+用於 React 的 TanStack Query v5 伺服器狀態管理。涵蓋查詢/突變模式、v4 到 v5 遷移（物件語法、gcTime、isPending、keepPreviousData）、透過 useMutationState 進行樂觀更新、具有 HydrationBoundary 的 SSR/Hydration、無限查詢、離線/PWA 支援、具有 throwOnError 的錯誤邊界以及 React 19 整合。
+
+在建構資料擷取、修復遷移錯誤、調試水合不匹配、實施快取策略或配置突變時使用。

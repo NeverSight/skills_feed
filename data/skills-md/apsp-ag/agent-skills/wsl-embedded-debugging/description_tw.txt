@@ -1,0 +1,1 @@
+透過呼叫擁有 USB/JTAG 存取權的 Windows 可執行檔（例如「cargo.exe」、「probe-rs.exe」或「openocd.exe」），從 WSL 執行嵌入式建置/快閃記憶體/偵錯工作流程。當代理程式必須在硬體上重現韌體行為、刷新 MCU、收集有限的運行時日誌或從 WSL 工作區偵錯探針連線時使用。

@@ -1,0 +1,1 @@
+編程畫布工具包，用於透過具有即時畫布同步功能的 MCP 工具建立、編輯和優化 Excalidraw 圖表。當代理程式需要 (1) 在即時畫布上繪製或佈局圖表、(2) 使用describe_scene 和 get_canvas_screenshot 迭代優化圖表以查看其自己的工作、(3) 導出/導入 .excalidraw 文件或 PNG/SVG 圖像、(4) 保存/恢復畫佈、(5) 將執行檔位或執行CRUD、對齊、分佈、分組、複製和鎖定時使用。需要正在執行的畫布伺服器（EXPRESS_SERVER_URL，預設 http://localhost:3000）。

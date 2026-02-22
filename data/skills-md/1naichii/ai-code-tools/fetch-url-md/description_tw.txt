@@ -1,0 +1,1 @@
+使用curl 透過自動降價版本偵測來取得網頁內容。當 Claude 需要從同時提供 HTML 和 Markdown 格式的網站檢索文件時使用。首先檢查 .md 版本是否存在（更有效率、更乾淨），如果不可用，則返回 HTML。非常適合從 ui.shadcn.com、GitHub wiki 等網站或任何以 Markdown 格式鏡像內容的文件網站取得文件。
