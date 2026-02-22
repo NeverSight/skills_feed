@@ -1,0 +1,1 @@
+Rufen Sie einen sauberen Markdown von URLs ab, wenn web_fetch fehlschlägt. Konvertiert Seiten über den Jina AI-Reader-Dienst mit automatischem Wiederholungsversuch. Wird verwendet, wenn web_fetch oder curl 403, blockiert, Paywall, Zeitüberschreitung, JavaScript-Rendering-Fehler oder leeren Inhalt zurückgibt oder der Benutzer ausdrücklich die Verwendung von Jina vorschlägt.

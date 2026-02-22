@@ -1,0 +1,13 @@
+TanStack Query v5-Expertenanleitung – Migrationsprobleme (v4→v5 bahnbrechende Änderungen),
+Leistungsprobleme (unendliche Refetch-Schleifen, Staleness-Traps) und Entscheidungen
+Frameworks (wann KEINE Abfragen verwendet werden sollen, Kompromisse zwischen SWR und React Query).
+
+Verwenden Sie Folgendes: (1) Debuggen von v4→v5-Migrationsfehlern (gcTime, isPending, throwOnError),
+(2) unendliche Refetch-Schleifen, (3) SSR-Hydratationsfehlanpassungen, (4) Auswahl zwischen
+React Query vs. SWR vs. fetch, (5) optimistische Aktualisierungsmuster funktionieren nicht.
+
+NICHT für die Grundeinrichtung (siehe offizielle Dokumente). Konzentriert sich auf nicht offensichtliche Entscheidungen und
+Muster, die Produktionsprobleme verursachen.
+
+Auslöser: React Query, TanStack Query, v5-Migration, Refetch-Schleife, veraltete Daten,
+SSR-Hydratierung, Abfrageungültigmachung, Debugging optimistischer Updates.

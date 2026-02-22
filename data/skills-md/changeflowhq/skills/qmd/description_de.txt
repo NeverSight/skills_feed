@@ -1,0 +1,5 @@
+Lokale semantische Suchmaschine für Markdown-Wissensdatenbanken mit qmd (tobi/qmd).
+Indiziert Markdown-Dateien mit BM25-Schlüsselwortsuche, Vektoreinbettungen für die semantische Suche,
+und Hybrid-Reranking-Abfragen. Automatische Indizierung von Dateiänderungen über Claude Code-Hooks und
+Aktualisiert Einbettungen über Nacht über launchd. Zum Durchsuchen von Projektdokumenten verwenden,
+Wissensdatenbanken, Besprechungsnotizen oder jede indizierte Markdown-Sammlung.

@@ -1,0 +1,15 @@
+Erstellen Sie GitHub-Probleme aus Spezifikationsdokumenten – Generieren Sie automatisch strukturierte Feature-Probleme aus Spezifikationen.
+
+Analysiert Spezifikationsdokumente (requirement.md, design.md, task.md) in .specs/{feature}/ und
+generiert über gh issue create ein strukturiertes Feature Issue.
+Am besten mit Spezifikationen verwenden, die vom Spec-Generator erstellt wurden.
+
+Englische Auslöser:
+- „Problem aus Spezifikation erstellen“, „Spezifikation als Problem registrieren“
+- „Spezifikation in GitHub-Ausgabe konvertieren“, „Spezifikation in Ausgabe veröffentlichen“
+- Nach spec-generator: „Machen Sie daraus ein Problem“
+
+日本語トリガー:
+- 「仕様書をIssueにして」「Issueに登録して」「specからIssue」
+- 「仕様書からIssue生成」「specをIssueに変換」
+- spec-generator完了後に「これをProblemにして」「Problem

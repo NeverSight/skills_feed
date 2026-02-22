@@ -1,0 +1,15 @@
+bkend.ai-Expertenfähigkeiten für Dateispeicherung.
+Deckt das Hochladen einzelner/mehrerer/mehrteiliger Dateien über eine vorsignierte URL ab.
+Dateidownload (CDN vs. Presigned), 4 Sichtbarkeitsstufen (öffentlich/privat/geschützt/freigegeben),
+Bucket-Verwaltung und Dateimetadaten.
+
+Auslöser: Datei-Upload, Download, vorsigniert, Bucket, Speicher, CDN, Bild,
+파일 업로드, 다운로드, 버킷, 스토리지, 이미지,
+ファイルアップロード, ダウンロード, バケット, ストレージ,
+文件上传, 下载, 存储桶, 存储,
+carga de archivos, descarga, almacenamiento, cubo,
+telechargement, televersement, stockage, seau,
+Datei-Upload, Download, Speicher, Bucket,
+Datei speichern, herunterladen, archivieren, Eimer
+
+NICHT verwenden für: Datenbankoperationen (bkend-data verwenden), Authentifizierung (bkend-auth verwenden).

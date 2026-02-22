@@ -1,0 +1,6 @@
+Vollständiges PostHog-Lebenszyklusmanagement. Überprüft den aktuellen Status, behebt alle Probleme,
+und überprüft, ob die Ereignisverfolgung durchgängig funktioniert. Jeder Lauf bewirkt all dies.
+
+Automatischer Aufruf, wenn: Dateien Posthog/Analytics/Tracking enthalten, Posthog-Js importiert
+Paket, Referenzen POSTHOG_* Umgebungsvariablen, geänderter Ereignisverfolgungscode, Benutzer
+erwähnt „Analyse funktioniert nicht“ oder „Ereignisse werden nicht gesendet“.
