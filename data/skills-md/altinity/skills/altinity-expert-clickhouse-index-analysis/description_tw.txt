@@ -1,0 +1,1 @@
+分析 ClickHouse 索引（PRIMARY KEY、ORDER BY、跳過索引、投影）是否有效用於實際查詢模式。在調查索引有效性、ORDER BY 鍵設計、查詢到索引對齊或查詢掃描的資料多於預期時使用。

@@ -1,0 +1,1 @@
+تشخيص أخطاء منح ClickHouse والمصادقة وحلها، خاصة بعد الترقيات. يُستخدم عندما تفشل الاستعلامات مع ACCESS_DENIED/NOT_ENOUGH_PRIVILEGES، أو AUTHENTICATION_FAILED/WRONG_PASSWORD/REQUIRED_PASSWORD، أو أخطاء امتياز ON CLUSTER؛ عندما يتم رفض الوصول إلى النظام* أو INFORMATION_SCHEMA؛ أو عندما يتغير سلوك المنح بعد ترقيات الإصدار.

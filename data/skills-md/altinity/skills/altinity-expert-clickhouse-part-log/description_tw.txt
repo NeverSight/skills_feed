@@ -1,0 +1,1 @@
+透過分析 system.part_log（零件建立、合併、突變、下載、刪除、移動）來診斷 ClickHouse 問題。用於太多部件/微批量插入、合併積壓或緩慢合併、突變風暴（ALTER DELETE/UPDATE）、異常複製 DownloadPart 流失、意外的 RemovePart 峰值或與部件活動相關的 ZooKeeper/Keeper znode 增長。

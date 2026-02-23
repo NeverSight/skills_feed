@@ -1,0 +1,1 @@
+system.part_log(부품 생성, 병합, 변형, 다운로드, 제거, 이동)를 분석하여 ClickHouse 문제를 진단합니다. 너무 많은 부품/마이크로 배치 삽입, 병합 백로그 또는 느린 병합, 돌연변이 폭풍(ALTER DELETE/UPDATE), 비정상적인 복제 DownloadPart 변동, 예상치 못한 RemovePart 스파이크 또는 부품 활동과 관련된 ZooKeeper/Keeper znode 성장에 사용합니다.

@@ -1,0 +1,1 @@
+특히 업그레이드 후에 ClickHouse 승인 및 인증 오류를 진단하고 해결하세요. ACCESS_DENIED/NOT_ENOUGH_PRIVILEGES, AUTHENTICATION_FAILED/WRONG_PASSWORD/REQUIRED_PASSWORD 또는 ON CLUSTER 권한 오류로 인해 쿼리가 실패할 때 사용합니다. system.* 또는 INFORMATION_SCHEMA 액세스가 거부된 경우 또는 버전 업그레이드 후 부여 동작이 변경되는 경우.

@@ -1,0 +1,1 @@
+特にアップグレード後に、ClickHouse の許可エラーと認証エラーを診断して解決します。 ACCESS_DENIED/NOT_ENOUGH_PRIVILEGES、AUTHENTICATION_FAILED/WRONG_PASSWORD/REQUIRED_PASSWORD、または ON CLUSTER 権限エラーでクエリが失敗した場合に使用します。 system.* または INFORMATION_SCHEMA アクセスが拒否された場合。または、バージョンのアップグレード後に許可の動作が変更された場合。

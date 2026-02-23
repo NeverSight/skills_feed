@@ -1,0 +1,1 @@
+system.part_log (パーツの作成、マージ、変更、ダウンロード、削除、移動) を分析して、ClickHouse の問題を診断します。多すぎるパーツ/マイクロバッチ挿入、マージ バックログまたは遅いマージ、ミューテーション ストーム (ALTER DELETE/UPDATE)、異常なレプリケーション DownloadPart チャーン、予期しない RemovePart スパイク、またはパーツ アクティビティと相関関係のある ZooKeeper/Keeper znode の増加に使用します。

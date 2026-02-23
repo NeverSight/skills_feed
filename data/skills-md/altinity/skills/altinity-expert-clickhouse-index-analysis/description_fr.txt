@@ -1,0 +1,1 @@
+Analysez si les index ClickHouse (PRIMARY KEY, ORDER BY, index ignorés, projections) sont utilisés efficacement pour les modèles de requête réels. À utiliser lors de l'étude de l'efficacité de l'index, de la conception de la clé ORDER BY, de l'alignement des requêtes sur l'index ou lorsque les requêtes analysent plus de données que prévu.
