@@ -1,0 +1,1 @@
+App Router、Pages Router、ISR、SSG を完全にサポートして、Next.js を Cloudflare Workers にデプロイします。ワーカー用の Next.js プロジェクトの作成時、Vercel/next-on-pages からの移行時、キャッシュ (R2/KV/D1) の構成時、getCloudflareContext 経由の Cloudflare バインディングへのアクセス時、またはバンドル サイズの問題の修正時にロードされます。
