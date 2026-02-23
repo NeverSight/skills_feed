@@ -1,0 +1,4 @@
+Drizzle ORM — 用於 SQL 資料庫的類型安全性、輕量級 TypeScript ORM。架構聲明、CRUD 查詢、連接、關聯、使用 Drizzle Kit 進行遷移以及資料庫播種。
+在定義資料庫模式、撰寫查詢（選擇/插入/更新/刪除）、設定遷移、設定 drizzle.config.ts、建立資料庫連線時使用，
+使用 drizzle-zod/valibot 驗證數據，或使用 PostgreSQL、MySQL、SQLite、Turso、Bun SQL、Neon、Supabase、PGlite、
+博覽會 SQLite、Cloudflare D1、PlanetScale、SingleStore、MSSQL、CockroachDB。
