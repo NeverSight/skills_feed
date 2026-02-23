@@ -1,0 +1,1 @@
+GitHub rigoroso gatekeeper del rilascio. Blocca i rilasci prematuri (da CI incompleto, sviluppo). Verifica che il PR sia unito al principale + TUTTI i CI passati prima di consentire il tag/rilascio. Si attiva su "release", "tag", "publish", "deploy", "version".

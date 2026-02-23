@@ -1,0 +1,8 @@
+Supporta e gestisci spazi di lavoro multi-repo per agenti di codifica AI.
+Delegati alla CLI multirepo-space (in bundle). Utilizzare quando l'utente dice
+"crea spazio di lavoro", "imposta multirepo", "spazio di lavoro multi-repo",
+"aggiungi repository allo spazio di lavoro", "rimuovi repository dallo spazio di lavoro",
+"stato dell'area di lavoro", "verifica integrità dell'area di lavoro", "init multi-repo",
+"orchestrare repository", "collegare repository".
+Da utilizzare anche quando l'utente dispone di più repository e necessita di un repository centrale
+punto di coordinamento per gli agenti AI (Claude Code, Codex, Gemini CLI).
