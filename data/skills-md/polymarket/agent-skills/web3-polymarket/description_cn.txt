@@ -1,0 +1,1 @@
+Polymarket 集成用于 Polygon 上的预测市场交易。涵盖身份验证（L1 EIP-712、L2 HMAC-SHA256、构建器标头）、下单（GTC/GTD/FOK/FAK、批量、仅发布、心跳）、市场数据（Gamma API、Data API、订单簿、子图）、WebSocket 流（市场/用户/体育频道）、CTF 操作（拆分、合并、赎回、负风险）、桥接（存款、取款、多链）和无 Gas 中继器交易。在构建 AI 代理、自主做市商、预测市场 UI 或与 Polygon 上的 Polymarket 集成的任何应用程序时使用。
