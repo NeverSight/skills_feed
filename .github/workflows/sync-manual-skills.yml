@@ -39,41 +39,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Register new manual skills with skills.sh
-        run: |
-          # Get the previous version of manual_skills.json to detect new entries
-          git show HEAD~1:data/manual_skills.json > /tmp/prev_manual_skills.json 2>/dev/null \
-            || echo '{"skills":[]}' > /tmp/prev_manual_skills.json
-
-          python3 - <<'EOF'
-import json, subprocess, sys
-
-with open('data/manual_skills.json') as f:
-    current = {s['source'] + '/' + s['skillId']: s for s in json.load(f)['skills']}
-
-try:
-    with open('/tmp/prev_manual_skills.json') as f:
-        prev = {s['source'] + '/' + s['skillId'] for s in json.load(f).get('skills', [])}
-except Exception:
-    prev = set()
-
-new_skills = sorted(set(current.keys()) - prev)
-
-if not new_skills:
-    print('No new manual skills to register')
-    sys.exit(0)
-
-print(f'Registering {len(new_skills)} new skill(s) with skills.sh...')
-for skill_path in new_skills:
-    print(f'  npx skills add {skill_path}')
-    result = subprocess.run(
-        ['npx', '--yes', 'skills', 'add', skill_path],
-        capture_output=True, text=True
-    )
-    if result.returncode == 0:
-        print(f'  ✓ {skill_path}')
-    else:
-        print(f'  ✗ {skill_path}: {result.stderr.strip() or result.stdout.strip()}')
-EOF
+        run: python scripts/register_new_manual_skills.py
 
       - name: Fetch SKILL.md for manual skills and rebuild index
         run: bun run crawl

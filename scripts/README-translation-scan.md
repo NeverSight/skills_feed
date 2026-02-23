@@ -1,23 +1,23 @@
-# 描述翻译扫描与修复
+# Description Translation Scan and Fix
 
-## 扫描
+## Scanning
 
-检查各语言 `description_*.txt` 是否存在「与英文未翻译一致」的问题：
+Check whether any `description_*.txt` files have “identical to English” (untranslated) issues:
 
 ```bash
-python scripts/scan_description_translations.py           # 仅输出数量
-python scripts/scan_description_translations.py --list 5   # 每语言列出前 5 条路径
+python scripts/scan_description_translations.py           # count only
+python scripts/scan_description_translations.py --list 5   # list top 5 paths per language
 ```
 
-- **zh-CN**：若 `description_en.txt` 为英文且 `description_cn.txt` 开头与 en 相同 → 视为未译（应为 0）。
-- **tw / ar / de / es / fr / it / ja / ko / ru**：若对应 `description_XX.txt` 前 55 字符与 `description_en.txt` 完全一致 → 视为未翻译副本。
+- **zh-CN**: If `description_en.txt` is in English and `description_cn.txt` starts the same as en → treated as untranslated (should be 0).
+- **tw / ar / de / es / fr / it / ja / ko / ru**: If the first 55 characters of the corresponding `description_XX.txt` match `description_en.txt` exactly → treated as an untranslated copy.
 
-## 修复「与 en 相同」的条目
+## Fixing “identical to en” entries
 
-只重译「当前内容与 en 开头相同」的文件，不覆盖已正确翻译的：
+Only re-translate files whose current content matches the start of en; do not overwrite correctly translated ones:
 
 ```bash
-# 按语言分别执行（可加 --dry-run 先看会动哪些文件）
+# Run per language (add --dry-run to see which files would be changed)
 python scripts/translate_descriptions.py --target zh-TW --fix-identical
 python scripts/translate_descriptions.py --target ar --fix-identical
 python scripts/translate_descriptions.py --target de --fix-identical
@@ -29,9 +29,9 @@ python scripts/translate_descriptions.py --target ko --fix-identical
 python scripts/translate_descriptions.py --target ru --fix-identical
 ```
 
-修复后再次运行 `scan_description_translations.py` 可确认各语言「identical」数量是否降为 0。
+After fixing, run `scan_description_translations.py` again to confirm each language’s “identical” count drops to 0.
 
-## 批量修复（可选）
+## Batch fix (optional)
 
 ```bash
 for lang in zh-TW ar de es fr it ja ko ru; do
@@ -39,4 +39,4 @@ for lang in zh-TW ar de es fr it ja ko ru; do
 done
 ```
 
-注意：每种语言约数百到千级文件，整轮耗时较长，建议在 CI 或后台执行。
+Note: Each language may have hundreds to thousands of files; a full run can take a long time. Consider running in CI or in the background.
