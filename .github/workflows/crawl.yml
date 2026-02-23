@@ -101,8 +101,8 @@ jobs:
             sleep $((i * 2))
           done
       
-      - name: Notify Discord top-10 skills
-        run: python scripts/notify_discord_top_skills.py
+      - name: Notify Discord new skills
+        run: python scripts/notify_discord_new_skills.py
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
