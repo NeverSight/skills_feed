@@ -81,16 +81,16 @@ jobs:
       - name: Translate new descriptions
         run: |
           # Limit to 50 per language — manual skill batches are small
-          python scripts/translate_descriptions.py --target zh-CN --limit 500
-          python scripts/translate_descriptions.py --target zh-TW --limit 500
-          python scripts/translate_descriptions.py --target es --limit 500
-          python scripts/translate_descriptions.py --target ja --limit 500
-          python scripts/translate_descriptions.py --target ko --limit 500
-          python scripts/translate_descriptions.py --target de --limit 500
-          python scripts/translate_descriptions.py --target fr --limit 500
-          python scripts/translate_descriptions.py --target ru --limit 500
-          python scripts/translate_descriptions.py --target it --limit 500
-          python scripts/translate_descriptions.py --target ar --limit 500
+          python scripts/translate_descriptions.py --target zh-CN --limit 50
+          python scripts/translate_descriptions.py --target zh-TW --limit 50
+          python scripts/translate_descriptions.py --target es --limit 50
+          python scripts/translate_descriptions.py --target ja --limit 50
+          python scripts/translate_descriptions.py --target ko --limit 50
+          python scripts/translate_descriptions.py --target de --limit 50
+          python scripts/translate_descriptions.py --target fr --limit 50
+          python scripts/translate_descriptions.py --target ru --limit 50
+          python scripts/translate_descriptions.py --target it --limit 50
+          python scripts/translate_descriptions.py --target ar --limit 50
 
       - name: Commit translations
         run: |
