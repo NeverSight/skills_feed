@@ -1,0 +1,113 @@
+name: Sync Manual Skills
+
+on:
+  # Run when manual_skills.json is updated on main (e.g. after a PR is merged)
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/manual_skills.json'
+  # Support manual trigger
+  workflow_dispatch:
+
+concurrency:
+  group: sync-manual-skills-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Bun (official script)
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL https://bun.com/install | bash
+          echo "$HOME/.bun/bin" >> "$GITHUB_PATH"
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Fetch SKILL.md for manual skills and rebuild index
+        run: bun run crawl
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Skip syncing SKILL.md for all skills.sh skills (too slow for a targeted manual-skills run).
+          # The crawler always fetches SKILL.md for every entry in manual_skills.json.
+          SYNC_ALL_SKILL_MDS: "0"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build category index
+        run: python scripts/build_skill_category_index.py
+
+      - name: Build skill search index
+        run: python scripts/build_skill_search_index.py
+
+      - name: Commit data updates
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: sync manual skills data $(date +'%Y-%m-%d %H:%M:%S')"
+
+          git fetch origin main
+          git rebase origin/main -X theirs
+
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push failed, retrying ($i/5)..."
+            git fetch origin main
+            git rebase origin/main -X theirs
+            sleep $((i * 2))
+          done
+
+      - name: Install translation dependencies
+        run: pip install deep-translator
+
+      - name: Translate new descriptions
+        run: |
+          # Limit to 50 per language — manual skill batches are small
+          python scripts/translate_descriptions.py --target zh-CN --limit 500
+          python scripts/translate_descriptions.py --target zh-TW --limit 500
+          python scripts/translate_descriptions.py --target es --limit 500
+          python scripts/translate_descriptions.py --target ja --limit 500
+          python scripts/translate_descriptions.py --target ko --limit 500
+          python scripts/translate_descriptions.py --target de --limit 500
+          python scripts/translate_descriptions.py --target fr --limit 500
+          python scripts/translate_descriptions.py --target ru --limit 500
+          python scripts/translate_descriptions.py --target it --limit 500
+          python scripts/translate_descriptions.py --target ar --limit 500
+
+      - name: Commit translations
+        run: |
+          git add data/skills-md/
+          if git diff --staged --quiet; then
+            echo "No new translations to commit"
+          else
+            git commit -m "chore: translate manual skill descriptions"
+
+            git fetch origin main
+            git rebase origin/main -X theirs
+
+            for i in 1 2 3 4 5; do
+              git push && break
+              echo "Push failed, retrying ($i/5)..."
+              git fetch origin main
+              git rebase origin/main -X theirs
+              sleep $((i * 2))
+            done
+          fi

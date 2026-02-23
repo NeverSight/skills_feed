@@ -15,10 +15,12 @@ on:
         description: 'Max description_en files to translate per language'
         required: false
         default: '2000'
-  # Run on push to main branch
+  # Run on push to main branch (skip if only manual_skills.json changed — handled by sync-manual-skills.yml)
   push:
     branches:
       - main
+    paths-ignore:
+      - 'data/manual_skills.json'
 
 concurrency:
   group: skills-crawl-${{ github.ref }}
