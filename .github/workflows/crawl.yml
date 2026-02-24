@@ -89,9 +89,11 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: update skills data $(date +'%Y-%m-%d %H:%M:%S')"
 
           # Rebase onto latest main to avoid ref lock / non-fast-forward races
+          git stash --include-untracked 2>/dev/null || true
           git fetch origin main
           # Prefer the generated outputs from this run when conflicts happen.
           git rebase origin/main -X theirs
+          git stash pop 2>/dev/null || true
 
           # Retry push to tolerate concurrent runs
           for i in 1 2 3 4 5; do
