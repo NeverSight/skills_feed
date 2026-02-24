@@ -1,0 +1,5 @@
+Sichere Skill-Installation mit Sicherheitsscannen der Lieferkette. Umschließt den Cisco Skill-Scanner
+Überprüfen Sie Ihre Fähigkeiten vor der Installation. Unterstützt GitHub-Repos, skills.sh (npx), Claude Marketplace
+Plugins und lokale Pfade. Konfigurierbare Scantiefe standardmäßig mit statischer und Verhaltensanalyse.
+Verwendet GitHub-Archiv-Downloads, um Git-Ausführungsrisiken zu vermeiden, mit gehärtetem Git-Klon-Fallback.
+Sicherheitsentscheidungen werden von einem deterministischen Wrapper-Skript getroffen, nicht vom LLM-Agenten.
