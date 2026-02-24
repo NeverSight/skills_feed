@@ -44,9 +44,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install deep-translator
+          pip install deep-translator requests
 
       - name: Run translation (zh-TW)
+        env:
+          NEVERSIGHT_API_KEY: ${{ secrets.NEVERSIGHT_API_KEY }}
         run: |
           FORCE_FLAG=""
           if [ "${{ github.event.inputs.force || 'false' }}" = "true" ]; then

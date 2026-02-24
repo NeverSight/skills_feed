@@ -40,9 +40,11 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install deep-translator
+          pip install deep-translator requests
       
       - name: Run translation
+        env:
+          NEVERSIGHT_API_KEY: ${{ secrets.NEVERSIGHT_API_KEY }}
         run: |
           python scripts/translate_descriptions.py --limit ${{ github.event.inputs.limit || '2000' }}
       

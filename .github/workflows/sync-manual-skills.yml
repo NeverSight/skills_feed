@@ -79,9 +79,11 @@ jobs:
           done
 
       - name: Install translation dependencies
-        run: pip install deep-translator
+        run: pip install deep-translator requests
 
       - name: Translate new descriptions
+        env:
+          NEVERSIGHT_API_KEY: ${{ secrets.NEVERSIGHT_API_KEY }}
         run: |
           # Limit to 50 per language — manual skill batches are small
           python scripts/translate_descriptions.py --target zh-CN --limit 50
