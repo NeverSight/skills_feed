@@ -1,0 +1,4 @@
+GSD 코드베이스 매핑을 AutoForge app_spec.txt로 변환합니다. 이 스킬은 다음과 같은 경우에 사용해야 합니다.
+사용자가 /gsd:map-codebase를 실행했으며 기존 프로젝트에서 AutoForge를 사용하려고 합니다.
+트리거: "autoforge로 변환", "gsd를 사양으로", "코드베이스에서 app_spec 생성",
+/gsd:map-codebase 완료 후 "기존 프로젝트에서 autoforge 사용".

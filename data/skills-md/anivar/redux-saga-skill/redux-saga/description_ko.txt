@@ -1,0 +1,1 @@
+Redux 애플리케이션에서 생성기 기반 부작용 미들웨어를 구축, 테스트 및 디버깅하기 위한 Redux-Saga 모범 사례, 패턴 및 API 지침입니다. 효과 생성기, 포크 모델, 채널, redux-saga-test-plan을 사용한 테스트, 동시성, 취소 및 최신 Redux Toolkit 통합을 다룹니다. 기준선: redux-saga 1.4.2. 트리거 대상: saga 파일, redux-saga 가져오기, 생성기 기반 미들웨어, "saga", "takeEvery", "takeLatest", "fork model" 또는 "channels" 언급.

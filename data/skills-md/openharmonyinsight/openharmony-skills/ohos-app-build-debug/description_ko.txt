@@ -1,0 +1,1 @@
+DevEco Studio 툴체인을 사용하여 HarmonyOS/OpenHarmony 애플리케이션을 구축, 설치, 실행 및 디버그합니다. Claude가 다음 작업을 수행해야 하는 경우에 사용합니다. (1) hvigorw를 사용하여 OHOS 앱 빌드, (2) hdc를 통해 장치에 HAP 파일 설치, (3) OHOS 애플리케이션 실행 또는 디버그, (4) hstack을 사용하여 충돌 스택 구문 분석, (5) 장치 스크린샷 찍기, 또는 (6) DevEco Studio 환경 및 SDK 도구 감지. DevEco Studio 설치를 자동으로 감지하고 JAVA_HOME, PATH 및 툴체인을 구성합니다.

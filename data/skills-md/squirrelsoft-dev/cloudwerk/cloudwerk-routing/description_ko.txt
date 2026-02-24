@@ -1,0 +1,1 @@
+Cloudflare Workers를 위한 전체 스택 프레임워크인 Cloudwerk의 파일 기반 라우팅 규칙입니다. 페이지, API 경로, 레이아웃, 미들웨어 또는 오류 경계를 생성할 때 사용합니다. 경로 파일(page.tsx,route.ts,layout.tsx,middleware.ts,error.tsx,not-found.tsx), 동적 세그먼트([id], [...slug]), 경로 그룹((group)), 로더, 작업 또는 데이터 로드 패턴과 관련된 작업을 트리거합니다.

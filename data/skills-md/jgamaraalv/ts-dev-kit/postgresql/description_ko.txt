@@ -1,0 +1,1 @@
+쿼리 작성, 스키마 설계, 인덱스 관리 및 성능 최적화를 위한 PostgreSQL 16+ 참조입니다. 다음 경우에 사용하세요: (1) SQL 쿼리 작성(SELECT, INSERT, UPDATE, DELETE, CTE, 창 함수, 하위 쿼리), (2) 테이블 스키마 설계 또는 변경(CREATE TABLE, 제약 조건, 시퀀스, 데이터 유형), (3) 인덱스 선택 또는 생성(B-트리, GIN, GiST, BRIN, 부분, 표현식), (4) 트랜잭션 및 격리 수준 관리(BEGIN/COMMIT, 저장점, MVCC), (5) 작업 JSONB 데이터 및 jsonpath 사용, (6) EXPLAIN ANALYZE를 사용하여 쿼리 성능 분석 또는 (7) psql CLI 사용.

@@ -1,0 +1,1 @@
+Cloudflare Workers의 Cloudwerk 애플리케이션을 위한 처리기, 미들웨어 및 구성 요소 패턴입니다. 경로 처리기, 미들웨어, 페이지/레이아웃 구성 요소 또는 클라이언트 측 대화형 구성 요소를 작성할 때 사용합니다. CloudwerkHandler, 응답 도우미(json, 리디렉션), Cloudflare 바인딩(D1, KV, R2), 미들웨어 구성, PageProps, LayoutProps 또는 클라이언트 지시문과 관련된 작업을 트리거합니다.

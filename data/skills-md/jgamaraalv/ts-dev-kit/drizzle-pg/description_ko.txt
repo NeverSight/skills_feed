@@ -1,0 +1,1 @@
+PostgreSQL용 Drizzle ORM 참조 — drizzle-kit을 사용한 스키마 정의, 유형 안전 쿼리, 관계 및 마이그레이션. 다음 경우에 사용하십시오: (1) 열 유형, 인덱스, 제약 조건 또는 열거형으로 pgTable 스키마 정의, (2) 선택/삽입/업데이트/삭제 쿼리 또는 조인 작성, (3) 관계 정의 및 관계형 쿼리 API(db.query.*) 사용, (4) drizzle-kit 생성/마이그레이션/푸시/풀 실행, (5) drizzle.config.ts 구성, (6) sql`` 템플릿 연산자 사용 또는 (7) 다음 작업 PostGIS/pg_Vector 확장.
