@@ -1,0 +1,121 @@
+name: Fix Non-English Descriptions
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max description_en.txt files to fix per run (0 = all)'
+        required: false
+        default: '200'
+      dry_run:
+        description: 'Dry run (no writes, no commits)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+concurrency:
+  group: fix-en-descriptions
+  cancel-in-progress: true
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests deep-translator
+
+      # ── Step 1: Fix description_en.txt (non-English → English via LLM) ────────
+      - name: Fix non-English description_en.txt
+        env:
+          NEVERSIGHT_API_KEY: ${{ secrets.NEVERSIGHT_API_KEY }}
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+          python scripts/fix_non_english_descriptions.py \
+            --fix \
+            --limit ${{ github.event.inputs.limit || '200' }} \
+            $DRY_RUN_FLAG
+
+      # ── Step 2: Clear stale translations for the just-fixed en files ──────────
+      # After fixing description_en.txt, the old translations (description_cn.txt etc.)
+      # were generated from the non-English source and are now wrong.
+      # Delete them so translate_descriptions.py will regenerate from the fixed English.
+      - name: Clear stale translations for fixed files
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          LANGS="cn tw es ja ko de fr ru it ar"
+          CLEARED=0
+
+          # Find all description_en.txt files that were modified by the fix step
+          while IFS= read -r f; do
+            dir=$(dirname "$f")
+            for lang in $LANGS; do
+              target="${dir}/description_${lang}.txt"
+              if [ -f "$target" ]; then
+                rm "$target"
+                CLEARED=$((CLEARED + 1))
+              fi
+            done
+          done < <(git diff --name-only | grep 'description_en\.txt')
+
+          echo "Cleared ${CLEARED} stale translation file(s)"
+
+      # ── Step 3: Re-translate fixed files using Google Translate ───────────────
+      # translate_descriptions.py (no --force) only processes files where the target
+      # translation is missing — exactly the ones we just cleared above.
+      - name: Re-translate fixed descriptions (Google Translate)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          NEVERSIGHT_API_KEY: ${{ secrets.NEVERSIGHT_API_KEY }}
+        run: |
+          for target in zh-CN zh-TW es ja ko de fr ru it ar; do
+            echo "--- Translating to $target ---"
+            python scripts/translate_descriptions.py --target "$target"
+          done
+
+      # ── Step 4: Commit everything ─────────────────────────────────────────────
+      - name: Commit fixed descriptions and new translations
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/skills-md/
+
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+
+          FIXED=$(git diff --staged --name-only | grep 'description_en\.txt' | wc -l | tr -d ' ')
+          git commit -m "fix: translate ${FIXED} non-English description_en.txt to English and retranslate"
+
+          git fetch origin main
+          git rebase origin/main -X theirs
+
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push failed, retrying ($i/5)..."
+            git fetch origin main
+            git rebase origin/main -X theirs
+            sleep $((i * 2))
+          done
