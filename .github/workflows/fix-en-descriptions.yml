@@ -23,7 +23,7 @@ concurrency:
 jobs:
   fix:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 350
 
     permissions:
       contents: write
@@ -88,9 +88,12 @@ jobs:
         env:
           NEVERSIGHT_API_KEY: ${{ secrets.NEVERSIGHT_API_KEY }}
         run: |
+          # Limit to the same count as the fix step so we only re-translate
+          # the files we just fixed, not the entire backlog of missing translations.
+          LIMIT="${{ github.event.inputs.limit || '200' }}"
           for target in zh-CN zh-TW es ja ko de fr ru it ar; do
-            echo "--- Translating to $target ---"
-            python scripts/translate_descriptions.py --target "$target"
+            echo "--- Translating to $target (limit=$LIMIT) ---"
+            python scripts/translate_descriptions.py --target "$target" --limit "$LIMIT"
           done
 
       # ── Step 4: Commit everything ─────────────────────────────────────────────
