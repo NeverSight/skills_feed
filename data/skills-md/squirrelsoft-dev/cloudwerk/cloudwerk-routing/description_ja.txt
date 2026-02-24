@@ -1,0 +1,1 @@
+Cloudflare WorkersのフルスタックフレームワークであるCloudwerkのファイルベースのルーティング規則。ページ、API ルート、レイアウト、ミドルウェア、またはエラー境界を作成するときに使用します。ルート ファイル (page.tsx、route.ts、layout.tsx、middleware.ts、error.tsx、not-found.tsx)、動的セグメント ([id]、[...slug])、ルート グループ ((group))、ローダー、アクション、またはデータ読み込みパターンに関係するタスクをトリガーします。

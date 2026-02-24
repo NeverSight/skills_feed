@@ -1,0 +1,1 @@
+クエリの作成、スキーマの設計、インデックスの管理、パフォーマンスの最適化のための PostgreSQL 16 以降のリファレンス。次の場合に使用します: (1) SQL クエリ (SELECT、INSERT、UPDATE、DELETE、CTE、ウィンドウ関数、サブクエリ) の作成、(2) テーブル スキーマの設計または変更 (CREATE TABLE、制約、シーケンス、データ型)、(3) インデックスの選択または作成 (B ツリー、GIN、GiST、BRIN、部分、式)、(4) トランザクションと分離レベルの管理 (BEGIN/COMMIT、セーブポイント、 MVCC)、(5) JSONB データと jsonpath の操作、(6) EXPLAIN ANALYZE によるクエリ パフォーマンスの分析、または (7) psql CLI の使用。
