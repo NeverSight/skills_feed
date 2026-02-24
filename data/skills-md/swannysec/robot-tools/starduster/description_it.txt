@@ -1,0 +1,17 @@
+Cataloga i repository stellati di GitHub in un archivio strutturato di Obsidian con
+Riepiloghi sintetizzati dall'intelligenza artificiale, tassonomia degli argomenti normalizzata, ottimizzata per i grafici
+wikilink e file indice di Obsidian Bases (.base) per visualizzazioni filtrate.
+Recupera i metadati dei repository e i README tramite gh CLI, classifica i repository in
+categorie e argomenti normalizzati, genera singole note di pronti contro termine con
+frontmatter e crea note hub per categorie/argomenti/autori che
+fungono da punti di connessione per la visualizzazione del grafico.
+
+Utilizza questa competenza quando gli utenti desiderano:
+(1) Catalogare o indicizzare le proprie stelle GitHub in Obsidian
+(2) Creare una knowledge base ricercabile da repository stellati
+(3) Organizzare e scoprire modelli nelle loro stelle GitHub
+(4) Esporta le stelle di GitHub come note di ribasso strutturate
+(5) Costruisci un grafico dei repository speciali per argomento, lingua o autore
+
+Per salvare/distillare un URL specifico in una nota, usa invece kcap.
+Per sfogliare i tweet AI, utilizza invece ai-twitter-radar.

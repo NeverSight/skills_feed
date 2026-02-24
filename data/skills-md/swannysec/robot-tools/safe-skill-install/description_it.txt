@@ -1,0 +1,5 @@
+Installazione sicura delle competenze con la scansione della sicurezza della catena di fornitura. Comprende lo skill-scanner Cisco
+per verificare le competenze prima dell'installazione. Supporta repository GitHub, skills.sh (npx), mercato Claude
+plugin e percorsi locali. Profondità di scansione configurabile con analisi statica e comportamentale per impostazione predefinita.
+Utilizza i download degli archivi GitHub per evitare rischi di esecuzione di git, con fallback git clone rafforzato.
+Le decisioni sulla sicurezza vengono prese da uno script wrapper deterministico, non dall'agente LLM.
