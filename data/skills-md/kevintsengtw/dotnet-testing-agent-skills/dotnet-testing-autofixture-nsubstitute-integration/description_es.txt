@@ -1,1 +1,4 @@
-Guía de integración de AutoFixture con NSubstitute para auto-mocking. Incluye AutoNSubstituteDataAttribute, Frozen, estrategia Greedy y manejo de dependencias especiales (p. ej. IMapper). Para tests con inyección compleja, verificación de mocks y configuración de comportamiento.
+Guía de integración de AutoFixture y NSubstitute: implementación de simulación automática.  
+Cubre AutoNSubstituteDataAttribute, mecanismo congelado y estrategia de construcción codiciosa.  
+Incluye manejo personalizado para dependencias especiales como IMapper (AutoMapper/Mapster).  
+Adecuado para pruebas complejas de inyección de dependencias, verificación simulada y configuración de comportamiento.

@@ -1,18 +1,18 @@
-发布内容到微信公众号的自动化工具。
+Outil automatisé pour publier du contenu sur les comptes officiels WeChat.
 
-心功能:
-- Nom du produit : 多图配文模式, 支持最多 9 photos du mois
-- Nom : Nom Markdown, Numéro de modèle Markdown
-- Version du produit : version Chrome CDP du produit
-- Nom du produit : 标题和内容超限时自动压缩
-- Nom : mot de passe default、grace、simple
+Fonctionnalités principales :
+- Publication image-texte : multi-images avec mode texte, jusqu'à 9 images prises en charge
+- Publication de l'article : formatage Markdown complet, préservation du style et de la mise en page
+- Flux de travail automatisé : utilise Chrome CDP pour se connecter, remplir et publier automatiquement
+- Compression intelligente : compresse automatiquement le titre et le contenu lorsque les limites sont dépassées
+- Prise en charge des thèmes : les publications d'articles prennent en charge les thèmes par défaut, grâce et simples
 
-使用时机:
-- 用户明确要求 "发布到微信公众号"、"发送到公众号"
-- 用户提供 markdown 文件或内容需要发布
-- 用户需要批量发布图文内容
+Quand utiliser :
+- L'utilisateur dit explicitement « publier sur le compte officiel WeChat » ou « envoyer sur le compte officiel »
+- L'utilisateur fournit un fichier Markdown ou un contenu nécessitant une publication
+- L'utilisateur doit publier par lots le contenu image-texte
 
-不适用场景 :
-- 用户只是询问如何发布 (提供建议即可)
-- 用户需要编辑现有公众号文章 (手动操作)
-- 用户需要发布到其他平台 (使用对应平台工具)
+Sans objet :
+- L'utilisateur demande uniquement comment publier (il suffit de donner des conseils)
+- L'utilisateur doit modifier les articles du compte officiel existants (opération manuelle)
+- L'utilisateur doit publier sur d'autres plateformes (utiliser les outils de plateforme respectifs)

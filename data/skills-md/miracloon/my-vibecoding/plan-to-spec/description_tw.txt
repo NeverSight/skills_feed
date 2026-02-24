@@ -1,1 +1,1 @@
-將 Plan Mode 的討論結論固化為可執行的 Markdown 施工圖。當使用者完成 Plan 討論、準備進入開發階段時使用。產生 overview.md（戰略層）、taskXX_*.md（戰術層）、summary.md（審計層）三類文檔，實現上下文序列化，避免 Plan 與 Code 偏航。
+將 Plan 模式的討論結論固化為可執行的 Markdown 藍圖。當使用者完成計劃討論並準備進入開發階段時使用它。產生三種類型的文件——overview.md（戰略層）、taskXX_*.md（戰術層）和summary.md（審計層）——以序列化上下文並防止計劃代碼漂移。

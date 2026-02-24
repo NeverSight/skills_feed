@@ -1,9 +1,9 @@
-Va bene分支命名與工作流程規範,確保團隊協作一致性 e 版本控制最佳實踐。包含分支命名格式、提交規範、Pull Richiesta di informazioni sul bug修復的開發任務.
+Denominazione dei rami Git e linee guida sul flusso di lavoro per garantire la coerenza della collaborazione del team e le migliori pratiche di controllo della versione. Include formati di denominazione dei rami, standard di commit, procedure di pull request e misure di salvaguardia per impedire modifiche dirette al ramo principale. Applicabile a tutte le attività di sviluppo che comportano modifiche di file, nuove funzionalità e correzioni di bug.
 
-⚠️ 關鍵規則 - 必須遵守：
-1. 絕對不可以直接在 principale 分支上進行任何修改或提交
-2. 任何變更都必須先建立功能分支（格式：<tipo>/<nome>/<descrizione>）
-3. 完成後透過 Pull Request 合併
-4. Come risolvere il problema dei bug?
+⚠️ Regole chiave - devono essere seguite:
+1. Non apportare mai modifiche o effettuare commit direttamente sul ramo principale
+2. Tutte le modifiche devono prima creare un ramo di funzionalità (formato: <tipo>/<nome>/<descrizione>)
+3. Unisci tramite Pull Request dopo il completamento
+4. Questa linea guida si applica a tutte le attività che comportano modifiche di file, nuove funzionalità o correzioni di bug
 
-觸發時機：任何需要修改專案檔案的操作（包括新增、編輯、刪除檔案）都必須參考此規範.
+Trigger: qualsiasi operazione che richieda modifiche ai file di progetto (inclusa l'aggiunta, la modifica o l'eliminazione di file) deve seguire queste linee guida.

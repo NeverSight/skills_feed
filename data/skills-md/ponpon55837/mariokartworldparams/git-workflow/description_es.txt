@@ -1,9 +1,9 @@
-git分支命名與工作流程規範,確保團隊協作一致性和版本控制最佳實踐。包含分支命名格式、提交規範、Pull Solicitar 流程，以及防止直接修改 principal 分支的安全機制。適用於所有涉及檔案修改、新增功能、bug修復的開發任務.
+Pautas de flujo de trabajo y nombres de sucursales de Git para garantizar la coherencia de la colaboración en equipo y las mejores prácticas de control de versiones. Incluye formatos de nombres de sucursales, estándares de confirmación, procedimientos de solicitud de extracción y salvaguardas para evitar cambios directos en la sucursal principal. Aplicable a todas las tareas de desarrollo que implican modificaciones de archivos, nuevas funciones y corrección de errores.
 
-⚠️ 關鍵規則 - 必須遵守:
-1. 絕對不可以直接在 principal 分支上進行任何修改或提交
-2. 任何變更都必須先建立功能分支（格式：<tipo>/<nombre>/<descripción>）
-3. 完成後透過 Solicitud de extracción 合併
-4. 本技能適用於所有涉及檔案修改、新增功能、bug 修復的任務
+⚠️ Reglas clave: se deben seguir:
+1. Nunca realice cambios ni se comprometa directamente en la rama principal.
+2. Todos los cambios deben crear primero una rama de función (formato: <tipo>/<nombre>/<descripción>)
+3. Fusionar mediante Pull Request una vez completado
+4. Esta directriz se aplica a todas las tareas que implican modificaciones de archivos, nuevas funciones o corrección de errores.
 
-觸發時機：任何需要修改專案檔案的操作（包括新增、編輯、刪除檔案）都必須參考此規範.
+Desencadenante: cualquier operación que requiera cambios en el archivo del proyecto (incluida la adición, edición o eliminación de archivos) debe seguir esta guía.

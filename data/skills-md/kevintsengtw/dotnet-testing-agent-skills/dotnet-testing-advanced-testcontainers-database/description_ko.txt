@@ -1,3 +1,3 @@
-使用 Testcontainers는 進行容器化資料庫測試的專gate技能.
-SQL Server/PostgreSQL/MySQL을 사용하고 EF Core/Dapper를 시계 용도로 사용합니다.
-涵蓋容器啟동, 資料庫遷移, 測試隔離, 容器共享等.
+Testcontainers를 사용한 컨테이너화된 데이터베이스 테스트에 대한 전문 기술입니다.
+실제 데이터베이스 동작을 테스트하고, SQL Server/PostgreSQL/MySQL 컨테이너를 사용하고, EF Core/Dapper를 테스트해야 할 때 사용됩니다.
+컨테이너 시작, 데이터베이스 마이그레이션, 테스트 격리, 컨테이너 공유 등을 다룹니다.

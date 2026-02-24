@@ -1,1 +1,1 @@
-围绕 Qwen3-TTS 提供本地 TTS動作フローのサポート。 : 単話音声生成 (CustomVoice/VoiceDesign/VoiceClone)、文章原稿大量配音生成 (文章→音声配音 JSON→大量 TTS→結合)。
+Qwen3-TTS を中心としたローカル TTS ワークフローを提供します。機能: 単一文の音声生成 (CustomVoice/VoiceDesign/VoiceClone)、長いスクリプトのバッチ ナレーション生成 (記事 → ナレーション JSON → バッチ TTS → マージ)。使用例: 音声生成、オーディオブックのナレーション、ビデオのナレーション、複数のキャラクターの会話の読み上げ、音声のクローン作成。

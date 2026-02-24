@@ -1,24 +1,24 @@
-Die neue Gemini-Web-API-App ist für die Nutzung der Gemini-Web-API geeignet.
+Text- und Bildgenerierung durch rückentwickelte Gemini-Web-API.
 
-Beschreibung:
-- 文本生成: 使用 Gemini 模型生成文本响应
-- 图像生成: 从文本提示生成图像并保存到本地
-- 视觉输入: 支持参考图像进行图生图或图生文
-- 多轮对话: 通过 sessionId 保持上下文连续性
+Kernkompetenzen:
+- Textgenerierung: Generieren Sie Textantworten mithilfe des Gemini-Modells
+- Bildgenerierung: Erstellen Sie Bilder aus Textaufforderungen und speichern Sie sie lokal
+- Visuelle Eingabe: Unterstützt Referenzbilder für Bild-zu-Bild oder Bild-zu-Text
+- Multi-Turn-Dialog: Kontinuität des Kontexts über sessionId aufrechterhalten
 
-使用时机:
-- 需要生成高质量 AI 图像时 (封面图、配图、插画等)
-- 需要 Gemini 模型进行文本生成时
-- 需要基于参考图像生成变体或描述时
-- 作为其他技能 (pw-cover-image、pw-redbook-image) 的图像生成后端
+Wann zu verwenden:
+- Wenn Sie hochwertige KI-Bilder (Cover, Illustrationen usw.) generieren müssen
+- Wenn Sie eine Textgenerierung aus dem Gemini-Modell benötigen
+- Wenn Sie Varianten oder Beschreibungen basierend auf Referenzbildern erstellen müssen
+- Als Backend zur Bildgenerierung für andere Fähigkeiten (pw-cover-image, pw-redbook-image)
 
-不适用场景:
-- API-Unterstützung für den Zugriff auf die API
-- 对 API 变更敏感的关键业务流程
-- 需要批量高频调用的场景 (可能触发限流)
+Nicht geeignet für:
+- Produktionsumgebungen, die offizielle API-Unterstützung und Stabilitätsgarantien erfordern
+– Kritische Geschäftsprozesse, die empfindlich auf API-Änderungen reagieren
+- Hochfrequente Batch-Aufrufe (können Ratenbegrenzungen auslösen)
 
-重要提醒:
-- 首次使用需要用户同意免责声明
-- 需要 Google 账号认证 (自动打开浏览器登录)
-- 在中国大陆需要配置代理访问
-- 这是非官方 API, 可能随时失效
+Wichtige Hinweise:
+- Bei der erstmaligen Nutzung ist die Einwilligung des Nutzers zum Haftungsausschluss erforderlich
+- Google-Kontoauthentifizierung erforderlich (Browser öffnet sich automatisch für die Anmeldung)
+– Für den Zugriff vom chinesischen Festland ist eine Proxy-Konfiguration erforderlich
+– Dies ist eine inoffizielle API und kann jederzeit kaputt gehen

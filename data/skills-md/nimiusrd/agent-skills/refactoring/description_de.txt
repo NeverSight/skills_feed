@@ -1,1 +1,10 @@
-コードのリファクタリングを支援するスキル.外部仕様（振る舞い）を変更せずに、コードの内部構造を改善する.以下のリクエストに使用: - 変数名・関数名のリネーム -設計パターンの適用 - コードの可読性・保守性の向上 - 「リファクタリングして」「きれいにして」「整理して」「DRYにして」などの指示対応言語:言語問わず汎用.テストが不十分な場合はリファクタリングを中止する
+Fähigkeit, beim Code-Refactoring zu helfen. Verbessert die interne Struktur des Codes, ohne sein äußeres Verhalten (Funktionalität) zu ändern. Wird für folgende Anfragen verwendet:  
+- Funktionen/Klassen aufteilen und organisieren  
+- Umbenennen von Variablen und Funktionsnamen  
+- Eliminierung und Konsolidierung von doppeltem Code  
+- Anwenden von Designmustern  
+- Verbesserung der Lesbarkeit und Wartbarkeit des Codes  
+- Anweisungen wie „Umgestalten“, „Aufräumen“, „Organisieren“ oder „Trocken machen“  
+
+Unterstützte Sprachen: sprachunabhängig.  
+Wenn die Tests nicht ausreichen, wird das Refactoring gestoppt.

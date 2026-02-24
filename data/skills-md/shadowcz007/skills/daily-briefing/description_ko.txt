@@ -1,1 +1,1 @@
-从 mixdao 최신 获取数据 → 用 MiniMax-M2.5 做分类整理(에이전트 루프：至多5组、每组至少3条)并生成分组摘要与每条推荐语 → 按캐시된StoryId 提交推荐语并上传简报到 mixdao。需配置 MIXDAO_API_KEY、ANTHROPIC_API_KEY。自然语言触发示例： 「执行 일일 브리핑」 「做今日 mixdao简报」。
+mixdao 최신에서 데이터 가져오기 → MiniMax-M2.5(에이전트 루프: 최대 5개 그룹, 각각 ≥3개 항목)로 분류 및 구성하고 모든 항목에 대한 그룹 요약과 권장 사항 생성 → 캐시된StoryId로 권장 사항을 제출하고 브리핑을 mixdao에 업로드합니다. MIXDAO_API_KEY 및 ANTHROPIC_API_KEY가 필요합니다. 자연어 트리거 예: "일일 브리핑 실행" 또는 "오늘의 mixdao 브리핑 수행"

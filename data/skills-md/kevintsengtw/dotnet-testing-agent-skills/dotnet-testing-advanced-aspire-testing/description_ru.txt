@@ -1,3 +1,3 @@
-Тестирование .NET Aspire.
-Используйте AppHost или DistributedApplicationTestingBuilder.
-包含從 Testcontainers 遷移、多服務編排、Respawn 配置與時間可測試性設計。
+Полное руководство по инфраструктуре интеграционного тестирования .NET Aspire Testing.
+Охватывает настройку проекта AppHost, DistributedApplicationTestingBuilder, управление жизненным циклом контейнера.
+Включает миграцию с тестовых контейнеров, мультисервисную оркестровку, настройку Respawn и разработку возможности тестирования во времени.

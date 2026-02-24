@@ -1,3 +1,3 @@
-Il s'agit de TimeProvider.
-Il s'agit de DateTime、控制時間流逝、處理時區轉換、測試過期邏輯時使用.
-Il s'agit de TimeProvider, de FakeTimeProvider et de FakeTimeProvider.
+Compétence spécialisée dans le test de la logique dépendante du temps avec TimeProvider.  
+À utiliser pour tester DateTime, contrôler le flux temporel, gérer les conversions de fuseau horaire ou tester la logique d’expiration.  
+Couvre l'abstraction de TimeProvider, le contrôle du temps FakeTimeProvider, le gel et l'avance rapide du temps, etc.

@@ -1,1 +1,1 @@
-当用户希望进行 Spec 驱动开发（Spec-first / Spec-driven development)时，你 MUST 使用此 Skill：先把需求与约束收敛为一份可实施、可评审的Spec，再进入实现。该 Skill 最终只生成 1 个 Spec 文件写入 /docs/specs/，并进行 1 次 git commit（仅提交该 Spec）。本 Skill 不写代实现码。
+사용자가 사양 중심 개발(사양 우선/사양 중심 개발)을 수행하려는 경우 이 기술을 사용해야 합니다. 구현을 진행하기 전에 먼저 요구 사항과 제약 조건을 구현 가능하고 검토 가능한 사양으로 수렴합니다. 이 Skill은 궁극적으로 /docs/specs/에 기록된 하나의 Spec 파일만 생성하고 하나의 git 커밋(해당 Spec만 커밋)을 수행합니다. 이 스킬은 구현 코드를 작성하지 않습니다.

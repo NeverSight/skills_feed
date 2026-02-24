@@ -1,1 +1,1 @@
-Der RIF-Fehler (Required Behavior Frame) ist ein Event-Handler設計與實作.支援冪等性、重試、死信佇列。
+Verantwortlich für die Handhabung der RIF-Typanforderungen (Required Behavior Frame). Liest die Spezifikationsverzeichnisstruktur, generiert/überprüft das Design und die Implementierung des Event-Handlers. Unterstützt Idempotenz, Wiederholungsversuche und Warteschlangen für unzustellbare Nachrichten.

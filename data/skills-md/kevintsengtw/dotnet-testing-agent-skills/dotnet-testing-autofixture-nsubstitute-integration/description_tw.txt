@@ -1,4 +1,4 @@
-AutoFixture 與 NSubstitute 集成指南 - 實現自動模擬 (Auto-Mocking)。
-內容 AutoNSubstituteDataAttribute、凍結機制、貪婪策略當前。
-包含IMapper (AutoMapper/Mapster)等特殊相依性的客制化處理。
-適用於復雜相依性注入測試、模擬驗證與行為設定。
+AutoFixture 和 NSubstitute 整合指南 – 實現自動模擬。  
+涵蓋AutoNSubstituteDataAttribute、Frozen機制、Greedy建構策略。  
+包括對 IMapper (AutoMapper/Mapster) 等特殊依賴項的自訂處理。  
+適用於複雜的依賴注入測試、Mock 驗證和行為設定。

@@ -1,1 +1,1 @@
-當使用者希望進行 Spec 驅動開發（Spec-first / Spec-driven development）時，你 MUST 使用此 Skill：先把需求與限制收斂為一份可實施、可審查的 Spec，再進入實作。該 Skill 最終只產生 1 個 Spec 檔案寫入 /docs/specs/，並進行 1 次 git commit（僅提交該 Spec）。本 Skill 不寫實作程式碼。
+當使用者希望進行Spec驅動開發（Spec-first / Spec驅動開發）時，必須使用此技能：先將需求和限制匯聚成一個可實施、可審查的Spec，然後再進行實作。此技能最終只產生一個寫入 /docs/specs/ 的 Spec 文件，並執行一次 git 提交（僅提交該 Spec）。本技能不編寫實作程式碼。

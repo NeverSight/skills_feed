@@ -1,4 +1,4 @@
-AutoFixture et NSubstitute 整合指南 - 實現自動模擬 (Auto-Mocking)。
-Il s'agit d'AutoNSubstituteDataAttribute、Frozen 、Greedy 、Greedy .
-Il s'agit d'IMapper (AutoMapper/Mapster).
-Il s'agit d'une simulation de simulation.
+Guide d'intégration d'AutoFixture et NSubstitute – Implémentation de l'auto-mocking.  
+Couvre AutoNSubstituteDataAttribute, le mécanisme gelé et la stratégie de construction gourmande.  
+Inclut une gestion personnalisée pour les dépendances spéciales telles que IMapper (AutoMapper/Mapster).  
+Convient aux tests complexes d'injection de dépendances, à la vérification simulée et à la configuration du comportement.

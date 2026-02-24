@@ -1,1 +1,1 @@
-處理跨 Frame 的複雜流程，協調多個 Sub-agent（command/query/reactor）完成 Saga/Choreography 式分散式交易。適用於多狀態變更、事件反應與查詢組合時。
+處理複雜的跨框架業務流程，協調多個子代理程式（命令/查詢/反應器）完成Saga/Choreography模式的分散式事務。當需求涉及多個狀態變更、事件反應和查詢的組合時使用。

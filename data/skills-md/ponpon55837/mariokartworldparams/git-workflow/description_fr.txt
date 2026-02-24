@@ -1,9 +1,9 @@
-Git分支命名與工作流程規範，確保團隊協作一致性和版本控制最佳實踐。包含分支命名格式、提交規範、Pull Demander un bug修復的開發任務。
+Directives de dénomination des branches Git et de flux de travail pour garantir la cohérence de la collaboration en équipe et les meilleures pratiques de contrôle de version. Comprend des formats de dénomination de branche, des normes de validation, des procédures de demande d'extraction et des protections pour empêcher les modifications directes de la branche principale. Applicable à toutes les tâches de développement impliquant des modifications de fichiers, de nouvelles fonctionnalités et des corrections de bugs.
 
-⚠️ 關鍵規則 - 必須遵守：
-1. 絕對不可以直接在 main 分支上進行任何修改或提交
-2. 任何變更都必須先建立功能分支（格式：<type>/<nom>/<description>）
-3. 完成後透過 Pull Request 合併
-4. 本技能適用於所有涉及檔案修改、新增功能、bug 修復的任務
+⚠️ Règles clés - doivent être respectées :
+1. N’apportez jamais de modifications ou de commits directement sur la branche principale
+2. Toutes les modifications doivent d'abord créer une branche de fonctionnalité (format : <type>/<nom>/<description>)
+3. Fusionner via Pull Request une fois terminé
+4. Cette directive s'applique à toutes les tâches impliquant des modifications de fichiers, de nouvelles fonctionnalités ou des corrections de bugs.
 
-Description du produit :
+Déclencheur : toute opération nécessitant des modifications dans les fichiers du projet (y compris l'ajout, la modification ou la suppression de fichiers) doit suivre cette directive.

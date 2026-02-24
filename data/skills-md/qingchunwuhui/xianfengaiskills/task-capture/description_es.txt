@@ -1,1 +1,3 @@
-Asistente de captura de tareas: solo registra la ejecución en tiempo real, sin análisis. Principio «captura y procesamiento por separado». Triggers: /task-capture, /capture, /记录.
+Asistente de captura de tareas: un registrador puro de ejecución de tareas, centrado en la captura en tiempo real con un inicio sin fricción.
+Sigue la regla de "capturar antes del proceso": registrar solo en el lanzamiento, no revisar.  
+Activadores: /task-capture, /capture, /record

@@ -1,1 +1,1 @@
-Gestore eventi RIF (frame di comportamento richiesto)設計與實作。支援冪等性、重試、死信佇列。
+Responsabile della gestione dei requisiti di tipo RIF (Required Behavior Frame). Legge la struttura della directory delle specifiche, genera/revisiona la progettazione e l'implementazione del gestore eventi. Supporta idempotenza, nuovi tentativi e code di messaggi non recapitabili.

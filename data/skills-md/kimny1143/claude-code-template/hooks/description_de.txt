@@ -1,1 +1,13 @@
-Claude Code hat die Hook-Funktion „PreToolUse“, „PostToolUse“, „Stop“ verwendet. Beispiele: (1)危険操作をブロックしたい時 (2) (4) Claude Code: Claude CodeのHooks」
+Claude Code Hook-Erstellungs- und Verwaltungshandbuch. Implementieren von Hooks wie PreToolUse, PostToolUse, Stop usw.  
+Nutzungszeitpunkt:  
+(1) Wenn Sie gefährliche Vorgänge blockieren möchten  
+(2) Wenn Sie nach der Werkzeugausführung Vorschläge machen möchten  
+(3) Wenn Sie am Ende der Sitzung eine Bereinigung durchführen möchten  
+(4) Wenn Sie Claude Code anpassen möchten  
+
+Trigger-Beispiele:  
+„Erstelle einen Haken“  
+„PreToolUse-Hook“  
+„Blockieren Sie gefährliche Operationen“  
+„Vorschlag nach Commit“  
+„Claude Code Haken“

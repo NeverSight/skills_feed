@@ -1,1 +1,1 @@
-處理跨 Frame 的複雜業務流程, 協調多個 Subagent (Befehl/Abfrage/Reaktor) und Saga/Choreographie模式的分散式交易.當需求涉及多個狀態變更、事件反應與查詢的組合時使用.
+Verarbeitet komplexe, rahmenübergreifende Geschäftsprozesse und koordiniert mehrere Unteragenten (Befehl/Abfrage/Reaktor), um verteilte Transaktionen nach Saga-/Choreografiemuster abzuschließen. Verwenden Sie diese Option, wenn Anforderungen Kombinationen aus mehreren Zustandsänderungen, Ereignisreaktionen und Abfragen umfassen.

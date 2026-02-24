@@ -1,4 +1,4 @@
-AutoFixture هو NSubstitute - السخرية التلقائية.
-تم استخدام AutoNSubstituteDataAttribute وFrozen وGreedy.
-تم تصميم IMapper (AutoMapper/Mapster) ليكون جاهزًا للاستخدام.
-適用於複雜相依性注入測試、Mock 驗證與行為設定.
+دليل تكامل AutoFixture وNSubstitute – تنفيذ السخرية التلقائية.  
+يغطي AutoNSubstituteDataAttribute، والآلية المجمدة، واستراتيجية البناء الجشعة.  
+يتضمن معالجة مخصصة للتبعيات الخاصة مثل IMapper (AutoMapper/Mapster).  
+مناسب لاختبارات حقن التبعية المعقدة، والتحقق الوهمي، وإعداد السلوك.

@@ -1,1 +1,13 @@
-Claude Code et Hook 作成・管理ガイド。PreToolUse、PostToolUse、Stop等のフック実装。 使用タイミング : (1)危険操作をブロックしたい時 (2) ツール実行後に提案を出したい時 (3) (4) Claude Codeをカスタマイズしたい時. "Claude" Codeのcrochets」
+Guide de création et de gestion de Claude Code Hook. Implémentation de hooks tels que PreToolUse, PostToolUse, Stop, etc.  
+Moment d'utilisation :  
+(1) Lorsque vous souhaitez bloquer les opérations dangereuses  
+(2) Lorsque vous souhaitez faire des suggestions après l'exécution de l'outil  
+(3) Lorsque vous souhaitez effectuer un nettoyage à la fin de la session  
+(4) Lorsque vous souhaitez personnaliser Claude Code  
+
+Exemples de déclencheurs :  
+"Créer un crochet"  
+"Hook PreToolUse"  
+"Bloquer les opérations dangereuses"  
+"Suggérer après la validation"  
+"Crochets Claude Code"

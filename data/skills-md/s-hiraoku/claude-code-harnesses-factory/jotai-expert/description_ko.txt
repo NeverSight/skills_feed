@@ -1,9 +1,9 @@
-Jotai 状態管리 라이브라리의 에키스파트스킬.React 앱을 사용하여 원자 베이스를 사용하는 것이 가능합니다.
-(1) 조타이의 원자設計・実装
-(2) 派生atom、不同期atom、atomFamilyの実装
-(3) Jotai의 베스트프라크티스에 의한 쿠리파크타링
-(4) 파포만스最適化(selectAtom、splitAtom等)
-(5) 永続化(localStorage/sessionStorage連携)
-(6) TypeScript의 정의
-(7) 테스트실장
-ユザーが「Jotai」「atom」「状態管理」に関suuru質問や実装依頼をした場合に発動。
+조타이 국가 관리 도서관의 전문 기술. React 애플리케이션에서 원자 기반 상태 관리를 구현할 때 사용됩니다. 다음과 같은 경우에 이 기술을 사용하십시오.
+(1) Jotai Atom 설계 및 구현
+(2) 파생된 원자, 비동기 원자 및atomFamily 구현
+(3) Jotai 모범 사례를 기반으로 한 리팩토링
+(4) 성능 최적화 (selectAtom, SplitAtom 등)
+(5) 지속성(localStorage/sessionStorage 통합)
+(6) TypeScript 유형 정의
+(7) 테스트 구현
+사용자가 “조타이”, “아톰”, “상태 관리”와 관련된 질문이나 구현 요청을 할 때 활성화됩니다.

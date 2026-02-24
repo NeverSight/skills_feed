@@ -1,1 +1,13 @@
-Claude Code の Hook 作成・管理ガイド.PreToolUse、PostToolUse、Stop等のフック実装。 使用タイミング: (1)危険操作をブロックしたい時 (2) ツール実行後に提案を出したい時 (3)セッション終了時にクリーンアップしたい時 (4) Claude Codeをカスタマイズしたい時。 トリガー例: "PreToolUse" Codiceのganci」
+Guida alla creazione e gestione di Claude Code Hook. Implementazione di hook come PreToolUse, PostToolUse, Stop, ecc.  
+Tempi di utilizzo:  
+(1) Quando si desidera bloccare operazioni pericolose  
+(2) Quando si desidera fornire suggerimenti dopo l'esecuzione dello strumento  
+(3) Quando si desidera eseguire la pulizia al termine della sessione  
+(4) Quando desideri personalizzare Claude Code  
+
+Esempi di trigger:  
+"Crea un gancio"  
+"Gancio PreToolUse"  
+"Blocca operazioni pericolose"  
+"Suggerisci dopo il commit"  
+"Ganci Claude Code"

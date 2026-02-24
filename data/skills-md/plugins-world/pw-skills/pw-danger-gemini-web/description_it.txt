@@ -1,24 +1,24 @@
-通过逆向工程的 Gemini Web API 进行文本和图像生成.
+Generazione di testo e immagini tramite API Web Gemini con ingegneria inversa.
 
-核心能力:
-- 文本生成: 使用 Gemini 模型生成文本响应
-- 图像生成: 从文本提示生成图像并保存到本地
-- 视觉输入: 支持参考图像进行图生图或图生文
-- 多轮对话: 通过 sessionId 保持上下文连续性
+Funzionalità principali:
+- Generazione di testo: genera risposte di testo utilizzando il modello Gemini
+- Generazione di immagini: crea immagini da istruzioni di testo e salvale localmente
+- Input visivo: supporta immagini di riferimento per il trasferimento da immagine a immagine o da immagine a testo
+- Dialogo multi-turno: mantieni la continuità del contesto tramite sessionId
 
-使用时机:
-- 需要生成高质量 AI 图像时 (封面图、配图、插画等)
-- 需要 Gemini 模型进行文本生成时
-- 需要基于参考图像生成变体或描述时
-- 作为其他技能 (pw-cover-image、pw-redbook-image) 的图像生成后端
+Quando usarlo:
+- Quando è necessario generare immagini AI di alta qualità (copertine, illustrazioni, ecc.)
+- Quando è necessaria la generazione di testo dal modello Gemini
+- Quando è necessario creare varianti o descrizioni basate su immagini di riferimento
+- Come backend per la generazione di immagini per altre competenze (pw-cover-image, pw-redbook-image)
 
-不适用场景:
-- 需要官方 API 支持和稳定性保证的生产环境
-- 对 API 变更敏感的关键业务流程
-- 需要批量高频调用的场景 (可能触发限流)
+Non adatto per:
+- Ambienti di produzione che richiedono supporto API ufficiale e garanzie di stabilità
+- Processi aziendali critici sensibili alle modifiche API
+- Chiamate batch ad alta frequenza (potrebbero attivare limiti di velocità)
 
-重要提醒:
-- 首次使用需要用户同意免责声明
-- 需要 Google 账号认证 (自动打开浏览器登录)
-- 在中国大陆需要配置代理访问
-- 这是非官方 API, 可能随时失效
+Promemoria importanti:
+- Il primo utilizzo richiede il consenso dell'utente alla dichiarazione di non responsabilità
+- È richiesta l'autenticazione dell'account Google (il browser si apre automaticamente per l'accesso)
+- Configurazione proxy necessaria per l'accesso dalla Cina continentale
+- Questa è un'API non ufficiale e potrebbe rompersi in qualsiasi momento

@@ -1,1 +1,13 @@
-Guía de creación y gestión de Hooks en Claude Code: PreToolUse, PostToolUse, Stop, etc. Para bloquear operaciones peligrosas, proponer tras ejecutar una herramienta, limpiar al cerrar sesión o personalizar Claude Code. Triggers: «crear hook», «PreToolUse», «bloquear operación peligrosa», «hooks de Claude Code».
+Guía de creación y gestión de Claude Code Hook. Implementación de ganchos como PreToolUse, PostToolUse, Stop, etc.  
+Tiempo de uso:  
+(1) Cuando quieras bloquear operaciones peligrosas  
+(2) Cuando desee hacer sugerencias después de la ejecución de la herramienta  
+(3) Cuando desee realizar la limpieza al final de la sesión  
+(4) Cuando quieras personalizar Claude Code  
+
+Ejemplos de desencadenantes:  
+"Crea un gancho"  
+"Gancho PreToolUse"  
+"Bloquear operaciones peligrosas"  
+"Sugerir después de confirmar"  
+"Ganchos del Código Claude"
