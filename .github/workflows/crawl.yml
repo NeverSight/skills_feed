@@ -108,9 +108,11 @@ jobs:
 
       # Translate descriptions (GitHub Actions bot push won't trigger other workflows)
       - name: Install translation dependencies
-        run: pip install deep-translator
+        run: pip install deep-translator requests
       
       - name: Run translation
+        env:
+          NEVERSIGHT_API_KEY: ${{ secrets.NEVERSIGHT_API_KEY }}
         run: |
           # Translate up to 2000 new descriptions per run (per language).
           # The script will skip if the target file already exists (unless --force).

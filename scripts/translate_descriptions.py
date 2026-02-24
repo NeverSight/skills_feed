@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-Batch translate description_en.txt to description_cn.txt (using free Google Translate)
+Batch translate description_en.txt to description_cn.txt
+
+- If source text is English → uses Google Translate (free, fast)
+- If source text is non-English (e.g. already Chinese) → uses LLM API
+  (set NEVERSIGHT_API_KEY env var for LLM translation)
 
 Usage:
     # Translate all missing Chinese descriptions
@@ -168,6 +172,81 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
         signal.signal(signal.SIGALRM, old_handler)
 
 
+def is_english_text(text: str, threshold: float = 0.8) -> bool:
+    """Return True if the text is primarily English (Latin alphabet).
+
+    Counts only letter characters; if ≥ threshold fraction are ASCII letters,
+    we treat the text as English and use Google Translate. Otherwise we fall
+    back to the LLM which handles arbitrary source languages better.
+    """
+    letters = [c for c in text if c.isalpha()]
+    if not letters:
+        return True  # no letters at all → treat as English (safe default)
+    ascii_count = sum(1 for c in letters if ord(c) < 128)
+    return (ascii_count / len(letters)) >= threshold
+
+
+# Language code → human-readable name used in LLM prompts
+_LLM_LANG_NAMES: dict[str, str] = {
+    "zh-CN": "Simplified Chinese",
+    "zh-TW": "Traditional Chinese",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "it": "Italian",
+    "ru": "Russian",
+    "ar": "Arabic",
+    "pt": "Portuguese",
+    "en": "English",
+}
+
+
+def translate_with_llm(text: str, target_lang: str) -> str:
+    """Translate *text* to *target_lang* using the neversight LLM API.
+
+    Requires the NEVERSIGHT_API_KEY environment variable.
+    Used when the source text is not English (Google Translate produces poor
+    results when the declared source language does not match the actual content).
+    """
+    try:
+        import requests as _requests
+    except ImportError:
+        raise RuntimeError("Please install requests: pip install requests")
+
+    api_key = os.getenv("NEVERSIGHT_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError(
+            "NEVERSIGHT_API_KEY environment variable is not set. "
+            "Cannot use LLM translation for non-English source text."
+        )
+
+    target_name = _LLM_LANG_NAMES.get(target_lang, target_lang)
+    prompt = (
+        f"Translate the following text to {target_name}. "
+        "Output only the translated text with no extra explanations or comments:\n\n"
+        f"{text}"
+    )
+
+    timeout_s = float(os.getenv("TRANSLATE_REQUEST_TIMEOUT_SECONDS", "60"))
+    response = _requests.post(
+        "https://api.neversight.dev/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": "moonshotai/kimi-k2-latest",
+            "messages": [{"role": "user", "content": prompt}],
+        },
+        timeout=timeout_s,
+    )
+    response.raise_for_status()
+    data = response.json()
+    return data["choices"][0]["message"]["content"].strip()
+
+
 def translate_with_mymemory(text: str, source_lang: str, target_lang: str) -> str:
     """Translate using MyMemory (fallback when Google returns wrong language)."""
     try:
@@ -229,6 +308,26 @@ def translate_file(
         is_chinese_target = t_lang.startswith("zh")
         chinese_ratio = sum(1 for c in en_text if "\u4e00" <= c <= "\u9fff") / max(1, len(en_text))
 
+        # ── Non-English source: route to LLM ──────────────────────────────────
+        # If description_en.txt is actually written in a non-English language
+        # (e.g. the skill author wrote the description in Chinese), Google
+        # Translate with source="en" produces garbage.  Detect this case and
+        # use the LLM API instead.
+        if not is_english_text(en_text):
+            # Special case: source is already the target language family → just copy
+            # (e.g. source is Chinese and target is zh-CN, no need to translate)
+            if is_chinese_target and chinese_ratio > 0.3 and not force:
+                out_text = en_text
+            else:
+                out_text = translate_with_llm(en_text, target_lang)
+            if out_text is None:
+                raise RuntimeError("LLM translation output is None")
+            out_text = str(out_text)
+            if not dry_run:
+                out_file.write_text(out_text + "\n", encoding="utf-8")
+            return en_file, True, "[LLM] " + (out_text[:47] + "..." if len(out_text) > 47 else out_text)
+
+        # ── English source: use Google Translate (existing logic) ──────────────
         # If the "English" file is actually Chinese and target is Chinese: copy only when not force.
         # When force (fix-identical), always translate so that e.g. zh-CN -> zh-TW produces different (traditional) text.
         # When force and source is Chinese but target is ru/it/... use zh-CN as source so we get real translation.
@@ -346,7 +445,7 @@ def main():
     
     # Start translation
     out_name = output_filename_for_target(args.target)
-    print(f"\nStarting translation (using Google Translate)...")
+    print(f"\nStarting translation (English source → Google Translate; non-English source → LLM)...")
     print(f"Source: {args.source}  Target: {args.target}  Output: {out_name}")
     print("-" * 60)
     
