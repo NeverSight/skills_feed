@@ -1,0 +1,4 @@
+將 GSD 程式碼庫映射轉換為 AutoForge app_spec.txt。該技能應該在以下情況下使用
+使用者已執行 /gsd:map-codebase 並希望在現有專案上使用 AutoForge。
+觸發器：「轉換為 autoforge」、「gsd 為 spec」、「從程式碼庫建立 app_spec」、
+/gsd:map-codebase 完成後，「在現有專案上使用 autoforge」。

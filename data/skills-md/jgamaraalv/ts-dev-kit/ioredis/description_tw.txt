@@ -1,0 +1,1 @@
+Node.js Redis 用戶端的 ioredis v5 參考 — 連接設定、RedisOptions、管道、事務、Pub/Sub、Lua 腳本、叢集和 Sentinel。在以下情況下使用：(1) 建立或設定 Redis 連線（獨立、叢集、sentinel）、(2) 使用 ioredis 編寫 Redis 指令（get/set、管道、multi/exec）、(3) 設定 Pub/Sub 或 Streams、(4) 設定 retryStrategy、TLS 或 6, 15) 使用自動叢集或「除頁」。連接問題。重要提示：使用命名導入 `import { Redis } from 'ioredis'` 來取得 NodeNext 的正確 TypeScript 類型。

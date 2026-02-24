@@ -1,0 +1,1 @@
+用於編寫查詢、設計模式、管理索引和最佳化效能的 PostgreSQL 16+ 參考。在下列情況下使用：(1) 編寫 SQL 查詢（SELECT、INSERT、UPDATE、DELETE、CTE、視窗函數、子查詢），(2) 設計或變更表格模式（CREATE TABLE、約束、序列、資料類型），(3) 選擇或建立索引（B 樹、GIN、GiST、BRIN、部分、表達式），(4)管理事務和隔離等級（BEGIN/COMMIT、保存點、MVCC），(5) 工作使用 JSONB 資料和 jsonpath，(6) 使用 EXPLAIN ANALYZE 分析查詢效能，或 (7) 使用 psql CLI。

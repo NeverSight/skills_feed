@@ -1,0 +1,1 @@
+PostgreSQL 的 Drizzle ORM 參考 — 架構定義、類型安全性查詢、關係以及使用 drizzle-kit 進行遷移。在下列情況下使用：(1) 使用列類型、索引、約束或枚舉定義 pgTable 模式，(2) 編寫 select/insert/update/delete 查詢或聯接，(3) 定義關係並使用關聯式查詢 API (db.query.*)，(4) 執行 drizzle-kitgene/migrate/push/pull，(5) 執行 drV.範本運算符，或 (7) 使用PostGIS/pg_vector 擴充。
