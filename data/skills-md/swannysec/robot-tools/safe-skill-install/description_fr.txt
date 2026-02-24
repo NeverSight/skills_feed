@@ -1,0 +1,5 @@
+Installation sécurisée des compétences grâce à l’analyse de la sécurité de la chaîne d’approvisionnement. Encapsule le scanner de compétences Cisco
+pour vérifier les compétences avant l'installation. Prend en charge les dépôts GitHub, skills.sh (npx), Claude Marketplace
+plugins et chemins locaux. Profondeur d'analyse configurable avec analyse statique et comportementale par défaut.
+Utilise les téléchargements d'archives GitHub pour éviter les risques d'exécution de git, avec un repli renforcé du clone git.
+Les décisions de sécurité sont prises par un script wrapper déterministe, et non par l'agent LLM.

@@ -1,0 +1,7 @@
+Better Auth – bibliothèque d’authentification et d’autorisation TypeScript indépendante du framework.
+Couvre la configuration, l'e-mail/mot de passe, les réseaux sociaux OAuth (plus de 40 fournisseurs), les mots de passe, les liens magiques,
+2FA, organisations, sessions, plugins, administrateur, hooks et renforcement de la sécurité.
+À utiliser lors de l'implémentation de l'authentification avec Better Auth : configuration des instances d'authentification, ajout
+fournisseurs, mise en place d'adaptateurs de base de données (Prisma, Drizzle, PostgreSQL, MySQL, SQLite,
+MongoDB), s'intégrant aux frameworks (Next.js, Nuxt, SvelteKit, Astro, Hono, Express,
+Elysia, Fastify, Expo), gestion de sessions, ou extension avec des plugins.
