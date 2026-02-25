@@ -1,0 +1,3 @@
+빠른 Python 패키지이자 프로젝트 관리자인 uv를 사용한 최신 Python 개발입니다. 프로젝트 관리(uv init, uv add, uv sync, uv lock), 가상 환경, Python 버전 관리(uv python 설치/핀), 스크립트 실행기(uv 실행), 도구 관리(uvx), monorepos에 대한 작업 공간 지원 및 PyPI에 게시를 다룹니다. FastAPI, Pydantic, async/await, 유형 검사, pytest, structlog 및 CLI 도구용 Python 패턴이 포함되어 있습니다.
+
+Python 프로젝트 초기화, uv를 사용한 종속성 관리, pyproject.toml 구성, 가상 환경 설정, 스크립트 실행, Python 버전 관리, 작업 영역으로 단일 저장소 구축, Python 앱 컨테이너화 또는 유형 힌트가 있는 최신 Python 작성 시 사용합니다.

@@ -1,0 +1,1 @@
+메모리 누수 및 일회용 문제에 대한 감사 코드입니다. 이벤트 리스너, DOM 핸들러, 수명 주기 콜백을 검토하거나 누수 보고서를 수정할 때 사용하세요. addDisposableListener, Event.once, MutableDisposable, DisposableStore 및 onWillDispose 패턴을 다룹니다.

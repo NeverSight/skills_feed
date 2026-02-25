@@ -1,0 +1,1 @@
+Chrome DevTools 프로토콜을 사용하여 HarmonyOS ArkWeb 애플리케이션을 디버그하세요. Claude가 다음 작업을 수행해야 하는 경우에 사용합니다. (1) ArkWeb 디버깅 세션 시작, (2) hdc를 통해 Chrome DevTools를 HarmonyOS 앱에 연결, (3) webview 요소, 콘솔 및 네트워크 검사, (4) Chrome DevTools MCP로 ArkWeb 애플리케이션 테스트, (5) webview 디버깅 문제 해결, 또는 (6) 포트 전달 및 디버깅 세션 관리. 프로젝트 구성, 장치 연결 및 디버깅 소켓을 자동으로 감지합니다. 완전한 워크플로를 위해 ohos-app-build-debug 기술과 함께 작동합니다.
