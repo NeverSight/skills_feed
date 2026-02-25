@@ -1,0 +1,1 @@
+使用“depot build”和“depot Baker”配置並運行 Depot 遠端容器建置。在建立 Docker 映像、使用 Depot 建立 Dockerfile、將映像推送到註冊表、建置多平台/多架構映像（linux/amd64、linux/arm64）、偵錯容器建置失敗、最佳化 Dockerfile 層快取、使用 docker-bake.hcl 或 docker-compose 建置或從 `docker `docker-bake.hcl 或 docker。當使用者提及 depot 建置、depot 烘焙、容器建置、映像建置或詢問 Depot 的建置快取、建置平行性或臨時註冊表時也可使用。

@@ -1,0 +1,3 @@
+使用 uv（快速 Python 套件和專案管理器）進行現代 Python 開發。涵蓋專案管理（uv init、uv add、uvsync、uv lock）、虛擬環境、Python 版本管理（uv python install/pin）、腳本運行器（uv run）、工具管理（uvx）、monorepos 的工作區支援以及發佈到 PyPI。包括 FastAPI、Pydantic、async/await、型別檢查、pytest、structlog 和 CLI 工具的 Python 模式。
+
+在初始化 Python 專案、使用 uv 管理相依性、配置 pyproject.toml、設定虛擬環境、執行腳本、管理 Python 版本、使用工作區建置 monorepos、容器化 Python 應用程式或使用類型提示編寫現代 Python 時使用。
