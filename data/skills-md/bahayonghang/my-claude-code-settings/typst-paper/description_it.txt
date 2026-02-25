@@ -1,13 +1,13 @@
-Typst Academic Paper Assistant (supporta documenti in cinese/inglese, invii a conferenze/riviste).
+Typst Academic Paper Assistant (supporta documenti in cinese e inglese, invii a conferenze/riviste).
 Campi: deep learning, serie temporali, controllo industriale, informatica.
 
-Parole trigger (qualsiasi modulo può essere chiamato indipendentemente):
-- "compile", "typst compile" → Compila il modulo
-- "format", "lint" → Modulo di controllo formato
-- "grammatica", "correzione bozze" → Modulo di analisi grammaticale
-- "frase lunga", "semplifica" → Modulo di analisi delle frasi complesse
-- "tono accademico", "migliorare la scrittura" → Modulo di espressione accademica
-- "translate", "中译英" → Modulo di traduzione
-- "bavaglino", "bibliografia" → modulo Bibliografia
-- "deai", "umanizzare" → Modulo di editing De-AI
-- "template", "IEEE", "ACM" → Modulo di configurazione template
+Parole trigger (qualsiasi modulo può essere richiamato indipendentemente):
+- "compile", "typst compile" → modulo di compilazione
+- "format", "lint" → modulo di controllo formato
+- "grammatica", "correzione bozze" → modulo grammatica
+- "frase lunga", "semplifica" → modulo frasi complesse
+- "tono accademico", "migliorare la scrittura" → modulo stile accademico
+- "tradurre", "dal cinese all'inglese" → modulo di traduzione
+- "bavaglino", "bibliografia" → modulo di riferimento
+- "deai", "umanizzare" → modulo de-AI
+- "template", "IEEE", "ACM" → modulo di configurazione del modello

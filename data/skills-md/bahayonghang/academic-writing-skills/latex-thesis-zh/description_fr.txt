@@ -1,18 +1,20 @@
-Assistant de thèse chinoise LaTeX (PhD/Master).  
-À utiliser lors de la rédaction, de la révision ou de l'amélioration de thèses LaTeX chinoises (PhD/Master).  
-À utiliser lorsque l'utilisateur mentionne la compilation, le format, la de-AI, le titre, les références, le modèle, la cohérence,  
-ou toute tâche de qualité de thèse chinoise.  
+Assistant de thèse chinoise LaTeX (PhD/Master).
+À utiliser lors de la rédaction, de la révision ou de l'amélioration de thèses LaTeX chinoises (PhD/Master).
+À utiliser lorsque l'utilisateur mentionne la compilation, le format, la de-AI, le titre, les références, le modèle, la cohérence,
+ou toute tâche de qualité de thèse chinoise.
 Prend en charge plusieurs modèles universitaires et les formats standard nationaux GB/T 7714.
 
-Mots déclencheurs (les modules peuvent être appelés indépendamment) :
-- "compiler", "compiler", "xelatex" → Module Compiler  
-- "structure", "structure", "cartographie" → Module de cartographie de structure  
-- "format", "format", "GB", "GB/T" → module de vérification du format GB  
-- "expression", "expression", "polish", "expression académique" → Module expression académique  
-- "logique", "cohérence", "logique", "cohésion", "méthodologie", "méthodologie" → Module de profondeur logique & méthodologie  
-- "phrase longue", "phrase longue", "panne" → Module d'analyse de phrases complexes  
-- "bib", "bibliographie", "références" → module Références  
-- "template", "template", "thuthesis", "pkuthss" → Module de détection de modèle  
-- "deai", "de-AI", "humanize", "reduce AI trace" → module d'édition De-AI  
-- "titre", "titre", "optimisation du titre", "générer le titre" → Module d'optimisation du titre  
-- "cohérence", "cohérence", "terminologie" → Module de contrôle de cohérence
+Mots déclencheurs (n'importe quel module peut être appelé indépendamment) :
+- "compile", "编译", "xelatex" → Module Compiler
+- "structure", "结构", "映射" → Module de mappage de structure
+- "format", "格式", "国标", "GB/T" → module de vérification du format GB/T
+- "expression", "表达", "润色", "学术表达" → Module d'expression académique
+- "logique", "cohérence", "逻辑", "衔接", "méthodologie", "方法论" → Module de profondeur de cohérence logique et méthodologie
+- "phrase longue", "长句", "拆解" → Module d'analyse de phrases complexes
+- "bib", "bibliographie", "参考文献" → module Bibliographie
+- "template", "模板", "thuthesis", "pkuthss" → Module de détection de modèle
+- "deai", "去AI化", "人性化", "降低AI痕迹" → module d'édition De-AI
+- "title", "标题", "标题优化", "生成标题" → Module d'optimisation du titre
+- "cohérence", "一致性", "术语" → Module de contrôle de cohérence
+
+Veuillez toujours répondre dans la langue de l'utilisateur.

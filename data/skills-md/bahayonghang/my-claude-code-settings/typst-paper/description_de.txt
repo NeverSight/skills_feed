@@ -1,13 +1,13 @@
-Typst Academic Paper Assistant (unterstützt chinesische/englische Arbeiten, Konferenz-/Zeitschrifteneinreichungen).
+Typst Academic Paper Assistant (unterstützt chinesische und englische Arbeiten sowie Konferenz-/Zeitschrifteneinreichungen).
 Bereiche: Deep Learning, Zeitreihen, industrielle Steuerung, Informatik.
 
-Triggerwörter (jedes Modul kann unabhängig aufgerufen werden):
+Auslösewörter (jedes Modul kann unabhängig aufgerufen werden):
 - „compile“, „typst compile“ → Modul kompilieren
-- „format“, „lint“ → Modul zur Formatprüfung
-- „Grammatik“, „Korrekturlesen“ → Grammatikanalysemodul
-- „langer Satz“, „vereinfachen“ → Modul zur Analyse komplexer Sätze
-- „Akademischer Ton“, „Schreiben verbessern“ → Modul „Akademischer Ausdruck“.
-- „übersetzen“, „中译英“ → Übersetzungsmodul
-- „bib“, „bibliography“ → Bibliographie-Modul
-- „deai“, „humanize“ → De-AI-Bearbeitungsmodul
+- „format“, „lint“ → Formatprüfungsmodul
+- „Grammatik“, „Korrekturlesen“ → Grammatikmodul
+- „langer Satz“, „vereinfachen“ → Modul für komplexe Sätze
+- „Akademischer Ton“, „Schreiben verbessern“ → Modul „Akademischer Stil“.
+- „übersetzen“, „Chinesisch nach Englisch“ → Übersetzungsmodul
+- „bib“, „bibliography“ → Referenzmodul
+- „deai“, „humanize“ → De-AI-Modul
 - „template“, „IEEE“, „ACM“ → Template-Konfigurationsmodul

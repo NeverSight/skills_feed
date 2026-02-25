@@ -1,1 +1,1 @@
-搜尋 GitHub 並自動將 MCP（模型上下文協定）伺服器工具安裝並設定到 Claude 設定檔中。當使用者需要安裝MCP工具時觸發此技能。工作流程：在 GitHub 上搜尋 MCP 專案 → 提取 npx 配置 → 新增至 ~/.claude.json → 處理 API 金鑰（如果有）。
+搜尋 GitHub 並自動將 MCP（模型上下文協定）伺服器工具安裝並設定到 Claude 設定檔中。當使用者需要安裝MCP工具時，會觸發此技能。工作流程：在 GitHub 上搜尋 MCP 專案 → 提取 npx 配置 → 新增至 ~/.claude.json → 處理 API 金鑰（如果有）。

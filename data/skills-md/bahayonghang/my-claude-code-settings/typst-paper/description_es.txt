@@ -1,13 +1,13 @@
-Asistente de artículos académicos Typst (admite artículos en chino/inglés, presentaciones de conferencias/revistas).
+Asistente de artículos académicos Typst (admite artículos en chino e inglés, presentaciones de conferencias/revistas).
 Campos: aprendizaje profundo, series temporales, control industrial, informática.
 
-Palabras desencadenantes (cualquier módulo se puede llamar de forma independiente):
-- "compilar", "compilar tipado" → Compilar módulo
-- "formato", "lint" → Módulo de verificación de formato
-- "gramática", "revisión" → Módulo de análisis gramatical
-- "oración larga", "simplificar" → Módulo de análisis de oraciones complejas
-- "tono académico", "mejorar la escritura" → Módulo de expresión académica
-- "traducir", "中译英" → Módulo de traducción
-- "babero", "bibliografía" → módulo de bibliografía
-- "deai", "humanizar" → Módulo de edición De-AI
-- "plantilla", "IEEE", "ACM" → Módulo de configuración de plantilla
+Palabras desencadenantes (cualquier módulo se puede invocar de forma independiente):
+- "compilar", "compilar tipificado" → compilar módulo
+- "formato", "lint" → módulo de verificación de formato
+- "gramática", "revisión" → módulo de gramática
+- "oración larga", "simplificar" → módulo de oraciones complejas
+- "tono académico", "mejorar la escritura" → módulo de estilo académico
+- "traducir", "chino a inglés" → módulo de traducción
+- "babero", "bibliografía" → módulo de referencia
+- "deai", "humanizar" → módulo de-AI
+- "plantilla", "IEEE", "ACM" → módulo de configuración de plantilla

@@ -1,18 +1,20 @@
-Assistente tesina cinese LaTeX (PhD/Master).  
-Da utilizzare durante la scrittura, la revisione o il miglioramento di tesi cinesi LaTeX (dottorato/master).  
-Da utilizzare quando l'utente menziona compilazione, formato, de-AI, titolo, riferimenti, modello, coerenza,  
-o qualsiasi compito di qualità della tesi cinese.  
+Assistente LaTeX per tesi di cinese (PhD/Master).
+Da utilizzare durante la scrittura, la revisione o il miglioramento di tesi cinesi LaTeX (dottorato/master).
+Da utilizzare quando l'utente menziona compilazione, formato, de-AI, titolo, riferimenti, modello, coerenza,
+o qualsiasi compito di qualità della tesi cinese.
 Supporta più modelli universitari e formati standard nazionali GB/T 7714.
 
-Parole trigger (i moduli possono essere richiamati in modo indipendente):
-- "compile", "compile", "xelatex" → Compila modulo  
-- "struttura", "struttura", "mappatura" → Modulo di mappatura della struttura  
-- "format", "format", "GB", "GB/T" → modulo di controllo del formato GB  
-- "espressione", "espressione", "polacco", "espressione accademica" → Modulo di espressione accademica  
-- "logica", "coerenza", "logica", "coesione", "metodologia", "metodologia" → Modulo di approfondimento Logica e metodologia  
-- "frase lunga", "frase lunga", "scomposizione" → Modulo di analisi della frase complessa  
-- "bavaglino", "bibliografia", "riferimenti" → modulo Riferimenti  
-- "template", "template", "thuthesis", "pkuthss" → Modulo di rilevamento template  
-- "deai", "de-AI", "umanizzare", "ridurre la traccia AI" → Modulo di modifica De-AI  
-- "titolo", "titolo", "ottimizzazione del titolo", "genera titolo" → Modulo di ottimizzazione del titolo  
-- "coerenza", "coerenza", "terminologia" → Modulo di controllo della coerenza
+Parole trigger (qualsiasi modulo può essere chiamato indipendentemente):
+- "compile", "编译", "xelatex" → Compila il modulo
+- "struttura", "结构", "映射" → Modulo di mappatura della struttura
+- "format", "格式", "国标", "GB/T" → modulo di controllo del formato GB/T
+- "espressione", "表达", "润色", "学术表达" → Modulo di espressione accademica
+- "logica", "coerenza", "逻辑", "衔接", "metodologia", "方法论" → Modulo di approfondimento sulla coerenza logica e sulla metodologia
+- "frase lunga", "长句", "拆解" → Modulo di analisi di frasi complesse
+- "bib", "bibliografia", "参考文献" → Modulo Bibliografia
+- "template", "模板", "ththesis", "pkuthss" → Modulo di rilevamento template
+- "deai", "去AI化", "人性化", "降低AI痕迹" → Modulo di editing De-AI
+- "titolo", "标题", "标题优化", "生成标题" → Modulo di ottimizzazione del titolo
+- "coerenza", "一致性", "术语" → Modulo di controllo della coerenza
+
+Si prega di rispondere sempre nella lingua dell'utente.

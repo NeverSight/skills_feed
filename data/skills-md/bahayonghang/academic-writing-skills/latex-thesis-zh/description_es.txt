@@ -1,18 +1,20 @@
-Asistente de Tesis China LaTeX (PhD/Maestría).  
-Úselo al escribir, revisar o mejorar tesis de LaTeX chino (doctorado/maestría).  
-Úselo cuando el usuario mencione compilación, formato, eliminación de AI, título, referencias, plantilla, coherencia,  
-o cualquier tarea de calidad de tesis china.  
+Asistente de Tesis China LaTeX (PhD/Maestría).
+Úselo al escribir, revisar o mejorar tesis de LaTeX chino (doctorado/maestría).
+Úselo cuando el usuario mencione compilación, formato, eliminación de AI, título, referencias, plantilla, coherencia,
+o cualquier tarea de calidad de tesis china.
 Admite múltiples plantillas universitarias y formatos estándar nacionales GB/T 7714.
 
-Palabras desencadenantes (los módulos se pueden llamar de forma independiente):
-- "compilar", "compilar", "xelatex" → Compilar módulo  
-- "estructura", "estructura", "mapeo" → Módulo de mapeo de estructura  
-- "formato", "formato", "GB", "GB/T" → módulo de verificación de formato GB  
-- "expresión", "expresión", "pulido", "expresión académica" → Módulo de expresión académica  
-- "lógica", "coherencia", "lógica", "cohesión", "metodología", "metodología" → Módulo de profundidad de lógica y metodología  
-- "oración larga", "oración larga", "desglose" → Módulo de análisis de oraciones complejas  
-- "bib", "bibliografía", "referencias" → Módulo de referencias  
-- "plantilla", "plantilla", "thuthesis", "pkuthss" → Módulo de detección de plantillas  
-- "deai", "de-AI", "humanizar", "reducir el rastro de IA" → Módulo de edición De-AI  
-- "título", "título", "optimización de título", "generar título" → Módulo de optimización de título  
-- "coherencia", "coherencia", "terminología" → Módulo de verificación de coherencia
+Palabras desencadenantes (cualquier módulo se puede llamar de forma independiente):
+- "compilar", "编译", "xelatex" → Compilar módulo
+- "estructura", "结构", "映射" → Módulo de mapeo de estructura
+- "formato", "格式", "国标", "GB/T" → módulo de verificación de formato GB/T
+- "expresión", "表达", "润色", "学术表达" → Módulo de expresión académica
+- "lógica", "coherencia", "逻辑", "衔接", "metodología", "方法论" → Módulo de profundidad de metodología y coherencia lógica
+- "oración larga", "长句", "拆解" → Módulo de análisis de oraciones complejas
+- "babero", "bibliografía", "参考文献" → Módulo de bibliografía
+- "template", "模板", "thuthesis", "pkuthss" → Módulo de detección de plantillas
+- "deai", "去AI化", "人性化", "降低AI痕迹" → Módulo de edición De-AI
+- "title", "标题", "标题优化", "生成标题" → Módulo de optimización de títulos
+- "consistencia", "一致性", "术语" → Módulo de verificación de coherencia
+
+Por favor responda siempre en el idioma del usuario.

@@ -1,17 +1,16 @@
-Fähigkeiten zur Unterstützung beim Schreiben von Blogbeiträgen. Hauptziel: Durch Schreibübungen das Schreibniveau, das kognitive Niveau und die Fähigkeit zur Wissensaufnahme des Benutzers verbessern.
+Fähigkeiten zur Unterstützung beim Schreiben von Blogbeiträgen.  
+Hauptziel: Durch Schreibübungen wird das Schreibniveau, das kognitive Niveau und die Fähigkeit des Benutzers, Wissen aufzunehmen, gesteigert.
 
-Auslöseszenarien:
-- Der Benutzer sagt „Artikel schreiben“, „Entwurf für mich“, „Hilf mir beim Schreiben“, „Polieren“, „Diesen Artikel überarbeiten“.
-- Der Benutzer sagt „Wählen Sie ein Thema zur Diskussion“, „Sprechen Sie über xx“, „Verwandeln Sie unseren Chat in einen Artikel.“
-- Der Benutzer sagt: „Suche das Neueste auf xx“, „schreibe einen populärwissenschaftlichen Artikel“, „schreibe ein Intro“, „Pressemitteilung“.
-- Der Benutzer sagt „Erweitern“, „Hilf mir, mehr hinzuzufügen“, „Auf 1.000 Wörter auffüllen“
-– Der Benutzer sendet eine Markdown-Datei zur Überprüfung
+Auslöseszenarien:  
+- Der Benutzer sagt „Artikel schreiben“, „Entwurf“, „Hilf mir beim Schreiben“, „Polieren“, „Artikel überarbeiten“.  
+- Der Benutzer sagt: „Wählen Sie ein Thema und chatten Sie“, „diskutieren Sie rund um xx“, „verwandeln Sie den Dialog in einen Artikel.“  
+- Der Benutzer sagt: „Suche die neuesten xx“, „schreibe einen populärwissenschaftlichen Artikel“, „schreibe ein Intro“, „Pressemitteilung“.  
+- Der Benutzer sagt „Erweitern“, „Hilf mir, mehr hinzuzufügen“, „Auf 1000 Wörter auffüllen“  
+– Der Benutzer sendet eine Markdown-Datei zur Überprüfung  
 
-Kernfunktionen:
-- Modus 1 (Rezension): Kritisieren Sie fertige Artikel mit strengen Standards, protokollieren Sie Schwachstellen beim Schreiben und verfolgen Sie Verbesserungen
-- Modus 2 (Dialog): Denken leiten, leichtes Feedback geben, persönliche Stimme bewahren
-- Modus 3 (Suchen-Schreiben): Genaue Informationen abrufen, Benutzerton anpassen, keine Kritik schreiben
-- Modus 4 (Erweitern): Argumente liefern, Stil konsistent halten, keine Beurteilung des Originals
+Kernfunktionen:  
+- Modus 1 (Rezension): Kritisieren Sie fertige Artikel mit strengen Standards, protokollieren Sie Schwachstellen beim Schreiben und verfolgen Sie Verbesserungen  
+- Modus 2 (Dialog): Lenken Sie das Denken, geben Sie leichtes Feedback, bewahren Sie die persönliche Stimme  
+- Modus 3 (Suchen-Schreiben): Genaue Informationen abrufen, Benutzerton anpassen, keine Kritik schreiben  
+- Modus 4 (Erweitern): Beweise hinzufügen, einheitlichen Stil beibehalten, keine Beurteilung des Originaltextes  
 - Alle Modi: Halten Sie sich strikt an die Tonmerkmale des Benutzers (siehe user-profile.md).
-
-Bitte antworten Sie immer in der Sprache des Benutzers.

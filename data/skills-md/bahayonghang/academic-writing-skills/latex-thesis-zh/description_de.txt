@@ -1,18 +1,20 @@
-Chinesischer LaTeX-Assistent für Abschlussarbeiten (PhD/Master).  
-Zum Verfassen, Überprüfen oder Verbessern chinesischer LaTeX-Dissertationen (PhD/Master).  
-Wird verwendet, wenn der Benutzer Kompilierung, Format, De-AI, Titel, Referenzen, Vorlage, Konsistenz usw. erwähnt.  
-oder irgendeine chinesische Abschlussarbeitsqualitätsaufgabe.  
+Chinesischer LaTeX-Assistent für Abschlussarbeiten (PhD/Master).
+Zum Verfassen, Überprüfen oder Verbessern chinesischer LaTeX-Dissertationen (PhD/Master).
+Wird verwendet, wenn der Benutzer Kompilierung, Format, De-AI, Titel, Referenzen, Vorlage, Konsistenz usw. erwähnt.
+oder irgendeine chinesische Abschlussarbeitsqualitätsaufgabe.
 Unterstützt mehrere Universitätsvorlagen und nationale Standardformate GB/T 7714.
 
-Triggerwörter (Module können unabhängig voneinander aufgerufen werden):
-- „compile“, „compile“, „xelatex“ → Modul kompilieren  
-- „Struktur“, „Struktur“, „Mapping“ → Struktur-Mapping-Modul  
-- „format“, „format“, „GB“, „GB/T“ → Modul zur GB-Formatprüfung  
-- „Ausdruck“, „Ausdruck“, „Polnisch“, „Akademischer Ausdruck“ → Modul „Akademischer Ausdruck“.  
-- „Logik“, „Kohärenz“, „Logik“, „Kohäsion“, „Methodik“, „Methodologie“ → Tiefenmodul Logik & Methodik  
-- „langer Satz“, „langer Satz“, „Aufschlüsselung“ → Modul zur Analyse komplexer Sätze  
-- „bib“, „bibliography“, „references“ → Modul „Referenzen“.  
-- „template“, „template“, „thuthesis“, „pkuthss“ → Template-Erkennungsmodul  
-- „deai“, „de-AI“, „humanize“, „reduce AI Trace“ → De-AI-Bearbeitungsmodul  
-- „Titel“, „Titel“, „Titeloptimierung“, „Titel generieren“ → Titeloptimierungsmodul  
-- „Konsistenz“, „Konsistenz“, „Terminologie“ → Modul Konsistenzprüfung
+Triggerwörter (jedes Modul kann unabhängig aufgerufen werden):
+- „compile“, „编译“, „xelatex“ → Modul kompilieren
+- „Struktur“, „结构“, „映射“ → Strukturzuordnungsmodul
+- „format“, „格式“, „国标“, „GB/T“ → Modul zur GB/T-Formatprüfung
+- „expression“, „表达“, „润色“, „学术表达“ → Akademisches Ausdrucksmodul
+- „Logik“, „Kohärenz“, „逻辑“, „衔接“, „Methodologie“, „方法论“ → Logik-Kohärenz- und Methodik-Tiefenmodul
+- „langer Satz“, „长句“, „拆解“ → Modul zur Analyse komplexer Sätze
+- „bib“, „bibliography“, „参考文献“ → Bibliographiemodul
+- „template“, „模板“, „thuthesis“, „pkuthss“ → Template-Erkennungsmodul
+- „deai“, „去AI化“, „人性化“, „降低AI痕迹“ → De-AI-Bearbeitungsmodul
+- „title“, „标题“, „标题优化“, „生成标题“ → Titeloptimierungsmodul
+- „consistency“, „一致性“, „术语“ → Konsistenzprüfungsmodul
+
+Bitte antworten Sie immer in der Sprache des Benutzers.

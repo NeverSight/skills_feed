@@ -1,7 +1,7 @@
-Protocollo di test rigoroso. Applicare la regola: "Se non è testato, non è fatto".
+Protocollo di test rigoroso. Applicare il principio “Se non è testato, non è fatto”.
 
-Punti trigger:
+Momenti scatenanti:
 - Quando si corregge un bug (è necessario aggiungere il test di regressione)
-- Quando si implementa una nuova funzionalità (deve avere un test corrispondente)
+- Quando si implementano nuove funzionalità (devono avere test corrispondenti)
 - Quando si modifica il codice esistente (assicurarsi che i test continuino a passare)
 - Quando l'utente menziona "test", "test" o "verifica funzionalità"

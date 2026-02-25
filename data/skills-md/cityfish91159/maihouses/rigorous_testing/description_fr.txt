@@ -1,7 +1,7 @@
-Protocole de test strict. Appliquez la règle : « Si ce n’est pas testé, ce n’est pas fait ».
+Protocole de test strict. Appliquer le principe « Si ce n’est pas testé, ce n’est pas fait ».
 
-Points déclencheurs :
+Moments déclencheurs :
 - Lors de la correction d'un bug (il faut ajouter un test de régression)
-- Lors de l'implémentation d'une nouvelle fonctionnalité (doit avoir un test correspondant)
+- Lors de la mise en œuvre de nouvelles fonctionnalités (doit avoir des tests correspondants)
 - Lors de la modification du code existant (assurez-vous que les tests réussissent toujours)
 - Lorsque l'utilisateur mentionne « tester », « tester » ou « vérifier la fonctionnalité »

@@ -1,1 +1,1 @@
-创建一个 Terraform AWS 模板，其中包含每个属性的详细说明。当用户使用“/terraform-annotated-aws-blueprint”命令输入他们想要构建的基础设施的概述时，生成一个模板，其中包含基于 Terraform Provider 架构的准确属性列表以及从官方 AWS 文档中提取的说明。
+创建一个 Terraform AWS 模板，其中包含每个属性的详细注释。当用户输入“/terraform-annotated-aws-blueprint”并输入他们想要构建的基础设施的摘要时，生成一个模板，其中包含基于 Terraform 提供程序架构的准确属性列表以及从官方 AWS 文档中提取的说明。

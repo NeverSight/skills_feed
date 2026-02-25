@@ -1,13 +1,13 @@
-Typst Academic Paper Assistant (prend en charge les articles en chinois/anglais, les soumissions à des conférences/revues).
+Typst Academic Paper Assistant (prend en charge les articles en chinois et en anglais, les soumissions à des conférences/journaux).
 Domaines : deep learning, séries temporelles, contrôle industriel, informatique.
 
-Mots déclencheurs (n'importe quel module peut être appelé indépendamment) :
-- "compiler", "compiler typst" → module Compiler
-- "format", "lint" → Module de vérification du format
-- "grammaire", "relecture" → module d'analyse grammaticale
-- "phrase longue", "simplifier" → Module d'analyse de phrases complexes
-- "ton académique", "améliorer l'écriture" → module d'expression académique
-- "traduire", "中译英" → Module de traduction
-- "bib", "bibliographie" → module Bibliographie
-- "deai", "humanize" → module d'édition De-AI
-- "modèle", "IEEE", "ACM" → Module de configuration des modèles
+Mots déclencheurs (n'importe quel module peut être invoqué indépendamment) :
+- "compiler", "compiler typst" → module de compilation
+- "format", "lint" → module de vérification du format
+- "grammaire", "relecture" → module grammaire
+- "phrase longue", "simplifier" → module de phrases complexes
+- "ton académique", "améliorer l'écriture" → module de style académique
+- "traduire", "Chinois vers anglais" → module de traduction
+- "bib", "bibliographie" → module référence
+- "deai", "humaniser" → module de-AI
+- "modèle", "IEEE", "ACM" → module de configuration de modèle

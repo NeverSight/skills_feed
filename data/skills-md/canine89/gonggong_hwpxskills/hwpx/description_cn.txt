@@ -1,1 +1,1 @@
-创建、读取、编辑和模板替换 HWPX 文档（.hwpx 文件）的技能。每当出现“韩文文档”、“hwpx”、“HWPX”、“韩文文件”、“制作.hwpx文件”、“创建HWP文档”、“报告”、“公函”、“草稿”、“用韩文书写”等关键字时，就必须使用此技能。它通过 python-hwpx 库处理 Hancom 的 HWPX 格式（基于 KS X 6101/OWPML，ZIP+XML 结构）。当需要报告模板时，请使用 asset/ 文件夹中的参考模板。对于常规 Word (.docx) 文档，请使用 docx 技能。
+创建、读取、编辑和模板替换 HWPX 文档（.hwpx 文件）的技能。每当出现“Hangul document”、“hwpx”、“HWPX”、“Hangul file”、“make .hwpx file”、“create HWP document”、“report”、“official letter”、“draft”或“write in Hangul”等关键字时，必须使用此技能。它通过 python-hwpx 库处理 Hancom 的 HWPX 格式（基于 KS X 6101/OWPML，ZIP+XML 结构）。当需要报告模板时，请使用 asset/ 文件夹中的参考模板。对于常规 Word (.docx) 文档，请使用 docx 技能。

@@ -1,6 +1,5 @@
-Habilidad para determinar el nivel de la prueba de control de calidad. Combina descripciones de historias, diferencias de códigos y diálogos para evaluar de manera integral el riesgo y proponer el nivel de control de calidad apropiado.
-Úselo en las siguientes situaciones:
-- Cuando desea determinar el nivel de control de calidad para un PR
-- Cuando necesite decidir si es necesario realizar una prueba o una doble verificación
-- Al establecer el nivel para una revisión de perspectiva de prueba
+Habilidad para determinar el nivel de la prueba de control de calidad. Evalúa de manera integral el riesgo combinando descripciones de historias, diferencias de código y diálogos, y luego propone un nivel de control de calidad apropiado. Úselo en las siguientes situaciones:
+- Cuando desea determinar el nivel de control de calidad de un PR
+- Cuando necesite decidir si se requiere un probador o una doble verificación
+- Al establecer el nivel para una revisión del punto de vista de prueba
 También se puede invocar con "juicio de control de calidad", "nivel de prueba", "evaluación de riesgos", etc.

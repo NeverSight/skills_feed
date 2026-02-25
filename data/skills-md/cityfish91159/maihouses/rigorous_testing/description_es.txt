@@ -1,7 +1,7 @@
-Protocolo de pruebas estricto. Hacer cumplir la regla: "Si no se prueba, no se hace".
+Protocolo de pruebas estricto. Hacer cumplir el principio de "si no se prueba, no se hace".
 
-Puntos gatillo:
+Momentos desencadenantes:
 - Al corregir un error (debe agregar prueba de regresión)
-- Al implementar una nueva característica (debe tener la prueba correspondiente)
+- Al implementar nuevas funcionalidades (debe contar con las pruebas correspondientes)
 - Al modificar el código existente (asegúrese de que las pruebas aún pasen)
 - Cuando el usuario menciona "probar", "probar" o "verificar funcionalidad"

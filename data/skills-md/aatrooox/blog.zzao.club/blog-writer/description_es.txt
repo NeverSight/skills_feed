@@ -1,17 +1,16 @@
-Habilidades de asistencia para la redacción de publicaciones de blog. Objetivo principal: a través de ejercicios de escritura, elevar el nivel de escritura, el nivel cognitivo y la capacidad de absorción de conocimientos del usuario.
+Habilidades de asistencia para la redacción de publicaciones de blog.  
+Objetivo principal: mediante ejercicios de escritura, aumentar el nivel de escritura, el nivel cognitivo y la capacidad de absorción de conocimientos del usuario.
 
-Escenarios desencadenantes:
-- El usuario dice "escribe un artículo", "haz un borrador para mí", "ayúdame a escribir", "pulir", "revisar este artículo".
-- El usuario dice "elige un tema para discutir", "habla sobre xx", "convierte nuestro chat en un artículo".
-- El usuario dice "buscar lo último en xx", "escribir un artículo de divulgación científica", "escribir una introducción", "comunicado de prensa"
-- El usuario dice "ampliar esto", "ayúdame a agregar más", "rellénelo a 1000 palabras"
-- El usuario envía un archivo de rebajas para su revisión.
+Escenarios desencadenantes:  
+- El usuario dice "escribir un artículo", "borrar uno", "ayúdame a escribir", "pulir", "revisar el artículo".  
+- El usuario dice "elige un tema y charla", "discute sobre xx", "convierte el diálogo en un artículo".  
+- El usuario dice "buscar lo último xx", "escribir un artículo de divulgación científica", "escribir una introducción", "comunicado de prensa"  
+- El usuario dice "ampliar esto", "ayúdame a agregar más", "rellénelo a 1000 palabras"  
+- El usuario envía un archivo de rebajas para su revisión.  
 
-Funciones principales:
-- Modo 1 (Revisión): criticar artículos terminados con estándares estrictos, registrar debilidades en la redacción y realizar un seguimiento de las mejoras.
-- Modo 2 (Diálogo): guiar el pensamiento, dar retroalimentación ligera, preservar la voz personal
-- Modo 3 (búsqueda-escritura): obtenga información precisa, adopte el tono del usuario, no escriba críticas
-- Modo 4 (Expandir): proporcionar argumentos, mantener el estilo consistente, sin juzgar el original
+Funciones principales:  
+- Modo 1 (Revisión): Criticar artículos terminados con estándares estrictos, registrar debilidades en la redacción y realizar un seguimiento de las mejoras.  
+- Modo 2 (Diálogo): guiar el pensamiento, dar comentarios ligeros, preservar la voz personal  
+- Modo 3 (búsqueda-escritura): obtenga información precisa, adopte el tono del usuario, no escriba críticas  
+- Modo 4 (expandir): agregue evidencia, mantenga un estilo consistente, sin juzgar el texto original  
 - Todos los modos: siga estrictamente los rasgos de tono del usuario (consulte user-profile.md)
-
-Por favor responda siempre en el idioma del usuario.

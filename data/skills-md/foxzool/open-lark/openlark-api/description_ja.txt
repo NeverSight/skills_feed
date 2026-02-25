@@ -1,1 +1,1 @@
-OpenLark プロジェクト API インターフェイス実装仕様 (クイック リファレンス)。 Feishu オープン プラットフォーム API の追加/リファクタリングの場合: ディスク パスを決定し、Body/Response + Builder(Request) を実装し、エンドポイント定数/列挙型を調整し、mod.rs エクスポートを完了し、「サーバー側 API の呼び出し」のメソッド シグネチャと RequestOption 渡し規則を明確にします。トリガーキーワード：APIインターフェース、APIファイル、Feishu API、API追加、サーバーサイドAPI呼び出し
+OpenLark プロジェクト API 実装仕様 (クイック リファレンス)。 Feishu オープン プラットフォーム API の追加/リファクタリングに使用されます。ファイル パスの決定、Body/Response + Builder(Request) の実装、エンドポイント定数/列挙型の調整、mod.rs エクスポートの完了、「サーバー側 API の呼び出し」のメソッド シグネチャと RequestOption 渡し規約の明確化。トリガーキーワード：APIインターフェース、APIファイル、Feishu API、API追加、サーバーサイドAPI呼び出し
