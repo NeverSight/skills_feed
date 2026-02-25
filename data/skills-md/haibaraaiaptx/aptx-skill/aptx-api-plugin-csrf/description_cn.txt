@@ -1,0 +1,1 @@
+使用 @aptx/api-plugin-csrf 添加 CSRF 保护。触发条件：当代码需要向请求添加 CSRF 令牌、配置 cookie/标头名称、在 SSR/Node 环境中处理 cookie 读取或使用 createCsrfMiddleware 时。

@@ -1,0 +1,1 @@
+用于实现功能、修复错误以及在正式计划之外进行代码更改的临时开发工作流程。当被要求在代码库中实现、添加、修复、构建或创建某些内容时使用。路由到领域技能（postgres-expert、server-action-builder、react-form-b​​uilder、service-builder、playwright-e2e），强制执行任务跟踪以实现上下文紧凑恢复，并遵循基于参考的构建-测试-验证循环。不要用于大型多阶段功能 - 请改用 /create-plan + /implement。

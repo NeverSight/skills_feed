@@ -1,0 +1,1 @@
+华为Ascend NPU模型转换和推理的完整工具包。 (1) 使用支持多 CANN 版本的 ATC 工具将 ONNX 模型转换为 .om 格式（8.3.RC1、8.5.0+）。 (2) 使用ais_bench在OM模型上运行Python推理。 (3) 比较CPU ONNX 和NPU OM 输出的精度。 (4) 使用 Ultralytics 预处理/后处理进行端到端 YOLO 推理 - 支持检测、姿势、分割、OBB 任务。在升腾 AI 处理器上转换、测试或部署模型时使用。

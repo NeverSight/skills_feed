@@ -1,0 +1,4 @@
+使用 @asynccontextmanager 装饰器创建用于资源管理的异步上下文管理器。
+在管理异步资源、数据库会话、文件句柄、连接或任何其他资源时使用
+需要自动清理的资源。适用于 Python 异步/等待模式。分析
+包含 async with 语句、AsyncIterator 类型提示和 try/finally 模式的 .py 文件。

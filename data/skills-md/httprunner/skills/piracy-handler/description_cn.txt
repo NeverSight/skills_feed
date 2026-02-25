@@ -1,0 +1,1 @@
+盗版检测和后处理协调器。 wechat-search-collector综合页面任务完成时使用；它对 capture_results 执行盗版检测、创建子任务、编写 webhook 计划或在子任务达到最终状态后执行 webhook 调度/协调。支持 SQLite 或 Supabase 作为 capture_results 数据源。

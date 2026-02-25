@@ -1,0 +1,6 @@
+使用带有验证的冻结数据类模式创建不可变域值对象。
+在实现域值对象、创建不可变数据结构或
+为值添加验证。涵盖@dataclass(frozen=True)、object.__setattr__()
+__post_init__ 中的模式，工厂方法（from_string、from_dict、from_content）、
+并在冻结环境中进行验证。触发“为 X 创建值对象”、“实现
+不可变的 Y 值”、“向 Z 值添加验证”或“构建值对象”。

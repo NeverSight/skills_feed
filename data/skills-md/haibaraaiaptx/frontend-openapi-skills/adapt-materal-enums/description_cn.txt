@@ -1,0 +1,1 @@
+特定于材料的枚举适应工作流程：从提供商 API 获取枚举值，让 LLM 填充 suggest_name，然后使用 aptx-ft 应用补丁以生成最终的 TypeScript 模型。仅在需要材质命名规则时使用。

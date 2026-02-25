@@ -1,0 +1,1 @@
+通过跟踪上下文关联和结构化日志记录来实现 OpenTelemetry (OTEL) 日志记录。在使用 OTEL 导出器设置生产日志记录、structlog/loguru 集成、跟踪上下文传播和综合测试模式时使用。涵盖 FastAPI、Kafka 使用者和后台作业的 Python 实现。包括 OTLP、Jaeger 和控制台导出器。

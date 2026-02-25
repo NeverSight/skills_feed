@@ -1,0 +1,1 @@
+仅当用户明确表示：“使用 web-to-markdown 技能...”（或“使用 web-to-markdown 技能...”）时才使用。通过调用本地 web2md CLI（Puppeteer + Readability）将网页 URL 转换为干净的 Markdown，适合 JS 渲染的页面。

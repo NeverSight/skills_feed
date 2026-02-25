@@ -1,0 +1,6 @@
+使用 pypdf、pdfplumber 和 ReportLab 进行全面的 PDF 操作以进行文本提取，
+表格解析、文档创建、合并/拆分和表单填写。当要求时使用
+“从 PDF 中提取文本”、“填写 PDF 表单”、“合并 PDF”、“创建 PDF 文档”、“拆分 PDF”
+页”，或“解析 PDF 表”。提供基于 Python 的工作流程以进行程序化 PDF 处理
+大规模的，包括水印、加密和元数据操作。适用于 .pdf 文件
+通过pypdf进行基本操作，pdfplumber进行表格，ReportLab进行PDF生成。

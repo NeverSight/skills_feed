@@ -1,0 +1,6 @@
+配置 Pi-hole 本地 DNS 记录以启用 *.temet.ai 的本地网络解析
+域。当您需要设置 DNS、添加本地 DNS 条目、配置 Pi-hole DNS 时使用，
+对 DNS 解析进行故障排除，或使服务在本地进行解析。触发“设置 DNS”，
+“配置 Pi-hole DNS”、“添加 DNS 记录”、“DNS 未解析”、“本地 DNS 设置”或
+“为什么我无法在本地访问 [service].temet.ai”。与 Pi-hole 容器、domains.toml 一起使用，
+docker-compose.yml和manage-domains.sh。

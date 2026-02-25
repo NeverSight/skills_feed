@@ -1,0 +1,1 @@
+通过运行质量门（类型检查、linting、死代码检测、测试）来强制执行“完成”定义。在任务完成时、提交之前、声明“完成”时或用户说“检查全部”、“运行质量门”、“验证代码质量”或“运行测试和 linting”时使用。适应Python (pyright/ruff/vulture/pytest)、JavaScript (tsc/eslint/jest) 和其他生态系统。在将任务标记为完成之前必须执行。

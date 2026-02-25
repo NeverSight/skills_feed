@@ -1,0 +1,1 @@
+为 ClickHouse + Kafka 数据管道实现深度防御验证模式。涵盖生产者验证（msgspec 模式）、消费者验证（反腐败层）、ClickHouse 错误流（kafka_handle_error_mode='stream'）、ReplacingMergeTree 的幂等性、模式演化和监控。在实现数据管道、处理 Kafka 错误、设置验证层、管理重复/幂等性或监控 Kafka 消耗时使用。触发“验证 kafka 管道”、“clickhouse 错误处理”、“kafka 重复数据删除”或“实施反腐败层”。

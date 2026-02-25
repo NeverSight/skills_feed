@@ -1,0 +1,1 @@
+优化 ClickHouse 查询以提高速度和效率。帮助主键设计、稀疏索引、数据跳过索引（minmax、set、布隆过滤器、ngrambf_v1）、分区策略、投影、PREWHERE 优化、近似函数以及使用 EXPLAIN 进行查询分析。在编写 ClickHouse 查询、设计表模式、分析慢速查询或实现分析聚合时使用。适用于列式 OLAP 工作负载。

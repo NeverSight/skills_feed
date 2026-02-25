@@ -1,0 +1,5 @@
+系统地诊断和解决常见的 GKE 问题，包括 Pod 故障、
+网络问题、数据库连接错误和发布/订阅问题。当 pod 时使用
+陷入 Pending、CrashLoopBackOff、ImagePullBackOff、遇到 DNS 故障、
+Cloud SQL 连接超时或 Pub/Sub 消息处理问题。提供
+Spring Boot 应用程序的系统化调试工作流程和解决方案模式。

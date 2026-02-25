@@ -1,0 +1,1 @@
+OpenLark Rust SDK 中 feature-crate 参数的验证规范（必填字段验证）。当您需要统一/审查 `validate()` 实现时，或者当用户询问 `openlark_core::validate_required` （函数）和 `openlark_core::validate_required!` （宏）之间的区别、是否需要宏、如何处理空字符串等时，请使用此方法。

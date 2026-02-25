@@ -1,0 +1,1 @@
+使用@aptx/api-plugin-retry实现请求重试。它配置重试尝试、设置固定或动态延迟策略、定义重试条件（NetworkError/TimeoutError）、防止重试非幂等请求、跟踪重试计数并提供 createRetryMiddleware API。当您的代码需要重试功能或 createRetryMiddleware 时触发它。

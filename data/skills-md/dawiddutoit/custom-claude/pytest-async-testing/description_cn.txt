@@ -1,0 +1,3 @@
+提供使用 pytest 测试异步 Python 代码的完整模式：pytest-asyncio 配置、AsyncMock 使用、异步固定装置、使用 AsyncClient 测试 FastAPI、测试 Kafka 异步生产者/消费者、事件循环和清理模式。
+
+使用时机：测试异步函数、异步用例、FastAPI 端点、异步数据库操作、Kafka 异步客户端或任何异步/等待代码模式。

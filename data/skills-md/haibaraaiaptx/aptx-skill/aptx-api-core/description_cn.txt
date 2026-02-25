@@ -1,0 +1,1 @@
+有关使用 @aptx/api-core 发出 HTTP 请求的指南。用于：创建和配置RequestClient、实现中间件/插件、替换核心组件（Transport/Decoder等）、处理错误、监听事件、使用Context Bag、测试扩展。当代码需要理解或修改@aptx/api-core的架构、扩展机制和最佳实践时触发。

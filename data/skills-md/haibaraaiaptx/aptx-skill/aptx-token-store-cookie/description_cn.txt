@@ -1,0 +1,1 @@
+使用 @aptx/token-store-cookie 实现基于 cookie 的令牌存储。当代码需要在浏览器 cookie 中存储身份验证令牌时使用：(1) 可配置令牌/元 cookie 名称，(2) 自动 expiresAt 到 cookie 过期同步，(3) Cookie 选项（path/sameSite/secure），(4) createCookieTokenStore API 集成

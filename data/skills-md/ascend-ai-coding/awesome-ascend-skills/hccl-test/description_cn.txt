@@ -1,0 +1,1 @@
+升腾NPU集群的HCCL（华为集体通信库）性能测试。用于测试分布式通信带宽、验证 HCCL 功能以及对 AllReduce、AllGather、AlltoAll 等集体操作进行基准测试。涵盖MPI安装、工具编译、执行参数、结果分析。

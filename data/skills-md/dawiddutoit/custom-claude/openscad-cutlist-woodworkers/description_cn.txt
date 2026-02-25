@@ -1,0 +1,8 @@
+使用 woodworkers-lib 从 OpenSCAD 家具设计生成木工切割清单
+图书馆。自动从 ECHO 输出中提取家具、橱柜、
+衣柜和搁架单元。在设计带有胶合板/MDF 面板的家具时使用，
+生成 CNC 铣削或手动切割的切割清单，或准备板材数据
+优化工具。触发“生成切割清单”、“提取面板尺寸”、
+“家具切割清单”、“木工 ECHO 输出”或使用 planLeft/planeRight/ 时
+planeTop/planeBottom/planeFront/planeBack 模块。使用 .scad 文件工作
+woodworkers-lib 库。

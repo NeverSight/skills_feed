@@ -1,0 +1,1 @@
+用于重新生成站点输出的内部实用技能。在对 `src/`、`_partials/` 或 `site.config.json` 进行任何更改后，或者每当其他技能需要刷新 `dist/` 工件时使用。从安装的技能目录运行“scripts/build.mjs”。

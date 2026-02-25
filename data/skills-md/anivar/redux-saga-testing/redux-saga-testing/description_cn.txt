@@ -1,0 +1,1 @@
+使用 redux-saga-test-plan、runSaga 和手动生成器测试为 Redux Sagas 编写测试。涵盖expectSaga（集成）、testSaga（单元）、providers、部分匹配器、reducer集成、错误模拟和取消测试。与 Jest 和 Vitest 配合使用。触发条件：saga 的测试文件、redux-saga-test-plan 导入、提及“test saga”、“saga test”、“expectSaga”、“testSaga”或“redux-saga-test-plan”。

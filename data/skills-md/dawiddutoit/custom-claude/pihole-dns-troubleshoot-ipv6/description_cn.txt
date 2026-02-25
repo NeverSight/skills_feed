@@ -1,0 +1,7 @@
+诊断并修复导致客户端连接到 Cloudflare OAuth 的 IPv6 DNS 问题
+而不是使用本地网络访问。当服务显示 OAuth 登录提示时使用
+本地 WiFi，初始连接速度缓慢，然后进行身份验证，或者 Chrome 显示“错误”
+并重试”。在“连接到 Cloudflare 而不是本地”、“OAuth 提示”时触发
+WiFi”、“IPv6 DNS 问题”、“客户端更喜欢 IPv6”、“禁用 IPv6 DNS”或“修复本地访问”。
+与 Pi-hole FTLCONF_misc_dnsmasq_lines 过滤器 AAAA 配置和客户端 DNS 配合使用
+缓存管理。

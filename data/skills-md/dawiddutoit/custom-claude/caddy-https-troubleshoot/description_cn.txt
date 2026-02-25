@@ -1,0 +1,6 @@
+通过检查诊断并修复网络基础设施中的 HTTPS/SSL 证书问题
+API 令牌、验证 Caddy 配置和测试证书。当证书时使用
+未获取，HTTPS 不起作用，看到 SSL 错误，“无效的授权标头”，
+或 Caddy 重新启动循环。触发“HTTPS 不工作”、“SSL 证书颁发”、“证书
+错误”、“Caddy 未启动”、“修复 HTTPS”、“对证书进行故障排除”或“格式无效”
+对于授权标头”。可与 Caddy、Cloudflare DNS-01 挑战和 Let's Encrypt 配合使用。

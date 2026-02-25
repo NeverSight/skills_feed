@@ -1,0 +1,6 @@
+通过验证机密、检查端点来配置 GitHub Webhooks 进行自动部署
+可访问性和指导配置。当您需要添加新的存储库时使用
+自动部署、配置 GitHub Webhooks、设置持续部署或排除故障
+网络钩子问题。触发“setup webhook”、“add webhook for [repo]”、“configure
+自动部署”、“GitHub 部署”或“webhook 不起作用”。与 config/hooks.json 一起使用，
+.env (WEBHOOK_SECRET) 和 webhook.temet.ai 端点。

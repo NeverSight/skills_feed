@@ -1,0 +1,1 @@
+为 Traycer 执行框架中的代理定义自定义 Claude Code 斜线命令。当创建或更新代理并需要指定代理可以作为斜线命令执行的可重用提示时，应使用此技能。命令是存储在 .claude/commands/ 中并在代理 config.yaml 文件中引用的 Markdown 文件。这是用于 Claude Code 斜杠命令 (/command-name)，而不是 bash/CLI 命令。

@@ -1,0 +1,7 @@
+通过更新 .env 中的 ACCESS_ALLOWED_EMAIL 将新用户添加到 Cloudflare Access 身份验证
+并将策略同步到所有受保护的服务。当您需要授予新的访问权限时使用
+用户、将某人添加到网络、共享服务访问权限或更新允许的电子邮件。触发器
+关于“添加用户访问权限”、“授予对 [电子邮件] 的访问权限”、“将 [电子邮件] 添加到 cloudflare”、“共享
+访问方式”、“允许[电子邮件]进行身份验证”或“更新访问用户”。与 .env 一起使用，
+update-access-emails.sh 和 Cloudflare pihole、jaeger、langfuse 的访问策略
+洒水器、HA 和 temet.ai 服务。

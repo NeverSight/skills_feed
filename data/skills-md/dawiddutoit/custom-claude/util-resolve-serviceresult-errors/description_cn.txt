@@ -1,0 +1,5 @@
+修复导致测试失败和类型错误的 ServiceResult 模式错误。
+当看到“dict object has no attribute success”、“mock not returned ServiceResult”时使用，
+模拟断言失败，或者 ServiceResult 类型错误。分析 .py 测试文件
+和服务实施。涵盖异步/等待模式、monad 操作（映射、绑定、平面映射）、
+和正确的模拟配置。

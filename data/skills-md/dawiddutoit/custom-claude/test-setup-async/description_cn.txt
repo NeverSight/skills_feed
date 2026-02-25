@@ -1,0 +1,1 @@
+使用 pytest-asyncio 模式使用适当的装置和模拟设置异步测试。在测试异步函数、创建异步装置、模拟异步服务或处理异步上下文管理器时使用。涵盖@pytest_asyncio.fixture、带有 side_effect 的 AsyncMock、异步生成器固定装置（yield）以及测试异步上下文管理器。适用于 Python 异步/等待模式、pytest-asyncio 和 unittest.mock.AsyncMock。

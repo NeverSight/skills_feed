@@ -1,0 +1,1 @@
+通过具有严格硬预算上限的 SpendGuard 运行应用程序代理。在设置“spendguard-sidecar”、创建代理 ID、设置或超出预算、通过 SpendGuard 端点发送 OpenAI/Grok/Gemini/Anthropic 调用以及排除预算执行错误（例如预算不足、运行中锁定冲突、缺少“x-cynsta-agent-id”或远程定价签名失败）时使用。

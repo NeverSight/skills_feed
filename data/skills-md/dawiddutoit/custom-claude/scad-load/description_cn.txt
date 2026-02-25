@@ -1,0 +1,6 @@
+通过解析 use/include 语句加载具有完整依赖上下文的 OpenSCAD 文件，
+解析库路径，并提取API表面（模块、函数、参数）。
+在处理 OpenSCAD 文件、调试渲染问题、理解模块时使用
+依赖关系，或重构之前。触发“load scad”、“scad-load [file]”、
+“加载 openscad 上下文”、“显示 scad 依赖项”或调查 .scad 文件时。
+适用于 .scad 文件、BOSL2、woodworkers-lib、NopSCADlib 和特定于项目的库。

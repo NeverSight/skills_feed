@@ -1,0 +1,7 @@
+发现、测试和管理远程 SSH 基础设施主机和 Docker 服务
+5 个主机（infra.local、deus、homeassistant、pi4-motor、armitage）。检查时使用
+基础设施状态、验证服务连接、管理 Docker 容器、
+对远程服务进行故障排除，或在使用远程资源（MongoDB、Langfuse、
+OTLP、Neo4j）。触发“检查基础设施”、“连接到 infra/deus/ha”、
+“在基础设施上测试 MongoDB”、“查看 Docker 服务”、“验证连接”、“排除故障
+远程服务”、“正在运行哪些服务”或远程连接失败时。

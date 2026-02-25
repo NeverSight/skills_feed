@@ -1,0 +1,7 @@
+执行低级 Cloudflare DNS 操作，包括添加、更新、删除 DNS
+记录、管理区域设置以及通过 Cloudflare API 进行动态 DNS 更新。使用时
+需要手动 DNS 记录管理、动态 DNS 更新、区域设置配置，或者
+域管理系统之外的操作。触发“添加 DNS 记录”、“更新 DNS”、
+“删除 DNS 记录”、“动态 DNS”、“Cloudflare API”或“手动 DNS 管理”。作品
+使用 Cloudflare API v4、cf-dns.sh 和 cf-settings.sh 帮助程序脚本以及直接curl
+API 调用。

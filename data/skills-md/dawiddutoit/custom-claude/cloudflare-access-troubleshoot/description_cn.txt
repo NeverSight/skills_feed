@@ -1,0 +1,7 @@
+诊断并修复 Cloudflare Access 身份验证问题，包括 Google OAuth
+错误、登录后拒绝访问、登录循环、CookieMismatch 错误和“只能
+在其组织内使用”错误。当身份验证失败、访问被拒绝时使用
+Google 登录、重定向失败或 Pi-hole 阻止 Google 域后。触发
+“访问被拒绝”、“OAuth 不起作用”、“登录循环”、“CookieMismatch”、“只能使用
+在组织内”，或“修复 Cloudflare Access 身份验证”。与 Cloudflare 配合使用
+Access、Google OAuth、Pi-hole 白名单和 ACCESS_ALLOWED_EMAIL 配置。

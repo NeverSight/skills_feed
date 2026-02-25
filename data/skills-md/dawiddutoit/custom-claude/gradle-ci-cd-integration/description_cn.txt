@@ -1,0 +1,6 @@
+为 CI/CD 平台配置 Gradle 构建，包括 GitHub Actions、
+GitLab CI、Jenkins 和 CircleCI。在设置自动化构建时使用，
+配置缓存策略、在管道中运行测试或构建
+CI 中的 Docker 镜像。触发“设置 Gradle CI”、“配置 GitHub Actions”、
+“优化构建缓存”或“Gradle 的 CI 管道”。适用于 .github/workflows，
+.gitlab-ci.yml、Jenkinsfile，包括性能优化和工件处理。

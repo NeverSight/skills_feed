@@ -1,0 +1,6 @@
+基于证据的测试调试强制执行系统的根本原因分析。
+当测试失败、发生 pytest 错误、测试套件未通过时使用，
+调试测试失败，或修复损坏的测试。防止基于假设
+通过执行正确的诊断顺序来修复。使用 Python (.py)，
+JavaScript/TypeScript (.js/.ts)、Go、Rust 测试文件。支持pytest，
+jest、vitest、mocha、go test、cargo test 等框架。

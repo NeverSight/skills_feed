@@ -1,0 +1,1 @@
+支持命令： [commit|commit_a commit_b] [--verify] [--apply] [--commit] 交互式 git diff 审查技能。将 git diff 输出解析为单独的块，向用户呈现每个块并分析接受/拒绝决策，验证完整的覆盖范围，并生成 Markdown 审查报告。

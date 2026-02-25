@@ -1,0 +1,4 @@
+在 CI/CD 管道中设置 uv（基于 Rust 的 Python 包管理器）。
+在配置 GitHub Actions 工作流程、GitLab CI/CD、Docker 构建或跨 Python 版本的矩阵测试时使用。
+包括缓存优化、冻结锁定文件、多阶段构建以及具有可信发布功能的 PyPI 发布模式。
+涵盖 GitHub Actions setup-uv 操作、Docker 多阶段生产/开发构建和部署模式。
