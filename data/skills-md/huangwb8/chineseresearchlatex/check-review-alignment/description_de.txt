@@ -1,8 +1,8 @@
-Nur aufrufen, wenn der Benutzer ausdrücklich anfordert, „Zitate im Hauptteil der Rezension „{topic}_review.tex“ zu überprüfen/zu optimieren“ oder „check-review-alignment auszuführen“.
+Nur verwenden, wenn der Benutzer ausdrücklich anfordert, „Zitate im Hauptteil der Rezension „{topic}_review.tex“ zu überprüfen/zu optimieren“ oder „check-review-alignment auszuführen“.
 
-Überprüfen Sie mithilfe des semantischen Verständnisses der Host-KI jedes Zitat Zeile für Zeile anhand der Literatur. **Nur wenn ein schwerwiegender Zitierfehler gefunden wird**, führen Sie eine minimale Umschreibung des „Satzes, der das Zitat enthält“ durch und verwenden Sie das Rendering-Skript „systematic-literature-review“ erneut, um PDF/Word auszugeben (das Skript ruft keine lokale LLM-API auf).
+Überprüfen Sie mithilfe des semantischen Verständnisses der Host-KI jedes Zitat anhand des Quellinhalts. **Nur wenn ein schwerwiegender Zitierfehler gefunden wird**, führen Sie die minimale Umschreibung des „Satzes, der das Zitat enthält“ durch und verwenden Sie das Rendering-Skript „systematic-literature-review“ erneut, um PDF/Word auszugeben (das Skript selbst ruft lokal keine LLM-API auf).
 
-Grundprinzip: **Ändere dich nicht um der Veränderung willen**. Wenn nicht festgestellt werden kann, ob es sich um einen schwerwiegenden Fehler handelt, lassen Sie ihn unverändert und kennzeichnen Sie im Bericht eine Warnung.
+Grundprinzip: **Ändere dich nicht um der Veränderung willen**. Wenn Sie sich nicht sicher sind, ob es sich um einen schwerwiegenden Fehler handelt, lassen Sie ihn unverändert und kennzeichnen Sie im Bericht eine Warnung.
 
 ⚠️ Gilt nicht für:
 - Benutzer, die lediglich systematische Literaturrecherche erstellen möchten (verwenden Sie systematische Literaturrecherche)

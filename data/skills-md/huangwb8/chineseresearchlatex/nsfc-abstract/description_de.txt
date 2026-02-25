@@ -1,10 +1,10 @@
-Wenn der Benutzer ausdrücklich anfordert: „Eine NSFC-Vorschlagszusammenfassung schreiben/polieren“, „sowohl chinesische als auch englische Zusammenfassungen erstellen“ oder „die chinesische Zusammenfassung ins Englische übersetzen“.
+Wenn der Benutzer ausdrücklich anfordert: „Zusammenfassung des NSFC-Vorschlags schreiben/polieren“, „sowohl chinesische als auch englische Zusammenfassungen erstellen“ oder „die chinesische Zusammenfassung ins Englische übersetzen“, verwenden Sie dies.
 
 Geben Sie sowohl chinesische als auch englische Versionen aus: Das Englische muss eine getreue Übersetzung des Chinesischen sein (keine zusätzlichen Informationen, keine Auslassung wichtiger Einschränkungen).
-Die chinesische Zusammenfassung beträgt standardmäßig ≤400 Zeichen (einschließlich Satzzeichen), die englische Zusammenfassung beträgt standardmäßig ≤4000 Zeichen (einschließlich Satzzeichen). Die endgültigen Grenzwerte folgen „skills/nsfc-abstract/config.yaml:limits“.
+Standardlängenbeschränkungen: Chinesisch ≤400 Zeichen (einschließlich Satzzeichen), Englisch ≤4.000 Zeichen (einschließlich Satzzeichen); Die endgültigen Grenzwerte folgen „skills/nsfc-abstract/config.yaml:limits“.
 
-Ausgabemethode: Schreiben Sie die Ergebnisse in „NSFC-ABSTRACTS.md“ im **Arbeitsverzeichnis** (Dateiname folgt „config.yaml:output.filename“), mit einer „#“-Überschrift für Chinesisch und einer „#“-Überschrift für Englisch.
+Ausgabemethode: Schreiben Sie das Ergebnis in „NSFC-ABSTRACTS.md“ im Arbeitsverzeichnis (Dateiname gemäß „config.yaml:output.filename“), mit einer „#“-Überschrift für Chinesisch und einer „#“-Überschrift für Englisch.
 
 ⚠️ Gilt nicht in den folgenden Fällen:
-- Der Benutzer möchte nur einen generischen Text übersetzen, der nichts mit dem Vorschlag zu tun hat (direkt übersetzen).
-- Der Benutzer möchte nur die Begründung/den Forschungsinhalt/den Forschungsgrundlagentext schreiben (entsprechende NSFC-Serienfähigkeiten verwenden)
+- Der Benutzer möchte nur einen allgemeinen Text übersetzen, der nichts mit dem Vorschlag zu tun hat (direkt übersetzen).
+– Der Benutzer möchte nur die Begründung/den Forschungsinhalt/die Forschungsgrundlage schreiben (entsprechende NSFC-Serienfähigkeiten verwenden)

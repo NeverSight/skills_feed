@@ -1,9 +1,9 @@
-Pautas de flujo de trabajo y nombres de sucursales de Git para garantizar la coherencia de la colaboración en equipo y las mejores prácticas de control de versiones. Incluye formatos de nombres de sucursales, estándares de confirmación, procedimientos de solicitud de extracción y salvaguardas para evitar cambios directos en la sucursal principal. Aplicable a todas las tareas de desarrollo que implican modificaciones de archivos, nuevas funciones y corrección de errores.
+Estándares de flujo de trabajo y nombres de sucursales de Git para garantizar la coherencia de la colaboración en equipo y las mejores prácticas de control de versiones. Incluye formato de denominación de ramas, convenciones de confirmación, flujo de solicitud de extracción y un mecanismo de seguridad que evita cambios directos en la rama principal. Se aplica a todas las tareas de desarrollo que implican modificación de archivos, adición de funciones o corrección de errores.
 
-⚠️ Reglas clave: se deben seguir:
+⚠️ Reglas críticas: se deben seguir:
 1. Nunca realice cambios ni se comprometa directamente en la rama principal.
-2. Todos los cambios deben crear primero una rama de función (formato: <tipo>/<nombre>/<descripción>)
-3. Fusionar mediante Pull Request una vez completado
-4. Esta directriz se aplica a todas las tareas que implican modificaciones de archivos, nuevas funciones o corrección de errores.
+2. Cada cambio debe comenzar con una rama de característica (formato: <tipo>/<nombre>/<descripción>)
+3. Fusionar mediante Pull Request cuando haya terminado
+4. Esta habilidad se aplica a todas las tareas que implican modificación de archivos, adición de funciones o corrección de errores.
 
-Desencadenante: cualquier operación que requiera cambios en el archivo del proyecto (incluida la adición, edición o eliminación de archivos) debe seguir esta guía.
+Desencadenante: cualquier operación de archivo de proyecto (agregar, editar, eliminar) debe seguir este estándar.

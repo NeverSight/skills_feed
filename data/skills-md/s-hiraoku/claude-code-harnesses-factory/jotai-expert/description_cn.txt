@@ -1,9 +1,9 @@
-Jotai 国家管理图书馆的专家技能。在 React 应用程序中实现基于原子的状态管理时使用。在以下情况下使用此技能：
+Jotai 状态管理库中的专家级技能。在 React 应用程序中实现基于原子的状态管理时使用。在以下情况下应用此技能：
 (1) Jotai原子的设计与实现
 (2) 实现派生原子、异步原子和atomFamily
 （3）基于Jotai最佳实践的重构
 （4）性能优化（selectAtom、splitAtom等）
-（5）持久化（localStorage/sessionStorage集成）
+（5）持久化（与localStorage/sessionStorage集成）
 (6)TypeScript类型定义
 (7) 测试实施
-当用户提出与“Jotai”、“atom”或“状态管理”相关的问题或实施请求时激活。
+当用户提出与“Jotai”、“atom”或“状态管理”相关的问题或请求实现时触发。

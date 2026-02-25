@@ -1,13 +1,1 @@
-Guida alla creazione e gestione di Claude Code Hook. Implementazione di hook come PreToolUse, PostToolUse, Stop, ecc.  
-Tempi di utilizzo:  
-(1) Quando si desidera bloccare operazioni pericolose  
-(2) Quando si desidera fornire suggerimenti dopo l'esecuzione dello strumento  
-(3) Quando si desidera eseguire la pulizia al termine della sessione  
-(4) Quando desideri personalizzare Claude Code  
-
-Esempi di trigger:  
-"Crea un gancio"  
-"Gancio PreToolUse"  
-"Blocca operazioni pericolose"  
-"Suggerisci dopo il commit"  
-"Ganci Claude Code"
+Guida alla creazione e gestione di Claude Code Hook. PreToolUse, PostToolUse, Stop e altre implementazioni di hook. Casi d'uso: (1) blocco di operazioni pericolose, (2) fornitura di suggerimenti dopo l'esecuzione dello strumento, (3) pulizia al termine della sessione, (4) personalizzazione del codice Claude. Esempi di trigger: "crea un hook", "hook PreToolUse", "blocca operazioni pericolose", "suggerisci dopo il commit", "hook Claude Code"

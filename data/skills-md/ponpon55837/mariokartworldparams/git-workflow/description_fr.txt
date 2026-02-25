@@ -1,9 +1,9 @@
-Directives de dénomination des branches Git et de flux de travail pour garantir la cohérence de la collaboration en équipe et les meilleures pratiques de contrôle de version. Comprend des formats de dénomination de branche, des normes de validation, des procédures de demande d'extraction et des protections pour empêcher les modifications directes de la branche principale. Applicable à toutes les tâches de développement impliquant des modifications de fichiers, de nouvelles fonctionnalités et des corrections de bugs.
+Normes de dénomination des branches Git et de flux de travail pour garantir la cohérence de la collaboration en équipe et les meilleures pratiques de contrôle de version. Inclut le format de dénomination des branches, les conventions de validation, le flux de requêtes d'extraction et un mécanisme de sécurité empêchant les modifications directes de la branche principale. S'applique à toutes les tâches de développement impliquant la modification de fichiers, l'ajout de fonctionnalités ou la correction de bogues.
 
-⚠️ Règles clés - doivent être respectées :
+⚠️ Règles critiques – doivent être respectées :
 1. N’apportez jamais de modifications ou de commits directement sur la branche principale
-2. Toutes les modifications doivent d'abord créer une branche de fonctionnalité (format : <type>/<nom>/<description>)
+2. Chaque modification doit commencer par une branche de fonctionnalité (format : <type>/<name>/<description>)
 3. Fusionner via Pull Request une fois terminé
-4. Cette directive s'applique à toutes les tâches impliquant des modifications de fichiers, de nouvelles fonctionnalités ou des corrections de bugs.
+4. Cette compétence s'applique à toutes les tâches impliquant la modification de fichiers, l'ajout de fonctionnalités ou la correction de bogues.
 
-Déclencheur : toute opération nécessitant des modifications dans les fichiers du projet (y compris l'ajout, la modification ou la suppression de fichiers) doit suivre cette directive.
+Déclencheur : toute opération sur un fichier projet (ajouter, modifier, supprimer) doit suivre cette norme.

@@ -1,10 +1,10 @@
-Lorsque l'utilisateur demande explicitement « d'écrire/ peaufiner un résumé de proposition NSFC », de « générer des résumés en chinois et en anglais » ou de « traduire le résumé chinois en anglais ».
+Lorsque l'utilisateur demande explicitement « d'écrire/ peaufiner le résumé de la proposition NSFC », de « générer des résumés en chinois et en anglais » ou de « traduire le résumé chinois en anglais », utilisez ceci.
 
 Produire à la fois des versions chinoise et anglaise : l'anglais doit être une traduction fidèle du chinois (pas d'informations ajoutées, pas d'omission de contraintes clés).
-Le résumé chinois contient par défaut ≤ 400 caractères (y compris la ponctuation), le résumé anglais est par défaut de ≤ 4 000 caractères (y compris la ponctuation) ; les limites finales suivent `skills/nsfc-abstract/config.yaml:limits`.
+Limites de longueur par défaut : chinois ≤ 400 caractères (ponctuation comprise), anglais ≤ 4 000 caractères (ponctuation comprise) ; les limites finales suivent `skills/nsfc-abstract/config.yaml:limits`.
 
-Méthode de sortie : écrivez les résultats dans `NSFC-ABSTRACTS.md` dans le **répertoire de travail** (le nom du fichier suit `config.yaml:output.filename`), avec un en-tête `#` pour le chinois et un en-tête `#` pour l'anglais.
+Méthode de sortie : écrivez le résultat dans `NSFC-ABSTRACTS.md` dans le répertoire de travail (nom de fichier par `config.yaml:output.filename`), avec un en-tête `#` pour le chinois et un en-tête `#` pour l'anglais.
 
 ⚠️ Non applicable dans les cas suivants :
 - L'utilisateur souhaite uniquement traduire un texte générique sans rapport avec la proposition (traduire directement)
-- L'utilisateur souhaite uniquement rédiger la justification/le contenu de la recherche/le texte de base de la recherche (utiliser la compétence de la série nsfc correspondante)
+- L'utilisateur souhaite uniquement rédiger la justification/le contenu de la recherche/les fondements de la recherche (utiliser les compétences de la série nsfc correspondantes)

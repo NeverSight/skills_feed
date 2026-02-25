@@ -8,8 +8,8 @@ Funzionalità principali:
 
 Quando usarlo:
 - Quando è necessario generare immagini AI di alta qualità (copertine, illustrazioni, ecc.)
-- Quando è necessaria la generazione di testo dal modello Gemini
-- Quando è necessario creare varianti o descrizioni basate su immagini di riferimento
+- Quando è necessaria la generazione di testo tramite il modello Gemini
+- Quando desideri creare varianti o descrizioni basate su un'immagine di riferimento
 - Come backend per la generazione di immagini per altre competenze (pw-cover-image, pw-redbook-image)
 
 Non adatto per:
@@ -19,6 +19,6 @@ Non adatto per:
 
 Promemoria importanti:
 - Il primo utilizzo richiede il consenso dell'utente alla dichiarazione di non responsabilità
-- È richiesta l'autenticazione dell'account Google (il browser si apre automaticamente per l'accesso)
-- Configurazione proxy necessaria per l'accesso dalla Cina continentale
+- È richiesta l'autenticazione dell'account Google (l'accesso al browser si apre automaticamente)
+- Configurazione proxy necessaria nella Cina continentale
 - Questa è un'API non ufficiale e potrebbe rompersi in qualsiasi momento

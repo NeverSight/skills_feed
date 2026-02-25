@@ -1,18 +1,18 @@
-Herramienta automatizada para publicar contenido en cuentas oficiales de WeChat.
+Una herramienta automatizada para publicar contenido en cuentas oficiales de WeChat.
 
 Características principales:
-- Publicación de imagen y texto: múltiples imágenes con modo de texto, se admiten hasta 9 imágenes
-- Publicación del artículo: formato completo de Markdown, preservando el estilo y el diseño
-- Flujo de trabajo automatizado: utiliza Chrome CDP para iniciar sesión, completar y publicar automáticamente
-- Compresión inteligente: comprime automáticamente el título y el contenido cuando se exceden los límites
-- Soporte de temas: las publicaciones de artículos admiten temas predeterminados, elegantes y simples
+– Publicación de imagen y texto: varias imágenes con texto, se admiten hasta 9 imágenes
+– Publicación del artículo: formato completo de Markdown, preservación de estilos y diseño
+– Flujo de trabajo automatizado: utiliza Chrome CDP para iniciar sesión, completar formularios y publicar
+– Compresión inteligente: comprime automáticamente el título y el contenido cuando se exceden los límites
+– Soporte de temas: las publicaciones de artículos admiten temas predeterminados, elegantes y simples
 
 Cuando usar:
-- El usuario dice explícitamente "publicar en la cuenta oficial de WeChat" o "enviar a la cuenta oficial"
-- El usuario proporciona un archivo Markdown o contenido que necesita publicación.
-- El usuario necesita publicar por lotes contenido de imagen y texto
+– El usuario dice explícitamente "publicar en la cuenta oficial de WeChat" o "enviar a la cuenta oficial"
+– El usuario proporciona un archivo Markdown o contenido que necesita publicación
+– El usuario necesita publicar por lotes contenido de imagen y texto
 
 No aplicable:
-- El usuario solo pregunta cómo publicar (solo da consejos)
-- El usuario necesita editar los artículos existentes de la cuenta oficial (operación manual)
-- El usuario debe publicar en otras plataformas (use las herramientas de la plataforma respectiva)
+– El usuario solo pregunta cómo publicar (solo da consejos)
+– El usuario necesita editar un artículo de la cuenta oficial existente (operación manual)
+– El usuario necesita publicar en otras plataformas (use las herramientas de plataforma correspondientes)

@@ -1,4 +1,4 @@
-Guide d'intégration d'AutoFixture et NSubstitute – Implémentation de l'auto-mocking.  
-Couvre AutoNSubstituteDataAttribute, le mécanisme gelé et la stratégie de construction gourmande.  
+Guide d'intégration d'AutoFixture et NSubstitute – Auto-Mocking en pratique.  
+Couvre AutoNSubstituteDataAttribute, le mécanisme Frozen et la stratégie de construction gourmande.  
 Inclut une gestion personnalisée pour les dépendances spéciales telles que IMapper (AutoMapper/Mapster).  
-Convient aux tests complexes d'injection de dépendances, à la vérification simulée et à la configuration du comportement.
+Idéal pour les tests complexes d’injection de dépendances, la vérification simulée et la configuration du comportement.

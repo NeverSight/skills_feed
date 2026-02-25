@@ -1,3 +1,3 @@
-Compétences spécialisées dans l’utilisation de System.IO.Abstractions pour tester les opérations du système de fichiers.  
-Utilisé lors du test des opérations de fichier, de répertoire, de chemin et pour se moquer du système de fichiers.  
+Compétences spécialisées dans le test des opérations du système de fichiers à l’aide de System.IO.Abstractions.
+Utilisé lors du test des opérations de fichier, de répertoire, de chemin et pour se moquer du système de fichiers.
 Couvre IFileSystem, MockFileSystem, les tests de lecture/écriture de fichiers, les tests de fonctionnement de répertoire, etc.

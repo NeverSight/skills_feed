@@ -1,1 +1,1 @@
-从 mixdao 最新获取数据→使用 MiniMax-M2.5 进行分类和组织（代理循环：最多 5 组，每组≥3 个项目）并生成组摘要以及每个项目的推荐→通过 cachedStoryId 提交推荐并将简报上传到 mixdao。需要 MIXDAO_API_KEY 和 ANTHROPIC_API_KEY。自然语言触发示例：“运行每日简报”或“执行今天的 mixdao 简报”。
+从 mixdao 最新获取数据 → 使用 MiniMax-M2.5 进行分类和组织（代理循环：最多 5 组，每组≥3 个项目）并生成组摘要，并为每个项目提供推荐 → 通过 cachedStoryId 提交推荐并将简报上传到 mixdao。需要 MIXDAO_API_KEY 和 ANTHROPIC_API_KEY。自然语言触发示例：“运行每日简报”或“执行今天的 mixdao 简报”。

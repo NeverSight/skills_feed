@@ -1,10 +1,8 @@
-Habilidad para ayudar con la refactorización de código. Mejora la estructura interna del código sin cambiar su comportamiento externo (funcionalidad). Se utiliza para las siguientes solicitudes:  
+Una habilidad para ayudar con la refactorización de código. Mejora la estructura interna del código sin cambiar su comportamiento externo (funcionalidad). Se utiliza para las siguientes solicitudes:  
 - Dividir y organizar funciones/clases.  
-- Cambiar el nombre de variables y nombres de funciones.  
-- Eliminación y consolidación de código duplicado.  
+- Cambiar el nombre de variables y funciones.  
+- Eliminar código duplicado y hacerlo reutilizable  
 - Aplicar patrones de diseño.  
 - Mejora de la legibilidad y mantenibilidad del código.  
-- Instrucciones como "refactorizar", "limpiar", "organizar" o "hacerlo SECO"  
-
-Idiomas admitidos: independiente del idioma.  
-Si las pruebas son insuficientes, se detendrá la refactorización.
+- Instrucciones como "refactorizar esto", "limpiarlo", "organizarlo" o "dejarlo SECO"  
+Idiomas admitidos: Universal, independientemente del idioma. Si las pruebas son insuficientes, se detendrá la refactorización.

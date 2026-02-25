@@ -1,10 +1,8 @@
-Fähigkeit, beim Code-Refactoring zu helfen. Verbessert die interne Struktur des Codes, ohne sein äußeres Verhalten (Funktionalität) zu ändern. Wird für folgende Anfragen verwendet:  
+Eine Fähigkeit, die beim Code-Refactoring hilft. Verbessert die interne Struktur des Codes, ohne sein äußeres Verhalten (Funktionalität) zu ändern. Wird für folgende Anfragen verwendet:  
 - Funktionen/Klassen aufteilen und organisieren  
-- Umbenennen von Variablen und Funktionsnamen  
-- Eliminierung und Konsolidierung von doppeltem Code  
+- Umbenennen von Variablen und Funktionen  
+- Entfernen von doppeltem Code und Wiederverwendbarkeit  
 - Anwenden von Designmustern  
 - Verbesserung der Lesbarkeit und Wartbarkeit des Codes  
-- Anweisungen wie „Umgestalten“, „Aufräumen“, „Organisieren“ oder „Trocken machen“  
-
-Unterstützte Sprachen: sprachunabhängig.  
-Wenn die Tests nicht ausreichen, wird das Refactoring gestoppt.
+- Anweisungen wie „Umgestalten“, „Aufräumen“, „Organisieren“ oder „Trocknen machen“  
+Unterstützte Sprachen: Universell, unabhängig von der Sprache. Wenn die Tests nicht ausreichen, wird das Refactoring gestoppt.

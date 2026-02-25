@@ -1,3 +1,3 @@
-Habilidades especializadas en el uso de System.IO.Abstractions para probar las operaciones del sistema de archivos.  
-Se utiliza al probar operaciones de archivos, directorios y rutas y al burlarse del sistema de archivos.  
+Habilidades especializadas en probar operaciones de sistemas de archivos usando System.IO.Abstractions.
+Se utiliza al probar operaciones de archivos, directorios y rutas y al burlarse del sistema de archivos.
 Cubre IFileSystem, MockFileSystem, pruebas de lectura/escritura de archivos, pruebas de operación de directorios, etc.

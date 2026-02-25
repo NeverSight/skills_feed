@@ -1,10 +1,8 @@
-Capacità di assistere con il refactoring del codice. Migliora la struttura interna del codice senza modificarne il comportamento esterno (funzionalità). Utilizzato per le seguenti richieste:  
+Una competenza per assistere con il refactoring del codice. Migliora la struttura interna del codice senza modificarne il comportamento esterno (funzionalità). Utilizzato per le seguenti richieste:  
 - Suddivisione e organizzazione di funzioni/classi  
-- Rinominare variabili e nomi di funzioni  
-- Eliminazione e consolidamento del codice duplicato  
+- Rinominare variabili e funzioni  
+- Rimuovere il codice duplicato e renderlo riutilizzabile  
 - Applicazione di modelli di progettazione  
 - Migliorare la leggibilità e la manutenibilità del codice  
-- Istruzioni come "refactoring", "clean up", "organize" o "make it DRY"  
-
-Lingue supportate: indipendente dalla lingua.  
-Se i test non sono sufficienti, il refactoring verrà interrotto.
+- Istruzioni come "refactoring this", "pulirlo", "organizzarlo" o "renderlo DRY"  
+Lingue supportate: universale, indipendentemente dalla lingua. Se i test non sono sufficienti, il refactoring verrà interrotto.

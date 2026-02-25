@@ -1,3 +1,3 @@
-Spezialkenntnisse im Testen von Container-Datenbanken mit Testcontainern.
-Wird verwendet, wenn das tatsächliche Datenbankverhalten getestet werden muss, indem SQL Server/PostgreSQL/MySQL-Container verwendet und EF Core/Dapper getestet werden.
+Spezialkenntnisse im Testen von Container-Datenbanken mit Testcontainern.  
+Wird verwendet, wenn echtes Datenbankverhalten erforderlich ist, unter Verwendung von SQL Server/PostgreSQL/MySQL-Containern und beim Testen von EF Core/Dapper.  
 Deckt den Start von Containern, Datenbankmigrationen, Testisolation, Containerfreigabe usw. ab.

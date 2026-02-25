@@ -1,18 +1,18 @@
-Outil automatisé pour publier du contenu sur les comptes officiels WeChat.
+Un outil automatisé pour publier du contenu sur les comptes officiels WeChat.
 
 Fonctionnalités principales :
-- Publication image-texte : multi-images avec mode texte, jusqu'à 9 images prises en charge
-- Publication de l'article : formatage Markdown complet, préservation du style et de la mise en page
-- Flux de travail automatisé : utilise Chrome CDP pour se connecter, remplir et publier automatiquement
-- Compression intelligente : compresse automatiquement le titre et le contenu lorsque les limites sont dépassées
-- Prise en charge des thèmes : les publications d'articles prennent en charge les thèmes par défaut, grâce et simples
+– Publication image-texte : multi-images avec texte, jusqu'à 9 images prises en charge
+– Article post : mise en forme complète du Markdown, préservation des styles et de la mise en page
+– Flux de travail automatisé : utilise Chrome CDP pour se connecter, remplir des formulaires et publier
+– Compression intelligente : compresse automatiquement le titre et le contenu lorsque les limites sont dépassées
+– Prise en charge des thèmes : les publications d'articles prennent en charge les thèmes par défaut, grâce et simples
 
 Quand utiliser :
-- L'utilisateur dit explicitement « publier sur le compte officiel WeChat » ou « envoyer sur le compte officiel »
-- L'utilisateur fournit un fichier Markdown ou un contenu nécessitant une publication
+– L'utilisateur dit explicitement « publier sur le compte officiel WeChat » ou « envoyer sur le compte officiel »
+– L’utilisateur fournit un fichier Markdown ou un contenu qui doit être publié
 - L'utilisateur doit publier par lots le contenu image-texte
 
 Sans objet :
-- L'utilisateur demande uniquement comment publier (il suffit de donner des conseils)
-- L'utilisateur doit modifier les articles du compte officiel existants (opération manuelle)
-- L'utilisateur doit publier sur d'autres plateformes (utiliser les outils de plateforme respectifs)
+– L'utilisateur demande uniquement comment publier (il suffit de donner des conseils)
+- L'utilisateur doit modifier un article de compte officiel existant (opération manuelle)
+– L’utilisateur doit publier sur d’autres plateformes (utiliser les outils de plateforme correspondants)

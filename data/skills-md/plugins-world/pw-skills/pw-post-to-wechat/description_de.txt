@@ -1,18 +1,18 @@
-Automatisiertes Tool zum Posten von Inhalten auf offiziellen WeChat-Konten.
+Ein automatisiertes Tool zum Posten von Inhalten auf offiziellen WeChat-Konten.
 
 Kernfunktionen:
-- Bild-Text-Beitrag: Mehrbild mit Textmodus, bis zu 9 Bilder werden unterstützt
-- Artikelbeitrag: vollständige Markdown-Formatierung unter Beibehaltung von Stil und Layout
-- Automatisierter Workflow: Verwendet Chrome CDP zum automatischen Anmelden, Ausfüllen und Veröffentlichen
-- Intelligente Komprimierung: Titel und Inhalt werden automatisch komprimiert, wenn die Grenzwerte überschritten werden
-- Theme-Unterstützung: Artikelbeiträge unterstützen Standard-, Grace- und einfache Themes
+– Bild-Text-Beitrag: mehrere Bilder mit Text, bis zu 9 Bilder werden unterstützt
+– Artikelbeitrag: vollständige Markdown-Formatierung unter Beibehaltung von Stilen und Layout
+– Automatisierter Workflow: Verwendet Chrome CDP zum Anmelden, Ausfüllen von Formularen und Veröffentlichen
+– Intelligente Komprimierung: Titel und Inhalt werden automatisch komprimiert, wenn die Grenzwerte überschritten werden
+– Theme-Unterstützung: Artikelbeiträge unterstützen Standard-, Grace- und einfache Themes
 
 Wann zu verwenden:
-- Der Benutzer sagt ausdrücklich „Auf offizielles WeChat-Konto posten“ oder „an offizielles Konto senden“
-- Der Benutzer stellt eine Markdown-Datei oder einen Inhalt bereit, der veröffentlicht werden muss
+– Der Benutzer sagt ausdrücklich „Auf offizielles WeChat-Konto posten“ oder „an offizielles Konto senden“
+– Der Benutzer stellt eine Markdown-Datei oder einen Inhalt bereit, der veröffentlicht werden muss
 – Der Benutzer muss Bild-Text-Inhalte stapelweise veröffentlichen
 
 Nicht zutreffend:
-- Der Benutzer fragt nur, wie man postet (gibt nur Ratschläge)
-- Der Benutzer muss vorhandene Artikel zum offiziellen Konto bearbeiten (manueller Vorgang).
-- Der Benutzer muss auf anderen Plattformen posten (entsprechende Plattform-Tools verwenden)
+– Der Benutzer fragt nur, wie man postet (gibt nur Ratschläge)
+– Der Benutzer muss einen bestehenden offiziellen Kontoartikel bearbeiten (manueller Vorgang)
+– Der Benutzer muss auf anderen Plattformen posten (verwenden Sie die entsprechenden Plattform-Tools).

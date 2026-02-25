@@ -1,18 +1,18 @@
-Strumento automatizzato per pubblicare contenuti sugli account ufficiali di WeChat.
+Uno strumento automatizzato per pubblicare contenuti sugli account ufficiali di WeChat.
 
 Caratteristiche principali:
-- Post immagine-testo: multi-immagine con modalità testo, sono supportate fino a 9 immagini
-- Post dell'articolo: formattazione Markdown completa, preservando stile e layout
-- Flusso di lavoro automatizzato: utilizza Chrome CDP per accedere, compilare e pubblicare automaticamente
-- Compressione intelligente: comprime automaticamente titolo e contenuto quando vengono superati i limiti
-- Supporto dei temi: i post degli articoli supportano temi predefiniti, Grace e semplici
+– Post immagine-testo: multi-immagine con testo, sono supportate fino a 9 immagini
+– Post dell'articolo: formattazione Markdown completa, preservando stili e layout
+– Flusso di lavoro automatizzato: utilizza Chrome CDP per accedere, compilare moduli e pubblicare
+– Compressione intelligente: comprime automaticamente titolo e contenuto quando vengono superati i limiti
+– Supporto temi: i post degli articoli supportano temi predefiniti, Grace e semplici
 
 Quando usarlo:
-- L'utente dice esplicitamente "pubblica sull'account ufficiale WeChat" o "invia all'account ufficiale"
-- L'utente fornisce un file Markdown o un contenuto che necessita di pubblicazione
-- L'utente deve pubblicare in batch contenuti di testo-immagine
+– L'utente dice esplicitamente "pubblica sull'account ufficiale WeChat" o "invia all'account ufficiale"
+– L'utente fornisce un file Markdown o un contenuto che deve essere pubblicato
+– L'utente deve pubblicare in batch contenuti di testo-immagine
 
 Non applicabile:
-- L'utente chiede solo come pubblicare (basta dare consigli)
-- L'utente deve modificare gli articoli dell'account ufficiale esistente (operazione manuale)
-- L'utente deve pubblicare su altre piattaforme (utilizzare i rispettivi strumenti della piattaforma)
+– L’utente chiede solo come pubblicare (basta dare consigli)
+– L'utente deve modificare un articolo dell'account ufficiale esistente (operazione manuale)
+– L'utente deve pubblicare su altre piattaforme (utilizzare gli strumenti della piattaforma corrispondente)

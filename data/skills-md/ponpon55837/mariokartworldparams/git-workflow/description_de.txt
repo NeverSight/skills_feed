@@ -1,9 +1,9 @@
-Benennung und Workflow-Richtlinien für Git-Zweige, um die Konsistenz der Teamzusammenarbeit und Best Practices für die Versionskontrolle sicherzustellen. Beinhaltet Formate für die Benennung von Zweigen, Commit-Standards, Pull-Request-Verfahren und Sicherheitsmaßnahmen, um direkte Änderungen am Hauptzweig zu verhindern. Gilt für alle Entwicklungsaufgaben, die Dateiänderungen, neue Funktionen und Fehlerbehebungen umfassen.
+Benennung und Workflow-Standards für Git-Zweige, um die Konsistenz der Teamzusammenarbeit und Best Practices für die Versionskontrolle sicherzustellen. Beinhaltet ein Branch-Namensformat, Commit-Konventionen, einen Pull-Request-Ablauf und einen Sicherheitsmechanismus, der direkte Änderungen am Hauptbranch verhindert. Gilt für alle Entwicklungsaufgaben, die Dateiänderungen, das Hinzufügen von Funktionen oder das Beheben von Fehlern umfassen.
 
 ⚠️ Wichtige Regeln – müssen befolgt werden:
 1. Nehmen Sie niemals Änderungen oder Commits direkt im Hauptzweig vor
-2. Für alle Änderungen muss zunächst ein Feature-Zweig erstellt werden (Format: <Typ>/<Name>/<Beschreibung>).
-3. Nach Abschluss per Pull Request zusammenführen
-4. Diese Richtlinie gilt für alle Aufgaben, die Dateiänderungen, neue Funktionen oder Fehlerbehebungen beinhalten
+2. Jede Änderung muss mit einem Feature-Zweig beginnen (Format: <Typ>/<Name>/<Beschreibung>)
+3. Wenn Sie fertig sind, führen Sie die Zusammenführung über Pull Request durch
+4. Diese Fähigkeit gilt für alle Aufgaben, bei denen es um Dateiänderungen, das Hinzufügen von Funktionen oder das Beheben von Fehlern geht
 
-Auslöser: Jeder Vorgang, der Änderungen an Projektdateien erfordert (einschließlich Hinzufügen, Bearbeiten oder Löschen von Dateien), muss dieser Richtlinie folgen.
+Auslöser: Jeder Projektdateivorgang (Hinzufügen, Bearbeiten, Löschen) muss diesem Standard folgen.

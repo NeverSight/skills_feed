@@ -1,13 +1,1 @@
-Claude Code Hook-Erstellungs- und Verwaltungshandbuch. Implementieren von Hooks wie PreToolUse, PostToolUse, Stop usw.  
-Nutzungszeitpunkt:  
-(1) Wenn Sie gefährliche Vorgänge blockieren möchten  
-(2) Wenn Sie nach der Werkzeugausführung Vorschläge machen möchten  
-(3) Wenn Sie am Ende der Sitzung eine Bereinigung durchführen möchten  
-(4) Wenn Sie Claude Code anpassen möchten  
-
-Trigger-Beispiele:  
-„Erstelle einen Haken“  
-„PreToolUse-Hook“  
-„Blockieren Sie gefährliche Operationen“  
-„Vorschlag nach Commit“  
-„Claude Code Haken“
+Claude Code Hook-Erstellungs- und Verwaltungshandbuch. PreToolUse, PostToolUse, Stop und andere Hook-Implementierungen. Anwendungsfälle: (1) Blockieren gefährlicher Vorgänge, (2) Bereitstellen von Vorschlägen nach der Tool-Ausführung, (3) Bereinigung am Sitzungsende, (4) Anpassen von Claude Code. Trigger-Beispiele: „Hook erstellen“, „PreToolUse-Hook“, „Gefährliche Vorgänge blockieren“, „Nach Festschreiben vorschlagen“, „Claude Code-Hooks“

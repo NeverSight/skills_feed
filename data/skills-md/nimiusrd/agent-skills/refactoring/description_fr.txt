@@ -1,10 +1,8 @@
-Compétence pour aider à la refactorisation du code. Améliore la structure interne du code sans modifier son comportement externe (fonctionnalité). Utilisé pour les requêtes suivantes :  
+Une compétence pour aider à la refactorisation du code. Améliore la structure interne du code sans modifier son comportement externe (fonctionnalité). Utilisé pour les requêtes suivantes :  
 - Séparation et organisation des fonctions/classes  
-- Renommer les variables et les noms de fonctions  
-- Élimination et consolidation du code en double  
+- Renommer les variables et les fonctions  
+- Supprimer le code en double et le rendre réutilisable  
 - Application de modèles de conception  
 - Améliorer la lisibilité et la maintenabilité du code  
-- Des instructions telles que « refactoriser », « nettoyer », « organiser » ou « faire sécher »  
-
-Langues prises en charge : indépendantes de la langue.  
-Si les tests sont insuffisants, la refactorisation sera interrompue.
+- Des instructions telles que « refactoriser ceci », « nettoyer », « organiser » ou « faire sécher »  
+Langues prises en charge : universelles, quelle que soit la langue. Si les tests sont insuffisants, la refactorisation sera interrompue.

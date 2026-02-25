@@ -1,9 +1,9 @@
-Denominazione dei rami Git e linee guida sul flusso di lavoro per garantire la coerenza della collaborazione del team e le migliori pratiche di controllo della versione. Include formati di denominazione dei rami, standard di commit, procedure di pull request e misure di salvaguardia per impedire modifiche dirette al ramo principale. Applicabile a tutte le attività di sviluppo che comportano modifiche di file, nuove funzionalità e correzioni di bug.
+Standard di denominazione dei rami e flusso di lavoro Git per garantire la coerenza della collaborazione del team e le migliori pratiche di controllo della versione. Include formato di denominazione dei rami, convenzioni di commit, flusso di richiesta pull e un meccanismo di sicurezza che impedisce modifiche dirette al ramo principale. Si applica a tutte le attività di sviluppo che comportano la modifica di file, l'aggiunta di funzionalità o la correzione di bug.
 
-⚠️ Regole chiave - devono essere seguite:
+⚠️ Regole critiche – devono essere seguite:
 1. Non apportare mai modifiche o effettuare commit direttamente sul ramo principale
-2. Tutte le modifiche devono prima creare un ramo di funzionalità (formato: <tipo>/<nome>/<descrizione>)
-3. Unisci tramite Pull Request dopo il completamento
-4. Questa linea guida si applica a tutte le attività che comportano modifiche di file, nuove funzionalità o correzioni di bug
+2. Ogni modifica deve iniziare con un ramo di funzionalità (formato: <tipo>/<nome>/<descrizione>)
+3. Al termine, unisci tramite Pull Request
+4. Questa competenza si applica a tutte le attività che implicano la modifica di file, l'aggiunta di funzionalità o la correzione di bug
 
-Trigger: qualsiasi operazione che richieda modifiche ai file di progetto (inclusa l'aggiunta, la modifica o l'eliminazione di file) deve seguire queste linee guida.
+Trigger: qualsiasi operazione sul file di progetto (aggiunta, modifica, eliminazione) deve seguire questo standard.

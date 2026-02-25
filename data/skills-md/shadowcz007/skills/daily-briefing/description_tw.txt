@@ -1,1 +1,1 @@
-從 mixdao 最新取得資料→使用 MiniMax-M2.5 進行分類和組織（代理循環：最多 5 組，每組≥3 個項目）並產生群組摘要以及每個專案的推薦→透過 cachedStoryId 提交推薦並將簡報上傳到 mixdao。需要 MIXDAO_API_KEY 和 ANTHROPIC_API_KEY。自然語言觸發範例：「執行每日簡報」或「執行今天的 mixdao 簡報」。
+從 mixdao 最新取得資料 → 使用 MiniMax-M2.5 進行分類和組織（代理循環：最多 5 組，每組≥3 個項目）並產生群組摘要，並為每個專案提供建議 → 透過 cachedStoryId 提交推薦並將簡報上傳到 mixdao。需要 MIXDAO_API_KEY 和 ANTHROPIC_API_KEY。自然語言觸發範例：「執行每日簡報」或「執行今天的 mixdao 簡報」。

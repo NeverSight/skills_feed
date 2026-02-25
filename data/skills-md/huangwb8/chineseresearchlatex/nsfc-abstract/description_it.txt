@@ -1,10 +1,10 @@
-Quando l'utente richiede esplicitamente di "scrivere/perfezionare un abstract di proposta NSFC", "generare abstract sia in cinese che in inglese" o "tradurre l'abstract cinese in inglese".
+Quando l'utente richiede esplicitamente di "scrivere/perfezionare l'abstract della proposta NSFC", "generare abstract sia in cinese che in inglese" o "tradurre l'abstract cinese in inglese", utilizzare questo.
 
 Output sia della versione cinese che inglese: l'inglese deve essere una traduzione fedele del cinese (nessuna informazione aggiunta, nessuna omissione di vincoli chiave).
-L'estratto cinese ha per impostazione predefinita ≤400 caratteri (inclusa la punteggiatura), l'estratto inglese ha per impostazione predefinita ≤4000 caratteri (inclusa la punteggiatura); i limiti finali seguono `skills/nsfc-abstract/config.yaml:limits`.
+Limiti di lunghezza predefiniti: cinese ≤400 caratteri (inclusa la punteggiatura), inglese ≤4.000 caratteri (inclusa la punteggiatura); i limiti finali seguono `skills/nsfc-abstract/config.yaml:limits`.
 
-Metodo di output: scrivi i risultati in `NSFC-ABSTRACTS.md` nella **directory di lavoro** (il nome del file segue `config.yaml:output.filename`), con un'intestazione "#" per il cinese e un'intestazione "#" per l'inglese.
+Metodo di output: scrivi il risultato in "NSFC-ABSTRACTS.md" nella directory di lavoro (nome file per "config.yaml:output.filename"), con un'intestazione "#" per il cinese e un'intestazione "#" per l'inglese.
 
 ⚠️ Non applicabile nei seguenti casi:
-- L'utente desidera tradurre solo un testo generico estraneo alla proposta (tradurre direttamente)
-- L'utente desidera solo scrivere la motivazione/il contenuto della ricerca/il testo dei fondamenti della ricerca (utilizzare la corrispondente competenza della serie nsfc)
+- L'utente desidera tradurre solo un testo generico non correlato alla proposta (tradurre direttamente)
+- L'utente desidera solo scrivere la logica/il contenuto della ricerca/il fondamento della ricerca (utilizzare la corrispondente competenza della serie nsfc)
