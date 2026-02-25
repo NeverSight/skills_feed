@@ -1,0 +1,9 @@
+Strumento CLI per recuperare notizie di tendenza e argomenti caldi da 66 fonti su 44 piattaforme. Restituisce notizie strutturate con titoli, URL e metadati.
+
+UTILIZZARE PER:
+- Recupero di tendenze/notizie importanti da piattaforme cinesi e internazionali
+- Monitoraggio di argomenti caldi sui social media, tecnologia, finanza e siti di notizie
+- Ottenere dati di notizie strutturati come JSON per un'ulteriore elaborazione
+- Elenco delle fonti di notizie disponibili
+
+Richiede l'installazione di npm. Alcune origini necessitano di env vars (PRODUCTHUNT_API_TOKEN). Alcune fonti potrebbero essere bloccate da Cloudflare (linuxdo).
