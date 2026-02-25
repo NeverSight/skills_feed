@@ -1,0 +1,9 @@
+Outil CLI pour récupérer les actualités et les sujets d'actualité à partir de 66 sources sur 44 plates-formes. Renvoie des actualités structurées avec des titres, des URL et des métadonnées.
+
+UTILISER POUR :
+- Récupération des tendances/actualités chaudes des plateformes chinoises et internationales
+- Surveillance des sujets d'actualité sur les réseaux sociaux, la technologie, la finance et les sites d'actualités
+- Obtenir des données d'actualité structurées au format JSON pour un traitement ultérieur
+- Liste des sources d'information disponibles
+
+Nécessite l'installation de npm. Certaines sources nécessitent des variables d'environnement (PRODUCTHUNT_API_TOKEN). Certaines sources peuvent être bloquées par Cloudflare (linuxdo).

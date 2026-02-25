@@ -1,0 +1,1 @@
+Code d’audit pour les fuites de mémoire et les problèmes jetables. À utiliser lors de l'examen des écouteurs d'événements, des gestionnaires DOM, des rappels de cycle de vie ou de la correction des rapports de fuite. Couvre les modèles addDisposableListener, Event.once, MutableDisposable, DisposableStore et onWillDispose.
