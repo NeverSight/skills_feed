@@ -1,0 +1,1 @@
+Delegate tasks to external LLM services (Gemini, Qwen) with quota, logging, and error handling. Use when tasks exceed context window or need cheaper processing. Do not use when task requires reasoning by Claude.
