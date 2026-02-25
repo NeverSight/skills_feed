@@ -1,14 +1,14 @@
-Converti progetti di codice in basi di conoscenza Obsidian. Si attiva quando l'utente menziona ossidiana, documentazione di progetto, base di conoscenza, progetto di analisi, progetto di trasformazione.
+Converti il ​​progetto di codice in una knowledge base di Obsidian. Attiva quando l'utente menziona ossidiana, documentazione del progetto, base di conoscenza, analizza progetto, converti progetto.
 
-[Deve essere eseguito dopo l'attivazione]:
-1. Prima leggere completamente questo file SKILL.md
-2. Comprendere le regole di scrittura AI (impostazione predefinita su 00_Inbox/AI/, aggiungi, schema unificato)
+【Deve essere eseguito dopo l'attivazione】:
+1. Per prima cosa leggi l'intero file SKILL.md per intero
+2. Comprendere le regole di scrittura AI (impostazione predefinita su 00_Inbox/AI/, modalità di aggiunta, schema unificato)
 3. Eseguire il PASSO 0: utilizzare AskUserQuestion per chiedere conferma all'utente
-4. Avviare la scansione del progetto STEP 1 dopo la conferma dell'utente.
+4. Solo dopo la conferma dell'utente avviare la scansione del progetto STEP 1
 5. Seguire rigorosamente l'ordine PASSO 0 → 1 → 2 → 3 → 4
 
-[Comportamento vietato]:
-- È vietato iniziare ad analizzare il progetto senza leggere SKILL.md
-- Disabilita il salto della conferma utente del PASSO 0
-- Proibisci la creazione direttamente in 30_Resources (prima a 00_Inbox/AI/)
-- È vietato decidere autonomamente il luogo di uscita
+【Azioni vietate】:
+- Non analizzare il progetto senza leggere SKILL.md
+- Non saltare la conferma utente del PASSO 0
+- Non creare direttamente in 30_Resources (vai prima a 00_Inbox/AI/)
+- Non decidere da solo la posizione di uscita

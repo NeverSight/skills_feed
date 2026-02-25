@@ -1,13 +1,12 @@
-安全研究元思考方法论 - 从先知社区5600+篇安全文档中提炼的漏洞挖掘方法论框架.
+Meta-metodologia per la ricerca sulla sicurezza: una struttura di ricerca delle vulnerabilità distillata da oltre 5.600 documenti sulla sicurezza sulla comunità di Xianzhi.
 
 Usa questa abilità quando:
-- 进行漏洞挖掘和安全研究时,需要系统化的思考框架
-- 分析特定类型漏洞（Web注入、反序列化、二进制、域渗透等）的攻击路径
-- 需要了解绕过防护措施（WAF、EDR、沙箱）的思维模式
-- 进行代码审计需要Source-Sink分析方法论
-- 红队攻防需要完整攻击链规划
-- CTF竞赛需要快速解题思路
-- 逆向分析恶意软件需要方法论指导
+- Eseguire la caccia ai bug e la ricerca sulla sicurezza, necessitando di un quadro di pensiero sistematico
+- Analisi dei percorsi di attacco per specifici tipi di vulnerabilità (Web injection, deserializzazione, binario, penetrazione AD, ecc.)
+- Richiedere mentalità per aggirare le difese (WAF, EDR, sandbox)
+- Esecuzione di audit del codice che richiedono la metodologia di analisi Source-Sink
+- Operazioni della squadra rossa che richiedono una pianificazione completa della catena di uccisione
+- Competizioni CTF che necessitano di idee di rapida risoluzione
+- Inversione del malware che necessita di una guida metodologica
 
-Trigger: 漏洞挖掘、安全研究、渗透测试、代码审计、红队攻防、CTF、逆向分析、
-WAF过、免杀、提权、横向移动、域渗透、反序列化、二进制安全、Fuzzing
+Trigger: caccia ai bug, ricerca sulla sicurezza, test di penetrazione, verifica del codice, attacco del team rosso, CTF, reverse engineering, bypass WAF, evasione AV, escalation dei privilegi, movimento laterale, penetrazione AD, deserializzazione, sicurezza binaria, fuzzing

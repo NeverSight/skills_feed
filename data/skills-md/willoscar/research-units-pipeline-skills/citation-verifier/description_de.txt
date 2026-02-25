@@ -1,6 +1,6 @@
-Generieren und überprüfen Sie BibTeX-Einträge aus Papiernotizen, indem Sie „citations/ref.bib“ und „citations/verified.jsonl“ schreiben.
-**Auslöser**: Zitat, BibTeX, ref.bib, verifiziert.jsonl, Referenzen, Referenzen, Referenzen.
-**Verwenden, wenn**: Verwenden Sie „papers/paper_notes.jsonl“, um Prose/LaTeX zu verwenden und um die URL/Datums-/Titel-URL zu verwenden.
-**Überspringen, wenn**: 还没有 Papiernotizen（或本次产出不需要引用/参考文献）.
-**Netzwerk**: 自动验证通常需要网络；Der Eintrag muss manuell überprüft werden.
-**Leitplanke**: Der BibTeX-Eintrag „citations/verified.jsonl“ und „prose“ sind „citations/ref.bib“ und Citation Keys.
+Generieren und überprüfen Sie BibTeX-Einträge aus Papiernotizen, indem Sie „citations/ref.bib“ und „citations/verified.jsonl“ schreiben.  
+**Auslöser**: Zitat, BibTeX, ref.bib, verifiziert.jsonl, Referenzen, Referenzen, Referenzen.  
+**Verwenden Sie es, wenn**: „papers/paper_notes.jsonl“ bereits existiert und Sie nachvollziehbare Zitate (jeweils mit URL/Datum/Titelüberprüfungsdatensatz) für Prosa/LaTeX benötigen.  
+**Überspringen, wenn**: noch keine Papiernotizen vorliegen (oder die aktuelle Ausgabe keine Zitate/Referenzen benötigt).  
+**Netzwerk**: Für die automatische Überprüfung ist normalerweise ein Netzwerk erforderlich. Wenn offline, zuerst aufzeichnen, dann muss die Markierung manuell überprüft werden.  
+**Leitlinie**: Jeder BibTeX-Eintrag muss einen passenden „citations/verified.jsonl“-Eintrag haben; Prosa kann nur Zitierschlüssel verwenden, die bereits in „citations/ref.bib“ enthalten sind.

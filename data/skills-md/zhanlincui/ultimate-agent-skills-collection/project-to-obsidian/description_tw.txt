@@ -1,14 +1,14 @@
-將程式碼項目轉換為 Obsidian 知識庫。當使用者提到 obsidian、專案文件、知識庫、分析專案、轉換專案 時啟動。
+將程式碼項目轉換為 Obsidian 知識庫。當使用者提到黑曜石、專案文件、知識庫、分析專案、轉換專案時啟動。
 
 【啟動後必須執行】：
-1. 先完整閱讀本 SKILL.md 文件
-2. 瞭解 AI 寫入規則（預設為 00_Inbox/AI/、追加式、統一 Schema）
-3. 執行 STEP 0: 使用 AskUserQuestion 詢問使用者確認
-4. 用戶確認後才開始 STEP 1 項目掃描
-5. 嚴格依照 STEP 0 → 1 → 2 → 3 → 4 順序執行
+1.首先完整讀取整個SKILL.md文件
+2.了解AI寫作規則（預設為00_Inbox/AI/，append模式，統一Schema）
+3. 執行STEP 0：使用AskUserQuestion詢問使用者確認
+4.只有在用戶確認後才開始STEP 1項目掃描
+5. 嚴格遵循STEP 0 → 1 → 2 → 3 → 4 的順序
 
 【禁止行為】：
-- 禁止不讀 SKILL.md 就開始分析項目
-- 禁止跳過 STEP 0 使用者確認
-- 禁止直接在 30_Resources 建立（先到 00_Inbox/AI/）
-- 禁止自作主張決定輸出位置
+- 未閱讀 SKILL.md 請勿分析項目
+- 不要跳過STEP 0用戶確認
+- 不要直接在 30_Resources 中建立（先到 00_Inbox/AI/）
+- 請勿自行決定輸出位置

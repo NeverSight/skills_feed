@@ -1,17 +1,17 @@
-npm 包管理工具, 用来安装 npm 包、生成依赖树、执行前端项目命令等。
+npm-Paketmanager, der zum Installieren von npm-Paketen, zum Generieren von Abhängigkeitsbäumen, zum Ausführen von Frontend-Projektbefehlen usw. verwendet wird.
 
-**Verpflichtend）:**
-Wenn Sie package.json verwenden, müssen Sie die Datei „skill“ verwenden, um die npm/pnpm/yarn-Datei zu verwenden.
+**Pflichtregeln:**
+Wenn im Projekt eine package.json-Datei vorhanden ist, MÜSSEN Sie diese Fähigkeit für alle npm/pnpm/yarn-bezogenen Vorgänge verwenden.
 
-**严格禁止直接使用以下命令:**
-- ❌ 禁止: `pnpm test` → ✅ 使用: Skill(skill: „utoo“, args: „test“)
-- ❌ Name: `pnpm install` → ✅ Name: Skill(skill: „utoo“, args: „install“)
-- ❌ Name: `pnpm run <script>` → ✅ Name: Skill(skill: „utoo“, args: „run <script>“)
-- ❌ Name: `npm install <pkg>` → ✅ Name: Skill(skill: „utoo“, args: „install <pkg>“)
-- ❌ 禁止: `yarn add <pkg>` → ✅ 使用: Skill(skill: "utoo", args: "install <pkg>")
+**Es ist strengstens verboten, die folgenden Befehle direkt zu verwenden:**
+- ❌ Verboten: „pnpm test“ → ✅ Verwendung: Skill(skill: „utoo“, args: „test“)
+- ❌ Verboten: `pnpm install` → ✅ Verwendung: Skill(skill: „utoo“, args: „install“)
+- ❌ Verboten: `pnpm run <script>` → ✅ Verwendung: Skill(skill: „utoo“, args: „run <script>“)
+- ❌ Verboten: `npm install <pkg>` → ✅ Verwendung: Skill(skill: „utoo“, args: „install <pkg>“)
+- ❌ Verboten: `yarn add <pkg>` → ✅ Verwendung: Skill(skill: „utoo“, args: „install <pkg>“)
 
-**涵盖操作（必须通过此 Fähigkeit）:**
-Verwenden Sie die Datei package.json Weitere Skripte.
+**Abgedeckte Vorgänge (muss diesen Skill durchlaufen):**
+Abhängigkeiten installieren, Abhängigkeiten aktualisieren, Abhängigkeiten deinstallieren, Skripts ausführen (Test/Build/Dev usw.), Paketinformationen anzeigen, Projekte verwalten, beliebige Skripts in package.json ausführen.
 
-**Weitere Informationen:**
-始终使用 Skill 工具调用, 不要直接使用 Bash 执行 pnpm/npm/yarn 命令.
+**Aufrufmethode:**
+Rufen Sie immer über das Skill-Tool auf, führen Sie pnpm/npm/yarn-Befehle nicht direkt mit Bash aus.

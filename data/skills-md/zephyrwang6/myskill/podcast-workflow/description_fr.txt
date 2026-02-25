@@ -1,1 +1,5 @@
-Workflow podcast en une étape : (1) lien YouTube direct → traitement (2) vérification des mises à jour des créateurs suivis → choix puis traitement. Étapes : extraction des sous-titres → content-digest → enregistrement automatique dans la base Feishu. Déclencheurs : « mises à jour podcast », « traite ce podcast », « workflow podcast », « nouveaux podcasts ».
+Flux de travail de traitement des podcasts à guichet unique. Deux points d'entrée :
+1) Traitement direct : fournissez un lien YouTube et passez directement au flux de travail
+2) Vérification des mises à jour : récupérez les derniers épisodes des créateurs suivis, laissez les utilisateurs choisir lesquels traiter
+Caractéristiques : extraction de sous-titres → traitement de résumé de contenu → enregistrement automatique dans la base de connaissances Feishu.
+Phrases de déclenchement : « obtenir des mises à jour de podcast », « traiter ce podcast », « flux de travail de podcast », « tout nouveau podcast ».

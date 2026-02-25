@@ -1,6 +1,6 @@
-'citations/ref.bib' 및 'citations/verified.jsonl'을 작성하여 종이 노트에서 BibTeX 항목을 생성하고 확인합니다.
-**트리거**: 인용, BibTeX, ref.bib, verify.jsonl, 참조, 引用, 参考文献.
-**다음 경우에 사용**: 已有`papers/paper_notes.jsonl`，需要为 prose/LaTeX 准备可追溯的引用（每条ت有 url/date/title 验证记录）。
-**다음 경우 건너뛰기**: 还没有 종이 노트（或本次产ude不需要引用/参考文献）。
-**네트워크**: 自动验证通常需要网络;无网络时可先 기록, 再标注에는 수동 확인이 필요합니다.。
-**가드레일**: 每个 BibTeX 항목 必须对应一条 `citations/verified.jsonl` 记录; prose 只能使用已存재于 `citations/ref.bib` 的 인용 키입니다.
+'citations/ref.bib' 및 'citations/verified.jsonl'을 작성하여 종이 노트에서 BibTeX 항목을 생성하고 확인합니다.  
+**트리거**: 인용, BibTeX, ref.bib, verify.jsonl, 참조, 引用, 参考文献.  
+**사용할 경우**: `papers/paper_notes.jsonl`이 이미 존재하고 산문/LaTeX에 대한 추적 가능한 인용(각각 URL/날짜/제목 확인 기록 포함)이 필요합니다.  
+**다음 경우 건너뛰기**: 아직 종이 노트가 없습니다(또는 현재 출력에 인용/참조가 필요하지 않습니다).  
+**네트워크**: 자동 확인에는 일반적으로 네트워크가 필요합니다. 오프라인인 경우 먼저 녹음한 다음 표시에 수동 확인이 필요합니다.  
+**가드레일**: 모든 BibTeX 항목에는 일치하는 `citations/verified.jsonl` 레코드가 있어야 합니다. 산문에서는 `citations/ref.bib`에 이미 있는 인용 키만 사용할 수 있습니다.

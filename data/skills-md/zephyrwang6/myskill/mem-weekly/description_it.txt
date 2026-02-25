@@ -1,1 +1,7 @@
-Supporto AI per la gestione dei dati L1.录,识别重复模式,提炼到L2行为层。使用场景：(1)用户说"周复盘"时；(2) 每周定期回顾时；(3)需要从日常记录中提炼行为模式时。该skill会自动统计重复出现的行为（3次+）,生成候选列表,等待用户确认后更新L2行为层.
+Funzionalità di revisione settimanale del sistema di memoria personale AI. Analizza le voci del livello di contesto L1 di questa settimana, identifica modelli ricorrenti e li distilla nel livello di comportamento L2.  
+Casi d'uso:  
+(1) Quando l'utente dice "revisione settimanale";  
+(2) Durante le retrospettive settimanali programmate;  
+(3) Quando i registri giornalieri devono essere distillati in modelli di comportamento.  
+
+Questa abilità conta automaticamente i comportamenti che si ripetono più di 3 volte, genera un elenco di candidati e, una volta che l'utente conferma, aggiorna il livello di comportamento L2.

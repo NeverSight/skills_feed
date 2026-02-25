@@ -1,6 +1,6 @@
-Récupérez les métadonnées papier d'arXiv à l'aide de requêtes par mots clés et enregistrez les résultats au format JSONL (`papers/papers_raw.jsonl`).
-**Déclencheur** : arXiv, arxiv, recherche papier, récupération de métadonnées, 文献检索, 论文检索, 拉取元数据, 离线导入.
-**À utiliser lorsque** : 需要一个初始论文集合（enquête/instantané à l'étape C1）, et arXiv（在线检索或离线导入 export）。
-**Passer si** : `papers/papers_raw.jsonl`, par exemple arXiv。
-**Réseau** : `--input <export.*>` 不需要网络。
-**Garde-corps** : les métadonnées ；不要在 `output/` et la prose。
+Récupérez les métadonnées papier d'arXiv via des requêtes par mots clés et enregistrez les résultats au format JSONL (`papers/papers_raw.jsonl`).
+**Déclencheur** : arXiv, arxiv, recherche papier, récupération de métadonnées, recherche documentaire, recherche papier, extraction de métadonnées, importation hors ligne.
+**À utiliser lorsque** : une première collecte papier est nécessaire (enquête/instantané Étape C1) à partir d'arXiv (recherche en ligne ou importation ou exportation hors ligne).
+**Ignorer si** : `papers/papers_raw.jsonl` existe déjà ou la source de données n'est pas arXiv.
+**Réseau** : la recherche en ligne nécessite un réseau ; hors ligne `--input <export.*>` ne le fait pas.
+**Garde-corps** : métadonnées uniquement ; n'écrivez pas de longue prose dans `output/`.

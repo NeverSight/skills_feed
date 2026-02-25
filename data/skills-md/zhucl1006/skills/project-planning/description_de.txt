@@ -1,14 +1,14 @@
-项目计划产出工具.通过需求澄清、设计讨论、计划编写，产出可执行的开发计划。
+Ausgabetool für die Projektplanung. Durch Anforderungsklärung, Entwurfsbesprechung und Planerstellung entsteht ein ausführbarer Entwicklungsplan.
 
-**Weitere Informationen:**
-- 需求不明确，需要多轮讨论澄清（Brainstorming 模式）
-- 需求明确,直接编写详细实现计划（Writing Plans 模式）
-- 为 project-workflow 准备可执行的计划文档
+**Nutzungsszenarien:**
+- Anforderungen sind unklar und erfordern eine mehrstufige Diskussion (Brainstorming-Modus)
+- Anforderungen sind klar, schreiben Sie direkt einen detaillierten Implementierungsplan (Modus „Pläne schreiben“)
+- Bereiten Sie ausführbare Plandokumente für den Projektablauf vor
 
-**Bewertung:**
-- 计划文档:`docs/plans/001-feature-name.md`（包含设计和实施,根据复杂度决定详细程度）
+**Ausgabe:**
+- Plandokument: „docs/plans/001-feature-name.md“ (einschließlich Design und Implementierung, Detaillierungsgrad basierend auf Komplexität)
 
-**Weitere Informationen:**
-- „帮我规划 XXX 功能“ / „设计 XXX 模块“
-- „我想实现 XXX，但不确定怎么做“
-- „为 XXX 功能编写实现计划“
+**Trigger-Phrasen:**
+- „Helfen Sie mir bei der Planung der XXX-Funktion“ / „Design des XXX-Moduls“
+- „Ich möchte XXX implementieren, bin mir aber nicht sicher, wie“
+- „Implementierungsplan für XXX-Funktion schreiben“

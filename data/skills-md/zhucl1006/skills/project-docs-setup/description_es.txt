@@ -1,1 +1,21 @@
-Asistente para crear la estructura de documentación del proyecto. Como PM senior, profundiza en los requisitos por diálogo, analiza coherencia y sugiere buenas prácticas; genera el sistema de documentación técnica. Para arranque de proyecto, completar documentación o generar documentación a partir de código. Modos: nuevo proyecto (requisitos→documentos) o rellenar desde código. Activar con «crear documentación del proyecto», «inicializar documentación», «generar documentación a partir del código».
+Asistente de Creación de Estructura de Documentación del Proyecto. Como gerente de producto experimentado, obtenga una visión profunda de los requisitos del proyecto a través de un diálogo de múltiples rondas, analice la razonabilidad y brinde recomendaciones de mejores prácticas, produciendo en última instancia un sistema de documentación técnica completo.
+
+**Cuándo utilizar:**
+- Inicio de nuevo proyecto que requiere la configuración del sistema de documentación (primer paso recomendado)
+- Proyecto existente que carece de documentos estándar y debe completarse
+- El código existe pero falta documentación; necesidad de rellenar documentos desde el código
+- Necesita asesoramiento profesional sobre análisis de arquitectura y productos.
+
+**Dos modos compatibles:**
+- Modo A: creación de documentos de nuevo proyecto (desde requisitos hasta documentos)
+- Modo B: Relleno de código a documentos (de código a documentos)
+
+**Relación con el flujo de trabajo del proyecto:**
+- Esta habilidad crea documentos completos (PRD, SAD, guías de desarrollo, etc.)
+- el flujo de trabajo del proyecto ejecuta tareas de desarrollo basadas en esos documentos
+- Flujo sugerido: project-docs-setup → project-workflow
+
+**Frases desencadenantes:**
+- "Crear documentos del proyecto" / "Inicializar documentos del proyecto" / "Configurar documentos del proyecto"
+- "Generar documentos a partir del código" / "Rellenar documentos del proyecto" / "Documentos complementarios del proyecto"
+- Describir directamente las necesidades del proyecto, p.e. "Ayúdame a crear documentos para una plataforma de educación en línea"

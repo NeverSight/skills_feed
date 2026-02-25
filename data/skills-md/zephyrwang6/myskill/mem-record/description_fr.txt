@@ -1,1 +1,7 @@
-AI个人记忆系统的记忆记录功能。自动从对话中提炼关键信息并记录到相应层级。使用场景：(1)用户说"记录到记忆系统"、"记住这个"、"把这次对话记下来"时；(2)检测到重要事件、决策、偏好表达时；(3)用户完成重要任务或做出决策时。该skill会自动判断应该记录Les fonctions L1, L2 et L3, et L4.
+Fonction d'enregistrement de la mémoire du système de mémoire personnelle AI. Extrait automatiquement les informations clés des conversations et les enregistre au niveau approprié.  
+Cas d'utilisation :  
+(1) Lorsque l'utilisateur dit « enregistrer dans le système de mémoire », « mémoriser ceci » ou « enregistrer cette conversation » ;  
+(2) Lorsque des événements, décisions ou expressions de préférences importants sont détectés ;  
+(3) Lorsque l'utilisateur termine une tâche importante ou prend une décision.  
+
+Cette compétence détermine automatiquement s'il faut enregistrer dans la couche contextuelle L1, la couche comportementale L2, la couche cognitive L3 ou suggère de mettre à jour la couche principale L4.

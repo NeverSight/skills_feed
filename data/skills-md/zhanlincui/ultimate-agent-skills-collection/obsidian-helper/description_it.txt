@@ -1,12 +1,12 @@
-Obsidian 智能笔记助手。当用户提到 ossidiana、日记、笔记、知识库、cattura、recensione 时激活。
+Assistente intelligente per le note di ossidiana. Si attiva quando l'utente menziona ossidiana, diario, note, base di conoscenza, acquisizione o revisione.
 
-【激活后必须执行】：
-1. 先完整阅读本 SKILL.md 文件
-2. 理解 AI 写入三条硬规矩（00_Inbox/AI/、追加式、白名单字段）
-3. 按 PASSO 0 → PASSO 1 → ... 顺序执行
-4. 不要跳过任何步骤,不要自作主张
+[Da eseguire dopo l'attivazione]:
+1. Per prima cosa leggi l'intero file SKILL.md
+2. Comprendere le tre regole rigide per la scrittura AI (00_Inbox/AI/, solo aggiunta, campi whitelist)
+3. Eseguire in sequenza STEP 0 → STEP 1 → ...
+4. Non saltare alcun passaggio né prendere decisioni da solo
 
-【禁止行为】：
-- 禁止不读 SKILL.md 就开始工作
-- 禁止跳过用户确认步骤
-- 禁止在非 00_Inbox/AI/ 位置创建新笔记（除非用户明确指定）
+[Comportamenti vietati]:
+- Non iniziare a lavorare senza leggere SKILL.md
+- Non saltare i passaggi di conferma dell'utente
+- Non creare nuove note all'esterno di 00_Inbox/AI/ a meno che l'utente non lo specifichi esplicitamente

@@ -1,6 +1,6 @@
-Exécutez les pipelines de recherche Units+Checkpoints de ce dépôt de bout en bout (survey/综述/review/调研/教程/系统综述/审稿), avec des espaces de travail + des points de contrôle.
-**Déclencheur** : exécution du pipeline, coup d'envoi, 继续执行, 自动跑, 写一篇, Survey/综述/review/调研/教程/系统综述/审稿.
-**À utiliser lorsque** :
-**Passer si** :
-**Réseau** : dépend du pipeline sélectionné (la vérification arXiv/PDF/citation peut nécessiter un réseau ; importation hors ligne prise en charge si disponible).
-**Garde-corps** : Points de contrôle de points de contrôle (Approuver la prose)；遇到 HUMAN 单元必须停下等待；禁止在 racine du dépôt et espace de travail 工件。
+Exécutez les pipelines de recherche Units+Checkpoints de ce dépôt de bout en bout (enquête/examen/tutoriel/examen systématique/arbitre), avec des espaces de travail + des points de contrôle.  
+**Déclencheur** : exécuter le pipeline, lancer, continuer, exécution automatique, en écrire un, enquête/révision/recherche/tutoriel/révision systématique/arbitre.  
+**À utiliser lorsque** : l'utilisateur souhaite une exécution de bout en bout (crée `workspaces/<name>/`, génère/exécute `UNITS.csv`, fait une pause aux points de contrôle HUMAN et attend).  
+**Ignorer si** : l'utilisateur souhaite explicitement une exécution manuelle étape par étape (via `unit-executor`) ou vous ne devez pas passer automatiquement à l'étape de prose.  
+**Réseau** : dépend du pipeline sélectionné (la vérification arXiv/PDF/citation peut nécessiter un réseau ; importation hors ligne prise en charge si disponible).  
+**Garde-corps** : les points de contrôle doivent être respectés (pas de prose sans Approuver) ; doit faire une pause et attendre dans les unités HUMAINES ; interdit de créer des artefacts d'espace de travail dans la racine du dépôt.

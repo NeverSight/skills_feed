@@ -1,1 +1,14 @@
-Aide à la planification de projet : découpage en tâches, estimation, jalons, dépendances. Pour « planifier un projet », « découper en tâches », « roadmap ».
+Outil de sortie de planification de projet. Grâce à la clarification des exigences, à la discussion sur la conception et à la rédaction du plan, il produit un plan de développement exécutable.
+
+**Scénarios d'utilisation :**
+- Les exigences ne sont pas claires et nécessitent une discussion en plusieurs tours (mode Brainstorming)
+- Les exigences sont claires, rédigez directement le plan de mise en œuvre détaillé (mode Rédaction de plans)
+- Préparer les documents de plan exécutables pour le flux de travail du projet
+
+**Sortie :**
+- Document de plan : `docs/plans/001-feature-name.md` (comprend la conception et la mise en œuvre, le niveau de détail basé sur la complexité)
+
+**Phrases déclencheurs :**
+- "Aidez-moi à planifier la fonctionnalité XXX" / "Module Design XXX"
+- "Je veux implémenter XXX mais je ne sais pas comment"
+- "Rédiger le plan de mise en œuvre de la fonctionnalité XXX"

@@ -1,1 +1,21 @@
-Configure la structure de documentation d’un projet : README, CONTRIBUTING, structure de dossiers docs, templates. Pour nouveaux projets ou standardisation de la doc.
+Assistant de création de structure de documentation de projet. En tant que chef de produit chevronné, obtenez un aperçu approfondi des exigences du projet grâce à un dialogue à plusieurs niveaux, analysez le caractère raisonnable et fournissez des recommandations de meilleures pratiques, pour finalement produire un système de documentation technique complet.
+
+**Quand l'utiliser :**
+- Lancement d'un nouveau projet nécessitant la configuration d'un système de documentation (première étape recommandée)
+- Projet existant manquant de documents standards et devant être complété
+- Le code existe mais la documentation manque ; besoin de remplir les documents à partir du code
+- Besoin de conseils professionnels en matière d'analyse de produits et d'architecture
+
+**Deux modes pris en charge :**
+- Mode A : Création de documents de nouveau projet (des exigences aux documents)
+- Mode B : remplissage du code vers les documents (du code vers les documents)
+
+**Relation avec le workflow du projet :**
+- Cette compétence crée des documents complets (PRD, SAD, guides de développement, etc.)
+- project-workflow exécute des tâches de développement basées sur ces documents
+- Flux suggéré : project-docs-setup → project-workflow
+
+**Phrases déclencheurs :**
+- "Créer des documents de projet" / "Initialiser des documents de projet" / "Configurer des documents de projet"
+- "Générer des documents à partir du code" / "Remplir les documents du projet" / "Supplémenter les documents du projet"
+- Décrire directement les besoins du projet, par ex. "Aidez-moi à créer des documents pour une plateforme d'éducation en ligne"

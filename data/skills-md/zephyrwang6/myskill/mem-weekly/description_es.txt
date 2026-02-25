@@ -1,1 +1,7 @@
-AI个人记忆系统的周复盘功能。分析本周L1情境层记录，识别重复模式，提炼到L2行为层。使用场景：(1)用户说"周复盘"时；(2) 每周定期回顾时；(3)需要从日常记录中提炼行为模式时。该skill会自动统计重复出现的行为（3次+），生成候选列表，等待用户确认后更新L2行为层.
+Función de revisión semanal del sistema de memoria personal de IA. Analiza las entradas de la capa de contexto L1 de esta semana, identifica patrones recurrentes y los resume en la capa de comportamiento L2.  
+Casos de uso:  
+(1) Cuando el usuario dice “revisión semanal”;  
+(2) Durante las retrospectivas semanales programadas;  
+(3) Cuando es necesario resumir los registros diarios en patrones de comportamiento.  
+
+Esta habilidad cuenta automáticamente los comportamientos que se repiten más de 3 veces, genera una lista de candidatos y, una vez que el usuario confirma, actualiza la capa de comportamiento L2.

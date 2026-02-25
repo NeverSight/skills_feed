@@ -1,6 +1,6 @@
-Développez et affinez les mots-clés de recherche (synonymes, acronymes, exclusions) et mettez à jour « queries.md ».
-**Déclencheur** : extension de mots clés, synonymes, exclusions, queries.md, 关键词扩展, 同义词, 排除词.
-**À utiliser lorsque** :
-**Sauter si** : `queries.md`
-**Réseau** : aucun.
-**Garde-corps** : 保持可控的 requête 数量；明确 exclusions；避免« 无限扩展 »。
+Développez et affinez les mots-clés de recherche (synonymes, acronymes, exclusions) et mettez à jour « queries.md ».  
+**Déclencheur** : expansion de mots clés, synonymes, exclusions, queries.md, expansion de mots clés, synonymes, exclusions.  
+**À utiliser lorsque** : la couverture de recherche est insuffisante/bruyante, ou le sujet comporte de nombreux alias nécessitant une expansion et une convergence systématiques des termes de recherche.  
+**Ignorer si** : `queries.md` atteint déjà une couverture de manière stable (pas besoin d'étendre la portée et de provoquer une explosion des coûts ultérieure).  
+**Réseau** : aucun.  
+**Garde-corps** : gardez le nombre de requêtes contrôlable ; préciser les exclusions ; évitez « l’expansion infinie ».

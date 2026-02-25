@@ -1,1 +1,15 @@
-Flujo de desarrollo guiado por documentación. Decide el tipo de tarea, ejecuta planes existentes o usa feature-dev para generar uno nuevo. Requiere estructura docs/ (PRD, SAD, etc.); en proyectos nuevos conviene usar antes project-docs-setup. Activar con «ejecutar plan 001», «empezar desarrollo», «implementar la función X».
+Flujo de trabajo de desarrollo de proyectos basado en documentos. Determina de forma inteligente el tipo de tarea, ejecuta planes existentes o utiliza el desarrollo de funciones para generar otros nuevos.
+
+**Casos de uso:**
+- Los documentos del proyecto están completos y es necesario ejecutar una tarea de desarrollo.
+- El usuario especifica ejecutar un determinado plan (por ejemplo, "ejecutar plan 001")
+- El usuario solicita desarrollar una nueva característica (usa automáticamente feature-dev para generar un plan)
+
+**Requisitos previos:**
+- El proyecto ya debe tener documentos/estructura (PRD, SAD, etc.)
+- Para proyectos nuevos, se recomienda utilizar primero la habilidad project-docs-setup para crear documentación completa.
+
+**Métodos de activación:**
+- "Ejecutar plan 001" / "continuar autenticación de usuario 001"
+- "Iniciar desarrollo" / "Ejecutar plan" / "Continuar última tarea"
+- "Implementar función de autenticación de usuario" / "Agregar módulo XXX"

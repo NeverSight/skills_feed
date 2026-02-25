@@ -1,6 +1,6 @@
-Générez et vérifiez les entrées BibTeX à partir de notes papier, en écrivant « citations/ref.bib » et « citations/verified.jsonl ».
-**Déclencheur** : citation, BibTeX, ref.bib, vérifié.jsonl, références, 引用, 参考文献.
-**À utiliser lorsque** : par exemple `papers/paper_notes.jsonl`, par exemple prose/LaTeX 准备可追溯的引用（每条都有 url/date/titre 验证记录）。
-**Sauter si** : Notes papier 还没有（或本次产出不需要引用/参考文献）。
-**Réseau** : l'enregistrement de l'enregistrement 自动验证通常需要网络；无网络时可先 nécessite une vérification manuelle.
-**Garde-corps** : Il s'agit d'une entrée BibTeX contenant `citations/verified.jsonl` et prose et `citations/ref.bib` et clés de citation.
+Générez et vérifiez les entrées BibTeX à partir de notes papier, en écrivant « citations/ref.bib » et « citations/verified.jsonl ».  
+**Déclencheur** : citation, BibTeX, ref.bib, vérifié.jsonl, références, 引用, 参考文献.  
+**À utiliser lorsque** : `papers/paper_notes.jsonl` existe déjà et vous avez besoin de citations traçables (chacune avec un enregistrement de vérification d'url/date/titre) pour la prose/LaTeX.  
+**Sauter si** : pas encore de notes papier (ou la sortie actuelle n'a pas besoin de citations/références).  
+**Réseau** : la vérification automatique nécessite généralement un réseau ; si vous êtes hors ligne, enregistrez d'abord, puis marquez nécessite une vérification manuelle.  
+**Garde-corps** : chaque entrée BibTeX doit avoir un enregistrement `citations/verified.jsonl` correspondant ; la prose ne peut utiliser que les clés de citation déjà dans `citations/ref.bib`.

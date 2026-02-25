@@ -1,1 +1,14 @@
-Herramienta de planificación de proyecto: clarificación de requisitos, diseño y redacción del plan ejecutable. Modos: (1) requisitos poco claros, discusión en varias rondas; (2) requisitos claros, plan detallado directo; (3) preparar documento para project-workflow. Salida: docs/plans/001-feature-name.md. Activar con «planificar la función X», «diseñar el módulo X», «escribir plan de implementación para X».
+Herramienta de resultados de planificación de proyectos. A través de la aclaración de requisitos, la discusión del diseño y la redacción del plan, produce un plan de desarrollo ejecutable.
+
+**Escenarios de uso:**
+- Los requisitos no están claros y necesitan discusión en varias rondas (modo Lluvia de ideas)
+- Los requisitos son claros, escriba el plan de implementación detallado directamente (modo Redacción de planes)
+- Preparar documentos de plan ejecutables para el flujo de trabajo del proyecto.
+
+**Salida:**
+- Documento del plan: `docs/plans/001-feature-name.md` (incluye diseño e implementación, nivel de detalle basado en la complejidad)
+
+**Frases desencadenantes:**
+- "Ayúdame a planificar la función XXX" / "Diseñar módulo XXX"
+- "Quiero implementar XXX pero no estoy seguro de cómo"
+- "Escribir plan de implementación para la característica XXX"

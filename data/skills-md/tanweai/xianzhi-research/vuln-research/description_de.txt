@@ -1,13 +1,12 @@
-安全研究元思考方法论 - 从先知社区5600+篇安全文档中提炼的漏洞挖掘方法论框架
+Meta-Methodologie für die Sicherheitsforschung – ein Framework zur Schwachstellensuche, das aus über 5.600 Sicherheitspapieren der Xianzhi-Community zusammengestellt wurde.
 
 Verwenden Sie diese Fähigkeit, wenn:
-- 进行漏洞挖掘和安全研究时,需要系统化的思考框架
-- 分析特定类型漏洞（Web注入, 反序列化, 二进制, 域渗透等）的攻击路径
-- 需要了解绕过防护措施（WAF、EDR、沙箱）的思维模式
-- 进行代码审计需要Source-Sink分析方法论
-- 红队攻防需要完整攻击链规划
-- CTF竞赛需要快速解题思路
-- 逆向分析恶意软件需要方法论指导
+- Durchführung von Fehlersuche und Sicherheitsforschung, die einen systematischen Denkrahmen benötigen
+- Analyse von Angriffspfaden für bestimmte Schwachstellentypen (Web-Injection, Deserialisierung, Binär-, AD-Penetration usw.)
+- Erforderliche Denkweisen zur Umgehung von Abwehrmaßnahmen (WAF, EDR, Sandbox)
+- Durchführung von Code-Audits, die eine Source-Sink-Analysemethode erfordern
+- Red-Team-Operationen, die eine vollständige Kill-Chain-Planung erfordern
+- CTF-Wettbewerbe, die schnelle Lösungsideen erfordern
+- Beseitigung von Malware, die methodische Anleitung benötigt
 
-Auslöser: 漏洞挖掘、安全研究、渗透测试、代码审计、红队攻防、CTF、逆向分析、
-WAF-Funktionen, Spracherkennung, Spracherkennung, Spracherkennung, Spracherkennung, Spracherkennung, Fuzzing
+Auslöser: Fehlersuche, Sicherheitsforschung, Penetrationstests, Code-Audit, Red-Team-Angriff, CTF, Reverse Engineering, WAF-Umgehung, AV-Umgehung, Rechteausweitung, laterale Bewegung, AD-Penetration, Deserialisierung, binäre Sicherheit, Fuzzing

@@ -1,1 +1,14 @@
-Convertit un projet code en base de connaissances Obsidian. S’active sur : obsidian, documentation projet, base de connaissances, analyser le projet, convertir le projet. Après activation : (1) lire entièrement ce SKILL.md (2) comprendre les règles d’écriture IA (défaut 00_Inbox/AI/, append, schéma unifié) (3) STEP 0 : AskUserQuestion pour confirmation (4) après confirmation, STEP 1 scan du projet (5) enchaîner STEP 0→1→2→3→4. Interdictions : ne pas analyser sans avoir lu le SKILL.md, ne pas sauter la confirmation, ne pas créer directement dans 30_Resources (passer par 00_Inbox/AI/), ne pas décider seul de l’emplacement de sortie.
+Convertissez le projet de code en une base de connaissances Obsidian. Activer lorsque l'utilisateur mentionne Obsidian, la documentation du projet, la base de connaissances, analyser le projet, convertir le projet.
+
+【Doit être exécuté après l'activation】 :
+1. Lisez d’abord l’intégralité du fichier SKILL.md
+2. Comprendre les règles d'écriture de l'IA (par défaut 00_Inbox/AI/, mode ajout, schéma unifié)
+3. Exécutez l'ÉTAPE 0 : utilisez AskUserQuestion pour demander une confirmation à l'utilisateur.
+4. Seulement après la confirmation de l'utilisateur, démarrez l'analyse du projet STEP 1
+5. Suivez strictement l'ordre ÉTAPE 0 → 1 → 2 → 3 → 4
+
+【Actions interdites】 :
+- Ne pas analyser le projet sans lire SKILL.md
+- Ne sautez pas la confirmation utilisateur de l'ÉTAPE 0
+- Ne créez pas directement dans 30_Resources (allez d'abord dans 00_Inbox/AI/)
+- Ne décidez pas vous-même du lieu de sortie
