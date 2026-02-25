@@ -1,0 +1,1 @@
+使用 Chrome DevTools 协议调试 HarmonyOS ArkWeb 应用程序。当 Claude 需要执行以下操作时使用：(1) 启动 ArkWeb 调试会话，(2) 通过 hdc 将 Chrome DevTools 连接到 HarmonyOS 应用程序，(3) 检查 WebView 元素、控制台和网络，(4) 使用 Chrome DevTools MCP 测试 ArkWeb 应用程序，(5) 排除 WebView 调试问题，或 (6) 管理端口转发和调试会话。自动检测项目配置、设备连接和调试套接字。与 ohos-app-build-debug 技能配合使用以实现完整的工作流程。

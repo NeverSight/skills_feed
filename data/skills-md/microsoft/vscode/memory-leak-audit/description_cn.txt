@@ -1,0 +1,1 @@
+审核内存泄漏和一次性问题的代码。在查看事件侦听器、DOM 处理程序、生命周期回调或修复泄漏报告时使用。涵盖 addDisposableListener、Event.once、MutableDisposable、DisposableStore 和 onWillDispose 模式。

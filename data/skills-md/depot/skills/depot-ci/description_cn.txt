@@ -1,0 +1,1 @@
+配置和管理 Depot CI，它是 GitHub Actions 的直接替代品，完全在 Depot 内运行工作流程。在将 GitHub Actions 工作流程迁移到 Depot CI、运行“depot ci migrate”、管理 Depot CI 机密和变量、使用“depot ci run”运行工作流程、调试 Depot CI 运行、检查工作流程兼容性或了解 Depot CI 当前测试版限制时使用。当用户提到 .depot/ 目录、depot ci 命令或询问有关在 Depot 的基础设施上运行 GitHub Actions 工作流程而无需 GitHub 托管的运行器时，也可以使用。注意：Depot CI 目前处于测试阶段，可用性有限。
