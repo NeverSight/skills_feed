@@ -1,0 +1,9 @@
+yc CLI を介して Yandex クラウド インフラストラクチャを管理します。
+ユーザーが何かを作成、構成、管理、またはトラブルシューティングするように要求する場合に使用します。
+Yandex クラウド リソース: VM、ディスク、ネットワーク、セキュリティ グループ、データベース
+(PostgreSQL、MySQL、ClickHouse、Redis/Valkey、MongoDB、OpenSearch、Greenplum、Kafka)、
+Kubernetes、サーバーレス機能/コンテナ、S3ストレージ、CDN、ロードバランサー、
+ロックボックス シークレット、KMS、証明書、DNS、コンテナ レジストリ、DataProc、
+データ転送、ロギング、監査証跡、組織、WAF、またはその他の YC サービス。
+トリガー: Yandex Cloud、yc CLI、YC、マネージド-postgresql、マネージド-kubernetes、
+コンピューティング インスタンス、サーバーレス機能、vpc ネットワーク、alb、ロックボックス、yandex クラウド。

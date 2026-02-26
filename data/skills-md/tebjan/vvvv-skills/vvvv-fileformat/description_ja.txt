@@ -1,0 +1,1 @@
+vvvv gamma で使用される .vl XML ファイル形式について説明します。ドキュメント構造、要素階層、ID システム (base62 GUID)、NodeReference/Choice パターン、ピン、パッド (IOBox)、リンク、ProcessDefinition/Fragment ライフサイクル、領域 (If/ForEach/Cache)、型定義、TypeAnnotations、プロパティのシリアル化です。 .vl ファイルをプログラムで生成、解析、変更する場合、または XML レベルで vvvv パッチの構造を理解する場合に使用します。
