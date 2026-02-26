@@ -1,0 +1,1 @@
+在 Next.js 中构建、集成和部署 Convex 后端（默认情况下为 App Router，支持 Pages Router）。涵盖运行“npx 凸开发”、定义凸架构/索引、编写查询/突变/操作、连接 ConvexReactClient + ConvexProvider 挂钩（useQuery/useMutation）、可选的 SSR 预加载和通过凸/nextjs 的服务器操作、身份验证模式和部署（包括 Vercel + 预览部署）。当用户提及 Convex、convex.dev、Next.js + Convex、实时数据库更新、Convex 函数、架构/索引、NEXT_PUBLIC_CONVEX_URL、凸开发/部署或在 Next.js 应用程序中对 Convex 进行故障排除时使用。

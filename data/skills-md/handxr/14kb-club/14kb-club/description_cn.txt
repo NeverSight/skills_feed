@@ -1,0 +1,1 @@
+分析 14KB 俱乐部的 Web 项目 - 审核关键渲染路径（HTML + CSS + JS + 字体）是否适合通过 TCP 慢启动进行即时首次绘制的 14KB gzip 压缩。混合模式检测源代码中的反模式，并从构建输出中测量实际的 gzip 压缩大小。适用于任何框架（Next.js、Vite、Astro、Nuxt、Angular、SvelteKit、Remix、Gatsby、CRA、纯 HTML、PHP）。在检查 Web 性能、审核页面重量、优化首次绘制、检查关键路径大小，或者当用户要求使网站更快、更轻或检查网站是否适合 14KB 时使用。使用 HTML/CSS/JS 文件触发 Web 项目。

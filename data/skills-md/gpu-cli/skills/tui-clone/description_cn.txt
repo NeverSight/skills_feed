@@ -1,0 +1,1 @@
+探索和分析 TUI 应用程序以记录其克隆功能。当被要求对终端 UI（如 Claude Code、OpenCode、Codex、lazygit 或任何基于ratatui/ncurses 的应用程序）进行逆向工程、分析、记录或理解时使用。在 tmux 中启动目标 TUI，系统地探索所有视图和键绑定，捕获每个屏幕的 ASCII 图，并将发现增量写入 Markdown 文件（在上下文压缩中幸存）。

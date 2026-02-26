@@ -1,0 +1,1 @@
+订阅 AI 和技术 RSS 源，并使用成熟的 Python 工具（feedparser + sqlite3）将标准化元数据保存到 SQLite 中。在添加 feed URL/OPML 源、运行带重复数据删除的增量同步以及存储条目元数据（无需全文提取或摘要）时使用。

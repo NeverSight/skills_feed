@@ -1,0 +1,1 @@
+从 tmux 中重新启动当前的 Claude Code 会话。写入交接文件，在新的 tmux 窗口中启动重新启动脚本，该脚本会停止当前的 Claude 并使用 --resume 恢复。触发器：/reload、“reload”、“restart”、“rebo​​ot”、“再启动”

@@ -1,0 +1,1 @@
+Node.js 项目的逐步依赖项更新工作流程。当用户要求更新、升级或更改 package.json 中的 npm/yarn/pnpm/bun 依赖项时使用。处理次要/补丁批处理、带有变更日志审查的主要版本分析、框架（Next.js、Prisma、React 等）的迁移指南发现以及更新后验证。支持所有包管理器（npm、yarn、pnpm、bun）并具有自动检测功能。

@@ -1,0 +1,4 @@
+用于 React 的 TanStack Virtual 无头虚拟化。渲染大型列表（100+ 项）时使用，
+实现虚拟滚动，构建无限滚动提要，虚拟化网格或表格，
+使用窗口级滚动，或使用 @tanstack/react-virtual 实现砖石/通道布局。
+触发条件：useVirtualizer、useWindowVirtualizer、虚拟列表、虚拟滚动、列表虚拟化。

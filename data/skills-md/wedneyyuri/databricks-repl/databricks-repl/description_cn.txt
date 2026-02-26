@@ -1,0 +1,1 @@
+通过有状态 REPL 会话在 Databricks 集群上执行 Python 代码。当用户想要在 Databricks 上运行 Python、使用 Spark 执行数据分析、在集群上训练模型、查询 Unity Catalog 表、使用 sub_llm() 进行递归 LM 调用或任何需要持久 Databricks 执行上下文的任务时，请使用此技能。始终使用专用的 --project-dir （例如，examples/my-task/）来隔离每个任务的 session.json 和 repl_outputs。涵盖会话生命周期（创建、执行、等待、取消、销毁）、输出文件管理和驱逐恢复。
