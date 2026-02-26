@@ -1,0 +1,4 @@
+Modèle d'orchestration pour les tâches parallélisables. Face à un travail qui peut être
+divisé en sous-tâches indépendantes (rechercher plusieurs sujets, analyser plusieurs
+fichiers, tester plusieurs scénarios), générer des agents parallèles et regrouper les résultats.
+À utiliser lorsque les sous-tâches n'ont aucune dépendance les unes sur les autres.

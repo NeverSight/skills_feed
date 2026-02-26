@@ -1,0 +1,5 @@
+Exporte les tickets Jira avec un filtrage flexible et analyse les données en utilisant plusieurs formats (JSON, CSV, JSONL).
+À utiliser lorsqu'on vous demande « d'exporter des données Jira », « d'exporter des tickets en masse », « d'analyser les métriques Jira », « d'extraire des tickets au format CSV »,
+"obtenir tous les problèmes du projet", "exporter avec des filtres", "analyser les tendances des problèmes" ou "préparer les données Jira pour le reporting".
+Couvre les modèles d'exportation, la sélection du format, la pagination, les stratégies de filtrage et les flux de travail d'analyse pour les grands ensembles de données.
+Fonctionne avec la CLI jira-tool, les requêtes JQL et les scripts d'analyse Python.

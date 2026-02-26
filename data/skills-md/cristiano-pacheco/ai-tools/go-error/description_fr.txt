@@ -1,0 +1,1 @@
+Générez des erreurs Go personnalisées en suivant les conventions de l'architecture modulaire GO à l'aide de briques errs.New (code, message, httpStatus, détails). À utiliser lors de la création de nouvelles erreurs de domaine, de l'extension de internal/modules/<module>/errs/errs.go ou de la standardisation des codes d'erreur/messages/statuts entre les modules.

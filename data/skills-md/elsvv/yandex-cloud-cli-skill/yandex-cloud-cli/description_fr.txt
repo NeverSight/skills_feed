@@ -1,0 +1,9 @@
+Gérez l'infrastructure Yandex Cloud via la CLI yc.
+À utiliser lorsque l'utilisateur demande à créer, configurer, gérer ou dépanner un
+Ressource Yandex Cloud : machines virtuelles, disques, réseaux, groupes de sécurité, bases de données
+(PostgreSQL, MySQL, ClickHouse, Redis/Valkey, MongoDB, OpenSearch, Greenplum, Kafka),
+Kubernetes, fonctions/conteneurs sans serveur, stockage S3, CDN, équilibreurs de charge,
+Secrets Lockbox, KMS, certificats, DNS, registre de conteneurs, DataProc,
+Transfert de données, journalisation, pistes d'audit, organisations, WAF ou tout autre service YC.
+Déclencheurs : Yandex Cloud, yc CLI, YC, géré-postgresql, géré-kubernetes,
+instance de calcul, fonction sans serveur, réseau vpc, alb, lockbox, cloud yandex.

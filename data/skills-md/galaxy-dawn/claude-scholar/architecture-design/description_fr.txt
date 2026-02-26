@@ -1,0 +1,19 @@
+À utiliser UNIQUEMENT lors de la création de NOUVEAUX composants enregistrables dans des projets ML qui nécessitent des modèles Factory/Registry.
+
+✅ À UTILISER lorsque :
+- Création d'une nouvelle classe Dataset (nécessite @register_dataset)
+- Création d'une nouvelle classe Model (nécessite @register_model)
+- Création d'un nouveau répertoire de module avec la fabrique __init__.py
+- Initialisation d'une nouvelle structure de projet ML à partir de zéro
+- Ajout de nouveaux types de composants (Augmentation, CollateFunction, Metrics)
+
+❌ NE PAS UTILISER lorsque :
+- Modifier des fonctions ou des méthodes existantes
+- Correction de bugs dans le code existant
+- Ajout de fonctions d'assistance ou d'utilitaires
+- Refactoring sans ajouter de nouveaux composants enregistrables
+- Modifications de code simples dans un seul fichier
+- Modification des fichiers de configuration
+- Lire ou comprendre du code existant
+
+Indicateur clé : la tâche nécessite-t-elle un décorateur @register_* ou un modèle d'usine ? Si non, ignorez cette compétence.

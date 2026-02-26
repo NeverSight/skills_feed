@@ -1,0 +1,14 @@
+Style de code, modèles d'architecture et guide de développement pour le backend de commerce électronique Droplinked.
+NestJS + Prisma (MongoDB) avec une architecture en couches stricte : contrôleur vers façade de service, vers UseCase et vers le référentiel.
+
+Utilisez cette compétence lorsque :
+(1) Création de nouvelles fonctionnalités, modules ou points de terminaison dans le backend Droplinked
+(2) Refactoriser le code existant pour suivre les modèles de projet
+(3) Rédaction de tests pour les cas d'utilisation et les services
+(4) Examen du code pour la conformité architecturale
+(5) Comprendre le modèle de données (magasins, produits, commandes, paniers, commerçants, clients)
+(6) Mise en œuvre de la communication inter-modules
+(7) Ajout d'effets secondaires basés sur les événements
+(8) Travailler avec Prisma et MongoDB dans cette base de code
+
+Déclencheurs : droplinked, module nest, cas d'utilisation, façade de service, modèle de référentiel, panier, commande, boutique, produit, marchand
