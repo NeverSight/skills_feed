@@ -1,0 +1,1 @@
+يتحكم في مثيلات InnerClaude على Sprites.dev VMs لاختبار سير العمل وأنماط التثبيت والتفاعل بين Claude-to-Claude. قم بالاستدعاء قبل أي "sprite exec"، أو "Claude الداخلي"، أو "اختبار سير العمل هذا"، أو "Claude يتحكم في Claude"، أو عمليات VM عن بعد. يوثق نمط tmux+pipe-pane المهم الذي يجعل تفاعل OuterClaude/InnerClaude يعمل. يغطي أيضًا نقطة التفتيش/الاستعادة والتمهيد. (مستخدم)
