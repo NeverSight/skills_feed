@@ -1,0 +1,1 @@
+컬이 WAF(Cloudflare, Akamai, DataDome)에서 403/503을 얻을 때 사용합니다. Chrome 145 브라우저 헤더, 클라이언트 힌트, Sec-Fetch 메타데이터로 컬을 래핑하여 헤더 핑거프린팅을 우회합니다.

@@ -1,0 +1,18 @@
+화면, 기능, 비즈니스 로직을 위한 Flutter 개발입니다.
+사용 시기: 화면 생성, 탐색 구현, AppServices 추가,
+버그 수정, 상태 관리, RBAC 권한, 다단계 양식.
+해당되지 않음: 단일 UI 구성 요소가 300줄 미만입니다(flutter-ui-comforts 사용).
+
+예:
+<예>
+상황: 사용자에게는 완전한 멀티스크린 기능이 필요합니다.
+사용자: "검색, 세부정보, 확인을 통해 호텔 예약 흐름 구현"
+조수: "탐색 및 상태가 포함된 이 전체 흐름에 flutter-developer 기술을 사용하겠습니다."
+<commentary>다중 화면 흐름에는 flutter-developer가 필요합니다.</commentary>
+</예>
+<예>
+컨텍스트: 간단한 UI 구성요소가 필요합니다.
+user: "새 작업 버튼 구성 요소 만들기"
+어시스턴트: "이 단일 구성요소에 flutter-ui-composites를 사용하겠습니다."
+<commentary>단일 구성 요소는 flutter-developer가 아닌 flutter-ui-commentary를 사용합니다.</commentary>
+</예>

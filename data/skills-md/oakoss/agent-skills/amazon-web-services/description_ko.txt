@@ -1,0 +1,3 @@
+애플리케이션 개발자를 위한 핵심 AWS 서비스입니다. S3(스토리지, 미리 서명된 URL, 수명 주기), Lambda(함수, 레이어, 콜드 스타트), IAM(역할, 정책, 최소 권한), DynamoDB(단일 테이블 설계, GSI/LSI, 스트림), SQS/SNS(큐, 주제, 팬아웃), CloudFront(CDN, 캐싱), RDS/Aurora(Postgres/MySQL, 연결 풀링)를 포함합니다. ECR/ECS/Fargate(컨테이너), Route 53(DNS), Secrets Manager 및 CDK v2(TypeScript IaC, 구문, 스택, 테스트).
+
+AWS 인프라 구축, CDK 스택 작성, IAM 정책 구성, DynamoDB 테이블 설계, Lambda 함수 설정, S3 사전 서명 URL 생성, ECS/Fargate에 컨테이너 배포 또는 CloudFront 배포 구성 시 사용합니다.

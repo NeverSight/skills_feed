@@ -1,0 +1,1 @@
+slack-rs CLI(Rust)를 통한 Slack 웹 API 자동화. OAuth(PKCE)를 통해 Slack에 인증하고, 여러 작업 영역 프로필을 관리하고, 임의의 Slack 웹 API 메서드(예: chat.postMessage, 대화.목록, 사용자.info)를 호출하고, 터미널에서 안전하게 스크립트된 Slack 작업을 실행해야 하는 경우에 사용하세요. 터널 지원 원격 로그인(auth login --help 참조), 암호화된 프로필 내보내기/가져오기, SLACKCLI_ALLOW_WRITE를 통한 쓰기 안전 가드가 포함됩니다. 자격 증명은 ~/.config/slack-rs/ 아래의 파일 기반 저장소에 저장됩니다.

@@ -1,0 +1,3 @@
+소유권, 차용, 수명, 오류 처리(결과/옵션, thiserror 등), Tokio와의 비동기, 특성, 제네릭, Serde 직렬화, Cargo 작업 공간 및 테스트를 다루는 Rust 언어 패턴 및 생태계입니다. axum 웹 프레임워크, ratatui 터미널 UI, Clap CLI 구문 분석, 기준 벤치마킹, 화물 거부 공급망 보안, 화물 거리 바이너리 배포 및 release-plz 변경 로그 자동화가 포함됩니다.
+
+Rust 코드 작성, 소유권 모델 설계, Tokio/axum으로 비동기 서비스 구축, ratatui로 터미널 UI 생성, clap으로 CLI 애플리케이션 설정, Rust용 CI/CD 파이프라인 구성, 기준으로 벤치마킹, Cargo-deny로 종속성 감사, Cargo-dist로 바이너리 배포 시 사용합니다.

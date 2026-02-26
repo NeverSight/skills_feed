@@ -1,0 +1,3 @@
+웹 애플리케이션을 위한 로컬 우선 아키텍처 결정 프레임워크입니다. 로컬 우선, 서버 기반, 하이브리드로 전환하는 시기, 동기화 엔진 선택(ElectricSQL, Zero, PowerSync, Replicache, LiveStore, Triplit), 클라이언트 측 스토리지 옵션(IndexedDB, OPFS, SQLite WASM, PGlite) 및 충돌 해결 전략(LWW, CRDT, 서버 승리, 필드 수준 병합)을 다룹니다.
+
+로컬 우선 아키텍처 채택 여부를 결정하거나, 동기화 엔진을 선택하거나, 클라이언트 스토리지를 선택하거나, 충돌 해결 전략을 설계할 때 사용합니다.

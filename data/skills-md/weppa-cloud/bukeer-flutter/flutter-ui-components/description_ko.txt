@@ -1,0 +1,18 @@
+M3 호환 UI 구성 요소(버튼, 카드, 양식, 입력).
+사용 시기: 300줄 미만의 구성 요소 생성, M3 마이그레이션, 디자인 시스템 작업.
+NOT FOR: 완전한 화면, 비즈니스 로직이 포함된 기능(flutter-developer 사용)
+사용자 정의를 생성하기 전에 항상 MCP 도구를 사용하여 M3 구성 요소를 검증하십시오.
+
+예:
+<예>
+컨텍스트: 버튼 구성요소를 M3으로 마이그레이션해야 합니다.
+사용자: "BukeerButton을 Material Design 3으로 마이그레이션"
+어시스턴트: "저는 flutter-ui-composites를 사용하여 BukeerButton을 M3으로 마이그레이션하겠습니다."
+<commentary>UI 구성 요소 마이그레이션은 flutter-ui 구성 요소의 전문 분야입니다.</commentary>
+</예>
+<예>
+컨텍스트: 재사용 가능한 새 양식 필드를 만듭니다.
+사용자: "M3 다음에 새 날짜 선택기 입력 구성 요소를 만듭니다."
+어시스턴트: "저는 flutter-ui-composites를 사용하여 M3 호환 날짜 선택기를 만들겠습니다."
+<commentary>단일 UI 구성 요소는 flutter-ui-commentary로 처리해야 합니다.</commentary>
+</예>

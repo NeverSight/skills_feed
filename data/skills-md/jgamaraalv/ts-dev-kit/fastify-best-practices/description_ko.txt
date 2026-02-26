@@ -1,0 +1,1 @@
+경로, 플러그인, 후크, 검증, 오류 처리 및 TypeScript에 대한 5가지 모범 사례, API 참조 및 패턴을 Fastify합니다. 다음 경우에 사용하세요: (1) 새로운 Fastify 경로, 플러그인 또는 후크 작성, (2) Fastify API 서명 또는 옵션 조회, (3) Fastify 문제(라이프사이클, 캡슐화, 검증, 플러그인 시간 초과) 디버깅, (4) 안티 패턴에 대한 Fastify 코드 검토. 트리거: '경로 추가', '플러그인 생성', 'Fastify 후크', '검증 스키마', 'Fastify 오류', 'setErrorHandler', 'fastify-plugin'.

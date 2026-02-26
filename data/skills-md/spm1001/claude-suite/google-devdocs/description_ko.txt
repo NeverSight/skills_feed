@@ -1,0 +1,1 @@
+2단계 검색 후 검색 워크플로(curl + jq, MCP 없음)를 사용하여 REST API를 통해 Google 개발자 문서 조회를 조정합니다. Google API 문서를 스크랩하거나 추측하기 전에 FIRST를 호출하세요. docs.cloud.google.com, firebase.google.com, Developer.android.com 및 ai.google.dev를 포함하여 색인이 생성된 11개 사이트에서 새로운 Markdown을 반환합니다. 'Google 문서 확인', 'Firebase 문서 조회', '클라우드 문서의 내용', 'Google API 문서', 'Google 개발자 문서 검색'에서 트리거됩니다. (사용자)

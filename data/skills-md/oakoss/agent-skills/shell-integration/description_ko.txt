@@ -1,0 +1,3 @@
+Zsh, Bash 및 Fish와 통합되는 도구를 구축하기 위한 쉘 스크립팅 및 터미널 통합 패턴입니다. 완성 시스템(compdef/compadd, Complete/compgen, fish Complete), ZLE 위젯, 후크(precmd/preexec/chpwd, PROMPT_COMMAND), readline, 바인딩키, 매개변수 확장, ZDOTDIR 로딩 순서, 이벤트 시스템, 약어, POSIX 쉘 스크립팅, 터미널 제어 코드(ANSI/CSI 이스케이프 시퀀스), tput, stty, 신호 처리, 프로세스 관리(작업 제어, 트랩), 및 쉘 플러그인 배포 패턴.
+
+셸 플러그인 빌드, 완료 스크립트 작성, 이스케이프 시퀀스로 터미널 UI 구현, 도트 파일 관리, 설치 스크립트 생성, 신호 처리 및 프로세스 관리, 네이티브 바이너리를 셸 래퍼와 통합할 때 사용합니다.

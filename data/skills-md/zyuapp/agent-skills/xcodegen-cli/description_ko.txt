@@ -1,0 +1,1 @@
+XcodeGen CLI를 사용하여 YAML 또는 JSON 사양에서 Xcode 프로젝트를 생성, 업데이트, 검사 및 문제 해결하세요. 사용자가 `xcodegen generate`, `xcodegen dump` 또는 `xcodegen 캐시` 실행을 요청하면 이 기술을 트리거합니다. `project.yml`을 작성하거나 수정하려면; `include`로 사양을 분할합니다. 또는 구문 분석, 검증 및 경로 관련 생성 실패를 진단합니다.

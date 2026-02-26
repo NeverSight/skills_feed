@@ -1,0 +1,1 @@
+AI 동작 제약에 대한 Trae IDE 규칙(.trae/rules/*.md)을 만듭니다. 사용자가 프로젝트 규칙 생성, 코드 스타일 지침 설정, 명명 규칙 적용, AI가 항상 X를 수행하도록 설정 또는 특정 파일에 대한 AI 동작 사용자 정의를 원할 때 사용합니다. 트리거 대상: '创建 rule', 'project rule', '.trae/rules/', 'AGENTS.md', 'CLAUDE.md', 'AI가 항상 PascalCase를 사용하도록 설정'. 스킬(trae-skill-writer 사용) 또는 에이전트(trae-agent-writer 사용)에는 사용하지 마세요.

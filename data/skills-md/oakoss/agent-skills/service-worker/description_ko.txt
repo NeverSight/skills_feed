@@ -1,0 +1,3 @@
+프로그레시브 웹 앱을 위한 서비스 워커 수명 주기, 캐싱 전략, 백그라운드 동기화, 푸시 알림 및 정적 라우팅. Workbox v7.4 전략(CacheFirst, NetworkFirst, StaleWhileRevalidate), 앱 셸을 위한 workbox 사전 캐싱, 브라우저 간 대체 기능이 있는 Background Sync API, VAPID 키가 있는 Push API, Service Worker Static Routing API(Chrome 123+)를 다룹니다.
+
+서비스 워커 등록, 오프라인 캐싱 구현, 백그라운드 동기화 구성, 푸시 알림 추가, 정적 경로를 통한 가져오기 처리 최적화 또는 서비스 워커를 로컬 우선 동기화 엔진과 통합할 때 사용합니다.

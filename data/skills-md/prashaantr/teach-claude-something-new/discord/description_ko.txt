@@ -1,0 +1,4 @@
+다이렉트 API를 통해 Discord 메시지를 보냅니다. 다음과 같은 경우에 사용하세요:
+(1) 크로스채널 메시징(텔레그램→Discord, Slack→Discord)
+(2) OpenClaw 기본은 "교차 컨텍스트 메시징 거부"를 제공합니다.
+$DISCORD_BOT_TOKEN을 사용합니다. Composio가 필요하지 않습니다.
