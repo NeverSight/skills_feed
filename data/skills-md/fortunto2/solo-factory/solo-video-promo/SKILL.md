@@ -1,0 +1,167 @@
+---
+name: solo-video-promo
+description: Generate promo video plan with 30-45s script, shot-by-shot storyboard, and optional Remotion/Montage-tool config. Use when user says "create video", "promo video", "video script", "storyboard", "demo video", or "product video plan". Do NOT use for social media text posts (use /content-gen) or landing page copy (use /landing-gen).
+license: MIT
+metadata:
+  author: fortunto2
+  version: "1.1.1"
+  openclaw:
+    emoji: "🎥"
+allowed-tools: Read, Grep, Glob, Write, AskUserQuestion, mcp__solograph__project_code_search, mcp__solograph__project_info, mcp__solograph__kb_search
+argument-hint: "<project-name>"
+---
+
+# /video-promo
+
+Generate a promo video plan from a project's PRD. Produces a 30-45 second video script with shot-by-shot storyboard. Detects Montage-tool or Remotion in the project and outputs compatible config when found.
+
+## MCP Tools (use if available)
+
+- `project_code_search(query, project)` — find UI components, screens, features to showcase
+- `project_info(name)` — get project stack and details
+- `kb_search(query)` — find video production methodology
+
+If MCP tools are not available, fall back to Glob + Grep + Read.
+
+## Steps
+
+1. **Parse project** from `$ARGUMENTS`.
+   - Read PRD (`docs/prd.md`), README, or CLAUDE.md for product info.
+   - If empty: ask via AskUserQuestion.
+
+2. **Detect video tooling** in the project:
+   - Check `package.json` for `remotion`, `@remotion/cli` → Remotion project
+   - Check for `montage.config.*`, `pnpm montage` → Montage-tool project
+   - Check for `ffmpeg` usage in scripts → FFmpeg pipeline
+   - If none found: output plain storyboard (no specific tooling config)
+
+3. **Extract key screens/features** to showcase:
+   - If MCP available: `project_code_search("main screen OR hero OR dashboard", project)` — find showcase-worthy UI
+   - Otherwise: Glob for screenshots, mockups, or UI component files
+   - Read PRD for top 3-5 features to demonstrate
+
+4. **Forced reasoning — video strategy:**
+   Before scripting, write out:
+   - **Goal:** What should the viewer DO after watching? (download, sign up, visit)
+   - **Hook type:** Question? Surprising stat? Pain point? Bold claim?
+   - **Demo moments:** 3 key product moments to show on screen
+   - **Emotion arc:** Frustration → Discovery → Relief/Delight
+
+5. **Generate video script** (30-45 seconds):
+
+   ```markdown
+   ## Video Script: {Project Name}
+
+   **Duration:** 30-45 seconds
+   **Format:** Vertical (9:16) for Reels/TikTok/Shorts
+   **Style:** Screen recording + text overlays
+
+   ### HOOK (0:00-0:03) — 3 seconds
+   **Audio:** "{hook line — question or bold statement}"
+   **Visual:** {what appears on screen — text overlay on gradient/blurred BG}
+
+   ### PROBLEM (0:03-0:10) — 7 seconds
+   **Audio:** "{describe the pain in user's words}"
+   **Visual:** {show the frustrating current state — competitor UX, manual process, etc.}
+
+   ### DEMO (0:10-0:25) — 15 seconds
+   **Audio:** "{narrate what the product does}"
+   **Visual:**
+   - Shot 1 (5s): {first feature demo — screen recording}
+   - Shot 2 (5s): {second feature demo}
+   - Shot 3 (5s): {wow moment — the key differentiator}
+
+   ### CTA (0:25-0:30) — 5 seconds
+   **Audio:** "{call to action}"
+   **Visual:** {product logo + URL + download badge}
+   ```
+
+6. **Generate tooling config** (if applicable):
+
+   ### If Remotion detected:
+   ```markdown
+   ## Remotion Component Spec
+
+   Component: `PromoVideo.tsx`
+   Duration: 900 frames (30fps × 30s)
+
+   Sequences:
+   - HookSequence (0-90): Text animation on gradient
+   - ProblemSequence (90-300): Screen recording import
+   - DemoSequence (300-750): 3 feature recordings with transitions
+   - CTASequence (750-900): Logo + URL fade in
+
+   Assets needed:
+   - screen-recording-problem.mp4
+   - screen-recording-feature-1.mp4
+   - screen-recording-feature-2.mp4
+   - screen-recording-feature-3.mp4
+   - logo.png
+   - background-music.mp3
+   ```
+
+   ### If montage tool detected:
+   ```markdown
+   ## Montage Config
+
+   Clips:
+   - problem-clip.mp4 (7s)
+   - demo-feature-1.mp4 (5s)
+   - demo-feature-2.mp4 (5s)
+   - demo-wow-moment.mp4 (5s)
+
+   Music: {suggest genre/BPM for beat-sync}
+   Transitions: crossfade (0.5s)
+   Text overlays: hook, CTA
+   ```
+
+7. **Write plan** to `docs/video-promo.md`:
+
+   ```markdown
+   # Video Promo Plan: {Project Name}
+
+   **Generated:** {YYYY-MM-DD}
+   **Duration:** 30-45 seconds
+   **Format:** Vertical 9:16
+   **Tooling:** {Remotion / Montage-tool / Manual}
+
+   ## Script
+   {full script from step 5}
+
+   ## Assets Checklist
+   - [ ] Screen recording: {feature 1}
+   - [ ] Screen recording: {feature 2}
+   - [ ] Screen recording: {wow moment}
+   - [ ] Logo (transparent PNG)
+   - [ ] Background music (royalty-free, upbeat)
+
+   ## Tooling Config
+   {config from step 6, or "Record manually and edit in CapCut/iMovie"}
+
+   ---
+   *Generated by /video-promo. Record assets, then render.*
+   ```
+
+8. **Output summary** — script overview, assets needed, suggested next steps.
+
+## Notes
+
+- Script assumes screen recording as primary footage — no actor needed
+- For iOS apps: use Simulator recording or device mirroring
+- For web: use browser screen recording
+- Music: suggest royalty-free sources (Artlist, Epidemic Sound, YouTube Audio Library)
+- This skill generates the PLAN — actual video rendering is manual or via Montage-tool/Remotion
+
+## Common Issues
+
+### No video tooling detected
+**Cause:** Project doesn't use Remotion or Montage-tool.
+**Fix:** Skill outputs plain storyboard by default. Record manually and edit in CapCut/iMovie, or add Remotion to the project.
+
+### Script too long for short-form video
+**Cause:** Too many features to showcase.
+**Fix:** Pick TOP 3 features only. 30-45 seconds = ~75-100 words of narration. Less is more.
+
+### No screenshots or UI to record
+**Cause:** Product not built yet or no visual interface.
+**Fix:** Use mockups, wireframes, or describe intended visuals in the storyboard. Record after MVP is built.

@@ -1,1 +1,1 @@
-Validation specification for the feature-crate parameter in the OpenLark Rust SDK (required field validation). Use this when you need to unify/review the `validate()` implementation, or when users ask about the difference between `openlark_core::validate_required` (function) and `openlark_core::validate_required!` (macro), whether a macro is needed, how empty strings are handled, etc.
+OpenLark Rust SDK 的 feature-crate 参数校验规范（必填校验）。当需要统一/评审 `validate()` 写法，或用户询问 `openlark_core::validate_required`（函数）与 `openlark_core::validate_required!`（宏）的区别、是否需要宏、空白字符串处理等问题时使用。
