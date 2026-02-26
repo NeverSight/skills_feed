@@ -1,0 +1,9 @@
+yc CLI를 통해 Yandex Cloud 인프라를 관리하세요.
+사용자가 생성, 구성, 관리 또는 문제 해결을 요청할 때 사용합니다.
+Yandex Cloud 리소스: VM, 디스크, 네트워크, 보안 그룹, 데이터베이스
+(PostgreSQL, MySQL, ClickHouse, Redis/Valkey, MongoDB, OpenSearch, Greenplum, Kafka),
+Kubernetes, 서버리스 기능/컨테이너, S3 스토리지, CDN, 로드 밸런서,
+Lockbox 비밀, KMS, 인증서, DNS, 컨테이너 레지스트리, DataProc,
+데이터 전송, 로깅, 감사 추적, 조직, WAF 또는 기타 YC 서비스.
+트리거: Yandex Cloud, yc CLI, YC, 관리형-postgresql, 관리형-kubernetes,
+컴퓨팅 인스턴스, 서버리스 기능, vpc 네트워크, alb, lockbox, yandex 클라우드.

@@ -1,0 +1,4 @@
+TanStack React용 가상 헤드리스 가상화. 큰 목록(100개 이상의 항목)을 렌더링할 때 사용합니다.
+가상 스크롤 구현, 무한 스크롤 피드 구축, 그리드 또는 테이블 가상화,
+창 수준 스크롤을 사용하거나 @tanstack/react-virtual을 사용하여 석조/차선 레이아웃을 구현합니다.
+트리거 대상: useVirtualizer, useWindowVirtualizer, 가상 목록, 가상 스크롤, 목록 가상화.

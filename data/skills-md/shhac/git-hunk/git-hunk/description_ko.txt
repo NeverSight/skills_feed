@@ -1,0 +1,6 @@
+Git을 위한 비대화형 덩어리 준비. 다음과 같은 경우에 사용하세요:
+- 콘텐츠 해시별로 개별 diff 덩어리 준비
+- 비단계 또는 단계적 덩어리 나열
+- 부분 Git 스테이징 스크립팅 또는 자동화
+- LLM/스크립트에 대한 git add -p 대안 작업
+트리거: "git hunk", "stage hunk", "hunk staging", "partial staging", "git-hunk", "stage by hash"

@@ -1,0 +1,1 @@
+상태 저장 REPL 세션을 통해 Databricks 클러스터에서 Python 코드를 실행합니다. 사용자가 Databricks에서 Python을 실행하고, Spark로 데이터 분석을 수행하고, 클러스터에서 모델을 훈련하고, Unity Catalog 테이블을 쿼리하고, 재귀적 LM 호출에 sub_llm()을 사용하거나 지속적인 Databricks 실행 컨텍스트가 필요한 모든 작업을 수행하려는 경우 이 기술을 사용하세요. 작업별로 session.json 및 repl_outputs를 분리하려면 항상 전용 --project-dir(예: example/my-task/)을 사용하세요. 세션 수명주기(생성, 실행, 대기, 취소, 삭제), 출력 파일 관리 및 제거 복구를 다룹니다.
