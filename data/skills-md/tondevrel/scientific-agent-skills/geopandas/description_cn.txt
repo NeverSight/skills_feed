@@ -1,0 +1,1 @@
+开源项目，使在 python 中处理地理空间数据变得更容易。扩展 pandas 使用的数据类型以允许对几何类型进行空间操作。构建于 Shapely、Fiona 和 Pyproj 之上。用于读取和写入空间格式（Shapefile、GeoJSON、GeoPackage、KML）、执行空间连接、坐标系转换（重新投影）、几何分析（缓冲区、质心、凸包）、专题制图（等值线图）、计算空间关系（包含、重叠、接触、内部）、使用 OpenStreetMap 数据或卫星衍生的矢量数据。

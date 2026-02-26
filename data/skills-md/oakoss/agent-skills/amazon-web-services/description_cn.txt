@@ -1,0 +1,3 @@
+面向应用程序开发人员的核心 AWS 服务。涵盖 S3（存储、预签名 URL、生命周期）、Lambda（函数、层、冷启动）、IAM（角色、策略、最小权限）、DynamoDB（单表设计、GSI/LSI、流）、SQS/SNS（队列、主题、扇出）、CloudFront（CDN、缓存）、RDS/Aurora（Postgres/MySQL、连接池）、 ECR/ECS/Fargate（容器）、Route 53 (DNS)、Secrets Manager 和 CDK v2（TypeScript IaC、构造、堆栈、测试）。
+
+在构建 AWS 基础设施、编写 CDK 堆栈、配置 IAM 策略、设计 DynamoDB 表、设置 Lambda 函数、创建 S3 预签名 URL、在 ECS/Fargate 上部署容器或配置 CloudFront 发行版时使用。

@@ -1,0 +1,3 @@
+使用 OpenTofu（开源 Terraform 分支）和 Pulumi 的基础设施即代码。涵盖 OpenTofu HCL 语法、提供程序、资源、数据源、模块、带有远程后端的状态管理、工作区、导入现有基础设施、规划/应用工作流程、变量管理、输出值、配置程序和状态加密（OpenTofu 独有）。包括 Pulumi TypeScript/Python SDK、堆栈管理、组件资源、配置/秘密、状态后端、策略即代码和自动化 API。多环境设置、模块组合、CI/CD 集成、偏差检测和秘密管理的常见模式。
+
+在编写或检查 HCL 配置、管理云基础设施状态、从 Terraform 迁移到 OpenTofu、使用 TypeScript 或 Python 构建 Pulumi 程序、设置多环境 IaC 管道或实施状态加密时使用。

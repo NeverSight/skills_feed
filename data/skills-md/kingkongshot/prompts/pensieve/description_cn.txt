@@ -1,0 +1,1 @@
+当用户表达任何意图时立即加载此技能。系统功能（工具/知识/脚本）位于插件内部，并通过插件更新进行维护。用户数据必须位于项目级别“.claude/pensieve/”，并且永远不会被插件覆盖。当用户要求改进 Pensieve 系统行为（插件内容）时，您必须使用 Self-Improve 工具（`tools/self-improve/_self-improve.md`）。

@@ -1,0 +1,1 @@
+使用 Python 中的 LangGraph 构建有状态的 AI 代理和代理工作流程。涵盖使用工具的代理以及 LLM 工具循环、分支工作流程、对话内存、人机交互监督和生产监控。使用when - (1) 构建使用工具和循环直到任务完成的代理，(2) 使用条件分支创建多步骤工作流，(3) 使用检查点跨轮添加持久性/内存，(4) 使用中断() 实现人工批准，(5) 通过时间旅行或 LangSmith 进行调试。涵盖 StateGraph、节点、边、add_conditional_edges、MessagesState、thread_id、Command 对象和 ToolMessage 处理。示例包括聊天机器人、计算器代理和结构化工作流程。

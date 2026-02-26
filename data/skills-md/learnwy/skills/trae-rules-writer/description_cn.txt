@@ -1,0 +1,1 @@
+为 AI 行为约束创建 Trae IDE 规则 (.trae/rules/*.md)。当用户想要执行以下操作时使用：创建项目规则、设置代码样式指南、强制命名约定、使 AI 始终执行 X 操作或为特定文件自定义 AI 行为。触发条件：“创建规则”、“项目规则”、“.trae/rules/”、“AGENTS.md”、“CLAUDE.md”、“让 AI 始终使用 PascalCase”。请勿用于技能（使用 trae-skill-writer）或代理（使用 trae-agent-writer）。

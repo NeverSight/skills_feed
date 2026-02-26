@@ -1,0 +1,1 @@
+当 curl 从 WAF（Cloudflare、Akamai、DataDome）获取 403/503 时使用。使用 Chrome 145 浏览器标头、客户端提示和 Sec-Fetch 元数据包装curl，以绕过标头指纹识别。

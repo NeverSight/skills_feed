@@ -1,0 +1,11 @@
+多代理协作 Android 到 HarmonyOS 代码迁移工作流程（迭代）。当用户需要将Android项目迁移到HarmonyOS时触发，提供：  
+1）Analyzer Agent扫描代码结构  
+2）Planner Agent起草迁移计划  
+3）Translator Agent进行代码转换  
+4) 验证器代理通过 ohos-app-build-debug 技能编译、打包并在设备上验证第一个屏幕  
+5) Tester Agent验证功能（在每个模块迁移后执行）  
+6) 所有模块迁移后，功能比较器代理会检查缺失的功能  
+7) UI Comparator Agent验证UI一致性  
+8) 将未完成的部分反馈给 Planner Agent 以进行进一步的迭代。  
+包括代码分析脚本、API 映射表、组件转换模式和自动验证工具。  
+触发关键词：Android迁移到鸿蒙、Android迁移、鸿蒙迁移、Java/Kotlin到ArkTS、Activity到Page、功能对比、UI对比。

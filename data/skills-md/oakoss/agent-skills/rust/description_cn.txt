@@ -1,0 +1,3 @@
+Rust 语言模式和生态系统涵盖所有权、借用、生命周期、错误处理（结果/选项、thiserror 等）、与 Tokio 的异步、特征、泛型、serde 序列化、Cargo 工作区和测试。包括 axum Web 框架、ratatui 终端 UI、clap CLI 解析、标准基准测试、cargo-deny 供应链安全、cargo-dist 二进制分发和 release-plz 变更日志自动化。
+
+在编写 Rust 代码、设计所有权模型、使用 Tokio/axum 构建异步服务、使用ratatui 创建终端 UI、使用 clap 设置 CLI 应用程序、为 Rust 配置 CI/CD 管道、使用标准进行基准测试、使用 Cargo-Deny 审计依赖关系或使用 Cargo-Dist 分发二进制文件时使用。

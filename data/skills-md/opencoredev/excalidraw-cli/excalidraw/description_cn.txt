@@ -1,0 +1,1 @@
+通过“excalidraw” CLI 控制实时 Excalidraw 画布。当代理需要 (1) 在实时画布上绘制或布局图表，(2) 创建/更新/删除单个元素，(3) 从 JSON 批量创建复杂图表，(4) 使用描述或屏幕截图检查画布，(5) 导出/导入 .excalidraw 文件、PNG 或 SVG，(6) 保存/恢复画布快照，(7) 对齐、分布、分组、锁定或复制元素，(8) 将 Mermaid 图转换为 Excalidraw 元素， (9) 将图表共享为加密的 excalidraw.com URL。需要正在运行的画布服务器（默认 http://localhost:3000）。

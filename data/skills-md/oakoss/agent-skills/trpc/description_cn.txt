@@ -1,0 +1,3 @@
+适用于 TypeScript 的 tRPC v11 端到端类型安全 API。涵盖路由器和过程定义、使用 Zod 进行输入验证、中间件和上下文、订阅、使用 TRPCError 进行错误处理、通过 @trpc/react-query 进行 React 客户端挂钩、使用 createCallerFactory 进行服务器端调用、适配器设置（独立、Express、Fastify、Hono）以及测试模式。
+
+在构建 tRPC 路由器、定义过程、设置中间件、配置适配器、将 tRPC 与 React 集成、处理错误、实现订阅或测试 tRPC 过程时使用。

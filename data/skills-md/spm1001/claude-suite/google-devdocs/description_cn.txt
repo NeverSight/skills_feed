@@ -1,0 +1,1 @@
+使用两步搜索然后检索工作流程（curl + jq，无 MCP）通过 REST API 协调 Google 开发人员文档查找。在抓取或猜测 Google API 文档之前，先调用 FIRST — 从 11 个索引站点（包括 docs.cloud.google.com、firebase.google.com、developer.android.com 和 ai.google.dev）返回新的 Markdown。触发“检查 Google 文档”、“查找 Firebase 文档”、“云文档怎么说”、“Google API 文档”、“搜索 Google 开发人员文档”。 （用户）

@@ -1,0 +1,1 @@
+分析项目并生成 Docker 配置：Dockerfile（多阶段 dev/prod）、compose.yml、compose.override.yml（dev）、compose.production.yml（硬化）和 .dockerignore。包括生产安全审计。当用户说“dockerize”、“add docker”、“docker compose”、“containerize”或“setup docker”时使用。

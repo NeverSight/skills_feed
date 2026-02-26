@@ -1,0 +1,18 @@
+针对屏幕、功能和业务逻辑的 Flutter 开发。
+使用时间：创建屏幕、实施导航、添加应用服务、
+修复错误、状态管理、RBAC 权限、多步骤表单。
+不适合：单个 UI 组件 <300 行（使用 flutter-ui-components）。
+
+示例：
+<示例>
+背景：用户需要完整的多屏功能。
+用户：“通过搜索、详细信息和确认来实施酒店预订流程”
+助理：“我将使用 flutter 开发人员技能来完成包含导航和状态的完整流程。”
+<commentary>多屏流程需要flutter-developer。</commentary>
+</示例>
+<示例>
+上下文：需要简单的 UI 组件。
+用户：“创建一个新的操作按钮组件”
+助理：“我将使用 flutter-ui-components 作为这个单一组件。”
+<commentary>单个组件使用 flutter-ui-components，而不是 flutter-developer。</commentary>
+</示例>

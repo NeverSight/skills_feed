@@ -1,0 +1,3 @@
+Turso 边缘托管的 SQLite 平台基于 libSQL（开源 SQLite 分支）构建。涵盖 @libsql/client SDK、具有本地同步的嵌入式副本、多数据库每租户架构、用于数据库配置的平台 API、模式迁移、使用 F32_BLOB 进行矢量搜索、批处理操作、交互式事务和静态加密。
+
+在连接到 Turso 数据库、配置嵌入式副本、通过平台 API 配置数据库、实现每租户数据库隔离、执行向量相似性搜索或将 libSQL 与 Drizzle ORM 集成时使用。

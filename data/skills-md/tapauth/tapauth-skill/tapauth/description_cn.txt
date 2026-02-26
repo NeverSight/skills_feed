@@ -1,0 +1,1 @@
+AI 代理的 OAuth 令牌代理。通过两个 API 调用获取 Google、GitHub、Slack、Linear、Notion、Vercel、Sentry、Asana、Dropbox、Figma 和 20 多个提供商的访问令牌。当您的代理需要 OAuth 身份验证、API 令牌、用户授权或访问第三方服务时使用。处理完整的 OAuth 流程 - 重定向 URL、同意屏幕、令牌交换、刷新 - 因此您的代理无需这样做。可与 Claude Code、Cursor、Codex、OpenClaw 以及任何需要经过身份验证的 API 访问的编码代理配合使用。

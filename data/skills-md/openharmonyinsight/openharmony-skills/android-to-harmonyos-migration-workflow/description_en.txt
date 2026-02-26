@@ -1,1 +1,11 @@
-多 agent 协作的 Android 到 HarmonyOS 代码迁移工作流（迭代式）。当用户需要将 Android 项目迁移到 HarmonyOS 时触发，提供：1) Analyzer Agent 扫描代码结构 2) Planner Agent 制定迁移计划 3) Translator Agent 执行代码转换 4) **Validator Agent（验证代理）** 使用 **ohos-app-build-debug** skill 进行编译验证、应用打包和上板验证首界面 5) Tester Agent 验证功能（每个模块迁移完成后执行） 6) 所有模块迁移完成后，执行 Feature Comparator Agent 检查遗漏功能 7) UI Comparator Agent 验证界面一致性 8) 将未完成部分反馈给 Planner Agent 继续迭代。包含代码分析脚本、API映射表、组件转换模式和自动化验证工具。触发关键词：迁移Android到鸿蒙、Android迁移、HarmonyOS迁移、Java/Kotlin转ArkTS、Activity转Page、功能比对、UI比对。
+Multi-Agent Collaborative Android-to-HarmonyOS Code-Migration Workflow (Iterative). Triggered when a user needs to migrate an Android project to HarmonyOS, providing:  
+1) Analyzer Agent scans code structure  
+2) Planner Agent drafts migration plan  
+3) Translator Agent performs code conversion  
+4) Validator Agent compiles, packages, and on-device validates the first screen via ohos-app-build-debug skill  
+5) Tester Agent verifies functionality (executed after each module migration)  
+6) After all modules migrate, Feature Comparator Agent checks for missing features  
+7) UI Comparator Agent verifies UI consistency  
+8) Feeds unfinished parts back to Planner Agent for further iterations.  
+Includes code-analysis scripts, API-mapping tables, component-conversion patterns, and automated validation tools.  
+Trigger keywords: migrate Android to HarmonyOS, Android migration, HarmonyOS migration, Java/Kotlin to ArkTS, Activity to Page, feature comparison, UI comparison.

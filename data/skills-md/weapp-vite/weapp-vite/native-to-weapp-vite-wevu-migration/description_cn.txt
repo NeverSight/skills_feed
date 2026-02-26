@@ -1,0 +1,1 @@
+应用从原生小程序项目到 weapp-vite 和 wevu 的结构化迁移工作流程。将页面/组件代码转换为 Vue SFC、用 ref/reactive 替换 setData 重的状态更新、迁移属性/观察者/triggerEvent 合约、引入平台防护以及构建以迁移为中心的 e2e 验证和回滚检查点时使用。

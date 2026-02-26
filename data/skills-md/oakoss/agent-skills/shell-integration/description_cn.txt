@@ -1,0 +1,3 @@
+用于构建与 Zsh、Bash 和 Fish 集成的工具的 Shell 脚本和终端集成模式。涵盖完成系统（compdef/compadd、complete/compgen、fishcomplete）、ZLE 小部件、挂钩（precmd/preexec/chpwd、PROMPT_COMMAND）、readline、bindkey、参数扩展、ZDOTDIR 加载顺序、事件系统、缩写、POSIX shell 脚本、终端控制代码（ANSI/CSI 转义序列）、tput、stty、信号处理、进程管理（作业控制、陷阱）和 shell 插件分发模式。
+
+在构建 shell 插件、编写完成脚本、使用转义序列实现终端 UI、管理点文件、创建安装脚本、处理信号和进程管理或将本机二进制文件与 shell 包装器集成时使用。

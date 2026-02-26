@@ -1,0 +1,1 @@
+使用 NSEvent 监控（简单，应用程序级）和 Carbon EventHotKey API（可靠，系统范围）在 macOS 上注册系统范围的键盘快捷键。涵盖 NSEvent.addGlobalMonitorForEvents 和 addLocalMonitorForEvents、用于击键模拟的 CGEvent tap、用于系统范围热键的 Carbon RegisterEventHotKey、修饰符标志处理 (.deviceIndependentFlagsMask)、通用键代码映射、去抖动、辅助功能权限要求 (AXIsProcessTrusted) 以及用于应用内快捷方式的 SwiftUI .onKeyPress。在实现全局键盘快捷键、热键触发面板或系统范围的按键事件监控时使用。

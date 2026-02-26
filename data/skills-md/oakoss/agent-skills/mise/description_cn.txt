@@ -1,0 +1,3 @@
+Mise（以前称为 rtx）多语言工具版本管理器、环境变量管理器和任务运行器。涵盖工具版本管理（跨 Node/Python/Rust/Go/Java 等安装、使用、固定）、mise.toml 任务定义（脚本、依赖项、监视模式、增量构建）、环境变量管理（.env 集成、每个目录 env、编辑）、项目级工具固定、后端系统（asdf、npm、pipx、cargo、GitHub 版本）以及与替代方案的比较（asdf、nvm、pyenv、Makefile）。
+
+在配置开发工具版本、在 mise.toml 中定义项目任务、管理每个项目的环境变量、设置多语言开发环境、从 asdf 或 nvm 迁移或使用 mise run 自动执行构建/测试/lint/部署工作流程时使用。
