@@ -1,0 +1,1 @@
+pytest-asyncio 패턴을 사용하여 적절한 설비와 모의로 비동기 테스트를 설정합니다. 비동기 기능을 테스트하거나, 비동기 설비를 생성하거나, 비동기 서비스를 모의하거나, 비동기 컨텍스트 관리자를 처리할 때 사용합니다. @pytest_asyncio.fixture, side_ effect가 있는 AsyncMock, 비동기 생성기 고정 장치(수율) 및 비동기 컨텍스트 관리자 테스트를 다룹니다. Python async/await 패턴, pytest-asyncio 및 unittest.mock.AsyncMock과 함께 작동합니다.

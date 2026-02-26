@@ -1,0 +1,1 @@
+요청 재시도에는 @aptx/api-plugin-retry를 사용하세요. 활성화: 재시도 횟수 구성, 고정 또는 동적 지연 정책 설정, retryOn 조건자 정의(NetworkError/TimeoutError), 비멱등성 재시도 방지, 재시도 횟수 추적, createRetryMiddleware API. 재시도 기능 또는 createRetryMiddleware가 필요할 때 트리거됩니다.

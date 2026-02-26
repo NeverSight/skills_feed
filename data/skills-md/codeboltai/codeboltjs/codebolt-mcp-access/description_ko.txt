@@ -1,0 +1,1 @@
+Codebolt 에이전트가 Codebolt MCP(Model Context Protocol) API와 상호 작용하는 핵심 기술입니다. 에이전트가 파일 작업, Git, 브라우저 자동화, 터미널, 메모리, 오케스트레이션, 계획, 테스트, 협업 또는 Codebolt 플랫폼 기능을 위한 도구를 실행해야 할 때 사용합니다. codebolt.tools.executeTool(), 파일 시스템 작업, git 명령, 브라우저 제어, 에이전트 오케스트레이션, 작업 관리 또는 모든 MCP 네임스페이스 작업과 관련된 요청에서 트리거됩니다.

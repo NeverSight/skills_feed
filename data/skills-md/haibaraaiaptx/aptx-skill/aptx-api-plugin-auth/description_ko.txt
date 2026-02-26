@@ -1,0 +1,1 @@
+토큰 인증 미들웨어 및 컨트롤러를 구현하려면 @aptx/api-plugin-auth를 사용하세요. Authorization 헤더 자동 추가, 토큰 새로 고침(active/passive 401 처리), 중복 새로 고침 방지, 실패 콜백을 지원합니다. 트리거 조건: 사용자가 인증 기능(미들웨어 구성, 401 새로 고침 처리, 토큰 관리)을 요청하는 경우 또는 코드에 createAuthMiddleware/createAuthController가 포함되는 경우.

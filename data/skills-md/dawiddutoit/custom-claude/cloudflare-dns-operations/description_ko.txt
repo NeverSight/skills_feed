@@ -1,0 +1,7 @@
+DNS 추가, 업데이트, 삭제를 포함한 낮은 수준의 Cloudflare DNS 작업을 수행합니다.
+Cloudflare API를 통한 기록, 영역 설정 관리, 동적 DNS 업데이트 등이 있습니다. 다음과 같은 경우에 사용하세요.
+수동 DNS 레코드 관리, 동적 DNS 업데이트, 영역 설정 구성이 필요합니다.
+도메인 관리 시스템 외부의 운영. "DNS 레코드 추가", "DNS 업데이트"에서 트리거됩니다.
+"DNS 레코드 삭제", "동적 DNS", "Cloudflare API" 또는 "수동 DNS 관리". 작품
+Cloudflare API v4, cf-dns.sh 및 cf-settings.sh 도우미 스크립트 및 직접 컬 사용
+API 호출.

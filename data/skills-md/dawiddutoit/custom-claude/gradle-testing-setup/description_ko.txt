@@ -1,0 +1,5 @@
+JUnit 5, TestContainers를 포함하여 Gradle에서 포괄적인 테스트를 구성합니다.
+테스트 분리(단위 대 통합) 및 JaCoCo를 사용한 코드 적용 범위.
+"JUnit 5 설정", "TestContainers 구성", "별도의 통합 테스트"를 묻는 메시지가 표시될 때 사용합니다.
+또는 "코드 적용 범위 추가".
+build.gradle.kts, 테스트 소스 세트 및 CI/CD 구성과 함께 작동합니다.

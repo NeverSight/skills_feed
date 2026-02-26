@@ -1,0 +1,6 @@
+GitHub Actions를 포함한 CI/CD 플랫폼용 Gradle 빌드를 구성합니다.
+GitLab CI, Jenkins 및 CircleCI. 자동화된 빌드를 설정할 때 사용합니다.
+캐싱 전략 구성, 파이프라인에서 테스트 실행 또는 빌드
+CI의 Docker 이미지. "Gradle CI 설정", "GitHub Actions 구성"에서 트리거됩니다.
+"빌드 캐시 최적화" 또는 "Gradle용 CI 파이프라인". .github/workflows와 함께 작동합니다.
+.gitlab-ci.yml, Jenkinsfile, 성능 최적화 및 아티팩트 처리가 포함되어 있습니다.

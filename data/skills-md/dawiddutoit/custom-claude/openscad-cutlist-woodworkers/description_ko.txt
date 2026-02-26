@@ -1,0 +1,8 @@
+woodworkers-lib를 사용하여 OpenSCAD 가구 디자인에서 목공 절단 목록을 생성합니다.
+도서관. 가구, 캐비닛 등의 ECHO 출력에서 패널 치수 추출을 자동화합니다.
+옷장, 선반유닛. 합판/MDF 패널로 가구를 디자인할 때 사용하며,
+CNC 라우팅 또는 수동 절단을 위한 절단 목록 생성 또는 시트용 데이터 준비
+최적화 도구. "컷 리스트 생성", "패널 치수 추출"에 대해 트리거됩니다.
+"가구 절단 목록", "목공 ECHO 출력" 또는 planeLeft/planeRight/ 작업 시
+planeTop/planeBottom/planeFront/planeBack 모듈. 다음을 사용하여 .scad 파일로 작업합니다.
+woodworkers-lib 라이브러리.

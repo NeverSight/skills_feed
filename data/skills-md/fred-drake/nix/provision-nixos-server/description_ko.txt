@@ -1,0 +1,3 @@
+이 nix flake 프로젝트를 위해 Proxmox에 새로운 NixOS 서버를 프로비저닝합니다. Proxmox LXC 컨테이너 생성, SSH 설정, Colmena 구성(초기화/전체 패턴), nginx 프록시, PostgreSQL 및 컨테이너 이미지를 사용한 애플리케이션 배포 등 전체 워크플로를 안내합니다.
+
+사용 시기: (1) Proxmox에서 새 서버/컨테이너 생성, (2) Colmena를 사용하여 새 NixOS 호스트 설정, (3) nginx SSL 프록시 및/또는 PostgreSQL 데이터베이스를 사용하여 애플리케이션 배포, (4) 저장소에 새 컨테이너 이미지 추가.

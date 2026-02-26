@@ -1,0 +1,1 @@
+기능 구현, 버그 수정, 공식적인 계획 외부의 코드 변경을 위한 임시 개발 워크플로입니다. 코드베이스에서 무언가를 구현, 추가, 수정, 빌드 또는 생성하라는 요청을 받을 때 사용합니다. 도메인 기술(postgres-expert, server-action-builder, React-form-builder, service-builder, playwright-e2e)로 라우팅하고 컨텍스트 컴팩트 복구를 위한 작업 추적을 시행하며 참조 기반 빌드-테스트-검증 루프를 따릅니다. 대규모 다단계 기능에는 사용하지 마세요. 대신 /create-plan + /implement를 사용하세요.

@@ -1,0 +1,1 @@
+JavaScript/TypeScript 테스트 및 개발에서 API 모의를 위한 MSW(Mock Service Worker) v2 모범 사례, 패턴 및 API 지침입니다. 핸들러 설계, 서버 설정, 응답 구성, 테스트 패턴, GraphQL 및 v1에서 v2로의 마이그레이션을 다룹니다. 기준선: msw ^2.0.0. 트리거 대상: msw 가져오기, http.get, http.post, HttpResponse, setupServer, setupWorker, graphql.query, "msw", "모의 서비스 작업자", "api mocking" 또는 "msw v2" 언급.

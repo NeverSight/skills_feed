@@ -1,0 +1,1 @@
+Traycer 시행 프레임워크에서 에이전트에 대한 사용자 정의 Claude Code 슬래시 명령을 정의합니다. 이 기술은 에이전트를 생성 또는 업데이트할 때 그리고 에이전트가 슬래시 명령으로 실행할 수 있는 재사용 가능한 프롬프트를 지정해야 할 때 사용해야 합니다. 명령은 .claude/commands/에 저장되고 에이전트 config.yaml 파일에서 참조되는 Markdown 파일입니다. 이는 bash/CLI 명령이 아닌 Claude Code 슬래시 명령(/command-name)용입니다.

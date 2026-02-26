@@ -1,0 +1,1 @@
+토큰 지속성을 정의하거나 구현하려면 @aptx/token-store를 사용하세요. 대상: TokenStore 인터페이스 구현, 동기화/비동기 API 지원(getToken/setToken/clearToken), 선택적 메타데이터 메소드, 다양한 스토리지 백엔드 구현(쿠키, localStorage, 미니 프로그램, 메모리), @aptx/api-plugin-auth와 함께 사용. 코드에서 사용자 지정 TokenStore를 구현해야 할 때 트리거됩니다.

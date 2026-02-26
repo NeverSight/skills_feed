@@ -1,0 +1,1 @@
+Huawei Ascend NPU 모델 변환 및 추론을 위한 완벽한 툴킷입니다. (1) 다중 CANN 버전(8.3.RC1, 8.5.0+)을 지원하는 ATC 도구를 사용하여 ONNX 모델을 .om 형식으로 변환합니다. (2) ais_bench를 사용하여 OM 모델에서 Python 추론을 실행합니다. (3) CPU ONNX와 NPU OM 출력 간의 정밀도를 비교합니다. (4) Ultralytics 전처리/후처리를 통한 엔드투엔드 YOLO 추론 - 감지, 포즈, 분할, OBB 작업을 지원합니다. Ascend AI 프로세서에서 모델을 변환, 테스트 또는 배포할 때 사용합니다.

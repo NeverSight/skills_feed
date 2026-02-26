@@ -1,0 +1,1 @@
+ClickHouse + Kafka 데이터 파이프라인에 대한 심층 방어 검증 패턴을 구현합니다. 생산자 유효성 검사(msgspec 스키마), 소비자 유효성 검사(부패 방지 레이어), ClickHouse 오류 스트리밍(kafka_handle_error_mode='stream'), ReplacingMergeTree를 통한 멱등성, 스키마 진화 및 모니터링을 다룹니다. 데이터 파이프라인 구현, Kafka 오류 처리, 유효성 검사 계층 설정, 중복/멱등성 관리 또는 Kafka 소비 모니터링 시 사용합니다. "kafka 파이프라인 유효성 검사", "클릭하우스 오류 처리", "kafka 중복 제거" 또는 "부패 방지 계층 구현"에서 트리거됩니다.

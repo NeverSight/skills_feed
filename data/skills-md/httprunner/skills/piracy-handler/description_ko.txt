@@ -1,0 +1,1 @@
+불법 복제 탐지 및 사후 처리 조정자. wechat-search-collector가 포괄적 페이지 작업을 완료하여 Capture_results에서 불법 복제 감지를 수행하고, 하위 작업을 생성하고, 웹훅 계획을 작성하거나, 하위 작업이 최종 상태에 도달한 후 웹훅 발송/조정을 실행한 후에 사용됩니다. Capture_results 데이터 소스로 sqlite 또는 supabase를 지원합니다.

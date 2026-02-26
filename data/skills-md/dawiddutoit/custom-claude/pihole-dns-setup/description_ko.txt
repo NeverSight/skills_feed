@@ -1,0 +1,6 @@
+*.temet.ai의 로컬 네트워크 확인을 활성화하도록 Pi-hole 로컬 DNS 레코드를 구성합니다.
+도메인. DNS 설정, 로컬 DNS 항목 추가, Pi-hole DNS 구성,
+DNS 확인 문제를 해결하거나 서비스가 로컬에서 확인되도록 합니다. "DNS 설정"에서 트리거됩니다.
+"Pi-hole DNS 구성", "DNS 레코드 추가", "DNS가 확인되지 않음", "로컬 DNS 설정" 또는
+"왜 [service].temet.ai에 로컬로 액세스할 수 없나요?" Pi-hole 컨테이너인 domains.toml과 함께 작동합니다.
+docker-compose.yml 및 관리-도메인.sh.

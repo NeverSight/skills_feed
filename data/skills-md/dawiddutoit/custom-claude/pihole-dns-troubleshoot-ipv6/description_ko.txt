@@ -1,0 +1,7 @@
+클라이언트가 Cloudflare OAuth에 연결되도록 하는 IPv6 DNS 문제를 진단하고 수정합니다.
+로컬 네트워크 액세스를 사용하는 대신. 서비스에서 OAuth 로그인 프롬프트를 표시할 때 사용
+로컬 Wi-Fi, 초기 연결 후 인증이 느림 또는 Chrome에 '오류'가 표시됨
+재시도로." "로컬 대신 Cloudflare에 연결", "OAuth 프롬프트 켜기" 시 트리거
+WiFi", "IPv6 DNS 문제", "클라이언트가 IPv6를 선호합니다", "IPv6 DNS 비활성화" 또는 "로컬 액세스 수정".
+Pi-hole FTLCONF_misc_dnsmasq_lines 필터-AAAA 구성 및 클라이언트 DNS와 함께 작동합니다.
+캐시 관리.

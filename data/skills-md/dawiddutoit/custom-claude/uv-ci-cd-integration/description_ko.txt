@@ -1,0 +1,4 @@
+CI/CD 파이프라인에 uv(Rust 기반 Python 패키지 관리자)를 설정합니다.
+GitHub Actions 워크플로, GitLab CI/CD, Docker 빌드 또는 Python 버전 전체의 매트릭스 테스트를 구성할 때 사용합니다.
+캐시 최적화, 고정된 잠금 파일, 다단계 빌드 및 신뢰할 수 있는 게시를 통한 PyPI 게시를 위한 패턴이 포함되어 있습니다.
+GitHub Actions setup-uv action, Docker 다단계 프로덕션/개발 빌드 및 배포 패턴을 다룹니다.

@@ -1,0 +1,1 @@
+다양한 형식의 Jira 티켓을 생성하고 관리하기 위해 jira-tool CLI를 올바르게 사용하기 위한 가이드입니다. Jira 티켓, 에픽 또는 내보내기 작업을 할 때 사용하세요. "Jira 티켓 생성", "Jira 검색", "Jira 티켓 가져오기", "Jira 데이터 내보내기", "에픽 나열" 또는 모든 Jira API 작업을 트리거합니다. jira_tool Python 모듈을 가져오거나 불필요하게 컬을 사용하는 것과 같은 일반적인 실수를 방지합니다. jira-tool CLI 명령 및 환경 변수(JIRA_BASE_URL, JIRA_USERNAME, JIRA_API_TOKEN)와 함께 작동합니다.

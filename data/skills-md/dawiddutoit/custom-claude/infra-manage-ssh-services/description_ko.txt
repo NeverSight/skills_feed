@@ -1,0 +1,7 @@
+원격 SSH 인프라 호스트와 Docker 서비스를 검색, 테스트 및 관리합니다.
+호스트 5개(infra.local, deus, homeassistant, pi4-motor, armitage). 확인할 때 사용
+인프라 상태, 서비스 연결 확인, Docker 컨테이너 관리,
+원격 서비스 문제를 해결하거나 원격 리소스(MongoDB, Langfuse,
+OTLP, Neo4j). "인프라 확인", "인프라/deus/ha에 연결",
+"인프라에서 MongoDB 테스트", "Docker 서비스 보기", "연결 확인", "문제 해결"
+원격 서비스", "실행 중인 서비스" 또는 원격 연결이 실패한 경우.

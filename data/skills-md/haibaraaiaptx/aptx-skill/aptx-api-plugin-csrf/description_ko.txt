@@ -1,0 +1,1 @@
+CSRF 보호를 추가하려면 @aptx/api-plugin-csrf를 사용하세요. 트리거 조건: 코드가 요청에 CSRF 토큰을 추가해야 하는 경우, 쿠키/헤더 이름 구성, SSR/노드 환경에서 쿠키 읽기 처리 또는 createCsrfMiddleware 사용.

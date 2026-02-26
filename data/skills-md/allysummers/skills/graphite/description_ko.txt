@@ -1,0 +1,7 @@
+.git/.graphite_repo_config를 사용하여 저장소의 Graphite CLI 스택 PR 워크플로에 사용합니다.
+트리거: 흑연, 스택형 PR, 종속형 PR, 체인형 PR, PR 스택, gt create,
+gt 수정, gt 제출, gt 동기화, gt 재스택, gt 로그, gt 체크아웃, gt up, gt down,
+내 스택 리베이스, 스택 충돌 수정, PR 분할, 내 스택 랜드, 스택 병합,
+메인/트렁크와 동기화, 브랜치 재정렬, 커밋 접기, 스택 수정, 브랜치 이동
+다른 부모에게, 오래된 스택, 내 스택을 업데이트하세요. 없이 저장소의 경우
+.git/.graphite_repo_config, 대신 표준 git 명령을 사용하세요.

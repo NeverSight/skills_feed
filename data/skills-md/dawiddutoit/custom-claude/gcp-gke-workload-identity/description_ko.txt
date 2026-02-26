@@ -1,0 +1,5 @@
+GKE Pod 간의 안전한 키리스 인증을 위한 워크로드 아이덴티티 구현
+그리고 Google Cloud 서비스. Pub/Sub에 대한 포드 인증을 설정할 때 사용합니다.
+Cloud SQL, Secret Manager 또는 기타 GCP 서비스. 서비스 계정 키 제거
+관리하고, 보안 폭발 반경을 줄이고, 최소 권한 액세스를 구현합니다.
+패턴. Spring Boot 애플리케이션 및 IAM 바인딩과 함께 작동합니다.

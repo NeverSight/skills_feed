@@ -1,0 +1,6 @@
+use/include 문을 구문 분석하여 전체 종속성 컨텍스트로 OpenSCAD 파일을 로드합니다.
+라이브러리 경로 확인 및 API 표면(모듈, 함수, 매개변수) 추출.
+OpenSCAD 파일 작업, 렌더링 문제 디버깅, 모듈 이해 시 사용
+종속성 또는 리팩토링 전. "load scad", "scad-load [파일]"에 대해 트리거됩니다.
+"openscad 컨텍스트 로드", "scad 종속성 표시" 또는 .scad 파일을 조사할 때.
+.scad 파일, BOSL2, woodworkers-lib, NopSCADlib 및 프로젝트별 라이브러리와 함께 작동합니다.

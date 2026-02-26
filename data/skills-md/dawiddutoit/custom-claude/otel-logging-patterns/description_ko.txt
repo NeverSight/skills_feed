@@ -1,0 +1,1 @@
+추적 컨텍스트 상관 관계 및 구조적 로깅을 사용하여 OTEL(OpenTelemetry) 로깅을 구현합니다. OTEL 내보내기, structlog/loguru 통합, 추적 컨텍스트 전파 및 포괄적인 테스트 패턴을 사용하여 프로덕션 로깅을 설정할 때 사용합니다. FastAPI, Kafka 소비자 및 백그라운드 작업에 대한 Python 구현을 다룹니다. OTLP, Jaeger 및 콘솔 내보내기가 포함됩니다.
