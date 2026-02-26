@@ -1,0 +1,7 @@
+Gère les opérations des certificats SSL, notamment la vérification de l'expiration, la surveillance du renouvellement,
+forcer le renouvellement manuel et sauvegarder les certificats. À utiliser lors de la vérification du certificat
+validité, surveillance du renouvellement automatique, certificats expirant bientôt ou besoin de sauvegarde
+données du certificat. Déclencheurs sur "vérifier l'expiration du certificat", "renouvellement du certificat",
+"Statut du certificat SSL", "certificats de sauvegarde" ou "forcer le renouvellement du certificat".
+Fonctionne avec les certificats Let's Encrypt, le renouvellement automatique Caddy et caddy_data Docker
+volumes.

@@ -1,0 +1,3 @@
+Fournit une configuration complète de pytest : configuration de pyproject.toml, enregistrement des marqueurs personnalisés, modèles de découverte de tests, configuration du plugin, paramètres spécifiques à l'environnement. Comprend la hiérarchie conftest.py, la portée des appareils et la configuration de la couverture.
+
+À utiliser lorsque : configuration de pytest dans un projet, configuration de la découverte de tests, création d'appareils partagés, configuration des rapports de couverture, gestion des environnements de test, organisation des fichiers conftest.py.

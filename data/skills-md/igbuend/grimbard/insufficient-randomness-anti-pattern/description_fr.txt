@@ -1,0 +1,1 @@
+Anti-modèle de sécurité pour les vulnérabilités aléatoires insuffisantes (CWE-330). À utiliser lors de la génération ou de la révision de code qui crée des jetons de sécurité, des ID de session, des clés de chiffrement, des noms occasionnels ou toute valeur aléatoire critique pour la sécurité. Détecte l'utilisation de Math.random() ou de graines prévisibles.

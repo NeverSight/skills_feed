@@ -1,0 +1,5 @@
+Corrigez les erreurs de modèle ServiceResult provoquant des échecs de test et des erreurs de type.
+À utiliser lorsque vous voyez "l'objet dict n'a pas de succès d'attribut", "la simulation ne renvoie pas ServiceResult",
+les assertions simulées échouent ou tapent des erreurs avec ServiceResult. Analyse les fichiers de test .py
+et les implémentations de services. Couvre les modèles asynchrones/d'attente, les opérations monades (map, bind, flatmap),
+et une configuration fictive appropriée.

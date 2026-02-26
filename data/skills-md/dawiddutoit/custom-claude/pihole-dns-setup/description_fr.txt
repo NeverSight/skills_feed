@@ -1,0 +1,6 @@
+Configure les enregistrements DNS locaux Pi-hole pour permettre la résolution du réseau local de *.temet.ai
+domaines. À utiliser lorsque vous devez configurer DNS, ajouter des entrées DNS locales, configurer Pi-hole DNS,
+dépanner la résolution DNS ou résoudre les services localement. Déclencheurs sur "configuration DNS",
+« configurer Pi-hole DNS », « ajouter un enregistrement DNS », « DNS non résolu », « configuration DNS locale » ou
+"Pourquoi ne puis-je pas accéder à [service].temet.ai localement". Fonctionne avec le conteneur Pi-hole, domains.toml,
+docker-compose.yml et manage-domains.sh.

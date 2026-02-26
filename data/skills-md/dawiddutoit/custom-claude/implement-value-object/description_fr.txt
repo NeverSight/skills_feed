@@ -1,0 +1,6 @@
+Crée des objets de valeur de domaine immuables à l'aide d'un modèle de classe de données figé avec validation.
+À utiliser lors de l'implémentation d'objets de valeur de domaine, de la création de structures de données immuables ou
+ajouter une validation aux valeurs. Couvre @dataclass(frozen=True), object.__setattr__()
+modèle dans __post_init__, méthodes d'usine (from_string, from_dict, from_content),
+et validation dans un contexte figé. Déclencheurs sur "créer un objet de valeur pour X", "implémenter
+valeur Y immuable", "ajouter une validation à la valeur Z" ou "construire un objet de valeur".

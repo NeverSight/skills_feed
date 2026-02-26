@@ -1,0 +1,11 @@
+Assistant de codage quotidien qui se déclenche automatiquement lors de l'écriture/modification du code, fournissant une liste de contrôle de base.
+
+✅ Scénarios déclencheurs :
+- Implémentation de nouvelles fonctionnalités, ajout de code, modification du code existant
+- L'utilisateur demande "écrire un...", "implémenter...", "ajouter...", "modifier..."
+- Toute tâche de codage impliquant des outils d'édition/écriture
+
+❌ Ne déclenche pas :
+- Lecture/compréhension pure du code (aucune intention de modification)
+- Déjà couvert par des compétences spécialisées (bug-detective, architecture-design, tdd-guide)
+- Modifications du fichier de configuration, rédaction de la documentation

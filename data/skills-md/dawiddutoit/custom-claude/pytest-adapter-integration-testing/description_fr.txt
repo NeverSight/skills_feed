@@ -1,0 +1,3 @@
+Test des adaptateurs et des passerelles : quand utiliser des simulations de tests unitaires par rapport aux conteneurs de test, se moquer des réponses HTTP (aioresponses, réponses), se moquer des messages Kafka, se moquer des réponses ClickHouse, tester les chemins d'erreur et les cas extrêmes.
+
+À utiliser dans les cas suivants : tester des passerelles et des adaptateurs, tester des intégrations de services externes, choisir entre des conteneurs fictifs et réels, tester la gestion des erreurs dans les adaptateurs, tester l'intégration avec des services réels.

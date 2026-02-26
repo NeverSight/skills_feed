@@ -1,0 +1,5 @@
+Configure et publie des messages de découverte automatique MQTT pour enregistrer automatiquement les appareils IoT et
+capteurs avec Home Assistant, définissant des charges utiles de découverte avec des classes d'appareils, des classes d'état, des unités,
+et le regroupement d'appareils pour les appareils multi-capteurs. À utiliser lors de l'intégration d'appareils IoT personnalisés, en créant
+Capteurs MQTT, créant des appareils basés sur ESP32/ESP8266/Pi qui s'enregistrent automatiquement auprès de HA, ou implémentant
+modèles MQTT résilients avec mise en file d’attente hors ligne et reconnexion automatique.

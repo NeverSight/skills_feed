@@ -1,0 +1,1 @@
+Répartir les sous-agents en parallèle lorsqu'il existe plus de 2 domaines problématiques indépendants (pannes/sous-systèmes distincts) qui peuvent être étudiés sans état partagé ni dépendances séquentielles ; à éviter lorsque le travail est étroitement couplé, ambigu ou nécessite des décisions de l'agent principal.

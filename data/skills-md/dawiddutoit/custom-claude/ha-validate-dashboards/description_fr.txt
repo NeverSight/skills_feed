@@ -1,0 +1,7 @@
+Fournit une approche de validation à 3 niveaux pour les tableaux de bord Home Assistant, y compris la pré-publication
+validation (vérifications d'entités, structure de configuration), vérification post-publication (analyse des journaux),
+et validation visuelle (console du navigateur, rendu). À utiliser lors de la validation des tableaux de bord HA,
+vérifier les configurations du tableau de bord, vérifier les ID d'entité, déboguer les problèmes de rendu ou avant
+déployer les modifications du tableau de bord. Déclencheurs sur "valider le tableau de bord", "vérifier la configuration HA", "le tableau de bord
+erreurs", "entité introuvable" ou "tableau de bord de test". Fonctionne avec les API WebSocket/REST de Home Assistant,
+Outils MCP d'extension Chrome, générateurs de tableaux de bord Python et configurations de tableaux de bord YAML.

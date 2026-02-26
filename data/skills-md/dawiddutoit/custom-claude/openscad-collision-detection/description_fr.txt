@@ -1,0 +1,8 @@
+Détecte et visualise les intersections géométriques dans les modèles OpenSCAD à l'aide de la fonctionnalité intégrée
+techniques (intersection(), modificateurs de débogage), utilitaires BOSL2 (debug_this, ghost),
+et des modèles de contrôle de collision réutilisables. À utiliser pour vérifier les dégagements des tiroirs, des portes
+interférence de balancement, espacement des étagères, collisions de charnières ou tout chevauchement géométrique dans
+projets de menuiserie. Se déclenche sur « vérifier la collision », « détecter les interférences »,
+« dégagement des tiroirs », « ouverture de la porte », « vérification du chevauchement », « interférence dans l'assemblage » ou
+"tient dans une armoire". Fonctionne avec les fichiers .scad, les modèles woodworkers-lib, BOSL2
+pièces jointes et moteur de collecteur OpenSCAD 2025.

@@ -1,0 +1,4 @@
+Créez des gestionnaires de contexte asynchrones pour la gestion des ressources à l'aide du décorateur @asynccontextmanager.
+À utiliser lors de la gestion de ressources asynchrones, de sessions de base de données, de descripteurs de fichiers, de connexions ou de tout autre
+ressource nécessitant un nettoyage automatique. Fonctionne avec les modèles Python async/wait. Analyses
+Fichiers .py avec des instructions async with, des astuces de type AsyncIterator et des modèles try/finally.

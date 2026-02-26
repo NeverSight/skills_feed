@@ -1,0 +1,4 @@
+Configurez uv (gestionnaire de packages Python basé sur Rust) dans les pipelines CI/CD.
+À utiliser lors de la configuration des workflows GitHub Actions, de GitLab CI/CD, des builds Docker ou des tests matriciels sur les versions de Python.
+Inclut des modèles pour l'optimisation du cache, les fichiers de verrouillage gelés, les builds en plusieurs étapes et la publication PyPI avec publication fiable.
+Couvre l'action de configuration-uv de GitHub Actions, les versions de production/développement en plusieurs étapes de Docker et les modèles de déploiement.

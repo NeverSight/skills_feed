@@ -1,0 +1,6 @@
+Configure les webhooks GitHub pour le déploiement automatique en vérifiant les secrets et le point de terminaison
+accessibilité et configuration de guidage. À utiliser lorsque vous devez ajouter un nouveau dépôt pour
+déploiement automatique, configuration des webhooks GitHub, configuration du déploiement continu ou dépannage
+problèmes de webhooks. Déclencheurs sur « configurer le webhook », « ajouter un webhook pour [dépôt] », « configurer
+"déploiement automatique", "déploiement GitHub" ou "webhook ne fonctionne pas". Fonctionne avec config/hooks.json,
+.env (WEBHOOK_SECRET) et point de terminaison webhook.temet.ai.

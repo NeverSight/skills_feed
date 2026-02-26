@@ -1,0 +1,5 @@
+Détectez les violations du principe de responsabilité unique (SRP) à l’aide d’une analyse multidimensionnelle.
+À utiliser lors de la révision du code pour "SRP", "responsabilité unique", "classe divine", "en faire trop",
+"trop de dépendances", avant les validations, pendant le refactoring ou comme porte de qualité.
+Analyse les fichiers Python, JavaScript, TypeScript avec détection basée sur AST, métriques (TCC, ATFD, WMC),
+et des modèles spécifiques au projet. Fournit des conseils de correction exploitables avec des estimations de refactorisation.

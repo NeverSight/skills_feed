@@ -1,0 +1,4 @@
+Implémentez des producteurs Kafka de type sécurisé pour le streaming d'événements avec la sérialisation msgspec.
+À utiliser lors de la création de producteurs asynchrones/d'attente qui publient des événements de domaine (commandes, transactions, etc.)
+avec validation de schéma, gestion des erreurs, logique de nouvelle tentative et traçage distribué.
+Gère la configuration du producteur, les écritures idempotentes et l'arrêt progressif.

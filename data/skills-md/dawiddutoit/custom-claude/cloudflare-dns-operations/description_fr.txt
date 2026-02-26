@@ -1,0 +1,7 @@
+Effectue des opérations DNS Cloudflare de bas niveau, notamment l'ajout, la mise à jour et la suppression de DNS
+enregistrements, gestion des paramètres de zone et mises à jour DNS dynamiques via l'API Cloudflare. Utiliser quand
+besoin d'une gestion manuelle des enregistrements DNS, de mises à jour DNS dynamiques, d'une configuration des paramètres de zone ou
+opérations en dehors du système de gestion de domaine. Déclencheurs sur "ajouter un enregistrement DNS", "mettre à jour DNS",
+« supprimer l'enregistrement DNS », « DNS dynamique », « API Cloudflare » ou « gestion manuelle du DNS ». Travaux
+avec l'API Cloudflare v4, les scripts d'assistance cf-dns.sh et cf-settings.sh et le curl direct
+Appels API.

@@ -1,0 +1,5 @@
+Ajoute l'instrumentation OpenTelemetry aux méthodes de service en appliquant des décorateurs @traced, une journalisation structurée,
+et propagation de l'ID trace/span pour le traçage distribué. À utiliser lors de l'ajout de nouvelles méthodes de service, du débogage
+des flux complexes, des recherches sur des problèmes de performances ou un traçage distribué entre les couches d'application.
+Déclencheurs sur "ajouter un traçage", "instrumenter cette méthode", "ajouter de l'observabilité", "déboguer avec des traces" ou
+"suivre le flux d'exécution".

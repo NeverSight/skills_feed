@@ -1,0 +1,5 @@
+Extrait les composants Svelte réutilisables du code existant pour améliorer la modularité et réduire la duplication.
+À utiliser lors de la refactorisation de fichiers Svelte volumineux, de la création de composants d'interface utilisateur partagés ou de l'amélioration de la réutilisabilité du code.
+Déclencheurs sur "extraire le composant", "refactoriser le fichier Svelte", "créer un composant réutilisable", "trop de code
+dans un seul fichier", ou "composant divisé". Fonctionne avec les fichiers .svelte en utilisant les runes Svelte 5 ($state, $props,
+$derived), les interfaces d'accessoires appropriées et les modèles d'organisation des fichiers de composants.

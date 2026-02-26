@@ -1,0 +1,6 @@
+Charge les fichiers OpenSCAD avec un contexte de dépendance complet en analysant les instructions use/include,
+résoudre les chemins de bibliothèque et extraire la surface de l'API (modules, fonctions, paramètres).
+À utiliser lorsque vous travaillez avec des fichiers OpenSCAD, déboguez des problèmes de rendu, comprenez le module
+dépendances, ou avant le refactoring. Déclencheurs sur "load scad", "scad-load [file]",
+"charger le contexte openscad", "afficher les dépendances scad" ou lors de l'examen des fichiers .scad.
+Fonctionne avec les fichiers .scad, BOSL2, woodworkers-lib, NopSCADlib et les bibliothèques spécifiques au projet.

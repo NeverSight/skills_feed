@@ -1,0 +1,7 @@
+Guide complet des opérations ClickHouse pour les équipes DevOps et SRE gérant les déploiements de production.
+Fournit des conseils pratiques sur la surveillance des métriques essentielles (latence des requêtes, débit, mémoire, disque),
+introspection des tables système, analyse des performances, stratégies de mise à l'échelle (verticale et horizontale),
+sauvegarde/récupération après sinistre, réglage au niveau des requêtes/serveurs/tables et dépannage des problèmes courants.
+À utiliser pour diagnostiquer les problèmes de ClickHouse, optimiser les performances, planifier la capacité, configurer
+surveillance, mise en œuvre de sauvegardes ou gestion de clusters de production. Comprend la gestion des ressources
+stratégies pour l'espace disque, les connexions et les opérations en arrière-plan, ainsi que des listes de contrôle de production.

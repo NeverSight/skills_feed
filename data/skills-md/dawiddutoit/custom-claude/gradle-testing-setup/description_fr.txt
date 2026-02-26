@@ -1,0 +1,5 @@
+Configure des tests complets dans Gradle, notamment JUnit 5, TestContainers,
+séparation des tests (unité vs intégration) et couverture du code avec JaCoCo.
+À utiliser lorsqu'on vous demande de « configurer JUnit 5 », « configurer TestContainers », « séparer les tests d'intégration »,
+ou "ajouter une couverture de code".
+Fonctionne avec build.gradle.kts, les ensembles de sources de test et les configurations CI/CD.

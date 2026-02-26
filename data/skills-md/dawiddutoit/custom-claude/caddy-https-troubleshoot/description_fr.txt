@@ -1,0 +1,6 @@
+Diagnostique et corrige les problèmes de certificat HTTPS/SSL dans l'infrastructure réseau en vérifiant
+Jetons API, validation de la configuration Caddy et test des certificats. À utiliser lorsque les certificats
+ne sont pas obtenus, HTTPS ne fonctionne pas, voyant des erreurs SSL, "En-tête d'autorisation invalide",
+ou les boucles de redémarrage du Caddy. Déclencheurs sur "HTTPS ne fonctionne pas", "Problème de certificat SSL", "certificat
+erreur", "Caddy ne démarre pas", "corriger HTTPS", "dépanner les certificats" ou "Format invalide
+pour l'en-tête d'autorisation". Fonctionne avec Caddy, le défi Cloudflare DNS-01 et Let's Encrypt.

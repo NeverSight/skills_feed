@@ -1,0 +1,7 @@
+Diagnostique et corrige les problèmes de connectivité Cloudflare Tunnel, y compris les tunnels bloqués,
+échecs de connexion, erreur 1033 et problèmes d'enregistrement de tunnel. Utiliser à distance
+l'accès ne fonctionne pas, le tunnel s'affiche déconnecté dans le tableau de bord, erreur 1033 sur le tunnel
+connexion ou redémarrage du conteneur cloudflared. Se déclenche sur "tunnel ne se connectant pas",
+"tunnel down", "Erreur 1033", "accès à distance interrompu", "réparer le tunnel" ou "cloudflared"
+ne fonctionne pas". Fonctionne avec Cloudflare Tunnel (cloudflared), santé de la connexion QUIC,
+et vérification de l'enregistrement du tunnel.

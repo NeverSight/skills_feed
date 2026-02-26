@@ -1,0 +1,4 @@
+Remplace les écritures directes de la base de données ODBC et les connexions back-end par des modèles d'intégration appropriés basés sur l'API.
+À utiliser lors de la migration de code qui modifie directement les bases de données Lotus Notes via ODBC, en convertissant le backend
+connexions aux API HTTP, en mettant en œuvre des modèles de requête/réponse appropriés ou en établissant des connexions sécurisées
+synchronisation des données.

@@ -1,0 +1,6 @@
+Gérez l'infrastructure NixOS pour ce projet nix flake. Déployez des configurations avec Colmena, gérez les conteneurs Proxmox LXC, dépannez les services et maintenez les serveurs.
+
+À utiliser lorsque : (1) Déploiement de configurations NixOS avec colmena, (2) Gestion des conteneurs Proxmox LXC (démarrage, arrêt, redémarrage, état), (3) Dépannage des problèmes de serveur via SSH ou PCT Exec, (4) Vérification de l'état du service sur les hôtes, (5) Toute tâche de maintenance de l'infrastructure.
+
+Notes d'architecture IMPORTANTES :
+- Tous les serveurs sont des conteneurs Proxmox LXC.

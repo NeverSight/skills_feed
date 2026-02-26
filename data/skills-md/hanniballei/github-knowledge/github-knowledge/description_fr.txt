@@ -1,0 +1,14 @@
+Gestionnaire de base de connaissances GitHub pour stocker, indexer et interroger les référentiels GitHub localement.
+Conserve un fichier d'index BASE.md avec des résumés de tous les dépôts enregistrés.
+
+Déclenchez cette compétence lorsque l'utilisateur pose une question ou fait une demande relative à :
+- Un dépôt GitHub spécifique (télécharger, interroger, analyser, résumer, comparer)
+- Problèmes GitHub, PR, versions ou recherche dans le référentiel
+- 仓库、GitHub项目、开源项目 的下载、查询、分析等操作
+
+Ne déclenchez PAS pour des opérations git non liées (par exemple, "initialiser un dépôt git local", "git commit").
+
+Actions principales :
+1. Demande de téléchargement explicite → exiger une URL → cloner ou extraire → résumer → mettre à jour BASE.md
+2. La requête + le dépôt existe localement → pull → peut-être mettre à jour le résumé → répondre à la question
+3. Requête + dépôt PAS local → rechercher GitHub via gh/curl → répondre à la question (ne pas cloner)

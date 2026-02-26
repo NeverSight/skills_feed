@@ -1,0 +1,6 @@
+Crée et gère les jetons de service Cloudflare Access pour l'infrastructure automatisée
+vérification et accès non humain. À utiliser lors de la configuration de l'automatisation, des scripts de vérification,
+systèmes de surveillance ou besoin de tester des services sans Google OAuth. Déclencheurs sur "créer
+jeton de service", "accès à l'automatisation de la configuration", "vérifier sans OAuth", "surveillance automatisée",
+ou "jeton de service pour les tests". Fonctionne avec Cloudflare Access Service Auth, informations d'identification .env
+stockage et script cf-service-token.sh pour les tests et la gestion.

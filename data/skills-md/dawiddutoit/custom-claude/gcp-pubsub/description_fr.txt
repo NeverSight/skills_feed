@@ -1,0 +1,6 @@
+Implémente l'intégration de Google Cloud Pub/Sub dans Python en configurant des sujets, des abonnements,
+publication/abonnement, files d'attente de lettres mortes et configuration de l'émulateur local. Utiliser lors de la construction
+architectures événementielles, mise en œuvre de files d'attente de messages ou gestion de systèmes à haut débit.
+Déclencheurs sur "configurer Pub/Sub", "publier des messages", "créer un abonnement", "configurer DLQ",
+ou "tester avec émulateur". Fonctionne avec la bibliothèque google-cloud-pubsub et inclut la fiabilité,
+idempotence et modèles de tests.

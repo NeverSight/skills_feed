@@ -1,0 +1,6 @@
+Débogage de tests fondé sur des preuves appliquant une analyse systématique des causes profondes.
+À utiliser lorsque les tests échouent, que des erreurs pytest se produisent, que la suite de tests ne réussit pas,
+déboguer les échecs des tests ou réparer les tests défectueux. Empêche les erreurs basées sur des hypothèses
+corrige en appliquant la séquence de diagnostic appropriée. Fonctionne avec Python (.py),
+JavaScript/TypeScript (.js/.ts), Go, fichiers de test Rust. Prend en charge pytest,
+jest, vitest, moka, go test, cargo test et d'autres frameworks.

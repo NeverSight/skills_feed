@@ -1,0 +1,3 @@
+Stratégie de moquerie principale pour pytest : quand utiliser les simulations autospec=True ou manuelles, les modèles AsyncMock pour le code asynchrone, les constructeurs et les usines simulées, et ce qui ne doit JAMAIS être moqué. Comprend des modèles de création de maquettes de type sécurisé et une matrice de décision pour les objets moqueurs par rapport aux objets réels.
+
+À utiliser dans les cas suivants : création de tests unitaires avec des dépendances simulées, décision de simuler ou d'utiliser des objets réels, configuration de l'isolation des tests, test de cas d'utilisation avec des limites de services externes ou création d'usines simulées réutilisables.

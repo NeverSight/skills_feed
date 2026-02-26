@@ -1,0 +1,5 @@
+Configure et crée des images Docker optimisées à l'aide du plugin Jib de Google sans démon Docker ni Dockerfile.
+À utiliser lors de la conteneurisation des microservices Spring Boot, de la création d'images multi-architectures,
+ou en poussant vers les registres. Déclencheurs sur « configurer Jib », « créer une image Docker », « conteneuriser »
+avec Jib", ou "image multi-arches". Fonctionne avec build.gradle.kts et inclut le plugin Jib
+configuration, configuration multi-modules et intégration CI/CD.

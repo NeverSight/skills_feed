@@ -1,0 +1,1 @@
+Commandes prises en charge : [commit|commit_a commit_b] [--verify] [--apply] [--commit] Compétence interactive de révision des différences git. Analyse la sortie de git diff en morceaux individuels, présente chaque morceau à l'utilisateur avec une analyse des décisions d'acceptation/rejet, vérifie la couverture complète et génère un rapport d'examen Markdown.

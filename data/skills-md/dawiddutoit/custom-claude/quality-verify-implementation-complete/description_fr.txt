@@ -1,0 +1,7 @@
+Vérifie que le code implémenté est effectivement intégré au système et s'exécute au moment de l'exécution,
+éviter les échecs « terminés mais non intégrés ». À utiliser lorsque le marquage des entités est terminé, avant de les déplacer
+ADR au statut terminé, après la mise en œuvre de nouveaux modules/nœuds/services, ou lors de la revendication de « fonctionnalité
+fonctionne". Déclencheurs sur "vérifier l'implémentation", "est-ce intégré", "vérifier si le code est câblé",
+"prouver qu'il fonctionne", ou avant de déclarer le travail terminé. Fonctionne avec les modules Python, les nœuds LangGraph,
+Commandes CLI, points de terminaison d'API et classes de service. Applique la création-connexion-vérification (CCV)
+principe.

@@ -1,0 +1,1 @@
+Compétence utilitaire interne pour régénérer la sortie du site. À utiliser après toute modification de `src/`, `_partials/` ou `site.config.json`, ou chaque fois qu'une autre compétence nécessite des artefacts `dist/` actualisés. Exécute `scripts/build.mjs` à partir du répertoire de compétences installé.

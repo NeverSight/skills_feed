@@ -1,0 +1,7 @@
+Fournit une migration systématique du format de données et une gestion des versions pour les modifications de schéma rétrocompatibles.
+À utiliser lorsque "ajouter une version de données", "migrer le format de données", "format de fichier rétrocompatible",
+"mettre à niveau la v1 vers la v2", "migration de schéma", "prise en charge de l'ancien format de fichier" ou "migrer la structure JSON".
+Couvre les stratégies de numérotation des versions (sémantique, pointée, entière, basée sur la date), la compatibilité ascendante
+modèles (conversion automatique, migration explicite, double format), timing de mise à niveau automatique, dépréciation du champ,
+les listes de contrôle de test et les pièges courants tels que la préservation partielle des données. Fonctionne avec JSON, YAML,
+schémas de base de données et fichiers de configuration en Python, JavaScript, Go, Rust.

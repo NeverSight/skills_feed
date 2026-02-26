@@ -1,0 +1,5 @@
+Tests basés sur les propriétés avec Hypothesis pour les projets Python. À utiliser lors de l'écriture de tests de propriétés,
+tester des invariants, générer des cas de test, des tests fuzz, des tests aller-retour ou valider
+comportement sur de nombreuses entrées. Déclencheurs sur "test de propriété", "test d'hypothèse", "générer un test
+", " tests invariants ", " tests de cas extrêmes ", " tests avec état ", " test aller-retour ".
+Fonctionne avec les fichiers de test Python (.py), les modèles pytest, pytest-asyncio et Pydantic.

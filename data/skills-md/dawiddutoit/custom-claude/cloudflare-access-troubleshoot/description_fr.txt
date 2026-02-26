@@ -1,0 +1,7 @@
+Diagnostique et corrige les problèmes d'authentification Cloudflare Access, y compris Google OAuth
+erreurs, accès refusé après la connexion, boucles de connexion, erreurs CookieMismatch et "ne peut que
+être utilisé au sein de son organisation". À utiliser lorsque l'authentification échoue, accès refusé
+après la connexion à Google, les échecs de redirection ou le blocage des domaines Google par Pi-hole. Déclencheurs activés
+"accès refusé", "OAuth ne fonctionne pas", "boucle de connexion", "CookieMismatch", "ne peut être utilisé que
+au sein de l'organisation », ou « corriger l'authentification Cloudflare Access ». Fonctionne avec Cloudflare
+Accès, Google OAuth, liste blanche Pi-hole et configuration ACCESS_ALLOWED_EMAIL.

@@ -1,0 +1,6 @@
+Crée un référentiel suivant une architecture propre avec un protocole dans la couche de domaine et une mise en œuvre
+dans la couche infrastructure. À utiliser lors de l'ajout d'une nouvelle couche d'accès aux données, de la création d'une interaction avec une base de données,
+implémenter la persistance ou avoir besoin de stocker/récupérer des modèles de domaine. Applique le modèle Protocole/ABC
+avec ServiceResult, le cycle de vie ManagedResource et une séparation appropriée des couches. Déclencheurs sur "créer
+référentiel pour X", "implémenter l'accès aux données pour Y", "ajouter une couche de persistance" ou "stocker/récupérer
+modèle de domaine".

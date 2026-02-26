@@ -1,0 +1,1 @@
+Utilisez gh-checkproxy comme pont API Checks lorsque vous travaillez avec gh CLI ou des compétences basées sur gh et seul un PAT à granularité fine est disponible. Utilisez-le pour récupérer/observer les contrôles PR (vérifications et statuts) via GH_CHECKPROXY_URL, puis continuez le flux de travail demandé par l'utilisateur avec les commandes gh normales.

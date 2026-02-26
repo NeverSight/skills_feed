@@ -1,0 +1,5 @@
+Capture la base de référence des métriques de qualité (tests, couverture, erreurs de type, peluchage, code mort) en exécutant
+portes de qualité et stockage des résultats en mémoire pour la détection de régression. Utiliser au démarrage de la fonctionnalité,
+avant le travail de refactorisation ou après des changements majeurs pour établir une ligne de base. Déclencheurs sur "capture de base",
+"établir une ligne de base", ou de manière PROACTIVE au début de tout travail de fonctionnalité/refactorisation. Fonctionne avec pytest
+sortie, erreurs de droit d'auteur, avertissements de ruff, résultats de vautour et serveur MCP de mémoire pour le stockage de base.

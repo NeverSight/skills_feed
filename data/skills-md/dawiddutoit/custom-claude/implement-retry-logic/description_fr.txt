@@ -1,0 +1,5 @@
+Implémente une logique de nouvelle tentative avec un recul exponentiel et une instabilité pour les opérations asynchrones. Utiliser lors de la mise en œuvre
+appels de service externes, opérations de base de données, requêtes réseau ou toute opération qui
+peut échouer temporairement. Suit les modèles de projet pour l'encapsulation et la configuration de ServiceResult
+modèles d’injection et de résilience. Déclencheurs sur "ajouter une logique de nouvelle tentative pour X", "implémenter une exponentielle
+backoff", "rendre Z résilient" ou "gérer les erreurs transitoires".

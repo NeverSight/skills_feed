@@ -1,0 +1,7 @@
+Détecte, teste et gère les hôtes d'infrastructure SSH distants et les services Docker sur l'ensemble du réseau.
+5 hôtes (infra.local, deus, homeassistant, pi4-motor, armitage). Utiliser lors de la vérification
+état de l'infrastructure, vérification de la connectivité des services, gestion des conteneurs Docker,
+dépannage des services distants, ou avant d'utiliser des ressources distantes (MongoDB, Langfuse,
+OTLP, Neo4j). Déclencheurs sur "vérifier l'infrastructure", "se connecter à infra/deus/ha",
+"tester MongoDB sur infra", "afficher les services Docker", "vérifier la connectivité", "dépanner
+service distant", "quels services sont en cours d'exécution" ou lorsque les connexions à distance échouent.

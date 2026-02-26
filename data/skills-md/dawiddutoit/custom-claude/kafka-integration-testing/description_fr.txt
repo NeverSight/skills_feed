@@ -1,0 +1,4 @@
+Écrivez des tests d'intégration pour les producteurs et les consommateurs Kafka à l'aide de conteneurs de tests.
+À utiliser pour tester les flux de travail producteur/consommateur, vérifier l'ordre des messages, tester
+scénarios d'erreur et validation de la sémantique exactement une fois. Crée des courtiers Kafka de test
+et valide le comportement de streaming de bout en bout sans se moquer.

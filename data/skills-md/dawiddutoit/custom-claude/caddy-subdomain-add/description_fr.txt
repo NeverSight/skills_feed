@@ -1,0 +1,6 @@
+Ajoute de manière interactive un nouveau sous-domaine à l'infrastructure réseau en rassemblant le service
+détails, configuration de domains.toml et application des modifications. À utiliser lorsque vous devez ajouter un
+nouveau service, créez un sous-domaine, exposez une nouvelle application ou configurez un proxy inverse
+pour une prestation. Déclencheurs sur "ajouter un sous-domaine", "nouveau sous-domaine", "ajouter un service au réseau",
+"exposer le service", "créer un domaine pour", "configurer un proxy inverse" ou "ajouter [nom] à
+infrastructures ». Fonctionne avec domains.toml, manage-domains.sh et Cloudflare Tunnel.

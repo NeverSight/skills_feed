@@ -1,0 +1,4 @@
+Empêchez OutOfMemoryError des balises de métriques illimitées en implémentant des limites de cardinalité.
+À utiliser lors de l'ajout de balises aux métriques Micrometer, de la normalisation des URI ou des ID dans des catégories délimitées,
+surveiller l’explosion des métriques ou éviter les champs à cardinalité élevée tels que les ID utilisateur et les ID de demande.
+Critique pour les microservices de production dans GKE avec des backends de surveillance sensibles aux coûts.

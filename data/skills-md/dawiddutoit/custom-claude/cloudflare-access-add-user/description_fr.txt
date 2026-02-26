@@ -1,0 +1,7 @@
+Ajoute de nouveaux utilisateurs à l'authentification Cloudflare Access en mettant à jour ACCESS_ALLOWED_EMAIL dans .env
+et synchroniser les politiques avec tous les services protégés. À utiliser lorsque vous devez accorder l'accès à un nouveau
+utilisateur, ajouter quelqu'un au réseau, partager l'accès au service ou mettre à jour les e-mails autorisés. Déclencheurs
+sur "ajouter un utilisateur auquel accéder", "accorder l'accès à [e-mail]", "ajouter [e-mail] à cloudflare", "partager
+accéder avec", "autoriser [e-mail] à s'authentifier" ou "mettre à jour les utilisateurs d'accès". Fonctionne avec .env,
+update-access-emails.sh et les politiques d'accès Cloudflare pour pihole, jaeger, langfuse,
+services d'arrosage, ha et temet.ai.

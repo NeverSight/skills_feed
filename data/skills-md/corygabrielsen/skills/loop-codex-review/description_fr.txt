@@ -1,0 +1,1 @@
+Boucle de révision de code automatisée avec niveaux de raisonnement progressifs. Exécute n révisions Codex parallèles (configurables via -n), Claude résout les problèmes, passe du raisonnement bas → x élevé jusqu'au point fixe (tout est propre). Approbation humaine à chaque itération.

@@ -1,0 +1,7 @@
+Générez automatiquement des tests de validation de constructeur à partir des signatures de classe de service.
+À utiliser lors de la création de tests pour de nouveaux services, en validant le principe de défaillance rapide,
+assurer la validation du constructeur ou tester les paramètres requis. Analyses
+service les méthodes __init__ et génère des tests pytest.raises(ValueError)
+pour chaque paramètre requis. Fonctionne avec les classes de service Python suivantes
+modèle d’injection de dépendance. Forte opportunité d'automatisation (plus de 100 classes de test
+utilisez ce modèle).

@@ -1,0 +1,4 @@
+Implémentez des consommateurs Kafka de type sécurisé pour la consommation d'événements avec la désérialisation msgspec.
+À utiliser lors de la création de consommateurs asynchrones qui traitent les événements de domaine (messages de commande, transactions)
+avec gestion des décalages, récupération des erreurs, arrêt progressif et traçage distribué.
+Gère la configuration du consommateur, les validations manuelles et les stratégies de rééquilibrage.

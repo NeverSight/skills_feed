@@ -1,0 +1,6 @@
+Exécute des contrôles de santé complets et génère des rapports d'état pour l'infrastructure réseau
+prestations. Vérifie les conteneurs Docker, valide le proxy inverse Caddy, vérifie le DNS Pi-hole,
+confirme la connectivité Cloudflare Tunnel et valide les certificats SSL. À utiliser lors de la vérification
+l'état de l'infrastructure, le diagnostic des problèmes de connectivité, la vérification de l'état du service ou
+dépannage des problèmes de réseau. Déclencheurs sur "vérifier l'état de santé", "état de l'infrastructure",
+"Est-ce que tout fonctionne", "diagnostiquer le réseau", "état du service" ou "vérifier SSL".

@@ -1,0 +1,1 @@
+Workflow d'adaptation d'énumération spécifique au matériau : récupérez les valeurs d'énumération à partir de l'API du fournisseur, laissez LLM remplir le nom_suggéré, puis appliquez le correctif avec aptx-ft pour générer les modèles TypeScript finaux. À utiliser uniquement lorsque des règles de dénomination matérielle sont requises.

@@ -1,0 +1,7 @@
+Crée des procédures de sauvegarde automatisées, exécute des opérations de restauration et met en œuvre un sinistre
+workflows de récupération pour l’infrastructure réseau. À utiliser lors de la sauvegarde de l'infrastructure avant
+modifications, préparation à la reprise après sinistre, migration vers un nouveau serveur ou restauration après une panne.
+Déclencheurs sur « infrastructure de sauvegarde », « restauration à partir d'une sauvegarde », « récupération après sinistre », « sauvegarde avant
+mise à niveau" ou "migrer l'infrastructure". Fonctionne avec les volumes Docker (caddy_data, pihole_data),
+fichiers de configuration (docker-compose.yml, domains.toml) et secrets .env utilisant des archives tar
+et les commandes docker composent.

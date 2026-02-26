@@ -1,0 +1,8 @@
+Génère des listes de coupes de menuiserie à partir de conceptions de meubles OpenSCAD à l'aide de woodworkers-lib
+bibliothèque. Automatise l'extraction des dimensions des panneaux à partir de la sortie ECHO pour les meubles, les armoires,
+armoires et étagères. À utiliser lors de la conception de meubles avec des panneaux en contreplaqué/MDF,
+générer des listes de coupes pour le routage CNC ou la découpe manuelle, ou préparer les données pour la feuille
+outils d'optimisation. Déclencheurs sur « générer une liste de coupes », « extraire les dimensions du panneau »,
+"liste de coupe de meubles", "sortie ECHO pour le travail du bois", ou lorsque vous travaillez avec planeLeft/planeRight/
+modules planeTop/planeBottom/planeFront/planeBack. Fonctionne avec les fichiers .scad en utilisant
+bibliothèque woodworkers-lib.

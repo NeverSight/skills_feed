@@ -1,0 +1,6 @@
+Gère les dépendances Gradle à l'aide de catalogues de versions, de nomenclatures et de contraintes de dépendance.
+A utiliser lors de la mise en place de la gestion des dépendances, de la centralisation des versions, de la résolution des conflits,
+ou la configuration du partage de dépendances multi-modules. Déclencheurs sur le "catalogue de versions d'installation",
+"centraliser les dépendances", "résoudre les conflits de versions" ou "configurer Gradle BOM".
+Fonctionne avec gradle/libs.versions.toml et inclut la nomenclature, les contraintes de dépendance,
+et intégration Spring Boot/GCP BOM.

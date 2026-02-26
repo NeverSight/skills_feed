@@ -1,0 +1,5 @@
+Recettes de test pour des scénarios TUI textuels spécifiques. Fournit « comment tester X ? » modèles
+pour les besoins de tests courants. À utiliser lorsque : tester les raccourcis clavier, les transitions d'écran, la mise au point
+gestion, attributs réactifs, messages/événements personnalisés, effets de style CSS, tables de données,
+défilement, validation des entrées, états d’erreur/chargement ou travailleurs en arrière-plan. Chaque motif
+montre le test complet avec une gestion asynchrone et des assertions appropriées.

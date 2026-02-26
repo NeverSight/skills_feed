@@ -1,0 +1,7 @@
+Validez et optimisez les fichiers CLAUDE.md en utilisant les meilleures pratiques d'Anthropic pour des sessions ciblées.
+Détecte les contradictions, la redondance, la longueur excessive (plus de 200 lignes), la surutilisation de l'accent (densité de plus de 2 %),
+liens brisés et sections orphelines. Marque la santé de 0 à 50 points. Suggère des correctifs automatisés sûrs
+et les opportunités d’extraction. À utiliser lors de l'édition de CLAUDE.md, avant les validations, lorsque le document s'agrandit
+au-delà de 200 lignes, l'utilisateur dit "optimiser CLAUDE.md", "vérifier les contradictions", "valider la documentation",
+ou lors des revues trimestrielles. Fonctionne avec les fichiers projet et globaux CLAUDE.md (extension .md).
+Basé sur les meilleures pratiques d’ingénierie du contexte Anthropic 2025.

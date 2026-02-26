@@ -1,0 +1,5 @@
+Analyse les transcriptions de session Claude Code (fichiers JSONL) pour révéler le contenu de la fenêtre contextuelle, les modèles d'utilisation des jetons,
+et les processus de prise de décision à l'aide de l'outil view_session_context.py. À utiliser lors du débogage du comportement de Claude,
+enquêter sur les modèles de jetons, suivre la délégation d’agent ou analyser l’épuisement du contexte. Déclencheurs activés
+"pourquoi Claude a-t-il fait X", "analyser la session", "vérifier les journaux de session", "épuisement de la fenêtre contextuelle", ou
+"suivre la délégation des agents".

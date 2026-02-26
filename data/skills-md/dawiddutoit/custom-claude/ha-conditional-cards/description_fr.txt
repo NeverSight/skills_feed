@@ -1,0 +1,4 @@
+Implémente une visibilité conditionnelle pour les cartes du tableau de bord Home Assistant à l'aide de state, numeric_state,
+écran, utilisateur, heure et/ou conditions via le wrapper conditionnel de la carte et la visibilité par carte
+propriété. À utiliser lorsqu'on vous demande de "masquer la carte quand", "afficher uniquement si", "tableau de bord spécifique à l'utilisateur",
+« cartes mobiles ou de bureau », « visibilité conditionnelle » ou « afficher la carte en fonction de l'état/de l'heure/de l'utilisateur ».

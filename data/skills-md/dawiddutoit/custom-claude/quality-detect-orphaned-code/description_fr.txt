@@ -1,0 +1,6 @@
+Détecte le code orphelin (fichiers/fonctions qui existent mais ne sont jamais importés ou appelés en production),
+éviter les échecs « créés mais non intégrés ». À utiliser avant de marquer les fonctionnalités terminées, avant de déplacer
+ADR à réaliser, lors des revues de code ou dans le cadre des contrôles de qualité. Déclencheurs sur "détecter le code orphelin",
+"trouver le code mort", "vérifier les modules inutilisés", "vérifier l'intégration" ou de manière proactive avant la fin.
+Fonctionne avec les modules, fonctions, classes et nœuds Python LangGraph. Détecte le modèle de défaillance ADR-013
+où le code existe et les tests réussissent mais ne sont jamais intégrés.

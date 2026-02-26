@@ -1,0 +1,13 @@
+Crée des enregistrements de décisions d'architecture (ADR) et effectue des recherches approfondies pour les décisions techniques
+en utilisant un flux de travail structuré en 5 phases : recherche, analyse, décision, documentation et stockage en mémoire.
+
+À utiliser lorsqu'on lui demande de « créer un ADR », « décision architecturale pour », « pointe de recherche sur », « évaluer
+options pour", "documenter la décision technique", "devrions-nous utiliser X ou Y", ou lors de la comparaison des
+alternatives.
+
+Fournit une évaluation systématique (minimum 2-3 alternatives), une analyse des compromis, des conséquences
+documentation et persistance du graphique mémoire. Gère le cycle de vie ADR sur not_started, in_progress,
+et mis en œuvre des répertoires avec une numérotation et un suivi de statut appropriés.
+
+Fonctionne avec les répertoires docs/adr/, les modèles ADR, les outils de mémoire MCP et les outils de recherche externes
+(WebSearch, WebFetch, documents de la bibliothèque context7).

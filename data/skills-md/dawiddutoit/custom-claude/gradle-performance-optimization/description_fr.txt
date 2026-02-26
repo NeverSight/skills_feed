@@ -1,0 +1,6 @@
+Optimise les performances de build Gradle grâce à des stratégies de mise en cache, un cache de configuration, un fonctionnement parallèle
+l'exécution et le réglage de la mémoire pour obtenir des builds 50 à 80 % plus rapides pour les grands projets. Utiliser quand
+les builds sont lentes (> 2 minutes), optimisant les pipelines CI/CD ou configurant de nouveaux projets Gradle.
+Déclencheurs sur « accélérer Gradle », « ralentir les builds », « optimiser CI/CD », « réduire le temps de build » ou
+"configurer les performances de Gradle". Fonctionne avec gradle.properties, build.gradle.kts, GitHub Actions,
+et les configurations GitLab CI utilisant le cache de construction, le cache de configuration et l'exécution parallèle.

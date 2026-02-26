@@ -1,0 +1,5 @@
+Évalue et évite les abstractions inutiles en analysant les interfaces, les couches et les modèles
+contre des exigences concrètes. À utiliser lors de l'évaluation de nouvelles abstractions, de l'examen des propositions d'architecture,
+détecter la sur-ingénierie ou simplifier le code existant. Se déclenche sur "cette abstraction est-elle nécessaire",
+"trop de couches", "simplifier l'architecture", "réduire la complexité", "sur-ingénierie", "avons-nous besoin
+cette interface", ou lors de la révision des modèles de conception.

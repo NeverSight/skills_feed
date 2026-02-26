@@ -1,0 +1,5 @@
+Modèles de luminaires Pytest pour les tests d'applications textuelles TUI. Crée un test réutilisable
+code de configuration comprenant des usines d'applications, des wrappers pilotes, des appareils fictifs et des modèles asynchrones.
+À utiliser lorsque : configuration d'une infrastructure de test pour les applications textuelles, création de tests réutilisables
+montages, moquerie des dépendances externes (API, bases de données, heure), organisation de conftest.py,
+ou réduire le passe-partout des tests. Couvre les appareils asynchrones, les modèles d'usine et les stratégies simulées.

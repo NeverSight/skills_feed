@@ -1,0 +1,6 @@
+Manipulation complète de PDF à l'aide de pypdf, pdfplumber et ReportLab pour l'extraction de texte,
+analyse de tableaux, création de documents, fusion/fractionnement et remplissage de formulaires. À utiliser lorsqu'on vous le demande
+"extraire le texte d'un PDF", "remplir un formulaire PDF", "fusionner des PDF", "créer un document PDF", "diviser un PDF
+pages", ou "analyser les tableaux PDF". Fournit des flux de travail basés sur Python pour le traitement programmatique des PDF
+à grande échelle, y compris le filigrane, le cryptage et la manipulation des métadonnées. Fonctionne avec les fichiers .pdf
+via pypdf pour les opérations de base, pdfplumber pour les tableaux et ReportLab pour la génération de PDF.

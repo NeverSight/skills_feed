@@ -1,0 +1,4 @@
+Guider le placement des tests dans la couche pyramidale de test correcte (unité/intégration/e2e).
+À utiliser lors de la création de nouveaux fichiers de test, du choix de la couche de test, de l'organisation de la structure de test,
+ou déterminer la portée du luminaire. Analyse les modèles moqueurs, les dépendances et la portée des tests
+pour recommander le placement correct des couches. Fonctionne avec les fichiers de test pytest (test_*.py).

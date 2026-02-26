@@ -1,0 +1,7 @@
+Diagnostique et corrige les problèmes de résolution DNS dans l'infrastructure réseau, notamment
+Pi-hole ne se résout pas localement, configuration DNS du routeur et vérification des enregistrements DNS.
+À utiliser lorsque les services ne sont pas accessibles via les noms de domaine, "impossible d'accéder à pihole.temet.ai",
+Le DNS ne se résout pas ou doit vérifier les enregistrements DNS Pi-hole. Déclencheurs sur "DNS ne fonctionne pas",
+"Impossible de résoudre le domaine", "Domaine introuvable", "Problème DNS Pi-hole", "Réparer le DNS" ou
+"dépanner la résolution DNS". Fonctionne avec Pi-hole DNS, docker-compose.yml FTLCONF
+variables et la résolution DNS du réseau local.

@@ -1,0 +1,1 @@
+Utilisez @aptx/api-plugin-csrf pour ajouter une protection CSRF. Condition de déclenchement : lorsque le code doit ajouter un jeton CSRF aux requêtes, configurer les noms de cookies/en-têtes, gérer la lecture des cookies dans les environnements SSR/Node ou utiliser createCsrfMiddleware.

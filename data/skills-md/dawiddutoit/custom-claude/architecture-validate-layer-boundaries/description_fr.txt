@@ -1,0 +1,9 @@
+Valide les limites des couches Clean Architecture en détectant les violations d'importation dans l'ensemble du domaine,
+couches d'application, d'infrastructure et d'interfaces à l'aide d'une analyse basée sur grep.
+
+À utiliser lorsqu'on vous demande de « valider l'architecture », « vérifier les limites des couches », « vérifier l'architecture propre »,
+"valider mes modifications en suivant Clean Architecture", ou avant de valider les modifications architecturales.
+couche, couche d'interfaces, règles de dépendances, validation architecturale.
+
+Fonctionne avec des fichiers Python dans des projets d'architecture en couches (domaine/, application/, infrastructure/,
+interfaces/répertoires).
