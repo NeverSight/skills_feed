@@ -1,0 +1,6 @@
+GitHub Actions を含む CI/CD プラットフォーム用の Gradle ビルドを構成します。
+GitLab CI、Jenkins、CircleCI。自動ビルドをセットアップするときに使用します。
+キャッシュ戦略の構成、パイプラインでのテストの実行、またはビルド
+CI の Docker イメージ。 「Gradle CI のセットアップ」、「GitHub アクションの構成」でトリガーされます。
+「ビルド キャッシュの最適化」または「Gradle の CI パイプライン」。 .github/workflows で動作します。
+.gitlab-ci.yml、Jenkinsfile には、パフォーマンスの最適化とアーティファクトの処理が含まれています。

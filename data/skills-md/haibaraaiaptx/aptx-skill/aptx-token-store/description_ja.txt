@@ -1,0 +1,1 @@
+@aptx/token-store を使用して、トークンの永続性を定義または実装します。対象: TokenStore インターフェイスの実装、同期/非同期 API (getToken/setToken/clearToken) のサポート、オプションのメタデータ メソッド、さまざまなストレージ バックエンド (Cookie、localStorage、ミニプログラム、メモリ) の実装、@aptx/api-plugin-auth の操作。コードがカスタム TokenStore を実装する必要がある場合にトリガーされます。

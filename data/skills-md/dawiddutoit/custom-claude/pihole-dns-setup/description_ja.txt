@@ -1,0 +1,6 @@
+*.temet.ai のローカル ネットワーク解決を有効にするために Pi-hole ローカル DNS レコードを構成します
+ドメイン。 DNS のセットアップ、ローカル DNS エントリの追加、Pi-hole DNS の構成が必要な場合に使用します。
+DNS 解決のトラブルシューティングを行うか、サービスをローカルで解決します。 「DNS のセットアップ」でトリガーされます。
+「Pi-hole DNS を構成する」、「DNS レコードを追加する」、「DNS が解決しない」、「ローカル DNS セットアップ」、または
+「[サービス].temet.ai にローカルでアクセスできないのはなぜですか。」 Pi-hole コンテナ、domains.toml で動作します。
+docker-compose.yml および manage-domains.sh。

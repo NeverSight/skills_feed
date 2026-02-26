@@ -1,0 +1,1 @@
+機能の実装、バグの修正、正式な計画外のコード変更を行うためのアドホック開発ワークフロー。コードベースで何かを実装、追加、修正、構築、または作成するように求められた場合に使用します。ドメイン スキル (postgres-expert、server-action-builder、react-form-b​​uilder、service-builder、playwright-e2e) にルーティングし、コンテキスト コンパクト リカバリのためのタスク追跡を強制し、参照ベースの build-test-verify ループに従います。大規模なマルチフェーズ機能には使用しないでください。代わりに /create-plan + /implement を使用してください。

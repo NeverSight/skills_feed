@@ -1,0 +1,1 @@
+pytest-asyncio パターンを使用して、適切なフィクスチャとモックを使用して非同期テストを設定します。非同期関数のテスト、非同期フィクスチャの作成、非同期サービスのモック、または非同期コンテキスト マネージャーの処理を行う場合に使用します。 @pytest_asyncio.fixture、side_effect を備えた AsyncMock、非同期ジェネレーター フィクスチャ (yield)、および非同期コンテキスト マネージャーのテストについて説明します。 Python async/await パターン、pytest-asyncio、unittest.mock.AsyncMock で動作します。

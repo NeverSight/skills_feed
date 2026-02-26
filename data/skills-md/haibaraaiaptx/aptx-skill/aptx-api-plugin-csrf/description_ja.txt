@@ -1,0 +1,1 @@
+@aptx/api-plugin-csrf を使用して CSRF 保護を追加します。トリガー条件: コードでリクエストに CSRF トークンを追加する必要がある場合、Cookie/ヘッダー名の構成、SSR/Node 環境での Cookie 読み取りの処理、または createCsrfMiddleware の使用が必要な場合。

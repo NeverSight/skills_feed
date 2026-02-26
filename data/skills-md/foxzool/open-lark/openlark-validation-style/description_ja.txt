@@ -1,0 +1,1 @@
+OpenLark Rust SDK の機能クレート パラメーター検証仕様 (必須フィールド検証)。 `validate()` 実装を統合/レビューするとき、またはユーザーが `openlark_core::validate_required` (関数) と `openlark_core::validate_required!` (マクロ) の違い、マクロが必要かどうか、空白文字列の処理などについて質問するときに使用します。

@@ -1,0 +1,5 @@
+GKE ポッド間の安全なキーレス認証のための Workload Identity を実装します。
+Google Cloud サービス。 Pub/Sub にポッド認証を設定するときに使用します。
+Cloud SQL、Secret Manager、またはその他の GCP サービス。サービスアカウントキーを削除します
+管理を強化し、セキュリティ爆発範囲を縮小し、最小特権アクセスを実装します。
+パターン。 Spring Boot アプリケーションおよび IAM バインディングで動作します。

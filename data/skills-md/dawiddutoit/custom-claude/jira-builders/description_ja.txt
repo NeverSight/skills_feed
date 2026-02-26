@@ -1,0 +1,1 @@
+jira-tool CLI を正しく使用して、豊富な形式の Jira チケットを作成および管理するためのガイド。 Jira チケット、エピック、またはエクスポートを操作するときに使用します。 「Jira チケットの作成」、「Jira の検索」、「Jira チケットの取得」、「Jira データのエクスポート」、「エピックのリスト」、または任意の Jira API オペレーションでトリガーされます。 jira_tool Python モジュールをインポートしようとしたり、curl を不必要に使用しようとしたりするようなよくある間違いを防ぎます。 jira-tool CLI コマンドおよび環境変数 (JIRA_BASE_URL、JIRA_USERNAME、JIRA_API_TOKEN) で動作します。

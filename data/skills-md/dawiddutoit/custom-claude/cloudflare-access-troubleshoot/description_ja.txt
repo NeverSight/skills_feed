@@ -1,0 +1,7 @@
+Google OAuthを含むCloudflare Access認証の問題を診断して修正します
+エラー、ログイン後のアクセス拒否、ログイン ループ、CookieMismatch エラー、および「できるのは
+組織内で使用する必要があります」というエラーが表示されます。認証が失敗し、アクセスが拒否された場合に使用します
+Google ログイン後、リダイレクトの失敗、または Pi-hole による Google ドメインのブロック。トリガーオン
+「アクセスが拒否されました」、「OAuth が機能していません」、「ログイン ループ」、「CookieMismatch」、「のみ使用できます」
+組織内で」、または「Cloudflare Access 認証を修正」。 Cloudflareと連携
+アクセス、Google OAuth、Pi-hole ホワイトリスト、ACCESS_ALLOWED_EMAIL 構成。

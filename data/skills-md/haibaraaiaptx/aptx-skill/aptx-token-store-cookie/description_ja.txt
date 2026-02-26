@@ -1,0 +1,1 @@
+@aptx/token-store-cookie を使用して、Cookie ベースのトークン ストレージを実装します。コードがブラウザ Cookie に認証トークンを保存する必要がある場合に使用します: (1) 構成可能なトークン/メタ Cookie 名、(2) Cookie の有効期限切れへの自動expiresAt 同期、(3) Cookie オプション (path/sameSite/secure)、(4) createCookieTokenStore API 統合

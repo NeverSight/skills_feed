@@ -1,0 +1,1 @@
+@aptx/api-plugin-retry を使用してリクエストの再試行を実装します。再試行回数を構成し、固定または動的遅延戦略を設定し、retryOn 述語 (NetworkError/TimeoutError) を定義し、非冪等リクエストの再試行を防止し、再試行回数を追跡し、createRetryMiddleware API を提供します。コードに再試行機能または createRetryMiddleware が必要な場合にトリガーされます。

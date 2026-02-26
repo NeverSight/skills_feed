@@ -1,0 +1,6 @@
+シークレットを検証し、エンドポイントを確認することにより、GitHub Webhook を自動デプロイ用に構成します
+アクセシビリティとガイド構成。新しいリポジトリを追加する必要がある場合に使用します。
+自動デプロイ、GitHub Webhook の構成、継続的デプロイのセットアップ、またはトラブルシューティング
+Webhook の問題。 「Webhook のセットアップ」、「[repo] の Webhook の追加」、「構成」でトリガー
+自動デプロイ」、「GitHub デプロイ」、または「Webhook が機能しない」。 config/hooks.json で動作します。
+.env (WEBHOOK_SECRET)、および webhook.temet.ai エンドポイント。

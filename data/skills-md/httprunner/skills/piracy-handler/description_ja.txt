@@ -1,0 +1,1 @@
+著作権侵害の検出と後処理オーケストレーター。 wechat-search-collector 包括的なページ タスクの完了後に使用され、capture_results で著作権侵害検出を実行するか、サブタスクを作成するか、Webhook スケジュールを作成するか、サブタスクの終了後に Webhook ディスパッチ/リコンサイルを実行します。 Capture_results データ ソースとして sqlite または supabase をサポートします。
