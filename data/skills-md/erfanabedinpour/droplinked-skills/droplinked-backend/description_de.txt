@@ -1,0 +1,14 @@
+Codestil, Architekturmuster und Entwicklungsleitfaden für das Droplinked-E-Commerce-Backend.
+NestJS + Prisma (MongoDB) mit strenger Schichtarchitektur: Controller über Service-Fassade bis UseCase bis Repository.
+
+Verwenden Sie diese Fähigkeit, wenn:
+(1) Erstellen neuer Funktionen, Module oder Endpunkte im Droplinked-Backend
+(2) Refactoring des vorhandenen Codes, um Projektmustern zu folgen
+(3) Schreiben von Tests für Anwendungsfälle und Dienste
+(4) Überprüfung des Codes auf Architekturkonformität
+(5) Verständnis des Datenmodells (Shops, Produkte, Bestellungen, Warenkörbe, Händler, Kunden)
+(6) Implementierung der modulübergreifenden Kommunikation
+(7) Hinzufügen ereignisgesteuerter Nebenwirkungen
+(8) Arbeiten mit Prisma und MongoDB in dieser Codebasis
+
+Auslöser: Droplinked, Nest-Modul, Anwendungsfall, Service-Fassade, Repository-Muster, Warenkorb, Bestellung, Shop, Produkt, Händler

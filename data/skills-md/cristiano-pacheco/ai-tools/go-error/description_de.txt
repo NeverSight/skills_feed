@@ -1,0 +1,1 @@
+Generieren Sie benutzerdefinierte Go-Fehler gemäß den Konventionen der modularen GO-Architektur mithilfe von Bricks errs.New(code, message, httpStatus, details). Verwenden Sie diese Option, wenn Sie neue Domänenfehler erstellen, internal/modules/<module>/errs/errs.go erweitern oder Fehlercodes/Nachrichten/Status über Module hinweg standardisieren.

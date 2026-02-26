@@ -1,0 +1,19 @@
+NUR verwenden, wenn NEUE registrierbare Komponenten in ML-Projekten erstellt werden, die Factory-/Registrierungsmuster erfordern.
+
+✅ VERWENDEN, wenn:
+- Erstellen einer neuen Dataset-Klasse (benötigt @register_dataset)
+- Erstellen einer neuen Model-Klasse (benötigt @register_model)
+- Erstellen eines neuen Modulverzeichnisses mit der Fabrik __init__.py
+- Initialisierung einer neuen ML-Projektstruktur von Grund auf
+- Hinzufügen neuer Komponententypen (Augmentation, CollateFunction, Metrics)
+
+❌ NICHT VERWENDEN, wenn:
+- Ändern bestehender Funktionen oder Methoden
+- Behebung von Fehlern im vorhandenen Code
+- Hinzufügen von Hilfsfunktionen oder Dienstprogrammen
+- Refactoring ohne Hinzufügen neuer registrierbarer Komponenten
+- Einfache Codeänderungen an einer einzelnen Datei
+- Ändern von Konfigurationsdateien
+- Vorhandenen Code lesen oder verstehen
+
+Schlüsselindikator: Erfordert die Aufgabe einen @register_*-Dekorator oder ein Factory-Muster? Wenn nein, überspringen Sie diese Fertigkeit.
