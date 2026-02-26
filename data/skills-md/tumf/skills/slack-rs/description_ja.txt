@@ -1,0 +1,1 @@
+Slack-rs CLI (Rust) による Slack Web API の自動化。 OAuth (PKCE) 経由で Slack への認証を行い、複数のワークスペース プロファイルを管理し、任意の Slack Web API メソッド (chat.postMessage、conversation.list、users.info など) を呼び出し、ターミナルから安全なスクリプト化された Slack 操作を実行する必要がある場合に使用します。トンネル支援リモート ログイン (auth login --help を参照)、暗号化されたプロファイルのエクスポート/インポート、SLACKCLI_ALLOW_WRITE による書き込み安全保護が含まれます。認証情報は、~/.config/slack-rs/ の下のファイルベースのストレージに保存されます。

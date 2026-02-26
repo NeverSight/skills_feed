@@ -1,0 +1,4 @@
+ダイレクト API 経由で Discord メッセージを送信します。次の場合に使用します。
+(1) クロスチャネルメッセージング (Telegram→Discord、Slack→Discord)
+(2) OpenClaw ネイティブでは「クロスコンテキスト メッセージングが拒否されました」と表示されます。
+$DISCORD_BOT_TOKEN を使用します - Composio は必要ありません。

@@ -1,0 +1,3 @@
+Service Worker のライフサイクル、キャッシュ戦略、バックグラウンド同期、プッシュ通知、プログレッシブ Web アプリの静的ルーティング。 Workbox v7.4 戦略 (CacheFirst、NetworkFirst、StalewhileRevalidate)、アプリ シェルのワークボックス プリキャッシュ、クロスブラウザー フォールバックを備えたバックグラウンド同期 API、VAPID キーを備えたプッシュ API、および Service Worker 静的ルーティング API (Chrome 123 以降) について説明します。
+
+Service Worker の登録、オフライン キャッシュの実装、バックグラウンド同期の構成、プッシュ通知の追加、静的ルートによるフェッチ処理の最適化、または Service Worker とローカルファースト同期エンジンの統合を行う場合に使用します。

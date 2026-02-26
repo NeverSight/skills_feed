@@ -1,0 +1,1 @@
+プロジェクトを分析し、Docker 構成を生成します: Dockerfile (マルチステージ開発/本番)、compose.yml、compose.override.yml (開発)、compose.production.yml (強化)、および .dockerignore。本番環境のセキュリティ監査が含まれます。ユーザーが「dockerize」、「docker の追加」、「docker compose」、「containerize」、または「setup docker」と言うときに使用します。

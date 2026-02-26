@@ -1,0 +1,1 @@
+Nuxt 3 および Nuxt 4 の nuxt-users モジュールを構成して使用します。認証、ユーザー管理、ロール、パスワードのリセット、データベースのセットアップ (SQLite/MySQL/PostgreSQL)、または CLI コマンド (移行、作成ユーザー) を追加するときに使用します。 nuxt.config (nuxtUsers)、コンポーザブル (useAuthentication、useUsers、usePublicPaths、usePasswordValidation、useNuxtUsersLocale)、コンポーネント (NUsersLoginForm、NUsersLogoutLink など)、および承認 (ホワイトリスト、権限) について説明します。

@@ -1,0 +1,1 @@
+2 ステップの検索→取得ワークフロー (curl + jq、MCP なし) を使用して、REST API 経由で Google 開発者ドキュメントの検索を調整します。 Google API ドキュメントをスクレイピングまたは推測する前に、最初に呼び出します。docs.cloud.google.com、firebase.google.com、developer.android.com、ai.google.dev を含む 11 のインデックス付きサイトから新しい Markdown を返します。 「Google ドキュメントを確認する」、「Firebase ドキュメントを検索する」、「クラウド ドキュメントに何と記載されているか」、「Google API ドキュメント」、「Google 開発者ドキュメントを検索」でトリガーされます。 （ユーザー）

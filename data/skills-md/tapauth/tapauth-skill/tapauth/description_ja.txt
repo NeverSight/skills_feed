@@ -1,0 +1,1 @@
+AI エージェント用の OAuth トークン ブローカー。 2 つの API 呼び出しで、Google、GitHub、Slack、Linear、Notion、Vercel、Sentry、Asana、Dropbox、Figma、および 20 以上のプロバイダーのアクセス トークンを取得します。エージェントが OAuth 認証、API トークン、ユーザー認証、またはサードパーティ サービスへのアクセスを必要とする場合に使用します。完全な OAuth フロー (リダイレクト URL、同意画面、トークン交換、更新) を処理するため、エージェントはその必要がありません。 Claude Code、Cursor、Codex、OpenClaw、および認証された API アクセスを必要とするあらゆるコーディング エージェントで動作します。

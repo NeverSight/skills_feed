@@ -1,0 +1,3 @@
+アプリケーション開発者向けのコア AWS サービス。 S3 (ストレージ、署名付き URL、ライフサイクル)、Lambda (関数、レイヤー、コールド スタート)、IAM (ロール、ポリシー、最小権限)、DynamoDB (単一テーブル設計、GSI/LSI、ストリーム)、SQS/SNS (キュー、トピック、ファンアウト)、CloudFront (CDN、キャッシュ)、RDS/Aurora (Postgres/MySQL、接続プーリング)、 ECR/ECS/Fargate (コンテナー)、Route 53 (DNS)、Secrets Manager、および CDK v2 (TypeScript IaC、コンストラクト、スタック、テスト)。
+
+AWS インフラストラクチャの構築、CDK スタックの作成、IAM ポリシーの構成、DynamoDB テーブルの設計、Lambda 関数の設定、S3 署名付き URL の作成、ECS/Fargate へのコンテナのデプロイ、または CloudFront ディストリビューションの構成を行うときに使用します。
