@@ -1,0 +1,1 @@
+ALWAYS load before starting any task. Defines systematic recovery procedures when things go wrong during execution. Covers tool failures, build errors, test failures, type errors, and unexpected runtime results. Includes tiered escalation (retry, fallback, memory-informed diagnosis, orchestrator escalation) and post-recovery logging to prevent recurrence.
