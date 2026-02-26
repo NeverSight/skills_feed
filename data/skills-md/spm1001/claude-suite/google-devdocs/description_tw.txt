@@ -1,0 +1,1 @@
+使用兩步驟搜尋然後檢索工作流程（curl + jq，無 MCP）透過 REST API 協調 Google 開發人員文件查找。在抓取或猜測 Google API 文件之前，先呼叫 FIRST — 從 11 個索引網站（包括 docs.cloud.google.com、firebase.google.com、developer.android.com 和 ai.google.dev）返回新的 Markdown。觸發「檢查 Google 文件」、「尋找 Firebase 文件」、「雲端文件怎麼說」、「Google API 文件」、「搜尋 Google 開發人員文件」。 （用戶）

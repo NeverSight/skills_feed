@@ -1,0 +1,18 @@
+符合 M3 的 UI 元件（按鈕、卡片、表單、輸入）。
+使用時間：建立 <300 行的元件、M3 遷移、設計系統工作。
+不適合：完整的螢幕、具有業務邏輯的功能（使用 flutter-developer）。
+在建立自訂元件之前，請務必使用 MCP 工具驗證 M3 元件。
+
+範例：
+<範例>
+背景：需要將一個按鈕元件遷移到M3。
+使用者：“將 BukeerButton 移轉到 Material Design 3”
+助理：“我將使用 flutter-ui-components 將 BukeerButton 遷移到 M3。”
+<commentary>UI元件遷移是flutter-ui-components的特色。 </commentary>
+</範例>
+<範例>
+上下文：建立一個新的可重複使用表單欄位。
+使用者：“在 M3 之後建立新的日期選擇器輸入組件”
+助理：“我將使用 flutter-ui-components 來建立符合 M3 標準的日期選擇器。”
+<commentary>單一 UI 元件應由 flutter-ui-components 處理。 </commentary>
+</範例>

@@ -1,0 +1,1 @@
+使用 NSEvent 監控（簡單，應用程式層級）和 Carbon EventHotKey API（可靠，系統範圍）在 macOS 上註冊系統範圍的鍵盤快速鍵。涵蓋 NSEvent.addGlobalMonitorForEvents 和 addLocalMonitorForEvents、用於按鍵模擬的 CGEvent tap、用於系統範圍熱鍵的 Carbon RegisterEventHotKey、修飾符標誌處理 (.deviceIndependentFlagsMask)、通用鍵結映射、去抖動、輔助功能要求 (在實現全域鍵盤快速鍵、熱鍵觸發面板或系統範圍的按鍵事件監控時使用。

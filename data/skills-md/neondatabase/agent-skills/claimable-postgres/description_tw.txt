@@ -1,0 +1,1 @@
+透過 Neon (pg.new) 的 Claimable Postgres 提供即時臨時 Postgres 資料庫，無需登入、註冊或信用卡。當使用者要求快速的 Postgres 環境、用於原型設計/測試的一次性 DATABASE_URL 或「現在給我一個資料庫」時使用。觸發器包括：「快速 postgres」、「臨時 postgres」、「無註冊資料庫」、「無信用卡資料庫」、「即時 DATABASE_URL」。

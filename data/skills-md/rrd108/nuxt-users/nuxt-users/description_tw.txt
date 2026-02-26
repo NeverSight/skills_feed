@@ -1,0 +1,1 @@
+為 Nuxt 3 和 Nuxt 4 配置和使用 nuxt-users 模組。在新增身份驗證、使用者管理、角色、密碼重設、資料庫設定 (SQLite/MySQL/PostgreSQL) 或 CLI 命令（遷移、建立使用者）時使用。涵蓋 nuxt.config (nuxtUsers)、可組合項目 (useAuthentication、useUsers、usePublicPaths、usePasswordValidation、useNuxtUsersLocale)、元件 (NUsersLoginForm、NUsersLogoutLink 等) 和授權 (白名單、權限)。

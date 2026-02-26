@@ -1,0 +1,1 @@
+透過 slack-rs CLI (Rust) 實現 Slack Web API 自動化。當您需要透過 OAuth (PKCE) 對 Slack 進行身份驗證、管理多個工作區設定檔、呼叫任意 Slack Web API 方法（例如 chat.postMessage、conversations.list、users.info）以及從終端執行安全的腳本化 Slack 操作時使用。包括隧道輔助遠端登入（請參閱 auth login --help）、加密設定檔匯出/匯入以及透過 SLACKCLI_ALLOW_WRITE 的寫入安全性保護。憑證儲存在 ~/.config/slack-rs/ 下的基於檔案的儲存中。

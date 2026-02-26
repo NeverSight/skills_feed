@@ -1,0 +1,3 @@
+Service Worker 生命週期、快取策略、後台同步、推播通知和漸進式 Web 應用程式的靜態路由。涵蓋 Workbox v7.4 策略（CacheFirst、NetworkFirst、StaleWhileRevalidate）、應用程式 shell 的工作箱預先快取、具有跨瀏覽器回退功能的後台同步 API、具有 VAPID 金鑰的推送 API 以及 Service Worker 靜態路由 API (Chrome 123+)。
+
+在註冊服務工作執行緒、實現離線快取、配置後台同步、新增推播通知、使用靜態路由最佳化取得處理或將服務工作執行緒與本地優先同步引擎整合時使用。

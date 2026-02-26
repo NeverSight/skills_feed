@@ -1,0 +1,3 @@
+用於建立與 Zsh、Bash 和 Fish 整合的工具的 Shell 腳本和終端整合模式。涵蓋完成系統（compdef/compadd、complete/compgen、fishcomplete）、ZLE 小部件、掛鉤（precmd/preexec/chpwd、PROMPT_COMMAND）、readline、bindkey、參數擴充、ZDOTDIR 載入順序、事件系統、縮寫、POSIX shell 腳本、控制代碼（ANSI/轉義序列）、tput、stty、訊號處理、行程管理（作業控制、陷阱）和 shell 外掛程式分發模式。
+
+在建立 shell 外掛程式、編寫完成腳本、使用轉義序列實現終端 UI、管理點檔案、建立安裝腳本、處理訊號和進程管理或將本機二進位與 shell 包裝器整合時使用。

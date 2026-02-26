@@ -1,0 +1,1 @@
+從課程內容產生支援學習科學的抽認卡 YAML 檔案。在下列情況下使用：(1) 課程 .md 檔案需要產生抽認卡，(2) 章節目錄需要所有課程的抽認卡，(3) 使用者說「產生抽認卡」、「建立抽認卡」、「製作卡片」或引用 /generate-flashcards。產生與課程 .md 文件相鄰的 .flashcards.yaml 文件，由 remark-flashcards 插件使用並由 Flashcards 元件渲染。
