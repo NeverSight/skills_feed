@@ -1,0 +1,1 @@
+Fixes flaky tests by analyzing failure patterns from Tuist test insights, identifying root causes, and applying targeted corrections. Can be invoked with a specific test case URL (e.g. `https://tuist.dev/{account}/{project}/tests/test-cases/{id}`) or without arguments to discover and fix all flaky tests in the project.

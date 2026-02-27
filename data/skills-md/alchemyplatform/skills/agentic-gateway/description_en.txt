@@ -1,0 +1,3 @@
+Use when an agent wants to access Alchemy APIs without an API key. This is the
+default path when $ALCHEMY_API_KEY is not set. Covers SIWE authentication,
+x402 payment flows, wallet setup, and gateway endpoints.
