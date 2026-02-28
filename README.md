@@ -1,4 +1,4 @@
-# [Skills Feed](https://www.learn-skills.dev)
+# [learn-skills.dev](https://www.learn-skills.dev)
 
 Curated high-quality AI Agent Skills. Search, install, copy and share.
 
