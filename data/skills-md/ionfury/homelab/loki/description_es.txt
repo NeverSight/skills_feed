@@ -1,0 +1,10 @@
+Consulta la API de Loki para obtener registros y depuración del clúster. Úselo al investigar errores de aplicaciones,
+buscar registros, depurar problemas de pods o consultar patrones de registros.
+
+Úselo cuando: (1) busque registros en busca de errores o patrones, (2) investigue problemas de pod o servicio a través de registros,
+(3) Consultar eventos de Kubernetes, (4) Depurar la conciliación de Flux o fallas del servicio de la plataforma,
+(5) Ejecutar consultas LogQL, (6) Verificar tasas o volúmenes de registros.
+
+Activadores: "verificar registros", "buscar registros", "consultar loki", "logql", "muéstrame registros",
+"qué pasó en", "errores de registro", "buscar en registros", "registros finales", "eventos de Kubernetes",
+"registros recientes", "consulta de registro", "registros de depuración"

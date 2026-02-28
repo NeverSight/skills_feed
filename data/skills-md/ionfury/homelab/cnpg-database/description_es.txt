@@ -1,0 +1,11 @@
+Gestión de bases de datos PostgreSQL CloudNative-PG (CNPG) para el laboratorio doméstico de Kubernetes.
+Cubre clústeres de plataformas compartidas, clústeres de aplicaciones dedicadas, cadenas de credenciales y monitoreo.
+
+Úselo cuando: (1) agregue una nueva base de datos para una aplicación, (2) cree un clúster CNPG dedicado,
+(3) Configurar las credenciales de la base de datos y la replicación entre espacios de nombres, (4) Configurar PgBouncer
+poolers, (5) Depurar la conectividad de la base de datos o el estado del clúster CNPG, (6) Agregar PostgreSQL
+Extensiones para cargas de trabajo especializadas.
+
+Activadores: "base de datos", "postgresql", "postgres", "cnpg", "cloudnative-pg", "pooler",
+"pgbouncer", "credenciales de base de datos", "contraseña de base de datos", "roles administrados", "CRD de base de datos",
+"clúster de bases de datos", "base de datos compartida", "base de datos dedicada", "clúster cnpg"

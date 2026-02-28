@@ -1,0 +1,11 @@
+Patrones Flux GitOps para la plataforma Homelab Kubernetes utilizando ResourceSets.
+
+Úselo cuando: (1) agregue nuevas versiones o aplicaciones de Helm a la plataforma, (2) implemente un nuevo servicio en Kubernetes,
+(3) Depurar problemas de reconciliación o sincronización de Flux, (4) Comprender los patrones de ResourceSet,
+(5) Configuración de kustomizaciones y sustitución de variables, (6) Preguntas sobre helm-charts.yaml o la estructura de la plataforma,
+(7) Preguntas sobre el flujo de trabajo de GitOps.
+
+Activadores: "agregar versión de helm", "implementar en kubernetes", "agregar nuevo servicio", "agregar aplicación",
+"conjunto de recursos de flujo", "reconciliación de flujo", "flujo no sincronizado", "flujo atascado", "gitops",
+"helm-charts.yaml", "valores de plataforma", "depuración de flujo", "HelmRelease no está listo", "personalización",
+"helmrelease", "agregar gráfico", "implementar gráfico de timón"

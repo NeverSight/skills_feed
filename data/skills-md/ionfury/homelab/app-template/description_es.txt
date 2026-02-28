@@ -1,0 +1,10 @@
+Implemente aplicaciones utilizando bjw-s/app-template Helm chart: un gráfico flexible para helmificar imágenes de contenedores sin gráficos dedicados.
+
+Úselo cuando: (1) Implemente imágenes de contenedores que carecen de gráficos oficiales de Helm, (2) Cree manifiestos de HelmRelease para Flux GitOps,
+(3) Configurar pods de contenedores múltiples con sidecars, (4) Configurar almacenamiento persistente, ingreso y servicios para aplicaciones personalizadas,
+(5) Preguntas sobre la estructura o los patrones de valores de la plantilla de la aplicación, (6) Implementación de cualquier contenedor personalizado en Kubernetes.
+
+Activadores: "implementar con plantilla de aplicación", "helmificar esta imagen", "crear versión de timón para", "valores de plantilla de aplicación",
+"contenedor sidecar", "timón de pod de contenedores múltiples", "implementar imagen de contenedor", "no hay gráfico de timón disponible",
+"implementación de contenedor personalizado", "bjw-s", "gráfico de plantilla de aplicación", "implementar imagen de Docker en Kubernetes",
+"contenedor sin carta de timón", "tabla de timón genérica"

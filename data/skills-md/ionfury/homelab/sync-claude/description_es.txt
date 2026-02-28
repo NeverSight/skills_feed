@@ -1,0 +1,13 @@
+Sincronice y valide la documentación de Claude (archivos y habilidades CLAUDE.md) antes de las confirmaciones.
+Garantiza la precisión de la documentación al validar todas las afirmaciones con respecto al estado real del código base.
+
+Úselo cuando: (1) Antes de crear un PR para garantizar que los documentos sean precisos, (2) Después de realizar cambios
+que podrían invalidar los reclamos de documentación, (3) Al sincronizar explícitamente los documentos de Claude,
+(4) Al revisar la documentación en busca de obsolescencia.
+
+Activadores: "sincronizar claude", "validar documentos de claude", "verificar documentación", "actualizar CLAUDE.md",
+"antes de confirmar", "documentos no sincronizados", "/sync-claude", "documentación obsoleta"
+
+Dos modos:
+- completo: validación exhaustiva de todos los documentos de Claude en el repositorio
+- cambiado: Detección inteligente de documentos afectados por cambios de rama actuales

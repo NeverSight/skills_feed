@@ -1,0 +1,1 @@
+Acceda a un espacio de trabajo de escritorio local de Dessix llamando al puente Electron MCP directamente desde Node.js (socket/pipe), sin usar MCP stdio JSON-RPC. Úselo cuando un agente necesita leer o invocar herramientas de Dessix mediante programación, crear automatizaciones locales o recuperar contenido de mensajes de acción/escena de los bloques de Dessix.

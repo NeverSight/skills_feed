@@ -1,0 +1,9 @@
+Enrutamiento API de puerta de enlace, certificados TLS y configuración WAF para la plataforma Homelab Kubernetes.
+
+Úselo cuando: (1) Exponer un servicio a través de HTTPRoute, (2) Elegir entre puertas de enlace internas y externas,
+(3) Configurar certificados TLS con cert-manager, (4) Depurar TLS o problemas de enrutamiento,
+(5) Comprender el comportamiento y ajuste de WAF (Coraza), (6) Probar puntos finales protegidos por WAF.
+
+Activadores: "httproute", "gateway", "exponer servicio", "agregar ruta", "certificado", "tls",
+"coraza", "waf", "puerta de enlace interna", "puerta de enlace externa", "dns", "ingress",
+"enrutamiento", "cert-manager", "letsencrypt", "homelab-ca"

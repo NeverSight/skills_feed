@@ -1,0 +1,9 @@
+Administrar versiones de plataforma y anotaciones de Renovate en el homelab.
+
+Úselo cuando: (1) Agregar una nueva entrada de versión a versiones.env, (2) Configurar Renovate para rastrear una nueva dependencia,
+(3) Depurar por qué Renovate ignora o detecta erróneamente una versión, (4) Comprender la sintaxis de anotaciones para versiones.env,
+(5) Agregar seguimiento de imágenes de contenedores a archivos YAML, (6) Configurar reglas de paquetes o agrupaciones en Renovate.
+
+Activadores: "versiones.env", "renovar anotación", "renovar sin actualizar", "agregar versión",
+"renovar ignorar", "fuente de datos", "extractVersion", "regla de paquete", "automerge",
+"renovar validar", "seguimiento de dependencias", "gestión de versiones"

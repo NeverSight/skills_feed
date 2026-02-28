@@ -1,0 +1,10 @@
+Conocimiento operativo de Kubernetes para acceder a clústeres, ejecutar kubectl, comprender el estado de Flux,
+y navegar por el entorno de Kubernetes del homelab.
+
+Úselo cuando: (1) Acceda a un clúster o verifique la conectividad, (2) Ejecute comandos kubectl o verifique el estado de los recursos,
+(3) Verificar el estado de conciliación de Flux o activar la conciliación, (4) Encontrar URL de servicios internos,
+(5) Comprender el diseño del clúster o los tipos de recursos, (6) Investigar gráficos o servicios de Helm desconocidos.
+
+Activadores: "kubectl", "kubeconfig", "flux get", "flux reconcile", "flux status", "cluster access",
+"URL interna", "URL de servicio", "URL de Prometheus", "URL de grafana", "estado de lanzamiento del timón",
+"verificar flujo", "qué clúster", "cómo acceder", "reenvío de puertos"

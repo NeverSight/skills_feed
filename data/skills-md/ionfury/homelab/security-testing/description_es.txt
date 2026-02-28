@@ -1,0 +1,11 @@
+Metodología de prueba de seguridad adversaria para el laboratorio doméstico de Kubernetes. Cubre la política de red.
+evasión, elusión de autenticación, escalada de privilegios, robo de credenciales y ataques a la cadena de suministro.
+
+Úselo cuando: (1) el equipo rojo realice pruebas en el laboratorio doméstico, (2) valide la aplicación de políticas de red,
+(3) Prueba de omisión de WAF en puerta de enlace externa, (4) Sondeo de capas de autenticación,
+(5) Evaluación de rutas de escape de contenedores, (6) Auditoría de RBAC y cuentas de servicio,
+(7) Probar la seguridad de la cadena de suministro del canal de promoción de OCI.
+
+Activadores: "prueba de seguridad", "equipo rojo", "pentest", "prueba de penetración", "superficie de ataque",
+"Eludir WAF", "evasión de políticas de red", "escalada de privilegios", "movimiento lateral",
+"robo de credenciales", "escape de contenedores", "auditoría RBAC", "auditoría de seguridad", "vulnerabilidad"

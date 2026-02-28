@@ -1,0 +1,1 @@
+Migre los conjuntos de pruebas y configuraciones de Jest o Vitest a Rstest. Úselo cuando se le solicite pasar de Jest/Vitest a Rstest, reemplazar las API del marco con `@rstest/core`, traducir la configuración de prueba a `rstest.config.ts` o actualizar los scripts de prueba y los archivos de configuración para equivalentes de Rstest.

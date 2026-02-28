@@ -1,0 +1,14 @@
+Metodología de depuración SRE para la investigación de incidentes de Kubernetes, análisis de causa raíz,
+y diagnóstico de fallas.
+
+Úselo cuando: (1) Los pods no se inician, se atascan o fallan (CrashLoopBackOff, ImagePullBackOff, OOMKilled, Pending),
+(2) Depurar errores de Kubernetes o investigar "¿por qué mi pod...", (3) Degradación o falta de disponibilidad del servicio,
+(4) Análisis de la causa raíz de cualquier incidente de Kubernetes, (5) Política de red que bloquea el tráfico,
+(6) HelmReleases estancados o fallas de Flux que necesitan solución de problemas.
+
+Activadores: "pod no se inicia", "pod atascado", "CrashLoopBackOff", "ImagePullBackOff", "OOMKilled",
+"Pod pendiente", "por qué está mi pod", "error de kubernetes", "error k8s", "servicio no disponible",
+"no puedo comunicarme con el servicio", "depurar kubernetes", "solucionar problemas de k8", "¿qué le pasa a mi pod?"
+"la implementación no funciona", "falló la instalación de helm", "el flujo no se reconcilia", "causa raíz",
+"5 por qué", "incidente", "bloqueo de política de red", "caída del Hubble", "liberación de helm bloqueada",
+"en vivo no se actualiza", "canal de promoción atascado", "artefacto no promocionado"

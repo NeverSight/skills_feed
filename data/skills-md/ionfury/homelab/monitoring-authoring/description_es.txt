@@ -1,0 +1,11 @@
+Recursos de seguimiento del autor: PrometheusRules, ServiceMonitors, PodMonitors,
+AlertmanagerConfig, Silence CR y comprobaciones de estado de Canary-Checker.
+
+Úselo cuando: (1) Crear o modificar reglas de alerta (PrometheusRule), (2) Agregar objetivos de raspado
+(ServiceMonitor/PodMonitor), (3) Configuración de enrutamiento o silencios de Alertmanager,
+(4) Escribir controles de estado del canary-checker, (5) Crear reglas de grabación,
+(6) Agregar monitoreo para una nueva aplicación o componente de plataforma.
+
+Activadores: "crear alerta", "agregar alertas", "PrometheusRule", "ServiceMonitor", "PodMonitor",
+"AlertmanagerConfig", "alerta de silencio", "verificación de valores canarios", "regla de grabación", "agregar monitoreo",
+"objetivo de raspado", "regla de alerta", "regla de prometeo", "canario de control de salud"
