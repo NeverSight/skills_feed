@@ -1,0 +1,9 @@
+用于可爱部署的浏览器自动化技能。激活时间：
+- yolo_mode：在 CLAUDE.md 中启用
+- 运行 /deploy-edge 或 /apply-migration 命令
+- git推送后当auto_deploy: on（自动检测）
+- 任何提及“yolo 模式”、“自动化 Lovable”、“浏览器自动化”
+
+自动导航到 Lovable.dev 并提交部署提示。
+根据配置运行验证测试。
+启用后，在 git Push 后自动部署。

@@ -1,0 +1,9 @@
+Lovable 배포를 위한 브라우저 자동화 기술입니다. 다음과 같은 경우에 활성화됩니다:
+- yolo_mode: CLAUDE.md에서 켜짐
+- /deploy-edge 또는 /apply-migration 명령 실행
+- git push 후 auto_deploy: on(자동 감지)
+- "yolo 모드", "Lovable 자동화", "브라우저 자동화"에 대한 언급
+
+자동으로 Lovable.dev로 이동하여 배포 프롬프트를 제출합니다.
+구성을 기반으로 확인 테스트를 실행합니다.
+활성화되면 git push 후 자동 배포됩니다.

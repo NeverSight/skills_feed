@@ -1,0 +1,1 @@
+WOLF v6 — 透過 Senpi MCP 對 Hyperliquid 進行完全自主的多策略交易。同時管理多個策略，每個策略都有獨立的錢包、預算、插槽和 DSL 配置。 7-cron 架構，配備 Emerging Movers 掃描器（90 秒、FIRST_JUMP + IMMEDIATE_MOVER）、DSL v4 追蹤停損（每 3 分鐘組合運行一次，5/10/15/20% ROE 的 4 層）、SM 翻轉偵測器（5 分鐘）、看門狗（15 分鐘）分鐘、BTC 宏觀 + 每小時趨勢 +取消資格）和健康檢查（10 分鐘）。相同的資產可以同時以不同的策略進行交易。在第一次跳躍時儘早進入，而不是在確定的峰值時進入。至少需要 7 倍杠杆。需要 Senpi MCP 連線、python3、mcporter CLI 和 OpenClaw cron 系統。

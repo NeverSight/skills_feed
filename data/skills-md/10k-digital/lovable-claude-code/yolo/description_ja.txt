@@ -1,0 +1,9 @@
+Lovable デプロイメント用のブラウザ自動化スキル。次の場合にアクティブ化されます。
+- yolo_mode: CLAUDE.md でオン
+- /deploy-edge または /apply-migration コマンドの実行
+- git Push 後 auto_deploy: on (自動検出) の場合
+- 「yolo モード」、「Lovable の自動化」、「ブラウザ自動化」に関する言及
+
+自動的に Lovable.dev に移動し、展開プロンプトを送信します。
+構成に基づいて検証テストを実行します。
+有効にすると、git Push 後に自動デプロイされます。

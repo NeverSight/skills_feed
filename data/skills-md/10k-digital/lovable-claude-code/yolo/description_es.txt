@@ -1,0 +1,9 @@
+Habilidad de automatización del navegador para implementaciones de Lovable. Se activa cuando:
+- yolo_mode: activado en CLAUDE.md
+- Ejecutar comandos /deploy-edge o /apply-migration
+- Después de git push cuando auto_deploy: activado (detección automática)
+- Cualquier mención de "modo yolo", "automatizar Lovable", "automatización del navegador"
+
+Navega automáticamente a Lovable.dev y envía indicaciones de implementación.
+Ejecuta pruebas de verificación basadas en la configuración.
+Se implementa automáticamente después de git push cuando está habilitado.
