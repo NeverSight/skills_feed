@@ -1,0 +1,10 @@
+Pipeline di promozione degli artefatti OCI dall'unione delle PR attraverso la convalida dell'integrazione fino alla distribuzione in tempo reale.
+
+Da utilizzare quando: (1) tracciare il motivo per cui una modifica non ha raggiunto un cluster, (2) eseguire il debug di artefatti bloccati nell'integrazione,
+(3) Comprendere il ciclo di vita di creazione/convalida/promozione, (4) Esecuzione di promozione o rollback manuale,
+(5) Indagine sugli errori del flusso di lavoro di GitHub Actions, (6) Controllo dei tag degli artefatti OCI in GHCR.
+
+Trigger: "promozione", "pipeline", "artefatto", "oci", "distribuzione dell'integrazione", "distribuzione live",
+"bloccato nell'integrazione", "non distribuito", "ghcr", "crea artefatto", "tag convalidato",
+"repository_dispatch", "canary-checker", "rollback", "semver", "image policy",
+"pipeline di promozione", "perché non viene aggiornato in tempo reale"

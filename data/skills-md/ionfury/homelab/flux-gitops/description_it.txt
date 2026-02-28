@@ -1,0 +1,11 @@
+Modelli Flux GitOps per la piattaforma Kubernetes homelab utilizzando ResourceSets.
+
+Da utilizzare quando: (1) si aggiungono nuove versioni o applicazioni Helm alla piattaforma, (2) si distribuisce un nuovo servizio a Kubernetes,
+(3) Debug di problemi di riconciliazione di Flux o problemi di sincronizzazione, (4) Comprensione dei modelli ResourceSet,
+(5) Configurazione di Kustomizzazioni e sostituzione delle variabili, (6) Domande su helm-charts.yaml o sulla struttura della piattaforma,
+(7) Domande sul flusso di lavoro GitOps.
+
+Trigger: "aggiungi rilascio timone", "distribuisci su Kubernetes", "aggiungi nuovo servizio", "aggiungi applicazione",
+"flusso di risorse", "riconciliazione del flusso", "flusso non sincronizzato", "flusso bloccato", "gitops",
+"helm-charts.yaml", "valori della piattaforma", "debug del flusso", "HelmRelease non pronto", "kustomization",
+"helmrelease", "aggiungi grafico", "distribuisci grafico helm"

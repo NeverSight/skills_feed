@@ -1,0 +1,1 @@
+Anti-pattern per lo sviluppo della CLI. NON utilizzare comandante, inquirer.js, yargs o altre librerie CLI nei progetti costruttivi. Utilizza invece il questionario. Si attiva su "commander", "inquirer.js", "yargs", "libreria CLI" o durante la revisione del codice CLI.

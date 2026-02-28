@@ -1,0 +1,10 @@
+Interroga l'API Loki per i log del cluster e il debug. Utilizzare durante l'analisi degli errori dell'applicazione,
+cercare log, eseguire il debug di problemi dei pod o eseguire query su modelli di log.
+
+Da utilizzare quando: (1) si ricercano errori o pattern nei log, (2) si indaga su problemi relativi a pod o servizi tramite log,
+(3) Interrogazione di eventi Kubernetes, (4) Debug della riconciliazione Flux o errori del servizio della piattaforma,
+(5) Esecuzione di query LogQL, (6) Controllo delle velocità di registro o dei volumi.
+
+Trigger: "controlla i registri", "cerca nei registri", "query loki", "logql", "mostrami i registri",
+"cosa è successo in", "errori di registro", "trova nei registri", "registri di coda", "eventi Kubernetes",
+"registri recenti", "query di registro", "registri di debug"

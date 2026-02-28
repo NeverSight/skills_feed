@@ -1,0 +1,10 @@
+Gestire le politiche di rete Cilium: selezione del profilo, etichette di accesso, debug di Hubble,
+CNP dello spazio dei nomi della piattaforma e procedure per le porte di fuga di emergenza.
+
+Da utilizzare quando: (1) si distribuisce una nuova applicazione e si imposta il profilo di rete,
+(2) Debug del traffico bloccato con Hubble, (3) Aggiunta dell'accesso alle risorse condivise,
+(4) Creazione di CNP per lo spazio dei nomi della piattaforma, (5) Utilizzo della via di fuga per le emergenze,
+(6) Verifica dell'applicazione delle policy di rete.
+
+Trigger: "politica di rete", "hubble", "traffico interrotto", "cilium", "traffico bloccato",
+"profilo di rete", "etichetta di accesso", "botola di fuga", "cnp", "ccnp"

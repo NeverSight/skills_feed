@@ -1,0 +1,8 @@
+Orchestrazione della distribuzione delle applicazioni end-to-end per l'homelab Kubernetes.
+
+Da utilizzare quando: (1) si distribuisce una nuova applicazione al cluster, (2) si aggiunge una nuova versione di Helm alla piattaforma,
+(3) Impostazione di monitoraggio, avvisi e controlli di integrità per un nuovo servizio, (4) Ricerca prima della distribuzione,
+(5) Testare la distribuzione sul cluster di sviluppo prima della promozione GitOps.
+
+Trigger: "distribuisci app", "aggiungi nuova applicazione", "distribuisci su Kubernetes", "installa grafico timone",
+"/deploy-app", "imposta nuovo servizio", "aggiungi monitoraggio per", "distribuisci con monitoraggio"

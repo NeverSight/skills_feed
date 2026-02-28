@@ -1,0 +1,10 @@
+Distribuisci le applicazioni utilizzando bjw-s/app-template Grafico Helm: un grafico flessibile per helmificare le immagini del contenitore senza grafici dedicati.
+
+Da utilizzare quando: (1) si distribuiscono immagini di contenitori prive di grafici Helm ufficiali, (2) si creano manifesti HelmRelease per Flux GitOps,
+(3) Configurazione di pod multi-contenitore con sidecar, (4) Impostazione di storage persistente, ingresso e servizi per applicazioni personalizzate,
+(5) Domande sulla struttura o sui modelli dei valori del modello di app, (6) Distribuzione di qualsiasi contenitore personalizzato su Kubernetes.
+
+Trigger: "distribuisci con modello di app", "helmifica questa immagine", "crea versione del timone per", "valori del modello di app",
+"contenitore sidecar", "timone pod multi-contenitore", "immagine del contenitore distribuito", "nessuna tabella timone disponibile",
+"distribuzione del contenitore personalizzato", "bjw-s", "grafico del modello di app", "distribuisci l'immagine docker su Kubernetes",
+"contenitore senza carta timone", "carta timone generica"

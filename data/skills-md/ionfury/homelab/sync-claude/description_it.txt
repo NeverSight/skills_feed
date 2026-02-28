@@ -1,0 +1,13 @@
+Sincronizza e convalida la documentazione di Claude (file e competenze CLAUDE.md) prima dei commit.
+Garantisce l'accuratezza della documentazione convalidando tutte le affermazioni rispetto allo stato effettivo della base di codice.
+
+Da utilizzare quando: (1) Prima di creare una PR per garantire che i documenti siano accurati, (2) Dopo aver apportato modifiche
+ciò potrebbe invalidare le richieste di documentazione, (3) Quando si sincronizzano esplicitamente i documenti Claude,
+(4) Quando si esamina la documentazione per verificare se è obsoleta.
+
+Trigger: "sync claude", "convalida claude docs", "controlla documentazione", "aggiorna CLAUDE.md",
+"prima del commit", "documenti non sincronizzati", "/sync-claude", "documentazione obsoleta"
+
+Due modalità:
+- completo: convalida esaustiva di tutti i documenti Claude nel repository
+- modificato: rilevamento intelligente dei documenti interessati dalle modifiche attuali del ramo

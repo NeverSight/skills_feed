@@ -1,0 +1,11 @@
+Risorse di monitoraggio dell'autore: PrometheusRules, ServiceMonitors, PodMonitors,
+AlertmanagerConfig, Silence CR e controlli di integrità del canary-checker.
+
+Da utilizzare quando: (1) si creano o si modificano regole di avviso (PrometheusRule), (2) si aggiungono destinazioni di scraping
+(ServiceMonitor/PodMonitor), (3) Configurazione dell'instradamento o dei silenzi di Alertmanager,
+(4) Scrivere controlli sanitari di controllo canarino, (5) Creare regole di registrazione,
+(6) Aggiunta del monitoraggio per una nuova applicazione o componente della piattaforma.
+
+Trigger: "crea avviso", "aggiungi avviso", "PrometheusRule", "ServiceMonitor", "PodMonitor",
+"AlertmanagerConfig", "silenzia avviso", "controllo canary", "regola di registrazione", "aggiungi monitoraggio",
+"raschia bersaglio", "regola di avviso", "regola di Prometeo", "canarino di controllo dello stato"

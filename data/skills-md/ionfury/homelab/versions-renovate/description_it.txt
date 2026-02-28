@@ -1,0 +1,9 @@
+Gestire le versioni della piattaforma e rinnovare le annotazioni nell'homelab.
+
+Da utilizzare quando: (1) si aggiunge una nuova voce di versione a versioni.env, (2) si configura Renovate per tenere traccia di una nuova dipendenza,
+(3) Debug del motivo per cui Renovate ignora o rileva erroneamente una versione, (4) Comprensione della sintassi delle annotazioni per versioni.env,
+(5) Aggiunta del tracciamento dell'immagine del contenitore ai file YAML, (6) Configurazione delle regole del pacchetto o raggruppamento in Renovate.
+
+Trigger: "versions.env", "rinnova annotazione", "rinnova non aggiorna", "aggiungi versione",
+"rinnova ignora", "datasource", "extractVersion", "regola del pacchetto", "automerge",
+"rinnovamento convalida", "monitoraggio delle dipendenze", "gestione delle versioni"

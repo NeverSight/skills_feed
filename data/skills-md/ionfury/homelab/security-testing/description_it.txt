@@ -1,0 +1,11 @@
+Metodologia di test di sicurezza contraddittorio per l'homelab Kubernetes. Copre la politica di rete
+evasione, bypass dell’autenticazione, escalation dei privilegi, furto di credenziali e attacchi alla catena di fornitura.
+
+Da utilizzare quando: (1) test del team rosso rispetto al laboratorio domestico, (2) convalida dell'applicazione dei criteri di rete,
+(3) Test del bypass WAF su gateway esterno, (4) Sondaggio dei livelli di autenticazione,
+(5) Valutazione dei percorsi di fuga dei container, (6) Verifica del RBAC e dei conti di servizio,
+(7) Testare la sicurezza della catena di approvvigionamento del canale di promozione dell'OCI.
+
+Trigger: "test di sicurezza", "squadra rossa", "pentest", "test di penetrazione", "superficie di attacco",
+"bypass WAF", "evasione della policy di rete", "escalation dei privilegi", "movimento laterale",
+"furto di credenziali", "fuga di container", "audit RBAC", "audit di sicurezza", "vulnerabilità"
