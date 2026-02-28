@@ -1,0 +1,1 @@
+全面的 TypeScript 文件审核系统。仅命令技能（无自然触发）。接受文件或目录路径，通过accelint-ts-testing、accelint-ts-best-practices、accelint-ts-performance 和accelint-ts-documentation 技能进行系统审核。通过交互式变更批准来保持跨会话的进度跟踪。使用独立的 git 工作树来实现并行审核而不会发生冲突。

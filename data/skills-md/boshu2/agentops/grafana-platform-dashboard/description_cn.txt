@@ -1,0 +1,1 @@
+设计、重构和验证 OpenShift/Kubernetes 平台操作的 Grafana 仪表板。当用户要求改进平台运行状况仪表板、优先考虑影响租户的关键信号、过滤噪音（例如 ArgoCD）、添加 Crossplane/Keycloak 运行状况面板、以编程方式验证 PromQL 或实时应用 GrafanaDashboard CR 更改然后推广到 GitOps 时使用。

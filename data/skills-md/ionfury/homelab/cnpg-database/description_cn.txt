@@ -1,0 +1,11 @@
+CloudNative-PG (CNPG) 用于 Kubernetes 家庭实验室的 PostgreSQL 数据库管理。
+涵盖共享平台集群、专用应用集群、凭证链和监控。
+
+在以下情况下使用：(1) 为应用程序添加新数据库，(2) 创建专用 CNPG 集群，
+(3) 设置数据库凭据和跨命名空间复制，(4) 配置 PgBouncer
+池化器，(5) 调试数据库连接或 CNPG 集群运行状况，(6) 添加 PostgreSQL
+针对特殊工作负载的扩展。
+
+触发器：“database”、“postgresql”、“postgres”、“cnpg”、“cloudnative-pg”、“pooler”、
+“pgbouncer”、“数据库凭据”、“数据库密码”、“托管角色”、“数据库 CRD”、
+“数据库集群”、“共享数据库”、“专用数据库”、“cnpg集群”

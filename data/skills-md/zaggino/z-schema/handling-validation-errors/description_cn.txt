@@ -1,0 +1,1 @@
+检查、过滤和映射 z 模式验证错误以供应用程序使用。当用户需要处理验证错误、从anyOf/oneOf/not组合器中遍历嵌套内部错误、将错误代码映射到用户友好的消息、使用includeErrors或exclusiveErrors过滤错误、构建表单字段错误映射器、使用reportPathAsArray、解释SchemaErrorDetail字段（如code/path/keyword/inner）或调试验证失败的原因时使用。

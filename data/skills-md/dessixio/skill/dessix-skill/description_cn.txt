@@ -1,0 +1,1 @@
+通过直接从 Node.js（套接字/管道）调用 Electron MCP 桥来访问本地 Dessix 桌面工作区，无需使用 MCP stdio JSON-RPC。当代理需要以编程方式读取或调用 Dessix 工具、构建本地自动化或从 Dessix 块获取操作/场景提示内容时使用。

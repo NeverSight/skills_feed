@@ -1,0 +1,9 @@
+Homelab Kubernetes 平台的网关 API 路由、TLS 证书和 WAF 配置。
+
+在以下情况下使用：(1) 通过 HTTPRoute 公开服务，(2) 在内部和外部网关之间进行选择，
+(3) 使用 cert-manager 设置 TLS 证书，(4) 调试 TLS 或路由问题，
+(5) 了解 WAF (Coraza) 行为和调整，(6) 测试受 WAF 保护的端点。
+
+触发器：“httproute”、“网关”、“公开服务”、“添加路由”、“证书”、“tls”、
+“coraza”，“waf”，“内部网关”，“外部网关”，“dns”，“入口”，
+“路由”、“证书管理器”、“letencrypt”、“homelab-ca”

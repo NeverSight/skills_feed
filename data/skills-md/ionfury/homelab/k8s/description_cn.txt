@@ -1,0 +1,10 @@
+访问集群、运行 kubectl、了解 Flux 状态的 Kubernetes 操作知识，
+并浏览家庭实验室 Kubernetes 环境。
+
+在以下情况下使用：(1) 访问集群或检查连接，(2) 运行 kubectl 命令或检查资源状态，
+(3) 检查 Flux 调节状态或触发调节， (4) 查找内部服务 URL，
+(5) 了解集群布局或资源类型，(6) 研究不熟悉的 Helm 图表或服务。
+
+触发器：“kubectl”、“kubeconfig”、“flux get”、“flux reconcile”、“flux status”、“集群访问”、
+“内部 URL”、“服务 URL”、“prometheus URL”、“grafana URL”、“helm 发布状态”、
+“检查流量”、“哪个集群”、“如何访问”、“端口转发”

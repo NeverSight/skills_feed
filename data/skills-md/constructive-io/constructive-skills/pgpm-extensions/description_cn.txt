@@ -1,0 +1,1 @@
+在 pgpm 工作区中管理 PostgreSQL 扩展和 pgpm 模块。当被要求“添加扩展”、“安装模块”、“添加依赖项”、“使用 pgcrypto/uuid-ossp”或使用 .control 文件和扩展/目录时使用。关键 — 切勿直接运行 CREATE EXTENSION； pgpm 在部署期间处理扩展创建。

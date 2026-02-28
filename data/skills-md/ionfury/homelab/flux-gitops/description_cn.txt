@@ -1,0 +1,11 @@
+使用 ResourceSets 的家庭实验室 Kubernetes 平台的 Flux GitOps 模式。
+
+在以下情况下使用：(1) 将新的 Helm 版本或应用程序添加到平台，(2) 将新服务部署到 Kubernetes，
+(3) 调试 Flux 协调问题或同步问题，(4) 了解 ResourceSet 模式，
+(5) 配置 Kustomizations 和变量替换，(6) 有关 helm-charts.yaml 或平台结构的问题，
+(7) GitOps 工作流程问题。
+
+触发器：“添加 helm 版本”、“部署到 kubernetes”、“添加新服务”、“添加应用程序”、
+“通量资源集”，“通量协调”，“通量不同步”，“通量卡住”，“gitops”，
+“helm-charts.yaml”、“平台值”、“flux 调试”、“HelmRelease 未准备好”、“kustomization”、
+“helmrelease”、“添加图表”、“部署 helm 图表”
