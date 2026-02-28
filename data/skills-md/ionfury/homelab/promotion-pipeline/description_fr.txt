@@ -1,0 +1,10 @@
+Pipeline de promotion des artefacts OCI depuis la fusion des relations publiques via la validation de l'intégration jusqu'au déploiement en direct.
+
+À utiliser lorsque : (1) déterminer pourquoi une modification n'a pas atteint un cluster, (2) déboguer des artefacts bloqués dans l'intégration,
+(3) Comprendre le cycle de vie de construction/validation/promotion, (4) Effectuer une promotion ou une restauration manuelle,
+(5) Enquête sur les échecs du flux de travail GitHub Actions, (6) Vérification des balises d'artefact OCI dans GHCR.
+
+Déclencheurs : "promotion", "pipeline", "artefact", "oci", "déploiement d'intégration", "déploiement en direct",
+"bloqué dans l'intégration", "pas de déploiement", "ghcr", "construire un artefact", "balise validée",
+"repository_dispatch", "canary-checker", "rollback", "semver", "politique d'image",
+"pipeline de promotion", "pourquoi la mise à jour en direct n'est-elle pas effectuée"

@@ -1,0 +1,1 @@
+Migrez les suites de tests et les configurations Jest ou Vitest vers Rstest. À utiliser lorsqu'on vous demande de passer de Jest/Vitest à Rstest, remplacez les API du framework par « @rstest/core », traduisez la configuration de test en « rstest.config.ts » ou mettez à jour les scripts de test et les fichiers d'installation pour les équivalents Rstest.

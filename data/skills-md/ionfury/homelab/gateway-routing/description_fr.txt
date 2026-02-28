@@ -1,0 +1,9 @@
+Routage API de passerelle, certificats TLS et configuration WAF pour la plateforme homelab Kubernetes.
+
+À utiliser lorsque : (1) exposer un service via HTTPRoute, (2) choisir entre des passerelles internes et externes,
+(3) Configuration des certificats TLS avec cert-manager, (4) Débogage des problèmes TLS ou de routage,
+(5) Comprendre le comportement et le réglage du WAF (Coraza), (6) Tester les points de terminaison protégés par WAF.
+
+Déclencheurs : "httproute", "gateway", "expose service", "add route", "certificate", "tls",
+"coraza", "waf", "passerelle interne", "passerelle externe", "dns", "ingress",
+"routage", "cert-manager", "letsencrypt", "homelab-ca"

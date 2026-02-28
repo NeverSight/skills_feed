@@ -1,0 +1,10 @@
+Déployez des applications à l'aide du graphique Helm bjw-s/app-template - un graphique flexible pour helmifier les images de conteneurs sans graphiques dédiés.
+
+À utiliser lorsque : (1) Déploiement d'images de conteneurs dépourvues de chartes Helm officielles, (2) Création de manifestes HelmRelease pour Flux GitOps,
+(3) Configuration de pods multi-conteneurs avec side-cars, (4) Configuration du stockage persistant, de l'entrée et des services pour les applications personnalisées,
+(5) Questions sur la structure ou les modèles de valeurs du modèle d'application, (6) Déploiement de tout conteneur personnalisé sur Kubernetes.
+
+Déclencheurs : "déployer avec le modèle d'application", "helmifier cette image", "créer une version de barre pour", "valeurs du modèle d'application",
+"conteneur side-car", "barre de pod multi-conteneurs", "déployer l'image du conteneur", "aucun tableau de barre disponible",
+"déploiement de conteneur personnalisé", "bjw-s", "graphique de modèle d'application", "déployer l'image Docker sur Kubernetes",
+"conteneur sans tableau de barre", "tableau de barre générique"

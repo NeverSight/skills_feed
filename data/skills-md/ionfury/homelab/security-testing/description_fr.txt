@@ -1,0 +1,11 @@
+Méthodologie de tests de sécurité contradictoires pour le homelab Kubernetes. Couvre la politique du réseau
+évasion, contournement d’authentification, élévation de privilèges, vol d’informations d’identification et attaques de la chaîne d’approvisionnement.
+
+À utiliser lorsque : (1) tests de l'équipe rouge par rapport au homelab, (2) validation de l'application de la politique réseau,
+(3) Test du contournement WAF sur la passerelle externe, (4) Sondage des couches d'authentification,
+(5) Évaluation des chemins d'évacuation des conteneurs, (6) Audit du RBAC et des comptes de service,
+(7) Test de la sécurité de la chaîne d’approvisionnement du pipeline de promotion OCI.
+
+Déclencheurs : "test de sécurité", "équipe rouge", "pentest", "test d'intrusion", "surface d'attaque",
+"Contournement du WAF", "évasion de la politique de réseau", "élévation des privilèges", "mouvement latéral",
+"vol d'identifiants", "évasion de conteneur", "audit RBAC", "audit de sécurité", "vulnérabilité"

@@ -1,0 +1,8 @@
+Orchestration de déploiement d'applications de bout en bout pour le homelab Kubernetes.
+
+À utiliser lorsque : (1) Déploiement d'une nouvelle application sur le cluster, (2) Ajout d'une nouvelle version Helm à la plateforme,
+(3) Mise en place de surveillance, d'alertes et de contrôles de santé pour un nouveau service, (4) Recherche avant déploiement,
+(5) Test du déploiement sur le cluster de développement avant la promotion GitOps.
+
+Déclencheurs : "déployer l'application", "ajouter une nouvelle application", "déployer sur Kubernetes", "installer le graphique de barre",
+"/deploy-app", "configurer un nouveau service", "ajouter une surveillance pour", "déployer avec surveillance"

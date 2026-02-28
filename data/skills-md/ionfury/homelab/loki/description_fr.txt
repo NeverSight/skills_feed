@@ -1,0 +1,10 @@
+Interrogez l'API Loki pour les journaux du cluster et le débogage. À utiliser lors de l'enquête sur les erreurs d'application,
+rechercher des journaux, déboguer des problèmes de pod ou interroger des modèles de journaux.
+
+À utiliser lorsque : (1) Recherche dans les journaux d'erreurs ou de modèles, (2) Enquête sur les problèmes de pod ou de service via les journaux,
+(3) Interrogation des événements Kubernetes, (4) Débogage de la réconciliation de Flux ou des échecs du service de plateforme,
+(5) Exécution de requêtes LogQL, (6) Vérification des taux ou des volumes de journaux.
+
+Déclencheurs : "vérifier les journaux", "rechercher les journaux", "requête loki", "logql", "montrer les journaux",
+"ce qui s'est passé dans", "erreurs de journal", "rechercher dans les journaux", "journaux de queue", "événements Kubernetes",
+"journaux récents", "requête de journal", "journaux de débogage"

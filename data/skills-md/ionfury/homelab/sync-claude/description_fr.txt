@@ -1,0 +1,13 @@
+Synchronisez et validez la documentation Claude (fichiers CLAUDE.md et compétences) avant les commits.
+Garantit l’exactitude de la documentation en validant toutes les réclamations par rapport à l’état réel de la base de code.
+
+À utiliser lorsque : (1) Avant de créer un PR pour garantir l'exactitude des documents, (2) Après avoir apporté des modifications
+cela pourrait invalider les revendications de documentation, (3) Lors de la synchronisation explicite des documents Claude,
+(4) Lors de l’examen de l’obsolescence de la documentation.
+
+Déclencheurs : "sync claude", "valider les docs claude", "vérifier la documentation", "mettre à jour CLAUDE.md",
+"avant la validation", "documents désynchronisés", "/sync-claude", "documentation obsolète"
+
+Deux modes :
+- complet : Validation exhaustive de tous les documents Claude dans le référentiel
+- modifié : Détection intelligente des documents affectés par les changements de branche en cours

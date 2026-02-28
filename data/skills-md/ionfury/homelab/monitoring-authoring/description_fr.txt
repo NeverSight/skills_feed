@@ -1,0 +1,11 @@
+Ressources de surveillance des auteurs : PrometheusRules, ServiceMonitors, PodMonitors,
+AlertmanagerConfig, Silence CR et vérifications de l'état de Canary-Checker.
+
+À utiliser lorsque : (1) Création ou modification de règles d'alerte (PrometheusRule), (2) Ajout de cibles de scrape
+(ServiceMonitor/PodMonitor), (3) Configuration du routage ou des silences d'Alertmanager,
+(4) Rédaction de contrôles de santé Canary-checker, (5) Création de règles d'enregistrement,
+(6) Ajout de la surveillance pour une nouvelle application ou un nouveau composant de plate-forme.
+
+Déclencheurs : "créer une alerte", "ajouter une alerte", "PrometheusRule", "ServiceMonitor", "PodMonitor",
+"AlertmanagerConfig", "alerte silencieuse", "vérification Canary", "règle d'enregistrement", "ajouter une surveillance",
+"Scrape Target", "Alert Rule", "Prometheus Rule", "Health Check Canary"

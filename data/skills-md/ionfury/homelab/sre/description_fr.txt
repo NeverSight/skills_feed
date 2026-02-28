@@ -1,0 +1,14 @@
+Méthodologie de débogage SRE pour l'enquête sur les incidents Kubernetes, l'analyse des causes profondes,
+et diagnostic de panne.
+
+À utiliser lorsque : (1) Les pods ne démarrent pas, sont bloqués ou échouent (CrashLoopBackOff, ImagePullBackOff, OOMKilled, En attente),
+(2) Débogage des erreurs Kubernetes ou recherche de "pourquoi mon pod...", (3) Dégradation ou indisponibilité du service,
+(4) Analyse des causes profondes de tout incident Kubernetes, (5) Politique réseau bloquant le trafic,
+(6) HelmReleases bloqués ou échecs de Flux nécessitant un dépannage.
+
+Déclencheurs : "pod ne démarre pas", "pod bloqué", "CrashLoopBackOff", "ImagePullBackOff", "OOMKilled",
+"Pod en attente", "pourquoi mon pod", "erreur kubernetes", "erreur k8s", "service non disponible",
+"impossible d'accéder au service", "déboguer kubernetes", "dépanner k8s", "qu'est-ce qui ne va pas avec mon pod",
+"le déploiement ne fonctionne pas", "l'installation de Helm a échoué", "le flux ne se rapproche pas", "la cause première",
+"5 pourquoi", "incident", "blocage de la politique réseau", "hubble abandonné", "helmrelease bloqué",
+"live non mis à jour", "pipeline de promotion bloqué", "artefact non promu"

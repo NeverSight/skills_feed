@@ -1,0 +1,11 @@
+Modèles Flux GitOps pour la plateforme homelab Kubernetes à l'aide de ResourceSets.
+
+À utiliser lorsque : (1) l'ajout de nouvelles versions ou applications Helm à la plate-forme, (2) le déploiement d'un nouveau service sur Kubernetes,
+(3) Débogage des problèmes de réconciliation de Flux ou des problèmes de synchronisation, (4) Comprendre les modèles ResourceSet,
+(5) Configuration des personnalisations et de la substitution de variables, (6) Questions sur helm-charts.yaml ou la structure de la plateforme,
+(7) Questions sur le flux de travail GitOps.
+
+Déclencheurs : "ajouter une version de barre", "déployer sur Kubernetes", "ajouter un nouveau service", "ajouter une application",
+"ensemble de ressources de flux", "rapprochement des flux", "flux non synchronisé", "flux bloqué", "gitops",
+"helm-charts.yaml", "valeurs de la plateforme", "débogage de flux", "HelmRelease pas prêt", "kustomisation",
+"helmrelease", "ajouter une charte", "déployer une charte de barre"
