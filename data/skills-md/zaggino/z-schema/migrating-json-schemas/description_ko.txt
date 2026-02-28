@@ -1,0 +1,1 @@
+z-스키마와 함께 사용할 초안 버전 간에 JSON 스키마를 마이그레이션합니다. 사용자가 초안 형식 간 변환, 더 이상 사용되지 않는 키워드 업데이트, id를 $id로 바꾸기, 정의를 $defs로 변환, 항목을 prefixItems로 마이그레이션, 종속성을dependentRequired 또는dependentSchemas로 교체, unevaluatedProperties 또는 unevaluatedItems 채택, 스키마를 최신 JSON 스키마 기능에 맞게 조정하려는 경우에 사용합니다.

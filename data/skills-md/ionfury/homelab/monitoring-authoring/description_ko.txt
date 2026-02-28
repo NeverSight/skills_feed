@@ -1,0 +1,11 @@
+작성자 모니터링 리소스: PrometheusRules, ServiceMonitors, PodMonitors,
+AlertmanagerConfig, Silence CR, Canary-checker 상태 확인.
+
+사용 시기: (1) 경고 규칙(PrometheusRule) 생성 또는 수정, (2) 스크랩 대상 추가
+(ServiceMonitor/PodMonitor), (3) Alertmanager 라우팅 또는 무음 구성,
+(4) Canary-Checker 상태 확인 작성, (5) 기록 규칙 생성,
+(6) 새로운 애플리케이션 또는 플랫폼 구성 요소에 대한 모니터링을 추가합니다.
+
+트리거: "경고 생성", "경고 추가", "PrometheusRule", "ServiceMonitor", "PodMonitor",
+"AlertmanagerConfig", "무음 경고", "카나리아 검사", "녹화 규칙", "모니터링 추가",
+"스크래핑 대상", "경고 규칙", "프로메테우스 규칙", "상태 확인 카나리아"

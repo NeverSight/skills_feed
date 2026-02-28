@@ -1,0 +1,9 @@
+Homelab Kubernetes 플랫폼을 위한 게이트웨이 API 라우팅, TLS 인증서 및 WAF 구성입니다.
+
+다음 경우에 사용하세요. (1) HTTPRoute를 통해 서비스를 노출하는 경우, (2) 내부 게이트웨이와 외부 게이트웨이 중에서 선택하는 경우,
+(3) cert-manager를 사용하여 TLS 인증서 설정, (4) TLS 또는 라우팅 문제 디버깅,
+(5) WAF(Coraza) 동작 및 튜닝 이해, (6) WAF로 보호되는 엔드포인트 테스트.
+
+트리거: "httproute", "gateway", "서비스 노출", "경로 추가", "인증서", "tls",
+"coraza", "waf", "내부 게이트웨이", "외부 게이트웨이", "dns", "ingress",
+"라우팅", "cert-manager", "letsencrypt", "homelab-ca"

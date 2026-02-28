@@ -1,0 +1,1 @@
+pgpm 작업 공간에서 PostgreSQL 확장 및 pgpm 모듈을 관리하세요. "확장 추가", "모듈 설치", "종속성 추가", "pgcrypto/uuid-ossp 사용"을 묻는 메시지가 표시되거나 .control 파일 및 Extensions/ 디렉터리로 작업할 때 사용합니다. 중요 — CREATE EXTENSION을 직접 실행하지 마세요. pgpm은 배포 중에 확장 생성을 처리합니다.

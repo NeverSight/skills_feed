@@ -1,0 +1,11 @@
+ResourceSets를 사용하는 홈랩 Kubernetes 플랫폼용 Flux GitOps 패턴.
+
+사용 시기: (1) 플랫폼에 새로운 Helm 릴리스 또는 애플리케이션 추가, (2) Kubernetes에 새 서비스 배포,
+(3) Flux 조정 문제 또는 동기화 문제 디버깅, (4) ResourceSet 패턴 이해,
+(5) Kustomization 및 변수 대체 구성, (6) helm-charts.yaml 또는 플랫폼 구조에 대한 질문,
+(7) GitOps 워크플로 질문.
+
+트리거: "헬름 릴리스 추가", "kubernetes에 배포", "새 서비스 추가", "애플리케이션 추가",
+"플럭스 리소스 세트", "플럭스 조정", "플럭스가 동기화되지 않음", "플럭스 멈춤", "gitops",
+"helm-charts.yaml", "플랫폼 값", "flux 디버그", "HelmRelease 준비 안 됨", "kustomization",
+"helmrelease", "차트 추가", "Helm 차트 배포"

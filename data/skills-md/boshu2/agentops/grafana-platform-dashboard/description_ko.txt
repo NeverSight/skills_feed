@@ -1,0 +1,1 @@
+OpenShift/Kubernetes 플랫폼 운영을 위한 Grafana 대시보드를 설계, 리팩터링 및 검증합니다. 사용자가 플랫폼 상태 대시보드 개선, 테넌트에 영향을 미치는 중요한 신호의 우선순위 지정, 노이즈 필터링(예: ArgoCD), Crossplane/Keycloak 상태 패널 추가, 프로그래밍 방식으로 PromQL 검증 또는 GrafanaDashboard CR 변경 사항을 실시간으로 적용한 후 GitOps로 승격하도록 요청할 때 사용합니다.

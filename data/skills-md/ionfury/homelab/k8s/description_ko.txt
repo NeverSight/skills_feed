@@ -1,0 +1,10 @@
+클러스터 액세스, kubectl 실행, Flux 상태 이해를 위한 Kubernetes 운영 지식
+홈랩 Kubernetes 환경을 탐색합니다.
+
+다음 경우에 사용하십시오: (1) 클러스터에 액세스하거나 연결을 확인하는 경우, (2) kubectl 명령을 실행하거나 리소스 상태를 확인하는 경우,
+(3) Flux 조정 상태 확인 또는 조정 트리거, (4) 내부 서비스 URL 찾기,
+(5) 클러스터 레이아웃 또는 리소스 유형 이해, (6) 익숙하지 않은 Helm 차트 또는 서비스 조사.
+
+트리거: "kubectl", "kubeconfig", "flux get", "flux reconcile", "flux status", "cluster access",
+"내부 URL", "서비스 URL", "프로메테우스 URL", "grafana URL", "헬름 릴리스 상태",
+"플럭스 확인", "클러스터", "액세스 방법", "포트 전달"
