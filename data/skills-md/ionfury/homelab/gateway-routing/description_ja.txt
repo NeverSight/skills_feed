@@ -1,0 +1,9 @@
+Homelab Kubernetes プラットフォームのゲートウェイ API ルーティング、TLS 証明書、WAF 構成。
+
+次の場合に使用します: (1) HTTPRoute 経由でサービスを公開する、(2) 内部ゲートウェイと外部ゲートウェイのいずれかを選択する、
+(3) cert-manager を使用した TLS 証明書のセットアップ、(4) TLS またはルーティングの問題のデバッグ、
+(5) WAF (Coraza) の動作とチューニングを理解する、(6) WAF で保護されたエンドポイントをテストする。
+
+トリガー: 「httproute」、「ゲートウェイ」、「サービスの公開」、「ルートの追加」、「証明書」、「TLS」、
+「coraza」、「waf」、「内部ゲートウェイ」、「外部ゲートウェイ」、「DNS」、「ingress」、
+「ルーティング」、「cert-manager」、「letsencrypt」、「homelab-ca」

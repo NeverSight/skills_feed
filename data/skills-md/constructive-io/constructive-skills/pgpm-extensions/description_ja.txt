@@ -1,0 +1,1 @@
+pgpm ワークスペースで PostgreSQL 拡張機能と pgpm モジュールを管理します。 「拡張機能の追加」、「モジュールのインストール」、「依存関係の追加」、「pgcrypto/uuid-ossp の使用」を要求された場合、または .control ファイルと extensions/ ディレクトリを操作する場合に使用します。クリティカル — CREATE EXTENSION を直接実行しないでください。 pgpm は、デプロイ中に拡張機能の作成を処理します。

@@ -1,0 +1,1 @@
+OpenShift/Kubernetes プラットフォーム操作用の Grafana ダッシュボードを設計、リファクタリング、検証します。ユーザーが、プラットフォーム健全性ダッシュボードの改善、テナントに影響を与える重要な信号の優先順位付け、ノイズのフィルター (ArgoCD など)、Crossplane/Keycloak 健全性パネルの追加、プログラムによる PromQL の検証、または GrafanaDashboard CR の変更をライブで適用してから GitOps に昇格することを要求する場合に使用します。

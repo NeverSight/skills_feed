@@ -1,0 +1,1 @@
+z スキーマで使用するためにドラフト バージョン間で JSON スキーマを移行します。ユーザーがスキーマをdraft-04からdraft-2020-12にアップグレードする場合、ドラフト形式間の変換する場合、非推奨のキーワードを更新する場合、idを$idに置き換える場合、定義を$defsに変換する場合、項目をprefixItemsに移行する場合、依存関係をdependentRequiredまたはdependentSchemasに置き換える場合、unevaluatedPropertiesまたはunevaluatedItemsを採用する場合、またはスキーマを新しいJSONスキーマ機能に適応させる場合に使用します。

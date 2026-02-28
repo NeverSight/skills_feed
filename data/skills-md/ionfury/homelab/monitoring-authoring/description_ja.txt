@@ -1,0 +1,11 @@
+監視リソースの作成者: PrometheusRules、ServiceMonitors、PodMonitors、
+AlertmanagerConfig、Silence CR、および Canary-Checker ヘルス チェック。
+
+次の場合に使用します: (1) アラート ルール (PrometheusRule) の作成または変更、(2) スクレイピング ターゲットの追加
+(ServiceMonitor/PodMonitor)、(3) Alertmanager ルーティングまたはサイレントの構成、
+(4) カナリアチェッカーヘルスチェックの作成、(5) 記録ルールの作成、
+(6) 新しいアプリケーションまたはプラットフォーム コンポーネントの監視を追加します。
+
+トリガー: 「アラートの作成」、「アラートの追加」、「PrometheusRule」、「ServiceMonitor」、「PodMonitor」、
+「AlertmanagerConfig」、「アラートをサイレント」、「カナリアチェック」、「記録ルール」、「監視の追加」、
+「スクレイピングターゲット」、「アラートルール」、「プロメテウスルール」、「ヘルスチェックカナリア」

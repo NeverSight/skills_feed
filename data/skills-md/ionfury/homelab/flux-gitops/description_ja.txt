@@ -1,0 +1,11 @@
+ResourceSet を使用して、Homelab Kubernetes プラットフォームの GitOps パターンを流動させます。
+
+次の場合に使用します: (1) 新しい Helm リリースまたはアプリケーションをプラットフォームに追加する場合、(2) 新しいサービスを Kubernetes にデプロイする場合、
+(3) Flux 調整問題または同期問題のデバッグ、(4) ResourceSet パターンの理解、
+(5) Kustomization と変数置換の構成、(6) helm-charts.yaml またはプラットフォーム構造に関する質問、
+(7) GitOps ワークフローの質問。
+
+トリガー: 「helm リリースの追加」、「kubernetes へのデプロイ」、「新しいサービスの追加」、「アプリケーションの追加」、
+"flux リソースセット"、"flux 調整"、"flux が同期していません"、"flux スタック"、"gitops"、
+"helm-charts.yaml"、"プラットフォーム値"、"flux デバッグ"、"HelmRelease の準備ができていません"、"kustomization"、
+"helmrelease"、"チャートの追加"、"helm チャートのデプロイ"
