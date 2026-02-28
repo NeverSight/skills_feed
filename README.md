@@ -1,6 +1,6 @@
 # [Skills Feed](https://www.learn-skills.dev)
 
-A crawler that aggregates AI coding agent skills from multiple sources, automatically executed daily via GitHub Actions.
+Curated high-quality AI Agent Skills. Search, install, copy and share.
 
 **Web App:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — Search, install, copy and share AI Agent Skills.
 
