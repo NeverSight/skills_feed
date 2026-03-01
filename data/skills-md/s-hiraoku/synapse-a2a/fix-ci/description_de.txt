@@ -1,0 +1,1 @@
+CI-Fehler im aktuellen PR automatisch diagnostizieren und beheben. Ruft fehlgeschlagene Protokolle von GitHub-Aktionen ab, kategorisiert den Fehler (Lint, Format, Typprüfung, Test), wendet gezielte Korrekturen an, überprüft lokal und führt Commits/Pushes durch. Wird verwendet, wenn CI nach dem Push fehlschlägt.
