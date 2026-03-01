@@ -1,1 +1,1 @@
-Use when the current Spec Pack needs to be deprecated/revoked due to major requirement issues, and the corresponding `.aisdlc/specs/{branch}` directory and local/remote branch must be deleted; before deletion, output a deletion list and require user confirmation.
+Use when the current Spec Pack must be abandoned/revoked due to a major requirement issue, and the corresponding `.aisdlc/specs/{branch}` directory and local/remote branches must be deleted. Before deletion, output a deletion list and require user confirmation.
