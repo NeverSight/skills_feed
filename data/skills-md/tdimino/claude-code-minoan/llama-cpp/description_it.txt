@@ -1,0 +1,1 @@
+Motore di inferenza LLM locale secondario tramite llama.cpp. Questa abilità dovrebbe essere utilizzata quando si eseguono direttamente modelli GGUF, si caricano adattatori LoRA per Kothar, si esegue il benchmarking della velocità di inferenza o si servono modelli tramite llama-server. Complementa Ollama (che rimane primario per RLAMA e per uso generale).

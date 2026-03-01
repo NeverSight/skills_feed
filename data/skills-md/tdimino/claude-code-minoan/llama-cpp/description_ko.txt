@@ -1,0 +1,1 @@
+llama.cpp를 통한 보조 로컬 LLM 추론 엔진. 이 기술은 GGUF 모델을 직접 실행하거나 Kothar용 LoRA 어댑터를 로드하거나 추론 속도를 벤치마킹하거나 llama-server를 통해 모델을 제공할 때 사용해야 합니다. Ollama를 보완합니다(RLAMA 및 일반 용도로 기본으로 유지됨).

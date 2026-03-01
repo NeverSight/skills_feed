@@ -1,0 +1,1 @@
+Slack 작업 공간 통합: 7개의 주문형 스크립트(게시, 읽기, 검색, 반응, 업로드, 채널, 사용자) + 세션 브리지(백그라운드 리스너 + inbox.jsonl을 통해 Claude Code 세션을 Slack에 연결). 데몬, 소울 엔진, 메모리 시스템은 Claudicle(github.com/tdimino/claudicle)에 있습니다.
