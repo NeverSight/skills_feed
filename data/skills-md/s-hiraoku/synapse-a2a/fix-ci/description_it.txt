@@ -1,0 +1,1 @@
+Diagnostica e correggi automaticamente gli errori CI nel PR corrente. Recupera i log non riusciti da GitHub Actions, classifica l'errore (lint, formato, controllo del tipo, test), applica correzioni mirate, verifica localmente ed esegue commit/push. Da utilizzare quando l'interfaccia CI fallisce dopo il push.
