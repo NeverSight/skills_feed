@@ -1,0 +1,1 @@
+에이전트가 ops-transformer/gmm 및 attention/example_op/examples의 기존 패턴을 따라 AscendC 변환기 GMM 스타일 사용자 지정 작업(예: grouped_matmul_finalize_routing) 및 CANN aclnn 예제를 개발하도록 안내합니다. 이러한 작업, 해당 커널, 타일링/추론 논리 또는 CANN API 예제를 추가하거나 수정할 때 사용합니다.

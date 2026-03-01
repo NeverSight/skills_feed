@@ -1,0 +1,1 @@
+aptx 코드 생성기에 의해 생성된 React 쿼리 및 Vue 쿼리 후크를 올바르게 사용하도록 LLM을 안내합니다. 프로젝트에서 생성된 useXxxQuery 또는 useXxxMutation 후크를 사용하는 동안 LLM이 매개변수(예: 활성화, staleTime 추가 등)를 수정할 때 이를 트리거합니다.

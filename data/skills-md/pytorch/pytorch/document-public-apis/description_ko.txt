@@ -1,0 +1,1 @@
+docs/source/conf.py의 Coverage_ignore_functions 및 Coverage_ignore_classes에서 함수를 제거하고, Sphinx Coverage를 실행하고, 올바른 .md 또는 .rst doc 파일에 적절한 autodoc 지시어를 추가하여 PyTorch에서 문서화되지 않은 공개 API를 문서화하세요. 사용자가 conf.py 무시 목록에서 기능을 제거하도록 요청할 때 사용합니다.
