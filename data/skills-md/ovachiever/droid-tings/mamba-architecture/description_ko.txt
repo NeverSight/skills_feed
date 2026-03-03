@@ -1,0 +1,1 @@
+O(n) 복잡성과 Transformers의 O(n²)을 비교한 상태공간 모델. 5배 더 빠른 추론, 백만 개의 토큰 시퀀스, KV 캐시 없음. 하드웨어 인식 설계를 갖춘 선택적 SSM입니다. Mamba-1(d_state=16) 및 Mamba-2(d_state=128, 다중 헤드). HuggingFace의 모델 130M-2.8B.
