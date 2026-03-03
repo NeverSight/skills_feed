@@ -1,0 +1,1 @@
+Cuantiza LLM a 8 o 4 bits para una reducción de memoria del 50 al 75 % con una pérdida mínima de precisión. Úselo cuando la memoria de la GPU sea limitada, necesite adaptarse a modelos más grandes o desee una inferencia más rápida. Admite formatos INT8, NF4, FP4, entrenamiento QLoRA y optimizadores de 8 bits. Funciona con transformadores HuggingFace.

@@ -1,0 +1,1 @@
+Modelo de espacio de estados con complejidad O (n) frente a O (n²) de Transformers. Inferencia 5 veces más rápida, secuencias de millones de tokens, sin caché KV. SSM selectivo con diseño compatible con hardware. Mamba-1 (d_state=16) y Mamba-2 (d_state=128, multicabezal). Modelos 130M-2.8B en HuggingFace.
