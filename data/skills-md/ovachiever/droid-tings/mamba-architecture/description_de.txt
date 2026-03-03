@@ -1,0 +1,1 @@
+Zustandsraummodell mit O(n)-Komplexität vs. Transformers' O(n²). 5-mal schnellere Inferenz, Millionen-Token-Sequenzen, kein KV-Cache. Selektives SSM mit hardwarebewusstem Design. Mamba-1 (d_state=16) und Mamba-2 (d_state=128, Multi-Head). Modelle 130M-2.8B auf HuggingFace.

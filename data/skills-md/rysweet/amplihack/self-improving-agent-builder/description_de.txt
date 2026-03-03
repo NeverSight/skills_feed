@@ -1,0 +1,6 @@
+Kodiert eine kontinuierliche Verbesserungsschleife für zielsuchende Agenten: EVAL, ANALYZE,
+FORSCHUNG (Hypothese + Beweise + Gegenargumente), VERBESSERN, NEUBEWERTUNG, ENTSCHEIDEN.
+Überträgt Verbesserungen automatisch (+2 % netto, keine Regression >5 %) und macht Fehler rückgängig.
+Funktioniert mit allen 4 SDK-Implementierungen.
+Automatische Aktivierung bei „Agent verbessern“, „Selbstverbesserungsschleife“, „Agent-Bewertungsschleife“,
+„Benchmark-Agenten“, „Verbesserungszyklus durchführen“.
