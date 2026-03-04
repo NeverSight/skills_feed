@@ -1,1 +1,1 @@
-Use when a Spec Pack is complete and reusable assets need to be promoted to the project SSOT (ADR/contracts/ops/NFR/registry), and there is a risk of "full-package copy contaminating the project / skipping spec-context / mistaking merge-back for git merge."
+Use when a Spec Pack is complete and reusable assets need to be promoted to the project SSOT (ADR/contract/ops/NFR/registry), with the risk of "copying the whole pack and polluting the project / skipping the spec-context / mistaking merge-back for git merge."

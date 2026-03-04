@@ -1,1 +1,1 @@
-当规范包完成并且需要将可重用资产提升到项目 SSOT (ADR/contracts/ops/NFR/registry) 时使用，并且存在“完整包副本污染项目/跳过规范上下文/将合并回误为 git 合并”的风险。
+当规范包完成并且需要将可重用资产提升到项目 SSOT (ADR/contract/ops/NFR/registry) 时使用，存在“复制整个包并污染项目/跳过规范上下文/将合并返回为 git merge”的风险。
