@@ -1,0 +1,1 @@
+Create diverse synthetic test inputs for LLM pipeline evaluation using dimension-based tuple generation. Use when bootstrapping an eval dataset, when real user data is sparse, or when stress-testing specific failure hypotheses. Do NOT use when you already have 100+ representative real traces (use stratified sampling instead), or when the task is collecting production logs.

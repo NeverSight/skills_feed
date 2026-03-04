@@ -1,0 +1,1 @@
+Automatic risk assessment before every critical action in agentic workflows. Detects irreversible operations (file deletion, database writes, deployments, payments), classifies risk level, and requires confirmation before proceeding. Triggers on destructive keywords like deploy, delete, send, publish, update database, process payment.

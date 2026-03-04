@@ -1,0 +1,1 @@
+Guidelines for writing, reviewing, and refactoring strictly POSIX-compliant shell scripts (/bin/sh). No Bash features allowed. Classifies the script as simple or complex, then delegates to the appropriate reference document. Use when targeting /bin/sh, Alpine, BusyBox, embedded systems, or any environment where Bash cannot be assumed.

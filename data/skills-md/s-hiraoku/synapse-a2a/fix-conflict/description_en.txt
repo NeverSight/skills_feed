@@ -1,0 +1,1 @@
+Automatically resolve merge conflicts in the current PR. Fetches the base branch, attempts a merge, identifies conflicting files, analyzes both sides, resolves conflicts, verifies locally, and pushes. Use when PR has merge conflicts detected by poll-pr-status.sh.

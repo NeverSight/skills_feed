@@ -1,0 +1,3 @@
+Default task orchestrator for all development and investigation work.
+Classifies tasks, decomposes into parallel workstreams if appropriate,
+and routes execution through the recipe runner. Replaces ultrathink-orchestrator.

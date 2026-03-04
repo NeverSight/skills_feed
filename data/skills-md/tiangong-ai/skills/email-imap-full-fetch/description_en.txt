@@ -1,0 +1,1 @@
+Fetch full email MIME content and attachment files from IMAP by message reference. Use when downstream steps already have a stage-1 mail_ref and need full headers/body/attachments for a specific message, with message_id_norm as the primary lookup key and uid only as fallback.

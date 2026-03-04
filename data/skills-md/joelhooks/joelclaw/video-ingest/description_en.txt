@@ -1,0 +1,1 @@
+Download, transcribe, and summarize videos via the Inngest pipeline. Use when the user asks to grab/download/transcribe/ingest a video, save a YouTube video, or process any video URL. Also handles batch ingest of multiple URLs. This skill triggers the durable Inngest workflow — do NOT run yt-dlp, mlx-whisper, or scp manually.
