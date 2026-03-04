@@ -1,0 +1,1 @@
+Recupera il contenuto MIME completo delle email e i file allegati da IMAP in base al riferimento al messaggio. Da utilizzare quando i passaggi downstream hanno già un mail_ref stage-1 e necessitano di intestazioni/corpo/allegati completi per un messaggio specifico, con message_id_norm come chiave di ricerca primaria e uid solo come fallback.

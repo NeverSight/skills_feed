@@ -1,0 +1,1 @@
+Risolvi automaticamente i conflitti di unione nel PR corrente. Recupera il ramo di base, tenta un'unione, identifica i file in conflitto, analizza entrambi i lati, risolve i conflitti, verifica localmente ed esegue il push. Da utilizzare quando PR ha rilevato conflitti di unione da poll-pr-status.sh.
