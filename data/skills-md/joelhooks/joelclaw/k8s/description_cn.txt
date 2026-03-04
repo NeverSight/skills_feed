@@ -1,0 +1,1 @@
+操作 joelclaw Kubernetes 集群 — Colima (Mac Mini) 上的 Talos Linux。部署服务、检查运行状况、调试 pod、从重新启动中恢复、添加端口、管理 Helm 版本、检查日志、修复网络。触发条件：'kubectl'、'pods'、'部署到 k8s'、'集群运行状况'、'重新启动 pod'、'helm install'、'talosctl'、'colima'、'nodeport'、'flannel'、'端口映射'、'k8s down'、'集群不工作'、'添加端口'、'PVC'、 “存储”，任何 k8s/Talos/Colima 基础设施任务。还会触发特定于服务的部署：“部署 redis”、“重新部署 inngest”、“livekit helm”、“pds 未响应”。

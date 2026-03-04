@@ -1,0 +1,1 @@
+Instrument joelclaw LLM 通过 Langfuse 跟踪进行调用。涵盖@langfuse/tracing SDK、观察层次结构（跨度、生成、工具、代理）、userId/sessionId/tags 的propagateAttributes、pi-session 扩展（langfuse-cost）以及系统总线 OTEL 集成。在添加 Langfuse 迹线、调试丢失/损坏的迹线、检查成本数据或提高任何 LLM 表面上的可观察性时使用。

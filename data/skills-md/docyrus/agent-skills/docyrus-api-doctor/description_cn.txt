@@ -1,0 +1,1 @@
+在进行 Docyrus API 更改后运行以捕获错误、性能问题和代码质量问题。在实现或修改使用 Docyrus 集合挂钩（.list、.get、.create、.update、.delete）、直接 RestApiClient 调用、使用过滤器/计算/公式/childQueries/pivots 查询有效负载或与 Docyrus 数据源集成的 TanStack 查询的代码时使用。触发涉及 Docyrus API 逻辑、数据获取、突变或查询负载构建的任务。
