@@ -1,0 +1,1 @@
+Zusammenführungskonflikte im aktuellen PR automatisch lösen. Ruft den Basiszweig ab, versucht eine Zusammenführung, identifiziert in Konflikt stehende Dateien, analysiert beide Seiten, löst Konflikte, überprüft lokal und führt Pushvorgänge durch. Wird verwendet, wenn PR von poll-pr-status.sh Zusammenführungskonflikte erkannt hat.
