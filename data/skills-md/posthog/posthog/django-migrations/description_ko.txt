@@ -1,0 +1,1 @@
+PostHog에 대한 Django 마이그레이션 패턴 및 안전 워크플로. 비차단 인덱스/제약 조건 변경, 다단계 스키마 변경, 데이터 백필, 마이그레이션 충돌 리베이스, SeparateDatabaseAndState가 필요한 제품 모델 이동을 포함하여 Django/Postgres 마이그레이션을 생성, 조정 또는 검토할 때 사용합니다.

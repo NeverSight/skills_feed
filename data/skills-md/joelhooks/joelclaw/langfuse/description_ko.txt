@@ -1,0 +1,1 @@
+Langfuse 추적을 사용하여 joelclaw LLM 호출을 계측합니다. @langfuse/tracing SDK, 관찰 계층 구조(범위, 세대, 도구, 에이전트), userId/sessionId/태그에 대한 propagateAttributes, pi 세션 확장(langfuse-cost) 및 시스템 버스 OTEL 통합을 다룹니다. Langfuse 추적 추가, 누락/깨진 추적 디버깅, 비용 데이터 확인 또는 LLM 표면의 관찰 가능성 향상 시 사용합니다.
