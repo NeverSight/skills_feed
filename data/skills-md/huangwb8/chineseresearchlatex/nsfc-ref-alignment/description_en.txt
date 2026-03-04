@@ -1,1 +1,1 @@
-Check NSFC proposal main-text citations against references for consistency and authenticity risks (read-only): verify bibkey existence, BibTeX fields, DOI format, etc.; generate structured input for host AI to assess line-by-line “does the main text really cite this reference”; by default output only an audit report, never modify the proposal or .bib unless explicitly requested.
+检查 NSFC 标书正文引用与参考文献的一致性与真实性风险（只读）：核查 bibkey 是否存在、BibTeX 字段与 DOI 等格式问题，并生成结构化输入供宿主 AI 逐条评估“正文表述是否真的在引用该文献”；默认仅输出审核报告，不直接修改标书或 .bib（除非用户明确要求）。
