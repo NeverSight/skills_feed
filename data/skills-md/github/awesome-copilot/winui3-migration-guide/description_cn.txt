@@ -1,0 +1,1 @@
+UWP 到 WinUI 3 的迁移参考。使用之前/之后的代码片段将旧版 UWP API 映射到更正的 Windows App SDK 等效项。涵盖命名空间更改、线程（CoreDispatcher 到 DispatcherQueue）、窗口（CoreWindow 到 AppWindow）、对话框、选择器、共享、打印、后台任务以及最常见的 Copilot 代码生成错误。

@@ -1,0 +1,1 @@
+UWP에서 WinUI 3으로의 마이그레이션 참조입니다. 레거시 UWP API를 매핑하여 코드 조각 이전/이후로 Windows App SDK 등가물을 수정합니다. 네임스페이스 변경, 스레딩(CoreDispatcher에서 DispatcherQueue로), 윈도우화(CoreWindow에서 AppWindow로), 대화 상자, 선택기, 공유, 인쇄, 백그라운드 작업 및 가장 일반적인 Copilot 코드 생성 실수를 다룹니다.

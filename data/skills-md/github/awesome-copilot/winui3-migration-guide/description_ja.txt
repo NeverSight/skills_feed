@@ -1,0 +1,1 @@
+UWP から WinUI 3 への移行リファレンス。従来の UWP API を、前/後のコード スニペットを使用して Windows アプリ SDK の同等のものにマップします。ネームスペースの変更、スレッド化 (CoreDispatcher から DispatcherQueue)、ウィンドウ化 (CoreWindow から AppWindow)、ダイアログ、ピッカー、共有、印刷、バックグラウンド タスク、および最も一般的な Copilot コード生成の間違いについて説明します。
