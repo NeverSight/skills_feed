@@ -4,646 +4,475 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Wed, 04 Mar 2026 19:01:59 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 02:36:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-04)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-05)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:snapshot</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:snapshot</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 40542
-Trending skills: 16851
-Hot skills: 2446
-Top All Time: find-skills (402715)
-Top Trending: sleek-design-mobile-apps (13971)
+All Time skills: 40685
+Trending skills: 17416
+Hot skills: 2455
+Top All Time: find-skills (405677)
+Top Trending: find-skills (13524)
 Top Hot: ai-image-generation (1056)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): llm-models]]></title>
-            <link>https://skills.sh/tul-sh/skills/llm-models</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/llm-models</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 80
-Source: tul-sh/skills
-Description: Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI using OpenRouter. Models: Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Gemini 3 Pro, Kimi K2, GLM-4.6, Intellect 3. One API for all models with automatic fallback and cost optimization. Use for: AI assistants, code generation, reasoning, agents, chat, content generation. Triggers: claude api, openrouter, llm api, claude sonnet, claude opus, gemini api, kimi, language model, gpt alternative, anthropic api, ai model api, llm access, chat api, claude alternative, openai alternative]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#25): video-ad-specs]]></title>
-            <link>https://skills.sh/tul-sh/skills/video-ad-specs</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/video-ad-specs</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 77
-Source: tul-sh/skills
-Description: Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): ai-automation-workflows]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-automation-workflows</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/ai-automation-workflows</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 75
-Source: tul-sh/skills
-Description: Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event-driven pipelines, agent loops. Tools: inference.sh CLI, bash scripting, Python SDK, webhook integration. Use for: content automation, data processing, monitoring, scheduled generation. Triggers: ai automation, workflow automation, batch processing, ai pipeline, automated content, scheduled ai, ai cron, ai batch job, automated generation, ai workflow, content at scale, automation script, ai orchestration]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): talking-head-production]]></title>
-            <link>https://skills.sh/tul-sh/skills/talking-head-production</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/talking-head-production</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 75
-Source: tul-sh/skills
-Description: Talking head video production with AI avatars, lipsync, and voiceover. Covers portrait requirements, audio quality, OmniHuman, PixVerse lipsync, Dia TTS. Use for: spokesperson videos, course content, social media, presentations, demos. Triggers: talking head, avatar video, lipsync, lip sync, ai spokesperson, virtual presenter, ai presenter, omnihuman, talking avatar, video presenter, ai talking head, presenter video, ai face video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): press-release-writing]]></title>
-            <link>https://skills.sh/tul-sh/skills/press-release-writing</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/press-release-writing</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 71
-Source: tul-sh/skills
-Description: Press release writing in AP style with inverted pyramid structure. Covers formatting, datelines, quotes, boilerplates, and fact-checking. Use for: product launches, funding announcements, partnerships, company news, events. Triggers: press release, pr writing, media release, news release, announcement, product launch announcement, funding announcement, company news, media advisory, ap style, press statement, news wire]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): ai-podcast-creation]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-podcast-creation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/ai-podcast-creation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 70
-Source: tul-sh/skills
-Description: Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podcast production, audiobooks, voice content, audio newsletters. Triggers: podcast, ai podcast, text to speech podcast, audio content, voice over, ai audiobook, multi voice, conversation ai, notebooklm alternative, audio generation, podcast automation, ai narrator, voice content, audio newsletter, podcast maker]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): ai-music-generation]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-music-generation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/ai-music-generation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 69
-Source: tul-sh/skills
-Description: Generate AI music and songs with Diffrythm, Tencent Song Generation via inference.sh CLI. Models: Diffrythm (fast song generation), Tencent Song Generation (full songs with vocals). Capabilities: text-to-music, song generation, instrumental, lyrics to song, soundtrack creation. Use for: background music, social media content, game soundtracks, podcasts, royalty-free music. Triggers: music generation, ai music, generate song, ai composer, text to music, song generator, create music with ai, suno alternative, udio alternative, ai song, ai soundtrack, generate soundtrack, ai jingle, music ai, beat generator]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): twitter-thread-creation]]></title>
-            <link>https://skills.sh/tul-sh/skills/twitter-thread-creation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/twitter-thread-creation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 67
-Source: tul-sh/skills
-Description: Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media attachments, and posting strategies. Use for: Twitter threads, X posts, tweet storms, Twitter content, social media writing. Triggers: twitter thread, tweet thread, x thread, twitter post, tweet writing, thread creation, tweet storm, twitter content, x post, twitter writing, twitter hook, tweet formatting, thread structure]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): storyboard-creation]]></title>
-            <link>https://skills.sh/tul-sh/skills/storyboard-creation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/storyboard-creation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 67
-Source: tul-sh/skills
-Description: Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video planning, animation. Triggers: storyboard, storyboarding, shot list, film planning, video planning, pre production, shot composition, camera angles, scene planning, visual script, animatic, storyboard panels, video storyboard]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): book-cover-design]]></title>
-            <link>https://skills.sh/tul-sh/skills/book-cover-design</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:new:tul-sh/skills/book-cover-design</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 65
-Source: tul-sh/skills
-Description: Book cover design with genre-specific conventions, typography rules, and AI image generation. Covers fiction and non-fiction genres, sizing, thumbnail testing, and iteration workflows. Use for: self-publishing, ebook covers, print covers, audiobook covers, cover mockups. Triggers: book cover, cover design, ebook cover, book art, novel cover, self publishing cover, kindle cover, audiobook cover, book jacket, cover illustration, fiction cover, nonfiction cover]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#50): agent browser]]></title>
-            <link>https://skills.sh/am-will/codex-skills/agent-browser</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:new:am-will/codex-skills/agent-browser</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #50
-Installs: 1396
-Source: am-will/codex-skills
-Description: A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (1 → 3): twitter-automation]]></title>
-            <link>https://skills.sh/tul-sh/skills/twitter-automation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/twitter-automation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #1
-Current rank: #3
-Delta: -2
-Installs: 1045 (prev 977)
-Source: tul-sh/skills
-Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (12 → 15): tools-ui]]></title>
-            <link>https://skills.sh/tul-sh/skills/tools-ui</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/tools-ui</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #12
-Current rank: #15
-Delta: -3
-Installs: 125 (prev 139)
-Source: tul-sh/skills
-Description: Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval required, results. Capabilities: tool status, progress indicators, approval flows, results display. Use for: showing agent tool calls, human-in-the-loop approvals, tool output. Triggers: tool ui, tool calls, tool status, tool approval, tool results, agent tools, mcp tools ui, function calling ui, tool lifecycle, tool pending]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (18 → 44): og-image-design]]></title>
-            <link>https://skills.sh/tul-sh/skills/og-image-design</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/og-image-design</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #18
-Current rank: #44
-Delta: -26
-Installs: 68 (prev 83)
-Source: tul-sh/skills
-Description: Open Graph and social sharing image design with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn previews, and dynamic generation. Use for: social sharing images, blog thumbnails, link previews, social cards. Triggers: og image, open graph, social sharing image, twitter card, social card, link preview image, og meta, sharing preview, social thumbnail, meta image, og:image, twitter:image, linkedin preview]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (19 → 49): google-veo]]></title>
-            <link>https://skills.sh/tul-sh/skills/google-veo</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/google-veo</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #19
-Current rank: #49
-Delta: -30
-Installs: 64 (prev 82)
-Source: tul-sh/skills
-Description: Generate videos with Google Veo models via inference.sh CLI. Models: Veo 3.1, Veo 3.1 Fast, Veo 3, Veo 3 Fast, Veo 2. Capabilities: text-to-video, cinematic output, high quality video generation. Triggers: veo, google veo, veo 3, veo 2, veo 3.1, vertex ai video, google video generation, google video ai, veo model, veo video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (2 → 8): nano-banana]]></title>
-            <link>https://skills.sh/tul-sh/skills/nano-banana</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/nano-banana</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #2
-Current rank: #8
-Delta: -6
-Installs: 975 (prev 958)
-Source: tul-sh/skills
-Description: Generate images with Google Gemini native image models via inference.sh CLI. Models: Gemini 3 Pro Image, Gemini 2.5 Flash Image. Capabilities: text-to-image, image editing, multi-image input. Triggers: nano banana, gemini image, gemini 3 pro image, gemini 2.5 flash image, google image generation, native image generation, gemini native image]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (21 → 33): dialogue-audio]]></title>
-            <link>https://skills.sh/tul-sh/skills/dialogue-audio</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/dialogue-audio</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #21
-Current rank: #33
-Delta: -12
-Installs: 74 (prev 78)
-Source: tul-sh/skills
-Description: Multi-speaker dialogue audio creation with Dia TTS. Covers speaker tags, emotion control, pacing, conversation flow, and post-production. Use for: podcasts, audiobooks, explainers, character dialogue, conversational content. Triggers: dialogue audio, multi speaker, conversation audio, dia tts, two speakers, podcast audio, character voices, voice acting, dialogue generation, conversation tts, multi voice, speaker tags, dialogue recording]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (28 → 47): video-prompting-guide]]></title>
-            <link>https://skills.sh/tul-sh/skills/video-prompting-guide</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/video-prompting-guide</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #28
-Current rank: #47
-Delta: -19
-Installs: 66 (prev 74)
-Source: tul-sh/skills
-Description: Best practices and techniques for writing effective AI video generation prompts. Covers: Veo, Seedance, Wan, Grok, Kling, Runway, Pika, Sora prompting strategies. Learn: shot types, camera movements, lighting, pacing, style keywords, negative prompts. Use for: improving video quality, getting consistent results, professional video prompts. Triggers: video prompt, how to prompt video, veo prompts, video generation tips, better ai video, video prompt engineering, video prompt guide, video prompt template, ai video tips, video prompt best practices, video prompt examples, cinematography prompts]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (29 → 40): ai-product-photography]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-product-photography</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/ai-product-photography</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #29
-Current rank: #40
-Delta: -11
-Installs: 69 (prev 74)
-Source: tul-sh/skills
-Description: Generate professional AI product photography and commercial images. Models: FLUX, Imagen 3, Grok, Seedream for product shots, lifestyle images, mockups. Capabilities: studio lighting, lifestyle scenes, packaging, e-commerce photos. Use for: e-commerce, Amazon listings, Shopify, marketing, advertising, mockups. Triggers: product photography, product shot, commercial photography, e-commerce images, amazon product photo, shopify images, product mockup, studio product shot, lifestyle product image, advertising photo, packshot, product render, product image ai]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (3 → 4): ai-video-generation]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/ai-video-generation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #3
-Current rank: #4
-Delta: -1
-Installs: 1026 (prev 952)
-Source: tul-sh/skills
-Description: Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (30 → 43): prompt-engineering]]></title>
-            <link>https://skills.sh/tul-sh/skills/prompt-engineering</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/prompt-engineering</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #30
-Current rank: #43
-Delta: -13
-Installs: 68 (prev 73)
-Source: tul-sh/skills
-Description: Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, system prompts, negative prompts. Models: Claude, GPT-4, Gemini, FLUX, Veo, Stable Diffusion prompting. Use for: better AI outputs, consistent results, complex tasks, optimization. Triggers: prompt engineering, how to prompt, better prompts, prompt tips, prompting guide, llm prompting, image prompt, ai prompting, prompt optimization, prompt template, prompt structure, effective prompts, prompt techniques]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (37 → 50): image-upscaling]]></title>
-            <link>https://skills.sh/tul-sh/skills/image-upscaling</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/image-upscaling</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #37
-Current rank: #50
-Delta: -13
-Installs: 64 (prev 68)
-Source: tul-sh/skills
-Description: Upscale and enhance images with Real-ESRGAN, Thera, Topaz, FLUX Upscaler via inference.sh CLI. Models: Real-ESRGAN, Thera (any size), FLUX Dev Upscaler, Topaz Image Upscaler. Use for: enhance low-res images, upscale AI art, restore old photos, increase resolution. Triggers: upscale image, image upscaler, enhance image, increase resolution, real esrgan, ai upscale, super resolution, image enhancement, upscaling, enlarge image, higher resolution, 4k upscale, hd upscale]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (4 → 5): remotion-render]]></title>
-            <link>https://skills.sh/tul-sh/skills/remotion-render</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/remotion-render</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #4
-Current rank: #5
-Delta: -1
-Installs: 1007 (prev 933)
-Source: tul-sh/skills
-Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (5 → 6): nano-banana-2]]></title>
-            <link>https://skills.sh/tul-sh/skills/nano-banana-2</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/nano-banana-2</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #5
-Current rank: #6
-Delta: -1
-Installs: 1004 (prev 926)
-Source: tul-sh/skills
-Description: Generate images with Google Gemini 3.1 Flash Image Preview (Nano Banana 2) via inference.sh CLI. Capabilities: text-to-image, image editing, multi-image input (up to 14 images), Google Search grounding. Triggers: nano banana 2, nanobanana 2, gemini 3.1 flash image, gemini 3 1 flash image preview, google image generation]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (9 → 16): widgets-ui]]></title>
+            <title><![CDATA[[Trending] New entry (#39): widgets-ui]]></title>
             <link>https://skills.sh/tul-sh/skills/widgets-ui</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/widgets-ui</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #9
-Current rank: #16
-Delta: -7
-Installs: 119 (prev 159)
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/widgets-ui</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #39
+Installs: 1736
 Source: tul-sh/skills
 Description: Declarative UI widgets from JSON for React/Next.js from ui.inference.sh. Render rich interactive UIs from structured agent responses. Capabilities: forms, buttons, cards, layouts, inputs, selects, checkboxes. Use for: agent-generated UIs, dynamic forms, data display, interactive cards. Triggers: widgets, declarative ui, json ui, widget renderer, agent widgets, dynamic ui, form widgets, card widgets, shadcn widgets, structured output ui]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (11 → 9): python-sdk]]></title>
-            <link>https://skills.sh/tul-sh/skills/python-sdk</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/python-sdk</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #11
-Current rank: #9
-Delta: +2
-Installs: 144 (prev 146)
+            <title><![CDATA[[Trending] New entry (#40): javascript-sdk]]></title>
+            <link>https://skills.sh/tul-sh/skills/javascript-sdk</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/javascript-sdk</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #40
+Installs: 1676
 Source: tul-sh/skills
-Description: Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Python integration, AI apps, agent development, RAG pipelines, automation. Triggers: python sdk, inferencesh, pip install, python api, python client, async inference, python agent, tool builder python, programmatic ai, python integration, sdk python]]></description>
+Description: JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaScript integration, TypeScript, Node.js, React, Next.js, frontend apps. Triggers: javascript sdk, typescript sdk, npm install, node.js api, js client, react ai, next.js ai, frontend sdk, @inferencesh/sdk, typescript agent, browser sdk, js integration]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (14 → 10): agent-ui]]></title>
-            <link>https://skills.sh/tul-sh/skills/agent-ui</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/agent-ui</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #14
-Current rank: #10
-Delta: +4
-Installs: 139 (prev 132)
-Source: tul-sh/skills
-Description: Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building AI chat interfaces, agentic UIs, SaaS copilots, assistants. Triggers: agent component, agent ui, chat agent, shadcn agent, react agent,  agentic ui, ai assistant ui, copilot ui, inference ui, human in the loop]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (15 → 12): chat-ui]]></title>
-            <link>https://skills.sh/tul-sh/skills/chat-ui</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/chat-ui</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #15
-Current rank: #12
-Delta: +3
-Installs: 133 (prev 121)
-Source: tul-sh/skills
-Description: Chat UI building blocks for React/Next.js from ui.inference.sh. Components: container, messages, input, typing indicators, avatars. Capabilities: chat interfaces, message lists, input handling, streaming. Use for: building custom chat UIs, messaging interfaces, AI assistants. Triggers: chat ui, chat component, message list, chat input, shadcn chat,  react chat, chat interface, messaging ui, conversation ui, chat building blocks]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (16 → 13): python-executor]]></title>
+            <title><![CDATA[[Trending] New entry (#41): python-executor]]></title>
             <link>https://skills.sh/tul-sh/skills/python-executor</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/python-executor</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #16
-Current rank: #13
-Delta: +3
-Installs: 128 (prev 119)
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/python-executor</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #41
+Installs: 1655
 Source: tul-sh/skills
 Description: Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (40 → 28): ai-voice-cloning]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-voice-cloning</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/ai-voice-cloning</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #40
+            <title><![CDATA[[Trending] New entry (#42): web-search]]></title>
+            <link>https://skills.sh/tul-sh/skills/web-search</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/web-search</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #42
+Installs: 1648
+Source: tul-sh/skills
+Description: Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#43): agent-ui]]></title>
+            <link>https://skills.sh/tul-sh/skills/agent-ui</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/agent-ui</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #43
+Installs: 1645
+Source: tul-sh/skills
+Description: Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building AI chat interfaces, agentic UIs, SaaS copilots, assistants. Triggers: agent component, agent ui, chat agent, shadcn agent, react agent,  agentic ui, ai assistant ui, copilot ui, inference ui, human in the loop]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#44): python-sdk]]></title>
+            <link>https://skills.sh/tul-sh/skills/python-sdk</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/python-sdk</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #44
+Installs: 1643
+Source: tul-sh/skills
+Description: Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Python integration, AI apps, agent development, RAG pipelines, automation. Triggers: python sdk, inferencesh, pip install, python api, python client, async inference, python agent, tool builder python, programmatic ai, python integration, sdk python]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#45): chat-ui]]></title>
+            <link>https://skills.sh/tul-sh/skills/chat-ui</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/chat-ui</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #45
+Installs: 1635
+Source: tul-sh/skills
+Description: Chat UI building blocks for React/Next.js from ui.inference.sh. Components: container, messages, input, typing indicators, avatars. Capabilities: chat interfaces, message lists, input handling, streaming. Use for: building custom chat UIs, messaging interfaces, AI assistants. Triggers: chat ui, chat component, message list, chat input, shadcn chat,  react chat, chat interface, messaging ui, conversation ui, chat building blocks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#46): tools-ui]]></title>
+            <link>https://skills.sh/tul-sh/skills/tools-ui</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:tul-sh/skills/tools-ui</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #46
+Installs: 1634
+Source: tul-sh/skills
+Description: Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval required, results. Capabilities: tool status, progress indicators, approval flows, results display. Use for: showing agent tool calls, human-in-the-loop approvals, tool output. Triggers: tool ui, tool calls, tool status, tool approval, tool results, agent tools, mcp tools ui, function calling ui, tool lifecycle, tool pending]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#48): ui-ux-pro-max]]></title>
+            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #48
+Installs: 1453
+Source: nextlevelbuilder/ui-ux-pro-max-skill
+Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (1 → 28): sleek-design-mobile-apps]]></title>
+            <link>https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:sleekdotdesign/agent-skills/sleek-design-mobile-apps</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #1
 Current rank: #28
-Delta: +12
-Installs: 76 (prev 67)
-Source: tul-sh/skills
-Description: AI voice generation, text-to-speech, and voice synthesis via inference.sh CLI. Models: Kokoro TTS, DIA, Chatterbox, Higgs, VibeVoice for natural speech. Capabilities: multiple voices, emotions, accents, long-form narration, conversation. Use for: voiceovers, audiobooks, podcasts, video narration, accessibility. Triggers: voice cloning, tts, text to speech, ai voice, voice generation, voice synthesis, voice over, narration, speech synthesis, ai narrator, elevenlabs alternative, natural voice, realistic speech, voice ai]]></description>
+Delta: -27
+Installs: 9288 (prev 13971)
+Source: sleekdotdesign/agent-skills
+Description: Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests ("design an app that does X") and specific ones ("list my projects", "create a new project", "screenshot that screen").]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (41 → 19): app-store-screenshots]]></title>
-            <link>https://skills.sh/tul-sh/skills/app-store-screenshots</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/app-store-screenshots</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #41
-Current rank: #19
-Delta: +22
-Installs: 84 (prev 66)
-Source: tul-sh/skills
-Description: App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app store optimization, play store screenshots, app preview, app listing, ios screenshots, android screenshots, app store images, app mockup, device mockup, app gallery, store listing]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (43 → 17): logo-design-guide]]></title>
-            <link>https://skills.sh/tul-sh/skills/logo-design-guide</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/logo-design-guide</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #43
-Current rank: #17
-Delta: +26
-Installs: 90 (prev 65)
-Source: tul-sh/skills
-Description: Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules, and iteration workflows. Use for: brand identity, startup logos, app icons, favicons, logo concepts. Triggers: logo design, create logo, brand logo, logo generation, ai logo, logo maker, icon design, brand mark, logo concept, startup logo, app icon logo]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (44 → 26): linkedin-content]]></title>
-            <link>https://skills.sh/tul-sh/skills/linkedin-content</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/linkedin-content</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #44
-Current rank: #26
-Delta: +18
-Installs: 76 (prev 64)
-Source: tul-sh/skills
-Description: LinkedIn post writing with hook formulas, formatting rules, and engagement patterns. Covers post types, algorithm signals, character limits, and content pillars. Use for: LinkedIn posts, professional content, thought leadership, B2B content, personal branding. Triggers: linkedin post, linkedin content, linkedin writing, linkedin strategy, linkedin engagement, linkedin algorithm, linkedin hook, linkedin formatting, thought leadership, professional content, b2b content, linkedin growth]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (47 → 37): content-repurposing]]></title>
-            <link>https://skills.sh/tul-sh/skills/content-repurposing</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/content-repurposing</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #47
-Current rank: #37
-Delta: +10
-Installs: 70 (prev 63)
-Source: tul-sh/skills
-Description: Content atomization — turn one piece of content into many formats. Covers blog-to-thread, blog-to-carousel, podcast-to-blog, video-to-quotes, and more. Use for: content marketing, social media, multi-platform distribution, content strategy. Triggers: content repurposing, repurpose content, content atomization, content recycling, one to many content, multi platform content, cross post, adapt content, reformat content, blog to thread, blog to video, podcast to blog, content multiplication]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (48 → 18): ai-social-media-content]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-social-media-content</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/ai-social-media-content</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #48
-Current rank: #18
-Delta: +30
-Installs: 86 (prev 63)
-Source: tul-sh/skills
-Description: Create AI-powered social media content for TikTok, Instagram, YouTube, Twitter/X. Generate: images, videos, reels, shorts, thumbnails, captions, hashtags. Tools: FLUX, Veo, Seedance, Wan, Kokoro TTS, Claude for copywriting. Use for: content creators, social media managers, influencers, brands. Triggers: social media content, tiktok, instagram reels, youtube shorts, twitter post, content creator, ai influencer, social content, reels, shorts, viral content, thumbnail generator, caption generator, hashtag generator, ugc content]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (49 → 27): competitor-teardown]]></title>
-            <link>https://skills.sh/tul-sh/skills/competitor-teardown</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/competitor-teardown</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #49
-Current rank: #27
-Delta: +22
-Installs: 76 (prev 62)
-Source: tul-sh/skills
-Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (50 → 23): product-hunt-launch]]></title>
-            <link>https://skills.sh/tul-sh/skills/product-hunt-launch</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/product-hunt-launch</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #50
-Current rank: #23
-Delta: +27
-Installs: 78 (prev 62)
-Source: tul-sh/skills
-Description: Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, product hunt launch, launch strategy, product launch, startup launch, product hunt tips, product hunt gallery, ph optimization, launch day, product hunt maker]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (6 → 2): agent-browser]]></title>
-            <link>https://skills.sh/tul-sh/skills/agent-browser</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/agent-browser</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #6
-Current rank: #2
-Delta: +4
-Installs: 1050 (prev 925)
-Source: tul-sh/skills
-Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (7 → 1): ai-image-generation]]></title>
-            <link>https://skills.sh/tul-sh/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/ai-image-generation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #7
-Current rank: #1
-Delta: +6
-Installs: 1056 (prev 909)
-Source: tul-sh/skills
-Description: Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (8 → 7): agent-tools]]></title>
-            <link>https://skills.sh/tul-sh/skills/agent-tools</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topHot:rank:tul-sh/skills/agent-tools</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #8
-Current rank: #7
-Delta: +1
-Installs: 981 (prev 901)
-Source: tul-sh/skills
-Description: Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (10 → 19): appinsights-instrumentation]]></title>
-            <link>https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/appinsights-instrumentation</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (10 → 17): azure-resource-visualizer]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-resource-visualizer</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
 Previous rank: #10
-Current rank: #19
-Delta: -9
-Installs: 9669 (prev 10334)
-Source: microsoft/github-copilot-for-azure
-Description: Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references.
-USE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.
-DO NOT USE FOR: adding App Insights to my app (use azure-prepare), add telemetry to my project (use azure-prepare), add monitoring (use azure-prepare). This skill provides guidance—azure-prepare orchestrates component changes.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (4 → 6): azure-deploy]]></title>
-            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-deploy</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #4
-Current rank: #6
-Delta: -2
-Installs: 9680 (prev 10347)
-Source: microsoft/github-copilot-for-azure
-Description: Execute deployment to Azure. Final step after preparation and validation. Runs azd up, azd deploy, or infrastructure provisioning commands.
-USE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure, push to production, go live, ship it, deploy web app, deploy container app, deploy static site, deploy Azure Functions, bicep deploy, terraform apply.
-DO NOT USE FOR: creating or building apps (use azure-prepare), validating before deploy (use azure-validate).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank up (11 → 10): azure-resource-visualizer]]></title>
-            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-resource-visualizer</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #11
-Current rank: #10
-Delta: +1
-Installs: 9670 (prev 10334)
+Current rank: #17
+Delta: -7
+Installs: 9306 (prev 9670)
 Source: microsoft/github-copilot-for-azure
 Description: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.
 USE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure
 DO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (19 → 16): azure-messaging]]></title>
-            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-messaging</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (11 → 22): azure-prepare]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-prepare</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #19
-Current rank: #16
-Delta: +3
-Installs: 9669 (prev 10332)
+Previous rank: #11
+Current rank: #22
+Delta: -11
+Installs: 9305 (prev 9670)
 Source: microsoft/github-copilot-for-azure
-Description: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. USE FOR: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter DO NOT USE FOR: creating Event Hub or Service Bus resources (use azure-prepare), monitoring metrics (use azure-observability), cost analysis (use azure-cost-optimization)]]></description>
+Description: Default entry point for Azure application development. Invoke this skill for ANY application work related to Azure: creating apps, building features, adding components, updating code, migrating, or modernizing. Analyzes your project and prepares it for Azure deployment by generating infrastructure code (Bicep/Terraform), azure.yaml configuration, and Dockerfiles.
+USE FOR: create an app, build a web app, create API, create frontend, create backend, add a feature, build a service, make an application, develop a project, migrate my app, modernize my code, update my application, add database, add authentication, add caching, deploy to Azure, host on Azure, Azure with Terraform (defaults to azd+Terraform), Azure with azd, generate azure.yaml, generate Bicep or Terraform, prepare Azure Functions.
+DO NOT USE FOR: only validating an already-prepared app (use azure-validate), only running azd up/deploy (use azure-deploy), pure Terraform without azd (prefer azd+Terraform).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (20 → 14): azure-rbac]]></title>
-            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-rbac</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (12 → 19): azure-aigateway]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-aigateway</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #20
-Current rank: #14
-Delta: +6
-Installs: 9669 (prev 10331)
+Previous rank: #12
+Current rank: #19
+Delta: -7
+Installs: 9306 (prev 9670)
+Source: microsoft/github-copilot-for-azure
+Description: Configure Azure API Management (APIM) as AI Gateway to secure, observe, control AI models, MCP servers, agents. Helps with rate limiting, semantic caching, content safety, load balancing.
+USE FOR: AI Gateway, APIM, setup gateway, configure gateway, add gateway, model gateway, MCP server, rate limit, token limit, semantic cache, content safety, load balance, OpenAPI import, convert API to MCP.
+DO NOT USE FOR: deploy models (use microsoft-foundry), Azure Functions (use azure-functions), databases (use azure-postgres).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (13 → 18): azure-compliance]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-compliance</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #13
+Current rank: #18
+Delta: -5
+Installs: 9306 (prev 9670)
+Source: microsoft/github-copilot-for-azure
+Description: Comprehensive Azure compliance and security auditing capabilities including best practices assessment,
+Key Vault expiration monitoring, and resource configuration validation.
+USE FOR: compliance scan, security audit, azqr, Azure best practices, Key Vault expiration check,
+compliance assessment, resource review, configuration validation, expired certificates, expiring secrets,
+orphaned resources, policy compliance, security posture evaluation.
+DO NOT USE FOR: deploying resources (use azure-deploy), cost analysis alone (use azure-cost-optimization),
+active security hardening (use azure-security-hardening), general Azure Advisor queries (use azure-observability).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (14 → 26): azure-rbac]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-rbac</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #14
+Current rank: #26
+Delta: -12
+Installs: 9303 (prev 9669)
 Source: microsoft/github-copilot-for-azure
 Description: Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it.
 USE FOR: "what role should I assign", "least privilege role", "RBAC role for", "role to read blobs", "role for managed identity", "custom role definition", "assign role to identity".
 DO NOT USE FOR: creating or configuring managed identities, or general Azure security hardening; those are out of scope for this role-selection skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (23 → 20): azure-compute]]></title>
-            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-compute</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-compute</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (16 → 27): azure-messaging]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-messaging</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #23
+Previous rank: #16
+Current rank: #27
+Delta: -11
+Installs: 9299 (prev 9669)
+Source: microsoft/github-copilot-for-azure
+Description: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. USE FOR: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter DO NOT USE FOR: creating Event Hub or Service Bus resources (use azure-prepare), monitoring metrics (use azure-observability), cost analysis (use azure-cost-optimization)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (17 → 20): entra-app-registration]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/entra-app-registration</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #17
 Current rank: #20
-Delta: +3
-Installs: 9668 (prev 10329)
+Delta: -3
+Installs: 9306 (prev 9669)
+Source: microsoft/github-copilot-for-azure
+Description: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration.
+USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication.
+DO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (20 → 30): azure-compute]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-compute</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-compute</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #20
+Current rank: #30
+Delta: -10
+Installs: 9254 (prev 9668)
 Source: microsoft/github-copilot-for-azure
 Description: Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. USE FOR: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration. DO NOT USE FOR: deploying VMs or VMSS, deploying apps (use azure-deploy), looking up existing VMs (use azure-resource-lookup), cost optimization of running VMs (use azure-cost-optimization), non-VM services like App Service or AKS.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (35 → 25): agent-tools]]></title>
-            <link>https://skills.sh/tul-sh/skills/agent-tools</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:tul-sh/skills/agent-tools</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (3 → 10): azure-ai]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-ai</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-ai</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #35
-Current rank: #25
-Delta: +10
-Installs: 7452 (prev 2278)
-Source: tul-sh/skills
-Description: Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
+Previous rank: #3
+Current rank: #10
+Delta: -7
+Installs: 9336 (prev 9701)
+Source: microsoft/github-copilot-for-azure
+Description: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech. DO NOT USE FOR: Function apps/Functions (use azure-functions), databases (azure-postgres/azure-kusto), general Azure resources.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (5 → 4): azure-storage]]></title>
+            <title><![CDATA[[Trending] Rank down (4 → 11): azure-storage]]></title>
             <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-storage</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-storage</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-storage</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #5
-Current rank: #4
-Delta: +1
-Installs: 9681 (prev 10344)
+Previous rank: #4
+Current rank: #11
+Delta: -7
+Installs: 9319 (prev 9681)
 Source: microsoft/github-copilot-for-azure
 Description: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (6 → 5): azure-observability]]></title>
+            <title><![CDATA[[Trending] Rank down (5 → 14): azure-observability]]></title>
             <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-observability</link>
-            <guid isPermaLink="false">2026-03-04T19:01:59.857Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-observability</guid>
-            <pubDate>Wed, 04 Mar 2026 19:01:59 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-observability</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #6
-Current rank: #5
-Delta: +1
-Installs: 9680 (prev 10344)
+Previous rank: #5
+Current rank: #14
+Delta: -9
+Installs: 9314 (prev 9680)
 Source: microsoft/github-copilot-for-azure
 Description: Azure Observability Services including Azure Monitor, Application Insights, Log Analytics, Alerts, and Workbooks. Provides metrics, APM, distributed tracing, KQL queries, and interactive reports.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (6 → 12): azure-deploy]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-deploy</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #6
+Current rank: #12
+Delta: -6
+Installs: 9315 (prev 9680)
+Source: microsoft/github-copilot-for-azure
+Description: Execute deployment to Azure. Final step after preparation and validation. Runs azd up, azd deploy, or infrastructure provisioning commands.
+USE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure, push to production, go live, ship it, deploy web app, deploy container app, deploy static site, deploy Azure Functions, bicep deploy, terraform apply.
+DO NOT USE FOR: creating or building apps (use azure-prepare), validating before deploy (use azure-validate).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (7 → 13): azure-cost-optimization]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-cost-optimization</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #7
+Current rank: #13
+Delta: -6
+Installs: 9315 (prev 9678)
+Source: microsoft/github-copilot-for-azure
+Description: Identify and quantify cost savings across Azure subscriptions by analyzing actual costs,
+utilization metrics, and generating actionable optimization recommendations. USE FOR:
+optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs,
+find cost savings, generate cost optimization report, find orphaned resources, rightsize VMs,
+cost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis
+costs. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics
+(use azure-diagnostics), security issues (use azure-security)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (8 → 15): azure-diagnostics]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/azure-diagnostics</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #8
+Current rank: #15
+Delta: -7
+Installs: 9309 (prev 9675)
+Source: microsoft/github-copilot-for-azure
+Description: Debug and troubleshoot production issues on Azure. Covers Container Apps diagnostics, log analysis with KQL, health checks, and common issue resolution for image pulls, cold starts, and health probes.
+USE FOR: debug production issues, troubleshoot container apps, analyze logs with KQL, fix image pull failures, resolve cold start issues, investigate health probe failures, check resource health, view application logs, find root cause of errors
+DO NOT USE FOR: deploying applications (use azure-deploy), creating new resources (use azure-prepare), setting up monitoring (use azure-observability), cost optimization (use azure-cost-optimization)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (9 → 16): microsoft-foundry]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:microsoft/github-copilot-for-azure/microsoft-foundry</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #9
+Current rank: #16
+Delta: -7
+Installs: 9308 (prev 9675)
+Source: microsoft/github-copilot-for-azure
+Description: Use this skill to work with Microsoft Foundry (Azure AI Foundry): deploy AI models from catalog, build RAG applications with knowledge indexes, create and evaluate AI agents, manage RBAC permissions and role assignments, manage quotas and capacity, create Foundry resources.
+USE FOR: Microsoft Foundry, AI Foundry, deploy model, model catalog, RAG, knowledge index, create agent, evaluate agent, agent monitoring, create Foundry project, new Foundry project, set up Foundry, onboard to Foundry, provision Foundry infrastructure, create Foundry resource, create AI Services, multi-service resource, AIServices kind, register resource provider, enable Cognitive Services, setup AI Services account, create resource group for Foundry, RBAC, role assignment, managed identity, service principal, permissions, quota, capacity, TPM, deployment failure, QuotaExceeded.
+DO NOT USE FOR: Azure Functions (use azure-functions), App Service (use azure-create-app), generic Azure resource creation (use azure-create-app).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (2 → 1): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:vercel-labs/skills/find-skills</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #2
+Current rank: #1
+Delta: +1
+Installs: 13524 (prev 13347)
+Source: vercel-labs/skills
+Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (24 → 3): twitter-automation]]></title>
+            <link>https://skills.sh/tul-sh/skills/twitter-automation</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/twitter-automation</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #24
+Current rank: #3
+Delta: +21
+Installs: 12456 (prev 7486)
+Source: tul-sh/skills
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (25 → 5): agent-tools]]></title>
+            <link>https://skills.sh/tul-sh/skills/agent-tools</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/agent-tools</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #25
+Current rank: #5
+Delta: +20
+Installs: 12341 (prev 7452)
+Source: tul-sh/skills
+Description: Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (26 → 4): ai-image-generation]]></title>
+            <link>https://skills.sh/tul-sh/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/ai-image-generation</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #26
+Current rank: #4
+Delta: +22
+Installs: 12371 (prev 7415)
+Source: tul-sh/skills
+Description: Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (27 → 6): agent-browser]]></title>
+            <link>https://skills.sh/tul-sh/skills/agent-browser</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/agent-browser</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #27
+Current rank: #6
+Delta: +21
+Installs: 12236 (prev 7389)
+Source: tul-sh/skills
+Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (28 → 7): nano-banana-2]]></title>
+            <link>https://skills.sh/tul-sh/skills/nano-banana-2</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/nano-banana-2</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #28
+Current rank: #7
+Delta: +21
+Installs: 12229 (prev 7365)
+Source: tul-sh/skills
+Description: Generate images with Google Gemini 3.1 Flash Image Preview (Nano Banana 2) via inference.sh CLI. Capabilities: text-to-image, image editing, multi-image input (up to 14 images), Google Search grounding. Triggers: nano banana 2, nanobanana 2, gemini 3.1 flash image, gemini 3 1 flash image preview, google image generation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (29 → 8): nano-banana]]></title>
+            <link>https://skills.sh/tul-sh/skills/nano-banana</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/nano-banana</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #29
+Current rank: #8
+Delta: +21
+Installs: 12224 (prev 7361)
+Source: tul-sh/skills
+Description: Generate images with Google Gemini native image models via inference.sh CLI. Models: Gemini 3 Pro Image, Gemini 2.5 Flash Image. Capabilities: text-to-image, image editing, multi-image input. Triggers: nano banana, gemini image, gemini 3 pro image, gemini 2.5 flash image, google image generation, native image generation, gemini native image]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (30 → 2): remotion-render]]></title>
+            <link>https://skills.sh/tul-sh/skills/remotion-render</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/remotion-render</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #30
+Current rank: #2
+Delta: +28
+Installs: 12457 (prev 7322)
+Source: tul-sh/skills
+Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (31 → 9): ai-video-generation]]></title>
+            <link>https://skills.sh/tul-sh/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-03-05T02:36:36.502Z:topTrending:rank:tul-sh/skills/ai-video-generation</guid>
+            <pubDate>Thu, 05 Mar 2026 02:36:36 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #31
+Current rank: #9
+Delta: +22
+Installs: 12155 (prev 7299)
+Source: tul-sh/skills
+Description: Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative]]></description>
         </item>
     </channel>
 </rss>

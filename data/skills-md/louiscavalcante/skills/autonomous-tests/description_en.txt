@@ -1,0 +1,1 @@
+Run autonomous E2E tests. Args: staged | unstaged | N (last N commits) | working-tree | file:<path> | rescan | guided [description] (default: working-tree with smart doc analysis). Example: /autonomous-tests guided "payment checkout flow"

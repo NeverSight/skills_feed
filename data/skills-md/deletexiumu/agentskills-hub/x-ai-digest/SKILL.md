@@ -1,0 +1,206 @@
+---
+name: x-ai-digest
+description: Scrape AI-related posts from X platform's "For You" feed, generate daily digest with reply suggestions. Features real-time scraping, AI topic filtering, share card generation, multi-language output (ZH/EN/JA).
+---
+
+<!-- i18n-examples:start -->
+## 调用 / Invoke / 呼び出し
+
+### 中文
+- "用 x-ai-digest 抓取今天的 AI 热点"
+- "用 x-ai-digest 生成昨天的 X 平台 AI 简报"
+- "x-ai-digest 帮我看看前天 X 上有什么 AI 相关动态"
+- "用 x-ai-digest 整理最近的 AI 推文并给出回复建议"
+
+### English
+- "Use x-ai-digest to scrape today's AI hot topics from X"
+- "Use x-ai-digest to summarize AI posts from yesterday in English"
+- "Generate an X platform AI digest for 2026-01-20 using x-ai-digest"
+- "Use x-ai-digest to compile recent AI tweets with reply suggestions"
+
+### 日本語
+- "x-ai-digest で今日のAI関連投稿を日本語で要約して"
+- "x-ai-digest で昨日のXプラットフォームのAI動向を取得して"
+- "x-ai-digest を使って最近のAI関連ツイートをまとめて"
+- "x-ai-digest で一昨日のAI投稿を収集して返信提案を作成して"
+<!-- i18n-examples:end -->
+
+# 目标
+
+从 X 平台主页的「为你推荐」栏目抓取指定日期的 AI 相关信息，生成结构化的每日简报：
+
+- 交付物：1 份 Markdown 简报 + 1 份 JSON 原始数据 + 1 张公众号分享图片
+- 每条帖子：时间、作者、内容、原文链接
+- 简报内容：热点话题汇总、产品发布、精选帖子、回复建议
+- 分享图片：卡片式设计，包含今日热点摘要，适合公众号/朋友圈分享
+- 默认输出：**中文**（英文/日文内容需翻译）
+
+# 前置条件
+
+1. **dev-browser skill 已安装并运行**
+   - 需要使用浏览器扩展模式连接到已登录 X 的浏览器
+   - 启动命令：`cd skills/dev-browser && npm run start-extension`
+
+2. **X 账号已登录**
+   - 用户需要在 Chrome 浏览器中登录 X 账号
+   - 确保能访问「为你推荐」栏目
+
+# 输入（先问清）
+
+| 参数 | 说明 | 默认值 |
+|------|------|--------|
+| 日期 | 抓取哪天的数据 | 今天 (YYYY-MM-DD) |
+| 数量范围 | 目标帖子数量 | 50-100 条 |
+| 输出目录 | 简报保存位置 | 当前工作目录 |
+| 是否生成回复 | 是否为精选帖子生成回复建议 | 是 |
+
+# 流程
+
+## 第一步：连接浏览器并访问 X 主页
+
+```javascript
+// 使用 dev-browser 连接已登录的浏览器
+const client = await connect();
+const page = await client.page("x-home", { viewport: { width: 1920, height: 1080 } });
+
+// 访问 X 主页
+await page.goto("https://x.com/home");
+await waitForPageLoad(page);
+
+// 切换到「为你推荐」标签
+await page.click('text=为你推荐');
+await page.waitForTimeout(3000);
+```
+
+## 第二步：滚动抓取帖子
+
+循环滚动页面，提取每条帖子的：
+- `tweetId` - 帖子唯一 ID
+- `tweetUrl` - 原文链接 (`https://x.com/{username}/status/{tweet_id}`)
+- `datetime` - ISO 8601 格式的发布时间
+- `username` - 用户名
+- `displayName` - 显示名称
+- `content` - 帖子内容
+
+详细实现见 `references/scraping-guide.md`
+
+## 第三步：时间筛选
+
+将 UTC 时间转换为北京时间 (UTC+8) 进行筛选：
+
+```javascript
+// 北京时间 YYYY-MM-DD 对应的 UTC 时间范围
+// 北京时间 00:00:00 = UTC 前一天 16:00:00
+// 北京时间 23:59:59 = UTC 当天 15:59:59
+const startUTC = new Date(`${date.slice(0, 4)}-${date.slice(5, 7)}-${parseInt(date.slice(8, 10)) - 1}T16:00:00.000Z`);
+const endUTC = new Date(`${date}T15:59:59.999Z`);
+```
+
+## 第四步：去重与数量控制
+
+- 使用 `tweetId` 去重
+- 累计到 50 条时可以停止，最多抓取 100 条
+- 如果滚动多次仍未达到 50 条，则以实际数量为准
+- 连续 10 次滚动无新数据时停止
+
+## 第五步：筛选 AI 相关内容
+
+使用关键词匹配筛选 AI 相关帖子，关键词列表见 `references/ai-keywords.md`
+
+## 第六步：生成简报
+
+使用模板 `assets/digest-template.md` 生成简报，包含：
+1. 今日热点话题
+2. 重要产品/功能发布
+3. 行业观察
+4. 精选帖子及回复建议
+5. 值得关注的账号
+
+回复建议规则：
+- 使用帖子原文语言生成回复
+- 非中文帖子需附中文说明
+- 回复内容要有价值，避免空洞夸赞
+
+## 第七步：生成公众号分享图片
+
+基于 `assets/share-card-template.html` 生成分享卡片：
+
+1. **生成 HTML 文件**：根据今日热点填充模板
+2. **截图生成 PNG**：使用 playwright 截取 `.card` 元素
+
+```javascript
+import { chromium } from "playwright";
+
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage({ viewport: { width: 900, height: 1800 } });
+
+await page.goto(`file://${htmlPath}`);
+await page.waitForTimeout(2000);
+
+// 只截取 .card 元素，不要背景
+const card = await page.$('.card');
+await card.screenshot({
+  path: `${outputDir}/ai-digest-${date}.png`,
+  type: "png"
+});
+
+await browser.close();
+```
+
+卡片内容包含：
+- 标题和日期
+- 今日 3-4 个热点话题摘要
+- 统计数据（帖子数、话题数、产品发布数）
+- 数据来源标注
+
+# 护栏
+
+- 只抓取公开可见的帖子，不尝试绑定登录或绕过限制
+- 滚动间隔 >= 1 秒，避免触发反爬机制
+- 如遇网络错误或页面异常，降级输出已抓取的数据
+- 输出文件前确认路径，避免覆盖已有文件
+- 翻译时保留原文链接，确保可追溯
+
+# 输出示例
+
+## 文件结构
+
+```
+{output_dir}/
+├── x-posts-{date}.json      # 原始数据
+├── x-posts-{date}.md        # 帖子列表表格
+├── AI简报-{date}.md         # 完整简报
+└── ai-digest-{date}.png     # 公众号分享图片
+```
+
+## 简报结构
+
+```markdown
+# AI 每日简报 | {date}
+
+## 一、今日热点话题
+### 🔥 话题1
+### 🆕 话题2
+...
+
+## 二、精选帖子及回复建议
+### 1. 作者 - 话题
+**原文**：...
+**链接**：...
+**建议回复（语言）**：...
+**中文说明**：...（如非中文）
+
+## 三、今日金句
+...
+
+## 四、值得关注的账号
+...
+```
+
+# 资源
+
+- 抓取实现指南：`references/scraping-guide.md`
+- AI 关键词列表：`references/ai-keywords.md`
+- 简报模板：`assets/digest-template.md`
+- 分享卡片模板：`assets/share-card-template.html`
+- 分享卡片生成指南：`references/share-card-guide.md`
