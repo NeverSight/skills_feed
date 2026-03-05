@@ -1,0 +1,6 @@
+Esta habilidad une Claude Code con las plataformas de mensajería instantánea (Telegram, Discord, Feishu/Lark).
+Debe usarse cuando el usuario desea iniciar un demonio en segundo plano que reenvía
+Mensajes instantáneos a sesiones de Claude Code o gestionar el ciclo de vida de ese demonio.
+Activar: "claude-to-im", "iniciar puente", "detener puente", "estado de puente",
+"查看日志", "启动桥接", "停止桥接" o cualquier mención de la gestión del puente de mensajería instantánea.
+Subcomandos: configurar, iniciar, detener, estado, registros, reconfigurar, médico.
