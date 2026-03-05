@@ -1,0 +1,6 @@
+This skill bridges Claude Code to IM platforms (Telegram, Discord, Feishu/Lark).
+It should be used when the user wants to start a background daemon that forwards
+IM messages to Claude Code sessions, or manage that daemon's lifecycle.
+Trigger on: "claude-to-im", "start bridge", "stop bridge", "bridge status",
+"查看日志", "启动桥接", "停止桥接", or any mention of IM bridge management.
+Subcommands: setup, start, stop, status, logs, reconfigure, doctor.
