@@ -1,0 +1,6 @@
+Cette compétence relie Claude Code aux plateformes de messagerie instantanée (Telegram, Discord, Feishu/Lark).
+Il doit être utilisé lorsque l'utilisateur souhaite démarrer un démon en arrière-plan qui transmet
+Messages instantanés aux sessions Claude Code, ou gérez le cycle de vie de ce démon.
+Déclencheur sur : "claude-to-im", "start bridge", "stop bridge", "bridge status",
+"查看日志", "启动桥接", "停止桥接" ou toute mention de gestion de pont de messagerie instantanée.
+Sous-commandes : setup, start, stop, status, logs, reconfigure, doctor.
