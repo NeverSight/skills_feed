@@ -4,586 +4,603 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Fri, 06 Mar 2026 13:09:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2026 18:58:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-06)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:snapshot</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:snapshot</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 41035
-Trending skills: 17105
-Hot skills: 2836
-Top All Time: find-skills (427411)
-Top Trending: agent-tools (15397)
-Top Hot: sleek-design-mobile-apps (572)]]></description>
+All Time skills: 41023
+Trending skills: 16742
+Hot skills: 2282
+Top All Time: find-skills (431159)
+Top Trending: agent-tools (15769)
+Top Hot: remotion-render (890)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): sleek-design-mobile-apps]]></title>
-            <link>https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:sleekdotdesign/agent-skills/sleek-design-mobile-apps</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): remotion-render]]></title>
+            <link>https://skills.sh/tul-sh/skills/remotion-render</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/remotion-render</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 572
-Source: sleekdotdesign/agent-skills
-Description: Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests ("design an app that does X") and specific ones ("list my projects", "create a new project", "screenshot that screen").]]></description>
+Installs: 890
+Source: tul-sh/skills
+Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): azure-devops-cli]]></title>
-            <link>https://skills.sh/github/awesome-copilot/azure-devops-cli</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/azure-devops-cli</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): image-upscaling]]></title>
+            <link>https://skills.sh/tul-sh/skills/image-upscaling</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/image-upscaling</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 98
-Source: github/awesome-copilot
-Description: Manage Azure DevOps resources via CLI including projects, repos, pipelines, builds, pull requests, work items, artifacts, and service endpoints. Use when working with Azure DevOps, az commands, devops automation, CI/CD, or when user mentions Azure DevOps CLI.]]></description>
+Installs: 70
+Source: tul-sh/skills
+Description: Upscale and enhance images with Real-ESRGAN, Thera, Topaz, FLUX Upscaler via inference.sh CLI. Models: Real-ESRGAN, Thera (any size), FLUX Dev Upscaler, Topaz Image Upscaler. Use for: enhance low-res images, upscale AI art, restore old photos, increase resolution. Triggers: upscale image, image upscaler, enhance image, increase resolution, real esrgan, ai upscale, super resolution, image enhancement, upscaling, enlarge image, higher resolution, 4k upscale, hd upscale]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): create-readme]]></title>
-            <link>https://skills.sh/github/awesome-copilot/create-readme</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/create-readme</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): content-repurposing]]></title>
+            <link>https://skills.sh/tul-sh/skills/content-repurposing</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/content-repurposing</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 97
-Source: github/awesome-copilot
-Description: Create a README.md file for the project]]></description>
+Installs: 77
+Source: tul-sh/skills
+Description: Content atomization — turn one piece of content into many formats. Covers blog-to-thread, blog-to-carousel, podcast-to-blog, video-to-quotes, and more. Use for: content marketing, social media, multi-platform distribution, content strategy. Triggers: content repurposing, repurpose content, content atomization, content recycling, one to many content, multi platform content, cross post, adapt content, reformat content, blog to thread, blog to video, podcast to blog, content multiplication]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): create-llms]]></title>
-            <link>https://skills.sh/github/awesome-copilot/create-llms</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/create-llms</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): baoyu-translate]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-translate</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:jimliu/baoyu-skills/baoyu-translate</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 96
-Source: github/awesome-copilot
-Description: Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/]]></description>
+Installs: 23
+Source: jimliu/baoyu-skills
+Description: Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to "translate", "翻译", "精翻", "translate article", "translate to Chinese/English", "改成中文", "改成英文", "convert to Chinese", "localize", "本地化", or needs any document translation. Also triggers for "refined translation", "精细翻译", "proofread translation", "快速翻译", "快翻", "这篇文章翻译一下", or when a URL or file is provided with translation intent.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): context7]]></title>
-            <link>https://skills.sh/am-will/codex-skills/context7</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:am-will/codex-skills/context7</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): brainstorming]]></title>
+            <link>https://skills.sh/obra/superpowers/brainstorming</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:obra/superpowers/brainstorming</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 121
-Source: am-will/codex-skills
-Description: Fetch up-to-date library documentation via Context7 API. Use PROACTIVELY when:
-(1) Working with ANY external library (React, Next.js, Supabase, etc.)
-(2) User asks about library APIs, patterns, or best practices
-(3) Implementing features that rely on third-party packages
-(4) Debugging library-specific issues
-(5) Need current documentation beyond training data cutoff
-(6) AND MOST IMPORTANTLY, when you are installing dependencies, libraries, or frameworks you should ALWAYS check the docs to see what the latest versions are. Do not rely on outdated knowledge.
-Always prefer this over guessing library APIs or using outdated knowledge.]]></description>
+Installs: 65
+Source: obra/superpowers
+Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): parallel-task]]></title>
-            <link>https://skills.sh/am-will/codex-skills/parallel-task</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:am-will/codex-skills/parallel-task</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): web-design-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 120
-Source: am-will/codex-skills
-Description: Execute plan files by launching multiple parallel subagents to complete tasks simultaneously. Triggers on explicit "/parallel-task" commands.]]></description>
+Installs: 126
+Source: vercel-labs/agent-skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): llm-council]]></title>
-            <link>https://skills.sh/am-will/codex-skills/llm-council</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:am-will/codex-skills/llm-council</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): youtube-thumbnail-design]]></title>
+            <link>https://skills.sh/tul-sh/skills/youtube-thumbnail-design</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/youtube-thumbnail-design</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 119
-Source: am-will/codex-skills
-Description: Orchestrate a configurable, multi-member CLI planning council (Codex, Claude Code, Gemini, OpenCode, or custom) to produce independent implementation plans, anonymize and randomize them, then judge and merge into one final plan. Use when you need a robust, bias-resistant planning workflow, structured JSON outputs, retries, and failure handling across multiple CLI agents.]]></description>
+Installs: 73
+Source: tul-sh/skills
+Description: YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face expression psychology, and A/B testing. Use for: YouTube thumbnails, video cover images, click-through optimization. Triggers: youtube thumbnail, thumbnail design, video thumbnail, click through rate, ctr optimization, youtube cover, video cover image, thumbnail maker, thumbnail tips, youtube design, video preview image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): read-github]]></title>
-            <link>https://skills.sh/am-will/codex-skills/read-github</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:am-will/codex-skills/read-github</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): linkedin-content]]></title>
+            <link>https://skills.sh/tul-sh/skills/linkedin-content</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/linkedin-content</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 119
-Source: am-will/codex-skills
-Description: Read and search GitHub repository documentation via gitmcp.io MCP service.
-
-**WHEN TO USE:**
-- User provides a GitHub URL
-- User mentions a specific repo in owner/repo format
-- User asks "what does this repo do?", "read the docs for X repo", or similar
-- User wants to search code or docs within a repo]]></description>
+Installs: 68
+Source: tul-sh/skills
+Description: LinkedIn post writing with hook formulas, formatting rules, and engagement patterns. Covers post types, algorithm signals, character limits, and content pillars. Use for: LinkedIn posts, professional content, thought leadership, B2B content, personal branding. Triggers: linkedin post, linkedin content, linkedin writing, linkedin strategy, linkedin engagement, linkedin algorithm, linkedin hook, linkedin formatting, thought leadership, professional content, b2b content, linkedin growth]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): agent browser]]></title>
-            <link>https://skills.sh/am-will/codex-skills/agent-browser</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:am-will/codex-skills/agent-browser</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): deploy-to-vercel]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/deploy-to-vercel</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:vercel-labs/agent-skills/deploy-to-vercel</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 119
-Source: am-will/codex-skills
-Description: A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.]]></description>
+Installs: 21
+Source: vercel-labs/agent-skills
+Description: Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): vet]]></title>
-            <link>https://skills.sh/imbue-ai/vet/vet</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:imbue-ai/vet/vet</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): swiftui-pro]]></title>
+            <link>https://skills.sh/twostraws/swiftui-agent-skill/swiftui-pro</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:twostraws/swiftui-agent-skill/swiftui-pro</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 114
-Source: imbue-ai/vet
-Description: Run vet immediately after ANY logical unit of code changes. Do not batch your changes, do not wait to be asked to run vet, make sure you are proactive.]]></description>
+Installs: 21
+Source: twostraws/swiftui-agent-skill
+Description: Comprehensively reviews SwiftUI code for best practices on modern APIs, maintainability, and performance. Use when reading, writing, or reviewing SwiftUI projects.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): git-commit]]></title>
-            <link>https://skills.sh/github/awesome-copilot/git-commit</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/git-commit</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): agent-browser]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 103
-Source: github/awesome-copilot
-Description: Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions "/commit". Supports: (1) Auto-detecting type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with optional type/scope/description overrides, (4) Intelligent file staging for logical grouping]]></description>
+Installs: 85
+Source: vercel-labs/agent-browser
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): copilot-spaces]]></title>
-            <link>https://skills.sh/github/awesome-copilot/copilot-spaces</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/copilot-spaces</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:vercel-labs/skills/find-skills</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 94
+Installs: 533
+Source: vercel-labs/skills
+Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): tools-ui]]></title>
+            <link>https://skills.sh/tul-sh/skills/tools-ui</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/tools-ui</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 109
+Source: tul-sh/skills
+Description: Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval required, results. Capabilities: tool status, progress indicators, approval flows, results display. Use for: showing agent tool calls, human-in-the-loop approvals, tool output. Triggers: tool ui, tool calls, tool status, tool approval, tool results, agent tools, mcp tools ui, function calling ui, tool lifecycle, tool pending]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): twitter-thread-creation]]></title>
+            <link>https://skills.sh/tul-sh/skills/twitter-thread-creation</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/twitter-thread-creation</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 69
+Source: tul-sh/skills
+Description: Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media attachments, and posting strategies. Use for: Twitter threads, X posts, tweet storms, Twitter content, social media writing. Triggers: twitter thread, tweet thread, x thread, twitter post, tweet writing, thread creation, tweet storm, twitter content, x post, twitter writing, twitter hook, tweet formatting, thread structure]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): nano-banana]]></title>
+            <link>https://skills.sh/tul-sh/skills/nano-banana</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/nano-banana</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #22
+Installs: 868
+Source: tul-sh/skills
+Description: Generate images with Google Gemini native image models via inference.sh CLI. Models: Gemini 3 Pro Image, Gemini 2.5 Flash Image. Capabilities: text-to-image, image editing, multi-image input. Triggers: nano banana, gemini image, gemini 3 pro image, gemini 2.5 flash image, google image generation, native image generation, gemini native image]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#23): newsletter-curation]]></title>
+            <link>https://skills.sh/tul-sh/skills/newsletter-curation</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/newsletter-curation</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #23
+Installs: 64
+Source: tul-sh/skills
+Description: Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, commentary style, and sending cadence. Use for: email newsletters, link roundups, weekly digests, curated content, creator newsletters. Triggers: newsletter, email newsletter, newsletter curation, weekly digest, link roundup, curated newsletter, newsletter writing, newsletter format, subscriber growth, newsletter strategy, content curation, newsletter template]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#24): memory-merger]]></title>
+            <link>https://skills.sh/github/awesome-copilot/memory-merger</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/memory-merger</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #24
+Installs: 46
+Source: github/awesome-copilot
+Description: Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): frontend-design]]></title>
+            <link>https://skills.sh/anthropics/skills/frontend-design</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:anthropics/skills/frontend-design</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 177
+Source: anthropics/skills
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#26): competitor-teardown]]></title>
+            <link>https://skills.sh/tul-sh/skills/competitor-teardown</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/competitor-teardown</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #26
+Installs: 73
+Source: tul-sh/skills
+Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#28): python-executor]]></title>
+            <link>https://skills.sh/tul-sh/skills/python-executor</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/python-executor</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #28
+Installs: 122
+Source: tul-sh/skills
+Description: Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#29): seo-content-brief]]></title>
+            <link>https://skills.sh/tul-sh/skills/seo-content-brief</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/seo-content-brief</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #29
+Installs: 59
+Source: tul-sh/skills
+Description: SEO content brief creation with keyword research, search intent analysis, and content structure. Covers SERP analysis, heading hierarchy, word count targets, and internal linking strategy. Use for: content briefs, SEO writing, blog strategy, content planning, keyword targeting. Triggers: seo content brief, content brief, seo brief, keyword research, search intent, content strategy, blog brief, seo writing, content planning, keyword targeting, serp analysis, content outline, seo article, blog seo]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#3): videoagent-image-studio]]></title>
+            <link>https://skills.sh/pexoai/pexo-skills/videoagent-image-studio</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:pexoai/pexo-skills/videoagent-image-studio</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #3
+Installs: 61
+Source: pexoai/pexo-skills
+Description: Tired of juggling 8 API keys? This skill gives you one-command access to Midjourney, Flux, Ideogram, and more, with zero setup. Use when you want to generate any image without worrying about API keys.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#30): javascript-typescript-jest]]></title>
+            <link>https://skills.sh/github/awesome-copilot/javascript-typescript-jest</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/javascript-typescript-jest</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #30
+Installs: 45
+Source: github/awesome-copilot
+Description: Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): architecture-blueprint-generator]]></title>
+            <link>https://skills.sh/github/awesome-copilot/architecture-blueprint-generator</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/architecture-blueprint-generator</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #31
+Installs: 43
+Source: github/awesome-copilot
+Description: Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#32): prompt-builder]]></title>
+            <link>https://skills.sh/github/awesome-copilot/prompt-builder</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/prompt-builder</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 43
+Source: github/awesome-copilot
+Description: Guide users through creating high-quality GitHub Copilot prompts with proper structure, tools, and best practices.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): create-github-pull-request-from-specification]]></title>
+            <link>https://skills.sh/github/awesome-copilot/create-github-pull-request-from-specification</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/create-github-pull-request-from-specification</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 43
+Source: github/awesome-copilot
+Description: Create GitHub Pull Request for feature request from specification file using pull_request_template.md template.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): web-coder]]></title>
+            <link>https://skills.sh/github/awesome-copilot/web-coder</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/web-coder</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 43
+Source: github/awesome-copilot
+Description: Expert 10x engineer with comprehensive knowledge of web development, internet protocols, and web standards. Use when working with HTML, CSS, JavaScript, web APIs, HTTP/HTTPS, web security, performance optimization, accessibility, or any web/internet concepts. Specializes in translating web terminology accurately and implementing modern web standards across frontend and backend development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): game-engine]]></title>
+            <link>https://skills.sh/github/awesome-copilot/game-engine</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/game-engine</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #35
+Installs: 44
+Source: github/awesome-copilot
+Description: Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when asked to create games, build game engines, implement game physics, handle collision detection, set up game loops, manage sprites, add game controls, or work with 2D/3D rendering. Covers techniques for platformers, breakout-style games, maze games, tilemaps, audio, multiplayer via WebRTC, and publishing games.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): multi-stage-dockerfile]]></title>
+            <link>https://skills.sh/github/awesome-copilot/multi-stage-dockerfile</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/multi-stage-dockerfile</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 43
+Source: github/awesome-copilot
+Description: Create optimized multi-stage Dockerfiles for any language or framework]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#39): dataverse-python-production-code]]></title>
+            <link>https://skills.sh/github/awesome-copilot/dataverse-python-production-code</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/dataverse-python-production-code</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 43
+Source: github/awesome-copilot
+Description: Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): dataverse-python-advanced-patterns]]></title>
+            <link>https://skills.sh/github/awesome-copilot/dataverse-python-advanced-patterns</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/dataverse-python-advanced-patterns</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 42
+Source: github/awesome-copilot
+Description: Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): create-github-issues-feature-from-implementation-plan]]></title>
+            <link>https://skills.sh/github/awesome-copilot/create-github-issues-feature-from-implementation-plan</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/create-github-issues-feature-from-implementation-plan</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 42
+Source: github/awesome-copilot
+Description: Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): suggest-awesome-github-copilot-instructions]]></title>
+            <link>https://skills.sh/github/awesome-copilot/suggest-awesome-github-copilot-instructions</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/suggest-awesome-github-copilot-instructions</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 42
+Source: github/awesome-copilot
+Description: Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): containerize-aspnetcore]]></title>
+            <link>https://skills.sh/github/awesome-copilot/containerize-aspnetcore</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/containerize-aspnetcore</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 42
+Source: github/awesome-copilot
+Description: Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): convert-plaintext-to-md]]></title>
+            <link>https://skills.sh/github/awesome-copilot/convert-plaintext-to-md</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/convert-plaintext-to-md</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 42
+Source: github/awesome-copilot
+Description: Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): agentic-eval]]></title>
+            <link>https://skills.sh/github/awesome-copilot/agentic-eval</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/agentic-eval</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 42
+Source: github/awesome-copilot
+Description: Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when:
+- Implementing self-critique and reflection loops
+- Building evaluator-optimizer pipelines for quality-critical generation
+- Creating test-driven code refinement workflows
+- Designing rubric-based or LLM-as-judge evaluation systems
+- Adding iterative improvement to agent outputs (code, reports, analysis)
+- Measuring and improving agent response quality]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): scoutqa-test]]></title>
+            <link>https://skills.sh/github/awesome-copilot/scoutqa-test</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:github/awesome-copilot/scoutqa-test</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 42
+Source: github/awesome-copilot
+Description: This skill should be used when the user asks to "test this website", "run exploratory testing", "check for accessibility issues", "verify the login flow works", "find bugs on this page", or requests automated QA testing. Triggers on web application testing scenarios including smoke tests, accessibility audits, e-commerce flows, and user flow validation using ScoutQA CLI. IMPORTANT: Use this skill proactively after implementing web application features to verify they work correctly - don't wait for the user to ask for testing.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#6): videoagent-audio-studio]]></title>
+            <link>https://skills.sh/pexoai/pexo-skills/videoagent-audio-studio</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:pexoai/pexo-skills/videoagent-audio-studio</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #6
+Installs: 35
+Source: pexoai/pexo-skills
+Description: Tired of juggling multiple audio APIs? This skill gives you one-command access to TTS, music generation, sound effects, and voice cloning. Use when you want to generate any audio without managing multiple API keys.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#7): ai-marketing-videos]]></title>
+            <link>https://skills.sh/tul-sh/skills/ai-marketing-videos</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/ai-marketing-videos</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #7
+Installs: 67
+Source: tul-sh/skills
+Description: Create AI marketing videos for ads, promos, product launches, and brand content. Models: Veo, Seedance, Wan, FLUX for visuals, Kokoro for voiceover. Types: product demos, testimonials, explainers, social ads, brand videos. Use for: Facebook ads, YouTube ads, product launches, brand awareness. Triggers: marketing video, ad video, promo video, commercial, brand video, product video, explainer video, ad creative, video ad, facebook ad video, youtube ad, instagram ad, tiktok ad, promotional video, launch video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): playwright-best-practices]]></title>
+            <link>https://skills.sh/currents-dev/playwright-best-practices-skill/playwright-best-practices</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:currents-dev/playwright-best-practices-skill/playwright-best-practices</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 31
+Source: currents-dev/playwright-best-practices-skill
+Description: Comprehensive guide for writing, debugging, and maintaining Playwright tests in TypeScript. Use when writing new Playwright tests, reviewing test code, fixing flaky tests, debugging test failures, setting up test infrastructure, implementing Page Object Model, configuring CI/CD pipelines, optimizing test performance, fixing selector issues, handling authentication, mocking APIs, organizing test suites, or troubleshooting Playwright issues. Covers E2E, component, API, and visual regression testing.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): ai-avatar-video]]></title>
+            <link>https://skills.sh/tul-sh/skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:new:tul-sh/skills/ai-avatar-video</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 61
+Source: tul-sh/skills
+Description: Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, OmniHuman 1.0, Fabric 1.0, PixVerse Lipsync. Capabilities: audio-driven avatars, lipsync videos, talking head generation, virtual presenters. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): planner]]></title>
+            <link>https://skills.sh/am-will/codex-skills/planner</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topTrending:new:am-will/codex-skills/planner</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 1496
+Source: am-will/codex-skills
+Description: Create comprehensive, phased implementation plans with sprints and atomic tasks. Use when user says: "make a plan", "create a plan", "plan this out", "plan the implementation", "help me plan", "design a plan", "draft a plan", "write a plan", "outline the steps", "break this down into tasks", "what's the plan for", or any similar planning request. Also triggers on explicit "/planner" or "/plan" commands.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank down (8 → 9): azure-cost-optimization]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topAllTime:rank:microsoft/github-copilot-for-azure/azure-cost-optimization</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #8
+Current rank: #9
+Delta: -1
+Installs: 115777 (prev 114022)
+Source: microsoft/github-copilot-for-azure
+Description: Identify and quantify cost savings across Azure subscriptions by analyzing actual costs,
+utilization metrics, and generating actionable optimization recommendations. USE FOR:
+optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs,
+find cost savings, generate cost optimization report, find orphaned resources, rightsize VMs,
+cost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis
+costs. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics
+(use azure-diagnostics), security issues (use azure-security)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank up (9 → 8): azure-deploy]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topAllTime:rank:microsoft/github-copilot-for-azure/azure-deploy</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #9
+Current rank: #8
+Delta: +1
+Installs: 115779 (prev 114021)
+Source: microsoft/github-copilot-for-azure
+Description: Execute deployment to Azure. Final step after preparation and validation. Runs azd up, azd deploy, or infrastructure provisioning commands.
+USE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure, push to production, go live, ship it, deploy web app, deploy container app, deploy static site, deploy Azure Functions, bicep deploy, terraform apply.
+DO NOT USE FOR: creating or building apps (use azure-prepare), validating before deploy (use azure-validate).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (2 → 4): copilot-spaces]]></title>
+            <link>https://skills.sh/github/awesome-copilot/copilot-spaces</link>
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:rank:github/awesome-copilot/copilot-spaces</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #2
+Current rank: #4
+Delta: -2
+Installs: 41 (prev 94)
 Source: github/awesome-copilot
 Description: Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a "Copilot space", want to load context from a shared knowledge base, discover available spaces, or ask questions grounded in curated project documentation, code, and instructions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): playwright-generate-test]]></title>
+            <title><![CDATA[[Hot] Rank down (20 → 37): playwright-generate-test]]></title>
             <link>https://skills.sh/github/awesome-copilot/playwright-generate-test</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/playwright-generate-test</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 98
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:rank:github/awesome-copilot/playwright-generate-test</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #20
+Current rank: #37
+Delta: -17
+Installs: 43 (prev 98)
 Source: github/awesome-copilot
 Description: Generate a Playwright test based on a scenario using Playwright MCP]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): documentation-writer]]></title>
-            <link>https://skills.sh/github/awesome-copilot/documentation-writer</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/documentation-writer</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 97
-Source: github/awesome-copilot
-Description: Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): penpot-uiux-design]]></title>
+            <title><![CDATA[[Hot] Rank down (22 → 38): penpot-uiux-design]]></title>
             <link>https://skills.sh/github/awesome-copilot/penpot-uiux-design</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/penpot-uiux-design</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 97
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:rank:github/awesome-copilot/penpot-uiux-design</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #22
+Current rank: #38
+Delta: -16
+Installs: 43 (prev 97)
 Source: github/awesome-copilot
 Description: Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: "design a UI", "create interface", "build layout", "design dashboard", "create form", "design landing page", "make it accessible", "design system", "component library".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): conventional-commit]]></title>
-            <link>https://skills.sh/github/awesome-copilot/conventional-commit</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/conventional-commit</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #23
-Installs: 96
-Source: github/awesome-copilot
-Description: Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#24): dotnet-best-practices]]></title>
+            <title><![CDATA[[Hot] Rank down (24 → 41): dotnet-best-practices]]></title>
             <link>https://skills.sh/github/awesome-copilot/dotnet-best-practices</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/dotnet-best-practices</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #24
-Installs: 96
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:rank:github/awesome-copilot/dotnet-best-practices</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #24
+Current rank: #41
+Delta: -17
+Installs: 43 (prev 96)
 Source: github/awesome-copilot
 Description: Ensure .NET/C# code meets best practices for the solution/project.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): github-issues]]></title>
-            <link>https://skills.sh/github/awesome-copilot/github-issues</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/github-issues</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 96
-Source: github/awesome-copilot
-Description: Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, or manage issue workflows. Triggers on requests like "create an issue", "file a bug", "request a feature", "update issue X", or any GitHub issue management task.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): chrome-devtools]]></title>
+            <title><![CDATA[[Hot] Rank down (26 → 40): chrome-devtools]]></title>
             <link>https://skills.sh/github/awesome-copilot/chrome-devtools</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/chrome-devtools</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 96
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:rank:github/awesome-copilot/chrome-devtools</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #26
+Current rank: #40
+Delta: -14
+Installs: 43 (prev 96)
 Source: github/awesome-copilot
 Description: Expert-level browser automation, debugging, and performance analysis using Chrome DevTools MCP. Use for interacting with web pages, capturing screenshots, analyzing network traffic, and profiling performance.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): web-design-reviewer]]></title>
-            <link>https://skills.sh/github/awesome-copilot/web-design-reviewer</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/web-design-reviewer</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #27
-Installs: 96
-Source: github/awesome-copilot
-Description: This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like "review website design", "check the UI", "fix the layout", "find design problems". Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes at the source code level.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): nano-banana-pro-openrouter]]></title>
-            <link>https://skills.sh/github/awesome-copilot/nano-banana-pro-openrouter</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/nano-banana-pro-openrouter</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 96
-Source: github/awesome-copilot
-Description: Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Use for prompt-only image generation, image edits, and multi-image compositing; supports 1K/2K/4K output.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): quasi-coder]]></title>
-            <link>https://skills.sh/github/awesome-copilot/quasi-coder</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/quasi-coder</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 95
-Source: github/awesome-copilot
-Description: Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language descriptions. Use when collaborators provide incomplete code snippets, pseudo-code, or descriptions with potential typos or incorrect terminology. Excels at translating non-technical or semi-technical descriptions into production-quality code.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): flowstudio-power-automate-mcp]]></title>
+            <title><![CDATA[[Hot] Rank down (3 → 5): flowstudio-power-automate-mcp]]></title>
             <link>https://skills.sh/github/awesome-copilot/flowstudio-power-automate-mcp</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/flowstudio-power-automate-mcp</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 94
+            <guid isPermaLink="false">2026-03-06T18:58:06.657Z:topHot:rank:github/awesome-copilot/flowstudio-power-automate-mcp</guid>
+            <pubDate>Fri, 06 Mar 2026 18:58:06 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #5
+Delta: -2
+Installs: 41 (prev 94)
 Source: github/awesome-copilot
 Description: Connect to and operate Power Automate cloud flows via a FlowStudio MCP server. Use when asked to: list flows, read a flow definition, check run history, inspect action outputs, resubmit a run, cancel a running flow, view connections, get a trigger URL, validate a definition, monitor flow health, or any task that requires talking to the Power Automate API through an MCP tool. Also use for Power Platform environment discovery and connection management. Requires a FlowStudio MCP subscription or compatible server — see https://mcp.flowstudio.app]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): centos-linux-triage]]></title>
-            <link>https://skills.sh/github/awesome-copilot/centos-linux-triage</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/centos-linux-triage</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 95
-Source: github/awesome-copilot
-Description: Triage and resolve CentOS issues using RHEL-compatible tooling, SELinux-aware practices, and firewalld.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): webapp-testing]]></title>
-            <link>https://skills.sh/github/awesome-copilot/webapp-testing</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/webapp-testing</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 95
-Source: github/awesome-copilot
-Description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): debian-linux-triage]]></title>
-            <link>https://skills.sh/github/awesome-copilot/debian-linux-triage</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/debian-linux-triage</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 95
-Source: github/awesome-copilot
-Description: Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#33): technology-stack-blueprint-generator]]></title>
-            <link>https://skills.sh/github/awesome-copilot/technology-stack-blueprint-generator</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/technology-stack-blueprint-generator</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 95
-Source: github/awesome-copilot
-Description: Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implementation patterns across multiple platforms (.NET, Java, JavaScript, React, Python). Generates configurable blueprints with version information, licensing details, usage patterns, coding conventions, and visual diagrams. Provides implementation-ready templates and maintains architectural consistency for guided development.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): fedora-linux-triage]]></title>
-            <link>https://skills.sh/github/awesome-copilot/fedora-linux-triage</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/fedora-linux-triage</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 95
-Source: github/awesome-copilot
-Description: Triage and resolve Fedora issues with dnf, systemd, and SELinux-aware guidance.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): what-context-needed]]></title>
-            <link>https://skills.sh/github/awesome-copilot/what-context-needed</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/what-context-needed</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 95
-Source: github/awesome-copilot
-Description: Ask Copilot what files it needs to see before answering a question]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): meeting-minutes]]></title>
-            <link>https://skills.sh/github/awesome-copilot/meeting-minutes</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/meeting-minutes</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 95
-Source: github/awesome-copilot
-Description: Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda, decisions, action items (owner + due date), and follow-up steps.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): terraform-azurerm-set-diff-analyzer]]></title>
-            <link>https://skills.sh/github/awesome-copilot/terraform-azurerm-set-diff-analyzer</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/terraform-azurerm-set-diff-analyzer</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 95
-Source: github/awesome-copilot
-Description: Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes. Use when reviewing terraform plan output for Azure resources like Application Gateway, Load Balancer, Firewall, Front Door, NSG, and other resources with Set-type attributes that cause spurious diffs due to internal ordering changes.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): review-and-refactor]]></title>
-            <link>https://skills.sh/github/awesome-copilot/review-and-refactor</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/review-and-refactor</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 95
-Source: github/awesome-copilot
-Description: Review and refactor code in your project according to defined instructions]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): polyglot-test-agent]]></title>
-            <link>https://skills.sh/github/awesome-copilot/polyglot-test-agent</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/polyglot-test-agent</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 95
-Source: github/awesome-copilot
-Description: Generates comprehensive, workable unit tests for any programming language using a multi-agent pipeline. Use when asked to generate tests, write unit tests, improve test coverage, add test coverage, create test files, or test a codebase. Supports C#, TypeScript, JavaScript, Python, Go, Rust, Java, and more. Orchestrates research, planning, and implementation phases to produce tests that compile, pass, and follow project conventions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#4): postgresql-optimization]]></title>
-            <link>https://skills.sh/github/awesome-copilot/postgresql-optimization</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/postgresql-optimization</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 100
-Source: github/awesome-copilot
-Description: PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): git-flow-branch-creator]]></title>
-            <link>https://skills.sh/github/awesome-copilot/git-flow-branch-creator</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/git-flow-branch-creator</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 95
-Source: github/awesome-copilot
-Description: Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#41): kotlin-springboot]]></title>
-            <link>https://skills.sh/github/awesome-copilot/kotlin-springboot</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/kotlin-springboot</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 95
-Source: github/awesome-copilot
-Description: Get best practices for developing applications with Spring Boot and Kotlin.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): aspire]]></title>
-            <link>https://skills.sh/github/awesome-copilot/aspire</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/aspire</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 95
-Source: github/awesome-copilot
-Description: Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server, VS Code extension, Dev Containers, GitHub Codespaces, templates, dashboard, and deployment. Use when the user asks to create, run, debug, configure, deploy, or troubleshoot an Aspire distributed application.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): remember-interactive-programming]]></title>
-            <link>https://skills.sh/github/awesome-copilot/remember-interactive-programming</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/remember-interactive-programming</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 95
-Source: github/awesome-copilot
-Description: A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): transloadit-media-processing]]></title>
-            <link>https://skills.sh/github/awesome-copilot/transloadit-media-processing</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/transloadit-media-processing</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 95
-Source: github/awesome-copilot
-Description: Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, generate thumbnails, resize or watermark images, extract audio, concatenate clips, add subtitles, OCR documents, or run any media processing pipeline. Covers 86+ processing robots for file transformation at scale.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): kotlin-mcp-server-generator]]></title>
-            <link>https://skills.sh/github/awesome-copilot/kotlin-mcp-server-generator</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/kotlin-mcp-server-generator</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 95
-Source: github/awesome-copilot
-Description: Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk library.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): arch-linux-triage]]></title>
-            <link>https://skills.sh/github/awesome-copilot/arch-linux-triage</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/arch-linux-triage</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 95
-Source: github/awesome-copilot
-Description: Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): java-mcp-server-generator]]></title>
-            <link>https://skills.sh/github/awesome-copilot/java-mcp-server-generator</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/java-mcp-server-generator</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 95
-Source: github/awesome-copilot
-Description: Generate a complete Model Context Protocol server project in Java using the official MCP Java SDK with reactive streams and optional Spring Boot integration.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): make-skill-template]]></title>
-            <link>https://skills.sh/github/awesome-copilot/make-skill-template</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/make-skill-template</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 95
-Source: github/awesome-copilot
-Description: Create new Agent Skills for GitHub Copilot from prompts or by duplicating this template. Use when asked to "create a skill", "make a new skill", "scaffold a skill", or when building specialized AI capabilities with bundled resources. Generates SKILL.md files with proper frontmatter, directory structure, and optional scripts/references/assets folders.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): pytest-coverage]]></title>
-            <link>https://skills.sh/github/awesome-copilot/pytest-coverage</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/pytest-coverage</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 95
-Source: github/awesome-copilot
-Description: Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#5): gh-cli]]></title>
-            <link>https://skills.sh/github/awesome-copilot/gh-cli</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/gh-cli</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 99
-Source: github/awesome-copilot
-Description: GitHub CLI (gh) comprehensive reference for repositories, issues, pull requests, Actions, projects, releases, gists, codespaces, organizations, extensions, and all GitHub operations from the command line.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): gen-specs-as-issues]]></title>
-            <link>https://skills.sh/github/awesome-copilot/gen-specs-as-issues</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/gen-specs-as-issues</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 95
-Source: github/awesome-copilot
-Description: This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): playwright-explore-website]]></title>
-            <link>https://skills.sh/github/awesome-copilot/playwright-explore-website</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/playwright-explore-website</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 98
-Source: github/awesome-copilot
-Description: Website exploration for testing using Playwright MCP]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#7): refactor]]></title>
-            <link>https://skills.sh/github/awesome-copilot/refactor</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/refactor</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 97
-Source: github/awesome-copilot
-Description: Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code smells, and applying design patterns. Less drastic than repo-rebuilder; use for gradual improvements.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#8): postgresql-code-review]]></title>
-            <link>https://skills.sh/github/awesome-copilot/postgresql-code-review</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/postgresql-code-review</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 97
-Source: github/awesome-copilot
-Description: PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): prd]]></title>
-            <link>https://skills.sh/github/awesome-copilot/prd</link>
-            <guid isPermaLink="false">2026-03-06T13:09:27.026Z:topHot:new:github/awesome-copilot/prd</guid>
-            <pubDate>Fri, 06 Mar 2026 13:09:27 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 101
-Source: github/awesome-copilot
-Description: Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.]]></description>
         </item>
     </channel>
 </rss>
