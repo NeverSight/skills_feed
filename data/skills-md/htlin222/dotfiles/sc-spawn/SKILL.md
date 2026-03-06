@@ -1,0 +1,46 @@
+---
+name: sc-spawn
+description: Break complex tasks into coordinated subtasks with efficient execution. Use when handling large multi-step tasks, orchestrating parallel work, or managing dependencies.
+---
+
+# Task Orchestration
+
+Decompose complex requests into manageable subtasks and coordinate their execution.
+
+## When to use
+
+- Breaking down complex multi-step tasks
+- Orchestrating parallel work streams
+- Managing task dependencies
+- Coordinating large-scale changes
+- Executing batch operations efficiently
+
+## Instructions
+
+### Usage
+
+```
+/sc:spawn [task] [--sequential|--parallel] [--validate]
+```
+
+### Arguments
+
+- `task` - Complex task or project to orchestrate
+- `--sequential` - Execute tasks in dependency order (default)
+- `--parallel` - Execute independent tasks concurrently
+- `--validate` - Enable quality checkpoints between tasks
+
+### Execution
+
+1. Parse request and create hierarchical task breakdown
+2. Map dependencies between subtasks
+3. Choose optimal execution strategy (sequential/parallel)
+4. Execute subtasks with progress monitoring
+5. Integrate results and validate completion
+
+### Claude Code Integration
+
+- Uses TodoWrite for task breakdown and tracking
+- Leverages file operations for coordinated changes
+- Applies efficient batching for related operations
+- Maintains clear dependency management
