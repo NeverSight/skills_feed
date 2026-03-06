@@ -1,0 +1,4 @@
+Aggiorna automaticamente OpenClaw ogni notte. Da utilizzare quando l'utente desidera che il proprio agente rimanga aggiornato 
+con l'ultima versione di OpenClaw. Esegue un processo cron che arresta il gateway, esegue l'aggiornamento e si riavvia.
+Si attiva quando l'utente menziona: "aggiorna te stesso", "aggiornamento automatico", "aggiornamento notturno", "mantieni aggiornato", 
+"aggiornamento automatico" o qualsiasi variazione dell'aggiornamento dell'agente.
