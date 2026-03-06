@@ -1,0 +1,1 @@
+使用 Starknet 上 OpenZeppelin 的 UpgradeableComponent 升級 Cairo 智能合約。當使用者需要：(1) 透過 Replace_class_syscall 使 Cairo 合約可升級，(2) 整合 OpenZeppelin UpgradeableComponent，(3) 了解 Starknet 的基於類別的升級模型與 EVM 代理模式，(4) 確保升級之間的儲存路徑，(5) 透過存取控制保護升級功能，或 (6) 測試相容性升級之間的儲存路徑。

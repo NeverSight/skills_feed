@@ -1,0 +1,1 @@
+使用 Arbitrum 上的 OpenZeppelin 代理模式升級 Stylus 智能合約。當使用者需要：(1) 使 Stylus Rust 合約可透過 UUPS 或 Beacon 代理進行升級，(2) 使 Stylus Rust 合約可透過 UUPS 或 Beacon 代理進行升級，(2) 了解 Stylus 特定的代理機制（logic_flag、WASM 重新激活），(3) 將 UUPSUpgradeable 與訪問控制集成，(4) 確保升級過程中的存儲合約兼容性，或 (5) 測試路徑的更新路徑。
