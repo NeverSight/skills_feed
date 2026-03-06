@@ -1,0 +1,1 @@
+Run autonomous E2E tests with per-agent Docker isolation. Each agent spins up its own database, API, and services on unique ports — true parallel testing with zero credential conflicts. Args: staged | unstaged | N | working-tree | file:<path> | rescan | guided [description]
