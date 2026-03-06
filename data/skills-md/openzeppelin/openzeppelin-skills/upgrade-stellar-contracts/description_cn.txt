@@ -1,0 +1,1 @@
+使用 OpenZeppelin 的可升级模块升级 Stellar/Soroban 智能合约。当用户需要：(1) 通过本机 WASM 替换使 Soroban 合约可升级，(2) 使用 Upgradeable 或 UpgradeableMigratable 派生宏，(3) 使用 Upgrader 合约实现原子升级和迁移模式，(4) 确保升级之间的存储密钥兼容性，或 (5) 测试 Soroban 合约的升级路径。
