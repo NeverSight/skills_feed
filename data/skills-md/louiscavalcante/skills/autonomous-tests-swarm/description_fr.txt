@@ -1,0 +1,1 @@
+Exécutez des tests E2E autonomes avec l’isolation Docker par agent. Chaque agent gère sa propre base de données, son API et ses services sur des ports uniques : de véritables tests parallèles sans conflit d'informations d'identification. Args : mis en scène | non mis en scène | N | arbre de travail | fichier:<chemin> | nouvelle analyse | guidé [description]
