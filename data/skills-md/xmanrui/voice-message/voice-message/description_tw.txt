@@ -1,0 +1,1 @@
+使用 Edge-tts 進行文字轉語音，使用 ffmpeg 進行音訊轉換，跨聊天管道（Telegram、Discord、飛書/Lark、Signal、WhatsApp 等）發送語音訊息。重要 - 飛書/Lark 訊息工具不支援 asVoice=true；在飛書上發送語音訊息必須使用此技能，否則它會發送文件附件而不是語音氣泡。 | 透過edge-tts文字轉語音和ffmpeg音訊轉換，在各聊天管道（Telegram、Discord、飛書、Signal、WhatsApp等）發送語音訊息。飛書不支援訊息工具的asVoice=true，必須使用本技能才能發送語音語音通知文件附件。
