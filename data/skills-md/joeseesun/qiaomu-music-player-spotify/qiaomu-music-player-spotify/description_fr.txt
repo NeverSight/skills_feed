@@ -1,0 +1,9 @@
+Contrôle de lecture de musique Spotify + base de données de style 5947. Recherche, lecture, pause, gestion des files d'attente, recommandations musicales basées sur des scènes, recherche et exploration de genres.
+
+UTILISEZ CETTE COMPÉTENCE lorsque l'utilisateur mentionne :
+- Lecture : "jouer de la musique", "jouer une chanson", "mettre de la musique", "jouer", "Je veux entendre XX", "de la musique XX"
+- Contrôles : "pause", "reprendre", "suivant", "précédent", "volume", "qu'est-ce qui se joue"
+- Recherche de genre : /genre, "rechercher un genre musical", "recommander des types de musique", "quels sont les sous-genres de XX"
+- Scène/ambiance : "musique pour tard le soir", "énergique", "éthérée", "recommande certains genres avec des caractéristiques XX"
+- Intégration Suno : lors de l'utilisation de Suno pour générer de la musique mais sans style spécifié
+- / Spotify

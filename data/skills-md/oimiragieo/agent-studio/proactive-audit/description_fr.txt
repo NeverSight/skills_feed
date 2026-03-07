@@ -1,0 +1,1 @@
+Vérifications de l'état automatisées pour les artefacts de framework modifiés au cours d'un pipeline. Valide la syntaxe des hooks, les modèles de sécurité (SE-01/SE-02), le câblage des compétences, la cohérence des agents et l'exactitude du routage. Invoqué comme étape finale du pipeline lorsque des artefacts de structure ont été créés, modifiés ou supprimés.
