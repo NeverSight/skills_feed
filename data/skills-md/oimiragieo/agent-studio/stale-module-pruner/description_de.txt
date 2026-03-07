@@ -1,0 +1,1 @@
+Ripgrep-basierter Dead-Code-Crawler, der veraltete, defekte oder verwaiste JavaScript-/CJS-/MJS-Module im Agent Studio-Framework findet. Durchläuft ein Zielverzeichnis, überprüft jede Datei auf externe Referenzen und zeigt (oder löscht) nicht referenzierte Dateien. Verhindert ein Aufblähen der Registrierung und stille Tool-Ausfälle von Modulen, die niemand aufruft.
