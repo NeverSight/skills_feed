@@ -1,0 +1,15 @@
+Vision-driven browser automation using Midscene Bridge mode. Operates entirely from screenshots — no DOM or accessibility labels required. Can interact with all visible elements on screen regardless of technology stack.
+
+This mode connects to the user's desktop Chrome browser via the Midscene Chrome Extension, preserving cookies, sessions, and login state.
+
+Use this skill when the user wants to:
+- Browse, navigate, or open web pages in the user's own Chrome browser
+- Interact with pages that require login sessions, cookies, or existing browser state
+- Scrape, extract, or collect data from websites using the user's real browser
+- Fill out forms, click buttons, or interact with web elements
+- Verify, validate, or test frontend UI behavior
+- Take screenshots of web pages
+- Automate multi-step web workflows
+- Check website content or appearance
+
+Powered by Midscene.js (https://midscenejs.com)
