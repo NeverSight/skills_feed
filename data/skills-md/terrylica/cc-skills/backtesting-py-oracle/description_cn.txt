@@ -1,0 +1,1 @@
+backtesting.py 用于 SQL oracle 验证和范围条模式回测的配置。在针对 ClickHouse SQL 结果运行 backtesting.py、配置 Backtest() 构造函数、处理重叠交易、多头寸模式、滚动分位数 NaN 处理、交易排序或预言机门验证时使用。触发器 - backtesting.py、Backtest()、对冲、exclusive_orders、多头寸、重叠交易、oracle 验证、SQL 与 Python、交易比较、入场价格不匹配、信号计数不匹配、滚动分位数 NaN、ExitTime 排序、stats._trades、gen600_strategy、champion_strategy、gen300_strategy、障碍设置。

@@ -1,0 +1,1 @@
+使用 mise [env] 作为单一事实来源来配置环境变量和项目设置。每当用户需要设置 mise.toml、集中环境变量、通过 mise 配置 Python venv、使用 mise 模板或使用子文件夹覆盖构建 hub-spoke 和 monorepo mise 配置时，即可使用。请勿用于 mise 任务编排（改为使用 mise-tasks）或与环境配置无关的运行时版本管理。

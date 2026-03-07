@@ -1,0 +1,1 @@
+使用 Edge-tts 进行文本转语音，使用 ffmpeg 进行音频转换，跨聊天渠道（Telegram、Discord、飞书/Lark、Signal、WhatsApp 等）发送语音消息。重要提示 - 飞书/Lark 消息工具不支持 asVoice=true；在飞书上发送语音消息必须使用此技能，否则它会发送文件附件而不是语音气泡。 | 通过edge-tts文字转语音和ffmpeg音频转换，在各聊天渠道（Telegram、Discord、飞书、Signal、WhatsApp等）发送语音消息。飞书不支持消息工具的asVoice=true，必须使用本技能才能发送语音语音通知文件附件。
