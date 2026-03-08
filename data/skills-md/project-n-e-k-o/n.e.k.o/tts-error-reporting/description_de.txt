@@ -1,0 +1,1 @@
+Konvention zum Melden von Fehlern von Multiprocessing-TTS-Workern an das Hauptprozess-Frontend. Verwenden Sie diesen Skill beim Ändern, Hinzufügen oder Debuggen von TTS-Workern in tts_client.py, um sicherzustellen, dass Verbindungsfehler, Kontingente und API-Grenzwerte Toast-Benachrichtigungen für den Benutzer korrekt anzeigen und nicht stillschweigend fehlschlagen.

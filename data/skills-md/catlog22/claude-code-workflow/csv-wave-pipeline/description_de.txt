@@ -1,0 +1,1 @@
+Anforderungsplanung für wellenbasierte CSV-Ausführungspipeline. Zerlegt Anforderungen in nach Abhängigkeiten sortierte CSV-Aufgaben, berechnet Ausführungswellen, führt Welle für Welle über spawn_agents_on_csv mit wellenübergreifender Kontextweitergabe aus.
