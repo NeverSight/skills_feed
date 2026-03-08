@@ -1,0 +1,1 @@
+Planification des exigences vers le pipeline d'exécution CSV basé sur les vagues. Décompose les exigences en tâches CSV triées par dépendances, calcule les vagues d'exécution, s'exécute vague par vague via spawn_agents_on_csv avec propagation de contexte par vagues.
