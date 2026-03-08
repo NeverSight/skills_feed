@@ -1,0 +1,1 @@
+Ingest 내구성, 실행 모니터링 및 OTEL 검증을 통해 joelclaw의 문서 메모리 파이프라인에 PDF/Markdown/TXT 파일을 수집합니다. 문서 추가, 매니페스트에서 백필, 적용 범위 조정 또는 중단된 문서 수집 실행 복구 시 사용합니다. 트리거: 'pdf 수집', 'markdown 수집', 'docs add', 'pdf-brain 수집', 'backfill books', 'docs reconcile'.

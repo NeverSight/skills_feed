@@ -1,0 +1,1 @@
+Swift 동시성 컴파일러 오류를 해결하고, Swift 6.2 접근 가능한 동시성(SE-0466)을 채택하고, 데이터 경주에 안전한 비동기 코드를 작성하세요. Sendable 적합성 오류, 행위자 격리 경고 또는 엄격한 동시성 진단을 수정할 때 사용합니다. 기본 MainActor 격리, @concurrent, nonisolation(nonsending) 또는 Task.immediate를 채택할 때; 행위자 기반 아키텍처, TaskGroup을 통한 구조화된 동시성 또는 백그라운드 작업 오프로딩을 설계할 때 또는 @preconcurrency에서 전체 Swift 6 엄격한 동시성으로 마이그레이션할 때.

@@ -1,0 +1,1 @@
+adb를 통해 XerahS Android 앱(Kotlin/Mobile.Kt, Avalonia, MAUI)을 빌드하고 에뮬레이터/장치에 배포합니다. Gradle용 JAVA_HOME, 키보드 옵션/기초 작성, 파일 잠금, EmbedAssembliesIntoApk, 흰색 화면 초기화, 단일 노드 빌드(-m:1) 및 콜드 부팅 에뮬레이터를 다룹니다. 빌드를 위해 5분 이상 기다리지 마십시오. 이를 초과하는 경우 실패로 처리하고 잠금 또는 병렬 처리를 수정하십시오.
