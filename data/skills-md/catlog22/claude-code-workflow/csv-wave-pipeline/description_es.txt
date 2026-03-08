@@ -1,0 +1,1 @@
+Planificación de requisitos para canalización de ejecución CSV basada en oleadas. Descompone los requisitos en tareas CSV ordenadas por dependencia, calcula oleadas de ejecución, se ejecuta oleada por oleada a través de spawn_agents_on_csv con propagación de contexto entre ondas.

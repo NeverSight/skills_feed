@@ -1,0 +1,1 @@
+Convención para informar errores de trabajadores TTS de multiprocesamiento a la interfaz del proceso principal. Utilice esta habilidad al modificar, agregar o depurar trabajadores TTS en tts_client.py para garantizar que los errores de conexión, las cuotas y los límites de API muestren correctamente las notificaciones de Toast al usuario en lugar de fallar silenciosamente.
