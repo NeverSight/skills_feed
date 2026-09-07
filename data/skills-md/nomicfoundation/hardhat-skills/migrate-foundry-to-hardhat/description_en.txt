@@ -1,0 +1,1 @@
+Migrate a Solidity project from Foundry to Hardhat 3. Maps `foundry.toml` to `hardhat.config.ts`, converts dependencies and imports, gets compilation and Solidity tests passing, and produces a migration report with feature-parity gaps and a cleanup checklist.

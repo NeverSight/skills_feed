@@ -1,68 +1,68 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T07:53:07Z",
-  "skillsUpdatedAt": "2026-09-06T02:50:19.363Z",
-  "primaryIndexUpdatedAt": "2026-09-06T07:52:57Z",
-  "searchIndexUpdatedAt": "2026-09-06T07:53:07Z",
-  "feedUpdatedAt": "2026-09-06T02:50:19.363Z",
-  "categoryIndexUpdatedAt": "2026-09-06T03:44:32Z",
-  "firstSeenUpdatedAt": "2026-09-06T03:43:58.717Z",
+  "updatedAt": "2026-09-07T03:55:55Z",
+  "skillsUpdatedAt": "2026-09-07T02:47:41.533Z",
+  "primaryIndexUpdatedAt": "2026-09-07T03:55:10.137Z",
+  "searchIndexUpdatedAt": "2026-09-07T03:55:55Z",
+  "feedUpdatedAt": "2026-09-07T02:47:41.533Z",
+  "categoryIndexUpdatedAt": "2026-09-07T03:55:45Z",
+  "firstSeenUpdatedAt": "2026-09-07T03:55:10.137Z",
   "files": {
     "skills": {
       "path": "data/skills.json",
-      "updatedAt": "2026-09-06T02:50:19.363Z",
-      "bytes": 5133809,
-      "sha256": "3d83a0ddaf7c721913fe8af2427e82a963c27c3fa33dd7356330dbff1f3d9ccf"
+      "updatedAt": "2026-09-07T02:47:41.533Z",
+      "bytes": 5379874,
+      "sha256": "b507bcc0d68e03f84aa58e1728cf24c7275b18ed13a958de5951b3e91e957f33"
     },
     "primaryIndex": {
       "path": "data/skills_index.json",
-      "updatedAt": "2026-09-06T07:52:57Z",
-      "bytes": 62484102,
-      "sha256": "e91ec3380a7ef9f2457e3e315727c2cef4b082122c549d605b3e704a2831fab8"
+      "updatedAt": "2026-09-07T03:55:10.137Z",
+      "bytes": 62605696,
+      "sha256": "2fb5e78dbdcfcb8a536d339efa6524df6375e4894b5bb0ea0ab8a04224b747e4"
     },
     "searchIndex": {
       "path": "data/skills_search_index.json",
-      "updatedAt": "2026-09-06T07:53:07Z",
-      "bytes": 208807565,
-      "sha256": "820f39e6217302c8592866000eea7915b2a4f5e197fbac4698116b504c69b899",
+      "updatedAt": "2026-09-07T03:55:55Z",
+      "bytes": 209135723,
+      "sha256": "1c022b6873259e62a710d00817dcf999e7d73d84d45a85e985f104e3096d5b94",
       "parts": [
         {
           "path": "data/skills_search_index.json",
-          "updatedAt": "2026-09-06T07:53:07Z",
-          "bytes": 99999037,
-          "sha256": "9f725ac5f803780f4dc62d0e02bcd80009cffce7a1d73e3822ca112d49159a8d"
+          "updatedAt": "2026-09-07T03:55:55Z",
+          "bytes": 99997681,
+          "sha256": "d37042ed5a6cf9e99ca0095a7d1415cdf9d1b997292e08ab1297d624b01bc004"
         },
         {
           "path": "data/skills_search_index2.json",
-          "updatedAt": "2026-09-06T07:53:07Z",
-          "bytes": 99998408,
-          "sha256": "3b3268d12a0cfaec8af8de7424e6c492f536d5fb9090f65032b259436090c925"
+          "updatedAt": "2026-09-07T03:55:55Z",
+          "bytes": 99998587,
+          "sha256": "96fcef90f6a846de9ebf55a21678d61b58b26abc59747e33992168e6fecc55d6"
         },
         {
           "path": "data/skills_search_index3.json",
-          "updatedAt": "2026-09-06T07:53:07Z",
-          "bytes": 8810120,
-          "sha256": "0f1389245b97d41597d04b3240d7cbe20889345319228b7fd8e8055d4a5f1a17"
+          "updatedAt": "2026-09-07T03:55:55Z",
+          "bytes": 9139455,
+          "sha256": "56a9772b4a452197c0f1d4e17354a857aa4105c389cd56b374769b611829d5a5"
         }
       ]
     },
     "feed": {
       "path": "data/feed.json",
-      "updatedAt": "2026-09-06T02:50:19.363Z",
-      "bytes": 103862,
-      "sha256": "c507681dc43743fd2096e39bb7184fb8332b253d05a1fae8862fb36a0d04ff91"
+      "updatedAt": "2026-09-07T02:47:41.533Z",
+      "bytes": 100262,
+      "sha256": "a8e31caa12dc8a4330a78ba6de92844eabaec4a9e513ef6ae238395bd8f79374"
     },
     "categoryIndex": {
       "path": "data/skills_category_index.json",
-      "updatedAt": "2026-09-06T03:44:32Z",
-      "bytes": 8444511,
-      "sha256": "1f8b909d445e2016fcc7d9d55f8dc08b827ab251c75fb98e029744a208f6bed7"
+      "updatedAt": "2026-09-07T03:55:45Z",
+      "bytes": 8459414,
+      "sha256": "7e194491336c60775bfdd592e50990f832080e9680610d74bb0a196010992d0c"
     },
     "firstSeen": {
       "path": "data/skills_first_seen.json",
-      "updatedAt": "2026-09-06T03:43:58.717Z",
-      "bytes": 8828182,
-      "sha256": "a3835f59144c3640ea30d17f40d3b66d48ba5f4f64e7a08f1fb86b3389edf9db"
+      "updatedAt": "2026-09-07T03:55:10.137Z",
+      "bytes": 8844036,
+      "sha256": "e4c0a4e0245b811f634994508d1e21a73ac894e58896b9380b0e65fbf65a3342"
     }
   }
 }

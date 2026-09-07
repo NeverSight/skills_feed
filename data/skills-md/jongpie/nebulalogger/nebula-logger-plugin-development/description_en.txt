@@ -1,0 +1,1 @@
+Use this skill when the user wants to build a new plugin that extends Nebula Logger - for example, custom trigger handlers on `LogEntryEvent__e` / `Log__c` / `LogEntry__c`, custom purge actions, or Slack-style outbound integrations. Covers the plugin framework interfaces, `LoggerPlugin__mdt` configuration, package layout, and testing considerations.

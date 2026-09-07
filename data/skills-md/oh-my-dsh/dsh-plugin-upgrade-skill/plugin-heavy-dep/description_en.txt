@@ -1,0 +1,1 @@
+Use when adding a heavyweight browser dependency (diagram/chart renderers like mermaid, code editors, big wasm-adjacent libs) to a lightweight DSH Web plugin that must stay small, when wiring a lazy-loaded chunk through a host route, when the lazy import intermittently fails or falls back, or when rendering untrusted markup (SVG/HTML) produced by such a dependency.
