@@ -1,0 +1,1 @@
+사용자가 dsh 플러그인 저장소(또는 실제 마이그레이션 커밋/버전 경로)를 넘겨주고 업그레이드 경험을 하나의 자동 등급 Harbor 벤치마크 시험 작업으로 추출하기를 원할 때 사용합니다. 하버 실행이 0~1등급이 될 수 있고 dsh-plugin-upgrade-skill 벤치마크 제품군에 포함되는 task/<id>/(fixture + Instruction.md + task.toml + Judge.mjs + Solution)를 생성합니다. 기존 버전 카드(references/v*.md)를 실행 가능한 시험 작업으로 전환하는 데에도 적용됩니다. 업그레이드 카드 작성용이 아닙니다. 벤치마크를 실행하기 위한 것이 아닙니다.

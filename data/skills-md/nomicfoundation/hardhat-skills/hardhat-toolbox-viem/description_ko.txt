@@ -1,0 +1,1 @@
+프로젝트가 `@nomicfoundation/hardhat-toolbox-viem`에 의존하는 경우 `hardhat` 기술과 함께 사용하세요. `network.create()`, 계약 상호 작용(`viem.deployContract`, `read`, `write`, `getContractAt`) 및 `viem.assertions`(되돌리기/이벤트/균형 어설션)에 노출된 viem 클라이언트를 다룹니다.

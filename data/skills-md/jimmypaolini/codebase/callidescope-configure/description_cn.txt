@@ -1,0 +1,1 @@
+告诉 callidescope 要做什么 - 命令行标志（--check、--write、--addresses、--directories、--format、--config、--json、--markdown）和它们一起读取的 callidescope.config.ts，涵盖深度、广度和传播限制、调用堆栈入口点、排除和忽略的被调用者、工作区的模块布局以及运行写入 JSON、markdown、mermaid 和每个项目报告的位置。当将深度门连接到 CI 或提交钩子时、当整个工作空间运行太慢时、在 --check 和 --write 之间进行选择时、当存储库还没有 callidescope 配置时、当跟踪判断它不应该判断的代码时、当所有内容都报告为孤立根时，或者当决定提交的报告应存放在何处时，请使用。

@@ -1,0 +1,1 @@
+Da utilizzare insieme all'abilità "hardhat" quando il progetto dipende da "@nomicfoundation/hardhat-toolbox-viem". Copre i client viem esposti su `network.create()`, l'interazione del contratto (`viem.deployContract`, `read`, `write`, `getContractAt`) e `viem.assertions` (ripristina / evento / asserzioni di bilanciamento).

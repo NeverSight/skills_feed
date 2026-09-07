@@ -1,0 +1,1 @@
+在向使用 Astro、Hugo、Jekyll、Eleventy (11ty)、Docusaurus 或 Gatsby 构建的静态网站或博客添加评论时使用，其中没有后端存储评论。涵盖每个生成器的 FastComments 主题组件、插件和标签，在站点配置中设置一次租户 ID，为每个帖子选择一个稳定的 urlId，以便线程在 URL 更改后继续存在，通过一次批量请求显示博客索引上的评论计数，以及无 JavaScript 后备。对于 React 和 Next.js，请参阅 fastcomments-react-nextjs。

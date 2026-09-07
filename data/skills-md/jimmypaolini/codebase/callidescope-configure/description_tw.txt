@@ -1,0 +1,1 @@
+告訴 callidescope 要做什麼 - 命令列標誌（--check、--write、--addresses、--directories、--format、--config、--json、--markdown）和它們一起讀取的 callidescope.config.ts，涵蓋深度、廣度和傳播限制、調用堆棧入口點、文件區忽略和輸入的配置當將深度門連接到 CI 或提交鉤子時、當整個工作空間運行太慢時、在 --check 和 --write 之間進行選擇時、當存儲庫還沒有 callidescope 配置時、當跟踪判斷它不應該判斷的代碼時、當所有內容都報告為孤立根時，或者當決定提交的報告應存放在何處時，請使用。

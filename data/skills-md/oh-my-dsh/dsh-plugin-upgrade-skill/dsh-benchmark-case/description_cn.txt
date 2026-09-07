@@ -1,0 +1,1 @@
+当用户移交 dsh 插件存储库（或真正的迁移提交/版本走廊）并希望将其升级体验提取到一个自动评分的 Harbor 基准测试任务中时使用 - 生成tasks/<id>/（fixture + instructions.md + task.toml + Judge.mjs + Solution），harbor run 可以对 0-1 进行评分，并折叠到 dsh-plugin-upgrade-skill 基准测试套件中；也适用于将现有版本卡（references/v*.md）转变为可执行的考试任务。不适用于写升级卡；不是为了运行基准测试。

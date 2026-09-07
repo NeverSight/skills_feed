@@ -1,0 +1,1 @@
+Используйте вместе с навыком `hardhat`, если проект зависит от `@nomicfoundation/hardhat-toolbox-viem`. Охватывает клиентов viem, предоставляемых через `network.create()`, взаимодействие с контрактом (`viem.deployContract`, `read`, `write`, `getContractAt`) и `viem.assertions` (утверждения возврата/события/баланса).

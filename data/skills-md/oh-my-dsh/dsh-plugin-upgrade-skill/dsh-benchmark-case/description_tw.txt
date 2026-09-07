@@ -1,0 +1,1 @@
+當使用者移交 dsh 外掛程式儲存庫（或真正的遷移提交/版本走廊）並希望將其升級體驗提取到一個自動評分的 Harbor 基準測試任務中時使用 - 產生tasks/<id>/（fixture + instructions.md + task.toml + Judge.mjs + Solution），並折疊到 dups-sh 可以對 0-1 進行評分，並折疊到 dup-shs-shin 可以對 0-1 進行評分基準測試套件中；也適用於將現有版本卡（references/v*.md）轉變為可執行的考試任務。不適用於寫入升級卡；不是為了執行基準測試。

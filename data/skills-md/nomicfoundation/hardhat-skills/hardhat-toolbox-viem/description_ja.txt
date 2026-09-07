@@ -1,0 +1,1 @@
+プロジェクトが `@nomicfoundation/hardhat-toolbox-viem` に依存している場合は、`hardhat` スキルと一緒に使用します。 `network.create()` で公開される viem クライアント、コントラクト インタラクション (`viem.deployContract`、`read`、`write`、`getContractAt`)、および `viem.assertions` (revert/event/balance Assertions) をカバーします。

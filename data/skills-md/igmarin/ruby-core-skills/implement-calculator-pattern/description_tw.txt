@@ -1,0 +1,1 @@
+透過 `Factory.for(entity)` 建立具有 SERVICE_MAP 路由的基於變體的計算器時使用（僅允許的入口點 - 禁止直接實例化），BaseService 如果 `should_calculate?` 定義 `calculate`→`compute_result`，NullService `sh `super` `should_calculate?` — 每個元件都依序進行測試（在下一個元件之前寫規格 → 執行 → 驗證紅色 → 實作 → 執行 → 驗證綠色，而不會將 NullService 和具體內容分解為一個步驟）。測試覆蓋範圍包括：命名變體、非活動計劃、零計劃和未知變體上下文。每個變體的支架測試。觸發詞：策略模式、工廠模式、空物件模式、變數計算器、調度表、SERVICE_MAP、無操作回退。

@@ -1,0 +1,1 @@
+Solidity 프로젝트를 Foundry에서 Hardhat 3으로 마이그레이션합니다. `foundry.toml`을 `hardhat.config.ts`로 매핑하고, 종속성과 가져오기를 변환하고, 컴파일 및 Solidity 테스트를 통과하고, 기능 패리티 격차와 정리 체크리스트가 포함된 마이그레이션 보고서를 생성합니다.

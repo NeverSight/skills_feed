@@ -1,0 +1,1 @@
+استخدمها جنبًا إلى جنب مع مهارة "hardhat" عندما يعتمد المشروع على "@nomicfoundation/hardhat-toolbox-viem". يغطي عملاء viem المكشوفين على `network.create()`، وتفاعل العقد (`viem.deployContract`، و`read`، و`write`، و`getContractAt`)، و`viem.assertions` (تأكيدات العودة/الحدث/التوازن).

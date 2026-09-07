@@ -1,0 +1,1 @@
+댓글을 저장할 백엔드가 없는 Astro, Hugo, Jekyll, Eleventy(11ty), Docusaurus 또는 Gatsby로 구축된 정적 사이트나 블로그에 댓글을 추가할 때 사용합니다. 각 생성기에 대한 FastComments 테마 구성 요소, 플러그인 및 태그를 다루고, 사이트 구성에서 테넌트 ID를 한 번 설정하고, 스레드가 URL 변경을 유지하도록 게시물당 안정적인 urlId를 선택하고, 한 번의 대량 요청으로 블로그 인덱스에 댓글 수를 표시하고, JavaScript가 없는 대체를 표시합니다. React 및 Next.js의 경우 fastcomments-react-nextjs를 참조하세요.

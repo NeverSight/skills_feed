@@ -1,0 +1,1 @@
+在为 Ruby 公共 API 编写 YARD 文档时使用：每个公共方法必须具有“@param”、“@return [Hash]”和“@raise”标签，将“self.call”与“#call”分开记录，用自己的“@raise”标签列出每个异常，使用“@example”进行模块级构造，“@see”进行交叉引用，遵循 YARD“@return”类型注释约定，在实现后将显式 YARD 子任务添加到任务列表，保留除非另有要求，否则所有 YARD 文本均为英文，运行“yard stats --list-undoc”来验证覆盖范围，并仅在需要扩展资源文件的特定内容时加载扩展资源文件。触发词：YARD、内联文档、方法文档、API 文档、公共接口、rdoc、返回标签、引发标签。

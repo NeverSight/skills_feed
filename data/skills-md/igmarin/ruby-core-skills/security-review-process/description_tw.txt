@@ -1,0 +1,1 @@
+標準化對應到 OWASP Top 10 的 Ruby 程式碼的安全性審查程序：在處理前將所有輸入參數列入白名單，禁止 SQL 插值 (`#{}`)，驗證是否未提交或記錄任何機密，執行 `bundle exec bundle-audit check --update`，檢查 shell 注入（`system``.）負載中類似指令的鍵（`prompt`、`instructions`）。涵蓋輸入驗證、秘密管理和依賴性審計。觸發詞：安全審查、檢查安全、稽核程式碼、安全漏洞、機密檢查、OWASP。
